@@ -43,9 +43,9 @@
     },
     {
       "source_id": "black-green-mesopotamia",
-      "locator": "Candidate entries on Anunnaki and Igigi; exact pages not yet inspected",
+      "locator": "s.v. Anuna (Anunnakku) p. 34; s.v. Igigu p. 103; underworld count p. 179",
       "role": "scholarly_context",
-      "access": "metadata_only",
+      "access": "excerpt",
       "note": "../../source-notes/black-green-mesopotamia.md"
     }
   ],

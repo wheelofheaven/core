@@ -96,6 +96,11 @@ Anchor sources and dispute families are known, but no reproducible systematic
 review has been completed. The project must not use `reviewed`, `replicated`, or
 `validated` for this proposition on the strength of the current corpus.
 
+A passage-level evidence map decomposing the proposition into subclaims A–D
+(canonical report, biblical identification, off-world origin, design of life),
+with source-language observations and competing readings, is recorded in
+[Evidence map: Elohim-civilization hypothesis](../evidence/woh-claim-0001-evidence.md).
+
 ## Scope and exclusions
 
 This claim does not by itself establish:

@@ -5,6 +5,7 @@ type.
 
 - `foundations/` governs scope and inquiry.
 - `framework/` specifies Wheel of Heaven claims and their dependencies.
+- `evidence/` records passage-level evidence maps for individual claims.
 - `methodology/` defines how claims, evidence, sources, comparison, and change
   are handled.
 - `research/` records open questions and programmes.

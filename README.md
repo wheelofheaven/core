@@ -62,6 +62,7 @@ records both axes.
 | --- | --- |
 | `docs/foundations/` | Scope, epistemic principles, and conceptual architecture |
 | `docs/framework/` | Human-readable specifications for framework claims and components |
+| `docs/evidence/` | Passage-level evidence maps for individual claims |
 | `docs/methodology/` | Claim typing, evidence, source use, comparison, and versioning |
 | `docs/research/` | Research agenda, questions, and review programmes |
 | `model/` | Machine-readable catalog, claim records, and schemas |

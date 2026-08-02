@@ -109,7 +109,7 @@ def frontmatter(path: Path, validation: Validation) -> dict[str, str]:
 
 
 def validate_document_metadata(validation: Validation) -> None:
-    for area in ("foundations", "framework", "methodology", "research"):
+    for area in ("foundations", "framework", "evidence", "methodology", "research"):
         for path in sorted((ROOT / "docs" / area).glob("*.md")):
             if path.name.endswith("-template.md"):
                 continue

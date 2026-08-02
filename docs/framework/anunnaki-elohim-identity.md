@@ -52,9 +52,14 @@ relevant textual observation for comparison. It does not name the Elohim or
 establish collective identity.
 
 Scholarly contextual sources such as Black and Green are cited by the public
-article for the changing sense of the Anunnaki and Igigi. The current pilot has
-not inspected that monograph in full; its source note is therefore
-`metadata_only` and cannot independently support detailed assertions.
+article for the changing sense of the Anunnaki and Igigi. The relevant
+dictionary entries have now been inspected in the public scan (*Anuna*, p. 34;
+*Igigū*, p. 103; underworld count, p. 179), so the source note is `excerpt`
+rather than `metadata_only`. On inspection the entries document a *shifting*
+referent — the Anunnaki move from undifferentiated early gods to gods of the
+underworld across periods — which constrains rather than supports a
+constant-roster identity claim. See the
+[source note](../../source-notes/black-green-mesopotamia.md).
 
 ## Required inferential steps
 
@@ -97,6 +102,11 @@ The pilot identifies anchor passages, scholarship categories, and major
 alternatives, but it is not a reproducible comparative review. The six-source
 publication rule is a useful editorial floor and is not equivalent to evidence
 review.
+
+A passage-level comparison matrix — Mesopotamian and biblical locators, the
+relationship each row supports, and the now-inspected Black & Green lexical
+constraints — is recorded in
+[Evidence map: Anunnaki–Elohim identity](../evidence/woh-claim-0002-evidence.md).
 
 ## Revision triggers
 
