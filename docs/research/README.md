@@ -13,3 +13,4 @@ framework.
 
 - [Research agenda](research-agenda.md)
 - [Research question template](research-question-template.md)
+- [Should claim 0001 be split into four claims?](decompose-claim-0001.md)
