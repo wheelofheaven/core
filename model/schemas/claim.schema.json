@@ -1,0 +1,237 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://raw.githubusercontent.com/wheelofheaven/core/main/model/schemas/claim.schema.json",
+  "title": "Wheel of Heaven core claim",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version",
+    "id",
+    "title",
+    "version",
+    "lifecycle",
+    "statement",
+    "claim_kind",
+    "framework_relation",
+    "evidence_status",
+    "public_label",
+    "scope",
+    "source_references",
+    "dependencies",
+    "alternatives",
+    "revision_triggers",
+    "controlling_document",
+    "public_derivatives",
+    "last_reviewed"
+  ],
+  "properties": {
+    "$schema": {
+      "type": "string"
+    },
+    "schema_version": {
+      "type": "string",
+      "pattern": "^(0|[1-9][0-9]*)\\.[0-9]+\\.[0-9]+$"
+    },
+    "id": {
+      "type": "string",
+      "pattern": "^woh-claim-[0-9]{4}$"
+    },
+    "title": {
+      "type": "string",
+      "minLength": 1
+    },
+    "version": {
+      "type": "string",
+      "pattern": "^(0|[1-9][0-9]*)\\.[0-9]+\\.[0-9]+$"
+    },
+    "lifecycle": {
+      "$ref": "#/$defs/lifecycle"
+    },
+    "statement": {
+      "type": "string",
+      "minLength": 20
+    },
+    "claim_kind": {
+      "$ref": "#/$defs/claimKind"
+    },
+    "framework_relation": {
+      "$ref": "#/$defs/frameworkRelation"
+    },
+    "evidence_status": {
+      "type": "array",
+      "minItems": 1,
+      "uniqueItems": true,
+      "items": {
+        "enum": [
+          "unmapped",
+          "scoped",
+          "reviewed",
+          "replicated",
+          "contested",
+          "unsupported"
+        ]
+      }
+    },
+    "public_label": {
+      "enum": [
+        "direct",
+        "framework",
+        "inferred",
+        "speculative"
+      ]
+    },
+    "scope": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "includes",
+        "excludes"
+      ],
+      "properties": {
+        "includes": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+        "excludes": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          }
+        }
+      }
+    },
+    "source_references": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/sourceReference"
+      }
+    },
+    "dependencies": {
+      "type": "array",
+      "uniqueItems": true,
+      "items": {
+        "type": "string",
+        "pattern": "^woh-claim-[0-9]{4}$"
+      }
+    },
+    "alternatives": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "id",
+          "statement"
+        ],
+        "properties": {
+          "id": {
+            "type": "string",
+            "pattern": "^alt-[0-9]{4}-[a-z0-9-]+$"
+          },
+          "statement": {
+            "type": "string",
+            "minLength": 10
+          }
+        }
+      }
+    },
+    "revision_triggers": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "string",
+        "minLength": 10
+      }
+    },
+    "controlling_document": {
+      "type": "string"
+    },
+    "public_derivatives": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "last_reviewed": {
+      "type": "string",
+      "format": "date"
+    }
+  },
+  "$defs": {
+    "lifecycle": {
+      "enum": [
+        "draft",
+        "proposed",
+        "accepted",
+        "deprecated",
+        "superseded"
+      ]
+    },
+    "claimKind": {
+      "enum": [
+        "source_report",
+        "empirical_observation",
+        "model",
+        "hypothesis",
+        "interpretation",
+        "normative_recommendation"
+      ]
+    },
+    "frameworkRelation": {
+      "enum": [
+        "foundational",
+        "derived",
+        "comparative",
+        "contextual",
+        "critical"
+      ]
+    },
+    "sourceReference": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "source_id",
+        "locator",
+        "role",
+        "access"
+      ],
+      "properties": {
+        "source_id": {
+          "type": "string",
+          "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"
+        },
+        "locator": {
+          "type": "string",
+          "minLength": 1
+        },
+        "role": {
+          "enum": [
+            "canonical_basis",
+            "primary_text",
+            "scholarly_context",
+            "scientific_context",
+            "comparative",
+            "critical"
+          ]
+        },
+        "access": {
+          "enum": [
+            "full_text",
+            "project_digitization",
+            "excerpt",
+            "abstract",
+            "metadata_only",
+            "secondary_citation"
+          ]
+        },
+        "note": {
+          "type": "string"
+        }
+      }
+    }
+  }
+}

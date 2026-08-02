@@ -1,0 +1,89 @@
+{
+  "$schema": "../schemas/claim.schema.json",
+  "schema_version": "0.1.0",
+  "id": "woh-claim-0002",
+  "title": "Anunnaki–Elohim identity",
+  "version": "0.1.0",
+  "lifecycle": "draft",
+  "statement": "The Mesopotamian Anunnaki and the Elohim refer to the same underlying civilization, remembered through different languages and cultural records.",
+  "claim_kind": "interpretation",
+  "framework_relation": "comparative",
+  "evidence_status": [
+    "scoped",
+    "contested"
+  ],
+  "public_label": "framework",
+  "scope": {
+    "includes": [
+      "A proposed collective-level referential identity",
+      "Comparison of selected creation, council, labor, conflict, warning, and flood structures"
+    ],
+    "excludes": [
+      "Automatic one-to-one identity among every named deity",
+      "A stable Anunnaki or Elohim roster across all periods and texts",
+      "Zecharia Sitchin's Nibiru, orbit, gold-mining, or genetic chronology",
+      "Identity established by a popular etymology",
+      "Identity established by resemblance alone"
+    ]
+  },
+  "source_references": [
+    {
+      "source_id": "the-book-which-tells-the-truth",
+      "locator": "TBWTT-1:53; TBWTT-2:5 (defines the Elohim side of the comparison only)",
+      "role": "canonical_basis",
+      "access": "project_digitization",
+      "note": "../../source-notes/the-book-which-tells-the-truth.md"
+    },
+    {
+      "source_id": "atra-hasis-lambert-millard",
+      "locator": "ATRA-WOH-I:195",
+      "role": "primary_text",
+      "access": "project_digitization",
+      "note": "../../source-notes/atra-hasis-lambert-millard.md"
+    },
+    {
+      "source_id": "black-green-mesopotamia",
+      "locator": "Candidate entries on Anunnaki and Igigi; exact pages not yet inspected",
+      "role": "scholarly_context",
+      "access": "metadata_only",
+      "note": "../../source-notes/black-green-mesopotamia.md"
+    }
+  ],
+  "dependencies": [
+    "woh-claim-0001"
+  ],
+  "alternatives": [
+    {
+      "id": "alt-0002-distinct-collectives",
+      "statement": "Anunnaki and Elohim name distinct divine collectives within different traditions."
+    },
+    {
+      "id": "alt-0002-literary-dependence",
+      "statement": "Shared features reflect ancient Near Eastern literary inheritance or borrowing without literal shared beings."
+    },
+    {
+      "id": "alt-0002-typological",
+      "statement": "Shared features are typological products of creation, divine-council, and flood narrative functions."
+    },
+    {
+      "id": "alt-0002-selection",
+      "statement": "The apparent convergence results from selecting congenial elements from internally diverse corpora."
+    },
+    {
+      "id": "alt-0002-framework-projection",
+      "statement": "The Raëlian framework supplies the identity mapping rather than the ancient texts themselves."
+    }
+  ],
+  "revision_triggers": [
+    "The collective-level proposition proves unstable across Mesopotamian or biblical periods and texts.",
+    "Source-language review materially changes a comparison currently treated as an observation.",
+    "A structured comparison supports only narrower motif, episode, or dependency relationships.",
+    "The dependency on claim woh-claim-0001 changes.",
+    "Public prose adds individual mappings or Sitchin-derived mechanisms not present in this record."
+  ],
+  "controlling_document": "../../docs/framework/anunnaki-elohim-identity.md",
+  "public_derivatives": [
+    "wheelofheaven/data-content:articles/anunnaki-and-the-elohim.md"
+  ],
+  "last_reviewed": "2026-08-02"
+}

@@ -1,0 +1,72 @@
+{
+  "$schema": "../schemas/claim.schema.json",
+  "schema_version": "0.1.0",
+  "id": "woh-claim-0001",
+  "title": "Elohim-civilization hypothesis",
+  "version": "0.1.0",
+  "lifecycle": "draft",
+  "statement": "The beings Wheel of Heaven identifies as the Elohim were a technologically advanced biological civilization from elsewhere and were responsible for designing terrestrial life, including humanity.",
+  "claim_kind": "hypothesis",
+  "framework_relation": "foundational",
+  "evidence_status": [
+    "scoped",
+    "contested"
+  ],
+  "public_label": "framework",
+  "scope": {
+    "includes": [
+      "The biological and civilizational character attributed to the Elohim",
+      "The proposed off-world origin of the civilization",
+      "The proposed design of terrestrial life and humanity"
+    ],
+    "excludes": [
+      "Every detail reported by the Raëlian corpus",
+      "The precessional chronology",
+      "One-to-one cross-tradition figure mappings",
+      "The present location, population, governance, motives, or lifespan of the proposed civilization",
+      "Religious or normative obligations"
+    ]
+  },
+  "source_references": [
+    {
+      "source_id": "the-book-which-tells-the-truth",
+      "locator": "TBWTT-1:53; TBWTT-2:5",
+      "role": "canonical_basis",
+      "access": "project_digitization",
+      "note": "../../source-notes/the-book-which-tells-the-truth.md"
+    }
+  ],
+  "dependencies": [],
+  "alternatives": [
+    {
+      "id": "alt-0001-theological",
+      "statement": "Relevant uses of Elohim designate divine beings within theological and literary traditions rather than an extraterrestrial civilization."
+    },
+    {
+      "id": "alt-0001-historical-critical",
+      "statement": "Biblical plurality and divine-council language are better explained by the historical development of ancient Israelite religion."
+    },
+    {
+      "id": "alt-0001-source-critical",
+      "statement": "The Raëlian contact report is better explained by literary, revelatory, psychological, sociological, fictional, mistaken, or other non-extraterrestrial accounts."
+    },
+    {
+      "id": "alt-0001-naturalistic-origin",
+      "statement": "The origin and development of terrestrial life require no technologically directed intervention."
+    }
+  ],
+  "revision_triggers": [
+    "Verified canonical editions materially change the source reports on which the claim is based.",
+    "The identification of biblical Elohim with the reported civilization changes independently of the biological-civilization proposition.",
+    "A reproducible review materially changes the relevant philological, historical, biological, or source-critical evidence map.",
+    "The compound proposition cannot be reviewed without splitting into stable subclaims.",
+    "A public derivative strengthens, narrows, or contradicts this proposition."
+  ],
+  "controlling_document": "../../docs/framework/elohim-civilization-hypothesis.md",
+  "public_derivatives": [
+    "wheelofheaven/data-content:method.md",
+    "wheelofheaven/data-content:about.md",
+    "wheelofheaven/data-content:wiki/elohim.md"
+  ],
+  "last_reviewed": "2026-08-02"
+}
