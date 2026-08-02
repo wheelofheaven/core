@@ -10,6 +10,13 @@ import sys
 from pathlib import Path
 from typing import Any
 
+try:
+    import tomllib
+except ModuleNotFoundError:  # Python < 3.11
+    tomllib = None
+
+DERIVATIVE_PREFIX = "wheelofheaven/data-content:"
+
 
 ROOT = Path(__file__).resolve().parent.parent
 MODEL = ROOT / "model"
@@ -365,6 +372,95 @@ def validate_external_sources(
     return True
 
 
+def parse_toml_frontmatter(path: Path, validation: Validation) -> dict[str, Any] | None:
+    """Return the parsed TOML front matter of a `+++`-delimited page, or None."""
+    text = path.read_text(encoding="utf-8")
+    if not text.startswith("+++"):
+        return None
+    parts = text.split("+++", 2)
+    if len(parts) < 3:
+        validation.error(f"{path}: unterminated TOML front matter")
+        return None
+    if tomllib is None:
+        validation.warn(f"{path}: tomllib unavailable; skipped publication-integration parse")
+        return None
+    try:
+        return tomllib.loads(parts[1])
+    except tomllib.TOMLDecodeError as exc:
+        validation.error(f"{path}: invalid TOML front matter: {exc}")
+        return None
+
+
+def resolve_derivative(rel_path: str, wheel_root: Path) -> Path | None:
+    for base in ("data-content", "www.wheelofheaven.world/content"):
+        candidate = (wheel_root / base / rel_path).resolve()
+        if candidate.is_file():
+            return candidate
+    return None
+
+
+def validate_publication_integration(
+    records: dict[str, dict[str, Any]],
+    wheel_root: Path,
+    validation: Validation,
+) -> bool:
+    """Check that derivative pages declaring core bindings agree with the records.
+
+    Implements the RFC 0002 pilot contract: a data-content page may declare
+    `core_claim_ids` and `core_versions` in `[extra]`; a declared version that
+    no longer matches the controlling claim record is a compatibility failure.
+    The check is opt-in (pages without the fields are ignored) and is skipped
+    when the sibling repositories are unavailable.
+    """
+    rel_paths: set[str] = set()
+    for record in records.values():
+        for derivative in record.get("public_derivatives", []) or []:
+            if isinstance(derivative, str) and derivative.startswith(DERIVATIVE_PREFIX):
+                rel_paths.add(derivative[len(DERIVATIVE_PREFIX):])
+
+    if not any((wheel_root / base).is_dir() for base in ("data-content", "www.wheelofheaven.world/content")):
+        validation.warn(
+            "data-content unavailable; skipped publication-integration validation "
+            f"(looked under {wheel_root})"
+        )
+        return False
+
+    for rel_path in sorted(rel_paths):
+        page = resolve_derivative(rel_path, wheel_root)
+        if page is None:
+            continue
+        front = parse_toml_frontmatter(page, validation)
+        if front is None:
+            continue
+        extra = front.get("extra", {}) if isinstance(front, dict) else {}
+        if not isinstance(extra, dict):
+            continue
+        declared_ids = extra.get("core_claim_ids")
+        if not declared_ids:
+            continue
+        declared_versions = extra.get("core_versions", {})
+        if not isinstance(declared_versions, dict):
+            declared_versions = {}
+        for claim_id in declared_ids:
+            if claim_id not in records:
+                validation.error(f"{rel_path}: declares unknown core claim {claim_id}")
+                continue
+            if claim_id not in declared_versions:
+                validation.error(f"{rel_path}: core_claim_ids lists {claim_id} without a core_versions entry")
+                continue
+            declared_version = declared_versions[claim_id]
+            actual_version = records[claim_id].get("version")
+            validation.require(
+                declared_version == actual_version,
+                f"{rel_path}: disagrees with {claim_id} "
+                f"(page renders {declared_version!r}, record is {actual_version!r})",
+            )
+            listed = records[claim_id].get("public_derivatives", []) or []
+            if f"{DERIVATIVE_PREFIX}{rel_path}" not in listed:
+                validation.warn(f"{rel_path}: declares {claim_id} but is not listed in its public_derivatives")
+    return True
+
+
 def optional_json_schema_validation(validation: Validation) -> bool:
     claim_schema = load_json(MODEL / "schemas" / "claim.schema.json", validation)
     load_json(MODEL / "schemas" / "catalog.schema.json", validation)
@@ -398,10 +494,12 @@ def main() -> int:
     args = parse_args()
     validation = Validation()
     validate_document_metadata(validation)
-    _, claim_source_ids = validate_catalog(validation)
+    records, claim_source_ids = validate_catalog(validation)
     note_source_ids = validate_source_notes(validation)
     validate_local_links(validation)
-    external_checked = validate_external_sources(claim_source_ids | note_source_ids, args.wheel_root.resolve(), validation)
+    wheel_root = args.wheel_root.resolve()
+    external_checked = validate_external_sources(claim_source_ids | note_source_ids, wheel_root, validation)
+    integration_checked = validate_publication_integration(records, wheel_root, validation)
     schema_checked = optional_json_schema_validation(validation)
 
     for warning in validation.warnings:
@@ -419,6 +517,7 @@ def main() -> int:
         "OK: "
         f"{claim_count} claim record(s), {note_count} source note(s); "
         f"external_sources={'checked' if external_checked else 'skipped'}; "
+        f"publication_integration={'checked' if integration_checked else 'skipped'}; "
         f"json_schema={'checked' if schema_checked else 'skipped'}"
     )
     return 0
