@@ -1,8 +1,9 @@
-# Wheel of Heaven Core Agent Instructions
+# Wheel of Heaven Core — Claude Instructions
 
 This repository is a durable research corpus, not a prompt to complete or
-defend a theory. AI coding and research agents must protect its epistemic
-boundaries, declared stance, provenance, and history.
+defend a theory. Claude and any other AI coding or research agent working here
+must protect its epistemic boundaries, declared stance, provenance, and
+history.
 
 ## Required behaviour
 
@@ -51,7 +52,7 @@ but must not fill unknowns with authoritative-looking content.
 
 ## Working conventions
 
-- Follow `CONTRIBUTING.md` and the nearest more-specific `AGENTS.md`.
+- Follow `CONTRIBUTING.md` and the nearest more-specific `CLAUDE.md`.
 - Use Markdown, JSON, JSON Schema, CSV, and other documented open formats.
 - Human-readable framework specifications control meaning. Machine-readable
   records control interchange. Any disagreement between them is an error to
@@ -59,7 +60,8 @@ but must not fill unknowns with authoritative-looking content.
 - Major conceptual, compatibility, or repository-process changes begin as an
   RFC. Add an ADR only after a decision has actually been made.
 - Do not edit quoted source text except to correct a verified transcription.
-- Report validation performed and unresolved gaps.
+- Run `mise run check` (or `python3 scripts/validate.py`) before finishing a
+  change. Report validation performed and unresolved gaps.
 
 ## GitHub account isolation
 
