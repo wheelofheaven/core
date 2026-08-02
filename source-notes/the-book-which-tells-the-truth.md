@@ -37,6 +37,16 @@ Two passages are immediately relevant to claim `woh-claim-0001`:
   sky, describes scientists selecting Earth, and describes the creation of
   artificial life.
 
+One passage is immediately relevant to claim `woh-claim-0003`:
+
+- `TBWTT-5:7` reports: “The Fish Gate is the passage into the new era of
+  Aquarius. The moment when the sun rises over the Earth, on the day of the
+  spring equinox, «in» Aquarius. The loud clamor is the noise that this
+  revelation will make. And if you were born in 1946, it is not by chance.”
+  This is the canonical basis for the Aquarian-threshold reading. It reports
+  an age transition and the significance of 1946; it does not state the
+  corpus's working boundary year of 1950, which is a framework convention.
+
 These are source reports. They establish the content of the inspected project
 representation, not the historical occurrence or external origin of the
 reported encounter.
@@ -73,6 +83,7 @@ biological creation programme.
 ## Related sources and dependencies
 
 - Claim `woh-claim-0001`
+- Claim `woh-claim-0003` (canonical basis for the Aquarian-threshold reading)
 - Later Raëlian works and combined editions may clarify or extend the report.
 - Biblical and comparative sources are independent textual corpora but become
   evidence for this hypothesis only through additional interpretive claims.
@@ -81,3 +92,6 @@ biological creation programme.
 
 - 2026-08-02 — Project digitization checked for `TBWTT-1:53` and
   `TBWTT-2:5`; no full edition collation performed.
+- 2026-08-02 — Project digitization checked for `TBWTT-5:7` (Aquarian
+  threshold passage) for claim `woh-claim-0003`; no full edition collation
+  performed.

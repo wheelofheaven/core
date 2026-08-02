@@ -1,0 +1,118 @@
+{
+  "$schema": "../schemas/claim.schema.json",
+  "schema_version": "0.1.0",
+  "id": "woh-claim-0003",
+  "title": "Precessional world-age chronology",
+  "version": "0.1.0",
+  "lifecycle": "draft",
+  "statement": "Wheel of Heaven organizes long-range history as a Great Year of twelve equal world ages of 2,160 years each, an idealization of the astronomical precession cycle, anchored by project convention so that the Age of Aquarius spans 1950-4110 CE and the cycle opens with the Age of Capricorn about 21,810 BCE.",
+  "claim_kind": "model",
+  "framework_relation": "foundational",
+  "evidence_status": [
+    "scoped",
+    "contested"
+  ],
+  "public_label": "framework",
+  "scope": {
+    "includes": [
+      "The idealized Great Year model of twelve equal 2,160-year ages totaling 25,920 years",
+      "The project anchor convention fixing the Age of Aquarius at 1950-4110 CE and the cycle opening at circa 21,810 BCE",
+      "The stated relation of the model to observed axial precession: idealization, not measurement"
+    ],
+    "excludes": [
+      "Placement of specific events, figures, or interventions within ages",
+      "The thesis that ancient cultures possessed or encoded precessional knowledge",
+      "Astronomical reality of age boundaries",
+      "Astral influence of any kind",
+      "The canonical calendar's year-one as anything other than a source report"
+    ]
+  },
+  "source_references": [
+    {
+      "source_id": "the-book-which-tells-the-truth",
+      "locator": "TBWTT-5:7",
+      "role": "canonical_basis",
+      "access": "project_digitization",
+      "note": "../../source-notes/the-book-which-tells-the-truth.md"
+    },
+    {
+      "source_id": "hamlets-mill",
+      "locator": "Whole-work thesis that world mythology encodes precessional knowledge; exact passages not yet inspected",
+      "role": "comparative",
+      "access": "metadata_only",
+      "note": "../../source-notes/hamlets-mill.md"
+    },
+    {
+      "source_id": "myth-and-science-hamlet-s-mill-journal-for-the-history-of-astronomy-3-pp-206-211",
+      "locator": "Journal for the History of Astronomy 3 (1972), pp. 206-211",
+      "role": "critical",
+      "access": "metadata_only"
+    },
+    {
+      "source_id": "sendy-ere-du-verseau",
+      "locator": "Whole-work Aquarian periodization antedating the 1973 canonical report",
+      "role": "comparative",
+      "access": "metadata_only"
+    },
+    {
+      "source_id": "neugebauer-history-astronomy",
+      "locator": "Treatment of Hipparchus and the discovery of precession; exact pages not yet inspected",
+      "role": "scholarly_context",
+      "access": "metadata_only"
+    },
+    {
+      "source_id": "astronomical-algorithms",
+      "locator": "Modern precession theory and constants; exact chapter not yet inspected",
+      "role": "scientific_context",
+      "access": "metadata_only"
+    }
+  ],
+  "dependencies": [],
+  "alternatives": [
+    {
+      "id": "alt-0003-hipparchan-discovery",
+      "statement": "Precession was discovered by Hipparchus in the second century BCE, and claimed mythological encodings of earlier precessional knowledge are modern retrojection."
+    },
+    {
+      "id": "alt-0003-unequal-conventions",
+      "statement": "Astronomically defined ages would be unequal and boundary-convention-dependent; the equal-twelve division is an astrological convention without observational content."
+    },
+    {
+      "id": "alt-0003-arbitrary-anchor",
+      "statement": "No astronomically privileged anchor year exists; competing systems place the Aquarian onset centuries apart, so any anchor is stipulated rather than discovered."
+    },
+    {
+      "id": "alt-0003-sexagesimal-origin",
+      "statement": "The recurring numbers 72, 2,160, and 25,920 derive from Babylonian sexagesimal arithmetic and later astrological systematization rather than from preserved precessional science."
+    }
+  ],
+  "revision_triggers": [
+    "The corpus changes its anchor year or age spans.",
+    "A reproducible review materially changes the assessment of pre-Hipparchan precessional knowledge.",
+    "A public derivative asserts boundary years as astronomical facts rather than framework conventions.",
+    "Event-placement claims require their own versioned records.",
+    "The five-layer decomposition proves too compound for review and the layers need independently versioned claims."
+  ],
+  "controlling_document": "../../docs/framework/precessional-world-age-chronology.md",
+  "public_derivatives": [
+    "wheelofheaven/data-content:timeline/_index.md",
+    "wheelofheaven/data-content:timeline/chronology.md",
+    "wheelofheaven/data-content:timeline/age-of-capricorn.md",
+    "wheelofheaven/data-content:timeline/age-of-sagittarius.md",
+    "wheelofheaven/data-content:timeline/age-of-scorpio.md",
+    "wheelofheaven/data-content:timeline/age-of-libra.md",
+    "wheelofheaven/data-content:timeline/age-of-virgo.md",
+    "wheelofheaven/data-content:timeline/age-of-leo.md",
+    "wheelofheaven/data-content:timeline/age-of-cancer.md",
+    "wheelofheaven/data-content:timeline/age-of-gemini.md",
+    "wheelofheaven/data-content:timeline/age-of-taurus.md",
+    "wheelofheaven/data-content:timeline/age-of-aries.md",
+    "wheelofheaven/data-content:timeline/age-of-pisces.md",
+    "wheelofheaven/data-content:timeline/age-of-aquarius.md",
+    "wheelofheaven/data-content:wiki/world-age.md",
+    "wheelofheaven/data-content:wiki/great-year.md",
+    "wheelofheaven/data-content:wiki/precession.md",
+    "wheelofheaven/data-content:wiki/zodiac.md"
+  ],
+  "last_reviewed": "2026-08-02"
+}

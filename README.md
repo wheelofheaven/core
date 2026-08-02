@@ -71,19 +71,20 @@ records both axes.
 | `GLOSSARY.md` | Canonical research terminology |
 | `ROADMAP.md` | Dependency-ordered research stages |
 | `CONTRIBUTING.md` | Contribution and review workflow |
-| `AGENTS.md` | Constraints for AI coding and research agents |
+| `CLAUDE.md` | Constraints for Claude and other AI coding and research agents |
 
 ## Current status
 
 This is a version `0.1.0` foundation and pilot. The repository establishes the
-governance and claim model, and records two representative framework claims:
+governance and claim model, and records three representative framework claims:
 
 1. the Elohim-civilization hypothesis;
-2. the proposed identity of the Anunnaki and the Elohim.
+2. the proposed identity of the Anunnaki and the Elohim;
+3. the precessional world-age chronology.
 
-Both records are drafts. They document existing Wheel of Heaven positions; they
-do not newly validate those positions. Their evidence maps are `scoped` and
-`contested`, not systematic reviews.
+All three records are drafts. They document existing Wheel of Heaven
+positions; they do not newly validate those positions. Their evidence maps are
+`scoped` and `contested`, not systematic reviews.
 
 ## Validation
 

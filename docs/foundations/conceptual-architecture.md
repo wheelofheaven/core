@@ -66,8 +66,9 @@ Each mature claim should identify:
 | --- | --- | --- | --- |
 | `woh-claim-0001` Elohim-civilization hypothesis | Foundational | Raëlian source reports; identification of the source's `Elohim` with the framework subject | Empirical existence or occurrence merely because the source reports it |
 | `woh-claim-0002` Anunnaki–Elohim identity | Comparative | Claim 0001; Mesopotamian source interpretation; criteria for referential identity | Every deity mapping, Sitchin's apparatus, or identity from resemblance alone |
+| `woh-claim-0003` Precessional world-age chronology | Foundational | Observed axial precession (idealized); canonical threshold report; the project anchor convention | Astronomical reality of age boundaries, ancient precessional knowledge, or any event placement |
 
-This two-claim map is a pilot, not a settled decomposition of the whole
+This three-claim map is a pilot, not a settled decomposition of the whole
 framework.
 
 ## Public compatibility

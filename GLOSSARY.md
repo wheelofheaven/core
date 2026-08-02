@@ -59,3 +59,11 @@ from elsewhere and were responsible for designing terrestrial life.
 The comparative Wheel of Heaven proposition that the Mesopotamian Anunnaki and
 the Elohim refer to the same underlying civilization. It does not automatically
 identify every named deity across traditions or adopt Sitchin's reconstructions.
+
+### Precessional world-age chronology
+
+The foundational Wheel of Heaven model that organizes long-range history as a
+Great Year of twelve equal 2,160-year world ages, anchored by project
+convention so that the Age of Aquarius spans 1950–4110 CE. The model idealizes
+the observed precession cycle; its age boundaries are framework conventions,
+not astronomical events.

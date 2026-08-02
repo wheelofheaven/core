@@ -11,6 +11,7 @@ exact source ID in front matter.
 - [The Book Which Tells The Truth](the-book-which-tells-the-truth.md)
 - [Atra-ḫasīs: The Babylonian Story of the Flood](atra-hasis-lambert-millard.md)
 - [Gods, Demons and Symbols of Ancient Mesopotamia](black-green-mesopotamia.md)
+- [Hamlet's Mill](hamlets-mill.md)
 
-The third note deliberately demonstrates `metadata_only`: a citation record is
-not presented as an inspected source.
+The Hamlet's Mill note deliberately demonstrates `metadata_only`: a citation
+record is not presented as an inspected source.

@@ -23,6 +23,16 @@
       "framework_relation": "comparative",
       "record": "claims/woh-claim-0002.json",
       "specification": "../docs/framework/anunnaki-elohim-identity.md"
+    },
+    {
+      "id": "woh-claim-0003",
+      "title": "Precessional world-age chronology",
+      "version": "0.1.0",
+      "lifecycle": "draft",
+      "claim_kind": "model",
+      "framework_relation": "foundational",
+      "record": "claims/woh-claim-0003.json",
+      "specification": "../docs/framework/precessional-world-age-chronology.md"
     }
   ]
 }
