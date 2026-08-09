@@ -2,7 +2,7 @@
   "$schema": "./schemas/catalog.schema.json",
   "catalog_version": "0.1.0",
   "status": "draft",
-  "last_reviewed": "2026-08-02",
+  "last_reviewed": "2026-08-09",
   "claims": [
     {
       "id": "woh-claim-0001",

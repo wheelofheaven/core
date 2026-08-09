@@ -66,7 +66,11 @@
   "public_derivatives": [
     "wheelofheaven/data-content:method.md",
     "wheelofheaven/data-content:about.md",
-    "wheelofheaven/data-content:wiki/elohim.md"
+    "wheelofheaven/data-content:wiki/elohim.md",
+    "wheelofheaven/data-content:wiki/elohim-home-planet.md",
+    "wheelofheaven/data-content:wiki/message-from-the-designers.md",
+    "wheelofheaven/data-content:wiki/intelligent-design.md",
+    "wheelofheaven/data-content:wiki/ancient-astronaut-hypothesis.md"
   ],
-  "last_reviewed": "2026-08-02"
+  "last_reviewed": "2026-08-09"
 }
