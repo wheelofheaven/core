@@ -1,0 +1,127 @@
+{
+  "$schema": "../schemas/claim.schema.json",
+  "schema_version": "0.1.0",
+  "id": "woh-claim-0004",
+  "title": "Greek theomachy as Council–Serpentine conflict memory",
+  "version": "0.1.0",
+  "lifecycle": "draft",
+  "statement": "The divine-conflict architecture of the Greek mythological tradition — the succession of heaven, the Titanomachy and the Typhoeus combat, the deliberating divine assembly, divine–human interbreeding, and the punished transfer of civilisational knowledge — preserves, in mythologically transformed shape, cultural memory of the Council–Serpentine conflict among the Elohim, anchored in the canon's naming of Greece as a creator-base region whose mythology contains testimonies.",
+  "claim_kind": "interpretation",
+  "framework_relation": "comparative",
+  "evidence_status": [
+    "scoped",
+    "contested"
+  ],
+  "public_label": "speculative",
+  "scope": {
+    "includes": [
+      "A collective, structural-level reading of five Greek structure-families as transformed conflict memory: heavenly succession, the Titanomachy and Typhoeus combat, the divine assembly, divine–human interbreeding, and the punished knowledge transfer (Prometheus)",
+      "The institutional texture of the Homeric pantheon (councils, portfolios, factions, favourites, presidency and dissent) read as memory of a governing class",
+      "A structural correspondence between Prometheus and the canon's disclosing insider: position in the plot, not identity of name or person",
+      "The proposition operates at the level of what the stories remember, not how they travelled"
+    ],
+    "excludes": [
+      "Any claim about transmission routes; where philology traces a route (Kumarbi to Hesiod), the route explains the resemblance and is not contested",
+      "One-to-one identification of individual Greek deities with individual Elohim",
+      "Historicity of the events of the Odyssey or of a Homeric Trojan War",
+      "Any reading of the Homeric text as eyewitness testimony; the oral-formulaic recomposition results are accepted in full",
+      "Allegorical decoding of individual monsters (Cyclops-as-volcano style readings)"
+    ]
+  },
+  "source_references": [
+    {
+      "source_id": "the-book-which-tells-the-truth",
+      "locator": "TBWTT-5:54 (Greece listed among creator-base regions; 'in Greece where Mythology also contains great testimonies')",
+      "role": "canonical_basis",
+      "access": "project_digitization",
+      "note": "../../source-notes/the-book-which-tells-the-truth.md"
+    },
+    {
+      "source_id": "theogony-and-works-and-days",
+      "locator": "THEO-WOH-1:154–182 (succession and castration); 1:453–467 (swallowing and return of Zeus); 1:561–569 (fire in the fennel-stalk); 1:617–720 (Titanomachy); 1:820–868 (Typhoeus)",
+      "role": "primary_text",
+      "access": "project_digitization",
+      "note": "../../source-notes/theogony-and-works-and-days.md"
+    },
+    {
+      "source_id": "odyssey-greek-text",
+      "locator": "Od. 1.26–95 (divine assembly); 7.201–206 (Phaeacian proximity to the gods); 9.106–115, 275–278 (Cyclopes outside the ordered world); 17.485–487 (gods disguised among mortals)",
+      "role": "primary_text",
+      "access": "full_text"
+    },
+    {
+      "source_id": "the-hittite-version-of-the-hurrian-kumarbi-myths-oriental-forerunners-of-hesiod",
+      "locator": "American Journal of Archaeology 52.1 (1948), pp. 123–134 (Anu–Kumarbi–Teshub succession as forerunner of Ouranos–Kronos–Zeus)",
+      "role": "scholarly_context",
+      "access": "metadata_only"
+    },
+    {
+      "source_id": "the-east-face-of-helicon-west-asiatic-elements-in-greek-poetry-and-myth",
+      "locator": "Chapters on Hesiod (succession and combat material) and the programmatic claim that Greek literature is a Near Eastern literature",
+      "role": "scholarly_context",
+      "access": "metadata_only"
+    },
+    {
+      "source_id": "the-singer-of-tales",
+      "locator": "Chapters 1–5 (composition-in-performance; the verbal surface recomposed at every performance)",
+      "role": "scholarly_context",
+      "access": "metadata_only"
+    },
+    {
+      "source_id": "the-structural-study-of-myth-journal-of-american-folklore-68-the-mytheme-the-riv",
+      "locator": "Journal of American Folklore 68 (1955), pp. 428–444 (the structural null hypothesis)",
+      "role": "critical",
+      "access": "metadata_only"
+    },
+    {
+      "source_id": "is-god-a-space-alien-the-cosmology-of-the-ra-lian-church",
+      "locator": "Culture and Cosmos 4.1 (the 'religion without metaphysics' category-substitution objection)",
+      "role": "critical",
+      "access": "metadata_only"
+    }
+  ],
+  "dependencies": [
+    "woh-claim-0001",
+    "woh-claim-0003"
+  ],
+  "alternatives": [
+    {
+      "id": "alt-0004-literary-transmission",
+      "statement": "The Greek–Near Eastern parallels are explained by documented literary transmission along Anatolian, Cypriot, and Levantine routes, with no remembered historical referent required."
+    },
+    {
+      "id": "alt-0004-indo-european-inheritance",
+      "statement": "Shared structures reflect common Indo-European poetic and mythological inheritance rather than memory of any event."
+    },
+    {
+      "id": "alt-0004-structural-cognition",
+      "statement": "Myths converge because human minds share a common architecture; sky councils, succession conflicts, and knowledge-theft plots are what hierarchical societies' imaginations produce without any memory at all."
+    },
+    {
+      "id": "alt-0004-social-projection",
+      "statement": "The pantheon's governing-class texture projects Bronze and Iron Age palace politics onto the sky; no external governing class is needed."
+    },
+    {
+      "id": "alt-0004-fidelity-limit",
+      "statement": "Oral-formulaic transmission cannot carry structural memory over the required span; the demonstrated high-fidelity horizon is roughly four centuries, far short of the corpus chronology."
+    },
+    {
+      "id": "alt-0004-category-substitution",
+      "statement": "The technological reading re-describes mythology in the prestige idiom of a modern age while preserving its religious structure — a modernisation, not an explanation."
+    }
+  ],
+  "revision_triggers": [
+    "The motif inventory proves fully predictable from social structure and cognitive bias, vindicating the structural and projection alternatives.",
+    "The reading fails, over time, to predict any textual or material particular that a conventional account does not.",
+    "A systematic test of arbitrary particulars across traditions without plausible contact returns negative, or proves impossible to construct.",
+    "The Council–Serpentine conflict account is recorded, revised, or rejected as a core claim; this record currently cites corpus prose for that account and must be rebound when a record exists.",
+    "Claim woh-claim-0001 or woh-claim-0003 is revised or retired.",
+    "Public prose begins asserting transmission-route claims, individual deity–Eloha mappings, or historicity of the Odyssey's events, all of which this record excludes."
+  ],
+  "controlling_document": "../../docs/framework/greek-theomachy-memory.md",
+  "public_derivatives": [
+    "wheelofheaven/data-content:articles/the-world-behind-the-odyssey.md",
+    "wheelofheaven/data-content:wiki/theomachy.md"
+  ],
+  "last_reviewed": "2026-08-15"
+}
