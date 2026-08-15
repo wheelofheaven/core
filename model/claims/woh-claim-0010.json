@@ -1,0 +1,102 @@
+{
+  "$schema": "../schemas/claim.schema.json",
+  "schema_version": "0.1.0",
+  "id": "woh-claim-0010",
+  "title": "The Flood as deliberate reset",
+  "version": "0.1.0",
+  "lifecycle": "draft",
+  "statement": "The ancient flood narratives — Genesis 6-9, Atrahasis, Gilgamesh XI, the Sumerian Flood Story, the Book of the Watchers — share a decision procedure rather than a divine mood: a resolution taken in assembly, sworn and treated as irrevocable, opposed by an internal dissenter, executed with a warned survivor under precise instructions to preserve the seed of living things; and the canon reads the event itself as a deliberate reset of the antediluvian project, with the genetic stock preserved aboard a craft and the human remnant re-established afterwards.",
+  "claim_kind": "interpretation",
+  "framework_relation": "derived",
+  "evidence_status": [
+    "scoped",
+    "contested"
+  ],
+  "public_label": "framework",
+  "scope": {
+    "includes": [
+      "The textual-procedure layer, which is an inferred reading of the sources: assembly decision, oath, dissent (Enki against Enlil; the Atrahasis 'wrong instrument' argument naming targeted alternatives), survivor instructions, seed-preservation formulae",
+      "The canonical layer, which is framework: the Flood as a deliberate reset decision within the Council's governance of the Earth project, with the cell-line preserved aboard a staged craft (TBWTT ch. 2), operating within the wider conflict recorded as woh-claim-0008",
+      "The cross-tradition convergence of the procedure across the named texts, at the level the project's flood-myths dataset tabulates"
+    ],
+    "excludes": [
+      "Historicity or dating of a global flood as a geological claim; the record concerns what the texts describe and how the canon reads them",
+      "The claim that all two-hundred-plus flood traditions worldwide share the decision procedure; the procedural reading is anchored on the named Near Eastern and Enochic texts",
+      "Any reading of the flood as punishment-of-wickedness simpliciter; the record registers the canon's reset framing against it without erasing that the Genesis redaction itself moralizes the event",
+      "Mechanism details beyond what the canon states"
+    ]
+  },
+  "source_references": [
+    {
+      "source_id": "the-book-which-tells-the-truth",
+      "locator": "Chapter 2 (the Flood; the cell-line preserved aboard a staged craft; the re-establishment afterwards)",
+      "role": "canonical_basis",
+      "access": "project_digitization",
+      "note": "../../source-notes/the-book-which-tells-the-truth.md"
+    },
+    {
+      "source_id": "atrahasis",
+      "locator": "ATRA-WOH-II (the decision and the dissent; the 'wrong instrument' argument with named targeted alternatives); ATRA-WOH-III (the warning and the boat)",
+      "role": "primary_text",
+      "access": "project_digitization"
+    },
+    {
+      "source_id": "epic-of-gilgamesh",
+      "locator": "SB Tablet XI (GILG-WOH-11, in-house digitization): the assembly decision, Ea's warning through the reed wall, the seed of all living things",
+      "role": "primary_text",
+      "access": "project_digitization"
+    },
+    {
+      "source_id": "genesis",
+      "locator": "GEN-WOH-6:5-22 (the resolution and the instructions); 7-8 (execution and subsidence); 9 (the covenant and the never-again oath)",
+      "role": "primary_text",
+      "access": "project_digitization"
+    },
+    {
+      "source_id": "book-of-enoch",
+      "locator": "The Book of the Watchers' flood frame: the destruction ordered against the corrupted generation with Noah preserved",
+      "role": "primary_text",
+      "access": "project_digitization"
+    },
+    {
+      "source_id": "westermann-genesis-1-11",
+      "locator": "The standard critical commentary on the Genesis flood redaction and its Mesopotamian background",
+      "role": "scholarly_context",
+      "access": "metadata_only"
+    }
+  ],
+  "dependencies": [
+    "woh-claim-0001",
+    "woh-claim-0008"
+  ],
+  "alternatives": [
+    {
+      "id": "alt-0010-literary-dependence",
+      "statement": "The shared procedure reflects the documented literary stream Atrahasis → Gilgamesh XI → Genesis; a common source text explains the convergence without a common event."
+    },
+    {
+      "id": "alt-0010-theology-of-judgment",
+      "statement": "The narratives are theology of divine judgment and covenant; the procedural texture is narrative convention, not the record of a deliberation."
+    },
+    {
+      "id": "alt-0010-local-floods",
+      "statement": "The traditions preserve memories of separate local inundations, mythologized independently; no single event stands behind them."
+    },
+    {
+      "id": "alt-0010-canon-retrofit",
+      "statement": "The reset reading retrofits a modern engineering frame (staged craft, cell-line) onto texts that carry no such content."
+    }
+  ],
+  "revision_triggers": [
+    "Source-language review of the in-house Atrahasis, Gilgamesh XI, or Genesis renderings materially changes a procedural observation.",
+    "The flood-myths dataset's expansion shows the decision-procedure features do not hold beyond the Near Eastern textual stream, narrowing the claim to literary dependence.",
+    "Claim woh-claim-0001 or woh-claim-0008 is revised or retired.",
+    "Public prose begins asserting geological historicity or extending the procedure to all worldwide flood traditions, which this record excludes."
+  ],
+  "controlling_document": "../../docs/framework/flood-as-reset.md",
+  "public_derivatives": [
+    "wheelofheaven/data-content:articles/the-flood-was-a-reset-not-a-punishment.md",
+    "wheelofheaven/data-content:wiki/great-flood.md"
+  ],
+  "last_reviewed": "2026-08-15"
+}

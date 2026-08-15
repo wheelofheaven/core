@@ -1,0 +1,104 @@
+{
+  "$schema": "../schemas/claim.schema.json",
+  "schema_version": "0.1.0",
+  "id": "woh-claim-0012",
+  "title": "Watchers and Nephilim as the exile-era unions",
+  "version": "0.1.0",
+  "lifecycle": "draft",
+  "statement": "The Watchers and the Nephilim are distinct: 'Watcher' designates the heavenly functionaries who, in the Enochic narrative, descend at Hermon, take human wives, and transmit forbidden arts, while 'Nephilim' names the mighty offspring of those unions in Genesis 6:4 — fathers and children of one antediluvian episode, collapsed together only by later reception; and the corpus identifies that episode with the exiled creators' unions with human women and the resulting offspring in the canon's account of the exile era.",
+  "claim_kind": "interpretation",
+  "framework_relation": "comparative",
+  "evidence_status": [
+    "scoped",
+    "contested"
+  ],
+  "public_label": "framework",
+  "scope": {
+    "includes": [
+      "The textual-distinction layer, which is an inferred reading with strong scholarly support: Genesis 6:1-4 compresses what 1 Enoch makes explicit — the Watchers father, the giants are their children; the gigantes rendering, the uncertain 'fallen ones' gloss, and the West's loss of the Enochic narrative drove the later collapse of the two",
+      "The identification layer, which is framework: the episode read as the exiled creators' unions with human women and their mighty offspring (TBWTT ch. 2), placing it in the exile era of the conflict recorded as woh-claim-0008",
+      "The reception-history observation: the fusion of Watchers and Nephilim into one category is a datable development, not a feature of the earliest texts"
+    ],
+    "excludes": [
+      "Identity of Watchers with Nephilim, which the record exists to deny",
+      "One-to-one identification of named Watchers (Shemihazah, Asael) with named individuals in the canon's account",
+      "The forbidden-arts catalogue as literal technology inventory; what was transmitted is read at the level the sources state",
+      "Historicity of giants as a biological claim beyond what the canon's account of the offspring asserts",
+      "The Watchers' condemnation theology of 1 Enoch as canon; the Enochic moral frame and the canon's political frame are kept distinct"
+    ]
+  },
+  "source_references": [
+    {
+      "source_id": "the-book-which-tells-the-truth",
+      "locator": "Chapter 2: the exiled creators, their unions with human women, and the resulting mighty offspring of Genesis 6",
+      "role": "canonical_basis",
+      "access": "project_digitization",
+      "note": "../../source-notes/the-book-which-tells-the-truth.md"
+    },
+    {
+      "source_id": "genesis",
+      "locator": "GEN-WOH-6:1-4 (the benei ha-elohim, the daughters of men, the Nephilim as the mighty ones of old)",
+      "role": "primary_text",
+      "access": "project_digitization"
+    },
+    {
+      "source_id": "1-enoch-the-book-of-the-watchers",
+      "locator": "The descent at Hermon, the oath, the wives, the transmitted arts, and the giant offspring (chs. 6-11)",
+      "role": "primary_text",
+      "access": "project_digitization"
+    },
+    {
+      "source_id": "nickelsburg-enoch-1",
+      "locator": "The standard critical commentary on the Book of the Watchers",
+      "role": "scholarly_context",
+      "access": "metadata_only"
+    },
+    {
+      "source_id": "reed-fallen-angels",
+      "locator": "The reception history of the Watchers tradition and its loss in the West",
+      "role": "scholarly_context",
+      "access": "metadata_only"
+    },
+    {
+      "source_id": "westermann-genesis-1-11",
+      "locator": "The critical treatment of Genesis 6:1-4 as compressed narrative",
+      "role": "scholarly_context",
+      "access": "metadata_only"
+    }
+  ],
+  "dependencies": [
+    "woh-claim-0001",
+    "woh-claim-0008"
+  ],
+  "alternatives": [
+    {
+      "id": "alt-0012-mythological-fragment",
+      "statement": "Genesis 6:1-4 is a demoted mythological fragment retained to introduce the flood; it records theology, not an event, and 1 Enoch is exegetical expansion rather than independent memory."
+    },
+    {
+      "id": "alt-0012-sethite-reading",
+      "statement": "The benei ha-elohim are the line of Seth, not heavenly beings — the traditional alternative that dissolves the episode entirely."
+    },
+    {
+      "id": "alt-0012-polemic-context",
+      "statement": "The Enochic Watchers narrative is Second Temple polemic against illegitimate priestly marriages or Hellenistic culture-heroes, explaining the forbidden-arts catalogue without any remembered unions."
+    },
+    {
+      "id": "alt-0012-canon-mapping",
+      "statement": "The canon's exile-era unions and the Enochic descent are separate stories that the corpus maps onto each other; the identification is supplied by the framework, not by either text."
+    }
+  ],
+  "revision_triggers": [
+    "Claim woh-claim-0001 or woh-claim-0008 is revised or retired.",
+    "Source-language review of the Genesis or Enoch renderings materially changes the fathers/children reading.",
+    "The identification fails against the canon's fuller context (the canon-mapping alternative vindicated).",
+    "Public prose begins identifying named Watchers with named canon figures or treating the arts catalogue as inventory, which this record excludes."
+  ],
+  "controlling_document": "../../docs/framework/watchers-nephilim-unions.md",
+  "public_derivatives": [
+    "wheelofheaven/data-content:articles/watchers-and-the-nephilim.md",
+    "wheelofheaven/data-content:wiki/nephilim.md",
+    "wheelofheaven/data-content:wiki/watchers.md"
+  ],
+  "last_reviewed": "2026-08-15"
+}

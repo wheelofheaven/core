@@ -1,0 +1,97 @@
+{
+  "$schema": "../schemas/claim.schema.json",
+  "schema_version": "0.1.0",
+  "id": "woh-claim-0009",
+  "title": "The Elohim plural and the canonical gloss",
+  "version": "0.1.0",
+  "lifecycle": "draft",
+  "statement": "The Hebrew word Elohim is grammatically plural and the biblical text preserves plural usage around it (plural cohortatives, plural pronouns, the sons-of-God formulae, the divine council of Psalm 82); the corpus reads that plurality referentially — many individual Elohim rather than a majestic singular — and adopts the canon's gloss 'those who came from the sky', while recording explicitly that the gloss is a canonical rendering and not the consensus lexical derivation.",
+  "claim_kind": "interpretation",
+  "framework_relation": "derived",
+  "evidence_status": [
+    "scoped",
+    "contested"
+  ],
+  "public_label": "framework",
+  "scope": {
+    "includes": [
+      "The philological layer, which is mainstream and direct: Elohim is morphologically plural (plural of Eloah); Genesis 1:26 ('let us make') and 3:22 ('as one of us') preserve plural forms; benei ha-elohim and the Psalm 82 assembly preserve plural divine beings",
+      "The referential reading, which is framework: the plural forms are read as referring to a plurality of individual beings, against the conventional plural-of-majesty resolution",
+      "The canonical gloss, which is canon-explicit and labelled: 'those who came from the sky' is the canon's rendering; the record states plainly that this is not the consensus etymology (which derives Elohim through Eloah/El)",
+      "The translation-history observation: the singular-God rendering is a translation decision with a history, not a property of the Hebrew text"
+    ],
+    "excludes": [
+      "Any claim that the plural morphology alone proves plural referents; morphological form does not yield full syntactic meaning without contextual analysis (an invalid transition the claim model names)",
+      "Any claim that the canonical gloss is philologically derived; it is recorded as canonical, full stop",
+      "Uniformity of reference across all biblical uses of elohim; the term's reference varies by passage and period",
+      "The historicity of the beings referred to, which is woh-claim-0001's burden, not this record's"
+    ]
+  },
+  "source_references": [
+    {
+      "source_id": "the-book-which-tells-the-truth",
+      "locator": "Chapter 5, paragraph 21 (Elohim/Eloha, the singular-God translation, and its consequences); the gloss 'those who came from the sky' throughout the opening narrative",
+      "role": "canonical_basis",
+      "access": "project_digitization",
+      "note": "../../source-notes/the-book-which-tells-the-truth.md"
+    },
+    {
+      "source_id": "genesis",
+      "locator": "GEN-WOH-1:26 (na'aseh, plural cohortative); GEN-WOH-3:22 ('as one of us'); GEN-WOH-6:2 (benei ha-elohim)",
+      "role": "primary_text",
+      "access": "project_digitization"
+    },
+    {
+      "source_id": "psalms",
+      "locator": "PSA-82:1 (elohim standing in the assembly of El, judging among elohim); 82:6-7 (the sentence on the assembly)",
+      "role": "primary_text",
+      "access": "project_digitization"
+    },
+    {
+      "source_id": "the-early-history-of-god",
+      "locator": "Mark S. Smith's treatment of Israelite divine plurality and the development toward monotheism — the mainstream account the referential reading engages",
+      "role": "scholarly_context",
+      "access": "metadata_only"
+    },
+    {
+      "source_id": "aliens-adored",
+      "locator": "The academic account of the Raelian reinterpretation of Elohim, including the philological objections to it",
+      "role": "critical",
+      "access": "metadata_only"
+    }
+  ],
+  "dependencies": [
+    "woh-claim-0001"
+  ],
+  "alternatives": [
+    {
+      "id": "alt-0009-plural-of-majesty",
+      "statement": "The plural morphology with singular verbs is a plural of majesty or abstraction, a known Hebrew construction; no plural referent follows."
+    },
+    {
+      "id": "alt-0009-heavenly-court",
+      "statement": "The plural passages address a heavenly court subordinate to a single God — plurality of beings without plurality of gods, the standard scholarly reading of Psalm 82 and Genesis 1:26."
+    },
+    {
+      "id": "alt-0009-diachronic",
+      "statement": "The plural traces are fossils of an earlier polytheism edited toward monotheism; they testify to religion's development, not to remembered beings."
+    },
+    {
+      "id": "alt-0009-etymology",
+      "statement": "The consensus derivation of Elohim through Eloah/El is correct and complete; the canonical gloss has no philological standing."
+    }
+  ],
+  "revision_triggers": [
+    "Source-language review materially changes any of the cited plural-usage observations.",
+    "Public prose begins presenting the canonical gloss as an etymology, which this record excludes and the epistemic principles forbid.",
+    "Claim woh-claim-0001 is revised or retired.",
+    "The referential reading fails to engage a new consensus treatment of the divine-council material."
+  ],
+  "controlling_document": "../../docs/framework/elohim-plural-gloss.md",
+  "public_derivatives": [
+    "wheelofheaven/data-content:wiki/elohim.md",
+    "wheelofheaven/data-content:wiki/plurality-of-gods.md",
+    "wheelofheaven/data-content:articles/monotheism-is-the-wrong-question.md"
+  ],
+  "last_reviewed": "2026-08-15"
+}

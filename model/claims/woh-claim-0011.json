@@ -1,0 +1,104 @@
+{
+  "$schema": "../schemas/claim.schema.json",
+  "schema_version": "0.1.0",
+  "id": "woh-claim-0011",
+  "title": "Monotheism as re-description of the plural Elohim",
+  "version": "0.1.0",
+  "lifecycle": "draft",
+  "statement": "The Hebrew Bible preserves a divine council and plural divine beings alongside its demands for exclusive allegiance, and the anti-idol polemic of the prophetic traditions functions less as an arithmetic claim about how many superhuman beings exist than as a struggle over memory, representation, mediation, and loyalty; the corpus's stronger proposal reads prophetic monotheism as a progressive re-description of the plural Elohim into one immaterial God — so that the monotheism/polytheism division is the wrong question to put to the sources.",
+  "claim_kind": "interpretation",
+  "framework_relation": "derived",
+  "evidence_status": [
+    "scoped",
+    "contested"
+  ],
+  "public_label": "speculative",
+  "scope": {
+    "includes": [
+      "The textual layer, which is substantially mainstream: council and plurality texts (Psalm 82; Deuteronomy 32:8-9; 1 Kings 22) alongside exclusive-allegiance texts, and the scholarly account of monotheism as a development (Smith)",
+      "The functional reading of anti-idol polemic: memory, representation, mediation, and loyalty rather than arithmetic — including the cross-tradition instances the article assembles (Paul's 'many gods and many lords'; the Qur'an's rebuke of intercession by people who already acknowledge the creator)",
+      "The corpus's stronger proposal, which is speculative: the progressive re-description of the plural Elohim into one abstract God, with the canon's own observation of the singular-God translation (woh-claim-0009) as its hinge",
+      "Preservation of irreducible differences among the traditions compared; the reading does not flatten Israel, Paul, and the Qur'an into one theology"
+    ],
+    "excludes": [
+      "Any claim that the biblical authors secretly intended plural reference; the re-description is read as a historical development, not a conspiracy",
+      "A general theory of monotheism beyond the traditions the corpus has actually worked through",
+      "The historicity of the Elohim, which is woh-claim-0001's burden",
+      "Denial of the mainstream developmental account; the corpus reading sits on top of it, adding a referent claim the mainstream account does not make"
+    ]
+  },
+  "source_references": [
+    {
+      "source_id": "the-book-which-tells-the-truth",
+      "locator": "Chapter 3, paragraph 4 (humanity worships stone and idols after forgetting its creators); Chapter 5, paragraph 21 (Elohim/Eloha and the singular-God translation)",
+      "role": "canonical_basis",
+      "access": "project_digitization",
+      "note": "../../source-notes/the-book-which-tells-the-truth.md"
+    },
+    {
+      "source_id": "psalms",
+      "locator": "PSA-82 (the council and the sentence on the elohim)",
+      "role": "primary_text",
+      "access": "project_digitization"
+    },
+    {
+      "source_id": "deuteronomy",
+      "locator": "Deuteronomy 32:8-9 (the apportionment of the nations; the benei elohim reading attested at Qumran)",
+      "role": "primary_text",
+      "access": "project_digitization"
+    },
+    {
+      "source_id": "the-qur-an",
+      "locator": "The intercession-rebuke passages the article reads (acknowledging the creator while approaching through intermediaries)",
+      "role": "comparative",
+      "access": "project_digitization"
+    },
+    {
+      "source_id": "the-early-history-of-god",
+      "locator": "Mark S. Smith's developmental account of Israelite religion — the mainstream floor under the corpus's stronger proposal",
+      "role": "scholarly_context",
+      "access": "metadata_only"
+    },
+    {
+      "source_id": "aliens-adored",
+      "locator": "The academic treatment of the Raelian reinterpretation of biblical divinity",
+      "role": "critical",
+      "access": "metadata_only"
+    }
+  ],
+  "dependencies": [
+    "woh-claim-0001",
+    "woh-claim-0009"
+  ],
+  "alternatives": [
+    {
+      "id": "alt-0011-developmental-suffices",
+      "statement": "The mainstream developmental account fully explains the plural traces and the polemic; no remembered plural referent is needed on top of it."
+    },
+    {
+      "id": "alt-0011-rhetoric-of-loyalty",
+      "statement": "The functional reading of the polemic is itself just mainstream scholarship restated; the corpus adds a referent without adding explanation."
+    },
+    {
+      "id": "alt-0011-flattening-risk",
+      "statement": "Reading Israel, Paul, and the Qur'an through one re-description narrative flattens traditions whose theologies of divine plurality are irreducibly different."
+    },
+    {
+      "id": "alt-0011-category-substitution",
+      "statement": "Re-describing theological development as memory-loss about real beings re-describes religion in a technological idiom without explaining anything the developmental account does not."
+    }
+  ],
+  "revision_triggers": [
+    "Claim woh-claim-0001 or woh-claim-0009 is revised or retired.",
+    "The reading fails to predict any textual particular that the developmental account does not.",
+    "Comparative review shows the functional reading of the polemic does not hold for one of the traditions the article assembles, requiring a narrowing.",
+    "Public prose begins asserting authorial intent or a general theory of monotheism, which this record excludes."
+  ],
+  "controlling_document": "../../docs/framework/monotheism-redescription.md",
+  "public_derivatives": [
+    "wheelofheaven/data-content:articles/monotheism-is-the-wrong-question.md",
+    "wheelofheaven/data-content:wiki/plurality-of-gods.md",
+    "wheelofheaven/data-content:wiki/monotheism.md"
+  ],
+  "last_reviewed": "2026-08-15"
+}

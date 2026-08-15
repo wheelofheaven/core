@@ -1,0 +1,114 @@
+{
+  "$schema": "../schemas/claim.schema.json",
+  "schema_version": "0.1.0",
+  "id": "woh-claim-0008",
+  "title": "The Council–Serpentine conflict",
+  "version": "0.1.0",
+  "lifecycle": "draft",
+  "statement": "A multi-age political-military conflict took place between the Elohim home-world Council and the exiled-creator-and-human alliance on Earth: initiated by the Eden disclosure of forbidden knowledge and the exile of the disclosing faction (late Age of Cancer), developing through the antediluvian period and the Flood, reaching open military expression in the late Age of Gemini, and resolving in the negotiated pardon of the original exiles in the early Age of Taurus; the corpus further reads the worldwide theomachy pattern of mythology as common cultural memory of this single event.",
+  "claim_kind": "interpretation",
+  "framework_relation": "derived",
+  "evidence_status": [
+    "scoped",
+    "contested"
+  ],
+  "public_label": "framework",
+  "scope": {
+    "includes": [
+      "The narrative arc as canon-articulated: Eden disclosure and exile; antediluvian development; the Flood operating within the conflict; the Babel intervention; the open-military phase; the Taurus-age settlement and pardon of the original exiles only",
+      "The principal participants as the corpus registers them: Yahweh (Council president) and Satan (home-world opposition leader) on the Council side; Lucifer (exiled-creator leader), the exiled Eloha scientists, and the human alliance partners on the Serpentine side",
+      "The dating of the phases against the precessional chronology (woh-claim-0003)",
+      "The corpus extension: the cross-cultural theomachy pattern (Titanomachy, Aesir–Vanir, deva–asura, Marduk–Tiamat, Horus–Set, and cognates) read as common memory of this one event, carried by lineages separated after it — with the Greek instance scoped separately as woh-claim-0004",
+      "The Hebrew memory layer: the liwyatan/nachash/tannin vocabulary (Isaiah 27:1 above all) read as prophetic memory of the war and its pursued exiles"
+    ],
+    "excludes": [
+      "Any transmission-route claims for the mythological cognates; routes are philology's property (see woh-claim-0005 for the Greek corridor)",
+      "One-to-one identification of individual mythological combatants with individual Elohim beyond the canon's own named figures",
+      "The claim that every draconic or combat passage in every tradition belongs to this pattern; inclusion is per-passage editorial work",
+      "Lucifer–Satan identity: the corpus distinguishes the two figures, and the biblical fusion of them is a separate, later development (a candidate claim of its own)",
+      "Independent historical evidence for the conflict; the record is canon-derived and labelled accordingly"
+    ]
+  },
+  "source_references": [
+    {
+      "source_id": "the-book-which-tells-the-truth",
+      "locator": "Chapter 2 (the Serpent faction, the Eden disclosure, the exile, the unions and their offspring, the Flood within the conflict); Chapter 2-3 (Satan's opposition role and the Council; Babel); the pardon material in the later narrative chapters",
+      "role": "canonical_basis",
+      "access": "project_digitization",
+      "note": "../../source-notes/the-book-which-tells-the-truth.md"
+    },
+    {
+      "source_id": "isaiah",
+      "locator": "Isaiah 27:1 (liwyatan the fleeing serpent, the twisting serpent; the dragon in the sea) — the principal Hebrew memory passage on the corpus reading",
+      "role": "primary_text",
+      "access": "project_digitization"
+    },
+    {
+      "source_id": "genesis",
+      "locator": "Genesis 3 (the nachash and the disclosure); Genesis 6:1-4 (the unions); Genesis 6-9 (the Flood); Genesis 11 (Babel)",
+      "role": "primary_text",
+      "access": "project_digitization"
+    },
+    {
+      "source_id": "enuma-elish",
+      "locator": "Tablets IV-V (Marduk-Tiamat) as the principal Mesopotamian instance of the pattern",
+      "role": "comparative",
+      "access": "metadata_only"
+    },
+    {
+      "source_id": "theogony-and-works-and-days",
+      "locator": "The Titanomachy and Typhoeus material (THEO-WOH-1:617-720; 820-868) as the Greek instance, scoped under woh-claim-0004",
+      "role": "comparative",
+      "access": "project_digitization",
+      "note": "../../source-notes/theogony-and-works-and-days.md"
+    },
+    {
+      "source_id": "is-god-a-space-alien-the-cosmology-of-the-ra-lian-church",
+      "locator": "The category-substitution objection, applying to the conflict account as to the framework generally",
+      "role": "critical",
+      "access": "metadata_only"
+    }
+  ],
+  "dependencies": [
+    "woh-claim-0001",
+    "woh-claim-0003"
+  ],
+  "alternatives": [
+    {
+      "id": "alt-0008-independent-mythogenesis",
+      "statement": "Theomachy narratives arise independently wherever societies imagine generational or factional conflict among gods; no shared event is required."
+    },
+    {
+      "id": "alt-0008-diffusion",
+      "statement": "The cognate combat narratives spread by documented cultural transmission, not by common memory of one event."
+    },
+    {
+      "id": "alt-0008-chaoskampf-theology",
+      "statement": "The Hebrew draconic passages are chaoskampf theology inherited from Canaanite-Ugaritic tradition (Gunkel; Day), not memory of any conflict."
+    },
+    {
+      "id": "alt-0008-fidelity-limit",
+      "statement": "Oral transmission cannot carry a structured political-military narrative over the required span; the pattern's stability reflects retelling convention, not memory."
+    },
+    {
+      "id": "alt-0008-canon-narrative-gap",
+      "statement": "The canon articulates episodes (Eden, Flood, Babel, pardon) but the single continuous multi-age war connecting them is corpus systematization beyond the source."
+    }
+  ],
+  "revision_triggers": [
+    "The canon's fuller context shows the episodes cannot carry the single-continuous-conflict systematization (the narrative-gap alternative vindicated).",
+    "Claim woh-claim-0001 or woh-claim-0003 is revised or retired.",
+    "The cross-cultural extension fails against a systematic per-tradition test, or collapses into the diffusion alternative where routes are documented.",
+    "Public prose begins asserting per-figure combatant identifications or treating every combat myth as an instance, which this record excludes.",
+    "woh-claim-0004 is revised in a way that changes the Greek instance's relationship to this referent."
+  ],
+  "controlling_document": "../../docs/framework/council-serpentine-conflict.md",
+  "public_derivatives": [
+    "wheelofheaven/data-content:wiki/theomachy.md",
+    "wheelofheaven/data-content:wiki/serpentine-rebellion.md",
+    "wheelofheaven/data-content:wiki/lucifer.md",
+    "wheelofheaven/data-content:articles/lucifer-and-satan.md",
+    "wheelofheaven/data-content:articles/the-world-behind-the-odyssey.md"
+  ],
+  "last_reviewed": "2026-08-15"
+}

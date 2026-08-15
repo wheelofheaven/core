@@ -73,6 +73,56 @@
       "framework_relation": "derived",
       "record": "claims/woh-claim-0007.json",
       "specification": "../docs/framework/greece-elohimian-sphere.md"
+    },
+    {
+      "id": "woh-claim-0008",
+      "title": "The Council–Serpentine conflict",
+      "version": "0.1.0",
+      "lifecycle": "draft",
+      "claim_kind": "interpretation",
+      "framework_relation": "derived",
+      "record": "claims/woh-claim-0008.json",
+      "specification": "../docs/framework/council-serpentine-conflict.md"
+    },
+    {
+      "id": "woh-claim-0009",
+      "title": "The Elohim plural and the canonical gloss",
+      "version": "0.1.0",
+      "lifecycle": "draft",
+      "claim_kind": "interpretation",
+      "framework_relation": "derived",
+      "record": "claims/woh-claim-0009.json",
+      "specification": "../docs/framework/elohim-plural-gloss.md"
+    },
+    {
+      "id": "woh-claim-0010",
+      "title": "The Flood as deliberate reset",
+      "version": "0.1.0",
+      "lifecycle": "draft",
+      "claim_kind": "interpretation",
+      "framework_relation": "derived",
+      "record": "claims/woh-claim-0010.json",
+      "specification": "../docs/framework/flood-as-reset.md"
+    },
+    {
+      "id": "woh-claim-0011",
+      "title": "Monotheism as re-description of the plural Elohim",
+      "version": "0.1.0",
+      "lifecycle": "draft",
+      "claim_kind": "interpretation",
+      "framework_relation": "derived",
+      "record": "claims/woh-claim-0011.json",
+      "specification": "../docs/framework/monotheism-redescription.md"
+    },
+    {
+      "id": "woh-claim-0012",
+      "title": "Watchers and Nephilim as the exile-era unions",
+      "version": "0.1.0",
+      "lifecycle": "draft",
+      "claim_kind": "interpretation",
+      "framework_relation": "comparative",
+      "record": "claims/woh-claim-0012.json",
+      "specification": "../docs/framework/watchers-nephilim-unions.md"
     }
   ]
 }
