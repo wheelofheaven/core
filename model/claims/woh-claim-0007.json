@@ -1,0 +1,93 @@
+{
+  "$schema": "../schemas/claim.schema.json",
+  "schema_version": "0.1.0",
+  "id": "woh-claim-0007",
+  "title": "Greece within the Elohimian sphere",
+  "version": "0.1.0",
+  "lifecycle": "draft",
+  "statement": "Greece lay continuously within the sphere of Elohim engagement whose centre of gravity the biblical corpus records in the Near East: the canon names Greece among the creator-base regions and characterises its mythology as testimony, and later reports emissaries sent among the Greeks — two engagements centuries apart — so Greek religious tradition is read as a broader extension of the same Elohimian events, not a foreign domain touched once.",
+  "claim_kind": "interpretation",
+  "framework_relation": "derived",
+  "evidence_status": [
+    "scoped",
+    "contested"
+  ],
+  "public_label": "framework",
+  "scope": {
+    "includes": [
+      "Continuity: the engagement with Greece is read as ongoing, with at least two canonically attested moments — the creator-base era with mythology as testimony (TBWTT-5:54, pre-Homeric in reference), and the post-Homeric emissary transfer (TBWTT-3:213–215, recorded as woh-claim-0006)",
+      "Embedding: Greece belongs to the same religious-cultural sphere as the Near East on both layers — the documented literary embedding (the mainstream substrate recorded as woh-claim-0005) and the canonical engagement layer this record asserts",
+      "The testimony corollary: Greek mythological writings, the Theogony above all, are read as preserving testimonies of the same events the biblical corpus records — with the specific theomachy reading recorded separately as woh-claim-0004",
+      "Reframing of priority: the Near East's earlier flourishing (Babel, the cities of the plain, the biblical theatre) marks where the engagement was concentrated first, not a ranking of peoples"
+    ],
+    "excludes": [
+      "Any claim that literary transmission (woh-claim-0005) is itself the Elohimian mechanism; the documented routes are human routes, and this record proposes no alternative route",
+      "Use of the emissary episode to explain Homeric or Hesiodic content; the chronological boundary is fixed in woh-claim-0006",
+      "Linguistic priority claims about Semitic languages; the priority reframed here is of engagement and civilizational flourishing, not language",
+      "One-to-one identification of Greek deities with individual Elohim, or of Greek events with specific biblical episodes beyond what woh-claim-0004 already scopes",
+      "Any demotion of Greek tradition to a derivative copy; extension means shared source, with irreducible differences preserved"
+    ]
+  },
+  "source_references": [
+    {
+      "source_id": "the-book-which-tells-the-truth",
+      "locator": "TBWTT-5:54 (Greece among creator-base regions; 'Mythology also contains great testimonies'); TBWTT-3:213–215 (the later emissary engagement)",
+      "role": "canonical_basis",
+      "access": "project_digitization",
+      "note": "../../source-notes/the-book-which-tells-the-truth.md"
+    },
+    {
+      "source_id": "theogony-and-works-and-days",
+      "locator": "The Theogony as the systematic Greek testimony the canon's 5:54 characterisation most plausibly designates; passage-level readings recorded under woh-claim-0004",
+      "role": "primary_text",
+      "access": "project_digitization",
+      "note": "../../source-notes/theogony-and-works-and-days.md"
+    },
+    {
+      "source_id": "the-east-face-of-helicon-west-asiatic-elements-in-greek-poetry-and-myth",
+      "locator": "pp. 402–403 (verified); the documented east-to-west embedding this record's engagement layer sits beneath",
+      "role": "scholarly_context",
+      "access": "excerpt"
+    },
+    {
+      "source_id": "is-god-a-space-alien-the-cosmology-of-the-ra-lian-church",
+      "locator": "Culture and Cosmos 4.1 (the category-substitution objection, which applies with full force to extending the Elohimian frame over Greek religion)",
+      "role": "critical",
+      "access": "metadata_only"
+    }
+  ],
+  "dependencies": [
+    "woh-claim-0001",
+    "woh-claim-0006"
+  ],
+  "alternatives": [
+    {
+      "id": "alt-0007-transmission-suffices",
+      "statement": "The documented literary transmission fully explains Greece's embedding in the Near Eastern sphere; no engagement layer is needed beneath it."
+    },
+    {
+      "id": "alt-0007-selective-canon",
+      "statement": "The canon's naming of Greece is a passing enumeration, and building a continuity thesis on two brief passages overreads the source."
+    },
+    {
+      "id": "alt-0007-independent-tradition",
+      "statement": "Greek religion is substantially an independent Indo-European and Aegean development; the shared sphere is a modern comparative construction."
+    },
+    {
+      "id": "alt-0007-category-substitution",
+      "statement": "Extending the Elohimian frame over Greek tradition re-describes it in a technological idiom without explaining anything the mainstream account does not."
+    }
+  ],
+  "revision_triggers": [
+    "The canon's fuller context shows the Greece references cannot carry a continuity reading (the selective-canon alternative vindicated).",
+    "Claim woh-claim-0001 or woh-claim-0006 is revised or retired.",
+    "Claim woh-claim-0004 is retired in a way that removes the testimony corollary's specific content.",
+    "Public prose derived from this record starts asserting linguistic priority, deity identifications, or a canonical transmission route, all of which this record excludes.",
+    "The reading fails to predict any textual particular that the transmission-suffices alternative does not."
+  ],
+  "controlling_document": "../../docs/framework/greece-elohimian-sphere.md",
+  "public_derivatives": [
+    "wheelofheaven/data-content:articles/the-east-face-of-homer.md"
+  ],
+  "last_reviewed": "2026-08-15"
+}

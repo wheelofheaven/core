@@ -1,0 +1,97 @@
+{
+  "$schema": "../schemas/claim.schema.json",
+  "schema_version": "0.1.0",
+  "id": "woh-claim-0005",
+  "title": "Near Eastern literary transmission to archaic Greece",
+  "version": "0.1.0",
+  "lifecycle": "draft",
+  "statement": "Archaic Greek poetry and myth absorbed substantial Near Eastern — Mesopotamian, Anatolian, and Levantine — literary material through documented contact routes, and the wanderings strand of the Odyssey stands in an especially strong and clear literary relationship with the Gilgamesh epic, without identity of the two heroes.",
+  "claim_kind": "empirical_observation",
+  "framework_relation": "contextual",
+  "evidence_status": [
+    "scoped"
+  ],
+  "public_label": "direct",
+  "scope": {
+    "includes": [
+      "The documented transmission substrate: the Phoenician-derived alphabet, Levantine and Anatolian trade and settlement contact in the ninth to seventh centuries BCE, and the scholarly case assembled by Burkert, West, Bachvarova, Louden, and Lane Fox",
+      "The Odyssey–Gilgamesh relationship at the level West states it: the wanderings strand in strong and clear literary relationship with the Gilgamesh epic, with situational and thematic parallels (proem, far-traveller frame)",
+      "Direction of travel: the Near Eastern material is older and the borrowing runs east to west"
+    ],
+    "excludes": [
+      "Identity of Odysseus with Gilgamesh; West explicitly denies character identity ('He is, then, no Gilgamesh')",
+      "Any claim that literary borrowing establishes civilizational origination; contact and prestige asymmetry are what the observation shows",
+      "Any framework or canonical mechanism for the transmission; this record is deliberately confined to the mainstream substrate",
+      "Precise quantification of how much of Greek myth is imported versus inherited or indigenous; the honest model is a braid"
+    ]
+  },
+  "source_references": [
+    {
+      "source_id": "the-east-face-of-helicon-west-asiatic-elements-in-greek-poetry-and-myth",
+      "locator": "pp. 402–403, ch. 8 'The Odyssey', section 'Odysseus and Gilgamesh' (verified from the page image: 'especially strong and clear relationship with the Gilgamesh epic'; 'He is, then, no Gilgamesh'; proem juxtaposition)",
+      "role": "scholarly_context",
+      "access": "excerpt"
+    },
+    {
+      "source_id": "epic-of-gilgamesh",
+      "locator": "Standard Babylonian proem ('He who saw the Deep'); the far-traveller frame West juxtaposes with Od. 1.1–5",
+      "role": "primary_text",
+      "access": "project_digitization"
+    },
+    {
+      "source_id": "odyssey-greek-text",
+      "locator": "Od. 1.1–5 (proem: the man who wandered far, saw the cities of many peoples, suffered at sea)",
+      "role": "primary_text",
+      "access": "full_text"
+    },
+    {
+      "source_id": "the-orientalizing-revolution-near-eastern-influence-on-greek-culture-in-the-earl",
+      "locator": "The eighth–seventh-century transmission case: itinerant Near Eastern craftsmen, seers, and healers in Greek communities",
+      "role": "scholarly_context",
+      "access": "metadata_only"
+    },
+    {
+      "source_id": "homer-s-odyssey-and-the-near-east",
+      "locator": "Book-length treatment of Near Eastern comparanda for the Odyssey specifically",
+      "role": "scholarly_context",
+      "access": "metadata_only"
+    },
+    {
+      "source_id": "from-hittite-to-homer-the-anatolian-background-of-ancient-greek-epic",
+      "locator": "The Anatolian festival-epic transmission route into Aegean song traditions",
+      "role": "scholarly_context",
+      "access": "metadata_only"
+    },
+    {
+      "source_id": "travelling-heroes-greeks-and-their-myths-in-the-epic-age-of-homer",
+      "locator": "Euboean contact geography of the eighth century (Al Mina; Mount Hazzi/Kasios sightlines)",
+      "role": "scholarly_context",
+      "access": "metadata_only"
+    }
+  ],
+  "dependencies": [],
+  "alternatives": [
+    {
+      "id": "alt-0005-independent-invention",
+      "statement": "The Odyssey–Gilgamesh parallels arise from independent invention within a shared genre of far-traveller narrative, without literary contact."
+    },
+    {
+      "id": "alt-0005-indo-european-only",
+      "statement": "The shared material reflects common inheritance rather than east-to-west borrowing; the Near Eastern contribution is marginal."
+    },
+    {
+      "id": "alt-0005-overstatement",
+      "statement": "West's maximal programme overstates the case; individual parallels are genuine but the cumulative 'Greek literature is a Near Eastern literature' framing exceeds the evidence."
+    }
+  ],
+  "revision_triggers": [
+    "Reading West's Hesiod chapters and the programmatic material (currently uninspected) materially changes the strength or shape of the stated relationship.",
+    "The Odyssey–Gilgamesh relationship is downgraded in mainstream scholarship from literary relationship to generic resemblance.",
+    "Public prose derived from this record starts asserting hero identity, civilizational origination, or a canonical mechanism, all of which this record excludes."
+  ],
+  "controlling_document": "../../docs/framework/near-eastern-transmission-to-greece.md",
+  "public_derivatives": [
+    "wheelofheaven/data-content:articles/the-east-face-of-homer.md"
+  ],
+  "last_reviewed": "2026-08-15"
+}

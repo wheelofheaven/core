@@ -1,0 +1,71 @@
+{
+  "$schema": "../schemas/claim.schema.json",
+  "schema_version": "0.1.0",
+  "id": "woh-claim-0006",
+  "title": "Post-Homeric emissary transfer to Persia and Greece",
+  "version": "0.1.0",
+  "lifecycle": "draft",
+  "statement": "According to the canon, the creators placed emissaries ('angels') among the Persians and the Greeks to accomplish technology transfer during the era of those powers' domination of Israel, as a punitive inversion of providence; this engagement falls in the sixth to fourth centuries BCE and therefore post-dates the crystallisation of the Homeric poems, so it explains no Homeric or Hesiodic content.",
+  "claim_kind": "interpretation",
+  "framework_relation": "derived",
+  "evidence_status": [
+    "scoped"
+  ],
+  "public_label": "framework",
+  "scope": {
+    "includes": [
+      "The canonical report at TBWTT-3:213–215: emissaries placed among Persians and Greeks for technology transfer, punishing Israel's lack of faith, with Michael heading the Persian delegation (reading Daniel 10)",
+      "The chronological corollary: Persian and Greek domination of Judea runs from the sixth to the fourth century BCE, centuries after the eighth–seventh-century crystallisation of the Homeric and Hesiodic poems",
+      "The consequence for source discipline: the emissary episode is a late, discrete instance of engagement and cannot serve as the mechanism behind any archaic Greek text"
+    ],
+    "excludes": [
+      "Any use of this record to explain Homeric or Hesiodic content; the chronology forbids it",
+      "Identification of individual emissaries with named Greek or Persian historical figures",
+      "Any claim about the mechanism or content of the transfer beyond what the canon states",
+      "Mainstream historical endorsement; the record is canon-derived and labelled accordingly"
+    ]
+  },
+  "source_references": [
+    {
+      "source_id": "the-book-which-tells-the-truth",
+      "locator": "TBWTT-3:213 (domination by Persians and Greeks as punishment; 'angels' placed to accomplish technology transfer); TBWTT-3:214–215 (Michael heading the delegation to Persia, quoting Daniel)",
+      "role": "canonical_basis",
+      "access": "project_digitization",
+      "note": "../../source-notes/the-book-which-tells-the-truth.md"
+    },
+    {
+      "source_id": "daniel",
+      "locator": "Daniel 10:13, 10:20 (Michael and the 'princes' of Persia and Greece — the passage the canon reads)",
+      "role": "primary_text",
+      "access": "project_digitization"
+    }
+  ],
+  "dependencies": [
+    "woh-claim-0001"
+  ],
+  "alternatives": [
+    {
+      "id": "alt-0006-angelological-reading",
+      "statement": "Daniel's princes of Persia and Greece are celestial patron-angels within Second Temple angelology, a theological development with no technology-transfer content."
+    },
+    {
+      "id": "alt-0006-political-theology",
+      "statement": "The Daniel passage encodes the theological problem of foreign domination, not any historical intervention among Persians or Greeks."
+    },
+    {
+      "id": "alt-0006-canon-retrofit",
+      "statement": "The canon retrofits a modern technology-transfer frame onto a text whose composition context (second century BCE) it does not address."
+    }
+  ],
+  "revision_triggers": [
+    "Inspection of the canon's fuller context materially changes the technology-transfer reading of TBWTT-3:213–215.",
+    "The chronological corollary is challenged: any argument dating the relevant domination era before the crystallisation of the Homeric poems.",
+    "Public prose derived from this record starts using the emissaries to explain archaic (pre-classical) Greek material, which this record excludes.",
+    "Claim woh-claim-0001 is revised or retired."
+  ],
+  "controlling_document": "../../docs/framework/post-homeric-emissary-transfer.md",
+  "public_derivatives": [
+    "wheelofheaven/data-content:articles/the-east-face-of-homer.md"
+  ],
+  "last_reviewed": "2026-08-15"
+}

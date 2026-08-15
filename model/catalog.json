@@ -43,6 +43,36 @@
       "framework_relation": "comparative",
       "record": "claims/woh-claim-0004.json",
       "specification": "../docs/framework/greek-theomachy-memory.md"
+    },
+    {
+      "id": "woh-claim-0005",
+      "title": "Near Eastern literary transmission to archaic Greece",
+      "version": "0.1.0",
+      "lifecycle": "draft",
+      "claim_kind": "empirical_observation",
+      "framework_relation": "contextual",
+      "record": "claims/woh-claim-0005.json",
+      "specification": "../docs/framework/near-eastern-transmission-to-greece.md"
+    },
+    {
+      "id": "woh-claim-0006",
+      "title": "Post-Homeric emissary transfer to Persia and Greece",
+      "version": "0.1.0",
+      "lifecycle": "draft",
+      "claim_kind": "interpretation",
+      "framework_relation": "derived",
+      "record": "claims/woh-claim-0006.json",
+      "specification": "../docs/framework/post-homeric-emissary-transfer.md"
+    },
+    {
+      "id": "woh-claim-0007",
+      "title": "Greece within the Elohimian sphere",
+      "version": "0.1.0",
+      "lifecycle": "draft",
+      "claim_kind": "interpretation",
+      "framework_relation": "derived",
+      "record": "claims/woh-claim-0007.json",
+      "specification": "../docs/framework/greece-elohimian-sphere.md"
     }
   ]
 }
