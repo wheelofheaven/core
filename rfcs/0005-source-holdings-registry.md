@@ -126,6 +126,49 @@ carry a `rights_note` stating this per holding. The digitization track
 (`data-library`) remains restricted to material the project may lawfully
 publish; that boundary is unchanged by this RFC.
 
+### The ingest pipeline
+
+Recording that a copy exists is not enough to make it usable: a 350-page scan
+is unsearchable until something extracts text from it. The obvious move —
+OCR the book and commit the text — is rejected, because **OCR changes the file
+format, not the copyright status**. A plain-text file of an in-copyright
+monograph is the same protected work, smaller and more redistributable.
+
+The pipeline therefore separates the *working artifact* from the *repository
+artifact*, on the principle:
+
+> OCR to find, page image to verify, short quote to cite.
+
+Readable text is extracted (lifted from an existing text layer, or OCR'd when
+the file is a pure scan) into a **git-ignored local working store**. What is
+committed is the derived apparatus:
+
+- a **page map** — PDF page ↔ printed folio, with the calibration confidence
+  that supports it. Scans are frequently two-up, so PDF page and book page
+  differ; a citation is only trustworthy once that offset is established.
+- a **hashed search index** — one-way hashed tokens with book-page postings,
+  no positions, no counts, order discarded. It answers "which pages mention
+  this term" and cannot rebuild a sentence. This is a finding aid in the same
+  sense as a back-of-book index.
+- a **density profile** — characters per page, which identifies plates,
+  blanks, and OCR failures.
+
+Readable text is committed only when `licensing_status` is `public_domain`;
+anything else, including `unknown`, stays local. This makes the licensing field
+load-bearing, which surfaces a problem worth recording: the **live** source
+registry carries no `licensing_status` at all, and the legacy
+`data-bibliography` — which does — covers roughly a quarter of the corpus. A
+holding may therefore declare its own status, so routing is a recorded decision
+rather than an accident of which repo happens to hold a record.
+
+One limitation deserves emphasis, because it constrains how the output may be
+used. For this corpus — polytonic Greek, transliterated Akkadian and Hittite,
+Hebrew, heavy diacritics — OCR is least reliable exactly where the argument is
+most delicate. The extracted text is a finding aid only. **Quotations must be
+read off the page image**, and the resulting finding logged in the holding's
+`verifications[]`. That is also what keeps the access-level upgrade honest:
+the log records what a human actually read, not what a tool guessed.
+
 ### Integration with the core
 
 1. **Access-level provenance.** A source note's declared `source_access` should
