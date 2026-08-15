@@ -23,10 +23,10 @@ corollary — the part that does the work — is derived from it.
 
 ## The canonical basis
 
-`TBWTT-3:213` reads Israel's domination by Persia and Greece as deliberate:
+`TBWTT-3:214` reads Israel's domination by Persia and Greece as deliberate:
 the creators, "to punish it for its lack of faith, placed men of theirs,
 'angels', among these peoples, in order to have them accomplish technical
-progress." `3:214–215` names Michael as head of the delegation to Persia,
+progress." `3:215–216` names Michael as head of the delegation to Persia,
 quoting Daniel ("Michael … came … there, beside the kings of Persia" —
 Daniel 10:13, 10:20, where Greece's "prince" also appears).
 

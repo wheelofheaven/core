@@ -17,8 +17,8 @@ chronological arithmetic, and the mainstream readings that stand against it.
 
 | Locator | What it reports | What it does not report |
 | --- | --- | --- |
-| `TBWTT-3:213` | Domination of Israel by Persians and Greeks read as punishment; the creators "placed men of theirs, 'angels', among these peoples, in order to have them accomplish technical progress" | Names of emissaries beyond Michael; content or mechanism of the transfer; any engagement with Greece before this era |
-| `TBWTT-3:214–215` | Michael as head of the delegation to Persia, quoting Daniel | — |
+| `TBWTT-3:214` | Domination of Israel by Persians and Greeks read as punishment; the creators "placed men of theirs, 'angels', among these peoples, in order to have them accomplish technical progress" | Names of emissaries beyond Michael; content or mechanism of the transfer; any engagement with Greece before this era |
+| `TBWTT-3:215–216` | Michael as head of the delegation to Persia, quoting Daniel | — |
 
 ## Primary-text layer
 

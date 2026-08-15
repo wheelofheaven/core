@@ -15,7 +15,7 @@
   "public_label": "framework",
   "scope": {
     "includes": [
-      "Continuity: the engagement with Greece is read as ongoing, with at least two canonically attested moments — the creator-base era with mythology as testimony (TBWTT-5:54, pre-Homeric in reference), and the post-Homeric emissary transfer (TBWTT-3:213–215, recorded as woh-claim-0006)",
+      "Continuity: the engagement with Greece is read as ongoing, with at least two canonically attested moments — the creator-base era with mythology as testimony (TBWTT-5:54, pre-Homeric in reference), and the post-Homeric emissary transfer (TBWTT-3:214–216, recorded as woh-claim-0006)",
       "Embedding: Greece belongs to the same religious-cultural sphere as the Near East on both layers — the documented literary embedding (the mainstream substrate recorded as woh-claim-0005) and the canonical engagement layer this record asserts",
       "The testimony corollary: Greek mythological writings, the Theogony above all, are read as preserving testimonies of the same events the biblical corpus records — with the specific theomachy reading recorded separately as woh-claim-0004",
       "Reframing of priority: the Near East's earlier flourishing (Babel, the cities of the plain, the biblical theatre) marks where the engagement was concentrated first, not a ranking of peoples"
@@ -31,7 +31,7 @@
   "source_references": [
     {
       "source_id": "the-book-which-tells-the-truth",
-      "locator": "TBWTT-5:54 (Greece among creator-base regions; 'Mythology also contains great testimonies'); TBWTT-3:213–215 (the later emissary engagement)",
+      "locator": "TBWTT-5:54 (Greece among creator-base regions; 'Mythology also contains great testimonies'); TBWTT-3:214–216 (the later emissary engagement)",
       "role": "canonical_basis",
       "access": "project_digitization",
       "note": "../../source-notes/the-book-which-tells-the-truth.md"

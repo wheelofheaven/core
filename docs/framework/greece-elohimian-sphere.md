@@ -14,7 +14,7 @@ Greece lay continuously within the sphere of Elohim engagement whose centre
 of gravity the biblical corpus records in the Near East. The canon names
 Greece among the creator-base regions and characterises its mythology as
 testimony (`TBWTT-5:54`), and later reports emissaries sent among the Greeks
-(`TBWTT-3:213–215`) — two engagements centuries apart. Greek religious
+(`TBWTT-3:214–216`) — two engagements centuries apart. Greek religious
 tradition is therefore read as a broader extension of the same Elohimian
 events, not a foreign domain touched once.
 

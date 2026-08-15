@@ -34,9 +34,9 @@
     },
     {
       "source_id": "epic-of-gilgamesh",
-      "locator": "Standard Babylonian proem ('He who saw the Deep'); the far-traveller frame West juxtaposes with Od. 1.1–5",
+      "locator": "SB Tablet I proem ('He who saw the Deep'), quoted in West's rendering at pp. 402–403 (verified from the page image); the in-house digitization (GILG-WOH) covers SB Tablet XI, the flood narrative, only",
       "role": "primary_text",
-      "access": "project_digitization"
+      "access": "secondary_citation"
     },
     {
       "source_id": "odyssey-greek-text",

@@ -40,7 +40,7 @@ statement deliberately does not exceed it.
 | Text | Locator | Status |
 | --- | --- | --- |
 | *Odyssey* proem | Od. 1.1–5 | Public Greek text; the far-traveller frame |
-| Gilgamesh proem | SB I ('He who saw the Deep') | In-house translation (`gilgamesh-woh`) available for the parallel West draws |
+| Gilgamesh proem | SB I ('He who saw the Deep') | Proem via West's rendering pp. 402–403 (verified); the in-house `gilgamesh-woh` covers Tablet XI (the flood narrative) only |
 
 ## The boundary (what this observation does not carry)
 

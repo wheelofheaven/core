@@ -20,7 +20,7 @@ passages are being asked to bear.
 | Locator | Era of reference | What it reports | Weight-bearing note |
 | --- | --- | --- | --- |
 | `TBWTT-5:54` | The creator-base era (pre-Homeric in reference) | Greece listed among base regions ("the cordillera of the Andes, the Himalayas, Greece"); its mythology "contains great testimonies" | One clause in an enumeration whose point is that *many* traditions testify. The continuity thesis reads the clause as designating deep engagement; the selective-canon alternative reads it as a passing example. This is the claim's soft spot and is recorded as its first revision trigger |
-| `TBWTT-3:213–215` | Classical era (6th–4th c. BCE) | Emissaries among Persians and Greeks for technology transfer (recorded as `woh-claim-0006`) | Chronologically firewalled: cannot support any pre-classical engagement, and is not asked to |
+| `TBWTT-3:214–216` | Classical era (6th–4th c. BCE) | Emissaries among Persians and Greeks for technology transfer (recorded as `woh-claim-0006`) | Chronologically firewalled: cannot support any pre-classical engagement, and is not asked to |
 
 **What the two passages jointly support:** at least two canonically attested
 engagements with Greece, different in kind, centuries apart. **What they do
