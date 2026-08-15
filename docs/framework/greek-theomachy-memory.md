@@ -1,7 +1,7 @@
 ---
 title: Greek theomachy as Council–Serpentine conflict memory
 status: draft
-version: 0.1.0
+version: 0.2.0
 last_reviewed: 2026-08-15
 claim_id: woh-claim-0004
 ---
@@ -55,13 +55,11 @@ The proposition depends on:
 Both dependencies are one-way. Neither foundational claim requires this
 reading.
 
-**Unrecorded dependency.** The Council–Serpentine conflict account itself —
-the political-military narrative running from the Eden disclosure through the
-Flood to the negotiated pardon — is currently corpus prose (the
-`wiki/theomachy.md` and related entries), not a core claim record. This
-record's reading targets that account, so the dependency is real but cannot
-yet be declared in the machine record. Recording the conflict account as a
-claim is a founder-gated decision; a revision trigger tracks the gap.
+**The conflict account** is now recorded as
+[`woh-claim-0008`](council-serpentine-conflict.md), and this record declares
+it as a dependency (the 0.2.0 change): the reading targets that account, and
+must be reassessed if it is revised or retired. The gap this paragraph
+previously tracked is closed.
 
 ## What is being read, and at what level
 

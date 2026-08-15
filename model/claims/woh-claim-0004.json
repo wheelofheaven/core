@@ -3,7 +3,7 @@
   "schema_version": "0.1.0",
   "id": "woh-claim-0004",
   "title": "Greek theomachy as Council–Serpentine conflict memory",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "lifecycle": "draft",
   "statement": "The divine-conflict architecture of the Greek mythological tradition — the succession of heaven, the Titanomachy and the Typhoeus combat, the deliberating divine assembly, divine–human interbreeding, and the punished transfer of civilisational knowledge — preserves, in mythologically transformed shape, cultural memory of the Council–Serpentine conflict among the Elohim, anchored in the canon's naming of Greece as a creator-base region whose mythology contains testimonies.",
   "claim_kind": "interpretation",
@@ -82,7 +82,8 @@
   ],
   "dependencies": [
     "woh-claim-0001",
-    "woh-claim-0003"
+    "woh-claim-0003",
+    "woh-claim-0008"
   ],
   "alternatives": [
     {
@@ -114,7 +115,7 @@
     "The motif inventory proves fully predictable from social structure and cognitive bias, vindicating the structural and projection alternatives.",
     "The reading fails, over time, to predict any textual or material particular that a conventional account does not.",
     "A systematic test of arbitrary particulars across traditions without plausible contact returns negative, or proves impossible to construct.",
-    "The Council–Serpentine conflict account is recorded, revised, or rejected as a core claim; this record currently cites corpus prose for that account and must be rebound when a record exists.",
+    "Claim woh-claim-0008 (the conflict account this reading targets) is revised or retired.",
     "Claim woh-claim-0001 or woh-claim-0003 is revised or retired.",
     "Public prose begins asserting transmission-route claims, individual deity–Eloha mappings, or historicity of the Odyssey's events, all of which this record excludes."
   ],
