@@ -1,12 +1,13 @@
 ---
 title: "RFC 0003: Artifact derivation contract"
-status: draft
+status: accepted
 authors:
   - project founder
   - Claude (drafting agent, at founder direction)
 created: 2026-08-15
 review_until: null
-related_adrs: []
+related_adrs:
+  - ../decisions/0002-artifact-derivation-contract.md
 supersedes: []
 superseded_by: null
 ---
@@ -212,4 +213,7 @@ Grandfathered pages remain valid indefinitely.
 
 ## Resolution
 
-Open.
+Accepted by the project founder on 2026-08-15. Recorded in
+[ADR 0002](../decisions/0002-artifact-derivation-contract.md), which also
+closes RFC 0002 by adoption. The forward pilot in the validation plan is now
+the first implementation step rather than a precondition of acceptance.

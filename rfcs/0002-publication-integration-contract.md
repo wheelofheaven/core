@@ -1,11 +1,12 @@
 ---
 title: "RFC 0002: Publication integration contract"
-status: draft
+status: accepted
 authors:
   - project founder
 created: 2026-08-02
 review_until: null
-related_adrs: []
+related_adrs:
+  - ../decisions/0002-artifact-derivation-contract.md
 supersedes: []
 superseded_by: null
 ---
@@ -142,5 +143,9 @@ change. If accepted, backfill of other pages is a later, separate decision.
 
 ## Resolution
 
-Open. This RFC is a draft pilot; it must not be treated as accepted until the
-project founder decides and an ADR records the decision.
+Accepted by adoption on 2026-08-15:
+[RFC 0003](0003-artifact-derivation-contract.md) incorporates this contract
+unchanged and lifts the single-page pilot restriction, and the founder's
+acceptance of RFC 0003 is recorded in
+[ADR 0002](../decisions/0002-artifact-derivation-contract.md), which closes
+this RFC with it.

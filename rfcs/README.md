@@ -19,3 +19,6 @@ make its proposal an accepted position or validated finding.
 | RFC | Status | Question |
 | --- | --- | --- |
 | [0001](0001-establish-wheel-of-heaven-core.md) | Accepted | Establish a durable research core distinct from publication and operations |
+| [0002](0002-publication-integration-contract.md) | Accepted | Let a public page declare which core claims and versions it renders, with validator drift detection |
+| [0003](0003-artifact-derivation-contract.md) | Accepted | Require new artifacts to derive load-bearing assertions from claim records and declare the binding |
+| [0004](0004-depiction-notes.md) | Accepted | Add depiction notes so visual and scenic artifacts derive from records |

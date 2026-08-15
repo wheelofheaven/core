@@ -1,12 +1,13 @@
 ---
 title: "RFC 0004: Depiction notes"
-status: draft
+status: accepted
 authors:
   - project founder
   - Claude (drafting agent, at founder direction)
 created: 2026-08-15
 review_until: null
-related_adrs: []
+related_adrs:
+  - ../decisions/0003-depiction-notes.md
 supersedes: []
 superseded_by: null
 ---
@@ -168,4 +169,6 @@ the RFC 0003 ratchet).
 
 ## Resolution
 
-Open.
+Accepted by the project founder on 2026-08-15. Recorded in
+[ADR 0003](../decisions/0003-depiction-notes.md). The two pilot notes and
+the validator extension proceed as implementation steps in that order.
