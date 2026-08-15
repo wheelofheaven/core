@@ -22,4 +22,4 @@ make its proposal an accepted position or validated finding.
 | [0002](0002-publication-integration-contract.md) | Accepted | Let a public page declare which core claims and versions it renders, with validator drift detection |
 | [0003](0003-artifact-derivation-contract.md) | Accepted | Require new artifacts to derive load-bearing assertions from claim records and declare the binding |
 | [0004](0004-depiction-notes.md) | Accepted | Add depiction notes so visual and scenic artifacts derive from records |
-| [0005](0005-source-holdings-registry.md) | Draft | Register the source copies the project holds, so access levels and quotation provenance are auditable |
+| [0005](0005-source-holdings-registry.md) | Accepted | Register the source copies the project holds, so access levels and quotation provenance are auditable |

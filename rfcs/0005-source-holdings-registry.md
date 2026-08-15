@@ -1,12 +1,13 @@
 ---
 title: "RFC 0005: Source holdings registry"
-status: draft
+status: accepted
 authors:
   - project founder
   - Claude (drafting agent, at founder direction)
 created: 2026-08-15
 review_until: null
-related_adrs: []
+related_adrs:
+  - ../decisions/0004-source-holdings-registry.md
 supersedes: []
 superseded_by: null
 ---
@@ -271,4 +272,10 @@ unbound page is never an error under RFC 0002.
 
 ## Resolution
 
-Open.
+Accepted by the project founder on 2026-08-15. Recorded in
+[ADR 0004](../decisions/0004-source-holdings-registry.md).
+
+Two items in this RFC are explicitly *not* closed by that acceptance. The
+`data-sources` licensing correction remains a separate founder decision, and
+determining `licensing_status` for the sources that currently carry none is
+follow-on work rather than a precondition.
