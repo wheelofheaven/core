@@ -1,0 +1,81 @@
+{
+  "$schema": "../schemas/claim.schema.json",
+  "schema_version": "0.1.0",
+  "id": "woh-claim-0015",
+  "title": "The Great Return as conditional arrival",
+  "version": "0.1.0",
+  "lifecycle": "draft",
+  "statement": "The canon anticipates an official arrival of the Elohim on Earth — the culminating event its message is oriented toward — and makes it conditional rather than predicted: humanity must want the return, must be sufficiently unified and wise to receive advanced knowledge responsibly, must build the Embassy on extraterritorial ground, and must guarantee the visitors' safety; the anticipation is situated in the contemporary period the canon calls the Apocalypse, coextensive with the Age of Aquarius and opening at the mid-twentieth-century threshold, and the arrival would inaugurate a transfer of knowledge far in advance of humanity's own.",
+  "claim_kind": "interpretation",
+  "framework_relation": "derived",
+  "evidence_status": [
+    "scoped",
+    "contested"
+  ],
+  "public_label": "framework",
+  "scope": {
+    "includes": [
+      "The conditionality, which is load-bearing: the return is contingent on human choices the canon enumerates, so the claim asserts an anticipated conditional event, never a dated prophecy",
+      "The period placement: the Apocalypse read as unveiling-period, coextensive with the Age of Aquarius, opening at the 1945/1946 threshold the canon sets and woh-claim-0003 anchors astronomically",
+      "The content of the anticipated event as the canon states it: official contact, meetings with humanity's representatives, and the knowledge transfer",
+      "The Embassy condition as a pointer to woh-claim-0016, which carries the structure itself"
+    ],
+    "excludes": [
+      "Any date for the arrival; the canon's conditionality forbids date-setting and so does this record",
+      "Any claim that current events confirm or disconfirm the anticipation; the record is about what the canon anticipates, not about news",
+      "Apocalypse as destruction; the record fixes the unveiling sense against the popular one",
+      "The probability of the event, which the corpus does not model"
+    ]
+  },
+  "source_references": [
+    {
+      "source_id": "the-book-which-tells-the-truth",
+      "locator": "'The New Commandments — Your Mission' (the conditions and the embassy instruction); the closing orientation of the message toward the return",
+      "role": "canonical_basis",
+      "access": "project_digitization",
+      "note": "../../source-notes/the-book-which-tells-the-truth.md"
+    },
+    {
+      "source_id": "extraterrestrials-took-me-to-their-planet",
+      "locator": "The second message's elaboration of the reception conditions and the period",
+      "role": "canonical_basis",
+      "access": "project_digitization"
+    },
+    {
+      "source_id": "aliens-adored",
+      "locator": "The academic account of the movement's return-orientation and its sociology",
+      "role": "critical",
+      "access": "metadata_only"
+    }
+  ],
+  "dependencies": [
+    "woh-claim-0001",
+    "woh-claim-0003"
+  ],
+  "alternatives": [
+    {
+      "id": "alt-0015-millenarian-genre",
+      "statement": "The conditional return is standard millenarian structure — a deferred culmination whose conditions explain non-arrival — and the scholarly literature on new religious movements reads it as such."
+    },
+    {
+      "id": "alt-0015-mobilization-device",
+      "statement": "The conditions function as a mobilization device for the movement (build, unify, want), independent of any anticipated event."
+    },
+    {
+      "id": "alt-0015-period-retrofit",
+      "statement": "The Aquarius/Apocalypse placement retrofits an astrological convention onto a twentieth-century founding date."
+    }
+  ],
+  "revision_triggers": [
+    "Claim woh-claim-0001 or woh-claim-0003 is revised or retired.",
+    "The canon's fuller context changes the enumerated conditions or the period placement.",
+    "Public prose begins date-setting or reading news events as confirmation, which this record excludes.",
+    "Claim woh-claim-0016 (the Embassy) is revised in a way that changes the condition structure."
+  ],
+  "controlling_document": "../../docs/framework/great-return-conditional.md",
+  "public_derivatives": [
+    "wheelofheaven/data-content:wiki/great-return.md",
+    "wheelofheaven/data-content:wiki/apocalypse.md"
+  ],
+  "last_reviewed": "2026-08-15"
+}

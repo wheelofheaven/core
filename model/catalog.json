@@ -123,6 +123,56 @@
       "framework_relation": "comparative",
       "record": "claims/woh-claim-0012.json",
       "specification": "../docs/framework/watchers-nephilim-unions.md"
+    },
+    {
+      "id": "woh-claim-0013",
+      "title": "Lucifer and Satan as distinct figures",
+      "version": "0.1.0",
+      "lifecycle": "draft",
+      "claim_kind": "interpretation",
+      "framework_relation": "comparative",
+      "record": "claims/woh-claim-0013.json",
+      "specification": "../docs/framework/lucifer-satan-distinction.md"
+    },
+    {
+      "id": "woh-claim-0014",
+      "title": "Precessional knowledge encoded in myth",
+      "version": "0.1.0",
+      "lifecycle": "draft",
+      "claim_kind": "interpretation",
+      "framework_relation": "comparative",
+      "record": "claims/woh-claim-0014.json",
+      "specification": "../docs/framework/precessional-myth-encoding.md"
+    },
+    {
+      "id": "woh-claim-0015",
+      "title": "The Great Return as conditional arrival",
+      "version": "0.1.0",
+      "lifecycle": "draft",
+      "claim_kind": "interpretation",
+      "framework_relation": "derived",
+      "record": "claims/woh-claim-0015.json",
+      "specification": "../docs/framework/great-return-conditional.md"
+    },
+    {
+      "id": "woh-claim-0016",
+      "title": "The Embassy as the Third Temple",
+      "version": "0.1.0",
+      "lifecycle": "draft",
+      "claim_kind": "interpretation",
+      "framework_relation": "derived",
+      "record": "claims/woh-claim-0016.json",
+      "specification": "../docs/framework/embassy-third-temple.md"
+    },
+    {
+      "id": "woh-claim-0017",
+      "title": "Babel as the pardon expedition and its dispersal",
+      "version": "0.1.0",
+      "lifecycle": "draft",
+      "claim_kind": "interpretation",
+      "framework_relation": "derived",
+      "record": "claims/woh-claim-0017.json",
+      "specification": "../docs/framework/babel-pardon-expedition.md"
     }
   ]
 }

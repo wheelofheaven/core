@@ -1,0 +1,86 @@
+{
+  "$schema": "../schemas/claim.schema.json",
+  "schema_version": "0.1.0",
+  "id": "woh-claim-0014",
+  "title": "Precessional knowledge encoded in myth",
+  "version": "0.1.0",
+  "lifecycle": "draft",
+  "statement": "A recurring family of world myths — the great mill that turns, is unhinged, and is wrecked; the axle askew; the ages that grind on and break — encodes observational knowledge of the precession of the equinoxes in narrative form, carried by tellers who no longer understood the technical content (the Hamlet's Mill thesis); the corpus adopts a bounded version of this reading as the mythological layer of its precessional chronology.",
+  "claim_kind": "interpretation",
+  "framework_relation": "comparative",
+  "evidence_status": [
+    "scoped",
+    "contested"
+  ],
+  "public_label": "inferred",
+  "scope": {
+    "includes": [
+      "The bounded encoding reading: the mill/axle family and cognate age-structure motifs read as carrying precessional content, at the strength the published Explainer states it",
+      "The canonical resonance layer: the canon's cycle symbolism (the emblem as 'infinity in time'; the cycle sign) read alongside the encoding thesis without being fused with it",
+      "The relationship to the chronology: this record supplies the mythological layer that woh-claim-0003 references; the astronomy and the age-lattice live in 0003, not here"
+    ],
+    "excludes": [
+      "The Doubled Signature principle — the corpus's extension beyond Hamlet's Mill — reserved as its own future claim with a speculative label",
+      "Santillana and Dechend's specific etymologies and identifications taken severally; the record adopts the thesis's shape, not its every instance",
+      "Any claim that precession was measured to modern precision in prehistory; encoded observation is not stated precision",
+      "Dating claims; all dating belongs to woh-claim-0003",
+      "The contested ancient-knowledge thesis as settled; the record inherits 0003's 'contested' marking of that layer"
+    ]
+  },
+  "source_references": [
+    {
+      "source_id": "hamlets-mill",
+      "locator": "The whole-work thesis; the mill/axle motif family assembled across traditions. Access remains metadata_only pending inspection — the wantlist carries it, and the published Explainer is the project's close engagement to date",
+      "role": "comparative",
+      "access": "metadata_only"
+    },
+    {
+      "source_id": "the-book-which-tells-the-truth",
+      "locator": "TBWTT-3:305 (the emblem as infinity in time, 'the most ancient symbol'); TBWTT-5:7 (the Gate of the Fish material the Explainer reads)",
+      "role": "canonical_basis",
+      "access": "project_digitization",
+      "note": "../../source-notes/the-book-which-tells-the-truth.md"
+    },
+    {
+      "source_id": "extraterrestrials-took-me-to-their-planet",
+      "locator": "ETTMTTP-2:24 (the cycle sign 'found in numerous ancient writings')",
+      "role": "canonical_basis",
+      "access": "project_digitization"
+    },
+    {
+      "source_id": "myth-and-science-hamlet-s-mill-journal-for-the-history-of-astronomy-3-pp-206-211",
+      "locator": "Journal for the History of Astronomy 3 (1972), pp. 206-211 — the standard scholarly demolition of Hamlet's Mill's method",
+      "role": "critical",
+      "access": "metadata_only"
+    }
+  ],
+  "dependencies": [
+    "woh-claim-0003"
+  ],
+  "alternatives": [
+    {
+      "id": "alt-0014-method-failure",
+      "statement": "Hamlet's Mill's method is unsound — motif-hunting without controls — and the mill family carries no astronomical content (the mainstream review position)."
+    },
+    {
+      "id": "alt-0014-agricultural-symbolism",
+      "statement": "Mill, axle, and turning-sky imagery are agricultural and cosmological symbolism natural to any grain-processing, star-watching culture; no encoded measurement is needed."
+    },
+    {
+      "id": "alt-0014-partial-thesis",
+      "statement": "Some late traditions encode precession after its Hellenistic discovery; the deep-prehistory extension is unsupported."
+    }
+  ],
+  "revision_triggers": [
+    "Claim woh-claim-0003 is revised or retired.",
+    "Inspection of Hamlet's Mill (currently metadata_only) materially changes what the thesis actually claims or how the Explainer represents it.",
+    "The motif family fails a controlled comparative test, vindicating the method-failure alternative.",
+    "Public prose begins asserting prehistoric measurement precision or Doubled Signature content, which this record excludes."
+  ],
+  "controlling_document": "../../docs/framework/precessional-myth-encoding.md",
+  "public_derivatives": [
+    "wheelofheaven/data-content:articles/the-mill-that-grinds-the-ages.md",
+    "wheelofheaven/data-content:wiki/hamlets-mill.md"
+  ],
+  "last_reviewed": "2026-08-15"
+}

@@ -1,0 +1,78 @@
+{
+  "$schema": "../schemas/claim.schema.json",
+  "schema_version": "0.1.0",
+  "id": "woh-claim-0016",
+  "title": "The Embassy as the Third Temple",
+  "version": "0.1.0",
+  "lifecycle": "draft",
+  "statement": "The canon directs the construction of an embassy — a designated physical structure on land granted extraterritorial status — to receive the official arrival of the Elohim and host the inaugural meetings with humanity's representatives, with specifications given in the 1973 contact and elaborated later, a stated first preference for Israel near Jerusalem, and an explicit identification of the embassy with the Third Temple of Jewish expectation; the corpus records that identification as canon-explicit and mainstream-unendorsed.",
+  "claim_kind": "interpretation",
+  "framework_relation": "derived",
+  "evidence_status": [
+    "scoped",
+    "contested"
+  ],
+  "public_label": "framework",
+  "scope": {
+    "includes": [
+      "The directive and its function: reception structure, extraterritorial status, the inaugural meetings — as the condition-structure of the return recorded in woh-claim-0015",
+      "The specification history: given in the 1973 contact, elaborated in later communications, including the stated first preference for Israel near Jerusalem and the subsequent openness to other host countries",
+      "The Third Temple identification, which is canon-explicit: the embassy read as the temple of Jewish apocalyptic expectation — recorded with the comparative discipline that Jewish temple expectation is its own tradition whose irreducible content this identification does not exhaust"
+    ],
+    "excludes": [
+      "Any claim that host-country decisions validate or invalidate the premise",
+      "Architectural or locational detail beyond what the canon states",
+      "Supersession of Jewish temple expectation; the identification maps the canon's structure onto the expectation without claiming to replace the tradition's own meaning",
+      "Timing claims, which belong to woh-claim-0015's conditionality"
+    ]
+  },
+  "source_references": [
+    {
+      "source_id": "the-book-which-tells-the-truth",
+      "locator": "'The New Commandments — Your Mission' (the embassy directive and the Israel preference)",
+      "role": "canonical_basis",
+      "access": "project_digitization",
+      "note": "../../source-notes/the-book-which-tells-the-truth.md"
+    },
+    {
+      "source_id": "extraterrestrials-took-me-to-their-planet",
+      "locator": "The second message's elaboration of the embassy specifications",
+      "role": "canonical_basis",
+      "access": "project_digitization"
+    },
+    {
+      "source_id": "aliens-adored",
+      "locator": "The academic history of the embassy project and its diplomatic efforts",
+      "role": "critical",
+      "access": "metadata_only"
+    }
+  ],
+  "dependencies": [
+    "woh-claim-0001",
+    "woh-claim-0015"
+  ],
+  "alternatives": [
+    {
+      "id": "alt-0016-institutional-anchor",
+      "statement": "The embassy functions as the movement's institutional anchor and legitimacy project; its non-construction is as functional as its construction would be."
+    },
+    {
+      "id": "alt-0016-temple-appropriation",
+      "statement": "The Third Temple identification appropriates a Jewish expectation into a frame its own tradition does not recognize; the mapping tells us about the canon, not about the expectation."
+    },
+    {
+      "id": "alt-0016-diplomatic-impossibility",
+      "statement": "Extraterritorial religious sovereignty of the required kind has no realistic diplomatic path, making the condition-structure unfalsifiable in practice."
+    }
+  ],
+  "revision_triggers": [
+    "Claim woh-claim-0001 or woh-claim-0015 is revised or retired.",
+    "The canon's fuller context changes the specification history or the identification.",
+    "Public prose begins treating host-country news as validation, or presenting the identification as Jewish tradition's own reading, which this record excludes."
+  ],
+  "controlling_document": "../../docs/framework/embassy-third-temple.md",
+  "public_derivatives": [
+    "wheelofheaven/data-content:wiki/embassy.md"
+  ],
+  "last_reviewed": "2026-08-15"
+}

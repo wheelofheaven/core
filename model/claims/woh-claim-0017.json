@@ -1,0 +1,86 @@
+{
+  "$schema": "../schemas/claim.schema.json",
+  "schema_version": "0.1.0",
+  "id": "woh-claim-0017",
+  "title": "Babel as the pardon expedition and its dispersal",
+  "version": "0.1.0",
+  "lifecycle": "draft",
+  "statement": "The Tower of Babel episode (Genesis 11:1-9) is read, per the canon, as a post-flood recovery project: the Eden-lineage survivors, working with the exiled creator faction, rebuilt a technological civilization and constructed a craft to carry a human delegation toward the creators' home world — on the corpus's reading, to seek the Council's pardon rather than to defy it — and the Council's intervention dispersed the project, preserved in the narrative as the confusion of tongues and the scattering.",
+  "claim_kind": "interpretation",
+  "framework_relation": "derived",
+  "evidence_status": [
+    "scoped",
+    "contested"
+  ],
+  "public_label": "framework",
+  "scope": {
+    "includes": [
+      "The event reading, which is canon-explicit: the tower as a craft built by the post-flood survivors with the exiled faction; the Council intervention; the dispersal — an episode within the conflict recorded as woh-claim-0008",
+      "The motive reading, which is inferred and labelled as such inside this record: the expedition as peace-seeking (a pardon delegation) rather than defiance — the corpus's reading of the episode's purpose, going beyond the compressed Genesis narrative",
+      "The memory mapping: 'one language' and its confusion read as the project's unity and its administrative dispersal, at the level of transformed memory, consistent with the discipline of woh-claim-0004"
+    ],
+    "excludes": [
+      "Historical-linguistic claims about actual language diversification; the confusion of tongues is read as memory of dispersal, not as historical linguistics",
+      "Identification of the tower with any particular archaeological site, including Etemenanki, beyond noting the narrative's Babylonian setting",
+      "Any claim that Genesis 11's redactor understood the episode this way; the reading is supplied by the framework",
+      "The pardon's outcome, which belongs to woh-claim-0008's settlement phase"
+    ]
+  },
+  "source_references": [
+    {
+      "source_id": "the-book-which-tells-the-truth",
+      "locator": "Chapters 2-3 (Babel: the post-flood project, the craft, the intervention)",
+      "role": "canonical_basis",
+      "access": "project_digitization",
+      "note": "../../source-notes/the-book-which-tells-the-truth.md"
+    },
+    {
+      "source_id": "genesis",
+      "locator": "GEN-WOH-11:1-9 (one language; the tower with its top in the heavens; the descent, the confusion, the scattering)",
+      "role": "primary_text",
+      "access": "project_digitization"
+    },
+    {
+      "source_id": "westermann-genesis-1-11",
+      "locator": "The critical treatment of Genesis 11:1-9: aetiology of dispersion and language diversity; the city-and-tower tradition",
+      "role": "scholarly_context",
+      "access": "metadata_only"
+    },
+    {
+      "source_id": "enuma-elish",
+      "locator": "The Babylonian temple-tower background (Esagila) against which the narrative's setting reads",
+      "role": "comparative",
+      "access": "metadata_only"
+    }
+  ],
+  "dependencies": [
+    "woh-claim-0001",
+    "woh-claim-0008"
+  ],
+  "alternatives": [
+    {
+      "id": "alt-0017-aetiology",
+      "statement": "Genesis 11:1-9 is an aetiology of language diversity and dispersion with a polemic against Babylonian temple-tower pretension; no project or intervention stands behind it."
+    },
+    {
+      "id": "alt-0017-hubris-tradition",
+      "statement": "The episode belongs to the hubris-and-limit tradition; the defiance reading the corpus rejects is in fact the narrative's own frame."
+    },
+    {
+      "id": "alt-0017-canon-retrofit",
+      "statement": "The craft reading retrofits rocketry onto a ziggurat narrative; the technological frame is supplied entirely by the modern canon."
+    }
+  ],
+  "revision_triggers": [
+    "Claim woh-claim-0001 or woh-claim-0008 is revised or retired.",
+    "Source-language review of GEN-WOH-11 changes the observations the mapping relies on.",
+    "The canon's fuller context complicates the craft reading or the intervention account.",
+    "Public prose begins asserting historical-linguistic content or a site identification, which this record excludes."
+  ],
+  "controlling_document": "../../docs/framework/babel-pardon-expedition.md",
+  "public_derivatives": [
+    "wheelofheaven/data-content:wiki/babel.md",
+    "wheelofheaven/data-content:wiki/tower-of-babel.md"
+  ],
+  "last_reviewed": "2026-08-15"
+}

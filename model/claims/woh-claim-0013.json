@@ -1,0 +1,99 @@
+{
+  "$schema": "../schemas/claim.schema.json",
+  "schema_version": "0.1.0",
+  "id": "woh-claim-0013",
+  "title": "Lucifer and Satan as distinct figures",
+  "version": "0.1.0",
+  "lifecycle": "draft",
+  "statement": "Lucifer and Satan are distinct: biblically, 'Lucifer' renders helel ben shahar, a taunt against the king of Babylon in Isaiah 14 with no Devil in the passage, while ha-satan in Job and Zechariah is a courtroom role in the divine council; their fusion into a single Devil is a datable Second Temple-to-Christian development sealed in the Anglophone imagination by Milton; and in the canon the two are distinct individuals on opposite sides of the conflict — Lucifer the exiled-creator faction leader, Satan the home-world opposition leader.",
+  "claim_kind": "interpretation",
+  "framework_relation": "comparative",
+  "evidence_status": [
+    "scoped",
+    "contested"
+  ],
+  "public_label": "framework",
+  "scope": {
+    "includes": [
+      "The biblical non-identity layer, which is mainstream-supportable: Isaiah 14's helel ben shahar as royal taunt; ha-satan as adversarial court functionary in Job 1-2 and Zechariah 3; the fusion as reception history (Second Temple development through patristic consolidation to Milton)",
+      "The canonical layer, which is framework: Lucifer as leader of the exiled-creator faction (the Eden disclosure and exile), Satan as leader of the home-world opposition that distrusts humanity — two individuals, opposed factions, neither a devil",
+      "The consequence for corpus prose: pages must not merge the two figures, and must not read biblical satan-passages as Lucifer material or vice versa without the record's mapping stated"
+    ],
+    "excludes": [
+      "Lucifer-Satan identity in any layer, which the record exists to deny",
+      "Any claim that the biblical authors knew the canon's two-figure account; the canonical mapping is supplied by the framework",
+      "The theology of a cosmic Devil; the record concerns two named figures and a documented fusion",
+      "Etymological claims beyond the Vulgate rendering history of helel ben shahar"
+    ]
+  },
+  "source_references": [
+    {
+      "source_id": "the-book-which-tells-the-truth",
+      "locator": "Chapters 2-3: the Serpent faction, its Eden disclosure and exile (Lucifer); Satan's opposition role and the Council; Satan and the testing of Job",
+      "role": "canonical_basis",
+      "access": "project_digitization",
+      "note": "../../source-notes/the-book-which-tells-the-truth.md"
+    },
+    {
+      "source_id": "isaiah",
+      "locator": "Isaiah 14:12-15 (helel ben shahar, the taunt against the king of Babylon)",
+      "role": "primary_text",
+      "access": "project_digitization"
+    },
+    {
+      "source_id": "job",
+      "locator": "Job 1-2 (ha-satan among the benei ha-elohim; the commissioned testing)",
+      "role": "primary_text",
+      "access": "project_digitization"
+    },
+    {
+      "source_id": "day-adversary-heaven",
+      "locator": "The adversary role in the heavenly court — the standard treatment of ha-satan as function rather than name",
+      "role": "scholarly_context",
+      "access": "metadata_only"
+    },
+    {
+      "source_id": "pagels-origin-of-satan",
+      "locator": "The social history of Satan's development in the Second Temple and early Christian period",
+      "role": "scholarly_context",
+      "access": "metadata_only"
+    },
+    {
+      "source_id": "forsyth-the-old-enemy",
+      "locator": "The combat-myth genealogy of the Devil figure",
+      "role": "scholarly_context",
+      "access": "metadata_only"
+    }
+  ],
+  "dependencies": [
+    "woh-claim-0001",
+    "woh-claim-0008"
+  ],
+  "alternatives": [
+    {
+      "id": "alt-0013-fusion-as-insight",
+      "statement": "The traditional fusion, though late, tracks a real theological unity in the material; the distinction is antiquarian rather than substantive."
+    },
+    {
+      "id": "alt-0013-neither-refers",
+      "statement": "Both names are literary figures within their own genres (taunt-song; court narrative); neither refers to any individual, so the canon's mapping has nothing to attach to."
+    },
+    {
+      "id": "alt-0013-canon-mapping",
+      "statement": "The canon's two figures and the two biblical figures are independent pairs that the corpus aligns; the alignment is supplied by the framework, not by the texts."
+    }
+  ],
+  "revision_triggers": [
+    "Claim woh-claim-0001 or woh-claim-0008 is revised or retired.",
+    "Source-language review changes the Isaiah 14 or Job 1-2 readings this record relies on.",
+    "Public prose begins merging the figures or reading satan-passages as Lucifer material without the mapping stated, which this record excludes.",
+    "The canon's fuller context complicates the two-figure account."
+  ],
+  "controlling_document": "../../docs/framework/lucifer-satan-distinction.md",
+  "public_derivatives": [
+    "wheelofheaven/data-content:articles/lucifer-and-satan.md",
+    "wheelofheaven/data-content:wiki/lucifer.md",
+    "wheelofheaven/data-content:wiki/satan.md"
+  ],
+  "last_reviewed": "2026-08-15"
+}
