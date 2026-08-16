@@ -1,0 +1,79 @@
+{
+  "$schema": "../schemas/claim.schema.json",
+  "schema_version": "0.1.0",
+  "id": "woh-claim-0023",
+  "title": "Fractal cosmology: the infinite in both directions",
+  "version": "0.1.0",
+  "lifecycle": "draft",
+  "statement": "The canon presents a spatially self-similar cosmos: the stars and planets are the atoms of a larger living being, the atoms of our bodies hold inhabited worlds, and in both directions the structure is infinite — with the compressed physical corollary that time runs inversely to the mass-scale of the form of life; the corpus adopts this picture as the canon's cosmological frame, and keeps the article's dialogue with modern physics as a separate, speculative layer outside this record.",
+  "claim_kind": "interpretation",
+  "framework_relation": "foundational",
+  "evidence_status": [
+    "scoped",
+    "contested"
+  ],
+  "public_label": "framework",
+  "scope": {
+    "includes": [
+      "The canonical picture, which is explicit: scale self-similarity in both directions, delivered twice in the second message and emblematized ('as it is above, so it is below') in the first",
+      "The time-mass corollary as the canon states it, at the canon's level of statement",
+      "The frame function: this is the cosmological premise other corpus developments (macrobiology above all) ride on"
+    ],
+    "excludes": [
+      "The article's engagement with modern physics (scale relativity, hierarchy problem adjacencies), which is its own speculative development and not this record's content",
+      "Any claim that mainstream cosmology supports scale self-similarity; observational cosmology's homogeneity results stand against it and are recorded",
+      "Numerical or dimensional elaboration beyond the canon's statements",
+      "The emblem's history, which is iconography, not cosmology"
+    ]
+  },
+  "source_references": [
+    {
+      "source_id": "extraterrestrials-took-me-to-their-planet",
+      "locator": "The Yahweh-delivered scale passages (the field teaching and the base teaching): stars as atoms of a being, atoms as worlds, 'in both directions, it is infinite'; the time-mass sentence",
+      "role": "canonical_basis",
+      "access": "project_digitization"
+    },
+    {
+      "source_id": "the-book-which-tells-the-truth",
+      "locator": "TBWTT-3:288 (the emblem: 'as it is above, so it is below'); TBWTT-5:57 (the disease-of-the-universe passage the Explainer reads in this frame)",
+      "role": "canonical_basis",
+      "access": "project_digitization",
+      "note": "../../source-notes/the-book-which-tells-the-truth.md"
+    },
+    {
+      "source_id": "the-fractal-geometry-of-nature",
+      "locator": "The mathematical vocabulary of self-similarity the corpus borrows for its name — borrowed as vocabulary, not as endorsement",
+      "role": "scientific_context",
+      "access": "metadata_only"
+    }
+  ],
+  "dependencies": [
+    "woh-claim-0020"
+  ],
+  "alternatives": [
+    {
+      "id": "alt-0023-observational-homogeneity",
+      "statement": "Large-scale structure surveys show the universe transitioning to statistical homogeneity; unbounded self-similarity upward is observationally disfavored."
+    },
+    {
+      "id": "alt-0023-atomism-poetry",
+      "statement": "Worlds-within-atoms is a recurring speculative image (ancient atomism to modern fiction); the canon's version is the genre, not a cosmology."
+    },
+    {
+      "id": "alt-0023-quantum-floor",
+      "statement": "Quantum mechanics gives atoms a structure nothing like planetary systems; the downward direction fails on known physics."
+    }
+  ],
+  "revision_triggers": [
+    "The canon's fuller context changes the scale-picture or the time-mass statement.",
+    "Public prose begins claiming mainstream-physics support, which this record excludes.",
+    "The corpus's physics-dialogue layer produces a result that should be recorded as its own claim.",
+    "Claim woh-claim-0020 is revised in a way that affects the provenance of the scale passages."
+  ],
+  "controlling_document": "../../docs/framework/fractal-cosmology-frame.md",
+  "public_derivatives": [
+    "wheelofheaven/data-content:wiki/fractal-cosmology.md",
+    "wheelofheaven/data-content:articles/the-infinite-in-both-directions.md"
+  ],
+  "last_reviewed": "2026-08-16"
+}

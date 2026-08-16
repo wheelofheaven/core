@@ -1,0 +1,85 @@
+{
+  "$schema": "../schemas/claim.schema.json",
+  "schema_version": "0.1.0",
+  "id": "woh-claim-0021",
+  "title": "The Kabbalah ranking and its Shi'ur Qomah anchor",
+  "version": "0.1.0",
+  "lifecycle": "draft",
+  "statement": "The canon names the Kabbalah 'the book closest to the truth' and cites two stature figures — the creator's height of 236,000 parasangs and heels of 30 million — and both figures are genuinely attested in the Shi'ur Qomah tradition transmitted within the Hekhalot literature; the corpus reads the correspondence as the canon engaging a real and identifiable textual tradition, with the article's light-second gloss recorded as its interpretive development.",
+  "claim_kind": "interpretation",
+  "framework_relation": "comparative",
+  "evidence_status": [
+    "scoped",
+    "contested"
+  ],
+  "public_label": "inferred",
+  "scope": {
+    "includes": [
+      "The canonical statement, which is explicit: the closest-to-truth ranking and the two figures (TBWTT-5:51-54)",
+      "The attestation finding, which is verifiable: both figures exist in the Shi'ur Qomah tradition (the Measure of the Stature), older than the Kabbalah proper and transmitted in the Hekhalot corpus and Sefer Raziel",
+      "The identification of the canon's referent: 'the Kabbalah' as the canon uses it most plausibly designates this tradition-stream, since the cited figures live there",
+      "The corpus development, labelled: the light-second reading of the parasang figures, at the article's inferred strength"
+    ],
+    "excludes": [
+      "Any claim that the Shi'ur Qomah's own tradition intends physical measurement; its reception history (including Maimonidean rejection) is preserved, not overridden",
+      "Kabbalah as a unified book; the canon's phrasing is read toward its identifiable referent, not defended as bibliography",
+      "Numerological extension beyond the two cited figures",
+      "The truth of the ranking, which is canon-internal"
+    ]
+  },
+  "source_references": [
+    {
+      "source_id": "the-book-which-tells-the-truth",
+      "locator": "TBWTT-5:51-54 (the Kabbalah, the two parasang figures, the light-second gloss context; the closest-to-truth clause)",
+      "role": "canonical_basis",
+      "access": "project_digitization",
+      "note": "../../source-notes/the-book-which-tells-the-truth.md"
+    },
+    {
+      "source_id": "shiur-qomah",
+      "locator": "The stature measurements including the 236 myriads figure family and the heel measure the article verifies",
+      "role": "primary_text",
+      "access": "project_digitization"
+    },
+    {
+      "source_id": "the-kabbalah-law-and-mysticism-in-the-jewish-tradition",
+      "locator": "The scholarly frame for the Hekhalot/Shi'ur Qomah transmission",
+      "role": "scholarly_context",
+      "access": "metadata_only"
+    },
+    {
+      "source_id": "idel-kabbalah-new-perspectives",
+      "locator": "The scholarly account of what 'Kabbalah' does and does not cover, against which the referent identification is read",
+      "role": "scholarly_context",
+      "access": "metadata_only"
+    }
+  ],
+  "dependencies": [
+    "woh-claim-0001"
+  ],
+  "alternatives": [
+    {
+      "id": "alt-0021-commonplace-figures",
+      "statement": "The stature figures circulated widely enough in esoteric literature that citing them shows familiarity with popularizations, not engagement with the tradition."
+    },
+    {
+      "id": "alt-0021-anthropomorphic-theology",
+      "statement": "The Shi'ur Qomah's measurements are liturgical-mystical hyperbole about incommensurability; reading them as data inverts their function."
+    },
+    {
+      "id": "alt-0021-gloss-overreach",
+      "statement": "The light-second reading retrofits modern units onto parasangs; the arithmetic coincidence is selection effect."
+    }
+  ],
+  "revision_triggers": [
+    "Claim woh-claim-0001 is revised or retired.",
+    "Textual review of the Shi'ur Qomah attestations changes the verification the record relies on.",
+    "The light-second gloss fails arithmetical or philological re-derivation.",
+    "Public prose begins numerological extension beyond the cited figures, which this record excludes."
+  ],
+  "controlling_document": "../../docs/framework/kabbalah-shiur-qomah-anchor.md",
+  "public_derivatives": [
+    "wheelofheaven/data-content:articles/the-book-closest-to-the-truth.md"
+  ],
+  "last_reviewed": "2026-08-16"
+}

@@ -1,0 +1,72 @@
+{
+  "$schema": "../schemas/claim.schema.json",
+  "schema_version": "0.1.0",
+  "id": "woh-claim-0020",
+  "title": "The contact reports as the canon's provenance",
+  "version": "0.1.0",
+  "lifecycle": "draft",
+  "statement": "The Raelian canon originates in two reported contact events: Claude Vorilhon's reported encounter of December 13, 1973 at the Puy-de-Lassolas crater near Clermont-Ferrand, producing the six-day teaching published as The Book Which Tells the Truth, and the reported second contact of October 7, 1975, producing Extra-Terrestrials Took Me to Their Planet; the reports themselves — as publication history and movement founding — are documented fact, and everything the framework builds stands on these reports as reports.",
+  "claim_kind": "source_report",
+  "framework_relation": "contextual",
+  "evidence_status": [
+    "scoped"
+  ],
+  "public_label": "direct",
+  "scope": {
+    "includes": [
+      "The report layer, which is documented: the dates, the location, the publication sequence, the founding of the movement around the reports — attested by the published books themselves and the academic histories",
+      "The provenance function: the canon's textual basis is these reports; source discipline for every framework claim runs through this fact",
+      "The claim-model consequence, stated in the core's own terms: that a source explicitly reports an event establishes the report, not the event — this record is the corpus's standing instance of that rule applied to its own foundation"
+    ],
+    "excludes": [
+      "The historicity of the reported encounters, which is exactly what this record does not assert; that question belongs to woh-claim-0001 and its evidence discipline",
+      "The content of the messages, carried by the claims that cite them",
+      "Biographical claims about Vorilhon beyond the report-and-publication history",
+      "Any authentication argument from the reports' internal features"
+    ]
+  },
+  "source_references": [
+    {
+      "source_id": "the-book-which-tells-the-truth",
+      "locator": "Chapter 1 (The Encounter: the December 13, 1973 report and the six-day teaching frame)",
+      "role": "canonical_basis",
+      "access": "project_digitization",
+      "note": "../../source-notes/the-book-which-tells-the-truth.md"
+    },
+    {
+      "source_id": "extraterrestrials-took-me-to-their-planet",
+      "locator": "The October 7, 1975 report and the second message's frame",
+      "role": "canonical_basis",
+      "access": "project_digitization"
+    },
+    {
+      "source_id": "aliens-adored",
+      "locator": "The standard academic history of the movement's founding around the contact reports",
+      "role": "scholarly_context",
+      "access": "metadata_only"
+    },
+    {
+      "source_id": "rael-dot-org",
+      "locator": "The movement's own presentation of the contact chronology",
+      "role": "primary_text",
+      "access": "full_text"
+    }
+  ],
+  "dependencies": [],
+  "alternatives": [
+    {
+      "id": "alt-0020-composition-account",
+      "statement": "The messages were composed rather than received; the reports are a literary frame. This alternative contests the encounters, not the reports — which is why the record's scope makes room for it without being touched by it."
+    }
+  ],
+  "revision_triggers": [
+    "Documentary evidence changes the publication or founding chronology this record states.",
+    "Public prose begins citing this record as if it established the encounters rather than the reports, which is the record's one forbidden use."
+  ],
+  "controlling_document": "../../docs/framework/contact-reports-provenance.md",
+  "public_derivatives": [
+    "wheelofheaven/data-content:wiki/rael.md",
+    "wheelofheaven/data-content:articles/the-religion-of-religions.md"
+  ],
+  "last_reviewed": "2026-08-16"
+}

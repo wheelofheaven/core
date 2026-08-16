@@ -1,0 +1,72 @@
+{
+  "$schema": "../schemas/claim.schema.json",
+  "schema_version": "0.1.0",
+  "id": "woh-claim-0027",
+  "title": "The canon's self-description as religion of religions",
+  "version": "0.1.0",
+  "lifecycle": "draft",
+  "statement": "The canon presents itself as an atheist, non-supernatural religion and as the demystified common source-tradition of existing religions — the religion of religions — naming Buddhism, Islam, Mormonism, and others as traditions that testify in their own ways to the same creators; this record carries the self-description as explicit source content, against which the incompatible external classifications (four governments, four headings; the scholars' stacked labels) are registered as reception history.",
+  "claim_kind": "source_report",
+  "framework_relation": "contextual",
+  "evidence_status": [
+    "scoped"
+  ],
+  "public_label": "direct",
+  "scope": {
+    "includes": [
+      "The self-description as the source states it: no supernatural God, mortal plural creators, the message as demystification, the traditions enumerated as testifying (TBWTT-5:54 among the anchors)",
+      "The reception-history layer: the documented incompatible classifications by governments and scholarship, carried as fact about reception",
+      "The function of this record: when corpus prose calls Raelism an atheist religion or the religion of religions, it is quoting the source's self-understanding, and this record is the citation"
+    ],
+    "excludes": [
+      "The adequacy of the self-description as a scholarly category, which the Religion of Religions Explainer argues at its own inferred grade",
+      "Any claim that the enumerated traditions accept the source's account of them; the comparative work lives in the claims that do it (0007, 0011, 0021, 0024)",
+      "Classification disputes' resolution; the record registers them"
+    ]
+  },
+  "source_references": [
+    {
+      "source_id": "the-book-which-tells-the-truth",
+      "locator": "TBWTT-1:53 ('We are men like you'); TBWTT-5:54 (the traditions enumerated); TBWTT-5:66 and the closing self-framing the Explainer assembles",
+      "role": "canonical_basis",
+      "access": "project_digitization",
+      "note": "../../source-notes/the-book-which-tells-the-truth.md"
+    },
+    {
+      "source_id": "aliens-adored",
+      "locator": "The academic classification history",
+      "role": "scholarly_context",
+      "access": "metadata_only"
+    },
+    {
+      "source_id": "ufo-religions",
+      "locator": "The UFO-religion category literature the reception layer registers",
+      "role": "scholarly_context",
+      "access": "metadata_only"
+    }
+  ],
+  "dependencies": [
+    "woh-claim-0020"
+  ],
+  "alternatives": [
+    {
+      "id": "alt-0027-category-instability",
+      "statement": "The incompatible classifications show the self-description does not stabilize a category; 'atheist religion' names a tension, not a genus."
+    },
+    {
+      "id": "alt-0027-rhetorical-positioning",
+      "statement": "The religion-of-religions framing is a legitimation strategy typical of new religious movements claiming seniority over older traditions."
+    }
+  ],
+  "revision_triggers": [
+    "Claim woh-claim-0020 is revised in a way that affects the source basis.",
+    "The canon's fuller context materially changes the self-description.",
+    "Public prose begins citing this record for the adequacy of the category rather than for the self-description, which is the record's one forbidden use."
+  ],
+  "controlling_document": "../../docs/framework/religion-of-religions-self-description.md",
+  "public_derivatives": [
+    "wheelofheaven/data-content:articles/the-religion-of-religions.md",
+    "wheelofheaven/data-content:wiki/raelism.md"
+  ],
+  "last_reviewed": "2026-08-16"
+}

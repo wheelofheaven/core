@@ -1,0 +1,80 @@
+{
+  "$schema": "../schemas/claim.schema.json",
+  "schema_version": "0.1.0",
+  "id": "woh-claim-0019",
+  "title": "The antediluvian civilization",
+  "version": "0.1.0",
+  "lifecycle": "draft",
+  "statement": "The span between the creation and the Flood — the Age of Leo through the Age of Cancer on the corpus's compressed chronology, c. 11,375-6,690 BCE — held a developing human civilization in contact with the exiled creator faction, whose technological development and hybrid lineages are what the Flood decision of woh-claim-0010 was taken against; the biblical genealogies and parallel traditions preserve this span as the antediluvian age.",
+  "claim_kind": "interpretation",
+  "framework_relation": "derived",
+  "evidence_status": [
+    "scoped",
+    "contested"
+  ],
+  "public_label": "framework",
+  "scope": {
+    "includes": [
+      "The span and its dating against the precessional chronology (woh-claim-0003), on the corpus's compressed timeline",
+      "The canonical content: a human population in contact with the exiled faction, the unions and their offspring (woh-claim-0012), and the development the Council judged dangerous",
+      "The memory layer: the Genesis 5 genealogies, the long lifespans read as the canon reads them, and the parallel antediluvian traditions (the Sumerian king list's antediluvian section above all) as transformed memory of the span"
+    ],
+    "excludes": [
+      "Archaeological claims about lost antediluvian material culture; the corpus asserts memory in texts, not strata",
+      "The literal arithmetic of the genealogies as chronology; the corpus's dating comes from woh-claim-0003, not from summing lifespans",
+      "One-to-one identification of named patriarchs with named traditions' antediluvian kings",
+      "The Flood decision itself, carried by woh-claim-0010"
+    ]
+  },
+  "source_references": [
+    {
+      "source_id": "the-book-which-tells-the-truth",
+      "locator": "Chapter 2 (the antediluvian narrative: the population, the exiled faction's involvement, the development preceding the Flood)",
+      "role": "canonical_basis",
+      "access": "project_digitization",
+      "note": "../../source-notes/the-book-which-tells-the-truth.md"
+    },
+    {
+      "source_id": "genesis",
+      "locator": "GEN-WOH-5 (the antediluvian genealogies); 6:1-4 (the unions, carried by woh-claim-0012)",
+      "role": "primary_text",
+      "access": "project_digitization"
+    },
+    {
+      "source_id": "atrahasis",
+      "locator": "The pre-flood narrative frame: the growing population and the disturbance that precedes the decision",
+      "role": "comparative",
+      "access": "project_digitization"
+    }
+  ],
+  "dependencies": [
+    "woh-claim-0001",
+    "woh-claim-0003",
+    "woh-claim-0008"
+  ],
+  "alternatives": [
+    {
+      "id": "alt-0019-genealogical-schema",
+      "statement": "The Genesis 5 genealogies are schematic theology (declining lifespans as declining nearness to creation); they preserve structure, not a span."
+    },
+    {
+      "id": "alt-0019-kinglist-parallel",
+      "statement": "The Sumerian antediluvian king list and Genesis 5 share a literary convention of deep pre-flood time; the convention explains the parallel without a remembered civilization."
+    },
+    {
+      "id": "alt-0019-no-archaeology",
+      "statement": "No archaeological horizon corresponds to a technological civilization in the claimed span; absence at this scale is evidence of absence."
+    }
+  ],
+  "revision_triggers": [
+    "Claim woh-claim-0001, woh-claim-0003, or woh-claim-0008 is revised or retired.",
+    "The Model-C age-lattice reconciliation underlying the corpus's dating is revised.",
+    "Public prose begins asserting archaeological claims or genealogical arithmetic, which this record excludes.",
+    "Source-language review changes the Genesis 5 observations."
+  ],
+  "controlling_document": "../../docs/framework/antediluvian-civilization.md",
+  "public_derivatives": [
+    "wheelofheaven/data-content:wiki/antediluvian.md"
+  ],
+  "last_reviewed": "2026-08-16"
+}

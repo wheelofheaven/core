@@ -1,0 +1,94 @@
+{
+  "$schema": "../schemas/claim.schema.json",
+  "schema_version": "0.1.0",
+  "id": "woh-claim-0022",
+  "title": "The serpent vocabulary as faction memory",
+  "version": "0.1.0",
+  "lifecycle": "draft",
+  "statement": "The Hebrew Bible's serpentine vocabulary cluster — nachash in Genesis 3, the tannin and liwyatan of the prophetic and poetic passages — is read as the memory vocabulary through which the tradition preserves the exiled creator faction: the disclosing figure of Eden and the pursued exiles of the conflict, with the chaos-serpent and wisdom-serpent strands kept distinct; structural convergence with independent modern readings is registered without resting on any etymology, failed etymologies being explicitly severed from the case.",
+  "claim_kind": "interpretation",
+  "framework_relation": "derived",
+  "evidence_status": [
+    "scoped",
+    "contested"
+  ],
+  "public_label": "framework",
+  "scope": {
+    "includes": [
+      "The vocabulary cluster and its distribution: nachash (Genesis 3; Isaiah 27:1), tannin, liwyatan — with the chaos-serpent and wisdom-serpent strands distinguished as the corpus's iconographic work (against Black & Green's verified entries) requires",
+      "The referent reading: the cluster as transformed memory of the Serpentine faction within the conflict recorded as woh-claim-0008",
+      "The methodological discipline the Archdeacon Explainer models: structural convergence between independent readers of the same texts is registered as convergence, and any case resting on a failed etymology is cut loose rather than defended"
+    ],
+    "excludes": [
+      "Etymological arguments connecting serpent vocabulary to the faction; the record asserts referential memory, never derivation",
+      "Uniform reference across every serpent occurrence; inclusion is per-passage editorial work",
+      "The Ugaritic transmission of the Litan formula as a framework claim; the documented cognate is philology's (recorded in the woh-claim-0004 apparatus) and is not contested",
+      "Zoological or symbolic readings as targets; the record engages the scholarly accounts, not straw versions"
+    ]
+  },
+  "source_references": [
+    {
+      "source_id": "the-book-which-tells-the-truth",
+      "locator": "Chapter 2 (the serpent faction, the disclosure, the exile; the dragons material at the Truth chapter's paragraph 22 as the Explainer locates it)",
+      "role": "canonical_basis",
+      "access": "project_digitization",
+      "note": "../../source-notes/the-book-which-tells-the-truth.md"
+    },
+    {
+      "source_id": "genesis",
+      "locator": "GEN-WOH-3 (the nachash narrative)",
+      "role": "primary_text",
+      "access": "project_digitization"
+    },
+    {
+      "source_id": "isaiah",
+      "locator": "Isaiah 27:1 (liwyatan, the fleeing and twisting serpent, the tannin in the sea)",
+      "role": "primary_text",
+      "access": "project_digitization"
+    },
+    {
+      "source_id": "black-green-mesopotamia",
+      "locator": "The chaos-dragon and wisdom-serpent iconography entries the corpus uses to keep the two strands distinct (verified excerpt; see the source note)",
+      "role": "scholarly_context",
+      "access": "excerpt",
+      "note": "../../source-notes/black-green-mesopotamia.md"
+    },
+    {
+      "source_id": "escaping-from-eden",
+      "locator": "The independent modern reading whose structural convergence the Archdeacon Explainer registers — and whose etymological missteps it severs from the case",
+      "role": "comparative",
+      "access": "metadata_only"
+    }
+  ],
+  "dependencies": [
+    "woh-claim-0001",
+    "woh-claim-0008"
+  ],
+  "alternatives": [
+    {
+      "id": "alt-0022-chaoskampf",
+      "statement": "The tannin/liwyatan passages are inherited chaoskampf theology (Gunkel; Day); the vocabulary preserves Canaanite myth, not any faction."
+    },
+    {
+      "id": "alt-0022-wisdom-symbol",
+      "statement": "The Genesis nachash is a wisdom-and-cunning figure within the garden aetiology; symbol, not referent."
+    },
+    {
+      "id": "alt-0022-convergence-artifact",
+      "statement": "Independent readers converging on 'plural powerful ones' reflects the texts' surface features plus a shared modern idiom, not a shared correct referent."
+    }
+  ],
+  "revision_triggers": [
+    "Claim woh-claim-0001 or woh-claim-0008 is revised or retired.",
+    "Source-language review changes the cited passage observations.",
+    "The chaos/wisdom strand distinction fails against further iconographic verification.",
+    "Public prose begins resting the case on etymology, which this record excludes."
+  ],
+  "controlling_document": "../../docs/framework/serpent-vocabulary-referent.md",
+  "public_derivatives": [
+    "wheelofheaven/data-content:wiki/serpent.md",
+    "wheelofheaven/data-content:wiki/dragons.md",
+    "wheelofheaven/data-content:articles/the-archdeacon-and-the-dragon.md"
+  ],
+  "last_reviewed": "2026-08-16"
+}

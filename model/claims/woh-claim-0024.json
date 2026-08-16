@@ -1,0 +1,85 @@
+{
+  "$schema": "../schemas/claim.schema.json",
+  "schema_version": "0.1.0",
+  "id": "woh-claim-0024",
+  "title": "The early-qibla convergence on Petra",
+  "version": "0.1.0",
+  "lifecycle": "draft",
+  "statement": "On Gibson's survey, the qibla walls of the earliest datable mosques point toward Petra rather than Mecca for roughly the first Islamic century, and this sits within a convergence the corpus registers — Mecca's absence from Ptolemy's Arabia, the earliest Ka'ba descriptions, the tradition's own memory of a qibla change — read alongside the canon's account of Abraham as a recruited figure of the recovery; the corpus deliberately preserves the tension between this reading and the traditional Hijaz account rather than resolving it.",
+  "claim_kind": "interpretation",
+  "framework_relation": "comparative",
+  "evidence_status": [
+    "scoped",
+    "contested"
+  ],
+  "public_label": "speculative",
+  "scope": {
+    "includes": [
+      "The survey layer at its own strength: Gibson's early-qibla orientations and the scholarly dispute over their measurement and interpretation, with the critical literature carried in full",
+      "The convergence items the Explainer assembles, each at its own grade: the Ptolemy absence, the early Ka'ba descriptions, the tradition's qibla-change memory",
+      "The canon layer: Abraham as tested, recruited figure of the recovery — the angle that makes this a Wheel reading rather than a geography dispute",
+      "The preserved tension: the corpus's Petra reading and its Hijaz-tradition material stand in deliberate, recorded tension; neither overwrites the other"
+    ],
+    "excludes": [
+      "Any settled relocation claim; the record registers a convergence and a dispute, not a conclusion",
+      "Polemic against Islamic tradition; the tradition's own accounts are engaged in their own voice",
+      "The canon as evidence for Gibson or Gibson as evidence for the canon; the layers are kept from laundering each other",
+      "Navigational-accuracy arguments beyond what the cited surveys actually measured"
+    ]
+  },
+  "source_references": [
+    {
+      "source_id": "the-book-which-tells-the-truth",
+      "locator": "'The Truth' chapter, the Sacrifice of Abraham section (Abraham as tested, recruited figure)",
+      "role": "canonical_basis",
+      "access": "project_digitization",
+      "note": "../../source-notes/the-book-which-tells-the-truth.md"
+    },
+    {
+      "source_id": "early-islamic-qiblas",
+      "locator": "Gibson's survey of the earliest datable mosque orientations",
+      "role": "comparative",
+      "access": "metadata_only"
+    },
+    {
+      "source_id": "qibla-accuracy-schumm-goldstein",
+      "locator": "The measurement-accuracy critique of qibla-orientation arguments — the standing methodological objection",
+      "role": "critical",
+      "access": "metadata_only"
+    },
+    {
+      "source_id": "the-qur-an",
+      "locator": "The qibla-change passages (Q 2:142-150) the tradition itself preserves",
+      "role": "primary_text",
+      "access": "project_digitization"
+    }
+  ],
+  "dependencies": [
+    "woh-claim-0001"
+  ],
+  "alternatives": [
+    {
+      "id": "alt-0024-measurement",
+      "statement": "Early builders lacked precise geodesy; orientation scatter reflects method, not target — the Schumm-Goldstein line, on which the Petra pattern dissolves."
+    },
+    {
+      "id": "alt-0024-tradition-suffices",
+      "statement": "The tradition's own account of the qibla change (Jerusalem to Mecca) explains the orientation memory without any second sanctuary."
+    },
+    {
+      "id": "alt-0024-revisionist-overreach",
+      "statement": "The convergence assembles items of very different quality; Ptolemy's silence and late descriptions cannot carry a relocation thesis."
+    }
+  ],
+  "revision_triggers": [
+    "Claim woh-claim-0001 is revised or retired.",
+    "New orientation surveys or datings materially change the Gibson layer in either direction.",
+    "Public prose begins asserting a settled relocation or dissolving the preserved Hijaz tension, both of which this record excludes.",
+    "The canon layer's Abraham reading is revised by fuller canonical context."
+  ],
+  "controlling_document": "../../docs/framework/early-qibla-convergence.md",
+  "public_derivatives": [
+    "wheelofheaven/data-content:articles/the-first-mosques-faced-petra-not-mecca.md"
+  ],
+  "last_reviewed": "2026-08-16"
+}

@@ -1,0 +1,73 @@
+{
+  "$schema": "../schemas/claim.schema.json",
+  "schema_version": "0.1.0",
+  "id": "woh-claim-0026",
+  "title": "The Year One unsealing reading",
+  "version": "0.1.0",
+  "lifecycle": "draft",
+  "statement": "The Dead Sea Scrolls came to light in the winter of 1946/47 — the first year of the era the canon counts from the 1945/1946 threshold — and the corpus reads the timing as an instance of the Apocalypse-as-unveiling: the oldest biblical manuscripts surfacing in the opening year of the period the canon designates for the uncovering of what was concealed; the reading is synthesis on a coincidence of dates, labelled speculative, with the discovery history itself carried at documentary strength.",
+  "claim_kind": "interpretation",
+  "framework_relation": "derived",
+  "evidence_status": [
+    "scoped",
+    "contested"
+  ],
+  "public_label": "speculative",
+  "scope": {
+    "includes": [
+      "The documentary layer at full strength: the discovery chronology (winter 1946/47), the acquisition and authentication history the Explainer narrates, and the scholarly dating of the manuscripts",
+      "The calendrical fact: the canon's era opens at the 1945/1946 threshold, so the discovery falls in its first year",
+      "The unveiling reading, labelled speculative: the timing read as an instance of the Apocalypse-as-unveiling recorded in woh-claim-0015 — a meaningful surfacing, not an asserted intervention"
+    ],
+    "excludes": [
+      "Any causal or intervention claim about the discovery; the record reads a timing, and says so",
+      "Extension to other discoveries by date-matching; each candidate instance would need its own record",
+      "The Scrolls' content readings, which belong to the corpus's textual work, not to this timing claim",
+      "Probability arguments; the corpus does not model the coincidence"
+    ]
+  },
+  "source_references": [
+    {
+      "source_id": "the-book-which-tells-the-truth",
+      "locator": "TBWTT-1:47 (chosen after the first atomic explosion of 1945); TBWTT-5:1 ('1946, year 1 of the new era'); TBWTT-5:7 (the Fish Gate / Aquarius material)",
+      "role": "canonical_basis",
+      "access": "project_digitization",
+      "note": "../../source-notes/the-book-which-tells-the-truth.md"
+    },
+    {
+      "source_id": "vermes-dead-sea-scrolls",
+      "locator": "The standard account of the discovery, acquisition, and dating",
+      "role": "scholarly_context",
+      "access": "metadata_only"
+    }
+  ],
+  "dependencies": [
+    "woh-claim-0015"
+  ],
+  "alternatives": [
+    {
+      "id": "alt-0026-coincidence",
+      "statement": "A century of Near Eastern archaeology produces discoveries every year; selecting the one that lands on the era's first year is textbook selection effect."
+    },
+    {
+      "id": "alt-0026-era-retrofit",
+      "statement": "The era's threshold was announced decades after the discovery; the alignment is constructed backwards and could not have failed."
+    },
+    {
+      "id": "alt-0026-date-fuzziness",
+      "statement": "The discovery's own dating (late 1946 versus early 1947, and the era's 1945/1946/1950 boundary questions) gives the alignment more play than the reading admits."
+    }
+  ],
+  "revision_triggers": [
+    "Claim woh-claim-0015 is revised or retired.",
+    "Documentary revision of the discovery chronology changes the calendrical fact.",
+    "Public prose begins asserting intervention or extending the pattern by date-matching, which this record excludes.",
+    "The boundary-reconciliation underlying the era's opening (recorded in the 0003 apparatus) is revised."
+  ],
+  "controlling_document": "../../docs/framework/year-one-unsealing.md",
+  "public_derivatives": [
+    "wheelofheaven/data-content:articles/the-scrolls-that-woke-in-year-one.md",
+    "wheelofheaven/data-content:articles/unsealed-in-year-one.md"
+  ],
+  "last_reviewed": "2026-08-16"
+}

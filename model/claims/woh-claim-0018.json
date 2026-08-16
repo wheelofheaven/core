@@ -1,0 +1,79 @@
+{
+  "$schema": "../schemas/claim.schema.json",
+  "schema_version": "0.1.0",
+  "id": "woh-claim-0018",
+  "title": "Eden as the Israel team's operational territory",
+  "version": "0.1.0",
+  "lifecycle": "draft",
+  "statement": "Eden is read, per the canon, as the operational territory of the Israel team of Elohim creators — the site of the biological-synthesis work that produced the first humans, of the disclosure episode, and of the expulsion that follows it; the corpus's placement of that territory on the antediluvian supercontinent is a geographical inference riding on the canonical reading and labelled as such.",
+  "claim_kind": "interpretation",
+  "framework_relation": "derived",
+  "evidence_status": [
+    "scoped",
+    "contested"
+  ],
+  "public_label": "framework",
+  "scope": {
+    "includes": [
+      "The canonical layer: Eden as the creation team's laboratory territory and garden, the scientific books of the disclosure episode, and the expulsion — the events the canon narrates in its Genesis reading",
+      "The conflict placement: the disclosure and expulsion as the opening episode of the conflict recorded as woh-claim-0008",
+      "The geographical layer, inferred and labelled: the territory placed on the antediluvian supercontinent of the corpus's reconstruction, going beyond what the canon states"
+    ],
+    "excludes": [
+      "Identification of Eden with any modern location or archaeological site",
+      "The rivers geography of Genesis 2 as a solvable map; the corpus does not perform that identification",
+      "Any claim that the Genesis redactor understood the laboratory reading",
+      "The expulsion's aftermath, which belongs to woh-claim-0008's arc"
+    ]
+  },
+  "source_references": [
+    {
+      "source_id": "the-book-which-tells-the-truth",
+      "locator": "Chapter 2 (Eden, the scientific books, the serpent faction and its exile — the sequence the Archdeacon Explainer locates at paragraphs 28-39)",
+      "role": "canonical_basis",
+      "access": "project_digitization",
+      "note": "../../source-notes/the-book-which-tells-the-truth.md"
+    },
+    {
+      "source_id": "genesis",
+      "locator": "GEN-WOH-2:8-17 (the garden and the trees); 3:1-24 (the disclosure narrative and the expulsion)",
+      "role": "primary_text",
+      "access": "project_digitization"
+    },
+    {
+      "source_id": "westermann-genesis-1-11",
+      "locator": "The critical treatment of the garden narrative and its ancient Near Eastern background",
+      "role": "scholarly_context",
+      "access": "metadata_only"
+    }
+  ],
+  "dependencies": [
+    "woh-claim-0001",
+    "woh-claim-0008"
+  ],
+  "alternatives": [
+    {
+      "id": "alt-0018-mythic-garden",
+      "statement": "The garden narrative is a wisdom-and-mortality aetiology within ancient Near Eastern garden-of-god tradition; no site or team stands behind it."
+    },
+    {
+      "id": "alt-0018-mesopotamian-setting",
+      "statement": "The rivers geography points to a literary Mesopotamian setting, which explains the narrative's furniture without any operational territory."
+    },
+    {
+      "id": "alt-0018-supercontinent-overreach",
+      "statement": "The supercontinent placement stacks a corpus reconstruction on a canonical reading; the geographical layer should be retired even if the canonical layer stands."
+    }
+  ],
+  "revision_triggers": [
+    "Claim woh-claim-0001 or woh-claim-0008 is revised or retired.",
+    "Source-language review of GEN-WOH-2-3 changes the observations the reading relies on.",
+    "The supercontinent reconstruction is revised, requiring the geographical layer to move with it or detach.",
+    "Public prose begins identifying Eden with a modern location, which this record excludes."
+  ],
+  "controlling_document": "../../docs/framework/eden-operational-territory.md",
+  "public_derivatives": [
+    "wheelofheaven/data-content:wiki/eden.md"
+  ],
+  "last_reviewed": "2026-08-16"
+}

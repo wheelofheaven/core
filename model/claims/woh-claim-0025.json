@@ -1,0 +1,85 @@
+{
+  "$schema": "../schemas/claim.schema.json",
+  "schema_version": "0.1.0",
+  "id": "woh-claim-0025",
+  "title": "Macrobiology: humanity as organism one scale up",
+  "version": "0.1.0",
+  "lifecycle": "draft",
+  "statement": "Taking literally the canon's axioms that everything in the universe is living — the Earth like all planets — and that each human is like a cell of the great being in gestation that is Humanity, the corpus proposes macrobiology: the study of living systems composed of biological individuals, one scale above the organism, as microbiology studies the scale below the cell; the proposal is a model built on the canon's fractal-scale frame, and its dialogue with superorganism, major-transitions, Gaia, and noosphere literatures is registered as engagement, not as endorsement by those literatures.",
+  "claim_kind": "model",
+  "framework_relation": "derived",
+  "evidence_status": [
+    "scoped",
+    "contested"
+  ],
+  "public_label": "speculative",
+  "scope": {
+    "includes": [
+      "The canonical axioms taken literally: the living Earth and planets; humanity as great being in gestation; the Elohim's stated ability to read a civilization's development as an embryologist reads a foetus",
+      "The discipline proposal as a model: named object of study, scale relation to existing biology, and the predictive framing the canon itself supplies",
+      "The engagement layer: superorganism and major-transitions biology, Gaia, biosphere and noosphere literatures — read as adjacent vocabularies the proposal converses with, each preserved in its own terms"
+    ],
+    "excludes": [
+      "Any claim that mainstream biology recognizes humanity or Earth as an organism; the adjacent literatures stop short of the canon's axiom and the record says so",
+      "Vitalist metaphysics; the canon's 'living' is taken at the canon's level of statement, not elaborated into a theory of life",
+      "Predictions of specific civilizational outcomes; the framing licenses a discipline, not forecasts",
+      "The physics of the scale frame, which is woh-claim-0023's content"
+    ]
+  },
+  "source_references": [
+    {
+      "source_id": "extraterrestrials-took-me-to-their-planet",
+      "locator": "The cell-of-the-great-being passage and the embryologist analogy (the Shape of Humanity Explainer's anchor); the living-universe axioms",
+      "role": "canonical_basis",
+      "access": "project_digitization"
+    },
+    {
+      "source_id": "the-book-which-tells-the-truth",
+      "locator": "The living-Earth statements the macrobiology entry quotes",
+      "role": "canonical_basis",
+      "access": "project_digitization",
+      "note": "../../source-notes/the-book-which-tells-the-truth.md"
+    },
+    {
+      "source_id": "the-biosphere-the-living-envelope-of-the-earth-as-a-geological-force-the-groundw",
+      "locator": "Vernadsky's biosphere as the nearest scientific ancestor-vocabulary",
+      "role": "scientific_context",
+      "access": "metadata_only"
+    },
+    {
+      "source_id": "scale-the-universal-laws-of-growth-innovation-sustainability-and-the-pace-of-lif",
+      "locator": "The scaling-laws literature the proposal's quantitative side would have to answer to",
+      "role": "scientific_context",
+      "access": "metadata_only"
+    }
+  ],
+  "dependencies": [
+    "woh-claim-0023"
+  ],
+  "alternatives": [
+    {
+      "id": "alt-0025-metaphor",
+      "statement": "The cell-of-humanity image is moral pedagogy, not ontology; building a discipline on it mistakes an exhortation for an axiom."
+    },
+    {
+      "id": "alt-0025-existing-fields",
+      "statement": "Everything defensible in the proposal is already covered by ecology, earth-system science, and collective-behavior research; the new name adds commitment, not content."
+    },
+    {
+      "id": "alt-0025-individuality-criteria",
+      "statement": "Biological individuality has criteria (reproduction, selection, boundaries) that humanity-as-organism fails; the major-transitions literature the corpus cites actually cuts against the axiom."
+    }
+  ],
+  "revision_triggers": [
+    "Claim woh-claim-0023 is revised or retired.",
+    "The canon's fuller context changes the axioms' level of statement.",
+    "The proposal produces a testable claim, which should then be recorded separately at its own grade.",
+    "Public prose begins asserting mainstream recognition or specific forecasts, which this record excludes."
+  ],
+  "controlling_document": "../../docs/framework/macrobiology-proposal.md",
+  "public_derivatives": [
+    "wheelofheaven/data-content:wiki/macrobiology.md",
+    "wheelofheaven/data-content:articles/the-shape-of-humanity.md"
+  ],
+  "last_reviewed": "2026-08-16"
+}

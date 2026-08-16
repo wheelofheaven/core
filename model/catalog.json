@@ -2,7 +2,7 @@
   "$schema": "./schemas/catalog.schema.json",
   "catalog_version": "0.1.0",
   "status": "draft",
-  "last_reviewed": "2026-08-15",
+  "last_reviewed": "2026-08-16",
   "claims": [
     {
       "id": "woh-claim-0001",
@@ -173,6 +173,106 @@
       "framework_relation": "derived",
       "record": "claims/woh-claim-0017.json",
       "specification": "../docs/framework/babel-pardon-expedition.md"
+    },
+    {
+      "id": "woh-claim-0018",
+      "title": "Eden as the Israel team's operational territory",
+      "version": "0.1.0",
+      "lifecycle": "draft",
+      "claim_kind": "interpretation",
+      "framework_relation": "derived",
+      "record": "claims/woh-claim-0018.json",
+      "specification": "../docs/framework/eden-operational-territory.md"
+    },
+    {
+      "id": "woh-claim-0019",
+      "title": "The antediluvian civilization",
+      "version": "0.1.0",
+      "lifecycle": "draft",
+      "claim_kind": "interpretation",
+      "framework_relation": "derived",
+      "record": "claims/woh-claim-0019.json",
+      "specification": "../docs/framework/antediluvian-civilization.md"
+    },
+    {
+      "id": "woh-claim-0020",
+      "title": "The contact reports as the canon's provenance",
+      "version": "0.1.0",
+      "lifecycle": "draft",
+      "claim_kind": "source_report",
+      "framework_relation": "contextual",
+      "record": "claims/woh-claim-0020.json",
+      "specification": "../docs/framework/contact-reports-provenance.md"
+    },
+    {
+      "id": "woh-claim-0021",
+      "title": "The Kabbalah ranking and its Shi'ur Qomah anchor",
+      "version": "0.1.0",
+      "lifecycle": "draft",
+      "claim_kind": "interpretation",
+      "framework_relation": "comparative",
+      "record": "claims/woh-claim-0021.json",
+      "specification": "../docs/framework/kabbalah-shiur-qomah-anchor.md"
+    },
+    {
+      "id": "woh-claim-0022",
+      "title": "The serpent vocabulary as faction memory",
+      "version": "0.1.0",
+      "lifecycle": "draft",
+      "claim_kind": "interpretation",
+      "framework_relation": "derived",
+      "record": "claims/woh-claim-0022.json",
+      "specification": "../docs/framework/serpent-vocabulary-referent.md"
+    },
+    {
+      "id": "woh-claim-0023",
+      "title": "Fractal cosmology: the infinite in both directions",
+      "version": "0.1.0",
+      "lifecycle": "draft",
+      "claim_kind": "interpretation",
+      "framework_relation": "foundational",
+      "record": "claims/woh-claim-0023.json",
+      "specification": "../docs/framework/fractal-cosmology-frame.md"
+    },
+    {
+      "id": "woh-claim-0024",
+      "title": "The early-qibla convergence on Petra",
+      "version": "0.1.0",
+      "lifecycle": "draft",
+      "claim_kind": "interpretation",
+      "framework_relation": "comparative",
+      "record": "claims/woh-claim-0024.json",
+      "specification": "../docs/framework/early-qibla-convergence.md"
+    },
+    {
+      "id": "woh-claim-0025",
+      "title": "Macrobiology: humanity as organism one scale up",
+      "version": "0.1.0",
+      "lifecycle": "draft",
+      "claim_kind": "model",
+      "framework_relation": "derived",
+      "record": "claims/woh-claim-0025.json",
+      "specification": "../docs/framework/macrobiology-proposal.md"
+    },
+    {
+      "id": "woh-claim-0026",
+      "title": "The Year One unsealing reading",
+      "version": "0.1.0",
+      "lifecycle": "draft",
+      "claim_kind": "interpretation",
+      "framework_relation": "derived",
+      "record": "claims/woh-claim-0026.json",
+      "specification": "../docs/framework/year-one-unsealing.md"
+    },
+    {
+      "id": "woh-claim-0027",
+      "title": "The canon's self-description as religion of religions",
+      "version": "0.1.0",
+      "lifecycle": "draft",
+      "claim_kind": "source_report",
+      "framework_relation": "contextual",
+      "record": "claims/woh-claim-0027.json",
+      "specification": "../docs/framework/religion-of-religions-self-description.md"
     }
   ]
 }
