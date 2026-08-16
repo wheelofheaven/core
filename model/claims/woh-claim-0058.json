@@ -1,0 +1,84 @@
+{
+  "$schema": "../schemas/claim.schema.json",
+  "schema_version": "0.1.0",
+  "id": "woh-claim-0058",
+  "title": "The monument-attribution posture",
+  "version": "0.1.0",
+  "lifecycle": "draft",
+  "statement": "The corpus's posture toward the alternative-archaeology complex — lost-builder attributions, monument redatings, astronomical-alignment theses (the Orion correlation and the Sphinx redating as the strongest cases), and sacred-geometry readings — is per-site registration at each thesis's own grade, with mainstream archaeology's accounts and the skeptical archaeoastronomy controls carried in full; no site or alignment is evidence for the framework, whose chronology (woh-claim-0003) stands on its own anchors and leans on no redating.",
+  "claim_kind": "interpretation",
+  "framework_relation": "contextual",
+  "evidence_status": [
+    "scoped",
+    "contested"
+  ],
+  "public_label": "inferred",
+  "scope": {
+    "includes": [
+      "Per-site discipline: each thesis carried at its own grade in its own entry (the Orion correlation and Sphinx redating as inferred registrations of external theses; lost-builder generalizations and sacred-geometry as speculative), never merged into one 'ancient mysteries' mass",
+      "The controls carried in full: mainstream archaeology's dating and construction accounts, and the skeptical archaeoastronomy literature (Krupp's critiques above all), preserved at strength on every site",
+      "The independence declaration, which is the posture's point: the corpus's chronology stands on the precessional anchors of woh-claim-0003 and would survive the failure of every thesis in this cluster",
+      "Where a thesis touches the corpus's age-lattice (a Leo-era monument reading), the touch is registered as consonance, never as support"
+    ],
+    "excludes": [
+      "Any site, alignment, or redating as evidence for the framework",
+      "Endorsement of the alternative-archaeology genre's methods or its lost-civilization narratives",
+      "Construction-impossibility arguments, which the corpus does not make",
+      "Adjudication of ongoing excavation disputes; the entries register, the diggers decide"
+    ]
+  },
+  "source_references": [
+    {
+      "source_id": "the-orion-mystery-precession-as-a-sort-of-star-clock-for-our-planet-the-shaft-da",
+      "locator": "The correlation thesis at its own strength",
+      "role": "comparative",
+      "access": "metadata_only"
+    },
+    {
+      "source_id": "redating-the-great-sphinx-of-giza",
+      "locator": "The weathering-based redating case",
+      "role": "comparative",
+      "access": "metadata_only"
+    },
+    {
+      "source_id": "krupp-echoes-ancient-skies",
+      "locator": "The skeptical archaeoastronomy control carried against the alignment theses",
+      "role": "critical",
+      "access": "metadata_only"
+    },
+    {
+      "source_id": "the-book-which-tells-the-truth",
+      "locator": "The canon's own monument references, at the canon's level, which the posture keeps separate from the external theses",
+      "role": "canonical_basis",
+      "access": "project_digitization",
+      "note": "../../source-notes/the-book-which-tells-the-truth.md"
+    }
+  ],
+  "dependencies": [
+    "woh-claim-0003"
+  ],
+  "alternatives": [
+    {
+      "id": "alt-0058-genre-gravity",
+      "statement": "Registering the genre's strongest cases at inferred grade still lends them the corpus's platform; distance-with-coverage is coverage."
+    },
+    {
+      "id": "alt-0058-mainstream-sufficiency",
+      "statement": "Mainstream archaeology's accounts are complete; the cluster deserves no registration at all, and carrying it reflects audience appetite rather than evidential judgment."
+    }
+  ],
+  "revision_triggers": [
+    "Claim woh-claim-0003 is revised or retired.",
+    "A registered thesis is decisively resolved in either direction — the entry moves, and consonance claims move with it.",
+    "Public prose begins citing a site as support or making construction-impossibility arguments, both of which this record excludes."
+  ],
+  "controlling_document": "../../docs/framework/monument-attribution-posture.md",
+  "public_derivatives": [
+    "wheelofheaven/data-content:wiki/ancient-builders.md",
+    "wheelofheaven/data-content:wiki/orion-correlation.md",
+    "wheelofheaven/data-content:wiki/great-sphinx.md",
+    "wheelofheaven/data-content:wiki/gobekli-tepe.md",
+    "wheelofheaven/data-content:wiki/sacred-geometry.md"
+  ],
+  "last_reviewed": "2026-08-16"
+}

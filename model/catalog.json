@@ -533,6 +533,56 @@
       "framework_relation": "derived",
       "record": "claims/woh-claim-0053.json",
       "specification": "../docs/framework/hebrew-bible-historical-record.md"
+    },
+    {
+      "id": "woh-claim-0054",
+      "title": "The bounded prophetology and its census discipline",
+      "version": "0.1.0",
+      "lifecycle": "draft",
+      "claim_kind": "interpretation",
+      "framework_relation": "derived",
+      "record": "claims/woh-claim-0054.json",
+      "specification": "../docs/framework/bounded-prophetology-census.md"
+    },
+    {
+      "id": "woh-claim-0055",
+      "title": "The post-scarcity lineage convergence",
+      "version": "0.1.0",
+      "lifecycle": "draft",
+      "claim_kind": "interpretation",
+      "framework_relation": "contextual",
+      "record": "claims/woh-claim-0055.json",
+      "specification": "../docs/framework/post-scarcity-lineage.md"
+    },
+    {
+      "id": "woh-claim-0056",
+      "title": "The motif inventory as evidence surface",
+      "version": "0.1.0",
+      "lifecycle": "draft",
+      "claim_kind": "interpretation",
+      "framework_relation": "contextual",
+      "record": "claims/woh-claim-0056.json",
+      "specification": "../docs/framework/motif-inventory-surface.md"
+    },
+    {
+      "id": "woh-claim-0057",
+      "title": "The UAP-era reception posture",
+      "version": "0.1.0",
+      "lifecycle": "draft",
+      "claim_kind": "interpretation",
+      "framework_relation": "contextual",
+      "record": "claims/woh-claim-0057.json",
+      "specification": "../docs/framework/uap-reception-posture.md"
+    },
+    {
+      "id": "woh-claim-0058",
+      "title": "The monument-attribution posture",
+      "version": "0.1.0",
+      "lifecycle": "draft",
+      "claim_kind": "interpretation",
+      "framework_relation": "contextual",
+      "record": "claims/woh-claim-0058.json",
+      "specification": "../docs/framework/monument-attribution-posture.md"
     }
   ]
 }

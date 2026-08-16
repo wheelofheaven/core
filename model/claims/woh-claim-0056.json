@@ -1,0 +1,67 @@
+{
+  "$schema": "../schemas/claim.schema.json",
+  "schema_version": "0.1.0",
+  "id": "woh-claim-0056",
+  "title": "The motif inventory as evidence surface",
+  "version": "0.1.0",
+  "lifecycle": "draft",
+  "statement": "The corpus adopts the folkloristic motif inventory — Thompson's Motif-Index as its principal instrument — as the neutral evidence surface on which its cross-cultural convergence claims must eventually be run: the systematic, controlled testing that the revision triggers of the memory-reading claims (0004, 0008 above all) call for has its infrastructure here, and reading the instrument itself — what a complete catalogue of the race's narrative content shows and refuses to say — is the corpus's speculative step beyond the cataloguer's own principled silence.",
+  "claim_kind": "interpretation",
+  "framework_relation": "contextual",
+  "evidence_status": [
+    "scoped",
+    "contested"
+  ],
+  "public_label": "speculative",
+  "scope": {
+    "includes": [
+      "The instrument adoption: the Motif-Index (and the mytheme apparatus generally) as the neutral surface for any systematic convergence test — the arbitrary-particulars and contact-free-tradition tests the memory claims' triggers demand",
+      "The neutrality condition, which is the adoption's whole value: the instrument was built refusing interpretation, which is exactly why results run on it can bind both ways",
+      "The reading of the instrument, speculative and labelled: what the catalogue's structure itself suggests, at the Filing Cabinet Explainer's strength and no further"
+    ],
+    "excludes": [
+      "Any claim that the inventory's existence or structure evidences the framework; the surface is where tests run, not a result",
+      "Motif-counting as argument; the independence-of-evidence principle (repeated instances of one stream are one datum) binds every use",
+      "Replacement of the per-claim evidence maps; the instrument serves tests, and results flow to the claims they test",
+      "The cataloguer's enlistment; Thompson's principled silence is preserved as his position"
+    ]
+  },
+  "source_references": [
+    {
+      "source_id": "the-book-which-tells-the-truth",
+      "locator": "The canon's testimony framing that makes a neutral cross-cultural instrument valuable to the corpus at all",
+      "role": "canonical_basis",
+      "access": "project_digitization",
+      "note": "../../source-notes/the-book-which-tells-the-truth.md"
+    },
+    {
+      "source_id": "the-structural-study-of-myth-journal-of-american-folklore-68-the-mytheme-the-riv",
+      "locator": "The structuralist reading of motif patterns — the standing account of what inventories show without any memory",
+      "role": "critical",
+      "access": "metadata_only"
+    }
+  ],
+  "dependencies": [
+    "woh-claim-0008"
+  ],
+  "alternatives": [
+    {
+      "id": "alt-0056-index-artifacts",
+      "statement": "The Motif-Index's categories reflect its compiler's culture and sources; tests run on it inherit its collection biases, and neutrality is overstated."
+    },
+    {
+      "id": "alt-0056-structural-sufficiency",
+      "statement": "What a complete narrative catalogue shows is the architecture of human minds (the structuralist account); the instrument's patterns need no referent and will never yield one."
+    }
+  ],
+  "revision_triggers": [
+    "Claim woh-claim-0008 is revised or retired.",
+    "A systematic test is actually run on the surface — its result moves the tested claim and this record's status as infrastructure.",
+    "Public prose begins citing the inventory's structure as evidence, which this record excludes."
+  ],
+  "controlling_document": "../../docs/framework/motif-inventory-surface.md",
+  "public_derivatives": [
+    "wheelofheaven/data-content:articles/the-filing-cabinet-of-the-gods.md"
+  ],
+  "last_reviewed": "2026-08-16"
+}

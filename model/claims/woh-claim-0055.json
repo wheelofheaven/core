@@ -1,0 +1,73 @@
+{
+  "$schema": "../schemas/claim.schema.json",
+  "schema_version": "0.1.0",
+  "id": "woh-claim-0055",
+  "title": "The post-scarcity lineage convergence",
+  "version": "0.1.0",
+  "lifecycle": "draft",
+  "statement": "The corpus reads a century and a half of terrestrial post-scarcity thought — land-rent reformers, utopian novelists, automation economists, post-work philosophers, and their contemporary heirs — as a single intellectual family whose direction of travel converges with the canon's economic proposals (woh-claim-0033, woh-claim-0049); the convergence is registered as reception context at inferred grade, with no causation in either direction and no enrollment of the family's members.",
+  "claim_kind": "interpretation",
+  "framework_relation": "contextual",
+  "evidence_status": [
+    "scoped",
+    "contested"
+  ],
+  "public_label": "inferred",
+  "scope": {
+    "includes": [
+      "The family reading: the lineage traced as one file at the Explainer's strength, from the land line through automation economics to the contemporary post-work heirs",
+      "The convergence registration: the family's direction and the canon's proposals aligned as convergence, in the same discipline as woh-claim-0042 — availability of the idea in terrestrial thought, never validation of the proposals",
+      "The movement's own systematizations (the cyberparadism stream) as the corpus-adjacent end of the family, kept distinct from the canon's statements per woh-claim-0033's vocabulary rule"
+    ],
+    "excludes": [
+      "Causation in either direction (the canon did not source the family; the family does not confirm the canon)",
+      "Enrollment: the family's members hold their own positions, none of them the framework's",
+      "Endorsement of the proposals, which remains excluded by the normative records themselves",
+      "Economic forecasting"
+    ]
+  },
+  "source_references": [
+    {
+      "source_id": "extraterrestrials-took-me-to-their-planet",
+      "locator": "The home-world economy the proposals rest on (via woh-claim-0033)",
+      "role": "canonical_basis",
+      "access": "project_digitization"
+    },
+    {
+      "source_id": "the-techno-optimist-manifesto",
+      "locator": "A contemporary end of the family the Explainer reads",
+      "role": "comparative",
+      "access": "metadata_only"
+    },
+    {
+      "source_id": "cyberparadism-manifesto",
+      "locator": "The movement-adjacent systematization, kept distinct from the canon per woh-claim-0033",
+      "role": "comparative",
+      "access": "metadata_only"
+    }
+  ],
+  "dependencies": [
+    "woh-claim-0033",
+    "woh-claim-0049"
+  ],
+  "alternatives": [
+    {
+      "id": "alt-0055-family-construction",
+      "statement": "The 'single file' is the corpus's construction; the thinkers' aims, mechanisms, and politics diverge more than the family reading admits."
+    },
+    {
+      "id": "alt-0055-convergence-triviality",
+      "statement": "Abundance-wishing is ancient and universal; convergence with it is too cheap to register anything."
+    }
+  ],
+  "revision_triggers": [
+    "Claim woh-claim-0033 or woh-claim-0049 is revised or retired.",
+    "Case-level review shows a load-bearing member of the family mischaracterized.",
+    "Public prose begins asserting causation, enrollment, or endorsement, all of which this record excludes."
+  ],
+  "controlling_document": "../../docs/framework/post-scarcity-lineage.md",
+  "public_derivatives": [
+    "wheelofheaven/data-content:articles/the-jubilee-and-the-machine.md"
+  ],
+  "last_reviewed": "2026-08-16"
+}

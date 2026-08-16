@@ -1,0 +1,77 @@
+{
+  "$schema": "../schemas/claim.schema.json",
+  "schema_version": "0.1.0",
+  "id": "woh-claim-0057",
+  "title": "The UAP-era reception posture",
+  "version": "0.1.0",
+  "lifecycle": "draft",
+  "statement": "The corpus's posture toward the modern UAP complex — disclosure claims, alleged cover-ups, crop formations, and the documented post-1945 secrecy machinery the accountability journalism has actually established — is registration without enlistment: none of it is evidence for the framework, whose anticipated contact is specific, official, and conditional (woh-claim-0015), and whose provenance rests on the reports of woh-claim-0020 rather than on any craft in any sky; documented government secrecy is carried at documentary strength, undocumented cover-up claims at their own contested grade, and the corpus's Dispatch coverage of UAP news operates under this record.",
+  "claim_kind": "interpretation",
+  "framework_relation": "contextual",
+  "evidence_status": [
+    "scoped",
+    "contested"
+  ],
+  "public_label": "inferred",
+  "scope": {
+    "includes": [
+      "The separation, which is the posture's spine: the canon's contact-specificity (dated reports; an official, conditional return) means UAP phenomena confirm nothing for the framework and their debunking refutes nothing in it",
+      "The documentary layer at its own strength: the post-1945 secrecy machinery that FOIA-based journalism has established is historical fact, registered as such",
+      "The contested layer at its own grade: cover-up-of-exobiology claims, crop-formation attributions, and disclosure-movement assertions carried as contested claims with their skeptical accounts in full",
+      "The Dispatch discipline: UAP news items are read through this record — the event reported, the posture applied, no enlistment either way"
+    ],
+    "excludes": [
+      "Any UAP event as evidence for the framework, or any debunking as evidence against it",
+      "Adjudication of specific incidents; per-incident work is the Dispatch genre's, under this posture",
+      "Enlistment of the accountability journalists, who hold their own positions and no metaphysics",
+      "The movement's own UFO-culture history, which is organizational"
+    ]
+  },
+  "source_references": [
+    {
+      "source_id": "the-book-which-tells-the-truth",
+      "locator": "The official-and-conditional return frame (via woh-claim-0015) that grounds the separation",
+      "role": "canonical_basis",
+      "access": "project_digitization",
+      "note": "../../source-notes/the-book-which-tells-the-truth.md"
+    },
+    {
+      "source_id": "ufo-religions",
+      "locator": "The scholarship on UFO-religion reception dynamics the posture is built against",
+      "role": "critical",
+      "access": "metadata_only"
+    },
+    {
+      "source_id": "the-gods-have-landed",
+      "locator": "The reception scholarship's account of contactee movements and modern phenomena claims",
+      "role": "critical",
+      "access": "metadata_only"
+    }
+  ],
+  "dependencies": [
+    "woh-claim-0015",
+    "woh-claim-0020"
+  ],
+  "alternatives": [
+    {
+      "id": "alt-0057-convenient-firewall",
+      "statement": "A posture on which no UAP evidence can confirm and no debunking can disconfirm insulates the framework from the one evidence stream its subject matter invites; the separation is apologetic architecture."
+    },
+    {
+      "id": "alt-0057-milieu-dependence",
+      "statement": "The movement is historically part of the UFO milieu; the corpus's distance is a later repositioning, not a structural feature."
+    }
+  ],
+  "revision_triggers": [
+    "Claim woh-claim-0015 or woh-claim-0020 is revised or retired.",
+    "An official, verified disclosure event occurs — the one UAP-complex development the separation does not firewall, which would move this record and much else.",
+    "Dispatch prose begins enlisting UAP news for the framework or mocking it against the framework, both of which this record excludes."
+  ],
+  "controlling_document": "../../docs/framework/uap-reception-posture.md",
+  "public_derivatives": [
+    "wheelofheaven/data-content:articles/the-reporter-at-the-razors-edge.md",
+    "wheelofheaven/data-content:wiki/military-cover-up-of-exobiology.md",
+    "wheelofheaven/data-content:wiki/crop-circles.md"
+  ],
+  "last_reviewed": "2026-08-16"
+}
