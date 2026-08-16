@@ -273,6 +273,96 @@
       "framework_relation": "contextual",
       "record": "claims/woh-claim-0027.json",
       "specification": "../docs/framework/religion-of-religions-self-description.md"
+    },
+    {
+      "id": "woh-claim-0028",
+      "title": "Yahweh as Council president",
+      "version": "0.1.0",
+      "lifecycle": "draft",
+      "claim_kind": "interpretation",
+      "framework_relation": "derived",
+      "record": "claims/woh-claim-0028.json",
+      "specification": "../docs/framework/yahweh-council-president.md"
+    },
+    {
+      "id": "woh-claim-0029",
+      "title": "Scientific immortality by cloning and memory transfer",
+      "version": "0.1.0",
+      "lifecycle": "draft",
+      "claim_kind": "interpretation",
+      "framework_relation": "derived",
+      "record": "claims/woh-claim-0029.json",
+      "specification": "../docs/framework/scientific-immortality.md"
+    },
+    {
+      "id": "woh-claim-0030",
+      "title": "The created creators",
+      "version": "0.1.0",
+      "lifecycle": "draft",
+      "claim_kind": "interpretation",
+      "framework_relation": "derived",
+      "record": "claims/woh-claim-0030.json",
+      "specification": "../docs/framework/created-creators.md"
+    },
+    {
+      "id": "woh-claim-0031",
+      "title": "The threshold choice",
+      "version": "0.1.0",
+      "lifecycle": "draft",
+      "claim_kind": "interpretation",
+      "framework_relation": "derived",
+      "record": "claims/woh-claim-0031.json",
+      "specification": "../docs/framework/threshold-choice.md"
+    },
+    {
+      "id": "woh-claim-0032",
+      "title": "Geniocracy as the canon's proposed government",
+      "version": "0.1.0",
+      "lifecycle": "draft",
+      "claim_kind": "normative_recommendation",
+      "framework_relation": "derived",
+      "record": "claims/woh-claim-0032.json",
+      "specification": "../docs/framework/geniocracy-proposal.md"
+    },
+    {
+      "id": "woh-claim-0033",
+      "title": "Paradism as the canon's proposed economy",
+      "version": "0.1.0",
+      "lifecycle": "draft",
+      "claim_kind": "normative_recommendation",
+      "framework_relation": "derived",
+      "record": "claims/woh-claim-0033.json",
+      "specification": "../docs/framework/paradism-proposal.md"
+    },
+    {
+      "id": "woh-claim-0034",
+      "title": "The labor anthropogony convergence",
+      "version": "0.1.0",
+      "lifecycle": "draft",
+      "claim_kind": "interpretation",
+      "framework_relation": "comparative",
+      "record": "claims/woh-claim-0034.json",
+      "specification": "../docs/framework/labor-anthropogony.md"
+    },
+    {
+      "id": "woh-claim-0035",
+      "title": "The canon as serial dictation",
+      "version": "0.1.0",
+      "lifecycle": "draft",
+      "claim_kind": "interpretation",
+      "framework_relation": "contextual",
+      "record": "claims/woh-claim-0035.json",
+      "specification": "../docs/framework/canon-serial-dictation.md"
+    },
+    {
+      "id": "woh-claim-0036",
+      "title": "The design signature and the natural designers",
+      "version": "0.1.0",
+      "lifecycle": "draft",
+      "claim_kind": "interpretation",
+      "framework_relation": "comparative",
+      "record": "claims/woh-claim-0036.json",
+      "specification": "../docs/framework/design-signature-natural-designers.md"
     }
   ]
 }

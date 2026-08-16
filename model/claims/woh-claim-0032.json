@@ -1,0 +1,71 @@
+{
+  "$schema": "../schemas/claim.schema.json",
+  "schema_version": "0.1.0",
+  "id": "woh-claim-0032",
+  "title": "Geniocracy as the canon's proposed government",
+  "version": "0.1.0",
+  "lifecycle": "draft",
+  "statement": "The canon proposes geniocracy — a selective democracy weighting political participation by measured intelligence, reserving candidacy and franchise to those above stated thresholds — delivered as the first of the New Commandments in the 1973 contact; this record carries the proposal as the canon's explicit normative content, together with the standing objections to it, without the corpus endorsing or operationalizing it.",
+  "claim_kind": "normative_recommendation",
+  "framework_relation": "derived",
+  "evidence_status": [
+    "scoped",
+    "contested"
+  ],
+  "public_label": "framework",
+  "scope": {
+    "includes": [
+      "The proposal as the canon states it: the selective-democracy structure, its intelligence thresholds, and its placement as the first New Commandment",
+      "Its provenance and rank within the canon's normative program (delivered in the 1973 contact recorded by woh-claim-0020)",
+      "The reception layer: the measurement, rights, and historical-abuse objections to intelligence-gated franchise, carried at full strength as the mainstream position"
+    ],
+    "excludes": [
+      "Endorsement; the corpus records the canon's proposal and does not advocate it",
+      "Operationalization: no measurement instrument, threshold procedure, or implementation path is specified or defended",
+      "Any claim that intelligence measurement is settled science; the psychometric dispute is part of the reception layer",
+      "The movement's political activity around the proposal, which is organizational history"
+    ]
+  },
+  "source_references": [
+    {
+      "source_id": "the-book-which-tells-the-truth",
+      "locator": "The New Commandments: the geniocracy commandment and its thresholds as stated",
+      "role": "canonical_basis",
+      "access": "project_digitization",
+      "note": "../../source-notes/the-book-which-tells-the-truth.md"
+    },
+    {
+      "source_id": "aliens-adored",
+      "locator": "The academic treatment of the geniocracy doctrine and its reception",
+      "role": "critical",
+      "access": "metadata_only"
+    }
+  ],
+  "dependencies": [
+    "woh-claim-0020"
+  ],
+  "alternatives": [
+    {
+      "id": "alt-0032-democratic-objection",
+      "statement": "Intelligence-gated franchise violates political equality, the core commitment of democratic theory; the proposal is anti-democratic in the term's ordinary sense despite its self-description."
+    },
+    {
+      "id": "alt-0032-measurement-objection",
+      "statement": "No instrument measures the political-relevance intelligence the proposal requires; psychometrics cannot carry the gate."
+    },
+    {
+      "id": "alt-0032-historical-abuse",
+      "statement": "Capacity-gated franchise has a documented abuse history; the proposal's safeguards are unspecified."
+    }
+  ],
+  "revision_triggers": [
+    "Claim woh-claim-0020 is revised in a way that affects the provenance.",
+    "The canon's fuller context changes the proposal's content or rank.",
+    "Public prose begins endorsing, operationalizing, or soft-pedaling the objections, all of which this record excludes."
+  ],
+  "controlling_document": "../../docs/framework/geniocracy-proposal.md",
+  "public_derivatives": [
+    "wheelofheaven/data-content:wiki/geniocracy.md"
+  ],
+  "last_reviewed": "2026-08-16"
+}

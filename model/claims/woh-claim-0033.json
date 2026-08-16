@@ -1,0 +1,78 @@
+{
+  "$schema": "../schemas/claim.schema.json",
+  "schema_version": "0.1.0",
+  "id": "woh-claim-0033",
+  "title": "Paradism as the canon's proposed economy",
+  "version": "0.1.0",
+  "lifecycle": "draft",
+  "statement": "The canon proposes a post-scarcity, fully automated, moneyless society — later systematized in the movement's vocabulary as paradism — modeled on the Elohim's own home-world economy, in which machines perform necessary labor and human beings are freed for thought, creation, and fulfillment; this record carries the proposal as the canon's explicit normative content, with the incentive, transition, and feasibility objections carried at full strength.",
+  "claim_kind": "normative_recommendation",
+  "framework_relation": "derived",
+  "evidence_status": [
+    "scoped",
+    "contested"
+  ],
+  "public_label": "framework",
+  "scope": {
+    "includes": [
+      "The proposal as the canon states it: full automation of necessary labor, abolition of money and wage-work, the home-world economy as the model witnessed in the second message",
+      "Its position in the framework: the socio-economic form of the anticipated Golden Age, within the period claims (woh-claim-0015)",
+      "The vocabulary note: 'paradism' as the movement's later systematization of canon-stated content — the term's history kept distinct from the proposal's",
+      "The reception layer: incentive, transition-path, and automation-feasibility objections, and the family relationship to terrestrial post-scarcity thought, preserved without flattening"
+    ],
+    "excludes": [
+      "Endorsement or implementation advocacy by the corpus",
+      "Economic forecasting; no automation timeline is asserted",
+      "Identification with any terrestrial political program; family resemblance to post-work thought is context, not equivalence",
+      "The movement's paradism campaigns, which are organizational history"
+    ]
+  },
+  "source_references": [
+    {
+      "source_id": "extraterrestrials-took-me-to-their-planet",
+      "locator": "The home-world economy account: automated labor, absence of money, the freed life witnessed",
+      "role": "canonical_basis",
+      "access": "project_digitization"
+    },
+    {
+      "source_id": "the-book-which-tells-the-truth",
+      "locator": "The first message's automation-and-liberation material within the New Commandments frame",
+      "role": "canonical_basis",
+      "access": "project_digitization",
+      "note": "../../source-notes/the-book-which-tells-the-truth.md"
+    },
+    {
+      "source_id": "aliens-adored",
+      "locator": "The academic treatment of the movement's economic doctrine",
+      "role": "critical",
+      "access": "metadata_only"
+    }
+  ],
+  "dependencies": [
+    "woh-claim-0020"
+  ],
+  "alternatives": [
+    {
+      "id": "alt-0033-incentive-objection",
+      "statement": "Moneyless full automation lacks an account of allocation and motivation; the proposal names an end-state without an economics."
+    },
+    {
+      "id": "alt-0033-transition-gap",
+      "statement": "No path from present economies to the end-state is specified; the proposal is utopian in the technical sense."
+    },
+    {
+      "id": "alt-0033-borrowed-utopia",
+      "statement": "The home-world economy is the era's automation utopianism projected onto the visitors; the 1970s provenance shows in the details."
+    }
+  ],
+  "revision_triggers": [
+    "Claim woh-claim-0020 is revised in a way that affects the provenance.",
+    "The canon's fuller context changes the economy's description.",
+    "Public prose begins forecasting automation timelines or merging the proposal with terrestrial programs, both of which this record excludes."
+  ],
+  "controlling_document": "../../docs/framework/paradism-proposal.md",
+  "public_derivatives": [
+    "wheelofheaven/data-content:wiki/paradism.md"
+  ],
+  "last_reviewed": "2026-08-16"
+}

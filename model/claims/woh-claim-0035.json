@@ -1,0 +1,79 @@
+{
+  "$schema": "../schemas/claim.schema.json",
+  "schema_version": "0.1.0",
+  "id": "woh-claim-0035",
+  "title": "The canon as serial dictation",
+  "version": "0.1.0",
+  "lifecycle": "draft",
+  "statement": "Read as a textual corpus, the canon is a serial dictation: received in discrete reported sessions (six mornings in 1973, one October night in 1975) and released across six years in three books by a reporter who retained editorial control of his own revelation throughout — a compositional profile that discourse analysis can characterize (a consistent principal speaker, staged disclosure, retrospective framing of earlier books by later ones) independently of the encounters' historicity.",
+  "claim_kind": "interpretation",
+  "framework_relation": "contextual",
+  "evidence_status": [
+    "scoped"
+  ],
+  "public_label": "inferred",
+  "scope": {
+    "includes": [
+      "The compositional profile as textual observation: session structure, publication seriality (1974, 1975, 1979), the consistent principal speaker, and the later books' retrospective framing of earlier ones",
+      "The editorial-control observation: the reporter as sole transmitter and editor of the messages, a fact the texts themselves display",
+      "The analytical consequence: the corpus can be studied with the tools applied to other serially delivered scriptures (dictation traditions, routinization analysis), and the project's own source discipline benefits from that study",
+      "The independence clause: every observation here survives both the contact account and the composition account of woh-claim-0020's alternative"
+    ],
+    "excludes": [
+      "Historicity of the encounters (woh-claim-0001's burden) and the reports' documentation (woh-claim-0020's)",
+      "Authenticity adjudication; the profile is compatible with reception and with authorship, and the record does not choose",
+      "Psychological claims about the reporter",
+      "Extension of the analysis to the movement's later, post-canonical texts"
+    ]
+  },
+  "source_references": [
+    {
+      "source_id": "the-book-which-tells-the-truth",
+      "locator": "The six-morning session frame and the first book's compositional structure",
+      "role": "canonical_basis",
+      "access": "project_digitization",
+      "note": "../../source-notes/the-book-which-tells-the-truth.md"
+    },
+    {
+      "source_id": "extraterrestrials-took-me-to-their-planet",
+      "locator": "The 1975 session and the second book's retrospective framing of the first",
+      "role": "canonical_basis",
+      "access": "project_digitization"
+    },
+    {
+      "source_id": "lets-welcome-the-extraterrestrials",
+      "locator": "The third book's consolidation and the six-year arc's close",
+      "role": "canonical_basis",
+      "access": "project_digitization"
+    },
+    {
+      "source_id": "economy-and-society-part-i-ch-iii-and-part-ii-ch-xiv-xv-the-routinization-of-cha",
+      "locator": "Weber's routinization frame, applied to the corpus's charismatic-to-textual transition",
+      "role": "scholarly_context",
+      "access": "metadata_only"
+    }
+  ],
+  "dependencies": [
+    "woh-claim-0020"
+  ],
+  "alternatives": [
+    {
+      "id": "alt-0035-profile-underdetermines",
+      "statement": "The compositional profile fits any single-author serial publication; it characterizes without discriminating, and adds nothing to the provenance record."
+    },
+    {
+      "id": "alt-0035-genre-expectation",
+      "statement": "Staged disclosure and retrospective framing are standard in revelation genres; the profile is the genre's, not this corpus's."
+    }
+  ],
+  "revision_triggers": [
+    "Claim woh-claim-0020 is revised in a way that affects the session or publication facts.",
+    "Textual study overturns one of the profile's observations.",
+    "Public prose begins using this record to adjudicate authenticity, which it excludes."
+  ],
+  "controlling_document": "../../docs/framework/canon-serial-dictation.md",
+  "public_derivatives": [
+    "wheelofheaven/data-content:articles/six-mornings-six-years.md"
+  ],
+  "last_reviewed": "2026-08-16"
+}

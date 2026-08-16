@@ -1,0 +1,86 @@
+{
+  "$schema": "../schemas/claim.schema.json",
+  "schema_version": "0.1.0",
+  "id": "woh-claim-0036",
+  "title": "The design signature and the natural designers",
+  "version": "0.1.0",
+  "lifecycle": "draft",
+  "statement": "The corpus engages the design-inference debate on a distinctive footing: it takes seriously the intuition that cellular life carries signatures of engineering (the intuition Meyer's programme argues and Dawkins conceded as a hypothetical), while rejecting the supernatural designer of the intelligent-design movement — the canon's designers are natural, evolved elsewhere, themselves created (woh-claim-0030), and empirically formulable in the way Crick and Orgel's directed panspermia showed; the corpus's claim is that this position is coherent and stateable, and that its truth would require exactly the kind of biological evidence that has not been produced.",
+  "claim_kind": "interpretation",
+  "framework_relation": "comparative",
+  "evidence_status": [
+    "scoped",
+    "contested"
+  ],
+  "public_label": "speculative",
+  "scope": {
+    "includes": [
+      "The position statement: natural, non-supernatural designers as a third option between the ID movement's designer and unguided abiogenesis — with the created-creators chain (woh-claim-0030) absorbing the regress objection Dawkins raised in the moment the article anchors on",
+      "The formulability layer: directed panspermia as the peer-reviewed demonstration that a created-life hypothesis can be scientifically stated (formulability, never evidence — the epistemic principles' own example)",
+      "The engagement with Meyer at the article's hinge: what the signature argument would need to show, and where the corpus's position departs from the ID movement's",
+      "The honesty clause, which is the record's spine: no biological evidence currently discriminates designed from evolved terrestrial life, and the corpus says so"
+    ],
+    "excludes": [
+      "Any claim that design has been detected in terrestrial biology; the record asserts coherence and stateability, not detection",
+      "Endorsement of the ID movement's arguments, institutions, or designer",
+      "The synthetic-biology analogy as proof (minimal-genome engineering shows design is possible, not that it happened)",
+      "Probability arguments over abiogenesis, which the corpus does not model"
+    ]
+  },
+  "source_references": [
+    {
+      "source_id": "the-book-which-tells-the-truth",
+      "locator": "The canon's laboratory-creation account, whose designers this record characterizes as natural and created",
+      "role": "canonical_basis",
+      "access": "project_digitization",
+      "note": "../../source-notes/the-book-which-tells-the-truth.md"
+    },
+    {
+      "source_id": "signature-in-the-cell",
+      "locator": "Meyer's information-argument programme — the strongest statement of the signature intuition, engaged and departed from",
+      "role": "comparative",
+      "access": "metadata_only"
+    },
+    {
+      "source_id": "crick-orgel-directed-panspermia",
+      "locator": "Icarus 19 (1973): the scientific formulability of designed terrestrial life",
+      "role": "scientific_context",
+      "access": "metadata_only"
+    },
+    {
+      "source_id": "design-and-synthesis-of-a-minimal-bacterial-genome",
+      "locator": "The synthetic-genome work as possibility demonstration (design of life is an existing engineering practice)",
+      "role": "scientific_context",
+      "access": "metadata_only"
+    }
+  ],
+  "dependencies": [
+    "woh-claim-0001",
+    "woh-claim-0030"
+  ],
+  "alternatives": [
+    {
+      "id": "alt-0036-no-signature",
+      "statement": "Evolutionary biology explains the appearance of design; there is no signature to account for, and the intuition the position takes seriously is the illusion Darwin dissolved."
+    },
+    {
+      "id": "alt-0036-unfalsifiable-designers",
+      "statement": "Natural designers who left no discriminating evidence are as untestable as supernatural ones; naturalizing the designer does not empiricize the claim."
+    },
+    {
+      "id": "alt-0036-borrowed-respectability",
+      "statement": "Citing Crick-Orgel and synthetic biology borrows scientific respectability for a religious doctrine — the patronizing-parasitism critique applied to this exact move."
+    }
+  ],
+  "revision_triggers": [
+    "Claim woh-claim-0001 or woh-claim-0030 is revised or retired.",
+    "A discriminating biological test between designed and evolved terrestrial life is proposed and survives review — in either direction, this record must move.",
+    "Public prose begins asserting detection or endorsing ID-movement arguments, both of which this record excludes.",
+    "The article's Meyer engagement is revised at its hinge."
+  ],
+  "controlling_document": "../../docs/framework/design-signature-natural-designers.md",
+  "public_derivatives": [
+    "wheelofheaven/data-content:articles/the-signature-and-the-designers.md"
+  ],
+  "last_reviewed": "2026-08-16"
+}

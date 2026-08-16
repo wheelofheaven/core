@@ -1,0 +1,98 @@
+{
+  "$schema": "../schemas/claim.schema.json",
+  "schema_version": "0.1.0",
+  "id": "woh-claim-0034",
+  "title": "The labor anthropogony convergence",
+  "version": "0.1.0",
+  "lifecycle": "draft",
+  "statement": "The Sumerian anthropogonies (the Song of the Hoe; Enki and Ninmah), the Babylonian Atrahasis, and Genesis 2 converge on a specific structure: humans shaped from the earth, on purpose, to carry the gods' toil — with Atrahasis adding the mixed-in god ('that god and man may be mixed together in the clay'); the corpus reads the convergence as transformed memory of a purposive creation, consistent with the canon's account of humanity's making, at the inferred grade the reading can actually carry.",
+  "claim_kind": "interpretation",
+  "framework_relation": "comparative",
+  "evidence_status": [
+    "scoped",
+    "contested"
+  ],
+  "public_label": "inferred",
+  "scope": {
+    "includes": [
+      "The textual convergence at its own strength: made-from-earth, on-purpose, to-labor, across the four named text-families — most held in project digitization",
+      "The Atrahasis distinctive: the slaughtered god's flesh, blood, and intelligence in the clay, read as the tradition's own statement that the made being carries its makers' substance",
+      "The memory reading, inferred: the convergence as transformed memory of purposive creation, engaging the labor row already anchored in the woh-claim-0002 apparatus (ATRA-WOH-I:195)",
+      "The boundary against 0002: this record reads the anthropogony structure; collective identity across traditions remains 0002's separate burden"
+    ],
+    "excludes": [
+      "The genetic-engineering vocabulary as a textual claim; the canon's laboratory account is the framework layer other records carry, and this record's texts speak of clay, blood, and toil",
+      "Literary-dependence resolution among the four families; the documented Mesopotamian-to-Genesis stream is conceded where documented and not adjudicated where not",
+      "Any claim that Genesis shares Atrahasis's labor-relief motive; the 0002 evidence map's finding that Genesis's motive differs is preserved, not overridden",
+      "Worldwide extension beyond the named families (Ovid, the Popol Vuh, and Hesiod's Pandora are the article's comparanda, carried as resemblance only)"
+    ]
+  },
+  "source_references": [
+    {
+      "source_id": "atrahasis",
+      "locator": "ATRA-WOH-I:194-195 (the yoke and the labor of the gods); I:223-225 (the slaughtered god in the clay; 'that god and man may be mixed together in the clay')",
+      "role": "primary_text",
+      "access": "project_digitization"
+    },
+    {
+      "source_id": "genesis",
+      "locator": "GEN-WOH-2:7 (dust from the ground); 2:15 (to work it and keep it)",
+      "role": "primary_text",
+      "access": "project_digitization"
+    },
+    {
+      "source_id": "the-literature-of-ancient-sumer",
+      "locator": "The Song of the Hoe and the Sumerian anthropogony corpus in the standard anthology",
+      "role": "primary_text",
+      "access": "metadata_only"
+    },
+    {
+      "source_id": "kramer-enki-myths",
+      "locator": "Enki and Ninmah: the clay-shaping and the purpose",
+      "role": "scholarly_context",
+      "access": "metadata_only"
+    },
+    {
+      "source_id": "the-book-which-tells-the-truth",
+      "locator": "The canon's purposive-creation account, against which the convergence is read",
+      "role": "canonical_basis",
+      "access": "project_digitization",
+      "note": "../../source-notes/the-book-which-tells-the-truth.md"
+    },
+    {
+      "source_id": "creation-accounts-in-the-ancient-near-east",
+      "locator": "Clifford's comparative treatment of the ancient Near Eastern creation accounts, covering the anthropogony family this record reads",
+      "role": "scholarly_context",
+      "access": "metadata_only"
+    }
+  ],
+  "dependencies": [
+    "woh-claim-0001",
+    "woh-claim-0002"
+  ],
+  "alternatives": [
+    {
+      "id": "alt-0034-craft-topos",
+      "statement": "Clay-shaping is the potter's craft projected onto anthropogony wherever pottery exists; the convergence is a shared topos, not a memory."
+    },
+    {
+      "id": "alt-0034-labor-theology",
+      "statement": "The labor motive theologizes Mesopotamian temple economy (humans as the gods' workforce because temples had workforces); Genesis's different motive shows the structure is not stable."
+    },
+    {
+      "id": "alt-0034-stream-suffices",
+      "statement": "The documented literary stream explains the Near Eastern convergence; the Sumerian-to-Genesis line needs no remembered event."
+    }
+  ],
+  "revision_triggers": [
+    "Claim woh-claim-0001 or woh-claim-0002 is revised or retired.",
+    "Source-language review changes the cited Atrahasis or Genesis observations.",
+    "Inspection of the Sumerian texts (currently metadata_only) changes the convergence's shape.",
+    "Public prose begins using genetic-engineering vocabulary as textual content, which this record excludes."
+  ],
+  "controlling_document": "../../docs/framework/labor-anthropogony.md",
+  "public_derivatives": [
+    "wheelofheaven/data-content:articles/made-from-the-ground-to-bear-the-labor.md"
+  ],
+  "last_reviewed": "2026-08-16"
+}

@@ -1,0 +1,75 @@
+{
+  "$schema": "../schemas/claim.schema.json",
+  "schema_version": "0.1.0",
+  "id": "woh-claim-0031",
+  "title": "The threshold choice",
+  "version": "0.1.0",
+  "lifecycle": "draft",
+  "statement": "Per the canon, humanity crossed at the 1945 atomic threshold into the decisive period of its history: scientifically capable of self-destruction and, for the same reason, capable at last of understanding its origins and joining its creators' level — the choice between destroying itself and entering the age of interplanetary maturity is the canon's framing of the present era, and the reason contact was initiated when it was.",
+  "claim_kind": "interpretation",
+  "framework_relation": "derived",
+  "evidence_status": [
+    "scoped",
+    "contested"
+  ],
+  "public_label": "framework",
+  "scope": {
+    "includes": [
+      "The threshold: the 1945 explosion as the canon's stated hinge — the moment humanity became dangerous to itself and legible to its creators as potentially mature",
+      "The coupling, which is the claim's distinctive structure: the same scientific capability underlies both the danger and the possibility; neither can be renounced without the other",
+      "The contact rationale: the canon times its own delivery to this threshold (the chronological hinge recorded at TBWTT-1:47 and carried in woh-claim-0020's report frame)",
+      "The period placement within the Apocalypse-as-unveiling era of woh-claim-0015"
+    ],
+    "excludes": [
+      "Predictions of either outcome; the canon frames a choice, and the corpus models no probability",
+      "Reading current events as movement toward either pole, which is the Dispatch genre's temptation and this record's principal drift line",
+      "Policy prescriptions; the canon's own proposals are carried by the normative records (woh-claim-0032, woh-claim-0033)",
+      "Any claim that the threshold framing is unique to the canon; mid-century existential-risk discourse is acknowledged context"
+    ]
+  },
+  "source_references": [
+    {
+      "source_id": "the-book-which-tells-the-truth",
+      "locator": "TBWTT-1:47 (chosen after the first atomic explosion of 1945); the self-destruction-or-maturity framing across the messages' closing charge",
+      "role": "canonical_basis",
+      "access": "project_digitization",
+      "note": "../../source-notes/the-book-which-tells-the-truth.md"
+    },
+    {
+      "source_id": "extraterrestrials-took-me-to-their-planet",
+      "locator": "The second message's development of the maturity condition and the planetary stakes",
+      "role": "canonical_basis",
+      "access": "project_digitization"
+    },
+    {
+      "source_id": "aliens-adored",
+      "locator": "The academic reading of the movement's nuclear-age framing",
+      "role": "critical",
+      "access": "metadata_only"
+    }
+  ],
+  "dependencies": [
+    "woh-claim-0001",
+    "woh-claim-0015"
+  ],
+  "alternatives": [
+    {
+      "id": "alt-0031-cold-war-context",
+      "statement": "The threshold framing is 1970s nuclear-anxiety discourse absorbed into the canon; every contactee religion of the era carries the same hinge."
+    },
+    {
+      "id": "alt-0031-motivational-structure",
+      "statement": "The choice framing functions as motivational structure (urgency without dates), standard in millenarian rhetoric."
+    }
+  ],
+  "revision_triggers": [
+    "Claim woh-claim-0001 or woh-claim-0015 is revised or retired.",
+    "The canon's fuller context changes the threshold or the coupling.",
+    "Public prose begins reading news as movement toward either pole, which this record excludes."
+  ],
+  "controlling_document": "../../docs/framework/threshold-choice.md",
+  "public_derivatives": [
+    "wheelofheaven/data-content:wiki/apocalypse.md"
+  ],
+  "last_reviewed": "2026-08-16"
+}

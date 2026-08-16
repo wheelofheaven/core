@@ -1,0 +1,79 @@
+{
+  "$schema": "../schemas/claim.schema.json",
+  "schema_version": "0.1.0",
+  "id": "woh-claim-0028",
+  "title": "Yahweh as Council president",
+  "version": "0.1.0",
+  "lifecycle": "draft",
+  "statement": "The biblical name Yahweh refers, per the canon, to a specific individual Eloha: the president of the Council of the Eternals, the senior authority of the alliance who personally directed the Earth project across its history and who is the principal speaker of the canon's messages; the corpus reads the Hebrew Bible's YHWH material as the memory of this individual's office and actions, with per-passage attribution remaining editorial work.",
+  "claim_kind": "interpretation",
+  "framework_relation": "derived",
+  "evidence_status": [
+    "scoped",
+    "contested"
+  ],
+  "public_label": "framework",
+  "scope": {
+    "includes": [
+      "The identification of Yahweh as an individual: a specific Eloha holding the Council presidency, tenured across the project's span, the canon's principal speaker",
+      "The office: presidency of the 700-member Council recorded alongside woh-claim-0029's mechanism, seated on the home system's second planet",
+      "The reading consequence: biblical YHWH passages read as memory of an individual's decisions and communications rather than of an abstract deity — with which passages attach to the individual, as against the office or the tradition, decided per passage"
+    ],
+    "excludes": [
+      "The documentary-hypothesis source strata as targets; the corpus reads the received text's memory, not the redaction history",
+      "Uniform attribution of every YHWH occurrence to the individual; the name's reference varies by passage and period exactly as elohim's does (woh-claim-0009)",
+      "The name's etymology; the corpus adopts no derivation of the Tetragrammaton",
+      "Theological claims about divinity; the referent is a mortal individual under woh-claim-0029's longevity mechanism"
+    ]
+  },
+  "source_references": [
+    {
+      "source_id": "the-book-which-tells-the-truth",
+      "locator": "The speaker's self-identification and presidency material across the messages; the Council context of the narrative chapters",
+      "role": "canonical_basis",
+      "access": "project_digitization",
+      "note": "../../source-notes/the-book-which-tells-the-truth.md"
+    },
+    {
+      "source_id": "extraterrestrials-took-me-to-their-planet",
+      "locator": "The second message's home-world and Council material delivered by the same speaker",
+      "role": "canonical_basis",
+      "access": "project_digitization"
+    },
+    {
+      "source_id": "the-early-history-of-god",
+      "locator": "The mainstream account of YHWH's development within Israelite religion — the account the individual reading stands against",
+      "role": "scholarly_context",
+      "access": "metadata_only"
+    }
+  ],
+  "dependencies": [
+    "woh-claim-0001",
+    "woh-claim-0029"
+  ],
+  "alternatives": [
+    {
+      "id": "alt-0028-development-account",
+      "statement": "YHWH is a deity whose profile develops within Israelite religion from regional origins (the mainstream account); no individual stands behind the name."
+    },
+    {
+      "id": "alt-0028-composite-memory",
+      "statement": "Even within the framework, the biblical YHWH material composites multiple Elohim actors and offices; a single-individual attribution overreads the memory."
+    },
+    {
+      "id": "alt-0028-narrative-device",
+      "statement": "The canon's speaker-identification is a literary device unifying the messages, not a historical claim about the biblical name's referent."
+    }
+  ],
+  "revision_triggers": [
+    "Claim woh-claim-0001 or woh-claim-0029 is revised or retired.",
+    "The canon's fuller context complicates the speaker-presidency identification.",
+    "Public prose begins attributing every YHWH occurrence to the individual, or adopting an etymology, both of which this record excludes.",
+    "The composite-memory alternative is vindicated by per-passage work."
+  ],
+  "controlling_document": "../../docs/framework/yahweh-council-president.md",
+  "public_derivatives": [
+    "wheelofheaven/data-content:wiki/yahweh.md"
+  ],
+  "last_reviewed": "2026-08-16"
+}
