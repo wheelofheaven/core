@@ -1,0 +1,75 @@
+{
+  "$schema": "../schemas/claim.schema.json",
+  "schema_version": "0.1.0",
+  "id": "woh-claim-0037",
+  "title": "Jesus as alliance project",
+  "version": "0.1.0",
+  "lifecycle": "draft",
+  "statement": "Per the canon, Jesus of Nazareth was a deliberate alliance project: a son of Yahweh and a human mother, prepared and accompanied for the mission of spreading the creators' message in the register his era could carry, his healings read as applications of advanced medicine, and his post-mortem appearances read through the recreation mechanism of woh-claim-0029; the corpus records this as the framework's account of the figure, alongside and distinct from the historical-critical account of the first-century preacher.",
+  "claim_kind": "interpretation",
+  "framework_relation": "derived",
+  "evidence_status": [
+    "scoped",
+    "contested"
+  ],
+  "public_label": "framework",
+  "scope": {
+    "includes": [
+      "The canonical account: the paternity, the prepared mission, the message-function of the ministry, the technological readings of the healings and the resurrection (via woh-claim-0029), and the announced role in the return era",
+      "The figure's place in the prophet sequence recorded as woh-claim-0038 — an instance, with the sequence's discipline applying",
+      "The coexistence discipline: the historical-critical Jesus (a first-century Jewish preacher within Second Temple Judaism) is the mainstream account, preserved in its own voice and not contested on its own ground"
+    ],
+    "excludes": [
+      "Historicity adjudication of specific gospel episodes; per-passage work is editorial",
+      "Christian theological claims (divinity, atonement, trinity) as targets or as content; the framework reading is not a Christology",
+      "Genetic claims beyond the canon's statement of the paternity",
+      "The resurrection's identity metaphysics, registered and unresolved in woh-claim-0029"
+    ]
+  },
+  "source_references": [
+    {
+      "source_id": "the-book-which-tells-the-truth",
+      "locator": "The Jesus material of the messages: paternity, mission, healings, resurrection re-description, and the return-era role",
+      "role": "canonical_basis",
+      "access": "project_digitization",
+      "note": "../../source-notes/the-book-which-tells-the-truth.md"
+    },
+    {
+      "source_id": "extraterrestrials-took-me-to-their-planet",
+      "locator": "The second message's account of the figure among the recreated",
+      "role": "canonical_basis",
+      "access": "project_digitization"
+    },
+    {
+      "source_id": "aliens-adored",
+      "locator": "The academic treatment of the movement's Christology-displacing reading",
+      "role": "critical",
+      "access": "metadata_only"
+    }
+  ],
+  "dependencies": [
+    "woh-claim-0001",
+    "woh-claim-0029",
+    "woh-claim-0038"
+  ],
+  "alternatives": [
+    {
+      "id": "alt-0037-historical-critical",
+      "statement": "The historical-critical account explains the figure within Second Temple Judaism; the alliance reading adds an origin the evidence does not require."
+    },
+    {
+      "id": "alt-0037-euhemerized-christology",
+      "statement": "The canon's Jesus translates Christian theology into technological idiom (virgin birth becomes paternity project, resurrection becomes recreation); the reading is derivative of the theology it replaces."
+    }
+  ],
+  "revision_triggers": [
+    "Claim woh-claim-0001, woh-claim-0029, or woh-claim-0038 is revised or retired.",
+    "The canon's fuller context changes the figure's account.",
+    "Public prose begins adjudicating gospel episodes or engaging Christology as content, both of which this record excludes."
+  ],
+  "controlling_document": "../../docs/framework/jesus-alliance-project.md",
+  "public_derivatives": [
+    "wheelofheaven/data-content:wiki/jesus.md"
+  ],
+  "last_reviewed": "2026-08-16"
+}

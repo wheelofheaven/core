@@ -1,0 +1,85 @@
+{
+  "$schema": "../schemas/claim.schema.json",
+  "schema_version": "0.1.0",
+  "id": "woh-claim-0039",
+  "title": "Genesis 1 as compressed creation report",
+  "version": "0.1.0",
+  "lifecycle": "draft",
+  "statement": "The seven-day creation account of Genesis 1 is read, per the canon's decoded reading (with Sendy's earlier literalist statement as precedent), as a compressed report of staged creation work: the 'days' as long working periods, the firmament and waters as the account's own observational vocabulary, the sequence of works as project stages culminating in the human synthesis — a report transmitted and compressed, not a cosmogony; the record carries the reading at the canon's level and keeps the mainstream literary-critical account of Genesis 1 in its own voice.",
+  "claim_kind": "interpretation",
+  "framework_relation": "derived",
+  "evidence_status": [
+    "scoped",
+    "contested"
+  ],
+  "public_label": "framework",
+  "scope": {
+    "includes": [
+      "The staged reading: days as periods, the works as stages, the vocabulary as observational — the decoded Genesis of the canon's opening chapter (the corpus's 'The Truth' entry is this reading's page)",
+      "The Sendy precedent: the 1963 literalist statement as the reading's modern forerunner, engaged through woh-claim-0042's convergence record",
+      "The completion joint: the account's human-creation stage hands over to the Eden record (woh-claim-0018) and the anthropogony comparison (woh-claim-0034)"
+    ],
+    "excludes": [
+      "Concordism with modern cosmology; the reading maps the text onto the project's stages, never onto Big Bang chronology, and prose that does the latter has left the record",
+      "The two-source question (Genesis 1 versus Genesis 2) as a target; the documentary observation is mainstream context, preserved",
+      "Day-length arithmetic; the canon reads periods, and the corpus does not compute them",
+      "Extension to the primeval history beyond the creation account; Flood and Babel have their own records"
+    ]
+  },
+  "source_references": [
+    {
+      "source_id": "the-book-which-tells-the-truth",
+      "locator": "Chapter 2, 'The Truth': the decoded Genesis reading, verse family by verse family",
+      "role": "canonical_basis",
+      "access": "project_digitization",
+      "note": "../../source-notes/the-book-which-tells-the-truth.md"
+    },
+    {
+      "source_id": "genesis",
+      "locator": "GEN-WOH-1:1-31; 2:1-4 (the account and its colophon)",
+      "role": "primary_text",
+      "access": "project_digitization"
+    },
+    {
+      "source_id": "sendy-lune-cle-bible",
+      "locator": "The 1963 literalist statement of the plural-Elohim Genesis reading",
+      "role": "comparative",
+      "access": "metadata_only"
+    },
+    {
+      "source_id": "westermann-genesis-1-11",
+      "locator": "The standard literary-critical account of Genesis 1 (P's liturgical cosmology), preserved in its own voice",
+      "role": "scholarly_context",
+      "access": "metadata_only"
+    }
+  ],
+  "dependencies": [
+    "woh-claim-0001",
+    "woh-claim-0018"
+  ],
+  "alternatives": [
+    {
+      "id": "alt-0039-liturgical-cosmology",
+      "statement": "Genesis 1 is P's structured liturgical cosmology (the mainstream account); its sevens and separations are theology of order, not compressed reportage."
+    },
+    {
+      "id": "alt-0039-ane-cosmology",
+      "statement": "The account's firmament-and-waters vocabulary is shared ancient Near Eastern cosmology; reading observation into it retrofits a modern frame."
+    },
+    {
+      "id": "alt-0039-concordism-hazard",
+      "statement": "Staged readings of Genesis 1 historically slide into concordism; the framework version inherits the genre's failure mode."
+    }
+  ],
+  "revision_triggers": [
+    "Claim woh-claim-0001 or woh-claim-0018 is revised or retired.",
+    "Source-language review of GEN-WOH-1 changes the observations the reading relies on.",
+    "Public prose begins concordist mapping or day-length arithmetic, both of which this record excludes."
+  ],
+  "controlling_document": "../../docs/framework/genesis-compressed-report.md",
+  "public_derivatives": [
+    "wheelofheaven/data-content:wiki/genesis.md",
+    "wheelofheaven/data-content:wiki/the-truth.md"
+  ],
+  "last_reviewed": "2026-08-16"
+}

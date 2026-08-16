@@ -1,0 +1,76 @@
+{
+  "$schema": "../schemas/claim.schema.json",
+  "schema_version": "0.1.0",
+  "id": "woh-claim-0042",
+  "title": "The literalist convergence",
+  "version": "0.1.0",
+  "lifecycle": "draft",
+  "statement": "Independent readers with different starting points, methods, and stakes — Jean Sendy (1963, the first finished statement, with a falsifiable lunar wager he lost), Mauro Biglino (a publisher-sanctioned interlinear translator whose literalism outlived his commission), and Paul Wallis (a serving Anglican archdeacon reading from inside the church) — arrived at plural, physical, mortal Elohim readings of the same Hebrew texts; the corpus registers the convergence as significant reception evidence while carrying in full the objection that a shared modern idiom, not a shared correct referent, may drive it.",
+  "claim_kind": "interpretation",
+  "framework_relation": "contextual",
+  "evidence_status": [
+    "scoped",
+    "contested"
+  ],
+  "public_label": "inferred",
+  "scope": {
+    "includes": [
+      "The three documented cases at their own strength: Sendy's 1963 statement and its explicit falsifiable wager (lunar installations, staked on Apollo — and lost, a failure the corpus treats as the model of honest staking rather than an embarrassment to bury); Biglino's interlinear-translation path into literalism; Wallis's intra-church path (whose serpent-case discipline woh-claim-0022 already carries)",
+      "The independence audit: different decades, confessions, languages, and professional stakes — the features that make the convergence more than one milieu talking to itself",
+      "The registration discipline: convergence is registered as reception evidence for the reading's availability in the texts, never as demonstration of its truth; the structure-severed-from-etymology rule applies to every case"
+    ],
+    "excludes": [
+      "Any claim that convergence demonstrates correctness; the artifact objection is the standing default",
+      "Enrollment of the readers in the framework; Sendy, Biglino, and Wallis hold their own positions, preserved in their own voices",
+      "Extension to the ancient-astronaut genre generally (Sitchin, von Daniken); the record's cases are literalist readers of the Hebrew text, and the genre's speculative wing is outside it",
+      "Sendy's lost wager as evidence against the framework's own claims; the corpus's claims stake themselves on their own recorded triggers, not on his"
+    ]
+  },
+  "source_references": [
+    {
+      "source_id": "sendy-lune-cle-bible",
+      "locator": "The 1963 statement and the lunar wager",
+      "role": "comparative",
+      "access": "metadata_only"
+    },
+    {
+      "source_id": "biglino-il-libro",
+      "locator": "The interlinear-derived literalism and its break with the commission",
+      "role": "comparative",
+      "access": "metadata_only"
+    },
+    {
+      "source_id": "escaping-from-eden",
+      "locator": "The intra-church reading (the serpent-case engagement carried by woh-claim-0022)",
+      "role": "comparative",
+      "access": "metadata_only"
+    }
+  ],
+  "dependencies": [],
+  "alternatives": [
+    {
+      "id": "alt-0042-shared-idiom",
+      "statement": "Space-age readers converge on space-age readings; the idiom of the era, not the texts' referent, drives the convergence."
+    },
+    {
+      "id": "alt-0042-selection-visibility",
+      "statement": "Convergent readers are counted; divergent literalists are not — the sample is survivorship."
+    },
+    {
+      "id": "alt-0042-method-heterogeneity",
+      "statement": "The three methods differ enough that the shared conclusion may be the only shared thing; convergence of conclusions without convergence of method is weak evidence."
+    }
+  ],
+  "revision_triggers": [
+    "A documented divergent-literalist census materially changes the selection picture.",
+    "Case-level review (the readers' works are wantlist items) changes a case's characterization.",
+    "Public prose begins citing convergence as demonstration or enrolling the readers, both of which this record excludes."
+  ],
+  "controlling_document": "../../docs/framework/literalist-convergence.md",
+  "public_derivatives": [
+    "wheelofheaven/data-content:articles/the-man-who-bet-the-bible-on-the-moon.md",
+    "wheelofheaven/data-content:articles/the-translators-wager.md",
+    "wheelofheaven/data-content:articles/the-archdeacon-and-the-dragon.md"
+  ],
+  "last_reviewed": "2026-08-16"
+}

@@ -1,0 +1,76 @@
+{
+  "$schema": "../schemas/claim.schema.json",
+  "schema_version": "0.1.0",
+  "id": "woh-claim-0043",
+  "title": "The emblem as infinity symbol",
+  "version": "0.1.0",
+  "lifecycle": "draft",
+  "statement": "Per the canon, the emblem seen on the craft — the swastika within the Star of David — signifies infinity: the hexagram as 'as it is above, so it is below' (space) and the swastika as the cycle, infinity in time; the corpus records the reading together with the symbols' documented deep histories (the swastika's twelve-millennia cross-cultural distribution; the hexagram's own history), and with the modern catastrophe of the swastika's Nazi appropriation registered plainly as the reception context any use of the symbol now carries.",
+  "claim_kind": "interpretation",
+  "framework_relation": "derived",
+  "evidence_status": [
+    "scoped",
+    "contested"
+  ],
+  "public_label": "framework",
+  "scope": {
+    "includes": [
+      "The canonical reading: the composite emblem as the two infinities — the emblematization of the frame recorded as woh-claim-0023 (space) with the temporal cycle the woh-claim-0014 apparatus reads alongside",
+      "The distribution layer, documented: the swastika's ancient and cross-cultural spread (Hindu, Buddhist, Jain, and archaeological attestations) and the hexagram's history, each at its own strength",
+      "The reception discipline: the Nazi appropriation is registered as the governing modern context — the corpus explains the canon's reading and the movement's later emblem revisions without minimizing the appropriation or its weight"
+    ],
+    "excludes": [
+      "Any claim that the ancient distribution evidences the canon's reading; ubiquity of a simple rotational form has independent explanations, carried as the default",
+      "Apologetics for public display; the record explains a reading, and display questions are the movement's, not the corpus's",
+      "Sacred-geometry numerology beyond the canon's stated meanings",
+      "Trivialization of the appropriation, which is a named trigger"
+    ]
+  },
+  "source_references": [
+    {
+      "source_id": "the-book-which-tells-the-truth",
+      "locator": "TBWTT-3:288 (the emblem: 'as it is above, so it is below'); TBWTT-3:305 (the swastika as infinity in time, 'the most ancient symbol')",
+      "role": "canonical_basis",
+      "access": "project_digitization",
+      "note": "../../source-notes/the-book-which-tells-the-truth.md"
+    },
+    {
+      "source_id": "extraterrestrials-took-me-to-their-planet",
+      "locator": "ETTMTTP-2:24 (the cycle sign in numerous ancient writings)",
+      "role": "canonical_basis",
+      "access": "project_digitization"
+    },
+    {
+      "source_id": "aliens-adored",
+      "locator": "The academic account of the emblem controversy and the movement's revisions",
+      "role": "critical",
+      "access": "metadata_only"
+    }
+  ],
+  "dependencies": [
+    "woh-claim-0020",
+    "woh-claim-0023"
+  ],
+  "alternatives": [
+    {
+      "id": "alt-0043-simple-form",
+      "statement": "The swastika's ubiquity is the ubiquity of a simple rotational motif in weaving, pottery, and sun symbolism; no shared meaning travels with the shape."
+    },
+    {
+      "id": "alt-0043-reception-override",
+      "statement": "After the twentieth century the symbol's public meaning is fixed by the appropriation; ancient readings cannot be communicated past it, whatever their merits."
+    }
+  ],
+  "revision_triggers": [
+    "Claim woh-claim-0020 or woh-claim-0023 is revised in a way that affects the emblem's provenance or referent.",
+    "The canon's fuller context changes the stated meanings.",
+    "Public prose begins treating distribution as evidence, minimizing the appropriation, or extending into numerology — all named exclusions."
+  ],
+  "controlling_document": "../../docs/framework/emblem-infinity-symbol.md",
+  "public_derivatives": [
+    "wheelofheaven/data-content:wiki/swastika.md",
+    "wheelofheaven/data-content:wiki/star-of-david.md",
+    "wheelofheaven/data-content:wiki/raelian-symbol-of-infinity.md"
+  ],
+  "last_reviewed": "2026-08-16"
+}

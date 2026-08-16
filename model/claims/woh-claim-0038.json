@@ -1,0 +1,78 @@
+{
+  "$schema": "../schemas/claim.schema.json",
+  "schema_version": "0.1.0",
+  "id": "woh-claim-0038",
+  "title": "The prophet sequence",
+  "version": "0.1.0",
+  "lifecycle": "draft",
+  "statement": "Per the canon, the prophets of the world's religious traditions were operational interlocutors between the Elohim and specific peoples and eras: contacted, briefed, and tasked figures — Moses, Elijah, Jesus, Muhammad, and the founders the canon enumerates — each delivering the message in the register his era and culture could carry, which is the mechanism behind the canon's claim that the religions testify to the same creators (woh-claim-0027); the corpus records the sequence at collective level, with per-figure records minted only where the corpus develops them.",
+  "claim_kind": "interpretation",
+  "framework_relation": "derived",
+  "evidence_status": [
+    "scoped",
+    "contested"
+  ],
+  "public_label": "framework",
+  "scope": {
+    "includes": [
+      "The role definition: prophet as contacted interlocutor — briefed, tasked, era-adapted — rather than as inspired mediator of an immaterial divine",
+      "The sequence as the canon enumerates it, at collective level, with the era-adaptation clause carrying the traditions' differences as design rather than error",
+      "The testimony mechanism: the sequence is how woh-claim-0027's enumerated traditions come to testify to the same creators",
+      "Instance records: woh-claim-0037 (Jesus) is the sequence's first per-figure record; others are minted as the corpus develops them"
+    ],
+    "excludes": [
+      "Uniformity of contact mode or briefing depth across figures; the canon differentiates and so does the record",
+      "Adjudication of any tradition's own account of its founder; each is preserved in its own voice, per the comparative discipline",
+      "Figures the canon does not enumerate; the sequence is closed to canon-named members plus canon-stated criteria",
+      "The Daniel-era emissaries of woh-claim-0006, which are a different operational category (delegations to powers, not prophets to peoples)"
+    ]
+  },
+  "source_references": [
+    {
+      "source_id": "the-book-which-tells-the-truth",
+      "locator": "TBWTT-5:54 (the traditions enumerated as testifying); the prophet-briefing material across the narrative chapters (Moses, Elijah, the sequence's frame)",
+      "role": "canonical_basis",
+      "access": "project_digitization",
+      "note": "../../source-notes/the-book-which-tells-the-truth.md"
+    },
+    {
+      "source_id": "the-qur-an",
+      "locator": "The Qur'an's own prophet-sequence theology (the messengers to every people) — the tradition-internal parallel the record engages without conflating",
+      "role": "comparative",
+      "access": "project_digitization"
+    },
+    {
+      "source_id": "aliens-adored",
+      "locator": "The academic account of the movement's prophetology",
+      "role": "critical",
+      "access": "metadata_only"
+    }
+  ],
+  "dependencies": [
+    "woh-claim-0001",
+    "woh-claim-0027"
+  ],
+  "alternatives": [
+    {
+      "id": "alt-0038-comparative-theology",
+      "statement": "Prophet-sequence structures are internal theological developments (Islamic prophetology above all); the canon generalizes a pattern the traditions built for their own reasons."
+    },
+    {
+      "id": "alt-0038-retrofit-enumeration",
+      "statement": "The canon's enumeration tracks the religions a 1970s French audience would recognize; the sequence's membership is sociological, not historical."
+    }
+  ],
+  "revision_triggers": [
+    "Claim woh-claim-0001 or woh-claim-0027 is revised or retired.",
+    "The canon's fuller context changes the role definition or the enumeration.",
+    "Public prose begins minting per-figure claims without records or adjudicating traditions' self-accounts, both of which this record excludes."
+  ],
+  "controlling_document": "../../docs/framework/prophet-sequence.md",
+  "public_derivatives": [
+    "wheelofheaven/data-content:wiki/prophet.md",
+    "wheelofheaven/data-content:wiki/moses.md",
+    "wheelofheaven/data-content:wiki/elijah.md",
+    "wheelofheaven/data-content:wiki/muhammad.md"
+  ],
+  "last_reviewed": "2026-08-16"
+}

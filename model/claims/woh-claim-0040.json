@@ -1,0 +1,78 @@
+{
+  "$schema": "../schemas/claim.schema.json",
+  "schema_version": "0.1.0",
+  "id": "woh-claim-0040",
+  "title": "The Ark as communication device",
+  "version": "0.1.0",
+  "lifecycle": "draft",
+  "statement": "The Ark of the Covenant — the gold-plated chest built at Sinai to exact delivered specifications, from whose cover between the cherubim the voice of Yahweh issued, lethal to mishandlers — is read, per the canon, as a technological artifact: a communication device linking the Israelite leadership to the alliance, its specifications, handling rules, and casualty record read as the texts' preserved operational knowledge; the corpus records the reading at the canon's level, with the ritual-symbolic account of mainstream scholarship in its own voice.",
+  "claim_kind": "interpretation",
+  "framework_relation": "derived",
+  "evidence_status": [
+    "scoped",
+    "contested"
+  ],
+  "public_label": "framework",
+  "scope": {
+    "includes": [
+      "The device reading: the delivered specifications (Exodus 25), the voice from the kapporet (Exodus 25:22; Numbers 7:89), the handling discipline and the Uzzah casualty (2 Samuel 6) read as operational memory",
+      "The office link: the communicating counterpart is the alliance of woh-claim-0028's presidency",
+      "The boundary of the artifact class: this record covers the Ark; other artifact readings (the menorah among them) are minted separately if the corpus develops them"
+    ],
+    "excludes": [
+      "Electrical or engineering reconstructions (the capacitor tradition of speculation); the record asserts the canon's device reading, not a schematic",
+      "The Ark's later history and location; the disappearance is not this record's question",
+      "Cinema-descended treasure narratives as engagement targets",
+      "Extension to temple furniture generally without records"
+    ]
+  },
+  "source_references": [
+    {
+      "source_id": "the-book-which-tells-the-truth",
+      "locator": "The canon's Ark material: the transmitter reading within the Sinai narrative",
+      "role": "canonical_basis",
+      "access": "project_digitization",
+      "note": "../../source-notes/the-book-which-tells-the-truth.md"
+    },
+    {
+      "source_id": "exodus",
+      "locator": "Exodus 25:10-22 (the specifications; the meeting voice from between the cherubim); the construction and handling material",
+      "role": "primary_text",
+      "access": "project_digitization"
+    },
+    {
+      "source_id": "2-samuel",
+      "locator": "2 Samuel 6:6-7 (the Uzzah episode, read as handling casualty)",
+      "role": "primary_text",
+      "access": "project_digitization"
+    }
+  ],
+  "dependencies": [
+    "woh-claim-0001",
+    "woh-claim-0028"
+  ],
+  "alternatives": [
+    {
+      "id": "alt-0040-cultic-throne",
+      "statement": "The Ark is the empty throne / footstool of the invisible enthroned deity, standard ancient Near Eastern cult furniture; the mainstream account needs no device."
+    },
+    {
+      "id": "alt-0040-narrative-theology",
+      "statement": "The lethality episodes are holiness theology (the danger of the sacred), not casualty records."
+    },
+    {
+      "id": "alt-0040-speculation-lineage",
+      "statement": "The device reading descends from the modern electrical-speculation lineage rather than from the texts."
+    }
+  ],
+  "revision_triggers": [
+    "Claim woh-claim-0001 or woh-claim-0028 is revised or retired.",
+    "Source-language review changes the cited Exodus or Samuel observations.",
+    "Public prose begins publishing reconstructions or extending the reading to other artifacts without records, both of which this record excludes."
+  ],
+  "controlling_document": "../../docs/framework/ark-communication-device.md",
+  "public_derivatives": [
+    "wheelofheaven/data-content:wiki/ark-of-the-covenant.md"
+  ],
+  "last_reviewed": "2026-08-16"
+}

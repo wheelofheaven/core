@@ -363,6 +363,76 @@
       "framework_relation": "comparative",
       "record": "claims/woh-claim-0036.json",
       "specification": "../docs/framework/design-signature-natural-designers.md"
+    },
+    {
+      "id": "woh-claim-0037",
+      "title": "Jesus as alliance project",
+      "version": "0.1.0",
+      "lifecycle": "draft",
+      "claim_kind": "interpretation",
+      "framework_relation": "derived",
+      "record": "claims/woh-claim-0037.json",
+      "specification": "../docs/framework/jesus-alliance-project.md"
+    },
+    {
+      "id": "woh-claim-0038",
+      "title": "The prophet sequence",
+      "version": "0.1.0",
+      "lifecycle": "draft",
+      "claim_kind": "interpretation",
+      "framework_relation": "derived",
+      "record": "claims/woh-claim-0038.json",
+      "specification": "../docs/framework/prophet-sequence.md"
+    },
+    {
+      "id": "woh-claim-0039",
+      "title": "Genesis 1 as compressed creation report",
+      "version": "0.1.0",
+      "lifecycle": "draft",
+      "claim_kind": "interpretation",
+      "framework_relation": "derived",
+      "record": "claims/woh-claim-0039.json",
+      "specification": "../docs/framework/genesis-compressed-report.md"
+    },
+    {
+      "id": "woh-claim-0040",
+      "title": "The Ark as communication device",
+      "version": "0.1.0",
+      "lifecycle": "draft",
+      "claim_kind": "interpretation",
+      "framework_relation": "derived",
+      "record": "claims/woh-claim-0040.json",
+      "specification": "../docs/framework/ark-communication-device.md"
+    },
+    {
+      "id": "woh-claim-0041",
+      "title": "The Four Levels as the canon's weighing rule",
+      "version": "0.1.0",
+      "lifecycle": "draft",
+      "claim_kind": "normative_recommendation",
+      "framework_relation": "derived",
+      "record": "claims/woh-claim-0041.json",
+      "specification": "../docs/framework/four-levels-rule.md"
+    },
+    {
+      "id": "woh-claim-0042",
+      "title": "The literalist convergence",
+      "version": "0.1.0",
+      "lifecycle": "draft",
+      "claim_kind": "interpretation",
+      "framework_relation": "contextual",
+      "record": "claims/woh-claim-0042.json",
+      "specification": "../docs/framework/literalist-convergence.md"
+    },
+    {
+      "id": "woh-claim-0043",
+      "title": "The emblem as infinity symbol",
+      "version": "0.1.0",
+      "lifecycle": "draft",
+      "claim_kind": "interpretation",
+      "framework_relation": "derived",
+      "record": "claims/woh-claim-0043.json",
+      "specification": "../docs/framework/emblem-infinity-symbol.md"
     }
   ]
 }

@@ -1,0 +1,66 @@
+{
+  "$schema": "../schemas/claim.schema.json",
+  "schema_version": "0.1.0",
+  "id": "woh-claim-0041",
+  "title": "The Four Levels as the canon's weighing rule",
+  "version": "0.1.0",
+  "lifecycle": "draft",
+  "statement": "The canon proposes a rule for weighing any situation at four levels — against infinity, against the Elohim as humanity's creators, against human society, and against the individual self — with love as the constant across all four; this record carries the rule as the canon's explicit ethical method, recorded and citable as proposal, not endorsed as the corpus's own ethics.",
+  "claim_kind": "normative_recommendation",
+  "framework_relation": "derived",
+  "evidence_status": [
+    "scoped"
+  ],
+  "public_label": "framework",
+  "scope": {
+    "includes": [
+      "The rule as stated: the four reference levels and the love constant, in the canon's ordering",
+      "Its position in the normative family: the general method beside the institutional proposals (woh-claim-0032 government; woh-claim-0033 economy)",
+      "Its cosmological fit: the infinity level presupposes the frame of woh-claim-0023, which is why the rule reads as the framework's ethics rather than a free-standing maxim"
+    ],
+    "excludes": [
+      "Endorsement or application by the corpus; artifacts may report the rule, never deploy it as their own adjudicator",
+      "Casuistry: no worked cases are recorded, and prose that generates them speaks for itself, not for the canon",
+      "Comparison-shopping against ethical theories; philosophical context may be noted, not adjudicated"
+    ]
+  },
+  "source_references": [
+    {
+      "source_id": "the-book-which-tells-the-truth",
+      "locator": "The four-levels teaching within the messages' ethical material",
+      "role": "canonical_basis",
+      "access": "project_digitization",
+      "note": "../../source-notes/the-book-which-tells-the-truth.md"
+    },
+    {
+      "source_id": "extraterrestrials-took-me-to-their-planet",
+      "locator": "The second message's development of the weighing frame",
+      "role": "canonical_basis",
+      "access": "project_digitization"
+    }
+  ],
+  "dependencies": [
+    "woh-claim-0020",
+    "woh-claim-0023"
+  ],
+  "alternatives": [
+    {
+      "id": "alt-0041-perspective-ethics",
+      "statement": "Multi-level weighing rules recur across ethical traditions (spheres, standpoints, circles of concern); the canon's version is the genre with the framework's cosmology substituted at the top."
+    },
+    {
+      "id": "alt-0041-underdetermination",
+      "statement": "Four reference levels without a priority rule decide nothing; the method names considerations, not a procedure."
+    }
+  ],
+  "revision_triggers": [
+    "Claim woh-claim-0020 or woh-claim-0023 is revised in a way that affects the rule's provenance or frame.",
+    "The canon's fuller context changes the levels or the constant.",
+    "Public prose begins deploying the rule as adjudicator or generating casuistry, both of which this record excludes."
+  ],
+  "controlling_document": "../../docs/framework/four-levels-rule.md",
+  "public_derivatives": [
+    "wheelofheaven/data-content:wiki/four-levels.md"
+  ],
+  "last_reviewed": "2026-08-16"
+}
