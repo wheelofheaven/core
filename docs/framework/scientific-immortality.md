@@ -1,6 +1,6 @@
 ---
 title: Scientific immortality by cloning and memory transfer
-status: draft
+status: accepted
 version: 0.1.0
 last_reviewed: 2026-08-16
 claim_id: woh-claim-0029

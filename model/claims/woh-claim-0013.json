@@ -4,7 +4,7 @@
   "id": "woh-claim-0013",
   "title": "Lucifer and Satan as distinct figures",
   "version": "0.1.0",
-  "lifecycle": "draft",
+  "lifecycle": "accepted",
   "statement": "Lucifer and Satan are distinct: biblically, 'Lucifer' renders helel ben shahar, a taunt against the king of Babylon in Isaiah 14 with no Devil in the passage, while ha-satan in Job and Zechariah is a courtroom role in the divine council; their fusion into a single Devil is a datable Second Temple-to-Christian development sealed in the Anglophone imagination by Milton; and in the canon the two are distinct individuals on opposite sides of the conflict — Lucifer the exiled-creator faction leader, Satan the home-world opposition leader.",
   "claim_kind": "interpretation",
   "framework_relation": "comparative",
@@ -95,5 +95,5 @@
     "wheelofheaven/data-content:wiki/lucifer.md",
     "wheelofheaven/data-content:wiki/satan.md"
   ],
-  "last_reviewed": "2026-08-15"
+  "last_reviewed": "2026-08-16"
 }

@@ -4,12 +4,13 @@
   "id": "woh-claim-0041",
   "title": "The Four Levels as the canon's weighing rule",
   "version": "0.1.0",
-  "lifecycle": "draft",
+  "lifecycle": "accepted",
   "statement": "The canon proposes a rule for weighing any situation at four levels — against infinity, against the Elohim as humanity's creators, against human society, and against the individual self — with love as the constant across all four; this record carries the rule as the canon's explicit ethical method, recorded and citable as proposal, not endorsed as the corpus's own ethics.",
   "claim_kind": "normative_recommendation",
   "framework_relation": "derived",
   "evidence_status": [
-    "scoped"
+    "scoped",
+    "contested"
   ],
   "public_label": "framework",
   "scope": {

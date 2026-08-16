@@ -4,7 +4,7 @@
   "id": "woh-claim-0014",
   "title": "Precessional knowledge encoded in myth",
   "version": "0.1.0",
-  "lifecycle": "draft",
+  "lifecycle": "accepted",
   "statement": "A recurring family of world myths — the great mill that turns, is unhinged, and is wrecked; the axle askew; the ages that grind on and break — encodes observational knowledge of the precession of the equinoxes in narrative form, carried by tellers who no longer understood the technical content (the Hamlet's Mill thesis); the corpus adopts a bounded version of this reading as the mythological layer of its precessional chronology.",
   "claim_kind": "interpretation",
   "framework_relation": "comparative",
@@ -84,5 +84,5 @@
     "wheelofheaven/data-content:wiki/sampo.md",
     "wheelofheaven/data-content:wiki/archaeoastronomy.md"
   ],
-  "last_reviewed": "2026-08-15"
+  "last_reviewed": "2026-08-16"
 }

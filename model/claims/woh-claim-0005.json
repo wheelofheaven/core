@@ -4,7 +4,7 @@
   "id": "woh-claim-0005",
   "title": "Near Eastern literary transmission to archaic Greece",
   "version": "0.1.0",
-  "lifecycle": "draft",
+  "lifecycle": "accepted",
   "statement": "Archaic Greek poetry and myth absorbed substantial Near Eastern — Mesopotamian, Anatolian, and Levantine — literary material through documented contact routes, and the wanderings strand of the Odyssey stands in an especially strong and clear literary relationship with the Gilgamesh epic, without identity of the two heroes.",
   "claim_kind": "empirical_observation",
   "framework_relation": "contextual",
@@ -93,5 +93,5 @@
   "public_derivatives": [
     "wheelofheaven/data-content:articles/the-east-face-of-homer.md"
   ],
-  "last_reviewed": "2026-08-15"
+  "last_reviewed": "2026-08-16"
 }

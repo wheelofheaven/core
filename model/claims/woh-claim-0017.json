@@ -4,7 +4,7 @@
   "id": "woh-claim-0017",
   "title": "Babel as the pardon expedition and its dispersal",
   "version": "0.1.0",
-  "lifecycle": "draft",
+  "lifecycle": "accepted",
   "statement": "The Tower of Babel episode (Genesis 11:1-9) is read, per the canon, as a post-flood recovery project: the Eden-lineage survivors, working with the exiled creator faction, rebuilt a technological civilization and constructed a craft to carry a human delegation toward the creators' home world — on the corpus's reading, to seek the Council's pardon rather than to defy it — and the Council's intervention dispersed the project, preserved in the narrative as the confusion of tongues and the scattering.",
   "claim_kind": "interpretation",
   "framework_relation": "derived",
@@ -83,5 +83,5 @@
     "wheelofheaven/data-content:wiki/tower-of-babel.md",
     "wheelofheaven/data-content:wiki/confusion-of-tongues.md"
   ],
-  "last_reviewed": "2026-08-15"
+  "last_reviewed": "2026-08-16"
 }

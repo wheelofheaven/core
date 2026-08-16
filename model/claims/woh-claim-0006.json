@@ -4,12 +4,13 @@
   "id": "woh-claim-0006",
   "title": "Post-Homeric emissary transfer to Persia and Greece",
   "version": "0.1.0",
-  "lifecycle": "draft",
+  "lifecycle": "accepted",
   "statement": "According to the canon, the creators placed emissaries ('angels') among the Persians and the Greeks to accomplish technology transfer during the era of those powers' domination of Israel, as a punitive inversion of providence; this engagement falls in the sixth to fourth centuries BCE and therefore post-dates the crystallisation of the Homeric poems, so it explains no Homeric or Hesiodic content.",
   "claim_kind": "interpretation",
   "framework_relation": "derived",
   "evidence_status": [
-    "scoped"
+    "scoped",
+    "contested"
   ],
   "public_label": "framework",
   "scope": {
@@ -67,5 +68,5 @@
   "public_derivatives": [
     "wheelofheaven/data-content:articles/the-east-face-of-homer.md"
   ],
-  "last_reviewed": "2026-08-15"
+  "last_reviewed": "2026-08-16"
 }

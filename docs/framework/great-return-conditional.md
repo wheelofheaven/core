@@ -1,6 +1,6 @@
 ---
 title: The Great Return as conditional arrival
-status: draft
+status: accepted
 version: 0.1.0
 last_reviewed: 2026-08-15
 claim_id: woh-claim-0015

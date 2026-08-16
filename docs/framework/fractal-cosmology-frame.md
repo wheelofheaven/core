@@ -1,6 +1,6 @@
 ---
 title: "Fractal cosmology: the infinite in both directions"
-status: draft
+status: accepted
 version: 0.1.0
 last_reviewed: 2026-08-16
 claim_id: woh-claim-0023
@@ -21,16 +21,15 @@ this record.
 An `interpretation` with framework relation `foundational` and public
 label `framework`.
 
-## Foundational placement — flagged for founder confirmation
+## Foundational placement — founder-confirmed
 
 This is the first distilled record assigned `foundational`: the scale
 picture does not derive from the Elohim-civilization hypothesis or any
 other recorded claim — it is its own canonical premise, the frame that
-`woh-claim-0025` (macrobiology) derives from. Assigning `foundational`
-is ordinarily founder-gated; the assignment here was made under the
-distillation directive and is **explicitly awaiting founder confirmation
-at review**. The machine record's dependency on `woh-claim-0020` records
-provenance (the premise is canon-delivered), not derivation.
+`woh-claim-0025` (macrobiology) derives from. The assignment was flagged
+at drafting and **confirmed by the founder in the 2026-08-16 acceptance
+ruling (ADR 0005)**. The machine record's dependency on `woh-claim-0020`
+records provenance (the premise is canon-delivered), not derivation.
 
 ## The boundary against physics
 

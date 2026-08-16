@@ -4,7 +4,7 @@
   "id": "woh-claim-0009",
   "title": "The Elohim plural and the canonical gloss",
   "version": "0.1.0",
-  "lifecycle": "draft",
+  "lifecycle": "accepted",
   "statement": "The Hebrew word Elohim is grammatically plural and the biblical text preserves plural usage around it (plural cohortatives, plural pronouns, the sons-of-God formulae, the divine council of Psalm 82); the corpus reads that plurality referentially — many individual Elohim rather than a majestic singular — and adopts the canon's gloss 'those who came from the sky', while recording explicitly that the gloss is a canonical rendering and not the consensus lexical derivation.",
   "claim_kind": "interpretation",
   "framework_relation": "derived",
@@ -93,5 +93,5 @@
     "wheelofheaven/data-content:wiki/plurality-of-gods.md",
     "wheelofheaven/data-content:articles/monotheism-is-the-wrong-question.md"
   ],
-  "last_reviewed": "2026-08-15"
+  "last_reviewed": "2026-08-16"
 }

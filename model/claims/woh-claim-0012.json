@@ -4,7 +4,7 @@
   "id": "woh-claim-0012",
   "title": "Watchers and Nephilim as the exile-era unions",
   "version": "0.1.0",
-  "lifecycle": "draft",
+  "lifecycle": "accepted",
   "statement": "The Watchers and the Nephilim are distinct: 'Watcher' designates the heavenly functionaries who, in the Enochic narrative, descend at Hermon, take human wives, and transmit forbidden arts, while 'Nephilim' names the mighty offspring of those unions in Genesis 6:4 — fathers and children of one antediluvian episode, collapsed together only by later reception; and the corpus identifies that episode with the exiled creators' unions with human women and the resulting offspring in the canon's account of the exile era.",
   "claim_kind": "interpretation",
   "framework_relation": "comparative",
@@ -101,5 +101,5 @@
     "wheelofheaven/data-content:wiki/watchers.md",
     "wheelofheaven/data-content:wiki/book-of-enoch.md"
   ],
-  "last_reviewed": "2026-08-15"
+  "last_reviewed": "2026-08-16"
 }

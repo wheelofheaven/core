@@ -4,7 +4,7 @@
   "id": "woh-claim-0015",
   "title": "The Great Return as conditional arrival",
   "version": "0.1.0",
-  "lifecycle": "draft",
+  "lifecycle": "accepted",
   "statement": "The canon anticipates an official arrival of the Elohim on Earth — the culminating event its message is oriented toward — and makes it conditional rather than predicted: humanity must want the return, must be sufficiently unified and wise to receive advanced knowledge responsibly, must build the Embassy on extraterritorial ground, and must guarantee the visitors' safety; the anticipation is situated in the contemporary period the canon calls the Apocalypse, coextensive with the Age of Aquarius and opening at the mid-twentieth-century threshold, and the arrival would inaugurate a transfer of knowledge far in advance of humanity's own.",
   "claim_kind": "interpretation",
   "framework_relation": "derived",
@@ -78,5 +78,5 @@
     "wheelofheaven/data-content:wiki/apocalypse.md",
     "wheelofheaven/data-content:wiki/golden-age.md"
   ],
-  "last_reviewed": "2026-08-15"
+  "last_reviewed": "2026-08-16"
 }

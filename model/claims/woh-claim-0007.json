@@ -4,7 +4,7 @@
   "id": "woh-claim-0007",
   "title": "Greece within the Elohimian sphere",
   "version": "0.1.0",
-  "lifecycle": "draft",
+  "lifecycle": "accepted",
   "statement": "Greece lay continuously within the sphere of Elohim engagement whose centre of gravity the biblical corpus records in the Near East: the canon names Greece among the creator-base regions and characterises its mythology as testimony, and later reports emissaries sent among the Greeks — two engagements centuries apart — so Greek religious tradition is read as a broader extension of the same Elohimian events, not a foreign domain touched once.",
   "claim_kind": "interpretation",
   "framework_relation": "derived",
@@ -89,5 +89,5 @@
   "public_derivatives": [
     "wheelofheaven/data-content:articles/the-east-face-of-homer.md"
   ],
-  "last_reviewed": "2026-08-15"
+  "last_reviewed": "2026-08-16"
 }

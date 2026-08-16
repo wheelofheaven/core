@@ -4,7 +4,7 @@
   "id": "woh-claim-0010",
   "title": "The Flood as deliberate reset",
   "version": "0.1.0",
-  "lifecycle": "draft",
+  "lifecycle": "accepted",
   "statement": "The ancient flood narratives — Genesis 6-9, Atrahasis, Gilgamesh XI, the Sumerian Flood Story, the Book of the Watchers — share a decision procedure rather than a divine mood: a resolution taken in assembly, sworn and treated as irrevocable, opposed by an internal dissenter, executed with a warned survivor under precise instructions to preserve the seed of living things; and the canon reads the event itself as a deliberate reset of the antediluvian project, with the genetic stock preserved aboard a craft and the human remnant re-established afterwards.",
   "claim_kind": "interpretation",
   "framework_relation": "derived",
@@ -101,5 +101,5 @@
     "wheelofheaven/data-content:wiki/noahs-ark.md",
     "wheelofheaven/data-content:wiki/noahic-covenant.md"
   ],
-  "last_reviewed": "2026-08-15"
+  "last_reviewed": "2026-08-16"
 }

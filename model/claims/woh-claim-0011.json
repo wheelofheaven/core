@@ -4,7 +4,7 @@
   "id": "woh-claim-0011",
   "title": "Monotheism as re-description of the plural Elohim",
   "version": "0.1.0",
-  "lifecycle": "draft",
+  "lifecycle": "accepted",
   "statement": "The Hebrew Bible preserves a divine council and plural divine beings alongside its demands for exclusive allegiance, and the anti-idol polemic of the prophetic traditions functions less as an arithmetic claim about how many superhuman beings exist than as a struggle over memory, representation, mediation, and loyalty; the corpus's stronger proposal reads prophetic monotheism as a progressive re-description of the plural Elohim into one immaterial God — so that the monotheism/polytheism division is the wrong question to put to the sources.",
   "claim_kind": "interpretation",
   "framework_relation": "derived",
@@ -101,5 +101,5 @@
     "wheelofheaven/data-content:wiki/monotheism.md",
     "wheelofheaven/data-content:wiki/idolatry.md"
   ],
-  "last_reviewed": "2026-08-15"
+  "last_reviewed": "2026-08-16"
 }
