@@ -1,0 +1,64 @@
+{
+  "$schema": "../schemas/claim.schema.json",
+  "schema_version": "0.1.0",
+  "id": "woh-claim-0061",
+  "title": "The translation program's accuracy-first commitment",
+  "version": "0.1.0",
+  "lifecycle": "draft",
+  "statement": "The corpus's own source-text translations (the -woh library editions) are produced under a published, checkable commitment: philological accuracy before the framework lens, with every lens-relevant divergence confined to the labelled commentary apparatus and never written into the translated text, glossary decisions recorded and adjudicated rather than improvised, and contested renderings escalated for review; the commitment is a rule the project binds itself to, and its observance is verifiable against the published apparatus.",
+  "claim_kind": "normative_recommendation",
+  "framework_relation": "contextual",
+  "evidence_status": [
+    "scoped"
+  ],
+  "public_label": "direct",
+  "scope": {
+    "includes": [
+      "The rule: accuracy before lens — the translated text answers to the source language and scholarly defensibility; the framework's readings live in the commentary, labelled",
+      "The apparatus that makes it checkable: per-verse commentary for divergences, glossary records with claim-type rationales, editorial and review stages with escalation for speculative entries",
+      "The verification claim, which earns the direct label: whether a published -woh edition observes the rule is checkable by inspection of its text against its apparatus"
+    ],
+    "excludes": [
+      "Any claim that the translations are lens-free; the program's honesty is the labelled lens, not its absence",
+      "Quality claims about specific renderings; each book's apparatus carries its own record",
+      "The translation program's operational tooling, which is process, not commitment",
+      "External translations in the library, which the program does not govern"
+    ]
+  },
+  "source_references": [
+    {
+      "source_id": "the-book-which-tells-the-truth",
+      "locator": "The canon whose readings the lens carries — confined, under this rule, to the commentary layer of every -woh edition",
+      "role": "canonical_basis",
+      "access": "project_digitization",
+      "note": "../../source-notes/the-book-which-tells-the-truth.md"
+    },
+    {
+      "source_id": "tov-textual-criticism",
+      "locator": "The text-critical standard the accuracy side answers to",
+      "role": "scholarly_context",
+      "access": "metadata_only"
+    }
+  ],
+  "dependencies": [],
+  "alternatives": [
+    {
+      "id": "alt-0061-lens-leakage",
+      "statement": "A lens confined to commentary still shapes the text through glossary choices and rendering defaults; the accuracy-first rule understates the frame's reach into the translation itself."
+    },
+    {
+      "id": "alt-0061-self-certification",
+      "statement": "A project verifying its own rule-observance certifies itself; the commitment is checkable in principle but unchecked by anyone outside."
+    }
+  ],
+  "revision_triggers": [
+    "The program's published rules change the commitment's content.",
+    "An external review documents lens-leakage into a published text, vindicating the leakage objection and requiring the edition's correction.",
+    "Corpus prose begins claiming lens-free translation, which this record excludes."
+  ],
+  "controlling_document": "../../docs/framework/translation-accuracy-first.md",
+  "public_derivatives": [
+    "wheelofheaven/data-content:library/_index.md"
+  ],
+  "last_reviewed": "2026-08-16"
+}

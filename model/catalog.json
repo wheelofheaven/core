@@ -583,6 +583,36 @@
       "framework_relation": "contextual",
       "record": "claims/woh-claim-0058.json",
       "specification": "../docs/framework/monument-attribution-posture.md"
+    },
+    {
+      "id": "woh-claim-0059",
+      "title": "The creation week as precessional sequence",
+      "version": "0.1.0",
+      "lifecycle": "draft",
+      "claim_kind": "interpretation",
+      "framework_relation": "derived",
+      "record": "claims/woh-claim-0059.json",
+      "specification": "../docs/framework/creation-week-ages.md"
+    },
+    {
+      "id": "woh-claim-0060",
+      "title": "The comparative datasets as tabulated registrations",
+      "version": "0.1.0",
+      "lifecycle": "draft",
+      "claim_kind": "interpretation",
+      "framework_relation": "contextual",
+      "record": "claims/woh-claim-0060.json",
+      "specification": "../docs/framework/datasets-tabulated-registrations.md"
+    },
+    {
+      "id": "woh-claim-0061",
+      "title": "The translation program's accuracy-first commitment",
+      "version": "0.1.0",
+      "lifecycle": "draft",
+      "claim_kind": "normative_recommendation",
+      "framework_relation": "contextual",
+      "record": "claims/woh-claim-0061.json",
+      "specification": "../docs/framework/translation-accuracy-first.md"
     }
   ]
 }

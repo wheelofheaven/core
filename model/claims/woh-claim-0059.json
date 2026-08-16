@@ -1,0 +1,75 @@
+{
+  "$schema": "../schemas/claim.schema.json",
+  "schema_version": "0.1.0",
+  "id": "woh-claim-0059",
+  "title": "The creation week as precessional sequence",
+  "version": "0.1.0",
+  "lifecycle": "draft",
+  "statement": "The corpus reads each day of the Genesis 1 creation week as one precessional age of roughly 2,160 years, in the assignment the timeline chapters carry under the Model-C lattice: the arrival and orbital survey opening the sequence in the Age of Capricorn, the works proceeding age by age (the waters separated and the first continent raised in Sagittarius, and onward), through the human synthesis and the rest — a specific chronological identification that goes beyond the staged reading of woh-claim-0039, which deliberately excluded day-length arithmetic, and which this record supplies at the lattice's precision and risk.",
+  "claim_kind": "interpretation",
+  "framework_relation": "derived",
+  "evidence_status": [
+    "scoped",
+    "contested"
+  ],
+  "public_label": "framework",
+  "scope": {
+    "includes": [
+      "The identification: one creation day = one precessional age, with the per-day assignments as the timeline chapters state them under Model-C — the chapters, not this record, carry the per-age narrative detail",
+      "The relationship to its parents: woh-claim-0039 supplies the staged reading (days as working periods); woh-claim-0003 supplies the lattice (the ages, their boundaries, the anchor); this record is the join, and inherits both parents' risks explicitly",
+      "The corollary the join produces: the creation project's total span (the week's ages summed) is a lattice-derived figure, not a genealogical or geological one"
+    ],
+    "excludes": [
+      "Any concordist mapping onto cosmological or geological chronology; the ages are the corpus's frame, and the record makes no claim about deep-time earth science",
+      "Per-age narrative content beyond the identification; the timeline chapters and the episode records carry it",
+      "The seventh-day theology of the Genesis text, preserved to the text",
+      "Precision beyond the lattice's own (the ~2,160-year age is a model figure per woh-claim-0003, and this record adds no decimal places)"
+    ]
+  },
+  "source_references": [
+    {
+      "source_id": "the-book-which-tells-the-truth",
+      "locator": "The decoded Genesis reading's staged works (via woh-claim-0039) and the canon's cycle framing the identification rides within",
+      "role": "canonical_basis",
+      "access": "project_digitization",
+      "note": "../../source-notes/the-book-which-tells-the-truth.md"
+    },
+    {
+      "source_id": "genesis",
+      "locator": "GEN-WOH-1 (the week whose days are identified)",
+      "role": "primary_text",
+      "access": "project_digitization"
+    },
+    {
+      "source_id": "sendy-lune-cle-bible",
+      "locator": "Sendy's earlier day-age identification as the modern precedent for this specific join",
+      "role": "comparative",
+      "access": "metadata_only"
+    }
+  ],
+  "dependencies": [
+    "woh-claim-0003",
+    "woh-claim-0039"
+  ],
+  "alternatives": [
+    {
+      "id": "alt-0059-double-jeopardy",
+      "statement": "The join inherits every objection to both parents and adds a mapping neither text nor astronomy supplies; day-equals-age is the corpus's neatest and therefore most suspect equation."
+    },
+    {
+      "id": "alt-0059-schema-convenience",
+      "statement": "Seven days onto twelve ages requires editorial choices (which ages, where the week starts) that the text cannot arbitrate; the assignment is lattice-driven convenience."
+    }
+  ],
+  "revision_triggers": [
+    "Claim woh-claim-0003 or woh-claim-0039 is revised or retired.",
+    "The Model-C lattice's per-age assignments are revised; this record moves with the timeline chapters.",
+    "Public prose begins concordist deep-time mapping or adds precision beyond the lattice, both of which this record excludes."
+  ],
+  "controlling_document": "../../docs/framework/creation-week-ages.md",
+  "public_derivatives": [
+    "wheelofheaven/data-content:timeline/age-of-capricorn.md",
+    "wheelofheaven/data-content:timeline/age-of-sagittarius.md"
+  ],
+  "last_reviewed": "2026-08-16"
+}

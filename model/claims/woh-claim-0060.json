@@ -1,0 +1,72 @@
+{
+  "$schema": "../schemas/claim.schema.json",
+  "schema_version": "0.1.0",
+  "id": "woh-claim-0060",
+  "title": "The comparative datasets as tabulated registrations",
+  "version": "0.1.0",
+  "lifecycle": "draft",
+  "statement": "The corpus's curated comparative datasets — the flood-myth concordance, the divine-council index, the theomachy cross-references, the prophets-and-religions table, the world-ages table, and the motif-index derivatives — are tabulated registrations, each row a per-tradition registration at its stated grade against a named primary source; a dataset is a research instrument serving its governing claims, and tabulation is never accumulation: rows sharing a textual stream are one datum under the independence-of-evidence principle, and no dataset's size is an argument.",
+  "claim_kind": "interpretation",
+  "framework_relation": "contextual",
+  "evidence_status": [
+    "scoped"
+  ],
+  "public_label": "inferred",
+  "scope": {
+    "includes": [
+      "The row discipline: per-tradition registration, named primary source, stated relationship grade (resemblance, dependence, typology) — the discipline the datasets' own curation rules already enforce",
+      "The service mapping: each dataset serves its governing claim(s) — flood-myths to 0010, divine-council to 0011, theomachy-crossrefs to 0008, prophets-and-religions to 0038, world-ages to 0003, the motif-index derivatives to the 0056 surface",
+      "The independence rule as binding: rows in one documented stream (the Atrahasis-Gilgamesh-Genesis line above all) are one datum however many rows carry them",
+      "The both-ways function: a dataset that registers a tradition's divergence is doing its job exactly as much as one that registers convergence"
+    ],
+    "excludes": [
+      "Dataset size or coverage as evidence for any claim; counting is the named forbidden move",
+      "Rows as endorsements; a registration records that a comparison exists at a grade, not that it succeeds",
+      "The technical datasets (the content graph), which are infrastructure, not registrations",
+      "Curation-rule changes, which are editorial process, not this record's content"
+    ]
+  },
+  "source_references": [
+    {
+      "source_id": "atrahasis",
+      "locator": "The documented stream whose rows exemplify the one-datum rule (ATRA-WOH; the flood concordance's central column)",
+      "role": "primary_text",
+      "access": "project_digitization"
+    },
+    {
+      "source_id": "the-structural-study-of-myth-journal-of-american-folklore-68-the-mytheme-the-riv",
+      "locator": "The structuralist account of what tabulated myth-patterns show — the standing alternative reading of every dataset",
+      "role": "critical",
+      "access": "metadata_only"
+    }
+  ],
+  "dependencies": [
+    "woh-claim-0056"
+  ],
+  "alternatives": [
+    {
+      "id": "alt-0060-curation-selection",
+      "statement": "Curated datasets register what curators sought; the tables' shapes reflect the framework's questions, and neutrality claims for them overstate."
+    },
+    {
+      "id": "alt-0060-instrument-drift",
+      "statement": "Instruments become arguments by exposure: publishing tables invites size-reading whatever the record forbids, and the discipline is unenforceable at the reader."
+    }
+  ],
+  "revision_triggers": [
+    "Claim woh-claim-0056 is revised or retired.",
+    "A governing claim's revision changes what its dataset serves.",
+    "Corpus prose begins counting rows as evidence, the named forbidden move."
+  ],
+  "controlling_document": "../../docs/framework/datasets-tabulated-registrations.md",
+  "public_derivatives": [
+    "wheelofheaven/data-content:datasets/flood-myths.md",
+    "wheelofheaven/data-content:datasets/divine-council-index.md",
+    "wheelofheaven/data-content:datasets/theomachy-crossrefs.md",
+    "wheelofheaven/data-content:datasets/prophets-and-religions.md",
+    "wheelofheaven/data-content:datasets/world-ages.md",
+    "wheelofheaven/data-content:datasets/myth-index.md",
+    "wheelofheaven/data-content:datasets/aarne-1910-tale-types.md"
+  ],
+  "last_reviewed": "2026-08-16"
+}
