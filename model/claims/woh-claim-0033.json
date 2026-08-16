@@ -72,7 +72,10 @@
   ],
   "controlling_document": "../../docs/framework/paradism-proposal.md",
   "public_derivatives": [
-    "wheelofheaven/data-content:wiki/paradism.md"
+    "wheelofheaven/data-content:wiki/paradism.md",
+    "wheelofheaven/data-content:wiki/cyberparadism.md",
+    "wheelofheaven/data-content:wiki/new-commandments.md",
+    "wheelofheaven/data-content:wiki/golden-age.md"
   ],
   "last_reviewed": "2026-08-16"
 }

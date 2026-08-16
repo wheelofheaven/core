@@ -65,7 +65,8 @@
   ],
   "controlling_document": "../../docs/framework/geniocracy-proposal.md",
   "public_derivatives": [
-    "wheelofheaven/data-content:wiki/geniocracy.md"
+    "wheelofheaven/data-content:wiki/geniocracy.md",
+    "wheelofheaven/data-content:wiki/new-commandments.md"
   ],
   "last_reviewed": "2026-08-16"
 }

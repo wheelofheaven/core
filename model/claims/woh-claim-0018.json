@@ -73,7 +73,10 @@
   ],
   "controlling_document": "../../docs/framework/eden-operational-territory.md",
   "public_derivatives": [
-    "wheelofheaven/data-content:wiki/eden.md"
+    "wheelofheaven/data-content:wiki/eden.md",
+    "wheelofheaven/data-content:wiki/adam-and-eve.md",
+    "wheelofheaven/data-content:wiki/tree-of-the-knowledge-of-good-and-evil.md",
+    "wheelofheaven/data-content:wiki/tree-of-life.md"
   ],
   "last_reviewed": "2026-08-16"
 }

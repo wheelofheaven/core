@@ -72,7 +72,9 @@
   ],
   "controlling_document": "../../docs/framework/embassy-third-temple.md",
   "public_derivatives": [
-    "wheelofheaven/data-content:wiki/embassy.md"
+    "wheelofheaven/data-content:wiki/embassy.md",
+    "wheelofheaven/data-content:wiki/third-temple.md",
+    "wheelofheaven/data-content:wiki/new-jerusalem.md"
   ],
   "last_reviewed": "2026-08-15"
 }

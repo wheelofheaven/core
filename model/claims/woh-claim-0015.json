@@ -75,7 +75,8 @@
   "controlling_document": "../../docs/framework/great-return-conditional.md",
   "public_derivatives": [
     "wheelofheaven/data-content:wiki/great-return.md",
-    "wheelofheaven/data-content:wiki/apocalypse.md"
+    "wheelofheaven/data-content:wiki/apocalypse.md",
+    "wheelofheaven/data-content:wiki/golden-age.md"
   ],
   "last_reviewed": "2026-08-15"
 }

@@ -73,7 +73,8 @@
   "controlling_document": "../../docs/framework/fractal-cosmology-frame.md",
   "public_derivatives": [
     "wheelofheaven/data-content:wiki/fractal-cosmology.md",
-    "wheelofheaven/data-content:articles/the-infinite-in-both-directions.md"
+    "wheelofheaven/data-content:articles/the-infinite-in-both-directions.md",
+    "wheelofheaven/data-content:wiki/infinity.md"
   ],
   "last_reviewed": "2026-08-16"
 }

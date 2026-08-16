@@ -67,7 +67,8 @@
   "controlling_document": "../../docs/framework/year-one-unsealing.md",
   "public_derivatives": [
     "wheelofheaven/data-content:articles/the-scrolls-that-woke-in-year-one.md",
-    "wheelofheaven/data-content:articles/unsealed-in-year-one.md"
+    "wheelofheaven/data-content:articles/unsealed-in-year-one.md",
+    "wheelofheaven/data-content:wiki/dead-sea-scrolls.md"
   ],
   "last_reviewed": "2026-08-16"
 }

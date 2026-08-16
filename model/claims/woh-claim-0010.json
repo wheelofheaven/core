@@ -96,7 +96,10 @@
   "controlling_document": "../../docs/framework/flood-as-reset.md",
   "public_derivatives": [
     "wheelofheaven/data-content:articles/the-flood-was-a-reset-not-a-punishment.md",
-    "wheelofheaven/data-content:wiki/great-flood.md"
+    "wheelofheaven/data-content:wiki/great-flood.md",
+    "wheelofheaven/data-content:wiki/noah.md",
+    "wheelofheaven/data-content:wiki/noahs-ark.md",
+    "wheelofheaven/data-content:wiki/noahic-covenant.md"
   ],
   "last_reviewed": "2026-08-15"
 }

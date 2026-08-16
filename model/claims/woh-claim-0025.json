@@ -79,7 +79,8 @@
   "controlling_document": "../../docs/framework/macrobiology-proposal.md",
   "public_derivatives": [
     "wheelofheaven/data-content:wiki/macrobiology.md",
-    "wheelofheaven/data-content:articles/the-shape-of-humanity.md"
+    "wheelofheaven/data-content:articles/the-shape-of-humanity.md",
+    "wheelofheaven/data-content:wiki/living-earth.md"
   ],
   "last_reviewed": "2026-08-16"
 }

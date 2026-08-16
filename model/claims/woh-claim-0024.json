@@ -79,7 +79,10 @@
   ],
   "controlling_document": "../../docs/framework/early-qibla-convergence.md",
   "public_derivatives": [
-    "wheelofheaven/data-content:articles/the-first-mosques-faced-petra-not-mecca.md"
+    "wheelofheaven/data-content:articles/the-first-mosques-faced-petra-not-mecca.md",
+    "wheelofheaven/data-content:wiki/petra.md",
+    "wheelofheaven/data-content:wiki/hanafiyya.md",
+    "wheelofheaven/data-content:wiki/nabataeans.md"
   ],
   "last_reviewed": "2026-08-16"
 }

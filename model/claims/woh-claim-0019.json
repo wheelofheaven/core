@@ -74,7 +74,10 @@
   ],
   "controlling_document": "../../docs/framework/antediluvian-civilization.md",
   "public_derivatives": [
-    "wheelofheaven/data-content:wiki/antediluvian.md"
+    "wheelofheaven/data-content:wiki/antediluvian.md",
+    "wheelofheaven/data-content:wiki/sumerian-king-list.md",
+    "wheelofheaven/data-content:wiki/adamites.md",
+    "wheelofheaven/data-content:wiki/adamite-struggle.md"
   ],
   "last_reviewed": "2026-08-16"
 }
