@@ -71,7 +71,11 @@
   "public_derivatives": [
     "wheelofheaven/data-content:articles/the-reporter-at-the-razors-edge.md",
     "wheelofheaven/data-content:wiki/military-cover-up-of-exobiology.md",
-    "wheelofheaven/data-content:wiki/crop-circles.md"
+    "wheelofheaven/data-content:wiki/crop-circles.md",
+    "wheelofheaven/data-content:news/pursue-release-01-uap-files.md",
+    "wheelofheaven/data-content:news/pursue-release-02-spheres-and-transmedium.md",
+    "wheelofheaven/data-content:news/pursue-release-03-multi-agency-and-international.md",
+    "wheelofheaven/data-content:news/pursue-release-04-the-nuclear-nexus.md"
   ],
   "last_reviewed": "2026-08-16"
 }
