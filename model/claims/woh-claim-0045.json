@@ -1,0 +1,70 @@
+{
+  "$schema": "../schemas/claim.schema.json",
+  "schema_version": "0.1.0",
+  "id": "woh-claim-0045",
+  "title": "The Alliance as covenant-born body",
+  "version": "0.1.0",
+  "lifecycle": "draft",
+  "statement": "The Alliance is the corpus's name for the formal cross-civilizational relationship structuring the long history between the Elohim and the Eden-lineage human population: constituted at the post-Flood Noahic covenant between the exiled creators and the surviving humans, persisting through the conflict's settlement (which pardoned the exiles without unmaking the human covenant), and standing behind the later engagement institutions the framework records; the systematization of scattered canonical covenant material into one named body is corpus development at speculative grade.",
+  "claim_kind": "interpretation",
+  "framework_relation": "derived",
+  "evidence_status": [
+    "scoped",
+    "contested"
+  ],
+  "public_label": "speculative",
+  "scope": {
+    "includes": [
+      "The constitution reading: the Noahic covenant as the alliance's founding instrument (the biblical covenant read as treaty memory, alongside the woh-claim-0010 episode)",
+      "The persistence reading: the settlement of woh-claim-0008 pardons the exiles and leaves the human covenant standing — the alliance as the through-line",
+      "The systematization disclosure: the canon narrates covenants and cooperation; the single named body with continuous institutional existence is the corpus's organizing construct, and the record says so"
+    ],
+    "excludes": [
+      "Institutional detail beyond what canon and corpus state (no charters, offices, or rosters invented)",
+      "The Council of the Eternals, which is the Elohim's own body (woh-claim-0029's carrier), not this cross-civilizational relationship",
+      "Covenant theology's own readings, preserved in their own voice",
+      "The return-era institutions, carried by woh-claim-0015 and 0016"
+    ]
+  },
+  "source_references": [
+    {
+      "source_id": "the-book-which-tells-the-truth",
+      "locator": "The post-Flood cooperation and covenant material; the settlement narrative",
+      "role": "canonical_basis",
+      "access": "project_digitization",
+      "note": "../../source-notes/the-book-which-tells-the-truth.md"
+    },
+    {
+      "source_id": "genesis",
+      "locator": "GEN-WOH-9:1-17 (the Noahic covenant: the grant, the prohibitions, the sign)",
+      "role": "primary_text",
+      "access": "project_digitization"
+    }
+  ],
+  "dependencies": [
+    "woh-claim-0001",
+    "woh-claim-0008",
+    "woh-claim-0010"
+  ],
+  "alternatives": [
+    {
+      "id": "alt-0045-covenant-theology",
+      "statement": "The Noahic covenant is priestly covenant theology (grant, prohibition, sign); no treaty between parties stands behind it."
+    },
+    {
+      "id": "alt-0045-over-systematization",
+      "statement": "Scattered cooperation episodes do not make one institution; the named body is the corpus's construct doing the connecting the sources do not."
+    }
+  ],
+  "revision_triggers": [
+    "Claim woh-claim-0001, woh-claim-0008, or woh-claim-0010 is revised or retired.",
+    "The canon's fuller context complicates the constitution or persistence readings.",
+    "Public prose begins inventing institutional detail, which this record excludes."
+  ],
+  "controlling_document": "../../docs/framework/alliance-covenant-body.md",
+  "public_derivatives": [
+    "wheelofheaven/data-content:wiki/the-alliance.md",
+    "wheelofheaven/data-content:wiki/noahic-covenant.md"
+  ],
+  "last_reviewed": "2026-08-16"
+}

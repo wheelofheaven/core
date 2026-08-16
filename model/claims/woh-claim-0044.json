@@ -1,0 +1,70 @@
+{
+  "$schema": "../schemas/claim.schema.json",
+  "schema_version": "0.1.0",
+  "id": "woh-claim-0044",
+  "title": "The Doubled Signature",
+  "version": "0.1.0",
+  "lifecycle": "draft",
+  "statement": "The Doubled Signature is the corpus's hermeneutic principle, extending Hamlet's Mill: each precessional age encodes its astronomical signature in iconographic and religious form doubly — in the age's own zodiacal emblem and in a paired counter-form — so that age-attribution of religious iconography can be cross-checked rather than free-associated; the principle is an interpretive instrument at speculative grade, whose value is the constraint it imposes on the corpus's own age-readings.",
+  "claim_kind": "interpretation",
+  "framework_relation": "comparative",
+  "evidence_status": [
+    "scoped",
+    "contested"
+  ],
+  "public_label": "speculative",
+  "scope": {
+    "includes": [
+      "The principle as the corpus states it: dual encoding per age, providing a two-witness check on iconographic age-attribution",
+      "Its lineage: an extension of the Hamlet's Mill encoding thesis (woh-claim-0014), reserved by that record and minted here from its own entry",
+      "Its instrumental function: a constraint on the corpus's readings — an attribution that cannot show both signatures is weakened by the corpus's own rule",
+      "The Mithraic tauroctony as the corpus's exhibit case for a doubled age-icon, at the entry's stated strength"
+    ],
+    "excludes": [
+      "Any claim that ancient iconographers held the principle consciously; it is the corpus's instrument, not their doctrine",
+      "Free-association rescue: an attribution failing the double check may not be saved by loosening the pairing",
+      "Extension beyond iconographic age-attribution into general symbolism",
+      "The astronomical layer itself, which is woh-claim-0003's and 0014's"
+    ]
+  },
+  "source_references": [
+    {
+      "source_id": "hamlets-mill",
+      "locator": "The encoding thesis this principle extends (metadata_only; the wantlist's standing item)",
+      "role": "comparative",
+      "access": "metadata_only"
+    },
+    {
+      "source_id": "the-book-which-tells-the-truth",
+      "locator": "The canon's cycle symbolism the corpus's age-readings sit within (TBWTT-3:305 family)",
+      "role": "canonical_basis",
+      "access": "project_digitization",
+      "note": "../../source-notes/the-book-which-tells-the-truth.md"
+    }
+  ],
+  "dependencies": [
+    "woh-claim-0003",
+    "woh-claim-0014"
+  ],
+  "alternatives": [
+    {
+      "id": "alt-0044-flexibility-objection",
+      "statement": "Two signatures give more matching surface, not less; unless the pairing is fixed in advance per age, the double check loosens rather than constrains."
+    },
+    {
+      "id": "alt-0044-inherited-method-failure",
+      "statement": "The principle inherits Hamlet's Mill's method problems; doubling an unsound attribution procedure does not sound it."
+    }
+  ],
+  "revision_triggers": [
+    "Claim woh-claim-0003 or woh-claim-0014 is revised or retired.",
+    "The per-age pairings are not fixed in advance in corpus practice, vindicating the flexibility objection.",
+    "Inspection of Hamlet's Mill changes what the extension actually extends."
+  ],
+  "controlling_document": "../../docs/framework/doubled-signature.md",
+  "public_derivatives": [
+    "wheelofheaven/data-content:wiki/doubled-signature.md",
+    "wheelofheaven/data-content:wiki/tauroctony.md"
+  ],
+  "last_reviewed": "2026-08-16"
+}

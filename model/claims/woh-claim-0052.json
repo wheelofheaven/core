@@ -1,0 +1,67 @@
+{
+  "$schema": "../schemas/claim.schema.json",
+  "schema_version": "0.1.0",
+  "id": "woh-claim-0052",
+  "title": "Forerunners within the prophet lineage",
+  "version": "0.1.0",
+  "lifecycle": "draft",
+  "statement": "Within the prophet sequence of woh-claim-0038, the corpus distinguishes a preparatory sub-class — forerunners, whose missions prepare the way for a more central figure (John the Baptist before Jesus as the type case) — inside the roughly forty-prophet lineage the corpus tracks, distinct from the age-inaugural prophets; the sub-classification is corpus systematization over the sequence, at speculative grade.",
+  "claim_kind": "interpretation",
+  "framework_relation": "derived",
+  "evidence_status": [
+    "scoped",
+    "contested"
+  ],
+  "public_label": "speculative",
+  "scope": {
+    "includes": [
+      "The functional distinction: preparatory missions versus age-inaugural ones, with John the Baptist as the canon-adjacent type case",
+      "The lineage frame: the roughly forty-prophet count as the corpus's tracking construct over the sequence, disclosed as such",
+      "The dependency discipline: everything here rides on woh-claim-0038; a forerunner is a sequence member with a preparatory tasking, nothing more"
+    ],
+    "excludes": [
+      "Canonical status for the sub-class; the canon names figures and missions, and the class is the corpus's sorting",
+      "Membership adjudication beyond figures the corpus has actually classed",
+      "The forty-count as canon-stated arithmetic; it is the corpus's census of its own tracking",
+      "Any figure outside the sequence's own scope rules"
+    ]
+  },
+  "source_references": [
+    {
+      "source_id": "the-book-which-tells-the-truth",
+      "locator": "The prophet-mission material the sub-classification sorts",
+      "role": "canonical_basis",
+      "access": "project_digitization",
+      "note": "../../source-notes/the-book-which-tells-the-truth.md"
+    },
+    {
+      "source_id": "gospel-of-mark",
+      "locator": "Mark 1:2-8 (MARK-WOH-1:2-8 in the in-house rendering): the messenger preparing the way — the type case's textual basis",
+      "role": "primary_text",
+      "access": "project_digitization"
+    }
+  ],
+  "dependencies": [
+    "woh-claim-0038"
+  ],
+  "alternatives": [
+    {
+      "id": "alt-0052-gospel-typology",
+      "statement": "The forerunner category is the gospels' own Elijah-typology for the Baptist; the corpus generalizes a Christian literary frame into an operational class."
+    },
+    {
+      "id": "alt-0052-sorting-artifact",
+      "statement": "Preparatory-versus-inaugural is the corpus's sorting convenience; no tasking distinction exists in the sources."
+    }
+  ],
+  "revision_triggers": [
+    "Claim woh-claim-0038 is revised or retired.",
+    "The corpus's lineage tracking changes the census or the classing.",
+    "Public prose begins asserting canonical status for the class or adjudicating unclassed figures, both of which this record excludes."
+  ],
+  "controlling_document": "../../docs/framework/forerunners-subclass.md",
+  "public_derivatives": [
+    "wheelofheaven/data-content:wiki/forerunners.md"
+  ],
+  "last_reviewed": "2026-08-16"
+}

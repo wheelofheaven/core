@@ -433,6 +433,106 @@
       "framework_relation": "derived",
       "record": "claims/woh-claim-0043.json",
       "specification": "../docs/framework/emblem-infinity-symbol.md"
+    },
+    {
+      "id": "woh-claim-0044",
+      "title": "The Doubled Signature",
+      "version": "0.1.0",
+      "lifecycle": "draft",
+      "claim_kind": "interpretation",
+      "framework_relation": "comparative",
+      "record": "claims/woh-claim-0044.json",
+      "specification": "../docs/framework/doubled-signature.md"
+    },
+    {
+      "id": "woh-claim-0045",
+      "title": "The Alliance as covenant-born body",
+      "version": "0.1.0",
+      "lifecycle": "draft",
+      "claim_kind": "interpretation",
+      "framework_relation": "derived",
+      "record": "claims/woh-claim-0045.json",
+      "specification": "../docs/framework/alliance-covenant-body.md"
+    },
+    {
+      "id": "woh-claim-0046",
+      "title": "The Tradition as preserved knowledge chain",
+      "version": "0.1.0",
+      "lifecycle": "draft",
+      "claim_kind": "interpretation",
+      "framework_relation": "derived",
+      "record": "claims/woh-claim-0046.json",
+      "specification": "../docs/framework/tradition-knowledge-chain.md"
+    },
+    {
+      "id": "woh-claim-0047",
+      "title": "Cosmic competition among created humanities",
+      "version": "0.1.0",
+      "lifecycle": "draft",
+      "claim_kind": "interpretation",
+      "framework_relation": "derived",
+      "record": "claims/woh-claim-0047.json",
+      "specification": "../docs/framework/cosmic-competition.md"
+    },
+    {
+      "id": "woh-claim-0048",
+      "title": "Samsara re-read through recreation",
+      "version": "0.1.0",
+      "lifecycle": "draft",
+      "claim_kind": "interpretation",
+      "framework_relation": "comparative",
+      "record": "claims/woh-claim-0048.json",
+      "specification": "../docs/framework/samsara-recreation.md"
+    },
+    {
+      "id": "woh-claim-0049",
+      "title": "Humanitarianism as the canon's property doctrine",
+      "version": "0.1.0",
+      "lifecycle": "draft",
+      "claim_kind": "normative_recommendation",
+      "framework_relation": "derived",
+      "record": "claims/woh-claim-0049.json",
+      "specification": "../docs/framework/humanitarianism-property.md"
+    },
+    {
+      "id": "woh-claim-0050",
+      "title": "The Number of Man as generation count",
+      "version": "0.1.0",
+      "lifecycle": "draft",
+      "claim_kind": "interpretation",
+      "framework_relation": "derived",
+      "record": "claims/woh-claim-0050.json",
+      "specification": "../docs/framework/number-of-man.md"
+    },
+    {
+      "id": "woh-claim-0051",
+      "title": "The Mass Effect as time-scale law",
+      "version": "0.1.0",
+      "lifecycle": "draft",
+      "claim_kind": "interpretation",
+      "framework_relation": "derived",
+      "record": "claims/woh-claim-0051.json",
+      "specification": "../docs/framework/mass-effect-law.md"
+    },
+    {
+      "id": "woh-claim-0052",
+      "title": "Forerunners within the prophet lineage",
+      "version": "0.1.0",
+      "lifecycle": "draft",
+      "claim_kind": "interpretation",
+      "framework_relation": "derived",
+      "record": "claims/woh-claim-0052.json",
+      "specification": "../docs/framework/forerunners-subclass.md"
+    },
+    {
+      "id": "woh-claim-0053",
+      "title": "The Hebrew Bible as compressed historical record",
+      "version": "0.1.0",
+      "lifecycle": "draft",
+      "claim_kind": "interpretation",
+      "framework_relation": "derived",
+      "record": "claims/woh-claim-0053.json",
+      "specification": "../docs/framework/hebrew-bible-historical-record.md"
     }
   ]
 }

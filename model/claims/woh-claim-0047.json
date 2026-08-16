@@ -1,0 +1,70 @@
+{
+  "$schema": "../schemas/claim.schema.json",
+  "schema_version": "0.1.0",
+  "id": "woh-claim-0047",
+  "title": "Cosmic competition among created humanities",
+  "version": "0.1.0",
+  "lifecycle": "draft",
+  "statement": "Per the canon as the corpus organizes it, Earth's humanity is one of multiple humanities created by the Elohim on multiple worlds, each evaluated against the same maturity standard — the threshold coupling of woh-claim-0031 — with the outcome determining whether a humanity inherits its creators' level or destroys itself; the multi-world evaluation frame is canon-stated, and its competitive articulation is the corpus's organizing construct.",
+  "claim_kind": "interpretation",
+  "framework_relation": "derived",
+  "evidence_status": [
+    "scoped",
+    "contested"
+  ],
+  "public_label": "framework",
+  "scope": {
+    "includes": [
+      "The multi-world layer, canon-stated: the Elohim created humanities on other worlds; Earth's is not the only project",
+      "The evaluation layer: each humanity faces the maturity test woh-claim-0031 records for Earth's",
+      "The chain continuation: successful humanities become creators in turn (woh-claim-0030's forward direction)",
+      "The articulation disclosure: 'competition' as a frame is the corpus's; the canon states plurality and evaluation, not a contest between humanities"
+    ],
+    "excludes": [
+      "Inter-humanity contact or rivalry narratives; no such content is canon-stated",
+      "Population or location claims about the other humanities",
+      "Any ranking of Earth's standing; the corpus models no scoreboard",
+      "Fermi-paradox apologetics; the record does not deploy the frame to explain silence"
+    ]
+  },
+  "source_references": [
+    {
+      "source_id": "the-book-which-tells-the-truth",
+      "locator": "The multiple-worlds creation statements within the messages",
+      "role": "canonical_basis",
+      "access": "project_digitization",
+      "note": "../../source-notes/the-book-which-tells-the-truth.md"
+    },
+    {
+      "source_id": "extraterrestrials-took-me-to-their-planet",
+      "locator": "The second message's development of the plurality and the evaluation standard",
+      "role": "canonical_basis",
+      "access": "project_digitization"
+    }
+  ],
+  "dependencies": [
+    "woh-claim-0001",
+    "woh-claim-0030",
+    "woh-claim-0031"
+  ],
+  "alternatives": [
+    {
+      "id": "alt-0047-motivational-plurality",
+      "statement": "The multiple-humanities frame functions motivationally (the test is real because others have passed and failed); its content is exhortation, not cosmology."
+    },
+    {
+      "id": "alt-0047-frame-overreach",
+      "statement": "'Competition' adds a contest the canon does not state; the corpus's articulation risks importing game-dynamics into an evaluation frame."
+    }
+  ],
+  "revision_triggers": [
+    "Claim woh-claim-0001, woh-claim-0030, or woh-claim-0031 is revised or retired.",
+    "The canon's fuller context changes the plurality or evaluation statements.",
+    "Public prose begins narrating other humanities or deploying the frame for Fermi apologetics, both of which this record excludes."
+  ],
+  "controlling_document": "../../docs/framework/cosmic-competition.md",
+  "public_derivatives": [
+    "wheelofheaven/data-content:wiki/cosmic-competition.md"
+  ],
+  "last_reviewed": "2026-08-16"
+}

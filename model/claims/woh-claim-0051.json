@@ -1,0 +1,60 @@
+{
+  "$schema": "../schemas/claim.schema.json",
+  "schema_version": "0.1.0",
+  "id": "woh-claim-0051",
+  "title": "The Mass Effect as time-scale law",
+  "version": "0.1.0",
+  "lifecycle": "draft",
+  "statement": "The Mass Effect (the Law of Masstime) is the corpus's named articulation of the canon's compressed time-mass sentence: the subjective experience of time scales with the mass and complexity of the living form across the infinite hierarchy of scales, so that larger-scale beings live proportionally slower — the corpus develops the canon's one sentence into a framework concept, at speculative grade, and keeps it strictly inside the fractal frame it articulates.",
+  "claim_kind": "interpretation",
+  "framework_relation": "derived",
+  "evidence_status": [
+    "scoped",
+    "contested"
+  ],
+  "public_label": "speculative",
+  "scope": {
+    "includes": [
+      "The canonical seed: the time-inversely-proportional-to-mass sentence carried at the canon's level in woh-claim-0023",
+      "The corpus development: the named law, its scaling articulation, and its role in making the fractal frame's living-scales picture coherent (a galaxy-scale being's 'moment' spanning our aeons)",
+      "The development disclosure: one canonical sentence, corpus-articulated — the ratio of seed to construct is stated plainly"
+    ],
+    "excludes": [
+      "Any claim of relativistic or biological-scaling support; physical time dilation and metabolic scaling laws are different phenomena, and borrowing their vocabulary as evidence is excluded",
+      "Quantitative form; no exponent or constant is asserted",
+      "Application to terrestrial biology's actual scaling literature, which measures different quantities",
+      "The frame itself, which is woh-claim-0023's"
+    ]
+  },
+  "source_references": [
+    {
+      "source_id": "extraterrestrials-took-me-to-their-planet",
+      "locator": "The time-mass sentence within the scale teachings",
+      "role": "canonical_basis",
+      "access": "project_digitization"
+    }
+  ],
+  "dependencies": [
+    "woh-claim-0023"
+  ],
+  "alternatives": [
+    {
+      "id": "alt-0051-vocabulary-borrowing",
+      "statement": "The law dresses one aphoristic sentence in physical-law vocabulary; nothing lawlike (form, quantity, test) is present."
+    },
+    {
+      "id": "alt-0051-scaling-confusion",
+      "statement": "Where the idea touches real science (metabolic scaling, subjective-time research), the measured relationships are unrelated to the claim; adjacency is being mistaken for articulation."
+    }
+  ],
+  "revision_triggers": [
+    "Claim woh-claim-0023 is revised or retired.",
+    "The canon's fuller context changes the sentence's reading.",
+    "Public prose begins citing physics or biology as support, or asserting quantitative form, both of which this record excludes."
+  ],
+  "controlling_document": "../../docs/framework/mass-effect-law.md",
+  "public_derivatives": [
+    "wheelofheaven/data-content:wiki/mass-effect.md"
+  ],
+  "last_reviewed": "2026-08-16"
+}

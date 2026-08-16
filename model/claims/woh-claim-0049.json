@@ -1,0 +1,73 @@
+{
+  "$schema": "../schemas/claim.schema.json",
+  "schema_version": "0.1.0",
+  "id": "woh-claim-0049",
+  "title": "Humanitarianism as the canon's property doctrine",
+  "version": "0.1.0",
+  "lifecycle": "draft",
+  "statement": "The canon proposes humanitarianism — the abolition of outright ownership in favour of forty-nine-year leases, with inheritance ended and holdings returning to the collective — delivered as the second of the New Commandments in the 1973 contact; this record carries the proposal as canon-explicit normative content under the same is/ought policing as the government and economy records, with the biblical jubilee resonance registered as the canon's own frame.",
+  "claim_kind": "normative_recommendation",
+  "framework_relation": "derived",
+  "evidence_status": [
+    "scoped",
+    "contested"
+  ],
+  "public_label": "framework",
+  "scope": {
+    "includes": [
+      "The proposal as stated: lease tenure in place of ownership, the forty-nine-year term, inheritance abolition, and its second rank among the New Commandments",
+      "The jubilee resonance: the term's biblical echo (the Levitical cycle) as the canon's own frame, registered without arguing the economics from the scripture",
+      "The normative-family position: fourth of the family (government 0032; economy 0033; ethics 0041), completing the New Commandments' institutional core"
+    ],
+    "excludes": [
+      "Endorsement or operationalization by the corpus",
+      "Transitional or legal design; no implementation is specified or defended",
+      "Identification with terrestrial land-reform programs; family resemblance is context",
+      "The movement's advocacy history, which is organizational"
+    ]
+  },
+  "source_references": [
+    {
+      "source_id": "the-book-which-tells-the-truth",
+      "locator": "The New Commandments: the humanitarianism commandment, its lease term and inheritance provision",
+      "role": "canonical_basis",
+      "access": "project_digitization",
+      "note": "../../source-notes/the-book-which-tells-the-truth.md"
+    },
+    {
+      "source_id": "leviticus",
+      "locator": "Leviticus 25 (the jubilee cycle the term echoes) — the canon's frame, not the argument",
+      "role": "primary_text",
+      "access": "project_digitization"
+    },
+    {
+      "source_id": "aliens-adored",
+      "locator": "The academic treatment of the doctrine",
+      "role": "critical",
+      "access": "metadata_only"
+    }
+  ],
+  "dependencies": [
+    "woh-claim-0020"
+  ],
+  "alternatives": [
+    {
+      "id": "alt-0049-incentive-objection",
+      "statement": "Lease-only tenure with abolished inheritance faces the standard incentive and capital-formation objections; the proposal names an allocation without an economics."
+    },
+    {
+      "id": "alt-0049-jubilee-romanticism",
+      "statement": "The jubilee frame romanticizes a Levitical institution whose own historicity and scope are debated; the echo lends antiquity, not feasibility."
+    }
+  ],
+  "revision_triggers": [
+    "Claim woh-claim-0020 is revised in a way that affects provenance.",
+    "The canon's fuller context changes the proposal's terms.",
+    "Public prose begins endorsing, operationalizing, or arguing the economics from scripture, all of which this record excludes."
+  ],
+  "controlling_document": "../../docs/framework/humanitarianism-property.md",
+  "public_derivatives": [
+    "wheelofheaven/data-content:wiki/humanitarianism.md"
+  ],
+  "last_reviewed": "2026-08-16"
+}

@@ -1,0 +1,74 @@
+{
+  "$schema": "../schemas/claim.schema.json",
+  "schema_version": "0.1.0",
+  "id": "woh-claim-0053",
+  "title": "The Hebrew Bible as compressed historical record",
+  "version": "0.1.0",
+  "lifecycle": "draft",
+  "statement": "The framework's global reading posture toward the Hebrew Bible: the Tanakh is read not as religious myth but as a compressed, transmitted, and theologically reworked historical record of the creators' engagement — a posture that licenses the corpus's passage-level readings while binding them to the transmission disciplines the record carries (composition history, redaction, translation loss, and the memory sciences' loss characteristics all conceded at full strength); the posture is the framework's, and every specific reading still stands or falls on its own record.",
+  "claim_kind": "interpretation",
+  "framework_relation": "derived",
+  "evidence_status": [
+    "scoped",
+    "contested"
+  ],
+  "public_label": "framework",
+  "scope": {
+    "includes": [
+      "The posture: historical record beneath theological reworking — the reading stance every framework claim about biblical passages instantiates",
+      "The bound disciplines, conceded in full: documentary composition history, redactional theology, the Masoretic transmission's own history, translation loss (the singular-God rendering of woh-claim-0009 as the exhibit), and the compression-and-loss results the 0004 apparatus records",
+      "The distribution rule: this record licenses no specific reading; each passage-level claim has or needs its own record, and this posture cannot be cited as evidence for any of them"
+    ],
+    "excludes": [
+      "Inerrancy in either direction; a record can be historical and corrupted, theological and preservative",
+      "Uniform historicity across genres; psalms, law, wisdom, and narrative carry memory differently and per-genre work is editorial",
+      "The New Testament and other corpora, which need their own posture records if the corpus develops them",
+      "Any claim that mainstream scholarship shares the posture; it does not, and the record says so"
+    ]
+  },
+  "source_references": [
+    {
+      "source_id": "the-book-which-tells-the-truth",
+      "locator": "The canon's global stance toward the biblical text as trace of real events, stated across the decoded readings",
+      "role": "canonical_basis",
+      "access": "project_digitization",
+      "note": "../../source-notes/the-book-which-tells-the-truth.md"
+    },
+    {
+      "source_id": "westermann-genesis-1-11",
+      "locator": "The critical-scholarly frame the posture concedes and works within",
+      "role": "scholarly_context",
+      "access": "metadata_only"
+    },
+    {
+      "source_id": "tov-textual-criticism",
+      "locator": "The transmission-history discipline (Masoretic tradition, variants) the posture binds itself to",
+      "role": "scholarly_context",
+      "access": "metadata_only"
+    }
+  ],
+  "dependencies": [
+    "woh-claim-0001"
+  ],
+  "alternatives": [
+    {
+      "id": "alt-0053-genre-verdict",
+      "statement": "The Hebrew Bible's genres are theology, liturgy, law, and identity narrative; 'historical record beneath' is a category the corpus brings, not one the text supports."
+    },
+    {
+      "id": "alt-0053-posture-laundering",
+      "statement": "A global posture record risks laundering support to passage readings by ambient framing even while formally licensing none."
+    }
+  ],
+  "revision_triggers": [
+    "Claim woh-claim-0001 is revised or retired.",
+    "Any artifact cites this record as evidence for a specific reading — the posture-laundering failure this record names as its own hazard.",
+    "The bound disciplines are weakened in derived prose."
+  ],
+  "controlling_document": "../../docs/framework/hebrew-bible-historical-record.md",
+  "public_derivatives": [
+    "wheelofheaven/data-content:wiki/hebrew-bible.md",
+    "wheelofheaven/data-content:wiki/bible.md"
+  ],
+  "last_reviewed": "2026-08-16"
+}

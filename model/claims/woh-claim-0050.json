@@ -1,0 +1,67 @@
+{
+  "$schema": "../schemas/claim.schema.json",
+  "schema_version": "0.1.0",
+  "id": "woh-claim-0050",
+  "title": "The Number of Man as generation count",
+  "version": "0.1.0",
+  "lifecycle": "draft",
+  "statement": "Per the canon's third book, the number 666 of Revelation 13:18 is read not as a coded name but as a count: the number of human generations from the creation of the first finalized humans in the laboratories to the 1945 nuclear threshold — tying the Apocalypse's most notorious cipher to the era-opening of woh-claim-0031; the reading is canon-explicit, and its arithmetic dependence on the corpus's chronology is declared rather than hidden.",
+  "claim_kind": "interpretation",
+  "framework_relation": "derived",
+  "evidence_status": [
+    "scoped",
+    "contested"
+  ],
+  "public_label": "framework",
+  "scope": {
+    "includes": [
+      "The canonical reading: 666 as generation count from creation to the threshold, as the third book states it",
+      "The chronology coupling: the count's arithmetic runs against the age-lattice of woh-claim-0003 and the threshold of woh-claim-0031, and the record declares the dependence",
+      "The contrast the canon draws: the count reading against the name-cipher tradition (gematria on Nero and its successors), with the mainstream account preserved"
+    ],
+    "excludes": [
+      "Verification arithmetic in prose; generation-length assumptions vary and the corpus does not publish a computation as if it were the canon's",
+      "The name-cipher scholarship as target; the Nero gematria remains the mainstream account of the text's composition-era meaning",
+      "Extension to other apocalyptic numbers without records",
+      "Any eschatological date-setting, excluded here as in woh-claim-0015"
+    ]
+  },
+  "source_references": [
+    {
+      "source_id": "lets-welcome-the-extraterrestrials",
+      "locator": "The third book's 666-as-generations reading",
+      "role": "canonical_basis",
+      "access": "project_digitization"
+    },
+    {
+      "source_id": "revelation",
+      "locator": "Revelation 13:18 (the number of the beast; 'it is the number of a man')",
+      "role": "primary_text",
+      "access": "project_digitization"
+    }
+  ],
+  "dependencies": [
+    "woh-claim-0003",
+    "woh-claim-0031"
+  ],
+  "alternatives": [
+    {
+      "id": "alt-0050-nero-gematria",
+      "statement": "The number is Neron Caesar in gematria, the composition-era reading with manuscript support (the 616 variant); the count reading has no purchase on the text's own world."
+    },
+    {
+      "id": "alt-0050-arithmetic-elasticity",
+      "statement": "Generation counts are elastic enough to hit any target; the reading's arithmetic is unfalsifiable as framed."
+    }
+  ],
+  "revision_triggers": [
+    "Claim woh-claim-0003 or woh-claim-0031 is revised or retired.",
+    "The canon's fuller context changes the reading.",
+    "Public prose begins publishing verification arithmetic or extending to other apocalyptic numbers, both of which this record excludes."
+  ],
+  "controlling_document": "../../docs/framework/number-of-man.md",
+  "public_derivatives": [
+    "wheelofheaven/data-content:wiki/number-of-man.md"
+  ],
+  "last_reviewed": "2026-08-16"
+}

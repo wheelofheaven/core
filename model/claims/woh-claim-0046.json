@@ -1,0 +1,72 @@
+{
+  "$schema": "../schemas/claim.schema.json",
+  "schema_version": "0.1.0",
+  "id": "woh-claim-0046",
+  "title": "The Tradition as preserved knowledge chain",
+  "version": "0.1.0",
+  "lifecycle": "draft",
+  "statement": "The Tradition is the corpus's name for the cross-cultural body of preserved knowledge — cosmic, astronomical, religious, and technical — handed down within esoteric teaching lineages (the shalshelet ha-Kabbalah above all) and traced, on the framework's reading, to instruction originating with the creators; the chain reading connects the canon's closest-to-truth ranking of the Kabbalah (woh-claim-0021) with the encoding claims of the precessional cluster, and its systematization into one named continuum is corpus development at speculative grade.",
+  "claim_kind": "interpretation",
+  "framework_relation": "derived",
+  "evidence_status": [
+    "scoped",
+    "contested"
+  ],
+  "public_label": "speculative",
+  "scope": {
+    "includes": [
+      "The chain reading: esoteric transmission lineages read as carriers of originally delivered knowledge, degraded and re-encoded across transmission",
+      "The anchor connections: the Kabbalah ranking (woh-claim-0021) as the canon's own pointer at one such lineage; the encoding claims (woh-claim-0014, 0044) as the astronomical strand",
+      "The disclosure: 'the Tradition' as a single continuum is the corpus's organizing construct over lineages that understand themselves separately"
+    ],
+    "excludes": [
+      "Perennialist doctrine; the corpus's chain has a specific proposed origin, not a timeless universal wisdom",
+      "Validation of esoteric systems' own metaphysics; each lineage's self-understanding is preserved in its own voice",
+      "Initiatory or practical content; the record concerns transmission, not practice",
+      "Secret-history causation claims (lineages steering events), which the corpus does not make"
+    ]
+  },
+  "source_references": [
+    {
+      "source_id": "the-book-which-tells-the-truth",
+      "locator": "TBWTT-5:51-54 (the Kabbalah ranking; the traditions testifying) — the canon's pointers the chain reading builds from",
+      "role": "canonical_basis",
+      "access": "project_digitization",
+      "note": "../../source-notes/the-book-which-tells-the-truth.md"
+    },
+    {
+      "source_id": "the-kabbalah-law-and-mysticism-in-the-jewish-tradition",
+      "locator": "The scholarly account of the Kabbalistic transmission chain the corpus's construct rides on",
+      "role": "scholarly_context",
+      "access": "metadata_only"
+    }
+  ],
+  "dependencies": [
+    "woh-claim-0001",
+    "woh-claim-0021"
+  ],
+  "alternatives": [
+    {
+      "id": "alt-0046-perennialism-mirror",
+      "statement": "The construct mirrors perennialist historiography with the origin swapped; it inherits perennialism's evidential problems wholesale."
+    },
+    {
+      "id": "alt-0046-lineage-independence",
+      "statement": "The lineages are historically independent developments; a single continuum is imposed, not found."
+    },
+    {
+      "id": "alt-0046-degradation-unfalsifiable",
+      "statement": "A chain whose content degrades across transmission can absorb any counter-evidence as degradation; the reading is unfalsifiable as framed."
+    }
+  ],
+  "revision_triggers": [
+    "Claim woh-claim-0001 or woh-claim-0021 is revised or retired.",
+    "Lineage-level historical work shows a claimed link cannot carry transmission.",
+    "Public prose begins validating esoteric metaphysics or asserting secret-history causation, both of which this record excludes."
+  ],
+  "controlling_document": "../../docs/framework/tradition-knowledge-chain.md",
+  "public_derivatives": [
+    "wheelofheaven/data-content:wiki/the-tradition.md"
+  ],
+  "last_reviewed": "2026-08-16"
+}

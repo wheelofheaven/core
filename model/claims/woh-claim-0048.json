@@ -1,0 +1,68 @@
+{
+  "$schema": "../schemas/claim.schema.json",
+  "schema_version": "0.1.0",
+  "id": "woh-claim-0048",
+  "title": "Samsara re-read through recreation",
+  "version": "0.1.0",
+  "lifecycle": "draft",
+  "statement": "The canon re-reads the rebirth cycle of the Dharmic traditions through its recreation mechanism: in the second message Yahweh takes the Buddhist frame and renders the cycle scientifically — recreation from preserved records rather than metaphysical transmigration — so that samsara joins resurrection (woh-claim-0029) among the religious structures the canon demystifies into the same technology; the mapping preserves the traditions' irreducible differences as the comparative discipline requires.",
+  "claim_kind": "interpretation",
+  "framework_relation": "comparative",
+  "evidence_status": [
+    "scoped",
+    "contested"
+  ],
+  "public_label": "framework",
+  "scope": {
+    "includes": [
+      "The canonical re-reading: the rebirth cycle rendered as recreation, delivered in the second message's engagement with the Buddhist frame",
+      "The pairing with woh-claim-0029: one mechanism behind two re-described structures (resurrection; rebirth), which is itself part of the canon's religion-of-religions posture (woh-claim-0027)",
+      "The preservation clause: Hindu, Buddhist, Jain, and Sikh articulations of the cycle differ irreducibly (karma theory, anatta, liberation goals), and the mapping does not flatten them"
+    ],
+    "excludes": [
+      "Karma theory as content; the canon's re-reading concerns the cycle's mechanism, not the moral accounting",
+      "Any claim that the Dharmic traditions' own soteriology anticipates the technology; the mapping is the canon's, stated as such",
+      "Liberation (moksha, nirvana) re-description, which the canon does not perform and the corpus does not invent",
+      "The identity metaphysics, registered and unresolved in woh-claim-0029"
+    ]
+  },
+  "source_references": [
+    {
+      "source_id": "extraterrestrials-took-me-to-their-planet",
+      "locator": "The second message's Buddhist-frame engagement and the scientific rendering of the cycle",
+      "role": "canonical_basis",
+      "access": "project_digitization"
+    },
+    {
+      "source_id": "the-book-which-tells-the-truth",
+      "locator": "TBWTT-5:54 (Buddhism among the enumerated testifying traditions)",
+      "role": "canonical_basis",
+      "access": "project_digitization",
+      "note": "../../source-notes/the-book-which-tells-the-truth.md"
+    }
+  ],
+  "dependencies": [
+    "woh-claim-0001",
+    "woh-claim-0029"
+  ],
+  "alternatives": [
+    {
+      "id": "alt-0048-category-substitution",
+      "statement": "Rendering transmigration as recreation re-describes a soteriological structure in technological idiom — the standing critique at its clearest application."
+    },
+    {
+      "id": "alt-0048-frame-mismatch",
+      "statement": "Anatta makes 'the same being recreated' precisely what Buddhist philosophy denies; the mapping fits the frame it borrows worse than any other."
+    }
+  ],
+  "revision_triggers": [
+    "Claim woh-claim-0001 or woh-claim-0029 is revised or retired.",
+    "The canon's fuller context changes the re-reading.",
+    "Public prose begins re-describing liberation or flattening the traditions, both of which this record excludes."
+  ],
+  "controlling_document": "../../docs/framework/samsara-recreation.md",
+  "public_derivatives": [
+    "wheelofheaven/data-content:wiki/samsara.md"
+  ],
+  "last_reviewed": "2026-08-16"
+}
