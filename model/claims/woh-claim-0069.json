@@ -1,0 +1,71 @@
+{
+  "$schema": "../schemas/claim.schema.json",
+  "schema_version": "0.1.0",
+  "id": "woh-claim-0069",
+  "title": "The Menorah as base-network memory",
+  "version": "0.1.0",
+  "lifecycle": "draft",
+  "statement": "The corpus reads the seven-branched Menorah as preserving the operational memory of the creators' terrestrial base network: in the canon's account, the original referent was a console at the creators' headquarters bearing seven indicator lights that kept contact with the other bases and with the interplanetary craft in orbit — a status board whose meaning was lost, surviving as the lampstand specified in Exodus 25 and carried through Temple Judaism to the present; the corpus registers the Zechariah 4 vision (the seven lamps as 'the eyes of Yahweh ranging over the whole earth') as the biblical layer closest to the operational reading.",
+  "claim_kind": "interpretation",
+  "framework_relation": "derived",
+  "evidence_status": [
+    "scoped",
+    "contested"
+  ],
+  "public_label": "framework",
+  "scope": {
+    "includes": [
+      "The console reading as the canon states it: seven telltale lights, contact with the bases and the orbiting craft, the meaning lost — telemetry, not liturgy, at the origin",
+      "The survival claim: the design's persistence from the Exodus 25 specification through Temple furnishing to the modern emblem, carried at documentary grade as the symbol's attested history",
+      "The Zechariah registration: the seven lamps glossed as the ranging eyes of Yahweh, read as the biblical text's own closest approach to a monitoring-network description"
+    ],
+    "excludes": [
+      "Any claim about the number or location of the bases beyond the canon's seven; no site is identified and no geography is asserted",
+      "The mainstream iconography displaced: the botanical almond-blossom vocabulary of Exodus 25 itself and the ancient Near Eastern tree-of-life reading are carried against this record in full",
+      "Judaism's own liturgical theology of the Menorah, which is the tradition's and stays the tradition's",
+      "The corpus's emblem, which is woh-claim-0043's territory; the two symbol records do not merge"
+    ]
+  },
+  "source_references": [
+    {
+      "source_id": "the-book-which-tells-the-truth",
+      "locator": "TBWTT-WOH 3:294 (section 'Les hommes ne pouvaient pas comprendre', 3:262 ff.): the seven-branched lampstand as the headquarters console with seven indicator lights linking the bases and the orbiting craft",
+      "role": "canonical_basis",
+      "access": "project_digitization",
+      "note": "../../source-notes/the-book-which-tells-the-truth.md"
+    },
+    {
+      "source_id": "exodus",
+      "locator": "Exodus 25:31-40 (the lampstand specification and its almond-blossom vocabulary)",
+      "role": "primary_text",
+      "access": "full_text"
+    },
+    {
+      "source_id": "zechariah",
+      "locator": "Zechariah 4:2, 4:10 (the seven lamps; 'the eyes of Yahweh ranging over the whole earth')",
+      "role": "primary_text",
+      "access": "full_text"
+    }
+  ],
+  "dependencies": [],
+  "alternatives": [
+    {
+      "id": "alt-0069-botanical-iconography",
+      "statement": "Exodus 25 itself describes the lampstand botanically — branches, calyxes, almond blossoms — and the ancient Near Eastern stylized-tree iconography accounts for the form without remainder; the text's own vocabulary is horticultural, not instrumental."
+    },
+    {
+      "id": "alt-0069-number-mysticism",
+      "statement": "Seven is the ancient world's most overloaded number; a seven-light console read from a seven-branched lamp exemplifies the pattern-matching the corpus's own instrument records forbid."
+    }
+  ],
+  "revision_triggers": [
+    "Public prose identifies base sites or extends the network claim beyond the canon's statement, which this record excludes.",
+    "Claim woh-claim-0043's scope changes in a way that touches the symbol division of labor.",
+    "The corpus's Menorah entry changes the reading's stated scope."
+  ],
+  "controlling_document": "../../docs/framework/menorah-base-network.md",
+  "public_derivatives": [
+    "wheelofheaven/data-content:wiki/menorah.md"
+  ],
+  "last_reviewed": "2026-08-16"
+}

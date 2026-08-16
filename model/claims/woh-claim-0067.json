@@ -1,0 +1,74 @@
+{
+  "$schema": "../schemas/claim.schema.json",
+  "schema_version": "0.1.0",
+  "id": "woh-claim-0067",
+  "title": "The inhabited-universe situation",
+  "version": "0.1.0",
+  "lifecycle": "draft",
+  "statement": "The corpus situates the Elohim-civilization hypothesis within science's own possibility-space: as a concrete instance of directed panspermia in the Crick-Orgel sense — life on Earth deliberately sown by an advanced civilization — against the background of the plurality-of-worlds tradition from Greek atomism through the Sagan-Shklovskii survey to the exoplanet era, which is what makes the agent side of the hypothesis non-extraordinary as a category; the situation claim is taxonomic, not evidential — the sciences named supply a slot, not a verdict, and none of their practitioners are enlisted.",
+  "claim_kind": "interpretation",
+  "framework_relation": "contextual",
+  "evidence_status": [
+    "scoped"
+  ],
+  "public_label": "inferred",
+  "scope": {
+    "includes": [
+      "The taxonomic identification: the hypothesis (woh-claim-0001) is a directed-panspermia instance — the corpus names the scientific category it falls under, at the category's own grade",
+      "The plurality background registered at documentary strength: the tradition's continuity from atomism through Arrhenius's panspermia and the mid-century SETI surveys (the Sagan-Shklovskii book that fed Sendy's program among them) to exoplanet statistics",
+      "The division of labor with woh-claim-0065: that record supplies mechanism-availability (life can be engineered), this one agent-category availability (seeding civilizations are a scientific category, not a contradiction); both yield coherence, neither yields confirmation",
+      "The honesty clause: Crick and Orgel proposed directed panspermia tentatively and without the framework's specifics, and Crick's own later assessment of its speculative standing is registered in full"
+    ],
+    "excludes": [
+      "The situation as evidence: occupying a slot in science's possibility-space confirms nothing, and no probability argument (Drake-style or otherwise) is run for the hypothesis",
+      "Enlistment of astrobiology, SETI, or any named scientist for the framework",
+      "The mechanism side, which is woh-claim-0065's territory",
+      "Origin-of-life adjudication; the corpus does not argue that terrestrial abiogenesis failed, only that the canon asserts design"
+    ]
+  },
+  "source_references": [
+    {
+      "source_id": "crick-orgel-directed-panspermia",
+      "locator": "The 1973 Icarus paper proposing deliberate seeding by an advanced civilization — the category the corpus's hypothesis instantiates",
+      "role": "scientific_context",
+      "access": "metadata_only"
+    },
+    {
+      "source_id": "arrhenius-worlds-in-the-making",
+      "locator": "Arrhenius's 1908 panspermia proposal as the tradition's earlier scientific articulation, which Crick-Orgel's directed variant presupposes",
+      "role": "scientific_context",
+      "access": "metadata_only"
+    },
+    {
+      "source_id": "crick-life-itself",
+      "locator": "Crick's fuller statement and his own assessment of the hypothesis's speculative standing, carried as the deflationary control",
+      "role": "critical",
+      "access": "metadata_only"
+    }
+  ],
+  "dependencies": [
+    "woh-claim-0001"
+  ],
+  "alternatives": [
+    {
+      "id": "alt-0067-category-comfort",
+      "statement": "A category is cheap shelter: directed panspermia is itself marginal and unfalsifiable by its proposers' admission, so situating the hypothesis within it borrows respectability from a slot science keeps only as a curiosity."
+    },
+    {
+      "id": "alt-0067-plurality-cuts-both-ways",
+      "statement": "The plurality tradition makes visitors conceivable everywhere and evidence of them nowhere; a background that permits everything selects nothing, including the framework."
+    }
+  ],
+  "revision_triggers": [
+    "Claim woh-claim-0001 is revised or retired.",
+    "Public prose runs a probability argument or treats the taxonomic slot as evidential support, both of which this record excludes.",
+    "The scientific standing of directed panspermia materially changes in either direction."
+  ],
+  "controlling_document": "../../docs/framework/inhabited-universe-situation.md",
+  "public_derivatives": [
+    "wheelofheaven/data-content:wiki/astrobiology.md",
+    "wheelofheaven/data-content:wiki/cosmic-pluralism.md",
+    "wheelofheaven/data-content:wiki/drake-equation.md"
+  ],
+  "last_reviewed": "2026-08-16"
+}

@@ -1,0 +1,81 @@
+{
+  "$schema": "../schemas/claim.schema.json",
+  "schema_version": "0.1.0",
+  "id": "woh-claim-0068",
+  "title": "The precursor discrimination",
+  "version": "0.1.0",
+  "lifecycle": "draft",
+  "statement": "The corpus sorts its precursor literature by method, not by conclusion: Sendy's coherence program and Biglino's philological procedure are adopted as equipment (the woh-claim-0064 hermeneutic); Sitchin's direction is kept while his apparatus is discarded — the Anunnaki identification stands on the corpus's own comparative grounds (woh-claim-0002) while the Nibiru philology is rejected on the cuneiform record; von Daniken's artifact-accumulation genre is declined as method however large its audience; and the lost-civilization chronologies (Hancock and kin) are handled under the monument-attribution discipline rather than absorbed — agreement with the corpus's conclusions buys no author admission, and rejection by the mainstream buys no author solidarity.",
+  "claim_kind": "interpretation",
+  "framework_relation": "contextual",
+  "evidence_status": [
+    "scoped"
+  ],
+  "public_label": "inferred",
+  "scope": {
+    "includes": [
+      "The sorting rule itself: method admits, conclusions do not — the criterion that separates adopted equipment (Sendy, Biglino) from registered neighbors (Sitchin, von Daniken, Hancock)",
+      "The Sitchin ruling in both halves: direction kept (the Mesopotamian material matters, the Anunnaki identification stands via woh-claim-0002's own grounds), apparatus discarded (the twelfth-planet philology fails against the cuneiform sources, and the corpus says so)",
+      "The von Daniken ruling: the genre he launched is registered as reception history and audience fact, its evidence-accumulation method declined — a mass of weak artifacts is not a strong case",
+      "The no-solidarity clause: shared mainstream rejection creates no alliance among the rejected, which is what keeps the corpus from inheriting every precursor's liabilities"
+    ],
+    "excludes": [
+      "Biographical adjudication of the authors, which the wiki entries carry at documentary grade",
+      "The monument and site material, which woh-claim-0058 governs",
+      "Wholesale dismissal of the declined authors; registration at their own grade is the posture, not mockery",
+      "Any claim that the corpus's method escapes the genre's critics — the method's own record (woh-claim-0064) carries that assessment"
+    ]
+  },
+  "source_references": [
+    {
+      "source_id": "chariots-of-the-gods",
+      "locator": "The genre-launching accumulation method the corpus declines, registered at its own scale",
+      "role": "comparative",
+      "access": "metadata_only"
+    },
+    {
+      "source_id": "sitchin-12th-planet",
+      "locator": "The Nibiru-Anunnaki thesis whose direction the corpus keeps and whose apparatus it discards",
+      "role": "comparative",
+      "access": "metadata_only"
+    },
+    {
+      "source_id": "the-myth-of-a-sumerian-12th-planet-nibiru-according-to-the-cuneiform-sources",
+      "locator": "The cuneiform-sources control on which the Sitchin apparatus is rejected",
+      "role": "critical",
+      "access": "metadata_only"
+    },
+    {
+      "source_id": "fingerprints-of-the-gods",
+      "locator": "The lost-civilization chronology handled under the monument-attribution discipline rather than absorbed",
+      "role": "comparative",
+      "access": "metadata_only"
+    }
+  ],
+  "dependencies": [
+    "woh-claim-0002",
+    "woh-claim-0064"
+  ],
+  "alternatives": [
+    {
+      "id": "alt-0068-distinction-without-difference",
+      "statement": "From outside, the discrimination is invisible: the corpus shares the genre's central move and its mainstream rejection, and sorting precursors by method is genre-internal housekeeping that changes no external assessment."
+    },
+    {
+      "id": "alt-0068-selective-rigor",
+      "statement": "The cuneiform standard applied to Sitchin, applied with equal force to the corpus's own identifications, would cut against them too; rigor deployed only against neighbors is positioning, not method."
+    }
+  ],
+  "revision_triggers": [
+    "Claim woh-claim-0002 or woh-claim-0064 is revised or retired.",
+    "Public prose enlists a declined author's evidence as support, or mocks a declined author beyond registration, both of which this record excludes.",
+    "The corpus adopts or drops a precursor's equipment, changing the sorted set."
+  ],
+  "controlling_document": "../../docs/framework/precursor-discrimination.md",
+  "public_derivatives": [
+    "wheelofheaven/data-content:wiki/erich-von-daniken.md",
+    "wheelofheaven/data-content:wiki/zecharia-sitchin.md",
+    "wheelofheaven/data-content:wiki/graham-hancock.md"
+  ],
+  "last_reviewed": "2026-08-16"
+}

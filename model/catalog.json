@@ -653,6 +653,46 @@
       "framework_relation": "derived",
       "record": "claims/woh-claim-0065.json",
       "specification": "../docs/framework/life-engineering-convergence.md"
+    },
+    {
+      "id": "woh-claim-0066",
+      "title": "The canon's quotation layer",
+      "version": "0.1.0",
+      "lifecycle": "draft",
+      "claim_kind": "empirical_observation",
+      "framework_relation": "contextual",
+      "record": "claims/woh-claim-0066.json",
+      "specification": "../docs/framework/canon-quotation-layer.md"
+    },
+    {
+      "id": "woh-claim-0067",
+      "title": "The inhabited-universe situation",
+      "version": "0.1.0",
+      "lifecycle": "draft",
+      "claim_kind": "interpretation",
+      "framework_relation": "contextual",
+      "record": "claims/woh-claim-0067.json",
+      "specification": "../docs/framework/inhabited-universe-situation.md"
+    },
+    {
+      "id": "woh-claim-0068",
+      "title": "The precursor discrimination",
+      "version": "0.1.0",
+      "lifecycle": "draft",
+      "claim_kind": "interpretation",
+      "framework_relation": "contextual",
+      "record": "claims/woh-claim-0068.json",
+      "specification": "../docs/framework/precursor-discrimination.md"
+    },
+    {
+      "id": "woh-claim-0069",
+      "title": "The Menorah as base-network memory",
+      "version": "0.1.0",
+      "lifecycle": "draft",
+      "claim_kind": "interpretation",
+      "framework_relation": "derived",
+      "record": "claims/woh-claim-0069.json",
+      "specification": "../docs/framework/menorah-base-network.md"
     }
   ]
 }

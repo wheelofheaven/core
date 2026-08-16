@@ -1,0 +1,63 @@
+{
+  "$schema": "../schemas/claim.schema.json",
+  "schema_version": "0.1.0",
+  "id": "woh-claim-0066",
+  "title": "The canon's quotation layer",
+  "version": "0.1.0",
+  "lifecycle": "draft",
+  "statement": "The canon's Hebrew-Bible quotations are mediated through Edouard Dhorme's Pleiade translation (Gallimard, 1956/1959): the distinctive Dhorme orthography and philological choices — Iahve for the Tetragrammaton, the preserved plural Elohim, the literal operational vocabulary — are the textual layer through which The Book Which Tells the Truth cites scripture, and the canon's own account places the Dhorme Bible in Vorilhon's hands at the 1973 contact; the canon's biblical layer therefore descends from the French rationalist-philological tradition's most literal scholarly translation, a checkable textual fact with consequences for every quotation-level reading the corpus makes.",
+  "claim_kind": "empirical_observation",
+  "framework_relation": "contextual",
+  "evidence_status": [
+    "scoped"
+  ],
+  "public_label": "direct",
+  "scope": {
+    "includes": [
+      "The textual identification: the canon's quotations carry Dhorme's orthography and renderings, verifiable by direct comparison (the Iahve spelling in the digitized quotations as the immediate marker)",
+      "The provenance clause at the canon's own grade: the source's account of the Dhorme volume at the 1973 contact is the canon's self-report, carried as such under the woh-claim-0020 discipline",
+      "The consequence the record exists to register: quotation-level readings in the corpus (the preserved Elohim plural above all) inherit Dhorme's philological choices, and the corpus says so rather than treating the quotations as unmediated text"
+    ],
+    "excludes": [
+      "Any claim that Dhorme's philology endorses the framework; Dhorme's literalism is scholarly method, and the record enlists neither the translator nor his academy",
+      "Text-critical adjudication between Dhorme, the Masoretic text, and the versions — the corpus's own translation program (woh-claim-0061) does that work under its own rules",
+      "The canon's non-biblical content, which has no quotation layer to mediate"
+    ]
+  },
+  "source_references": [
+    {
+      "source_id": "the-book-which-tells-the-truth",
+      "locator": "The biblical quotations throughout, carrying the Dhorme orthography (verified instance: 'Iahve fit pleuvoir...' at TBWTT-WOH 2:86); the encounter narrative's Bible in chapter 1",
+      "role": "canonical_basis",
+      "access": "project_digitization",
+      "note": "../../source-notes/the-book-which-tells-the-truth.md"
+    },
+    {
+      "source_id": "dhorme-bible",
+      "locator": "The Pleiade Old Testament (1956/1959) as the identified quotation source: Iahve, the preserved Elohim plural, the literal operational register",
+      "role": "scholarly_context",
+      "access": "metadata_only"
+    }
+  ],
+  "dependencies": [],
+  "alternatives": [
+    {
+      "id": "alt-0066-partial-mediation",
+      "statement": "The quotation layer may be mixed rather than uniform — memory quotation, paraphrase, or a second French version in places — so the Dhorme identification should be held per-quotation, not corpus-wide, until a full collation exists."
+    },
+    {
+      "id": "alt-0066-significance-deflation",
+      "statement": "Translation mediation is universal and trivial: every modern reader of scripture reads through some version, and nothing framework-relevant follows from which one."
+    }
+  ],
+  "revision_triggers": [
+    "A collation of the canon's quotations against the Pleiade text is completed, moving the identification from marker-verified to collated (or qualifying it).",
+    "Claim woh-claim-0020's handling of the contact narrative changes in a way that reaches the Dhorme-in-hand clause.",
+    "Public prose treats Dhorme's philology as endorsement of the framework, which this record excludes."
+  ],
+  "controlling_document": "../../docs/framework/canon-quotation-layer.md",
+  "public_derivatives": [
+    "wheelofheaven/data-content:wiki/dhorme-bible-translation.md"
+  ],
+  "last_reviewed": "2026-08-16"
+}
