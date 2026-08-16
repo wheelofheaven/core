@@ -4,7 +4,7 @@
   "id": "woh-claim-0061",
   "title": "The translation program's accuracy-first commitment",
   "version": "0.1.0",
-  "lifecycle": "draft",
+  "lifecycle": "accepted",
   "statement": "The corpus's own source-text translations (the -woh library editions) are produced under a published, checkable commitment: philological accuracy before the framework lens, with every lens-relevant divergence confined to the labelled commentary apparatus and never written into the translated text, glossary decisions recorded and adjudicated rather than improvised, and contested renderings escalated for review; the commitment is a rule the project binds itself to, and its observance is verifiable against the published apparatus.",
   "claim_kind": "normative_recommendation",
   "framework_relation": "contextual",

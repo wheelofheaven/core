@@ -9,7 +9,10 @@ claim_id: woh-claim-0064
 # Evidence map: The neo-euhemerist method
 
 Serves [`woh-claim-0064`](../framework/neo-euhemerist-method.md).
-`scoped`.
+`scoped` and `contested` (the mainstream rejection of the paleocontact
+position, registered via Feder, is the contested layer — added in the
+ADR 0006 pre-promotion sweep to match the catalog's convention for
+externally unendorsed labels).
 
 ## What the record asserts and what would test it
 
@@ -33,5 +36,6 @@ not explanation), which the corpus's own articles state at full
 strength; the condition-loading objection (Sendy's equipment
 manufactures the coherence it claims to reveal). The hypothesis
 (`woh-claim-0001`) is the method's output — kept out of the
-dependency list to preserve that order of operations. Open founder
-question: `contextual` vs `foundational` relation.
+dependency list to preserve that order of operations. Founder ruling
+(ADR 0006): accepted at `contextual`; elevation would be a new
+ruling.

@@ -1,6 +1,6 @@
 ---
 title: The bounded prophetology and its census discipline
-status: draft
+status: accepted
 version: 0.1.0
 last_reviewed: 2026-08-16
 claim_id: woh-claim-0054

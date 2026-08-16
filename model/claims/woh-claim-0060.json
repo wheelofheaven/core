@@ -4,7 +4,7 @@
   "id": "woh-claim-0060",
   "title": "The comparative datasets as tabulated registrations",
   "version": "0.1.0",
-  "lifecycle": "draft",
+  "lifecycle": "accepted",
   "statement": "The corpus's curated comparative datasets — the flood-myth concordance, the divine-council index, the theomachy cross-references, the prophets-and-religions table, the world-ages table, and the motif-index derivatives — are tabulated registrations, each row a per-tradition registration at its stated grade against a named primary source; a dataset is a research instrument serving its governing claims, and tabulation is never accumulation: rows sharing a textual stream are one datum under the independence-of-evidence principle, and no dataset's size is an argument.",
   "claim_kind": "interpretation",
   "framework_relation": "contextual",

@@ -1,6 +1,6 @@
 ---
 title: The neo-euhemerist method
-status: draft
+status: accepted
 version: 0.1.0
 last_reviewed: 2026-08-16
 claim_id: woh-claim-0064
@@ -37,14 +37,14 @@ objection — that a reader required to refuse the supernatural and
 equipped with astronautics will find astronautics — is carried
 against the equipment itself.
 
-**Open for the founder:** the corpus's own entry calls this a
-*foundational* method. This record is drafted `contextual`; promoting
-the relation to `foundational` is a founder ruling (the
-`woh-claim-0023` precedent).
+**Founder ruling (ADR 0006):** accepted at `contextual`. The corpus
+entry's "foundational method" phrasing remains descriptive; elevation
+of the relation would be a new founder ruling (the `woh-claim-0023`
+precedent), and the record's revision trigger keeps that path named.
 
 ## Evidence status
 
-`scoped`. See the
+`scoped` and `contested`. See the
 [evidence map](../evidence/woh-claim-0064-evidence.md).
 
 ## Public derivatives

@@ -4,12 +4,13 @@
   "id": "woh-claim-0064",
   "title": "The neo-euhemerist method",
   "version": "0.1.0",
-  "lifecycle": "draft",
+  "lifecycle": "accepted",
   "statement": "The corpus's working method is the neo-euhemerist reading: the gods and divine beings of myth as garbled memory of real historical figures, extending Euhemerus's gods-as-kings by identifying those figures as a technologically advanced civilization whose capabilities looked supernatural to the recorders — operationalized in the corpus by Sendy's five reader-conditions (what the reader must have: the text, astronautics, the sciences, refusal of the supernatural, an intelligible universe) and Biglino's three-step procedure (what the reader must do: the original language, tradition set aside, the literal reading), and extended beyond both by the precessional architecture and the ongoing-alliance frame; the Elohim-civilization hypothesis is this method's output, not its premise.",
   "claim_kind": "interpretation",
   "framework_relation": "contextual",
   "evidence_status": [
-    "scoped"
+    "scoped",
+    "contested"
   ],
   "public_label": "framework",
   "scope": {
@@ -58,7 +59,7 @@
     }
   ],
   "revision_triggers": [
-    "The founder rules on the method's framework relation (the corpus's own entry calls it a foundational method; this record is drafted contextual pending that ruling).",
+    "The founder elevates the method's framework relation beyond contextual (accepted at contextual by ADR 0006; the corpus entry's 'foundational method' phrasing remains descriptive).",
     "Claim woh-claim-0001 is revised in a way that changes what the method outputs.",
     "The corpus's methodology entries change the stated equipment, procedure, or extensions."
   ],
