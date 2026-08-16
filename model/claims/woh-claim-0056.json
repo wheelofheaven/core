@@ -61,7 +61,12 @@
   ],
   "controlling_document": "../../docs/framework/motif-inventory-surface.md",
   "public_derivatives": [
-    "wheelofheaven/data-content:articles/the-filing-cabinet-of-the-gods.md"
+    "wheelofheaven/data-content:articles/the-filing-cabinet-of-the-gods.md",
+    "wheelofheaven/data-content:datasets/myth-index.md",
+    "wheelofheaven/data-content:datasets/aarne-1910-tale-types.md",
+    "wheelofheaven/data-content:wiki/mytheme.md",
+    "wheelofheaven/data-content:wiki/comparative-mythology.md",
+    "wheelofheaven/data-content:wiki/list-of-mythemes-and-mythological-motifs.md"
   ],
   "last_reviewed": "2026-08-16"
 }

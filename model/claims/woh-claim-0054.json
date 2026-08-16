@@ -68,7 +68,8 @@
   ],
   "controlling_document": "../../docs/framework/bounded-prophetology-census.md",
   "public_derivatives": [
-    "wheelofheaven/data-content:articles/the-forty-chairs.md"
+    "wheelofheaven/data-content:articles/the-forty-chairs.md",
+    "wheelofheaven/data-content:wiki/list-of-prophets-and-religions.md"
   ],
   "last_reviewed": "2026-08-16"
 }

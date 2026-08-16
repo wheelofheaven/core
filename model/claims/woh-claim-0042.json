@@ -70,7 +70,9 @@
   "public_derivatives": [
     "wheelofheaven/data-content:articles/the-man-who-bet-the-bible-on-the-moon.md",
     "wheelofheaven/data-content:articles/the-translators-wager.md",
-    "wheelofheaven/data-content:articles/the-archdeacon-and-the-dragon.md"
+    "wheelofheaven/data-content:articles/the-archdeacon-and-the-dragon.md",
+    "wheelofheaven/data-content:wiki/mauro-biglino.md",
+    "wheelofheaven/data-content:wiki/paul-wallis.md"
   ],
   "last_reviewed": "2026-08-16"
 }

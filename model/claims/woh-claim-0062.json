@@ -69,7 +69,8 @@
   ],
   "controlling_document": "../../docs/framework/sodom-strike.md",
   "public_derivatives": [
-    "wheelofheaven/data-content:wiki/sodom-and-gomorrah.md"
+    "wheelofheaven/data-content:wiki/sodom-and-gomorrah.md",
+    "wheelofheaven/data-content:wiki/abraham.md"
   ],
   "last_reviewed": "2026-08-16"
 }

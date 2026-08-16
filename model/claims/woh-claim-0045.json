@@ -64,7 +64,8 @@
   "controlling_document": "../../docs/framework/alliance-covenant-body.md",
   "public_derivatives": [
     "wheelofheaven/data-content:wiki/the-alliance.md",
-    "wheelofheaven/data-content:wiki/noahic-covenant.md"
+    "wheelofheaven/data-content:wiki/noahic-covenant.md",
+    "wheelofheaven/data-content:wiki/abraham.md"
   ],
   "last_reviewed": "2026-08-16"
 }
