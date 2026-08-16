@@ -1,0 +1,72 @@
+{
+  "$schema": "../schemas/claim.schema.json",
+  "schema_version": "0.1.0",
+  "id": "woh-claim-0064",
+  "title": "The neo-euhemerist method",
+  "version": "0.1.0",
+  "lifecycle": "draft",
+  "statement": "The corpus's working method is the neo-euhemerist reading: the gods and divine beings of myth as garbled memory of real historical figures, extending Euhemerus's gods-as-kings by identifying those figures as a technologically advanced civilization whose capabilities looked supernatural to the recorders — operationalized in the corpus by Sendy's five reader-conditions (what the reader must have: the text, astronautics, the sciences, refusal of the supernatural, an intelligible universe) and Biglino's three-step procedure (what the reader must do: the original language, tradition set aside, the literal reading), and extended beyond both by the precessional architecture and the ongoing-alliance frame; the Elohim-civilization hypothesis is this method's output, not its premise.",
+  "claim_kind": "interpretation",
+  "framework_relation": "contextual",
+  "evidence_status": [
+    "scoped"
+  ],
+  "public_label": "framework",
+  "scope": {
+    "includes": [
+      "The method-identity claim: the corpus stands, self-aware, in the euhemerist lineage — the substitution that defines the neo- extension (advanced visitors for exceptional kings) named as a substitution",
+      "The operative pairing as the corpus's contemporary hermeneutic: Sendy supplies the reader's equipment, Biglino the procedure — with Sendy's fourth condition (refusal of explanation by the inexplicable) as the method's philosophical spine",
+      "The corpus's two declared extensions beyond the inherited method: the precessional architecture and the alliance read as ongoing rather than remembered",
+      "The order of operations that keeps the method honest: the hypothesis (woh-claim-0001) is the method's output; where the method fails a text, the text wins"
+    ],
+    "excludes": [
+      "Any claim of academic standing for the method; mainstream scholarship engages the position as the paleocontact hypothesis and rejects it, and classical Euhemerism is a study-object, not a live method — both registered as stated",
+      "The content claims the method produces, which live in their own records",
+      "Sendy's and Biglino's own larger programs beyond the borrowed equipment and procedure",
+      "Any softening of the category-substitution objection, which the corpus's own articles state at full strength before applying the method"
+    ]
+  },
+  "source_references": [
+    {
+      "source_id": "sendy-ere-du-verseau",
+      "locator": "Chapter 18, the hologram passage: the four stated conditions and the implicit fifth (the French text as excerpted and translated in the corpus's own entry)",
+      "role": "comparative",
+      "access": "excerpt"
+    },
+    {
+      "source_id": "biglino-il-libro",
+      "locator": "The three-step operative procedure (original text, tradition set aside, literal reading) as the corpus registers it",
+      "role": "comparative",
+      "access": "metadata_only"
+    },
+    {
+      "source_id": "frauds-myths-and-mysteries-science-and-pseudoscience-in-archaeology",
+      "locator": "Feder's standard critique of paleocontact reasoning, carried as the method's mainstream assessment",
+      "role": "critical",
+      "access": "metadata_only"
+    }
+  ],
+  "dependencies": [],
+  "alternatives": [
+    {
+      "id": "alt-0064-category-substitution",
+      "statement": "The method substitutes one unexplained category (visitors) for another (gods) and calls the substitution explanation; nothing in the texts selects garbled memory of technology over the mythographers' own accounts of what myth is."
+    },
+    {
+      "id": "alt-0064-condition-loading",
+      "statement": "Sendy's conditions pre-load the verdict: a reader required to refuse the supernatural and equipped with astronautics will find astronautics; the equipment manufactures the coherence it claims to reveal."
+    }
+  ],
+  "revision_triggers": [
+    "The founder rules on the method's framework relation (the corpus's own entry calls it a foundational method; this record is drafted contextual pending that ruling).",
+    "Claim woh-claim-0001 is revised in a way that changes what the method outputs.",
+    "The corpus's methodology entries change the stated equipment, procedure, or extensions."
+  ],
+  "controlling_document": "../../docs/framework/neo-euhemerist-method.md",
+  "public_derivatives": [
+    "wheelofheaven/data-content:wiki/neo-euhemerism.md",
+    "wheelofheaven/data-content:wiki/sendys-conditions-of-coherence.md",
+    "wheelofheaven/data-content:wiki/biglino-method.md"
+  ],
+  "last_reviewed": "2026-08-16"
+}

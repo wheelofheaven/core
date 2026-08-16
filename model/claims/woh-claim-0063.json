@@ -1,0 +1,79 @@
+{
+  "$schema": "../schemas/claim.schema.json",
+  "schema_version": "0.1.0",
+  "id": "woh-claim-0063",
+  "title": "The merkavah as craft observation",
+  "version": "0.1.0",
+  "lifecycle": "draft",
+  "statement": "The corpus reads Ezekiel 1 — the living creatures, the wheels within wheels, the crystalline expanse, the enthroned likeness — as a close eyewitness description of an Elohim craft and its party, the canon's own treatment naming it the most interesting craft description in the corpus of scripture; the mobile kavod ('glory') that departs and returns across Ezekiel 8-11 and 43 is read as a physical object rather than a metaphor, and the prophet's transports by the ruach ('the spirit lifted me up') as craft-borne conveyance — the single most operationally detailed theophany in the Hebrew Bible, read operationally.",
+  "claim_kind": "interpretation",
+  "framework_relation": "derived",
+  "evidence_status": [
+    "scoped",
+    "contested"
+  ],
+  "public_label": "framework",
+  "scope": {
+    "includes": [
+      "The craft reading of Ezekiel 1 as the canon states it, at the canon's own level of detail: observed hardware and personnel, a frightened precise observer, the scroll commission that follows",
+      "The mobile-kavod extension: the departures and returns of Ezekiel 8-11 and 43 read as one physical object's movements, which is what makes the book's structure an itinerary rather than a metaphor's development",
+      "The conveyance reading of the ruach transports",
+      "The reception registration: Ezekiel 1 as the seed-text of merkavah mysticism and the Hekhalot literature — registered as reception history, with the mystical tradition's own theology preserved to the tradition"
+    ],
+    "excludes": [
+      "Any engineering reconstruction of the craft; Blumrich's attempt is registered as an independent precedent of the reading, not adopted — the corpus endorses no schematic",
+      "The temple vision of Ezekiel 40-48 and its Embassy connection, which is woh-claim-0016's territory",
+      "The visionary-genre scholarship's own account displaced; the storm-theophany and Mesopotamian-iconography reading is carried against this record in full",
+      "Merkavah mysticism's theology, which is reception, not observation"
+    ]
+  },
+  "source_references": [
+    {
+      "source_id": "the-book-which-tells-the-truth",
+      "locator": "TBWTT-WOH 3:157-171, 'Les soucoupes volantes d'Ezechiel': the canon's verse-by-verse craft reading of Ezekiel 1-2, the service-craft gloss, the scroll commission",
+      "role": "canonical_basis",
+      "access": "project_digitization",
+      "note": "../../source-notes/the-book-which-tells-the-truth.md"
+    },
+    {
+      "source_id": "ezekiel",
+      "locator": "Ezekiel 1 (the inaugural vision); 3:12-15, 8:3, 11:1, 11:22-24, 43:1-5 (the transports and the kavod's movements)",
+      "role": "primary_text",
+      "access": "full_text"
+    },
+    {
+      "source_id": "ezekiel-1-20-anchor-bible-22",
+      "locator": "Greenberg's philological commentary on Ezekiel 1 as the mainstream control: the vision within prophetic-theophany genre and its ancient Near Eastern iconographic vocabulary",
+      "role": "critical",
+      "access": "metadata_only"
+    },
+    {
+      "source_id": "the-spaceships-of-ezekiel",
+      "locator": "Blumrich's independent craft-reading, registered as precedent and as cautionary case (the reconstruction required selective handling of the text)",
+      "role": "comparative",
+      "access": "metadata_only"
+    }
+  ],
+  "dependencies": [],
+  "alternatives": [
+    {
+      "id": "alt-0063-visionary-genre",
+      "statement": "Ezekiel 1 is prophetic theophany built from a known vocabulary — storm-cloud imagery, composite creatures, wheeled thrones of Mesopotamian iconography — fully explicable within its literary environment; the operational detail is the genre's grandeur, not a witness's precision."
+    },
+    {
+      "id": "alt-0063-selective-literalism",
+      "statement": "The craft reading keeps the wheels and the platform but quietly drops the four faces, the eyes, and the likeness-of-a-man on the throne; it is literalism applied only where the text cooperates."
+    }
+  ],
+  "revision_triggers": [
+    "Claim woh-claim-0016's handling of Ezekiel 40-48 changes in a way that reaches the kavod reading.",
+    "Public prose adopts an engineering reconstruction or a schematic, which this record excludes.",
+    "The corpus's Ezekiel entry or close-encounters catalogue changes the reading's stated scope."
+  ],
+  "controlling_document": "../../docs/framework/merkavah-craft-observation.md",
+  "public_derivatives": [
+    "wheelofheaven/data-content:wiki/ezekiel.md",
+    "wheelofheaven/data-content:wiki/list-of-close-encounters.md"
+  ],
+  "last_reviewed": "2026-08-16"
+}

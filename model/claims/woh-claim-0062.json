@@ -1,0 +1,75 @@
+{
+  "$schema": "../schemas/claim.schema.json",
+  "schema_version": "0.1.0",
+  "id": "woh-claim-0062",
+  "title": "The Sodom strike",
+  "version": "0.1.0",
+  "lifecycle": "draft",
+  "statement": "The corpus reads the Genesis 18-19 destruction of the Cities of the Plain as a late-Taurus targeted strike by the home-world Council against an organized human vengeance movement — descendants of the post-Babel dispersed elite who had regathered knowledge and were preparing an expedition against the creators: two Council scouts verifying the threat (the 'two angels', armed with the source's pocket atomic weapon), Abraham's threshold negotiation preserved in Genesis 18, Lot's family extracted, and an atomic detonation whose reading takes the Dead Sea basin as its trace — a rebellion suppressed, structurally contrasted with Babel's peace overture dispersed, and the event the corpus reads as reversing the Serpent symbolism from positive emblem to negative.",
+  "claim_kind": "interpretation",
+  "framework_relation": "derived",
+  "evidence_status": [
+    "scoped",
+    "contested"
+  ],
+  "public_label": "framework",
+  "scope": {
+    "includes": [
+      "The episode reading as the canon states it: reconnaissance, threshold negotiation, extraction, targeted strike — tactical scale against Babel's dispersal and the Flood's planetary reset, each a different instrument of the same containment policy",
+      "The rebels' identification as the post-Babel elite's descendants, which is what makes woh-claim-0017 a genuine narrative dependency rather than a neighbor",
+      "The operational consequence the corpus draws: the Eden lineage's reduction through the loss of its educated class, and the reversal of the Serpent symbolism that feeds the later Devil conflation (the woh-claim-0022 vocabulary)",
+      "The Dead Sea basin carried as the reading's claimed trace — at consonance grade, with the mainstream geological account registered against it in full"
+    ],
+    "excludes": [
+      "The Dead Sea's geology as evidence for the strike; the basin's tectonic origin (the Dead Sea Transform) and evaporative salinity are the mainstream account, and the reading's trace-claim is consonance, never support",
+      "Site-identification archaeology (Tall el-Hammam and kin); the record enlists no excavation and no airburst thesis",
+      "The reception history's sexual-ethics reading of the 'sin of Sodom'; the corpus reads political-military rebellion and leaves the tradition's own theology to the tradition",
+      "Chronological precision beyond the timeline's late-Taurus placement"
+    ]
+  },
+  "source_references": [
+    {
+      "source_id": "the-book-which-tells-the-truth",
+      "locator": "TBWTT-WOH 2:77-87, the 'Sodome et Gomorrhe' section (heading 2:77; next section 'Le sacrifice d'Abraham' at 2:88): the pardoned exiles' return, the two scouts and the pocket atomic weapon, the extraction, the strike",
+      "role": "canonical_basis",
+      "access": "project_digitization",
+      "note": "../../source-notes/the-book-which-tells-the-truth.md"
+    },
+    {
+      "source_id": "genesis",
+      "locator": "GEN-WOH 18-19 (the Mamre negotiation; the two visitors; the destruction and Lot's flight)",
+      "role": "primary_text",
+      "access": "project_digitization"
+    },
+    {
+      "source_id": "the-rocks-don-t-lie-a-geologist-investigates-noah-s-flood",
+      "locator": "The geological control on reading landscape features as catastrophe signatures",
+      "role": "critical",
+      "access": "metadata_only"
+    }
+  ],
+  "dependencies": [
+    "woh-claim-0017",
+    "woh-claim-0022"
+  ],
+  "alternatives": [
+    {
+      "id": "alt-0062-etiological-tale",
+      "statement": "The narrative is a theological-etiological tale — divine judgment traditions attached to the uncanny Dead Sea landscape — whose destruction imagery needs no event behind it; the basin's depth and salinity are tectonic and evaporative, not detonative."
+    },
+    {
+      "id": "alt-0062-catastrophe-without-agency",
+      "statement": "Even historical readings of a Bronze Age destruction in the region (earthquake, conflagration, debated airburst claims) supply catastrophe without agency; nothing in the evidence selects a strike."
+    }
+  ],
+  "revision_triggers": [
+    "Claim woh-claim-0017 or woh-claim-0022 is revised or retired.",
+    "Public prose begins citing Dead Sea geology or site archaeology as evidence for the strike, the consonance-to-support slide this record excludes.",
+    "The timeline's late-Taurus placement of the episode is revised."
+  ],
+  "controlling_document": "../../docs/framework/sodom-strike.md",
+  "public_derivatives": [
+    "wheelofheaven/data-content:wiki/sodom-and-gomorrah.md"
+  ],
+  "last_reviewed": "2026-08-16"
+}

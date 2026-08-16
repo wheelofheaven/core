@@ -613,6 +613,46 @@
       "framework_relation": "contextual",
       "record": "claims/woh-claim-0061.json",
       "specification": "../docs/framework/translation-accuracy-first.md"
+    },
+    {
+      "id": "woh-claim-0062",
+      "title": "The Sodom strike",
+      "version": "0.1.0",
+      "lifecycle": "draft",
+      "claim_kind": "interpretation",
+      "framework_relation": "derived",
+      "record": "claims/woh-claim-0062.json",
+      "specification": "../docs/framework/sodom-strike.md"
+    },
+    {
+      "id": "woh-claim-0063",
+      "title": "The merkavah as craft observation",
+      "version": "0.1.0",
+      "lifecycle": "draft",
+      "claim_kind": "interpretation",
+      "framework_relation": "derived",
+      "record": "claims/woh-claim-0063.json",
+      "specification": "../docs/framework/merkavah-craft-observation.md"
+    },
+    {
+      "id": "woh-claim-0064",
+      "title": "The neo-euhemerist method",
+      "version": "0.1.0",
+      "lifecycle": "draft",
+      "claim_kind": "interpretation",
+      "framework_relation": "contextual",
+      "record": "claims/woh-claim-0064.json",
+      "specification": "../docs/framework/neo-euhemerist-method.md"
+    },
+    {
+      "id": "woh-claim-0065",
+      "title": "The life-engineering convergence",
+      "version": "0.1.0",
+      "lifecycle": "draft",
+      "claim_kind": "interpretation",
+      "framework_relation": "derived",
+      "record": "claims/woh-claim-0065.json",
+      "specification": "../docs/framework/life-engineering-convergence.md"
     }
   ]
 }

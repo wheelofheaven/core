@@ -1,0 +1,78 @@
+{
+  "$schema": "../schemas/claim.schema.json",
+  "schema_version": "0.1.0",
+  "id": "woh-claim-0065",
+  "title": "The life-engineering convergence",
+  "version": "0.1.0",
+  "lifecycle": "draft",
+  "statement": "The corpus reads present-day humanity's acquisition of life-engineering capability — genetic engineering, synthetic biology, and synthetic genomics, with pantropy and terraforming as projected extensions — as the framework's most concrete predicted convergence: the canon describes the creation in operational engineering vocabulary and states that its creations will in time do the same work, and the arrival of design-build-test biology within one long lifetime of the canon's dictation is read as that trajectory tracking; the convergence establishes the mechanism's availability and nothing more — feasibility is never evidence of occurrence, and the scientific disciplines remain mainstream enterprises enlisted for nothing.",
+  "claim_kind": "interpretation",
+  "framework_relation": "derived",
+  "evidence_status": [
+    "scoped"
+  ],
+  "public_label": "inferred",
+  "scope": {
+    "includes": [
+      "The convergence reading: the canon's operational creation-vocabulary matched by the engineering disciplines that now exist — synthetic biology's design-build-test epistemology named as the closest match",
+      "The trajectory's registered milestones at documentary strength (the chemically synthesized bacterial genome above all), carried as what mainstream science has in fact done",
+      "The canonical prediction side, which is what makes the record derived: the created-creators cycle of woh-claim-0030 supplies the claim this convergence is read as tracking",
+      "The grade discipline: mechanism-availability as the reading's entire yield — the hypothesis gains coherence, not confirmation"
+    ],
+    "excludes": [
+      "Feasibility as evidence of occurrence, the record's named forbidden move; that life can now be engineered says nothing about whether it was",
+      "Enlistment of the scientists or their institutions, who hold their own views and no brief for the framework",
+      "The science entries' own content, which remains mainstream description at documentary grade",
+      "Capability extrapolation beyond the registered record: pantropy and terraforming are projections and are carried as projections"
+    ]
+  },
+  "source_references": [
+    {
+      "source_id": "the-book-which-tells-the-truth",
+      "locator": "The creation account's operational vocabulary and the canon's forward statement that humanity will come to perform the creators' work in turn (via woh-claim-0030's map)",
+      "role": "canonical_basis",
+      "access": "project_digitization",
+      "note": "../../source-notes/the-book-which-tells-the-truth.md"
+    },
+    {
+      "source_id": "creation-of-a-bacterial-cell-controlled-by-a-chemically-synthesized-genome",
+      "locator": "The 2010 synthesized-genome bacterial cell as the trajectory's registered landmark",
+      "role": "scientific_context",
+      "access": "metadata_only"
+    },
+    {
+      "source_id": "design-and-synthesis-of-a-minimal-bacterial-genome",
+      "locator": "The minimal-genome follow-on as the design-discipline's consolidation",
+      "role": "scientific_context",
+      "access": "metadata_only"
+    }
+  ],
+  "dependencies": [
+    "woh-claim-0030"
+  ],
+  "alternatives": [
+    {
+      "id": "alt-0065-authorship-era-projection",
+      "statement": "The canon's engineering vocabulary reflects its 1970s authorship — the decade of recombinant DNA's arrival — so the 'predicted convergence' is the era's ambient biotech ambition read back as foresight."
+    },
+    {
+      "id": "alt-0065-feasibility-is-cheap",
+      "statement": "Mechanism availability is a weak filter: once any technology can mimic a mythic act, every such myth becomes 'feasible'; the convergence selects the framework no more than it selects any creation story."
+    }
+  ],
+  "revision_triggers": [
+    "Claim woh-claim-0030 is revised or retired.",
+    "Public prose slides from mechanism-availability to evidence-of-occurrence, the forbidden move this record excludes.",
+    "The registered scientific milestones are retracted or materially reassessed."
+  ],
+  "controlling_document": "../../docs/framework/life-engineering-convergence.md",
+  "public_derivatives": [
+    "wheelofheaven/data-content:wiki/life-engineering.md",
+    "wheelofheaven/data-content:wiki/synthetic-biology.md",
+    "wheelofheaven/data-content:wiki/genetic-engineering.md",
+    "wheelofheaven/data-content:wiki/synthetic-genomics.md",
+    "wheelofheaven/data-content:wiki/pantropy.md",
+    "wheelofheaven/data-content:wiki/terraforming.md"
+  ],
+  "last_reviewed": "2026-08-16"
+}
