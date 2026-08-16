@@ -119,6 +119,12 @@ a license is a separate founder decision; the recommendation on record is the
 carve-out this repository uses — CC0 for original material only, with source
 materials retaining their own rights.
 
+> **Resolved 2026-08-16.** The founder directed the recommended correction:
+> `data-sources` now carries the carve-out LICENSE (CC0 for the registry,
+> schemas, scripts, and derived apparatus; held source materials retain their
+> owners' rights and are never redistributed). Applied in `data-sources`
+> commit `6beb5a2`.
+
 ## Validation and review
 
 The pilot ran end to end: `black-green-mesopotamia` as a consulted-in-place
