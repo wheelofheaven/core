@@ -3,7 +3,7 @@
   "schema_version": "0.1.0",
   "id": "woh-claim-0001",
   "title": "Elohim-civilization hypothesis",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "lifecycle": "draft",
   "statement": "The beings Wheel of Heaven identifies as the Elohim were a technologically advanced biological civilization from elsewhere and were responsible for designing terrestrial life, including humanity.",
   "claim_kind": "hypothesis",
@@ -20,6 +20,7 @@
       "The proposed design of terrestrial life and humanity"
     ],
     "excludes": [
+      "The report layer itself — what the canonical source explicitly states — which is recorded by woh-claim-0070",
       "Every detail reported by the Raëlian corpus",
       "The precessional chronology",
       "One-to-one cross-tradition figure mappings",
@@ -36,7 +37,9 @@
       "note": "../../source-notes/the-book-which-tells-the-truth.md"
     }
   ],
-  "dependencies": [],
+  "dependencies": [
+    "woh-claim-0070"
+  ],
   "alternatives": [
     {
       "id": "alt-0001-theological",
@@ -56,10 +59,10 @@
     }
   ],
   "revision_triggers": [
-    "Verified canonical editions materially change the source reports on which the claim is based.",
+    "The canonical contact report record (woh-claim-0070) materially changes.",
     "The identification of biblical Elohim with the reported civilization changes independently of the biological-civilization proposition.",
     "A reproducible review materially changes the relevant philological, historical, biological, or source-critical evidence map.",
-    "The compound proposition cannot be reviewed without splitting into stable subclaims.",
+    "A review of the biblical-identification or design-of-life subclaims advances toward reviewed, triggering the full four-way decomposition deferred by ADR 0007.",
     "A public derivative strengthens, narrows, or contradicts this proposition."
   ],
   "controlling_document": "../../docs/framework/elohim-civilization-hypothesis.md",
@@ -72,5 +75,5 @@
     "wheelofheaven/data-content:wiki/intelligent-design.md",
     "wheelofheaven/data-content:wiki/ancient-astronaut-hypothesis.md"
   ],
-  "last_reviewed": "2026-08-09"
+  "last_reviewed": "2026-08-17"
 }

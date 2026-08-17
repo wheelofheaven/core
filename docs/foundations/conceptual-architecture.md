@@ -1,8 +1,8 @@
 ---
 title: Conceptual architecture
 status: accepted
-version: 0.1.0
-last_reviewed: 2026-08-02
+version: 0.1.1
+last_reviewed: 2026-08-17
 ---
 
 # Conceptual architecture
@@ -64,12 +64,12 @@ Each mature claim should identify:
 
 | Claim | Relation | Depends on | Does not establish |
 | --- | --- | --- | --- |
-| `woh-claim-0001` Elohim-civilization hypothesis | Foundational | Raëlian source reports; identification of the source's `Elohim` with the framework subject | Empirical existence or occurrence merely because the source reports it |
+| `woh-claim-0070` The canonical contact report | Foundational | The published reports as documented texts (claim 0020) | The historical occurrence of anything the source reports |
+| `woh-claim-0001` Elohim-civilization hypothesis | Foundational | Claim 0070 (the canonical contact report); identification of the source's `Elohim` with the framework subject | Empirical existence or occurrence merely because the source reports it |
 | `woh-claim-0002` Anunnaki–Elohim identity | Comparative | Claim 0001; Mesopotamian source interpretation; criteria for referential identity | Every deity mapping, Sitchin's apparatus, or identity from resemblance alone |
 | `woh-claim-0003` Precessional world-age chronology | Foundational | Observed axial precession (idealized); canonical threshold report; the project anchor convention | Astronomical reality of age boundaries, ancient precessional knowledge, or any event placement |
 
-This three-claim map is a pilot, not a settled decomposition of the whole
-framework.
+This map is a pilot, not a settled decomposition of the whole framework.
 
 ## Public compatibility
 

@@ -29,7 +29,8 @@ member of the Elohim civilization.
 
 ## Reported content
 
-Two passages are immediately relevant to claim `woh-claim-0001`:
+Two passages are immediately relevant to claim `woh-claim-0070` (the
+canonical contact report), on which claim `woh-claim-0001` depends:
 
 - `TBWTT-1:53` reports: “We are men like you, and we live on a planet quite
   similar to Earth.”
@@ -82,7 +83,9 @@ biological creation programme.
 
 ## Related sources and dependencies
 
-- Claim `woh-claim-0001`
+- Claim `woh-claim-0070` (the canonical contact report: the report layer of
+  `TBWTT-1:53` and `TBWTT-2:5`)
+- Claim `woh-claim-0001` (the hypothesis standing on that report)
 - Claim `woh-claim-0003` (canonical basis for the Aquarian-threshold reading)
 - Later Raëlian works and combined editions may clarify or extend the report.
 - Biblical and comparative sources are independent textual corpora but become

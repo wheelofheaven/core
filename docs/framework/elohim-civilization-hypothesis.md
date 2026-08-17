@@ -1,8 +1,8 @@
 ---
 title: Elohim-civilization hypothesis
 status: draft
-version: 0.1.0
-last_reviewed: 2026-08-02
+version: 0.2.0
+last_reviewed: 2026-08-17
 claim_id: woh-claim-0001
 ---
 
@@ -32,8 +32,15 @@ The proposition depends on several claims that must not be silently merged:
    historical and biological reality rather than revelation, fiction,
    allegory, error, or another explanatory category.
 
-The current pilot record covers the combined framework proposition. Later
-review may split these into independently versioned claims.
+Parts 1–2 — the report layer — are now recorded separately as
+[`woh-claim-0070`, the canonical contact report](canonical-contact-report.md),
+on which this claim depends. The partial split was adopted by
+[RFC 0006](../../rfcs/0006-split-canonical-contact-report.md) and
+[ADR 0007](../../decisions/0007-split-canonical-contact-report.md); this
+record retains the interpretive identification (3) and the hypothesis (4) as
+one bundle. The full four-way decomposition is deferred until a review of
+the identification or design-of-life subclaims actually advances toward
+`reviewed`.
 
 ## Current project role
 
@@ -47,7 +54,8 @@ archaeology, biology, astronomy, or religious studies.
 
 ### Canonical source report
 
-The inspected Wheel digitization of *The Book Which Tells the Truth* includes:
+The report layer this hypothesis stands on is carried by
+[`woh-claim-0070`](canonical-contact-report.md):
 
 - `TBWTT-1:53`, reporting that the speakers are people like humans and live on
   a similar planet;
@@ -55,7 +63,9 @@ The inspected Wheel digitization of *The Book Which Tells the Truth* includes:
   suitable planet, and the artificial creation of life.
 
 These locators establish what the project source reports. They do not
-independently establish that its report corresponds to historical events.
+independently establish that its report corresponds to historical events —
+that hypothesis step is exactly what this record, not `woh-claim-0070`,
+asserts and must defend.
 
 ### Context and analogy
 
@@ -119,11 +129,13 @@ Those require separate claims or are outside the research core.
 
 Revise or split this specification when:
 
-- canonical passages prove materially inconsistent across verified editions;
+- the canonical contact report record (`woh-claim-0070`) materially changes;
 - the `Elohim` identification changes independently of the civilization claim;
 - a reproducible review materially changes the state of relevant historical,
   philological, biological, or source-critical evidence;
-- the proposition proves too compound for discriminating review;
+- a review of the biblical-identification or design-of-life subclaims
+  advances toward `reviewed`, triggering the full four-way decomposition
+  deferred by ADR 0007;
 - a public derivative strengthens or narrows the claim beyond this record.
 
 ## Public derivatives

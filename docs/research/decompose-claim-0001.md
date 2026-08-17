@@ -1,11 +1,24 @@
 ---
 title: "Research question: should claim 0001 be split into four claims?"
-status: draft
-version: 0.1.0
-last_reviewed: 2026-08-02
+status: accepted
+version: 0.2.0
+last_reviewed: 2026-08-17
 ---
 
 # Research question: should claim 0001 be split into four claims?
+
+## Decision (2026-08-17)
+
+The founder adopted **option 3** — the partial split. The canonical contact
+report (subclaim A) is extracted as
+[`woh-claim-0070`](../framework/canonical-contact-report.md), a
+`source_report`; `woh-claim-0001` (0.2.0) retains B–D and depends on it;
+`woh-claim-0002` is not re-pointed. The full four-way split is deferred
+until a review of B or D advances toward `reviewed`, and is recorded as a
+revision trigger on `woh-claim-0001`. See
+[RFC 0006](../../rfcs/0006-split-canonical-contact-report.md) and
+[ADR 0007](../../decisions/0007-split-canonical-contact-report.md). The
+sections below are retained as the state of the question at decision time.
 
 ## Exact question
 

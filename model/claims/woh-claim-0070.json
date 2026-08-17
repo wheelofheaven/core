@@ -1,0 +1,59 @@
+{
+  "$schema": "../schemas/claim.schema.json",
+  "schema_version": "0.1.0",
+  "id": "woh-claim-0070",
+  "title": "The canonical contact report",
+  "version": "0.1.0",
+  "lifecycle": "draft",
+  "statement": "The Book Which Tells the Truth explicitly reports that its speakers are biological beings like terrestrial humans living on another planet, glosses Elohim as those who came from the sky, and reports that the civilization's scientists selected Earth and artificially created terrestrial life, including humanity; this record asserts what the source reports, not that the reported events occurred.",
+  "claim_kind": "source_report",
+  "framework_relation": "foundational",
+  "evidence_status": [
+    "scoped"
+  ],
+  "public_label": "direct",
+  "scope": {
+    "includes": [
+      "The report layer of TBWTT-1:53 and TBWTT-2:5: what the inspected project digitization explicitly states",
+      "The source's gloss of Elohim and its creation narrative as source content",
+      "The claim-model consequence: this record is the source_report basis on which woh-claim-0001's hypothesis discipline stands, extracted from that claim so its source criticism can be reviewed independently"
+    ],
+    "excludes": [
+      "The historicity of the reported encounter or creation programme, which belongs to woh-claim-0001 and its evidence discipline",
+      "The publication and founding history of the contact reports, recorded by woh-claim-0020",
+      "The identification of the reported beings with the referents of biblical Elohim, retained by woh-claim-0001",
+      "The Hebrew semantics of Elohim: the gloss is source content, not a philological derivation",
+      "Every other statement in the canon, carried by the claims that cite it"
+    ]
+  },
+  "source_references": [
+    {
+      "source_id": "the-book-which-tells-the-truth",
+      "locator": "TBWTT-1:53; TBWTT-2:5",
+      "role": "canonical_basis",
+      "access": "project_digitization",
+      "note": "../../source-notes/the-book-which-tells-the-truth.md"
+    }
+  ],
+  "dependencies": [
+    "woh-claim-0020"
+  ],
+  "alternatives": [
+    {
+      "id": "alt-0070-misreading",
+      "statement": "The cited passages, read in their edition context, do not support this summary of the reported content; the record mischaracterizes or selectively quotes the source."
+    },
+    {
+      "id": "alt-0070-edition-variance",
+      "statement": "Printed French and English editions materially differ from the inspected project digitization, so the reported wording is an artifact of one representation rather than a stable report."
+    }
+  ],
+  "revision_triggers": [
+    "Edition collation or a corrected project digitization materially changes the wording or location of TBWTT-1:53 or TBWTT-2:5.",
+    "Public prose cites this record as if it established the historicity of the reported encounter or creation — the record's one forbidden use; that assertion belongs to woh-claim-0001.",
+    "A source-critical review of the Raëlian corpus — the load-bearing question identified by the woh-claim-0001 evidence map — advances, changing what this report layer can carry."
+  ],
+  "controlling_document": "../../docs/framework/canonical-contact-report.md",
+  "public_derivatives": [],
+  "last_reviewed": "2026-08-17"
+}

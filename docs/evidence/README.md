@@ -1,8 +1,8 @@
 ---
 title: Evidence maps
 status: draft
-version: 0.1.0
-last_reviewed: 2026-08-02
+version: 0.1.1
+last_reviewed: 2026-08-17
 ---
 
 # Evidence maps
@@ -32,9 +32,9 @@ critical-explanation cell may be the stronger reading.
 
 ## Maps
 
-- [woh-claim-0001 — Elohim-civilization hypothesis](woh-claim-0001-evidence.md)
-- [woh-claim-0002 — Anunnaki–Elohim identity](woh-claim-0002-evidence.md)
-
-Claim `woh-claim-0003` is a model with an explicit five-layer decomposition in
-its own specification; its evidence map is deferred until the contested
-ancient-knowledge layer is scoped for review.
+Every claim in the catalog has a map at `woh-claim-XXXX-evidence.md`,
+matching its record ID. The pilot maps
+([woh-claim-0001](woh-claim-0001-evidence.md),
+[woh-claim-0002](woh-claim-0002-evidence.md)) remain the fullest examples of
+the column discipline; the report layer extracted from claim 0001 is mapped
+separately in [woh-claim-0070](woh-claim-0070-evidence.md).

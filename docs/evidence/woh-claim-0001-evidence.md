@@ -1,8 +1,8 @@
 ---
 title: "Evidence map: Elohim-civilization hypothesis"
 status: draft
-version: 0.1.0
-last_reviewed: 2026-08-02
+version: 0.2.0
+last_reviewed: 2026-08-17
 claim_id: woh-claim-0001
 ---
 
@@ -21,12 +21,12 @@ project representation.
 ## Subclaim A — the canonical contact report
 
 The foundational proposition rests first on what the Raëlian source *reports*,
-which is distinct from whether the report is historical.
-
-| Passage / locator | Source-language observation | Canonical interpretation | Mainstream / alternative reading | Critical / source-history explanation | Dependency note |
-| --- | --- | --- | --- | --- | --- |
-| `TBWTT-1:53` | The speaker states "We are men like you, and we live on a planet quite similar to Earth." | The interlocutor is a biological being of an off-world human-like civilization. | The passage is a 1970s contact-narrative testimony; genre-typical of the era's UFO-contactee literature. | Source-critical accounts read the report as revelatory, literary, psychological, or fictional composition, not documentary. | Primary and sole basis for the report; not independent of the framework. |
-| `TBWTT-2:5` | The source glosses `Elohim` as "those who came from the sky," and narrates scientists selecting Earth and creating artificial life. | The biblical creators were this civilization's scientists; creation was a laboratory programme. | An etymological folk-gloss laid over Genesis; not a philological derivation of the Hebrew. | The gloss post-dates and depends on the Hebrew text it interprets; it is interpretation of Genesis, not an independent witness to it. | Depends on the Genesis text (below); the two are not independent sources. |
+which is distinct from whether the report is historical. The report layer is
+now recorded as its own `source_report` claim,
+[`woh-claim-0070`](../framework/canonical-contact-report.md), on which this
+claim depends; its passage rows (`TBWTT-1:53`, `TBWTT-2:5`) live in the
+[`woh-claim-0070` evidence map](woh-claim-0070-evidence.md). The subclaim
+letters B–D below are retained unchanged.
 
 ## Subclaim B — identifying the reported beings with biblical `Elohim`
 

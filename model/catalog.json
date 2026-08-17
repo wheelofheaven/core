@@ -2,12 +2,12 @@
   "$schema": "./schemas/catalog.schema.json",
   "catalog_version": "0.1.0",
   "status": "draft",
-  "last_reviewed": "2026-08-16",
+  "last_reviewed": "2026-08-17",
   "claims": [
     {
       "id": "woh-claim-0001",
       "title": "Elohim-civilization hypothesis",
-      "version": "0.1.0",
+      "version": "0.2.0",
       "lifecycle": "draft",
       "claim_kind": "hypothesis",
       "framework_relation": "foundational",
@@ -693,6 +693,16 @@
       "framework_relation": "derived",
       "record": "claims/woh-claim-0069.json",
       "specification": "../docs/framework/menorah-base-network.md"
+    },
+    {
+      "id": "woh-claim-0070",
+      "title": "The canonical contact report",
+      "version": "0.1.0",
+      "lifecycle": "draft",
+      "claim_kind": "source_report",
+      "framework_relation": "foundational",
+      "record": "claims/woh-claim-0070.json",
+      "specification": "../docs/framework/canonical-contact-report.md"
     }
   ]
 }
