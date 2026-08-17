@@ -4,7 +4,7 @@
   "id": "woh-claim-0003",
   "title": "Precessional world-age chronology",
   "version": "0.1.0",
-  "lifecycle": "draft",
+  "lifecycle": "accepted",
   "statement": "Wheel of Heaven organizes long-range history as a Great Year of twelve equal world ages of 2,160 years each, an idealization of the astronomical precession cycle, anchored by project convention so that the Age of Aquarius spans 1950-4110 CE and the cycle opens with the Age of Capricorn about 21,810 BCE.",
   "claim_kind": "model",
   "framework_relation": "foundational",
@@ -119,5 +119,5 @@
     "wheelofheaven/data-content:wiki/chronology.md",
     "wheelofheaven/data-content:datasets/world-ages.md"
   ],
-  "last_reviewed": "2026-08-09"
+  "last_reviewed": "2026-08-17"
 }

@@ -1,6 +1,6 @@
 ---
 title: Elohim-civilization hypothesis
-status: draft
+status: accepted
 version: 0.2.0
 last_reviewed: 2026-08-17
 claim_id: woh-claim-0001

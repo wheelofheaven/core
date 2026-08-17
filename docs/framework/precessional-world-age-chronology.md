@@ -1,8 +1,8 @@
 ---
 title: Precessional world-age chronology
-status: draft
+status: accepted
 version: 0.1.0
-last_reviewed: 2026-08-02
+last_reviewed: 2026-08-17
 claim_id: woh-claim-0003
 ---
 
