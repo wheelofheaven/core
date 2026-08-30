@@ -1,8 +1,8 @@
 ---
 title: Near Eastern literary transmission to archaic Greece
 status: accepted
-version: 0.1.0
-last_reviewed: 2026-08-15
+version: 0.2.0
+last_reviewed: 2026-08-30
 claim_id: woh-claim-0005
 ---
 
@@ -32,39 +32,66 @@ conclusion from it.
 
 ## What the observation actually shows
 
-Contact and prestige asymmetry: archaic Greeks absorbed material from cultures
-they regarded as older and richer, along routes archaeology documents (the
-Phoenician-derived alphabet; Euboean trade presence at Al Mina; Anatolian
-festival-epic channels). The Odyssey–Gilgamesh case, verified against West
-pp. 402–403 from the page image, is stated by West as an "especially strong
-and clear relationship" of the wanderings strand — with character identity
-explicitly denied: "He is, then, no Gilgamesh."
+The observation is cumulative. In the relevant portions of *The East Face of
+Helicon*, West grades evidence across several levels rather than treating
+every resemblance alike:
+
+1. **Mythic structure.** The Anu–Kumarbi–Teshub and
+   Ouranos–Kronos–Zeus successions correspond in an unusually dense sequence
+   of actions. The direction is east to west because the Anatolian witness is
+   older. Wider storm-god combat traditions are compared as a family whose
+   members retain significant differences.
+2. **Narrative and poetic technique.** Poem openings, procedural sequences,
+   assemblies, speeches, messenger scenes, recurring epithets, and idiom add
+   evidence below the level of whole plots. West explicitly declines to
+   derive the Greek hexameter from an eastern metre and treats the invocation
+   of the Muses as distinctively Greek.
+3. **Homeric narrative.** The *Odyssey*–*Gilgamesh* case concerns the
+   wanderings strand: proem, far-traveller frame, island women, the threshold
+   to homecoming, descent to the dead, wakefulness, and sacred cattle. West
+   denies that Odysseus and Gilgamesh are the same character and judges the
+   *Odyssey* overall less densely eastern than the *Iliad*.
+4. **Historical substrate.** Mycenaean contact, Cyprus after the palace
+   collapse, and the Levantine and Anatolian networks of the early Iron Age
+   supply several periods and routes by which material could travel. Traders,
+   craftsmen, interpreters, migrants, mercenaries, and bilingual singers are
+   human mechanisms. The contact field is documented; a particular story's
+   exact itinerary normally is not.
+
+The result is dependence and cultural intimacy, not a ledger in which every
+Greek feature is assigned a foreign origin. Near Eastern transmission joins
+Indo-European inheritance, Aegean continuity, and Greek recomposition in the
+honest model: a braid.
 
 **What it does not show.** Literary borrowing does not establish
 civilizational origination. Mesopotamian priority in writing and urbanism is
-independently true and independently evidenced (archaeology, not philology);
-sliding from "the Greeks borrowed stories" to "therefore the Near East
-originated civilization" is a resemblance-to-priority transition the claim
-model forbids. Any artifact wanting the priority thesis must bind
-`woh-claim-0007`, which carries it at framework strength — not this record.
+independently true and independently evidenced by archaeology; sliding from
+"the Greeks borrowed stories" to "therefore the Near East originated
+civilization" is a resemblance-to-priority transition the claim model
+forbids. Nor does the transmission evidence establish a shared historical
+referent beneath the stories. Any artifact making that interpretive move must
+bind `woh-claim-0004` or `woh-claim-0007` and carry their speculative or
+framework labels.
 
 ## Evidence status
 
-`scoped`. One locator verified from the page image (West pp. 402–403, logged
-in the holdings registry); the remaining scholarly corpus is held at
-`metadata_only`. See the
+`scoped`. West's preface and the relevant portions of chapters 1, 4, 5, 6, 8,
+and 12 have been read and logged in the holdings registry; quotations retained
+for public use were checked against rendered page images. The remaining
+scholarly corpus is held at `metadata_only`, and later scholarship has not yet
+been reviewed systematically. See the
 [evidence map](../evidence/woh-claim-0005-evidence.md).
 
 ## Revision triggers
 
-- Reading West's Hesiod chapters and programmatic material changes the
-  stated strength or shape of the relationship.
-- Mainstream scholarship downgrades the Odyssey–Gilgamesh relationship to
+- A systematic review of post-West scholarship materially downgrades his
+  strongest Hesiodic, Homeric, or transmission cases.
+- Mainstream scholarship downgrades the *Odyssey*–*Gilgamesh* relationship to
   generic resemblance.
-- Derived prose asserts hero identity, origination, or a canonical
-  mechanism — all excluded here.
+- Derived prose asserts hero identity, civilizational origination, or a
+  canonical transmission mechanism — all excluded here.
 
-## Public derivative
+## Public derivatives
 
-- `wheelofheaven/data-content:articles/the-east-face-of-homer.md` (planned;
-  slug provisional)
+- `wheelofheaven/data-content:articles/the-east-face-of-homer.md`
+- `wheelofheaven/data-content:articles/the-rain-over-helicon.md`

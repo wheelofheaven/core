@@ -168,6 +168,7 @@ Revise, split, or retire this specification when:
 ## Public derivatives
 
 - `wheelofheaven/data-content:articles/the-world-behind-the-odyssey.md`
+- `wheelofheaven/data-content:articles/the-rain-over-helicon.md`
 - `wheelofheaven/data-content:wiki/theomachy.md`
 
 The public article and wiki entry are existing expressions of the claim, not

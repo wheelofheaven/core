@@ -2,7 +2,7 @@
   "$schema": "./schemas/catalog.schema.json",
   "catalog_version": "0.1.0",
   "status": "draft",
-  "last_reviewed": "2026-08-17",
+  "last_reviewed": "2026-08-30",
   "claims": [
     {
       "id": "woh-claim-0001",
@@ -47,7 +47,7 @@
     {
       "id": "woh-claim-0005",
       "title": "Near Eastern literary transmission to archaic Greece",
-      "version": "0.1.0",
+      "version": "0.2.0",
       "lifecycle": "accepted",
       "claim_kind": "empirical_observation",
       "framework_relation": "contextual",

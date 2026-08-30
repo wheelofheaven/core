@@ -57,9 +57,10 @@
     },
     {
       "source_id": "the-east-face-of-helicon-west-asiatic-elements-in-greek-poetry-and-myth",
-      "locator": "pp. 402-403 (ch. 8 'The Odyssey', section 'Odysseus and Gilgamesh': the wanderings show an especially strong and clear relationship with the Gilgamesh epic, while character identity is explicitly denied); chapters on Hesiod (succession and combat material) and the programmatic claim that Greek literature is a Near Eastern literature — the latter not yet inspected",
+      "locator": "Ch. 6 pp. 276–304, 332 (Hesiod, Kumarbi, and divine combat) and ch. 8 pp. 402–417, 437 (Odyssey and Gilgamesh), inspected in full for woh-claim-0005; this interpretation uses only the scoped structural comparisons and does not treat transmission as evidence for a shared referent",
       "role": "scholarly_context",
-      "access": "excerpt"
+      "access": "full_text",
+      "note": "../../source-notes/the-east-face-of-helicon-west-asiatic-elements-in-greek-poetry-and-myth.md"
     },
     {
       "source_id": "the-singer-of-tales",
@@ -122,6 +123,7 @@
   "controlling_document": "../../docs/framework/greek-theomachy-memory.md",
   "public_derivatives": [
     "wheelofheaven/data-content:articles/the-world-behind-the-odyssey.md",
+    "wheelofheaven/data-content:articles/the-rain-over-helicon.md",
     "wheelofheaven/data-content:wiki/theomachy.md"
   ],
   "last_reviewed": "2026-08-17"

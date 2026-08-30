@@ -3,7 +3,7 @@
   "schema_version": "0.1.0",
   "id": "woh-claim-0005",
   "title": "Near Eastern literary transmission to archaic Greece",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "lifecycle": "accepted",
   "statement": "Archaic Greek poetry and myth absorbed substantial Near Eastern — Mesopotamian, Anatolian, and Levantine — literary material through documented contact routes, and the wanderings strand of the Odyssey stands in an especially strong and clear literary relationship with the Gilgamesh epic, without identity of the two heroes.",
   "claim_kind": "empirical_observation",
@@ -16,6 +16,7 @@
     "includes": [
       "The documented transmission substrate: the Phoenician-derived alphabet, Levantine and Anatolian trade and settlement contact in the ninth to seventh centuries BCE, and the scholarly case assembled by Burkert, West, Bachvarova, Louden, and Lane Fox",
       "The Odyssey–Gilgamesh relationship at the level West states it: the wanderings strand in strong and clear literary relationship with the Gilgamesh epic, with situational and thematic parallels (proem, far-traveller frame)",
+      "West's cumulative case across mythic structure (especially Hesiod and the Kumarbi cycle), divine-combat traditions, narrative procedure, poetic technique, formulaic diction, and idiom, with individual parallels graded rather than treated as equally probative",
       "Direction of travel: the Near Eastern material is older and the borrowing runs east to west"
     ],
     "excludes": [
@@ -28,9 +29,10 @@
   "source_references": [
     {
       "source_id": "the-east-face-of-helicon-west-asiatic-elements-in-greek-poetry-and-myth",
-      "locator": "pp. 402–403, ch. 8 'The Odyssey', section 'Odysseus and Gilgamesh' (verified from the page image: 'especially strong and clear relationship with the Gilgamesh epic'; 'He is, then, no Gilgamesh'; proem juxtaposition)",
+      "locator": "Preface vii–ix; ch. 1 pp. 59–60; ch. 4 pp. 168–174, 190–191; ch. 5 pp. 220–226; ch. 6 pp. 276–304, 332; ch. 8 pp. 402–417, 437; ch. 12 pp. 586–630 (cumulative method, poetic technique and diction, Hesiod–Kumarbi, divine combat, Odyssey–Gilgamesh, and transmission routes, with West's qualifications retained)",
       "role": "scholarly_context",
-      "access": "excerpt"
+      "access": "full_text",
+      "note": "../../source-notes/the-east-face-of-helicon-west-asiatic-elements-in-greek-poetry-and-myth.md"
     },
     {
       "source_id": "epic-of-gilgamesh",
@@ -85,13 +87,14 @@
     }
   ],
   "revision_triggers": [
-    "Reading West's Hesiod chapters and the programmatic material (currently uninspected) materially changes the strength or shape of the stated relationship.",
+    "A systematic review of scholarship published after West materially downgrades his strongest Hesiodic, Homeric, or transmission cases.",
     "The Odyssey–Gilgamesh relationship is downgraded in mainstream scholarship from literary relationship to generic resemblance.",
     "Public prose derived from this record starts asserting hero identity, civilizational origination, or a canonical mechanism, all of which this record excludes."
   ],
   "controlling_document": "../../docs/framework/near-eastern-transmission-to-greece.md",
   "public_derivatives": [
-    "wheelofheaven/data-content:articles/the-east-face-of-homer.md"
+    "wheelofheaven/data-content:articles/the-east-face-of-homer.md",
+    "wheelofheaven/data-content:articles/the-rain-over-helicon.md"
   ],
-  "last_reviewed": "2026-08-16"
+  "last_reviewed": "2026-08-30"
 }

@@ -100,7 +100,7 @@ extended over a second tradition's religion.
 - The reading fails to predict any particular that transmission alone does
   not.
 
-## Public derivative
+## Public derivatives
 
-- `wheelofheaven/data-content:articles/the-east-face-of-homer.md` (planned;
-  slug provisional)
+- `wheelofheaven/data-content:articles/the-east-face-of-homer.md`
+- `wheelofheaven/data-content:articles/the-rain-over-helicon.md`
