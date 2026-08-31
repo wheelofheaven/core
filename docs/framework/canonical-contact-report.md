@@ -1,8 +1,8 @@
 ---
 title: The canonical contact report
 status: accepted
-version: 0.1.0
-last_reviewed: 2026-08-17
+version: 0.2.0
+last_reviewed: 2026-08-31
 claim_id: woh-claim-0070
 ---
 
@@ -56,24 +56,51 @@ triggers exactly as in `woh-claim-0020`.
 
 ## Current basis
 
-The inspected Wheel digitization of *The Book Which Tells the Truth*
-includes:
+Three witnesses to *The Book Which Tells the Truth* have been compared: the
+Wheel digitization (French base text), the 2005 French combined edition
+*Le Message donné par les Extra-terrestres*, and the 2005 English combined
+edition *Intelligent Design: Message from the Designers*.
 
-- `TBWTT-1:53`, reporting: "We are men like you, and we live on a planet
-  quite similar to Earth";
-- `TBWTT-2:5`, reporting the source's gloss of `Elohim`, the search for a
-  suitable planet, and the artificial creation of life.
+- `TBWTT-1:53` — « Nous sommes des hommes comme vous et nous vivons sur une
+  planète assez semblable à la Terre » (2005 French ed., p. 18); published
+  English: "We are people like you, and we live on a planet similar to Earth"
+  (*Intelligent Design*, p. 8). The report is qualified eight turns later at
+  `TBWTT-1:61`, where the same speaker says a human could not live on that
+  planet because the atmosphere is very different.
+- `TBWTT-2:5` — the source's gloss of `Elohim` as « ceux qui sont venus du
+  ciel » / "those who came from the sky", its insistence that the word is
+  plural, the search for a suitable planet, and the artificial creation of
+  life (2005 French ed., p. 20; *Intelligent Design*, p. 11).
 
-See the [source note](../../source-notes/the-book-which-tells-the-truth.md).
-Edition and translation collation remain open review tasks; the record's
-first revision trigger is a material change to these passages under
-collation.
+**Quotation provenance.** The digitization's English is an AI-assisted
+rendering generated in 2026, not a published translation, and is never quoted
+here as the source's own English. See the
+[source note](../../source-notes/the-book-which-tells-the-truth.md).
+
+Collation against the 2005 editions is complete and found the digitization's
+French faithful to them. The 1973 and 1974 first printings remain uncollated
+and are the live case for the record's first revision trigger.
 
 ## Evidence status
 
 `scoped`. See the [evidence map](../evidence/woh-claim-0070-evidence.md),
 which carries the subclaim-A rows formerly held by the `woh-claim-0001`
 map.
+
+The status has **not** advanced despite a completed review. Two of the three
+components the evidence map names were performed; the genre and
+source-critical appraisal is blocked on holdings and remains outstanding, and
+the advancement rule does not admit a partial review.
+
+## Reviews
+
+- [`woh-claim-0070-review-0001`](../reviews/woh-claim-0070-review-0001.md) —
+  draft, unsigned. Edition collation and internal consistency performed;
+  source-critical appraisal outstanding. Confirmed the record's substance
+  against all three witnesses, rejected `alt-0070-misreading`, and rejected
+  `alt-0070-edition-variance` for the French. Its one material correction was
+  to quotation practice, not to the claim: English wordings previously
+  presented as the source's words were the digitization's machine rendering.
 
 ## Dependencies
 

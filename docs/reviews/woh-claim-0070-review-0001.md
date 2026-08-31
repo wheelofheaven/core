@@ -16,8 +16,10 @@ supersedes: null
 
 # Review: the canonical contact report
 
-First review drafted against the format proposed in
-[RFC 0007](../../rfcs/0007-reproducible-review-records.md). It is **unsigned**.
+First review drafted against the format adopted in
+[RFC 0007](../../rfcs/0007-reproducible-review-records.md) /
+[ADR 0009](../../decisions/0009-reproducible-review-records.md). It is
+**unsigned**.
 Claim [`woh-claim-0070`](../framework/canonical-contact-report.md) has not
 moved and remains `scoped`.
 
@@ -320,7 +322,11 @@ than actioned here:
 
 ## Sign-off
 
-Not signed. This record is a draft accompanying RFC 0007 and grants no status.
+Not signed. All five recommendations in the Outcome section were applied on
+2026-08-31 (1 and 2 as quotation corrections, 3 under the feedback rule adopted
+by ADR 0009, 4 by leaving the status alone, 5 by narrowing the first revision
+trigger to the uncollated first printings). The record itself grants no status:
+the claim remains `scoped` pending the outstanding source-critical component.
 
 | Field | Value |
 | --- | --- |

@@ -1,9 +1,9 @@
 {
   "$schema": "../schemas/claim.schema.json",
-  "schema_version": "0.1.0",
+  "schema_version": "0.2.0",
   "id": "woh-claim-0070",
   "title": "The canonical contact report",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "lifecycle": "accepted",
   "statement": "The Book Which Tells the Truth explicitly reports that its speakers are biological beings like terrestrial humans living on another planet, glosses Elohim as those who came from the sky, and reports that the civilization's scientists selected Earth and artificially created terrestrial life, including humanity; this record asserts what the source reports, not that the reported events occurred.",
   "claim_kind": "source_report",
@@ -33,6 +33,18 @@
       "role": "canonical_basis",
       "access": "project_digitization",
       "note": "../../source-notes/the-book-which-tells-the-truth.md"
+    },
+    {
+      "source_id": "aliens-adored",
+      "locator": "The standard academic study of the movement; the genre placement of the contact reports within 1970s contactee literature and the composition-account explanations",
+      "role": "critical",
+      "access": "metadata_only"
+    },
+    {
+      "source_id": "handbook-of-ufo-religions-brill-handbooks-on-contemporary-religion-20-ch-22-r-gi",
+      "locator": "Régis Dericquebourg, \"Rael and the Raelians\" — the scholarly account of the movement and its foundational reports",
+      "role": "critical",
+      "access": "metadata_only"
     }
   ],
   "dependencies": [
@@ -49,11 +61,21 @@
     }
   ],
   "revision_triggers": [
-    "Edition collation or a corrected project digitization materially changes the wording or location of TBWTT-1:53 or TBWTT-2:5.",
+    "Edition collation or a corrected project digitization materially changes the wording or location of TBWTT-1:53 or TBWTT-2:5. Collation against the 2005 French and English combined editions was performed by woh-claim-0070-review-0001 and changed nothing material; the 1973 and 1974 first printings remain uncollated and are the live case for this trigger.",
     "Public prose cites this record as if it established the historicity of the reported encounter or creation — the record's one forbidden use; that assertion belongs to woh-claim-0001.",
     "A source-critical review of the Raëlian corpus — the load-bearing question identified by the woh-claim-0001 evidence map — advances, changing what this report layer can carry."
   ],
   "controlling_document": "../../docs/framework/canonical-contact-report.md",
   "public_derivatives": [],
-  "last_reviewed": "2026-08-17"
+  "last_reviewed": "2026-08-31",
+  "reviews": [
+    {
+      "review_id": "woh-claim-0070-review-0001",
+      "path": "../../docs/reviews/woh-claim-0070-review-0001.md",
+      "status": "draft",
+      "components_outstanding": [
+        "genre-and-source-critical-appraisal"
+      ]
+    }
+  ]
 }
