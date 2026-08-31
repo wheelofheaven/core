@@ -159,9 +159,48 @@
     "last_reviewed": {
       "type": "string",
       "format": "date"
+    },
+    "reviews": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/reviewReference"
+      }
     }
   },
   "$defs": {
+    "reviewReference": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "review_id",
+        "path",
+        "status"
+      ],
+      "properties": {
+        "review_id": {
+          "type": "string",
+          "pattern": "^woh-claim-[0-9]{4}-review-[0-9]{4}$"
+        },
+        "path": {
+          "type": "string",
+          "minLength": 1
+        },
+        "status": {
+          "enum": [
+            "draft",
+            "signed",
+            "superseded"
+          ]
+        },
+        "components_outstanding": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          }
+        }
+      }
+    },
     "lifecycle": {
       "enum": [
         "draft",

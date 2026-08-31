@@ -65,6 +65,13 @@ SOURCE_ROLES = {
 }
 SEMVER_RE = re.compile(r"^(0|[1-9][0-9]*)\.[0-9]+\.[0-9]+$")
 CLAIM_ID_RE = re.compile(r"^woh-claim-[0-9]{4}$")
+REVIEW_ID_RE = re.compile(r"^woh-claim-[0-9]{4}-review-[0-9]{4}$")
+REVIEW_STATUSES = {"draft", "signed", "superseded"}
+# Statuses a claim may only carry on the strength of a signed review record.
+# `contested` is deliberately absent: a credible conflict can be recorded
+# without a formal review. See docs/methodology/evidence-status.md and
+# rfcs/0007-reproducible-review-records.md.
+REVIEW_GATED_STATUSES = {"reviewed", "replicated", "unsupported"}
 DATE_RE = re.compile(r"^[0-9]{4}-[0-9]{2}-[0-9]{2}$")
 LINK_RE = re.compile(r"\[[^\]]+\]\(([^)]+)\)")
 
@@ -140,6 +147,103 @@ def validate_document_metadata(validation: Validation) -> None:
                 )
 
 
+def optional_field(fields: dict[str, str], key: str) -> str:
+    """Frontmatter value, treating the repo's `null` placeholder as absent.
+
+    `frontmatter()` is a line parser, not a YAML loader, so `signed_by: null`
+    arrives as the string "null" rather than None.
+    """
+    value = (fields.get(key) or "").strip()
+    return "" if value.lower() in {"null", "~", "none"} else value
+
+
+def validate_claim_reviews(
+    record_path: Path,
+    record: dict[str, Any],
+    validation: Validation,
+) -> None:
+    """Check the `reviews` binding and the advancement rule (RFC 0007).
+
+    A review record reports findings; it does not by itself move a claim. The
+    mechanical half enforced here is that a claim carrying a review-gated
+    evidence status actually references a signed review that covers it. The
+    judgement half stays with the founder's sign-off inside the record.
+    """
+    rel = record_path.relative_to(ROOT)
+    claim_id = record.get("id")
+    reviews = record.get("reviews", [])
+    if "reviews" in record and not isinstance(reviews, list):
+        validation.error(f"{rel}: reviews must be an array")
+        return
+
+    signed_ids: set[str] = set()
+    for index, review in enumerate(reviews):
+        prefix = f"{rel}: reviews[{index}]"
+        if not isinstance(review, dict):
+            validation.error(f"{prefix} must be an object")
+            continue
+        for field in sorted(set(review) - {"review_id", "path", "status", "components_outstanding"}):
+            validation.error(f"{prefix}: unknown field {field}")
+
+        review_id = review.get("review_id")
+        validation.require(
+            isinstance(review_id, str) and bool(REVIEW_ID_RE.fullmatch(review_id or "")),
+            f"{prefix}: invalid review_id",
+        )
+        if isinstance(review_id, str) and isinstance(claim_id, str):
+            validation.require(
+                review_id.startswith(f"{claim_id}-review-"),
+                f"{prefix}: review_id does not belong to {claim_id}",
+            )
+
+        status = review.get("status")
+        validation.require(status in REVIEW_STATUSES, f"{prefix}: invalid status")
+
+        outstanding = review.get("components_outstanding", [])
+        if not isinstance(outstanding, list):
+            validation.error(f"{prefix}: components_outstanding must be an array")
+            outstanding = []
+
+        review_path_value = review.get("path")
+        validation.require(bool(review_path_value), f"{prefix}: missing path")
+        if not isinstance(review_path_value, str):
+            continue
+        review_path = (record_path.parent / review_path_value).resolve()
+        validation.require(review_path.is_file(), f"{prefix}: missing review record {review_path_value}")
+        if not review_path.is_file():
+            continue
+
+        fields = frontmatter(review_path, validation)
+        validation.require(fields.get("claim_id") == claim_id, f"{prefix}: review record claim_id differs")
+        validation.require(fields.get("review_id") == review_id, f"{prefix}: review record review_id differs")
+        validation.require(fields.get("status") == status, f"{prefix}: review record status differs")
+
+        if fields.get("status") == "signed":
+            validation.require(bool(optional_field(fields, "signed_by")), f"{prefix}: signed review without signed_by")
+            signed_date = optional_field(fields, "signed_date")
+            validation.require(
+                isinstance(signed_date, str) and bool(DATE_RE.fullmatch(signed_date or "")),
+                f"{prefix}: signed review without a valid signed_date",
+            )
+            if not outstanding:
+                signed_ids.add(review_id)
+        else:
+            for field in ("signed_by", "signed_date"):
+                validation.require(
+                    not optional_field(fields, field),
+                    f"{prefix}: unsigned review record carries {field}",
+                )
+
+    evidence = record.get("evidence_status")
+    if isinstance(evidence, list):
+        gated = sorted(set(evidence) & REVIEW_GATED_STATUSES)
+        if gated and not signed_ids:
+            validation.error(
+                f"{rel}: evidence_status {gated} requires a signed review record "
+                "with no outstanding components (see rfcs/0007-reproducible-review-records.md)"
+            )
+
+
 def validate_claim_record(
     record_path: Path,
     record: dict[str, Any],
@@ -168,7 +272,7 @@ def validate_claim_record(
     }
     for field in sorted(required):
         validation.require(field in record, f"{rel}: missing {field}")
-    allowed = required | {"$schema"}
+    allowed = required | {"$schema", "reviews"}
     for field in sorted(set(record) - allowed):
         validation.error(f"{rel}: unknown field {field}")
 
@@ -240,6 +344,8 @@ def validate_claim_record(
                     fields = frontmatter(note_path, validation)
                     validation.require(fields.get("source_id") == source_id, f"{prefix}: source note ID differs")
                     validation.require(fields.get("source_access") == ref.get("access"), f"{prefix}: source access differs from note")
+
+    validate_claim_reviews(record_path, record, validation)
 
     alternatives = record.get("alternatives")
     validation.require(isinstance(alternatives, list) and bool(alternatives), f"{rel}: alternatives must be non-empty")

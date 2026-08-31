@@ -15,5 +15,7 @@ superseding ADR and update both records; accepted history is not rewritten.
 | [0003](0003-depiction-notes.md) | Accepted | Adopt depiction notes as the fourth core document class (RFC 0004) |
 | [0004](0004-source-holdings-registry.md) | Accepted | Adopt the source holdings registry and its ingest pipeline (RFC 0005); the data-sources licensing correction stays open |
 | [0005](0005-claim-catalog-acceptance.md) | Accepted | Promote claims 0005-0053 to accepted lifecycle; pilots 0001-0004 stay draft pending their own review |
+| [0006](0006-claim-catalog-completion-acceptance.md) | Accepted | Accept the completed claim catalog (0054-0069); ratify the consonance discipline and no-enlistment source families |
 | [0007](0007-split-canonical-contact-report.md) | Accepted | Split the canonical contact report (woh-claim-0070) out of claim 0001; full four-way split deferred (RFC 0006) |
 | [0008](0008-pilot-claims-promotion.md) | Accepted | Promote pilots 0001-0004 and woh-claim-0070 to accepted; catalog carries no draft records |
+| [0009](0009-reproducible-review-records.md) | Accepted | Adopt reproducible review records as the instrument that moves a claim beyond `scoped` (RFC 0007); no claim advanced |

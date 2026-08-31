@@ -9,9 +9,10 @@ type.
 - `methodology/` defines how claims, evidence, sources, comparison, and change
   are handled.
 - `research/` records open questions and programmes.
-- `reviews/` holds dated, per-claim review records. Provisional: the format and
-  its schema binding are proposed in [RFC 0007](../rfcs/0007-reproducible-review-records.md)
-  and not yet accepted.
+- `reviews/` holds dated, per-claim review records — the instrument that moves
+  a claim beyond `scoped`. Format and schema binding:
+  [RFC 0007](../rfcs/0007-reproducible-review-records.md) /
+  [ADR 0009](../decisions/0009-reproducible-review-records.md).
 
 Reader-facing articles, wiki pages, timelines, and translations belong in
 `wheelofheaven/data-content`, not here.

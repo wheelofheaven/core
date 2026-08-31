@@ -1,11 +1,13 @@
 ---
 title: "RFC 0007: Reproducible review records"
-status: draft
+status: accepted
 authors:
+  - project founder
   - Claude (drafting agent, at founder direction)
 created: 2026-08-31
 review_until: null
-related_adrs: []
+related_adrs:
+  - ../decisions/0009-reproducible-review-records.md
 supersedes: []
 superseded_by: null
 ---
@@ -281,5 +283,9 @@ happens, not assumed to have worked.
 
 ## Resolution
 
-Open. This RFC is `draft`; no ADR accompanies it, and no claim status has
-changed on its account.
+**Accepted** 2026-08-31 by the founder, recorded in
+[ADR 0009](../decisions/0009-reproducible-review-records.md). The schema field,
+the validator rules, and the feedback rule are implemented.
+
+No claim status changed on the RFC's account. `woh-claim-0070` remains
+`scoped`: its review is unsigned and one component is outstanding.
