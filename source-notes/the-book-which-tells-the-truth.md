@@ -17,9 +17,26 @@ last_reviewed: 2026-08-02
   `data-library/the-book-which-tells-the-truth/chapter-1.json` and
   `chapter-2.json`
 - Access level: `project_digitization`
+- Printed editions held: *Le Message donné par les Extra-terrestres* (2005
+  French combined volume) and *Intelligent Design: Message from the Designers*
+  (2005 English combined volume), both in `data-sources/pdf/_combined/`
 
-This note does not establish which printed edition controls every English
-wording. Edition and translation comparison remain open review tasks.
+**Translation provenance of the digitization.** The digitization's French is
+the base text. Its English and other renderings are **not** the published
+translations: every chapter file carries a `translation` block recording
+`method: ai-assisted`, `model: claude-opus-4-7`, dated 2026-05-16 (chapter 7,
+2026-05-17). Compared against the published English, 616 of 631 paragraphs
+(97.6%) do not match. The digitization's English must therefore never be quoted
+as the source's own English wording; quote the published edition and cite its
+page, or quote the French.
+
+[Review 0001](../docs/reviews/woh-claim-0070-review-0001.md) collated the
+digitization's French against the 2005 French edition across the whole book:
+583 of 634 paragraphs match exactly, and every divergence inspected proved to
+be a PDF-extraction artifact rather than a textual variant. The French base
+text is faithful to the 2005 state of the work. Which printed edition controls
+the wording *before* 2005 remains open — no copy of the 1973 or 1974 printings
+is held.
 
 ## Source type and purpose
 
@@ -32,11 +49,17 @@ member of the Elohim civilization.
 Two passages are immediately relevant to claim `woh-claim-0070` (the
 canonical contact report), on which claim `woh-claim-0001` depends:
 
-- `TBWTT-1:53` reports: “We are men like you, and we live on a planet quite
-  similar to Earth.”
-- `TBWTT-2:5` reports the source's gloss of `Elohim` as those who came from the
-  sky, describes scientists selecting Earth, and describes the creation of
-  artificial life.
+- `TBWTT-1:53` reports, in the French base text, « Nous sommes des hommes
+  comme vous et nous vivons sur une planète assez semblable à la Terre »
+  (2005 French ed., p. 18). The published English reads “We are people like
+  you, and we live on a planet similar to Earth” (*Intelligent Design*, p. 8).
+  The report is qualified eight turns later at `TBWTT-1:61`, where the same
+  speaker says a human could not live on that planet because the atmosphere is
+  very different.
+- `TBWTT-2:5` reports the source's gloss of `Elohim` as « ceux qui sont venus
+  du ciel » / “those who came from the sky”, insists the word is plural,
+  describes scientists selecting Earth, and describes the creation of
+  artificial life (2005 French ed., p. 20; *Intelligent Design*, p. 11).
 
 One passage is immediately relevant to claim `woh-claim-0003`:
 
@@ -47,6 +70,10 @@ One passage is immediately relevant to claim `woh-claim-0003`:
   This is the canonical basis for the Aquarian-threshold reading. It reports
   an age transition and the significance of 1946; it does not state the
   corpus's working boundary year of 1950, which is a framework convention.
+  **The English here is the digitization's machine rendering, not the published
+  translation**, and this passage has not been collated against the printed
+  editions — that belongs to a review of `woh-claim-0003`, not to review 0001,
+  which covered only the two passages `woh-claim-0070` rests on.
 
 These are source reports. They establish the content of the inspected project
 representation, not the historical occurrence or external origin of the
@@ -55,9 +82,16 @@ reported encounter.
 ## Basis or method
 
 The work presents revelatory or contact testimony rather than an independently
-documented empirical study. The project digitization contains French source
-text and multilingual renderings, but this pilot did not collate the quoted
-English passages against every printed French and English edition.
+documented empirical study. The French base text of the digitization has now
+been collated against the 2005 printed editions and is faithful to them; the
+digitization's non-French renderings are machine translations, as recorded
+above. The first printings remain uncollated.
+
+Book two of the combined volumes states that a passage of the first message was
+"wrongly transcribed" and corrects it (*Intelligent Design*, p. 150; 2005 French
+ed., p. 137). The correction does not touch the passages cited here, but it
+means the corpus itself does not treat the first message as an inerrant
+transcript.
 
 ## Limitations and criticism
 
@@ -98,3 +132,9 @@ biological creation programme.
 - 2026-08-02 — Project digitization checked for `TBWTT-5:7` (Aquarian
   threshold passage) for claim `woh-claim-0003`; no full edition collation
   performed.
+- 2026-08-31 — Whole-book collation of the digitization's French against the
+  2005 French and English combined editions, for `woh-claim-0070`
+  ([review 0001](../docs/reviews/woh-claim-0070-review-0001.md)). French base
+  text confirmed faithful to the 2005 state; digitization's English identified
+  as an AI-assisted 2026 rendering rather than the published translation. First
+  printings still uncollated; source-critical appraisal still outstanding.
