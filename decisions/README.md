@@ -19,3 +19,4 @@ superseding ADR and update both records; accepted history is not rewritten.
 | [0007](0007-split-canonical-contact-report.md) | Accepted | Split the canonical contact report (woh-claim-0070) out of claim 0001; full four-way split deferred (RFC 0006) |
 | [0008](0008-pilot-claims-promotion.md) | Accepted | Promote pilots 0001-0004 and woh-claim-0070 to accepted; catalog carries no draft records |
 | [0009](0009-reproducible-review-records.md) | Accepted | Adopt reproducible review records as the instrument that moves a claim beyond `scoped` (RFC 0007); no claim advanced |
+| [0010](0010-continental-breakup-promotion.md) | Accepted | Promote woh-claim-0071 (continental breakup at the Flood) to accepted; catalog again carries no draft records |

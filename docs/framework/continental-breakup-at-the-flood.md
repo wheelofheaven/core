@@ -1,6 +1,6 @@
 ---
 title: Continental breakup at the Flood
-status: draft
+status: accepted
 version: 0.1.0
 last_reviewed: 2026-09-12
 claim_id: woh-claim-0071
@@ -8,9 +8,10 @@ claim_id: woh-claim-0071
 
 # Continental breakup at the Flood
 
-**Draft.** Drafted at founder direction on 2026-09-12 after a published
-Explainer hedged this consequence out of existence; awaiting founder review
-before promotion. Nothing below has been reviewed.
+Drafted at founder direction on 2026-09-12 after a published Explainer
+hedged this consequence out of existence, and promoted to `accepted` the
+same day by founder ruling
+([ADR 0010](../../decisions/0010-continental-breakup-promotion.md)).
 
 ## Exact proposition
 
