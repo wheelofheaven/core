@@ -1,0 +1,116 @@
+{
+  "$schema": "../schemas/claim.schema.json",
+  "schema_version": "0.1.0",
+  "id": "woh-claim-0071",
+  "title": "Continental breakup at the Flood",
+  "version": "0.1.0",
+  "lifecycle": "draft",
+  "statement": "Per the canon, the single continent the Elohim raised from the seabed was broken by the home-planet strike the canon identifies as the Flood: the blasts sent its fragments 'drifting outwards from the centre of the shock', swept the whole land surface, and buried the living matter — forests, animals, humans — 'immediately and all together' in a ring around the impact; the corpus reads today's continental configuration and its ongoing drift as the residue of that displacement, and the fossil-bearing strata as the burial sequence of what died when in the aftermath of the initial explosion, while accepting the planet's own deep age and registering, in its own voice, that mainstream plate tectonics and radiometric dating place the Pangaean breakup roughly 195 million years ago.",
+  "claim_kind": "interpretation",
+  "framework_relation": "derived",
+  "evidence_status": [
+    "scoped",
+    "contested"
+  ],
+  "public_label": "framework",
+  "scope": {
+    "includes": [
+      "The canonical layer: the single original continent raised by the creators and the later drift of its pieces (TBWTT ch. 2 ¶14); the home planet's decision to destroy all life on Earth by nuclear missiles (TBWTT ch. 2 ¶58); and the breakup-and-burial account printed in the canon's third book — the fragments sent outward from the centre of the shock, the land surface swept, the living matter buried at once in a ring around the explosion, the petroleum ring read as that burial's signature, the geological and climatic upheaval and the survivors' return to an unrecognizable continent (Let's Welcome the Extraterrestrials ch. 4 ¶35, ¶37, ¶¶43–44)",
+      "The corpus reading that rides on it: today's continents as the still-moving fragments; the fossil beds as the burial, their sequence read as the record of what died when in the aftermath of the initial explosion rather than as deep-time deposition; the tropical fossils under Antarctic ice and the petroleum ring as the corpus's stated correlates",
+      "The compressed dating the corpus assigns under the Model-C lattice: the continent raised in the Age of Sagittarius (woh-claim-0059) and broken at the opening of the Age of Gemini, c. 6,690 BCE (woh-claim-0010, woh-claim-0019)",
+      "The explicit acceptance of the planet's own age: the corpus disputes the timing of the continental and fossil record, not the roughly 4.5-billion-year age of the Earth"
+    ],
+    "excludes": [
+      "The Flood decision and its procedure, carried by woh-claim-0010, which deliberately excludes the geological consequence this record carries",
+      "Any mechanism reconciling radiometric and paleomagnetic ages with the compressed timeline; the corpus registers the discrepancy as an open question and this record does not resolve it",
+      "The number, yield, or location of the weapons, or the identification of specific impact sites; the source does not specify them and the corpus's petroleum-ring and crater-pattern remarks are correlates, not locators",
+      "Young-earth Flood geology as a position: the record registers that the corpus and the young-earth reading converge on the fossil beds as the signature of one catastrophe, but the corpus keeps an old planet, a recent and deliberate strike, and creators rather than a deity; the resemblance is not an adoption",
+      "The dating of the Flood itself beyond what the lattice supplies; the source gives no date, and the corpus's c. 6,690 BCE comes from woh-claim-0003 and woh-claim-0019"
+    ]
+  },
+  "source_references": [
+    {
+      "source_id": "the-book-which-tells-the-truth",
+      "locator": "Chapter 2 ¶14 (the seabed explosions that gathered the matter 'in the same place, which formed a continent'; 'originally there was only one continent on Earth', and 'all the continents which drifted apart fit together perfectly'); ¶28 (the Israel team's territory on 'the single continent'); ¶58 (the decision 'to destroy all life on Earth by sending nuclear missiles'); ¶64 (the radioactivity monitored and removed before disembarkation)",
+      "role": "canonical_basis",
+      "access": "project_digitization",
+      "note": "../../source-notes/the-book-which-tells-the-truth.md"
+    },
+    {
+      "source_id": "lets-welcome-the-extraterrestrials",
+      "locator": "Chapter 4 ('Commentaries and Testimonies of Raëlians'), §2 'A New Hypothesis for the History of Humanity': ¶35 (the strike 'breaking up this original continent and sending each respective fragment drifting outwards from the centre of the shock', the land surface swept, 'all the living matter including immense forests, animals and even Man' buried 'immediately and all together under tons of earth in a ring shape'); ¶37 (the petroleum ring as the burial's signature); ¶39 and ¶41 (the drift of the fragments, the Indian subcontinent and the Himalayas, Antarctica); ¶¶43–44 (the geological and climatic upheaval; the survivors' return to an unrecognizable continent)",
+      "role": "canonical_basis",
+      "access": "project_digitization"
+    },
+    {
+      "source_id": "genesis",
+      "locator": "GEN-WOH-1:9–10 (the waters gathered and the dry land appearing, read by the canon as the raising of the continent); 7:11 (the fountains of the great deep broken up, read as the impact-generated ocean displacement); 8:4 (the landing on the mountains of Ararat in the post-event configuration)",
+      "role": "primary_text",
+      "access": "project_digitization"
+    },
+    {
+      "source_id": "the-genesis-flood-the-biblical-record-and-its-scientific-implications-the-founda",
+      "locator": "The founding text of young-earth Flood geology: the fossil-bearing strata as the deposit of one recent global flood — the reading the corpus converges with on the fossil beds and diverges from on the age of the planet, the mechanism, and the agent",
+      "role": "comparative",
+      "access": "metadata_only"
+    },
+    {
+      "source_id": "principles-of-geology",
+      "locator": "Lyell's uniformitarian frame — present causes acting over deep time — from which the mainstream reading of the strata and of continental drift descends; the foil the corpus's catastrophic reading has to answer",
+      "role": "scientific_context",
+      "access": "metadata_only"
+    },
+    {
+      "source_id": "firestone-younger-dryas",
+      "locator": "The mainstream catastrophist literature's strongest late-Pleistocene impact proposal; establishes that recent continental-scale catastrophe is discussed within mainstream paleoscience while reaching nowhere near a continental breakup",
+      "role": "scientific_context",
+      "access": "metadata_only"
+    },
+    {
+      "source_id": "the-rocks-don-t-lie-a-geologist-investigates-noah-s-flood",
+      "locator": "A working geologist's case that the stratigraphic and fossil record cannot be the deposit of a single recent flood; the standing objection to any one-catastrophe reading of the strata, the corpus's included",
+      "role": "critical",
+      "access": "metadata_only"
+    }
+  ],
+  "dependencies": [
+    "woh-claim-0001",
+    "woh-claim-0010",
+    "woh-claim-0019",
+    "woh-claim-0039",
+    "woh-claim-0059"
+  ],
+  "alternatives": [
+    {
+      "id": "alt-0071-plate-tectonics",
+      "statement": "Pangaea rifted roughly 195 million years ago by mantle convection; seafloor-spreading magnetic stripes, radiometric ages of oceanic crust, paleomagnetic reconstructions, and GPS-measured plate motion at steady centimetres per year describe continuous drift, not the decaying momentum of a single displacement."
+    },
+    {
+      "id": "alt-0071-deep-time-strata",
+      "statement": "The fossil succession is biostratigraphy laid down over hundreds of millions of years — faunal succession, radiometric calibration, and the absence of out-of-sequence assemblages — and cannot be the burial order of one event's aftermath."
+    },
+    {
+      "id": "alt-0071-commentary-not-message",
+      "statement": "The breakup-and-burial passage sits in the commentaries section of the third book, not in the message text; the canonical core is only TBWTT ch. 2 ¶14 and ¶58, and the geological elaboration is early Raëlian apologetics whose petroleum-ring citation (the 'Nebring' study for the Hudson Institute) is unverified."
+    },
+    {
+      "id": "alt-0071-flood-geology-inheritance",
+      "statement": "The reading reproduces young-earth Flood-geology arguments — rapid burial, petroleum from catastrophic burial, fossils as flood casualties — and inherits their documented failures, differing only in the agent and the date."
+    }
+  ],
+  "revision_triggers": [
+    "Source-critical review of Let's Welcome the Extraterrestrials ch. 4 settles the authorship of the 'New Hypothesis' commentary (Raël's own text or a contributor's), which changes the canonical weight of the breakup passage.",
+    "Verification, or failure to verify, of the commentary's petroleum-ring citation (the Hudson Institute study attributed to 'Nebring').",
+    "Claim woh-claim-0010, woh-claim-0019, or woh-claim-0059 is revised or retired, or the Model-C lattice underlying the corpus's dating is reconciled differently.",
+    "The corpus adopts a stated mechanism for the discrepancy between radiometric ages and the compressed timeline; that would be a new record, not a revision of this one.",
+    "Public prose begins asserting a young planet, denying the breakup, or specifying impact sites and weapon counts, all of which this record excludes."
+  ],
+  "controlling_document": "../../docs/framework/continental-breakup-at-the-flood.md",
+  "public_derivatives": [
+    "wheelofheaven/data-content:wiki/pangaea.md",
+    "wheelofheaven/data-content:wiki/great-flood.md",
+    "wheelofheaven/data-content:timeline/age-of-gemini.md",
+    "wheelofheaven/data-content:articles/the-signature-and-the-designers.md"
+  ],
+  "last_reviewed": "2026-09-12"
+}
