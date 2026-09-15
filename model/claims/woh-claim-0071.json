@@ -1,9 +1,9 @@
 {
   "$schema": "../schemas/claim.schema.json",
-  "schema_version": "0.1.0",
+  "schema_version": "0.2.0",
   "id": "woh-claim-0071",
   "title": "Continental breakup at the Flood",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "lifecycle": "accepted",
   "statement": "Per the canon, the single continent the Elohim raised from the seabed was broken by the home-planet strike the canon identifies as the Flood: the blasts sent its fragments 'drifting outwards from the centre of the shock', swept the whole land surface, and buried the living matter — forests, animals, humans — 'immediately and all together' in a ring around the impact; the corpus reads today's continental configuration and its ongoing drift as the residue of that displacement, and the fossil-bearing strata as the burial sequence of what died when in the aftermath of the initial explosion, while accepting the planet's own deep age and registering, in its own voice, that mainstream plate tectonics and radiometric dating place the Pangaean breakup roughly 195 million years ago.",
   "claim_kind": "interpretation",
@@ -15,7 +15,7 @@
   "public_label": "framework",
   "scope": {
     "includes": [
-      "The canonical layer: the single original continent raised by the creators and the later drift of its pieces (TBWTT ch. 2 ¶14); the home planet's decision to destroy all life on Earth by nuclear missiles (TBWTT ch. 2 ¶58); and the breakup-and-burial account printed in the canon's third book — the fragments sent outward from the centre of the shock, the land surface swept, the living matter buried at once in a ring around the explosion, the petroleum ring read as that burial's signature, the geological and climatic upheaval and the survivors' return to an unrecognizable continent (Let's Welcome the Extraterrestrials ch. 4 ¶35, ¶37, ¶¶43–44)",
+      "The canonical layer, in two tiers of different standing (review 0001): (a) the message text — the single original continent raised by the creators and the later drift of its pieces (TBWTT ch. 2 ¶14), the Israel team's territory on 'the single continent' (¶28), and the home planet's decision to destroy all life on Earth by nuclear missiles (¶58); (b) the signed essay printed as chapter 4 of the canon's third book — Marcel Terrusse, chemical engineer and Raëlian guide, 'Raelism Through the Eyes of Science', §2 'A New Hypothesis for the History of Humanity' — which alone supplies the breakup of the continent, the fragments sent outward from the centre of the shock, the swept surface and the living matter buried at once in a ring, the residual velocity of the drift, the petroleum ring read as the burial's signature, the upheaval and the survivors' return (2005 English combined edition pp. 330–332; 1979 French text at LWTE-4:26–46, French column)",
       "The corpus reading that rides on it: today's continents as the still-moving fragments; the fossil beds as the burial, their sequence read as the record of what died when in the aftermath of the initial explosion rather than as deep-time deposition; the tropical fossils under Antarctic ice and the petroleum ring as the corpus's stated correlates",
       "The compressed dating the corpus assigns under the Model-C lattice: the continent raised in the Age of Sagittarius (woh-claim-0059) and broken at the opening of the Age of Gemini, c. 6,690 BCE (woh-claim-0010, woh-claim-0019)",
       "The explicit acceptance of the planet's own age: the corpus disputes the timing of the continental and fossil record, not the roughly 4.5-billion-year age of the Earth"
@@ -38,9 +38,15 @@
     },
     {
       "source_id": "lets-welcome-the-extraterrestrials",
-      "locator": "Chapter 4 ('Commentaries and Testimonies of Raëlians'), §2 'A New Hypothesis for the History of Humanity': ¶35 (the strike 'breaking up this original continent and sending each respective fragment drifting outwards from the centre of the shock', the land surface swept, 'all the living matter including immense forests, animals and even Man' buried 'immediately and all together under tons of earth in a ring shape'); ¶37 (the petroleum ring as the burial's signature); ¶39 and ¶41 (the drift of the fragments, the Indian subcontinent and the Himalayas, Antarctica); ¶¶43–44 (the geological and climatic upheaval; the survivors' return to an unrecognizable continent)",
+      "locator": "Chapter 4 ('Commentaries and Testimonials of Raelians'): Marcel Terrusse, 'Raelism Through the Eyes of Science', §2 'A New Hypothesis for the History of Humanity'. 2005 English combined edition pp. 330–332 — p. 331: the strike 'breaking up this original continent and sending each respective fragment drifting outwards from the centre of the shock', 'all the living matter including immense forests, animals and even Man' buried 'immediately and all together under tons of earth in a ring shape'; p. 330: the Nehring citation; p. 332: the upheaval and the survivors' return. 1979 French text, digitization French column LWTE-4:26–46 — n=26–30 and 38 the Nehring citation and the 'anneau pétrolier'; n=34–39 the strike, the swept surface, the burial 'sous des tonnes de terre', the fragmentation; n=40–41 the plates' brutal separation and the 'vitesse résiduelle' of present-day drift (absent from the English rendering). The digitization's English column (LWTE-4:35, 37, 43–44 as cited before review 0001) is the 2005 English text and is not paragraph-aligned with the French",
       "role": "canonical_basis",
       "access": "project_digitization"
+    },
+    {
+      "source_id": "nehring-giant-oil-fields-1978",
+      "locator": "p. 39 (the 'ring of oil': an oval band roughly 800 to 1,000 miles wide on the continental plates as reconstructed for 180 million years ago, holding nearly 85% of known petroleum resources and 210 of the 272 known giant fields; 'No complete explanation for this phenomenon is yet available'); Fig. 3.1, p. 40 (source: Dietz and Holden, 'The Breakup of Pangea', Scientific American, November 1970); title page and verso (R-2284-CIA, prepared for the Central Intelligence Agency under contract XG-4705). The study Terrusse's essay cites as a 'Hudson Institute' study by 'Professor Nehring'; the ring is Nehring's, the burial-rim reading is Terrusse's",
+      "role": "scientific_context",
+      "access": "full_text"
     },
     {
       "source_id": "genesis",
@@ -91,7 +97,7 @@
     },
     {
       "id": "alt-0071-commentary-not-message",
-      "statement": "The breakup-and-burial passage sits in the commentaries section of the third book, not in the message text; the canonical core is only TBWTT ch. 2 ¶14 and ¶58, and the geological elaboration is early Raëlian apologetics whose petroleum-ring citation (the 'Nebring' study for the Hudson Institute) is unverified."
+      "statement": "The breakup-and-burial account is not in the message text: it is Marcel Terrusse's signed essay printed as chapter 4 of the third book (authorship settled by review 0001), and the 2005 French combined edition of the messages omits the chapter; the canonical core is TBWTT ch. 2 ¶14 and ¶58, which establish the single continent, the drift and the strike but not that the strike broke the continent. On this alternative a guide's essay printed with the message carries no canonical weight and the geological elaboration is early Raëlian apologetics; its one external citation is real (Nehring 1978) but describes a pattern on a 180-million-year plate reconstruction."
     },
     {
       "id": "alt-0071-flood-geology-inheritance",
@@ -99,8 +105,8 @@
     }
   ],
   "revision_triggers": [
-    "Source-critical review of Let's Welcome the Extraterrestrials ch. 4 settles the authorship of the 'New Hypothesis' commentary (Raël's own text or a contributor's), which changes the canonical weight of the breakup passage.",
-    "Verification, or failure to verify, of the commentary's petroleum-ring citation (the Hudson Institute study attributed to 'Nebring').",
+    "The founder rules on the canonical weight of signed contributions printed with the messages, Terrusse's essay in particular; a ruling that they carry no canonical weight narrows this record's canonical layer to TBWTT ch. 2 ¶14 and ¶58 and moves the breakup reading to the corpus layer.",
+    "Collation against a 1979 first printing changes the essay's wording, or a reading of Dietz and Holden (1970) changes what Nehring's 'ring of oil' figure is based on.",
     "Claim woh-claim-0010, woh-claim-0019, or woh-claim-0059 is revised or retired, or the Model-C lattice underlying the corpus's dating is reconciled differently.",
     "The corpus adopts a stated mechanism for the discrepancy between radiometric ages and the compressed timeline; that would be a new record, not a revision of this one.",
     "Public prose begins asserting a young planet, denying the breakup, or specifying impact sites and weapon counts, all of which this record excludes."
@@ -112,5 +118,15 @@
     "wheelofheaven/data-content:timeline/age-of-gemini.md",
     "wheelofheaven/data-content:articles/the-signature-and-the-designers.md"
   ],
-  "last_reviewed": "2026-09-12"
+  "last_reviewed": "2026-09-15",
+  "reviews": [
+    {
+      "review_id": "woh-claim-0071-review-0001",
+      "path": "../../docs/reviews/woh-claim-0071-review-0001.md",
+      "status": "draft",
+      "components_outstanding": [
+        "scientific-and-critical-appraisal"
+      ]
+    }
+  ]
 }
