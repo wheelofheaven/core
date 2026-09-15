@@ -1,7 +1,7 @@
 ---
 title: "Evidence map: Continental breakup at the Flood"
 status: draft
-version: 0.2.0
+version: 0.3.0
 last_reviewed: 2026-09-15
 claim_id: woh-claim-0071
 ---
@@ -11,9 +11,9 @@ claim_id: woh-claim-0071
 Serves [`woh-claim-0071`](../framework/continental-breakup-at-the-flood.md).
 `scoped` and `contested`. The canonical rows are held in the project's own
 digitizations and the 2005 printed English; the cited study was obtained
-and read for [review 0001](../reviews/woh-claim-0071-review-0001.md); the
-scientific and critical rows are registered from metadata and have not been
-read against the sources.
+and read for [review 0001](../reviews/woh-claim-0071-review-0001.md), and
+the scientific and critical rows were read against their sources by the
+same review at the access levels stated in each row.
 
 Locator convention: `LWTE-4:<n>` is ambiguous in the project digitization,
 whose French (1979) and English (2005) columns are different texts under
@@ -71,16 +71,17 @@ E p. 327. Absent from the 2005 French combined edition.
 
 | Account | What it holds | Bearing |
 | --- | --- | --- |
-| Plate tectonics | Pangaean rifting from c. 195 Mya by mantle convection; seafloor-spreading stripes, radiometric ages of oceanic crust, paleomagnetic reconstructions, steady GPS-measured rates | Direct contradiction of the timescale and of the decaying-momentum reading; Nehring's own figure is drawn on this timescale |
-| Biostratigraphy and radiometric dating | Faunal succession over hundreds of millions of years, cross-calibrated | Direct contradiction of the burial-sequence reading; the corpus offers no reconciling mechanism |
-| Uniformitarian frame (Lyell, *Principles of Geology*) | Present causes over deep time | The foil the catastrophic reading must answer |
-| Younger Dryas impact hypothesis (Firestone et al.) | A late-Pleistocene impact with continental-scale effects, itself contested | Shows recent catastrophe is discussed in mainstream paleoscience; reaches nowhere near a continental breakup |
+| Plate tectonics — timing and manner (USGS *This Dynamic Earth*, full text; Dietz and Holden 1970, abstract) | Pangaea "began to break up about 225-200 million years ago"; the breakup "commenced" in the Triassic with separate rifts and continued period by period to the Recent; the Atlantic grew over 100–200 million years at about 2.5 cm/yr | Direct contradiction of a single Holocene displacement; Nehring's own figure is drawn on this reconstruction |
+| Plate tectonics — present rates (DeMets, Gordon and Argus 2010, abstract) | MORVEL rates averaged over 0.78–3.16 Myr agree with decadal GPS to a few mm/yr (Pacific–North America: 2.6 ± 1.7 mm/yr); the only resolved change is a slowdown of that order over millions of years | Direct contradiction of Terrusse's "vitesse résiduelle" (French `n=40–41`): no decaying tail is measurable |
+| Stratigraphic and tectonic distribution of petroleum (Klemme and Ulmishek 1991; Mann, Gahagan and Gordon 2003; abstracts) | >90% of reserves from six source-rock intervals across a third of Phanerozoic time, no cyclicity, ~70% generated since the Coniacian; the 877 giants sort into passive margins, rifts, collisions | Supplies the explanation Nehring lacked in 1978: the "ring" follows the rifted Pangaean margins; no single burial |
+| Uniformitarian frame (Lyell, *Principles of Geology* vol. 1, 1830; archive.org scan, searched) | The "opposite doctrine, which refers geological phenomena to an uninterrupted series of changes … unattended with general catastrophes"; the Mosaic-deluge and diluvial theories listed among positions superseded | The foil the catastrophic reading must answer |
+| Younger Dryas impact hypothesis (Firestone et al. 2007, abstract) | A black layer at ~12.9 ka at ~50 Clovis-age sites across North America; "one or more large, low-density ET objects exploded over northern North America" | Shows recent catastrophe is discussed in mainstream paleoscience; North American, 12,900 years ago, nothing about continents |
 
 ## Critical layer
 
 | Account | Force |
 | --- | --- |
-| Montgomery, *The Rocks Don't Lie* | A working geologist's case that the strata cannot be one recent flood's deposit; applies to the corpus's reading as much as to the young-earth one |
+| Montgomery, *The Rocks Don't Lie* (publisher description) | A working geologist's case that the strata cannot be one recent flood's deposit; "the founders of modern creationism based their irrational view of a global flood on a perceptive critique of geology"; applies to the corpus's reading as much as to the young-earth one |
 | Commentary-not-message | Now a settled fact about authorship (Terrusse, not Raël) joined to an open question about weight; if a guide's signed essay carries no canonical weight, the canonical core shrinks to TBWTT ¶14 and ¶58 |
 | Flood-geology inheritance | Rapid burial, petroleum from catastrophic burial, fossils as casualties are Whitcomb–Morris arguments with documented failures; the corpus differs in agent and date only |
 | The citation's limits | Nehring's ring is real and unexplained in 1978, but it is plotted on a 180-million-year reconstruction; it supports the pattern, not the recent strike |
@@ -88,8 +89,9 @@ E p. 327. Absent from the 2005 French combined edition.
 ## Reviews
 
 - [Review 0001](../reviews/woh-claim-0071-review-0001.md) — unsigned;
-  components complete: authorship-attribution, edition-collation,
-  citation-verification; outstanding: scientific-and-critical-appraisal.
+  all four components complete (authorship-attribution, edition-collation,
+  citation-verification, scientific-and-critical-appraisal); recommended
+  status `reviewed` + `contested`, pending signature.
 
 ## Dependency summary
 
@@ -101,5 +103,5 @@ E p. 327. Absent from the 2005 French combined edition.
 - The staged reading of Genesis 1 (`woh-claim-0039`) supplies the "dry
   land" day as the raising of the continent.
 - The next steps are: the founder's ruling on the weight of signed
-  contributions printed with the messages; adding the RAND scan to
-  `data-sources`; and the outstanding scientific-and-critical component.
+  contributions printed with the messages; the founder's signature on
+  review 0001; and adding the RAND scan to `data-sources`.

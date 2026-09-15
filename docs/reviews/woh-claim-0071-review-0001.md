@@ -7,9 +7,9 @@ components_complete:
   - authorship-attribution
   - edition-collation
   - citation-verification
-components_outstanding:
   - scientific-and-critical-appraisal
-recommended_status: null
+components_outstanding: []
+recommended_status: reviewed
 signed_by: null
 signed_date: null
 supersedes: null
@@ -22,16 +22,18 @@ Second review drafted against the format adopted in
 [ADR 0009](../../decisions/0009-reproducible-review-records.md). It is
 **unsigned**. Claim
 [`woh-claim-0071`](../framework/continental-breakup-at-the-flood.md) has not
-moved and remains `scoped` and `contested`.
+moved and remains `scoped` and `contested`; the reviewer's recommendation
+is recorded in the frontmatter and takes effect only on sign-off.
 
-The review was directed at the two questions the record itself left open
+The review was directed first at the two questions the record left open
 when it was accepted ([ADR 0010](../../decisions/0010-continental-breakup-promotion.md)):
 whose text the "New Hypothesis" passage is, and whether the petroleum-ring
-study it cites exists and says what the passage says it says. Both are now
-settled at the level of the witnesses held. The fourth component named by
-the [evidence map](../evidence/woh-claim-0071-evidence.md) — reading the
-scientific and critical rows against their sources — was not performed and
-is recorded under Limitations.
+study it cites exists and says what the passage says it says. Both were
+settled on 2026-09-15 at the level of the witnesses held. The fourth
+component named by the [evidence map](../evidence/woh-claim-0071-evidence.md)
+— reading the scientific and critical rows against their sources — was
+performed the same day against the sources reachable without acquisition,
+and its limits are recorded.
 
 ## Question
 
@@ -50,13 +52,16 @@ The proposition reviewed, quoted from the claim record:
 > radiometric dating place the Pangaean breakup roughly 195 million years
 > ago.
 
-The review concerns the *canonical basis* of that proposition — where the
-breakup-and-burial account comes from and what its one external citation
-is — not the geological reading, which the outstanding component covers.
+Components 1–3 concern the *canonical basis* of that proposition — where
+the breakup-and-burial account comes from and what its one external
+citation is. Component 4 concerns the *corpus reading* — whether the
+mainstream and critical accounts the record names as alternatives say
+what the record says they say, and what discriminates between them and
+the claim.
 
 ## Protocol
 
-**Witnesses.**
+**Witnesses, components 1–3.**
 
 | Witness | Identity | Access |
 | --- | --- | --- |
@@ -66,7 +71,22 @@ is — not the geological reading, which the outstanding component covers.
 | **R** — the cited study | Richard Nehring, *Giant Oil Fields and World Oil Resources*, R-2284-CIA, The Rand Corporation, June 1978, 188 PDF pages, scanned images without a text layer | Public; downloaded 2026-09-15 from `rand.org/content/dam/rand/pubs/reports/2006/R2284.pdf` (7,130,277 bytes); not yet held in `data-sources` |
 | **W** — web attribution | `crea-science.blogspot.com/2006/01/la-drive-des-continents.html` (2006 repost of the French passage with attribution) | Public, secondary |
 
-**Procedure.**
+**Witnesses, component 4** (all accessed 2026-09-15; registry IDs in
+`data/sources.json`).
+
+| Witness | Identity | Access level used |
+| --- | --- | --- |
+| **L** | Lyell, *Principles of Geology*, vol. 1 (1830), Google-scanned text via `archive.org/download/principlesgeolo01lyelgoog/…_djvu.txt` (2,997,869 bytes) | Full text, OCR quality poor |
+| **U** | Kious and Tilling, *This Dynamic Earth* (USGS, 1996; online edition), pages `historical.html`, `understanding.html`, `developing.html` | Full text |
+| **DH** | Dietz and Holden, "Reconstruction of Pangaea: Breakup and Dispersion of Continents, Permian to Present", *J. Geophys. Res.* 75 (1970) 4939–4956 | Abstract (OpenAlex) |
+| **DG** | DeMets, Gordon and Argus, "Geologically current plate motions", *Geophys. J. Int.* 181 (2010) 1–80 | Abstract (OpenAlex) |
+| **KU** | Klemme and Ulmishek, "Effective Petroleum Source Rocks of the World", *AAPG Bulletin* 75 (1991) 1809–1851 | Abstract (OpenAlex) |
+| **MG** | Mann, Gahagan and Gordon, "Tectonic Setting of the World's Giant Oil and Gas Fields", AAPG Memoir 78 (2003) 15–105 | Abstract (OpenAlex) |
+| **FS** | Firestone et al., "Evidence for an extraterrestrial impact 12,900 years ago…", *PNAS* 104 (2007) 16016–16021 | Abstract (NCBI E-utilities, PMID 17901202) |
+| **MO** | Montgomery, *The Rocks Don't Lie* (2012) | Publisher description (Open Library work OL16654065W) |
+| **WM** | Whitcomb and Morris, *The Genesis Flood* (1961) | Not read; characterised through MO and the registry record |
+
+**Procedure, components 1–3.**
 
 1. *Authorship attribution.* In D, list every paragraph of ch. 4 under 70
    characters or matching a heading pattern, in both columns, to expose
@@ -89,29 +109,56 @@ is — not the geological reading, which the outstanding component covers.
    `continental drift`, `Tethys`, `Hudson`, `prepared for`; read the pages
    that hit in full.
 
-The scripts are three short standard-library filters over the JSON, the
-two text layers and the OCR text; they are reproducible from this
-description. OCR output lives in the session scratch and is not committed.
+**Procedure, component 4.**
 
-**What would have counted against the claim's basis.** The passage
+4. For each scientific and critical row of the evidence map, obtain the
+   source at the access level stated above (L and U by `curl`; DH, DG, KU,
+   MG by the OpenAlex works API, reconstructing the abstract from its
+   inverted index; FS by NCBI `efetch` in XML; MO by the Open Library
+   works API). Search L for `universal deluge`, `Mosaic`, `catastroph`;
+   search U for `200 million`, `Pangaea`, `GPS`, `centimeters per year`,
+   `magnetic strip`. Extract, for each source, (a) what it states about
+   the timing and manner of the Pangaean breakup, (b) what it states about
+   present-day plate rates against geologically averaged rates, (c) what it
+   states about the stratigraphic and tectonic distribution of petroleum,
+   and (d) whether it says anything about a single recent breakup. Then
+   test each of the record's four alternatives against the extractions.
+
+The scripts are short standard-library filters over the JSON, the text
+layers, the OCR text and the API responses; they are reproducible from
+this description. Fetched material lives in the session scratch and is not
+committed.
+
+**What would have counted against the claim's basis (1–3).** The passage
 appearing in Raël's message text rather than in a signed contribution;
 no byline or a byline naming Raël; the cited study not existing, or
 existing without any ring-shaped or plate-reconstruction content; a printed
 edition wording that removes the breakup, the burial ring, or the drift.
+
+**What would have counted for the claim's reading (4).** Any source
+reporting present-day plate velocities materially higher than, or
+decaying relative to, the rates recorded by seafloor magnetic anomalies;
+any source dating the separation of all the Pangaean fragments to a
+single event; any source treating the world's petroleum as the product of
+one burial; any mainstream catastrophist source proposing a Holocene
+continental-scale breakup.
 
 **Locators.** D uses `LWTE-4:<n>`. Because the two columns of D are not
 aligned (see Extraction, finding 4), every D locator below states its
 column. E is cited by printed page number (PDF page = printed page + 22
 in this range; confirmed by the running page numbers on pp. 327–339). R is
 cited by its printed page number (PDF page = printed page + 26 in the body;
-front matter unnumbered).
+front matter unnumbered). Abstract-level witnesses are cited by
+publication and, where a passage is quoted, as "abstract".
 
 ## Screening
 
 **Examined.** D ch. 4 in full (both columns); E PDF pp. 347–361 by hand
 and pp. 349–356 by collation; F searched in full; R front matter (PDF
 pp. 1–4), list of figures (p. xvii), pp. 39–41 and the bibliography entry
-on p. 93 (PDF 119); W in full.
+on p. 93 (PDF 119); W in full; L by search of the whole scanned volume;
+U's three pages in full; DH, DG, KU, MG, FS at abstract level; MO's
+publisher description.
 
 **Excluded, with reason.** The 1979 first editions (French *Accueillir les
 Extra-terrestres*, English *Let's Welcome the Extra-Terrestrials*) — no copy
@@ -119,12 +166,15 @@ held; D's French column is the only witness to the 1979 text and its
 digitization provenance is not recorded in `_meta.json`. F beyond a text
 search — it does not contain the commentaries chapter (see finding 2). R
 beyond the pages that hit — the review needed the ring passage, not the
-resource estimates. Dietz and Holden, "The Breakup of Pangea" (*Scientific
-American*, November 1970), which R adapts for its figure — not consulted.
+resource estimates. Dietz and Holden's *Scientific American* version
+(November 1970), which R adapts for its figure — not accessible; the
+authors' JGR paper of the same year (DH) was read instead. The full texts
+of DG, KU, MG and FS — paywalled or not held; the abstracts carry the
+figures the appraisal uses. WM — not held; its thesis is taken from MO and
+the registry description, and no finding below depends on its wording.
 Terrusse's later writings and the movement's later restatements of the
-theory (the RAËL France "terraforming" page surfaced by search) — outside
-the question; W was used only to confirm that the movement itself
-attributes the passage to Terrusse.
+theory — outside the question; W was used only to confirm that the
+movement itself attributes the passage to Terrusse.
 
 ## Extraction
 
@@ -207,8 +257,8 @@ column is therefore the 2005 printed English; D's French column is the
 denotes the breakup paragraph in English and a different sentence
 (*"Le continent originel sur lequel ils avaient construit leurs bases … ne
 résista pas à ce cataclysme"*) in French. Every locator the claim record,
-its specification, and the derivative pages currently give for this
-chapter is an English-column locator.
+its specification, and the derivative pages gave for this chapter before
+this review was an English-column locator.
 
 **5. The cited study exists, under a different institution.** D French
 `n=26–27`: *"La C.I.A. … a confié au Hudson Institut le soin de réaliser
@@ -269,6 +319,86 @@ Nehring's, is the reading of the ring as the burial rim of a recent strike:
 R draws it on a reconstruction dated 180 million years ago and leaves the
 explanation open.
 
+**7. The timing and manner of the breakup (U, DH).** U, `historical.html`:
+*"According to the continental drift theory, the supercontinent Pangaea
+began to break up about 225-200 million years ago, eventually fragmenting
+into the continents as we know them today."* U, `understanding.html`:
+*"Seafloor spreading over the past 100 to 200 million years has caused the
+Atlantic Ocean to grow from a tiny inlet of water between the continents of
+Europe, Africa, and the Americas into the vast ocean that exists today"*;
+*"The rate of spreading along the Mid-Atlantic Ridge averages about 2.5
+centimeters per year (cm/yr), or 25 km in a million years."* DH (abstract):
+*"In the Triassic the breakup of Pangaea commenced. The southwest Indian
+Ocean rift was created, which split West Gondwana (South America and
+Africa) away from East Gondwana while a Y junction lifted India off
+Antarctica. An independent North Atlantic–Caribbean rift also formed, which
+lifted Laurasia (North America and Eurasia) off of South America and the
+bulge of Africa. In the Jurassic, northward and westward sea-floor
+sp[reading]…"* — a staged dispersal in *"a series of five world maps to
+depict the breakup and dispersion of continents with each subsequent
+geologic period, Triassic to Recent"*. DH is the reconstruction R's figure
+is adapted from.
+
+**8. Present-day rates against geologically averaged rates (DG, U).** DG
+(abstract): MORVEL's plate motions are determined from *"seafloor
+spreading rates and fault azimuths"* estimated *"over the past 0.78 Myr
+for intermediate and fast spreading centres and since 3.16 Ma for slow and
+ultraslow spreading centres"*; *"by design, almost no kinematic information
+is exchanged between the geologically determined and geodetically
+constrained subsets"*; and against decadal GPS, *"the MORVEL and GPS
+estimates of Pacific-North America plate motion in western North America
+differ by only 2.6 ± 1.7 mm yr⁻¹"*, with the summed differences between
+GPS and MORVEL angular velocities smaller than for any earlier model. The
+same abstract records the one kind of change the data do show —
+*"consistent with a progressive slowdown in the eastward component of
+Nazca plate motion since 3.16 Ma"* — at the scale of millimetres per year
+over millions of years. U, `understanding.html`: magnetic striping lets
+scientists, *"knowing the approximate duration of the reversal, … calculate
+the average rate of plate movement during a given time span"*; present
+motion *"can be tracked directly by means of ground-based or space-based
+geodetic measurements"*.
+
+**9. Where the world's petroleum comes from (KU, MG).** KU (abstract):
+*"Six stratigraphic intervals, representing one-third of Phanerozoic time,
+contain petroleum source rocks that have provided more than 90% of the
+world's discovered original reserves of oil and gas"* — Silurian (9%),
+Upper Devonian–Tournaisian (8%), Pennsylvanian–Lower Permian (8%), Upper
+Jurassic (25%), middle Cretaceous (29%), Oligocene–Miocene (12.5%); *"this
+uneven distribution of source rocks in time displays no obvious cyclicity"*;
+the controlling factors are *"geologic age, paleolatitude of the
+depositional areas, structural forms in which the deposition of source
+rocks occurred, and the evolution of biota"*; *"almost 70% of the world's
+original reserves of oil and gas has been generated since the Coniacian"*.
+MG (abstract): the 877 giant fields *"cluster in 27 regions, or about 30%,
+of the earth's land surface"*, and sort by tectonic setting into
+*"continental passive margins fronting major ocean basins (304 giants);
+continental rifts and overlying sag or 'steer's head' basins (271 giants);
+collisional margins produced by terminal collision between two continents
+(173 giants)"*, accretion-related collisions (71), strike-slip margins
+(50), and subduction margins (8).
+
+**10. The mainstream catastrophist row (FS).** FS (abstract): *"A
+carbon-rich black layer, dating to approximately 12.9 ka, has been
+previously identified at approximately 50 Clovis-age sites across North
+America"*; the authors *"propose that one or more large, low-density ET
+objects exploded over northern North America, partially destabilizing the
+Laurentide Ice Sheet and triggering YD cooling"*. The event is dated
+12,900 years ago, its evidence is North American, and nothing in the
+abstract concerns continents, plates, or the breakup of a landmass.
+
+**11. The uniformitarian and critical rows (L, MO).** L, vol. 1, the
+chapter summary for Book I: the *"opposite doctrine, which refers
+geological phenomena to an uninterrupted series of changes in the organic
+and inorganic world, unattended with general catastrophes, or the
+development of paroxysmal forces"*; and Lyell's history of the science
+lists the seventeenth-century attribution of fossils *"to the Mosaic
+deluge"* and *"Woodward's Diluvial theory"* among the positions his own
+supersedes. MO (publisher description): Montgomery *"discovered the
+counterintuitive role Noah's Flood played in the development of both
+geology and creationism … Centuries later, the founders of modern
+creationism based their irrational view of a global flood on a perceptive
+critique of geology."* WM was not read.
+
 ## Appraisal
 
 **For the claim's canonical basis.** The record's third alternative,
@@ -299,15 +429,65 @@ Nehring's ring supports the *existence* of the pattern, not the recent
 strike.
 
 **For locators.** Finding 4 means every `LWTE-4:<n>` locator in the record,
-specification, evidence map, and the four bound pages is an English-column
-locator and silently misses the French sentences that carry the residual-
+specification, evidence map, and the four bound pages was an English-column
+locator and silently missed the French sentences that carry the residual-
 velocity reading. The corpus's "residual momentum" claim about present-day
 drift is sourced only in French (`n=40–41`).
 
-**For the other alternatives.** Nothing here bears on *plate-tectonics* or
-*deep-time-strata* beyond confirming that the one empirical datum the
-passage adduces is itself framed on deep time. *Flood-geology-inheritance*
-is untouched.
+**For the first alternative, *plate-tectonics*.** The sources say what the
+record says they say. U and DH date the onset of breakup to the Triassic,
+200 million years ago, and DH describes it as staged — separate rifts,
+separate periods, Triassic to Recent — not one displacement. DG is the
+decisive row for Terrusse's residual-velocity mechanism (French `n=40–41`):
+rates averaged from the seafloor record over 0.78–3.16 million years and
+rates measured by GPS over decades agree to a few millimetres per year,
+and the only changes the data resolve are slowdowns of that order over
+millions of years. A drift that had opened the Atlantic since c. 6,690
+BCE would have to have averaged hundreds of metres per year and be
+decaying by four orders of magnitude within the geological interval MORVEL
+averages over; the reviewer notes that U's account of magnetic striping
+(a reversal record whose reversals each last hundreds of thousands of
+years) is the independent constraint on such a history, but this inference
+is the reviewer's, not a statement in any witness. The alternative stands
+as the record states it, and finding 6 adds that the one empirical datum
+Terrusse adduces is itself drawn on this timescale.
+
+**For the second alternative, *deep-time-strata*.** KU and MG together
+supply what R in 1978 said was not yet available: an account of the
+concentration of petroleum. KU locates it in six source-rock intervals
+spread across a third of Phanerozoic time with no cyclicity, controlled by
+paleolatitude, basin structure and the evolution of biota, most of it
+generated in the last 90 million years; MG locates the giants in the
+tectonic settings that the staged breakup itself produced — passive
+margins and rifts first of all. Neither source describes, or leaves room
+for, a single burial. The alternative stands, and the "ring" is on this
+reading a consequence of where the Pangaean margins rifted, which is why
+it appears on a Pangaean map.
+
+**For the third alternative, *commentary-not-message*.** Now a settled
+fact about authorship joined to an open question about weight (above).
+
+**For the fourth alternative, *flood-geology-inheritance*.** MO's
+description confirms the genealogy the alternative relies on — modern
+creationism's global flood built on a critique of geology — without
+supplying wording from WM; the alternative stands as stated, unread.
+
+**For the mainstream catastrophist row.** FS proposes a North American
+event 12,900 years ago and nothing about continents; it establishes that
+recent catastrophe is discussed in mainstream paleoscience, as the record
+says, and nothing more. The corpus's c. 6,690 BCE date is not near it.
+
+**For the claim as a whole.** Nothing read supports the corpus reading of
+present-day drift as a decaying residue or of the strata as one burial;
+every scientific witness contradicts it on the timescale, and the two
+petroleum witnesses explain the very pattern Terrusse used. The claim's
+canonical basis is thinner than the record first stated (one signed essay,
+plus a message text that gives a strike and a drift but no breakup). None
+of this bears on the claim's *lifecycle* or *label*: the record is the
+corpus's declared position and stays `framework`. It bears on
+`evidence_status`, where `contested` is confirmed and, the search and
+appraisal now being reproducible and complete at the access levels stated,
+`reviewed` is warranted alongside it.
 
 ## Limitations
 
@@ -318,20 +498,25 @@ is untouched.
 - R was read as 150-dpi tesseract output. The quoted passage was checked
   against the page image for the figures and names; other pages were not
   proofread. The file is not yet in `data-sources`.
-- Dietz and Holden (1970) were not consulted; the review takes R's caption
-  for what its figure is based on.
-- The scientific and critical rows of the evidence map (Lyell, Montgomery,
-  plate tectonics, biostratigraphy) were not read against their sources.
-  That is the outstanding component, and it is the one that would bear on
-  `contested`; nothing in this review advances or weakens it.
+- DH was read in its JGR form, not the *Scientific American* version R
+  cites; the two are the same authors' reconstruction of the same year.
+- DG, KU, MG and FS were read at abstract level; the figures quoted are
+  the abstracts' own. L is a poor OCR of a Google scan and was searched,
+  not read; the quoted summary is from its Book I chapter list.
+- WM was not read. MO was read as a publisher description, not as text.
+- The reviewer's magnetic-reversal inference under the first alternative is
+  marked as such and is not a finding.
 - W is a secondary web repost and was used for attribution only.
 
 ## Outcome
 
 The claim's **canonical basis is clarified, not confirmed as canon-explicit**;
-its **one external citation is verified with corrections**. No status
-advance is recommended: a component is outstanding, and the findings
-concern provenance, not the geology.
+its **one external citation is verified with corrections**; its **declared
+alternatives are confirmed against their sources at the access levels
+stated**, and none of the sources read supports the corpus reading on the
+timescale. The reviewer recommends `evidence_status: reviewed, contested`.
+The recommendation is not self-executing: the record stays `scoped,
+contested` until a signature.
 
 Recommended, in order:
 
@@ -367,10 +552,19 @@ Recommended, in order:
    on the canonical weight of signed contributions printed with the
    messages; collation against a 1979 printing; a reading of Dietz and
    Holden (1970).
-5. **Leave `evidence_status` at `scoped` and `contested`.** Version: MINOR,
-   `0.1.0` → `0.2.0` (added evidence, an added source reference, the
-   optional `reviews` field; statement, kind, relation, label and
-   dependencies unchanged), which re-keys the four bound pages.
+5. **Add the component-4 witnesses to `source_references`** under the
+   feedback rule, with honest access levels: DG, DH, KU and MG as
+   `scientific_context` at `abstract`; U as `scientific_context` at
+   `full_text`. Registry IDs: `demets-gordon-argus-2010-morvel`,
+   `dietz-holden-1970-pangaea`, `klemme-ulmishek-1991-source-rocks`,
+   `mann-gahagan-gordon-2003-giant-fields`, `this-dynamic-earth-usgs`. Do
+   not add WM beyond its existing `metadata_only` entry; it was not read.
+6. **Leave `evidence_status` at `scoped` and `contested` until signed;
+   record `reviewed` as the recommendation.** Version: MINOR twice —
+   `0.1.0` → `0.2.0` for recommendations 1–4 and `0.2.0` → `0.3.0` for
+   recommendation 5 (added evidence and source references; statement, kind,
+   relation, label and dependencies unchanged) — which re-keys the four
+   bound pages.
 
 Three findings fall outside this claim and are logged for their own repos:
 
@@ -390,15 +584,17 @@ Three findings fall outside this claim and are logged for their own repos:
 
 ## Sign-off
 
-Not signed. Recommendations 1–5 were applied on 2026-09-15 as factual
+Not signed. Recommendations 1–4 were applied on 2026-09-15 as factual
 corrections within agent authority (the record's version moved to
-`0.2.0` and the four bound pages were re-keyed); the canonical-weight
+`0.2.0` and the four bound pages were re-keyed); recommendation 5 was
+applied the same day (`0.3.0`, re-keyed again); the canonical-weight
 question was recorded as a revision trigger and left to the founder. The
 record itself grants no status: the claim remains `scoped` and `contested`
-pending the outstanding component.
+until the founder signs, at which point the recommendation is `reviewed`
+and `contested`.
 
 | Field | Value |
 | --- | --- |
 | Reviewer | — |
 | Date | — |
-| Status granted | none; claim remains `scoped` and `contested` |
+| Status granted | none; claim remains `scoped` and `contested`; recommendation `reviewed` + `contested` |

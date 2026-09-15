@@ -3,7 +3,7 @@
   "schema_version": "0.2.0",
   "id": "woh-claim-0071",
   "title": "Continental breakup at the Flood",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "lifecycle": "accepted",
   "statement": "Per the canon, the single continent the Elohim raised from the seabed was broken by the home-planet strike the canon identifies as the Flood: the blasts sent its fragments 'drifting outwards from the centre of the shock', swept the whole land surface, and buried the living matter — forests, animals, humans — 'immediately and all together' in a ring around the impact; the corpus reads today's continental configuration and its ongoing drift as the residue of that displacement, and the fossil-bearing strata as the burial sequence of what died when in the aftermath of the initial explosion, while accepting the planet's own deep age and registering, in its own voice, that mainstream plate tectonics and radiometric dating place the Pangaean breakup roughly 195 million years ago.",
   "claim_kind": "interpretation",
@@ -53,6 +53,36 @@
       "locator": "GEN-WOH-1:9–10 (the waters gathered and the dry land appearing, read by the canon as the raising of the continent); 7:11 (the fountains of the great deep broken up, read as the impact-generated ocean displacement); 8:4 (the landing on the mountains of Ararat in the post-event configuration)",
       "role": "primary_text",
       "access": "project_digitization"
+    },
+    {
+      "source_id": "this-dynamic-earth-usgs",
+      "locator": "'Historical perspective' (Pangaea 'began to break up about 225-200 million years ago'); 'Understanding plate motions' (seafloor spreading over 100–200 million years grew the Atlantic; the Mid-Atlantic Ridge spreads about 2.5 cm/yr; magnetic striping yields average past rates; GPS, VLBI and SLR track present motion)",
+      "role": "scientific_context",
+      "access": "full_text"
+    },
+    {
+      "source_id": "dietz-holden-1970-pangaea",
+      "locator": "Abstract: Pangaea reconstructed in the Permian; the breakup 'commenced' in the Triassic with separate rifts (southwest Indian Ocean; North Atlantic–Caribbean) and continued period by period to the Recent — a staged dispersal, not one displacement; the reconstruction Nehring's 'ring of oil' figure is adapted from",
+      "role": "scientific_context",
+      "access": "abstract"
+    },
+    {
+      "source_id": "demets-gordon-argus-2010-morvel",
+      "locator": "Abstract: MORVEL plate motions from seafloor-spreading rates averaged over 0.78–3.16 Myr, compared with decadal GPS velocities; Pacific–North America motion differs 'by only 2.6 ± 1.7 mm yr−1'; the only resolved change is a progressive slowdown of Nazca motion since 3.16 Ma — the discriminating datum against a present-day drift decaying from a Holocene event",
+      "role": "scientific_context",
+      "access": "abstract"
+    },
+    {
+      "source_id": "klemme-ulmishek-1991-source-rocks",
+      "locator": "Abstract: six stratigraphic intervals across one-third of Phanerozoic time hold the source rocks for more than 90% of discovered reserves; no cyclicity; controlled by geologic age, paleolatitude, structural setting and the evolution of biota; almost 70% generated since the Coniacian — the deep-time account of the petroleum distribution Terrusse reads as one burial",
+      "role": "scientific_context",
+      "access": "abstract"
+    },
+    {
+      "source_id": "mann-gahagan-gordon-2003-giant-fields",
+      "locator": "Abstract: the 877 giant fields cluster in 27 regions and sort into six tectonic settings — passive margins (304), rifts and sag basins (271), terminal collisions (173), accretion collisions (71), strike-slip (50), subduction (8) — the tectonic account of the concentration Nehring mapped as the 'ring of oil'",
+      "role": "scientific_context",
+      "access": "abstract"
     },
     {
       "source_id": "the-genesis-flood-the-biblical-record-and-its-scientific-implications-the-founda",
@@ -124,9 +154,7 @@
       "review_id": "woh-claim-0071-review-0001",
       "path": "../../docs/reviews/woh-claim-0071-review-0001.md",
       "status": "draft",
-      "components_outstanding": [
-        "scientific-and-critical-appraisal"
-      ]
+      "components_outstanding": []
     }
   ]
 }

@@ -1,7 +1,7 @@
 ---
 title: Continental breakup at the Flood
 status: accepted
-version: 0.2.0
+version: 0.3.0
 last_reviewed: 2026-09-15
 claim_id: woh-claim-0071
 ---
@@ -12,9 +12,10 @@ Drafted at founder direction on 2026-09-12 after a published Explainer
 hedged this consequence out of existence, and promoted to `accepted` the
 same day by founder ruling
 ([ADR 0010](../../decisions/0010-continental-breakup-promotion.md)).
-Revised to 0.2.0 on 2026-09-15 on the findings of
+Revised to 0.2.0 and then 0.3.0 on 2026-09-15 on the findings of
 [review 0001](../reviews/woh-claim-0071-review-0001.md), which settled
-whose text the breakup passage is and verified its one external citation.
+whose text the breakup passage is, verified its one external citation, and
+read the scientific and critical alternatives against their sources.
 
 ## Exact proposition
 
@@ -120,11 +121,15 @@ difference together; the corrected Explainer is the model.
 
 ## Alternatives and challenges
 
-Mainstream plate tectonics (steady drift over ~195 million years, with
-seafloor-spreading, paleomagnetic, radiometric and GPS evidence) and deep-time
-biostratigraphy are the strong alternatives, and the corpus has no mechanism
-that reconciles radiometric ages with its timeline — the record says so
-rather than supplying one. The commentary-not-message objection is now a
+Mainstream plate tectonics (staged breakup from the Triassic, c. 200
+million years ago; present-day GPS rates agreeing with rates averaged over
+the past 0.78–3.16 million years to a few millimetres per year) and
+deep-time stratigraphy (the world's petroleum from six source-rock
+intervals spread across a third of Phanerozoic time; the giants clustered
+in the passive margins and rifts the breakup itself produced) are the
+strong alternatives, now read against their sources by review 0001, and
+the corpus has no mechanism that reconciles radiometric ages with its
+timeline — the record says so rather than supplying one. The commentary-not-message objection is now a
 statement of fact about authorship joined to an open question about
 weight; the Flood-geology-inheritance objection completes the set.
 
@@ -135,13 +140,18 @@ weight; the Flood-geology-inheritance objection completes the set.
 
 ## Reviews
 
-- [Review 0001](../reviews/woh-claim-0071-review-0001.md) (unsigned, one
-  component outstanding): authorship attributed to Terrusse against the
-  1979 French digitization and the 2005 English printing; the English
-  column of the digitization collated against the 2005 printing (42 of 45
-  paragraphs verbatim); the Nehring citation located, obtained, OCR'd and
-  read. The scientific-and-critical appraisal of the geological reading
-  remains outstanding, so the status is unchanged.
+- [Review 0001](../reviews/woh-claim-0071-review-0001.md) (unsigned, all
+  four components complete; recommendation `reviewed` + `contested`):
+  authorship attributed to Terrusse against the 1979 French digitization
+  and the 2005 English printing; the English column of the digitization
+  collated against the 2005 printing (42 of 45 paragraphs verbatim); the
+  Nehring citation located, obtained, OCR'd and read; the plate-tectonic,
+  stratigraphic, petroleum-geological, catastrophist and critical rows
+  read against USGS, Dietz and Holden, DeMets et al., Klemme and Ulmishek,
+  Mann et al., Firestone et al., Lyell and Montgomery. Every scientific
+  witness contradicts the corpus reading on the timescale, and the two
+  petroleum witnesses explain the pattern Terrusse used. The status stays
+  `scoped` and `contested` until the founder signs.
 
 ## Revision triggers
 
