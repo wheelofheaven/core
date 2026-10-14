@@ -1,0 +1,1935 @@
+{
+ "I001": [
+  "similar",
+  [
+   "nous-autres"
+  ]
+ ],
+ "I002": [
+  "mentioned",
+  [
+   "cahiers",
+   "nous-autres"
+  ]
+ ],
+ "I003": [
+  "similar",
+  [
+   "cahiers",
+   "la-lune",
+   "ces-dieux",
+   "nous-autres"
+  ]
+ ],
+ "I004": [
+  "similar",
+  [
+   "ces-dieux"
+  ]
+ ],
+ "I005": [
+  "same",
+  [
+   "la-lune",
+   "ces-dieux"
+  ]
+ ],
+ "I006": [
+  "same",
+  [
+   "cahiers",
+   "la-lune",
+   "ces-dieux",
+   "nous-autres"
+  ]
+ ],
+ "I007": [
+  "similar",
+  [
+   "cahiers",
+   "la-lune",
+   "ces-dieux",
+   "ere-du-verseau"
+  ]
+ ],
+ "I008": [
+  "same",
+  [
+   "cahiers",
+   "la-lune",
+   "ces-dieux",
+   "ere-du-verseau"
+  ]
+ ],
+ "I009": [
+  "similar",
+  [
+   "cahiers",
+   "la-lune",
+   "ces-dieux",
+   "nous-autres",
+   "ere-du-verseau"
+  ]
+ ],
+ "I010": [
+  "similar",
+  [
+   "la-lune",
+   "ces-dieux",
+   "ere-du-verseau"
+  ]
+ ],
+ "I011": [
+  "similar",
+  [
+   "la-lune",
+   "ces-dieux",
+   "ere-du-verseau"
+  ]
+ ],
+ "I012": [
+  "same",
+  [
+   "cahiers",
+   "la-lune"
+  ]
+ ],
+ "I013": [
+  "similar",
+  [
+   "cahiers",
+   "la-lune",
+   "ces-dieux",
+   "ere-du-verseau"
+  ]
+ ],
+ "I014": [
+  "similar",
+  [
+   "cahiers",
+   "ces-dieux"
+  ]
+ ],
+ "I015": [
+  "same",
+  [
+   "cahiers"
+  ]
+ ],
+ "I016": [
+  "similar",
+  [
+   "cahiers"
+  ]
+ ],
+ "I017": [
+  "same",
+  [
+   "ere-du-verseau"
+  ]
+ ],
+ "I018": [
+  "similar",
+  [
+   "cahiers",
+   "la-lune",
+   "ces-dieux",
+   "nous-autres",
+   "ere-du-verseau"
+  ]
+ ],
+ "I019": [
+  "same",
+  [
+   "cahiers",
+   "ces-dieux"
+  ]
+ ],
+ "I020": [
+  "similar",
+  [
+   "la-lune",
+   "ces-dieux",
+   "ere-du-verseau"
+  ]
+ ],
+ "I021": [
+  "same",
+  [
+   "cahiers",
+   "ere-du-verseau"
+  ]
+ ],
+ "I022": [
+  "similar",
+  [
+   "cahiers",
+   "ces-dieux"
+  ]
+ ],
+ "I023": [
+  "similar",
+  [
+   "cahiers",
+   "ces-dieux",
+   "ere-du-verseau"
+  ]
+ ],
+ "I024": [
+  "same",
+  [
+   "ces-dieux"
+  ]
+ ],
+ "I025": [
+  "similar",
+  [
+   "cahiers",
+   "ces-dieux",
+   "nous-autres",
+   "ere-du-verseau"
+  ]
+ ],
+ "I026": [
+  "same",
+  [
+   "la-lune"
+  ]
+ ],
+ "I027": [
+  "similar",
+  [
+   "cahiers",
+   "ces-dieux",
+   "ere-du-verseau"
+  ]
+ ],
+ "I028": [
+  "similar",
+  [
+   "cahiers"
+  ]
+ ],
+ "I029": [
+  "same",
+  [
+   "cahiers",
+   "la-lune"
+  ]
+ ],
+ "I030": [
+  "mentioned",
+  [
+   "cahiers"
+  ]
+ ],
+ "I031": [
+  "similar",
+  [
+   "cahiers",
+   "la-lune",
+   "ces-dieux"
+  ]
+ ],
+ "I032": [
+  "similar",
+  [
+   "ces-dieux"
+  ]
+ ],
+ "I033": [
+  "similar",
+  [
+   "cahiers",
+   "la-lune",
+   "ces-dieux",
+   "ere-du-verseau"
+  ]
+ ],
+ "I034": [
+  "similar",
+  [
+   "cahiers",
+   "ere-du-verseau"
+  ]
+ ],
+ "I035": [
+  "mentioned",
+  [
+   "ere-du-verseau"
+  ]
+ ],
+ "I036": [
+  "similar",
+  [
+   "cahiers"
+  ]
+ ],
+ "I037": [
+  "similar",
+  [
+   "cahiers",
+   "la-lune",
+   "ere-du-verseau"
+  ]
+ ],
+ "I038": [
+  "similar",
+  [
+   "cahiers",
+   "ces-dieux"
+  ]
+ ],
+ "I039": [
+  "mentioned",
+  [
+   "cahiers",
+   "la-lune",
+   "ces-dieux",
+   "ere-du-verseau"
+  ]
+ ],
+ "I040": [
+  "same",
+  [
+   "cahiers",
+   "la-lune"
+  ]
+ ],
+ "I041": [
+  "similar",
+  [
+   "cahiers",
+   "la-lune",
+   "ces-dieux"
+  ]
+ ],
+ "I042": [
+  "similar",
+  [
+   "ces-dieux"
+  ]
+ ],
+ "I043": [
+  "similar",
+  [
+   "ces-dieux"
+  ]
+ ],
+ "I044": [
+  "similar",
+  [
+   "ces-dieux"
+  ]
+ ],
+ "I045": [
+  "same",
+  [
+   "cahiers",
+   "ces-dieux"
+  ]
+ ],
+ "I046": [
+  "mentioned",
+  [
+   "la-lune"
+  ]
+ ],
+ "I047": [
+  "mentioned",
+  [
+   "cahiers",
+   "la-lune"
+  ]
+ ],
+ "I048": [
+  "similar",
+  [
+   "cahiers"
+  ]
+ ],
+ "I049": [
+  "similar",
+  [
+   "ces-dieux",
+   "nous-autres"
+  ]
+ ],
+ "I050": [
+  "mentioned",
+  [
+   "cahiers",
+   "la-lune",
+   "ces-dieux",
+   "nous-autres",
+   "ere-du-verseau"
+  ]
+ ],
+ "I051": [
+  "absent",
+  [
+   "cahiers",
+   "la-lune",
+   "ces-dieux",
+   "nous-autres",
+   "ere-du-verseau"
+  ]
+ ],
+ "I052": [
+  "absent",
+  [
+   "cahiers",
+   "la-lune",
+   "ces-dieux",
+   "nous-autres",
+   "ere-du-verseau"
+  ]
+ ],
+ "I053": [
+  "absent",
+  [
+   "cahiers",
+   "la-lune",
+   "ces-dieux",
+   "nous-autres",
+   "ere-du-verseau"
+  ]
+ ],
+ "I054": [
+  "mentioned",
+  [
+   "ces-dieux"
+  ]
+ ],
+ "I055": [
+  "absent",
+  [
+   "cahiers",
+   "la-lune",
+   "ces-dieux",
+   "nous-autres",
+   "ere-du-verseau"
+  ]
+ ],
+ "I056": [
+  "similar",
+  [
+   "nous-autres"
+  ]
+ ],
+ "I057": [
+  "mentioned",
+  [
+   "cahiers"
+  ]
+ ],
+ "I058": [
+  "absent",
+  [
+   "cahiers",
+   "la-lune",
+   "ces-dieux",
+   "nous-autres",
+   "ere-du-verseau"
+  ]
+ ],
+ "I059": [
+  "absent",
+  [
+   "cahiers",
+   "la-lune",
+   "ces-dieux",
+   "nous-autres",
+   "ere-du-verseau"
+  ]
+ ],
+ "I060": [
+  "absent",
+  [
+   "cahiers",
+   "la-lune",
+   "ces-dieux",
+   "nous-autres",
+   "ere-du-verseau"
+  ]
+ ],
+ "I061": [
+  "absent",
+  [
+   "cahiers",
+   "la-lune",
+   "ces-dieux",
+   "nous-autres",
+   "ere-du-verseau"
+  ]
+ ],
+ "I062": [
+  "mentioned",
+  [
+   "nous-autres"
+  ]
+ ],
+ "I063": [
+  "absent",
+  [
+   "cahiers",
+   "la-lune",
+   "ces-dieux",
+   "nous-autres",
+   "ere-du-verseau"
+  ]
+ ],
+ "I064": [
+  "mentioned",
+  [
+   "cahiers"
+  ]
+ ],
+ "I065": [
+  "mentioned",
+  [
+   "ces-dieux"
+  ]
+ ],
+ "I066": [
+  "absent",
+  [
+   "cahiers",
+   "la-lune",
+   "ces-dieux",
+   "nous-autres",
+   "ere-du-verseau"
+  ]
+ ],
+ "I067": [
+  "absent",
+  [
+   "cahiers",
+   "la-lune",
+   "ces-dieux",
+   "nous-autres",
+   "ere-du-verseau"
+  ]
+ ],
+ "I068": [
+  "absent",
+  [
+   "cahiers",
+   "la-lune",
+   "ces-dieux",
+   "nous-autres",
+   "ere-du-verseau"
+  ]
+ ],
+ "I069": [
+  "mentioned",
+  [
+   "cahiers"
+  ]
+ ],
+ "I070": [
+  "absent",
+  [
+   "cahiers",
+   "la-lune",
+   "ces-dieux",
+   "nous-autres",
+   "ere-du-verseau"
+  ]
+ ],
+ "I071": [
+  "absent",
+  [
+   "cahiers",
+   "la-lune",
+   "ces-dieux",
+   "nous-autres",
+   "ere-du-verseau"
+  ]
+ ],
+ "I072": [
+  "similar",
+  [
+   "cahiers"
+  ]
+ ],
+ "I073": [
+  "absent",
+  [
+   "cahiers",
+   "la-lune",
+   "ces-dieux",
+   "nous-autres",
+   "ere-du-verseau"
+  ]
+ ],
+ "I074": [
+  "mentioned",
+  [
+   "cahiers"
+  ]
+ ],
+ "I075": [
+  "absent",
+  [
+   "cahiers",
+   "la-lune",
+   "ces-dieux",
+   "nous-autres",
+   "ere-du-verseau"
+  ]
+ ],
+ "I076": [
+  "absent",
+  [
+   "cahiers",
+   "la-lune",
+   "ces-dieux",
+   "nous-autres",
+   "ere-du-verseau"
+  ]
+ ],
+ "I077": [
+  "absent",
+  [
+   "cahiers",
+   "la-lune",
+   "ces-dieux",
+   "nous-autres",
+   "ere-du-verseau"
+  ]
+ ],
+ "I078": [
+  "absent",
+  [
+   "cahiers",
+   "la-lune",
+   "ces-dieux",
+   "nous-autres",
+   "ere-du-verseau"
+  ]
+ ],
+ "I079": [
+  "absent",
+  [
+   "cahiers",
+   "la-lune",
+   "ces-dieux",
+   "nous-autres",
+   "ere-du-verseau"
+  ]
+ ],
+ "I080": [
+  "absent",
+  [
+   "cahiers",
+   "la-lune",
+   "ces-dieux",
+   "nous-autres",
+   "ere-du-verseau"
+  ]
+ ],
+ "I081": [
+  "mentioned",
+  [
+   "cahiers"
+  ]
+ ],
+ "I082": [
+  "mentioned",
+  [
+   "cahiers",
+   "nous-autres"
+  ]
+ ],
+ "I083": [
+  "absent",
+  [
+   "cahiers",
+   "la-lune",
+   "ces-dieux",
+   "nous-autres",
+   "ere-du-verseau"
+  ]
+ ],
+ "I084": [
+  "absent",
+  [
+   "cahiers",
+   "la-lune",
+   "ces-dieux",
+   "nous-autres",
+   "ere-du-verseau"
+  ]
+ ],
+ "I085": [
+  "absent",
+  [
+   "cahiers",
+   "la-lune",
+   "ces-dieux",
+   "nous-autres",
+   "ere-du-verseau"
+  ]
+ ],
+ "I086": [
+  "mentioned",
+  [
+   "nous-autres"
+  ]
+ ],
+ "I087": [
+  "absent",
+  [
+   "cahiers",
+   "la-lune",
+   "ces-dieux",
+   "nous-autres",
+   "ere-du-verseau"
+  ]
+ ],
+ "I088": [
+  "absent",
+  [
+   "cahiers",
+   "la-lune",
+   "ces-dieux",
+   "nous-autres",
+   "ere-du-verseau"
+  ]
+ ],
+ "I089": [
+  "absent",
+  [
+   "cahiers",
+   "la-lune",
+   "ces-dieux",
+   "nous-autres",
+   "ere-du-verseau"
+  ]
+ ],
+ "I090": [
+  "absent",
+  [
+   "cahiers",
+   "la-lune",
+   "ces-dieux",
+   "nous-autres",
+   "ere-du-verseau"
+  ]
+ ],
+ "I091": [
+  "absent",
+  [
+   "cahiers",
+   "la-lune",
+   "ces-dieux",
+   "nous-autres",
+   "ere-du-verseau"
+  ]
+ ],
+ "I092": [
+  "absent",
+  [
+   "cahiers",
+   "la-lune",
+   "ces-dieux",
+   "nous-autres",
+   "ere-du-verseau"
+  ]
+ ],
+ "I093": [
+  "absent",
+  [
+   "cahiers",
+   "la-lune",
+   "ces-dieux",
+   "nous-autres",
+   "ere-du-verseau"
+  ]
+ ],
+ "I094": [
+  "absent",
+  [
+   "cahiers",
+   "la-lune",
+   "ces-dieux",
+   "nous-autres",
+   "ere-du-verseau"
+  ]
+ ],
+ "I095": [
+  "absent",
+  [
+   "cahiers",
+   "la-lune",
+   "ces-dieux",
+   "nous-autres",
+   "ere-du-verseau"
+  ]
+ ],
+ "I096": [
+  "absent",
+  [
+   "cahiers",
+   "la-lune",
+   "ces-dieux",
+   "nous-autres",
+   "ere-du-verseau"
+  ]
+ ],
+ "I097": [
+  "absent",
+  [
+   "cahiers",
+   "la-lune",
+   "ces-dieux",
+   "nous-autres",
+   "ere-du-verseau"
+  ]
+ ],
+ "I098": [
+  "absent",
+  [
+   "cahiers",
+   "la-lune",
+   "ces-dieux",
+   "nous-autres",
+   "ere-du-verseau"
+  ]
+ ],
+ "I099": [
+  "mentioned",
+  [
+   "cahiers",
+   "la-lune"
+  ]
+ ],
+ "I100": [
+  "absent",
+  [
+   "cahiers",
+   "la-lune",
+   "ces-dieux",
+   "nous-autres",
+   "ere-du-verseau"
+  ]
+ ],
+ "I101": [
+  "absent",
+  [
+   "cahiers",
+   "la-lune",
+   "ces-dieux",
+   "nous-autres",
+   "ere-du-verseau"
+  ]
+ ],
+ "I102": [
+  "absent",
+  [
+   "cahiers",
+   "la-lune",
+   "ces-dieux",
+   "nous-autres",
+   "ere-du-verseau"
+  ]
+ ],
+ "I103": [
+  "absent",
+  [
+   "cahiers",
+   "la-lune",
+   "ces-dieux",
+   "nous-autres",
+   "ere-du-verseau"
+  ]
+ ],
+ "I104": [
+  "absent",
+  [
+   "cahiers",
+   "la-lune",
+   "ces-dieux",
+   "nous-autres",
+   "ere-du-verseau"
+  ]
+ ],
+ "I105": [
+  "similar",
+  [
+   "ere-du-verseau"
+  ]
+ ],
+ "I106": [
+  "same",
+  [
+   "la-lune"
+  ]
+ ],
+ "I107": [
+  "mentioned",
+  [
+   "la-lune",
+   "ces-dieux",
+   "ere-du-verseau"
+  ]
+ ],
+ "I108": [
+  "mentioned",
+  [
+   "la-lune",
+   "ere-du-verseau"
+  ]
+ ],
+ "I109": [
+  "same",
+  [
+   "ces-dieux"
+  ]
+ ],
+ "I110": [
+  "absent",
+  [
+   "cahiers",
+   "la-lune",
+   "ces-dieux",
+   "nous-autres",
+   "ere-du-verseau"
+  ]
+ ],
+ "I111": [
+  "absent",
+  [
+   "cahiers",
+   "la-lune",
+   "ces-dieux",
+   "nous-autres",
+   "ere-du-verseau"
+  ]
+ ],
+ "I112": [
+  "absent",
+  [
+   "cahiers",
+   "la-lune",
+   "ces-dieux",
+   "nous-autres",
+   "ere-du-verseau"
+  ]
+ ],
+ "I113": [
+  "absent",
+  [
+   "cahiers",
+   "la-lune",
+   "ces-dieux",
+   "nous-autres",
+   "ere-du-verseau"
+  ]
+ ],
+ "I114": [
+  "absent",
+  [
+   "cahiers",
+   "la-lune",
+   "ces-dieux",
+   "nous-autres",
+   "ere-du-verseau"
+  ]
+ ],
+ "I115": [
+  "absent",
+  [
+   "cahiers",
+   "la-lune",
+   "ces-dieux",
+   "nous-autres",
+   "ere-du-verseau"
+  ]
+ ],
+ "I116": [
+  "absent",
+  [
+   "cahiers",
+   "la-lune",
+   "ces-dieux",
+   "nous-autres",
+   "ere-du-verseau"
+  ]
+ ],
+ "I117": [
+  "absent",
+  [
+   "cahiers",
+   "la-lune",
+   "ces-dieux",
+   "nous-autres",
+   "ere-du-verseau"
+  ]
+ ],
+ "I118": [
+  "absent",
+  [
+   "cahiers",
+   "la-lune",
+   "ces-dieux",
+   "nous-autres",
+   "ere-du-verseau"
+  ]
+ ],
+ "I119": [
+  "absent",
+  [
+   "cahiers",
+   "la-lune",
+   "ces-dieux",
+   "nous-autres",
+   "ere-du-verseau"
+  ]
+ ],
+ "I120": [
+  "absent",
+  [
+   "cahiers",
+   "la-lune",
+   "ces-dieux",
+   "nous-autres",
+   "ere-du-verseau"
+  ]
+ ],
+ "I121": [
+  "absent",
+  [
+   "cahiers",
+   "la-lune",
+   "ces-dieux",
+   "nous-autres",
+   "ere-du-verseau"
+  ]
+ ],
+ "I122": [
+  "absent",
+  [
+   "cahiers",
+   "la-lune",
+   "ces-dieux",
+   "nous-autres",
+   "ere-du-verseau"
+  ]
+ ],
+ "I123": [
+  "absent",
+  [
+   "cahiers",
+   "la-lune",
+   "ces-dieux",
+   "nous-autres",
+   "ere-du-verseau"
+  ]
+ ],
+ "I124": [
+  "absent",
+  [
+   "cahiers",
+   "la-lune",
+   "ces-dieux",
+   "nous-autres",
+   "ere-du-verseau"
+  ]
+ ],
+ "I125": [
+  "absent",
+  [
+   "cahiers",
+   "la-lune",
+   "ces-dieux",
+   "nous-autres",
+   "ere-du-verseau"
+  ]
+ ],
+ "I126": [
+  "mentioned",
+  [
+   "cahiers"
+  ]
+ ],
+ "I127": [
+  "absent",
+  [
+   "cahiers",
+   "la-lune",
+   "ces-dieux",
+   "nous-autres",
+   "ere-du-verseau"
+  ]
+ ],
+ "I128": [
+  "similar",
+  [
+   "la-lune",
+   "nous-autres"
+  ]
+ ],
+ "I129": [
+  "absent",
+  [
+   "cahiers",
+   "la-lune",
+   "ces-dieux",
+   "nous-autres",
+   "ere-du-verseau"
+  ]
+ ],
+ "I130": [
+  "absent",
+  [
+   "cahiers",
+   "la-lune",
+   "ces-dieux",
+   "nous-autres",
+   "ere-du-verseau"
+  ]
+ ],
+ "I131": [
+  "absent",
+  [
+   "cahiers",
+   "la-lune",
+   "ces-dieux",
+   "nous-autres",
+   "ere-du-verseau"
+  ]
+ ],
+ "I132": [
+  "similar",
+  [
+   "la-lune",
+   "ere-du-verseau"
+  ]
+ ],
+ "I133": [
+  "absent",
+  [
+   "cahiers",
+   "la-lune",
+   "ces-dieux",
+   "nous-autres",
+   "ere-du-verseau"
+  ]
+ ],
+ "I134": [
+  "absent",
+  [
+   "cahiers",
+   "la-lune",
+   "ces-dieux",
+   "nous-autres",
+   "ere-du-verseau"
+  ]
+ ],
+ "I135": [
+  "absent",
+  [
+   "cahiers",
+   "la-lune",
+   "ces-dieux",
+   "nous-autres",
+   "ere-du-verseau"
+  ]
+ ],
+ "I136": [
+  "similar",
+  [
+   "la-lune",
+   "ces-dieux"
+  ]
+ ],
+ "I137": [
+  "absent",
+  [
+   "cahiers",
+   "la-lune",
+   "ces-dieux",
+   "nous-autres",
+   "ere-du-verseau"
+  ]
+ ],
+ "I138": [
+  "absent",
+  [
+   "cahiers",
+   "la-lune",
+   "ces-dieux",
+   "nous-autres",
+   "ere-du-verseau"
+  ]
+ ],
+ "I139": [
+  "mentioned",
+  [
+   "cahiers"
+  ]
+ ],
+ "I140": [
+  "absent",
+  [
+   "cahiers",
+   "la-lune",
+   "ces-dieux",
+   "nous-autres",
+   "ere-du-verseau"
+  ]
+ ],
+ "I141": [
+  "absent",
+  [
+   "cahiers",
+   "la-lune",
+   "ces-dieux",
+   "nous-autres",
+   "ere-du-verseau"
+  ]
+ ],
+ "I142": [
+  "similar",
+  [
+   "cahiers"
+  ]
+ ],
+ "I143": [
+  "absent",
+  [
+   "cahiers",
+   "la-lune",
+   "ces-dieux",
+   "nous-autres",
+   "ere-du-verseau"
+  ]
+ ],
+ "I144": [
+  "absent",
+  [
+   "cahiers",
+   "la-lune",
+   "ces-dieux",
+   "nous-autres",
+   "ere-du-verseau"
+  ]
+ ],
+ "I145": [
+  "absent",
+  [
+   "cahiers",
+   "la-lune",
+   "ces-dieux",
+   "nous-autres",
+   "ere-du-verseau"
+  ]
+ ],
+ "I146": [
+  "absent",
+  [
+   "cahiers",
+   "la-lune",
+   "ces-dieux",
+   "nous-autres",
+   "ere-du-verseau"
+  ]
+ ],
+ "I147": [
+  "absent",
+  [
+   "cahiers",
+   "la-lune",
+   "ces-dieux",
+   "nous-autres",
+   "ere-du-verseau"
+  ]
+ ],
+ "I148": [
+  "absent",
+  [
+   "cahiers",
+   "la-lune",
+   "ces-dieux",
+   "nous-autres",
+   "ere-du-verseau"
+  ]
+ ],
+ "I149": [
+  "absent",
+  [
+   "cahiers",
+   "la-lune",
+   "ces-dieux",
+   "nous-autres",
+   "ere-du-verseau"
+  ]
+ ],
+ "I150": [
+  "similar",
+  [
+   "ere-du-verseau"
+  ]
+ ],
+ "I151": [
+  "absent",
+  [
+   "cahiers",
+   "la-lune",
+   "ces-dieux",
+   "nous-autres",
+   "ere-du-verseau"
+  ]
+ ],
+ "I152": [
+  "absent",
+  [
+   "cahiers",
+   "la-lune",
+   "ces-dieux",
+   "nous-autres",
+   "ere-du-verseau"
+  ]
+ ],
+ "I153": [
+  "absent",
+  [
+   "cahiers",
+   "la-lune",
+   "ces-dieux",
+   "nous-autres",
+   "ere-du-verseau"
+  ]
+ ],
+ "I154": [
+  "absent",
+  [
+   "cahiers",
+   "la-lune",
+   "ces-dieux",
+   "nous-autres",
+   "ere-du-verseau"
+  ]
+ ],
+ "I155": [
+  "absent",
+  [
+   "cahiers",
+   "la-lune",
+   "ces-dieux",
+   "nous-autres",
+   "ere-du-verseau"
+  ]
+ ],
+ "I156": [
+  "absent",
+  [
+   "cahiers",
+   "la-lune",
+   "ces-dieux",
+   "nous-autres",
+   "ere-du-verseau"
+  ]
+ ],
+ "I157": [
+  "absent",
+  [
+   "cahiers",
+   "la-lune",
+   "ces-dieux",
+   "nous-autres",
+   "ere-du-verseau"
+  ]
+ ],
+ "I158": [
+  "absent",
+  [
+   "cahiers",
+   "la-lune",
+   "ces-dieux",
+   "nous-autres",
+   "ere-du-verseau"
+  ]
+ ],
+ "I159": [
+  "mentioned",
+  [
+   "cahiers",
+   "la-lune",
+   "nous-autres",
+   "ere-du-verseau"
+  ]
+ ],
+ "I160": [
+  "mentioned",
+  [
+   "cahiers",
+   "ces-dieux",
+   "nous-autres",
+   "ere-du-verseau"
+  ]
+ ],
+ "I161": [
+  "mentioned",
+  [
+   "cahiers"
+  ]
+ ],
+ "I162": [
+  "mentioned",
+  [
+   "cahiers",
+   "nous-autres"
+  ]
+ ],
+ "I163": [
+  "absent",
+  [
+   "cahiers",
+   "la-lune",
+   "ces-dieux",
+   "nous-autres",
+   "ere-du-verseau"
+  ]
+ ],
+ "I164": [
+  "absent",
+  [
+   "cahiers",
+   "la-lune",
+   "ces-dieux",
+   "nous-autres",
+   "ere-du-verseau"
+  ]
+ ],
+ "I165": [
+  "mentioned",
+  [
+   "cahiers"
+  ]
+ ],
+ "I166": [
+  "absent",
+  [
+   "cahiers",
+   "la-lune",
+   "ces-dieux",
+   "nous-autres",
+   "ere-du-verseau"
+  ]
+ ],
+ "I167": [
+  "absent",
+  [
+   "cahiers",
+   "la-lune",
+   "ces-dieux",
+   "nous-autres",
+   "ere-du-verseau"
+  ]
+ ],
+ "I168": [
+  "absent",
+  [
+   "cahiers",
+   "la-lune",
+   "ces-dieux",
+   "nous-autres",
+   "ere-du-verseau"
+  ]
+ ],
+ "I169": [
+  "absent",
+  [
+   "cahiers",
+   "la-lune",
+   "ces-dieux",
+   "nous-autres",
+   "ere-du-verseau"
+  ]
+ ],
+ "I170": [
+  "absent",
+  [
+   "cahiers",
+   "la-lune",
+   "ces-dieux",
+   "nous-autres",
+   "ere-du-verseau"
+  ]
+ ],
+ "I171": [
+  "absent",
+  [
+   "cahiers",
+   "la-lune",
+   "ces-dieux",
+   "nous-autres",
+   "ere-du-verseau"
+  ]
+ ],
+ "I172": [
+  "mentioned",
+  [
+   "cahiers",
+   "ere-du-verseau"
+  ]
+ ],
+ "I173": [
+  "mentioned",
+  [
+   "cahiers"
+  ]
+ ],
+ "I174": [
+  "absent",
+  [
+   "cahiers",
+   "la-lune",
+   "ces-dieux",
+   "nous-autres",
+   "ere-du-verseau"
+  ]
+ ],
+ "I175": [
+  "absent",
+  [
+   "cahiers",
+   "la-lune",
+   "ces-dieux",
+   "nous-autres",
+   "ere-du-verseau"
+  ]
+ ],
+ "I176": [
+  "absent",
+  [
+   "cahiers",
+   "la-lune",
+   "ces-dieux",
+   "nous-autres",
+   "ere-du-verseau"
+  ]
+ ],
+ "I177": [
+  "absent",
+  [
+   "cahiers",
+   "la-lune",
+   "ces-dieux",
+   "nous-autres",
+   "ere-du-verseau"
+  ]
+ ],
+ "I178": [
+  "mentioned",
+  [
+   "cahiers"
+  ]
+ ],
+ "I179": [
+  "mentioned",
+  [
+   "cahiers"
+  ]
+ ],
+ "I180": [
+  "same",
+  [
+   "cahiers",
+   "la-lune",
+   "nous-autres",
+   "ere-du-verseau"
+  ]
+ ],
+ "I181": [
+  "mentioned",
+  [
+   "cahiers"
+  ]
+ ],
+ "I182": [
+  "absent",
+  [
+   "cahiers",
+   "la-lune",
+   "ces-dieux",
+   "nous-autres",
+   "ere-du-verseau"
+  ]
+ ],
+ "I183": [
+  "mentioned",
+  [
+   "cahiers"
+  ]
+ ],
+ "I184": [
+  "absent",
+  [
+   "cahiers",
+   "la-lune",
+   "ces-dieux",
+   "nous-autres",
+   "ere-du-verseau"
+  ]
+ ],
+ "I185": [
+  "absent",
+  [
+   "cahiers",
+   "la-lune",
+   "ces-dieux",
+   "nous-autres",
+   "ere-du-verseau"
+  ]
+ ],
+ "I186": [
+  "absent",
+  [
+   "cahiers",
+   "la-lune",
+   "ces-dieux",
+   "nous-autres",
+   "ere-du-verseau"
+  ]
+ ],
+ "I187": [
+  "absent",
+  [
+   "cahiers",
+   "la-lune",
+   "ces-dieux",
+   "nous-autres",
+   "ere-du-verseau"
+  ]
+ ],
+ "I188": [
+  "absent",
+  [
+   "cahiers",
+   "la-lune",
+   "ces-dieux",
+   "nous-autres",
+   "ere-du-verseau"
+  ]
+ ],
+ "I189": [
+  "absent",
+  [
+   "cahiers",
+   "la-lune",
+   "ces-dieux",
+   "nous-autres",
+   "ere-du-verseau"
+  ]
+ ],
+ "I190": [
+  "mentioned",
+  [
+   "ere-du-verseau"
+  ]
+ ],
+ "I191": [
+  "absent",
+  [
+   "cahiers",
+   "la-lune",
+   "ces-dieux",
+   "nous-autres",
+   "ere-du-verseau"
+  ]
+ ],
+ "I192": [
+  "absent",
+  [
+   "cahiers",
+   "la-lune",
+   "ces-dieux",
+   "nous-autres",
+   "ere-du-verseau"
+  ]
+ ],
+ "I193": [
+  "absent",
+  [
+   "cahiers",
+   "la-lune",
+   "ces-dieux",
+   "nous-autres",
+   "ere-du-verseau"
+  ]
+ ],
+ "I194": [
+  "similar",
+  [
+   "nous-autres",
+   "ere-du-verseau"
+  ]
+ ],
+ "I195": [
+  "same",
+  [
+   "cahiers",
+   "nous-autres"
+  ]
+ ],
+ "I196": [
+  "same",
+  [
+   "la-lune",
+   "ces-dieux",
+   "ere-du-verseau"
+  ]
+ ],
+ "I197": [
+  "absent",
+  [
+   "cahiers",
+   "la-lune",
+   "ces-dieux",
+   "nous-autres",
+   "ere-du-verseau"
+  ]
+ ],
+ "I198": [
+  "absent",
+  [
+   "cahiers",
+   "la-lune",
+   "ces-dieux",
+   "nous-autres",
+   "ere-du-verseau"
+  ]
+ ],
+ "I199": [
+  "absent",
+  [
+   "cahiers",
+   "la-lune",
+   "ces-dieux",
+   "nous-autres",
+   "ere-du-verseau"
+  ]
+ ],
+ "I200": [
+  "absent",
+  [
+   "cahiers",
+   "la-lune",
+   "ces-dieux",
+   "nous-autres",
+   "ere-du-verseau"
+  ]
+ ],
+ "I201": [
+  "absent",
+  [
+   "cahiers",
+   "la-lune",
+   "ces-dieux",
+   "nous-autres",
+   "ere-du-verseau"
+  ]
+ ],
+ "I202": [
+  "absent",
+  [
+   "cahiers",
+   "la-lune",
+   "ces-dieux",
+   "nous-autres",
+   "ere-du-verseau"
+  ]
+ ],
+ "I203": [
+  "similar",
+  [
+   "nous-autres"
+  ]
+ ],
+ "I204": [
+  "absent",
+  [
+   "cahiers",
+   "la-lune",
+   "ces-dieux",
+   "nous-autres",
+   "ere-du-verseau"
+  ]
+ ],
+ "I205": [
+  "absent",
+  [
+   "cahiers",
+   "la-lune",
+   "ces-dieux",
+   "nous-autres",
+   "ere-du-verseau"
+  ]
+ ],
+ "I206": [
+  "absent",
+  [
+   "cahiers",
+   "la-lune",
+   "ces-dieux",
+   "nous-autres",
+   "ere-du-verseau"
+  ]
+ ],
+ "I207": [
+  "absent",
+  [
+   "cahiers",
+   "la-lune",
+   "ces-dieux",
+   "nous-autres",
+   "ere-du-verseau"
+  ]
+ ],
+ "I208": [
+  "mentioned",
+  [
+   "cahiers"
+  ]
+ ],
+ "I209": [
+  "absent",
+  [
+   "cahiers",
+   "la-lune",
+   "ces-dieux",
+   "nous-autres",
+   "ere-du-verseau"
+  ]
+ ],
+ "I210": [
+  "mentioned",
+  [
+   "la-lune"
+  ]
+ ],
+ "I211": [
+  "absent",
+  [
+   "cahiers",
+   "la-lune",
+   "ces-dieux",
+   "nous-autres",
+   "ere-du-verseau"
+  ]
+ ],
+ "I212": [
+  "absent",
+  [
+   "cahiers",
+   "la-lune",
+   "ces-dieux",
+   "nous-autres",
+   "ere-du-verseau"
+  ]
+ ],
+ "I213": [
+  "mentioned",
+  [
+   "la-lune",
+   "ces-dieux"
+  ]
+ ],
+ "I214": [
+  "same",
+  [
+   "cahiers",
+   "la-lune"
+  ]
+ ],
+ "I215": [
+  "similar",
+  [
+   "cahiers",
+   "ces-dieux"
+  ]
+ ],
+ "I216": [
+  "absent",
+  [
+   "cahiers",
+   "la-lune",
+   "ces-dieux",
+   "nous-autres",
+   "ere-du-verseau"
+  ]
+ ],
+ "I217": [
+  "absent",
+  [
+   "cahiers",
+   "la-lune",
+   "ces-dieux",
+   "nous-autres",
+   "ere-du-verseau"
+  ]
+ ],
+ "I218": [
+  "similar",
+  [
+   "ces-dieux"
+  ]
+ ],
+ "I219": [
+  "similar",
+  [
+   "nous-autres"
+  ]
+ ],
+ "I220": [
+  "absent",
+  [
+   "cahiers",
+   "la-lune",
+   "ces-dieux",
+   "nous-autres",
+   "ere-du-verseau"
+  ]
+ ],
+ "I221": [
+  "similar",
+  [
+   "cahiers"
+  ]
+ ],
+ "I222": [
+  "similar",
+  [
+   "cahiers"
+  ]
+ ],
+ "I223": [
+  "mentioned",
+  [
+   "cahiers"
+  ]
+ ],
+ "I224": [
+  "same",
+  [
+   "ces-dieux"
+  ]
+ ],
+ "I225": [
+  "same",
+  [
+   "la-lune",
+   "ces-dieux"
+  ]
+ ],
+ "I226": [
+  "mentioned",
+  [
+   "cahiers"
+  ]
+ ]
+}

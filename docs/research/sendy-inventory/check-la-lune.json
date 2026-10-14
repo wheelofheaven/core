@@ -1,0 +1,1746 @@
+{
+ "book": "Jean Sendy, La lune, clé de la Bible (Julliard, 1968; FeniXX digital edition 2017)",
+ "book_key": "la-lune",
+ "items": [
+  {
+   "id": "I001",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Non-biblical framing of Raël's encounter; Sendy makes the Bible (Dhorme translation) his key document but nothing comparable."
+  },
+  {
+   "id": "I002",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "No France/1945/atomic-age trigger."
+  },
+  {
+   "id": "I003",
+   "status": "similar",
+   "locator": "Hors-d'œuvre / line 62",
+   "quote_fr": "si le Dieu-du-catéchisme, barbu et régentant un univers créé en 6 fois 24 heures n’y a été introduit qu’après coup, par des superstitieux",
+   "note": "Sendy: the God-reading was added 'après coup' by superstitious interpreters and the cosmonaut account 'sucré' (l.4252); but he insists the Hebrew text is letter-perfect — distortion is interpretive/oral, not copyists'."
+  },
+  {
+   "id": "I004",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Not discussed; Sendy does not speculate on the Celestials' origin (l.80-82)."
+  },
+  {
+   "id": "I005",
+   "status": "same",
+   "locator": "Part I ch.1 (Anges) / line 200",
+   "quote_fr": "la Genèse devient le récit, parfaitement cohérent en soi, d’une colonisation de la Terre par des cosmonautes « venus du ciel » et devenus « anges » dans la mémoire des hommes",
+   "note": "Elohim = plural (of Eloah, l.181) = concrete cosmonauts 'venus du ciel'. Not given as an etymology; and 'créèrent' = naming/rehabilitating a planet, not creating life."
+  },
+  {
+   "id": "I006",
+   "status": "same",
+   "locator": "Part III ch.premier (Gen 1) / line 4214",
+   "quote_fr": "les radars du cosmonef (« projection de l’esprit des hommes ») n’y discernaient aucune installation",
+   "note": "Spirit of Elohim hovering = the spacecraft's sensors surveying a cloud-shrouded Earth (cf. l.1846 unmanned Venus probe as 'l'esprit des hommes'); Message: artificial satellites."
+  },
+  {
+   "id": "I007",
+   "status": "similar",
+   "locator": "Part I ch.8 (Etat d'Israël) / line 1965",
+   "quote_fr": "se livrent à une expérience de dispersion de ces nuages, constatent que la lumière passe, et se congratulent d’avoir si bien réussi",
+   "note": "Light 'good' = successful experiment dispersing glaciation clouds; Message = test that solar rays are not harmful."
+  },
+  {
+   "id": "I008",
+   "status": "same",
+   "locator": "Part I ch.3 (Cosmonautes) / line 636",
+   "quote_fr": "chacun des « jours » du texte biblique semble bien correspondre à un douzième du cycle de 25 920 ans",
+   "note": "Each 'day' = 1/12 of the 25,920-year precessional cycle ≈ 2,160 years (Message: ~2,000 years, sun rising in same sign at equinox)."
+  },
+  {
+   "id": "I009",
+   "status": "similar",
+   "locator": "Part III ch.premier (Gen 1) / line 4356",
+   "quote_fr": "Précipiter vers le sol des nuages lourds de tant d’eau, en bonne logique cela a dû transformer le sol en marécage",
+   "note": "Firmament/separation = precipitating the humid post-glacial cloud mass as rain; Message = waters above are clouds, cosmic-ray study above them."
+  },
+  {
+   "id": "I010",
+   "status": "similar",
+   "locator": "Part II (Glaciations) / line 3389",
+   "quote_fr": "rétabli le régime des pluies et séparé les terres des mers",
+   "note": "Dry land = waters returning to their beds after the marsh phase; no explosions, no single continent, no continental drift."
+  },
+  {
+   "id": "I011",
+   "status": "similar",
+   "locator": "Part III ch.premier (Gen 1) / line 4396",
+   "quote_fr": "les arbres fruitiers (explicitement « indigènes », « produits par la terre ») produisent des fruits",
+   "note": "Vegetation = native regrowth ('produits par la terre') within a planned rehabitation 'Tranche'; Message = lab-synthesised plants designed by artists."
+  },
+  {
+   "id": "I012",
+   "status": "same",
+   "locator": "Part III ch.premier-suite / line 4594",
+   "quote_fr": "voir dans « l’œuvre du quatrième jour » un établissement des cartes du « ciel vu de la Terre »",
+   "note": "Fourth day = Elohim drawing up star maps / astronomy of the sky seen from Earth; Sendy flags it as interpretation and extends it to a 'jour des sciences'."
+  },
+  {
+   "id": "I013",
+   "status": "similar",
+   "locator": "Part III ch.premier-suite / line 4639",
+   "quote_fr": "les oiseaux, dont les insectes assurent la pâture, « renaissent » ensuite, plus ou moins artiﬁciellement",
+   "note": "Fifth day = repopulation after glaciation (insects, then birds 'plus ou moins artificiellement', sea life from frozen stock); no artist-designed birds."
+  },
+  {
+   "id": "I014",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "No dinosaurs/dragons."
+  },
+  {
+   "id": "I015",
+   "status": "similar",
+   "locator": "Part III ch.premier-suite / line 4643",
+   "quote_fr": "puis reparaissent les herbivores et les reptiles, et en dernier lieu seulement les carnivores",
+   "note": "Land animals reappear in repopulation order; not created by the speaker's people."
+  },
+  {
+   "id": "I016",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Not discussed."
+  },
+  {
+   "id": "I017",
+   "status": "similar",
+   "locator": "Part III ch.premier-suite / line 4668",
+   "quote_fr": "ou « Elohim » est le pluriel que je propose, et « notre » est aussi cohérent que la décision de façonner l’homme à l’image de bipèdes aussi concrets que nous",
+   "note": "Same plural and literal physical likeness (rejects plural of majesty), but 'making man' = uplifting naturally evolved native bipeds, not laboratory synthesis."
+  },
+  {
+   "id": "I018",
+   "status": "similar",
+   "locator": "Part III ch.deuxième (Gen 2) / line 4568",
+   "quote_fr": "comme on installe généralement les centres de recherches scientiﬁques (Saclay, par exemple) au milieu d’un jardin ﬂeuri",
+   "note": "Eden = a garden with its trees placed 'like research centres (Saclay)'; natives garden and guard it. No laboratory creation, not located in Israel."
+  },
+  {
+   "id": "I019",
+   "status": "mentioned",
+   "locator": "Part III ch.deuxième-suite / line 4738",
+   "quote_fr": "que nous ignorons la nature du « fruit » interdit",
+   "note": "Sendy declines to identify the forbidden fruit; rejects 'spiritual death' gloss; no 'scientific books' reading."
+  },
+  {
+   "id": "I020",
+   "status": "similar",
+   "locator": "Part III ch.deuxième-suite / line 4759",
+   "quote_fr": "comment fut résolu le problème du langage, c’est-à-dire de la communication entre Célestes et indigènes",
+   "note": "Naming of animals = solving the language/communication problem (creation named in the natives' tongue); Message = zoology/botany lessons."
+  },
+  {
+   "id": "I021",
+   "status": "similar",
+   "locator": "Part III ch.troisième (Gen 3) / line 4895",
+   "quote_fr": "le serpent-qui-parle et connaît aussi bien que les autres ﬁls des Elohim l’eﬀet du « fruit »",
+   "note": "Serpent implied to be one of the sons of the Elohim (linked to Satan in Job), but Sendy withdrew his explanation of Gen 3; no dissident scientist faction."
+  },
+  {
+   "id": "I022",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Gen 3:7 not discussed (only 3:5 and 3:22 quoted)."
+  },
+  {
+   "id": "I023",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Curse of the serpent not discussed."
+  },
+  {
+   "id": "I024",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Garments of skin not discussed."
+  },
+  {
+   "id": "I025",
+   "status": "mentioned",
+   "locator": "Part III ch.troisième (Gen 3) / line 4936",
+   "quote_fr": "Voici que l’homme est devenu COMME L’UN DE NOUS",
+   "note": "Gen 3:22 quoted only as plural evidence (Iahvé yielding to the serpent's reasoning); no immortality/chosen-people reading."
+  },
+  {
+   "id": "I026",
+   "status": "same",
+   "locator": "Part III ch.premier-suite / line 4619",
+   "quote_fr": "la « ﬂamme tournoyante de l’épée des chérubins » qui, à la ﬁn du chapitre III, interdiront l’accès à « l’arbre de vie » implique des usines d’armements",
+   "note": "Flaming sword = manufactured weapon implying arms factories; not specified as atomic/disintegrator."
+  },
+  {
+   "id": "I027",
+   "status": "mentioned",
+   "locator": "Part II (Glaciations) / line 3476",
+   "quote_fr": "et aussi avec la découverte de l’agriculture et de l’élevage par Abel et Caïn",
+   "note": "Cain/Abel = discovery of agriculture and herding at start of the 7th 'day' (~-8000); offerings not discussed."
+  },
+  {
+   "id": "I028",
+   "status": "mentioned",
+   "locator": "Part I ch.1 (Anges) / line 224",
+   "quote_fr": "Les seuls « hommes en renom » du texte biblique ont leur arbre généalogique au chapitre V",
+   "note": "Gen 5 used as genealogy of the hybrid 'men of renown' (Noah a bastard of the Elohim, Enoch adoptive son); no longevity reading."
+  },
+  {
+   "id": "I029",
+   "status": "same",
+   "locator": "Part I ch.3 (Cosmonautes) / line 576",
+   "quote_fr": "des bâtards nés des amours entre ﬁls d’Elohim et ﬁlles d’hommes",
+   "note": "Sons of (the) Elohim = the Celestials themselves fathering children on human women (also l.343 'béné Ha-Elohim'). No exile motif."
+  },
+  {
+   "id": "I030",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "120-year limit not discussed."
+  },
+  {
+   "id": "I031",
+   "status": "similar",
+   "locator": "Part I ch.1 (Anges) / line 227",
+   "quote_fr": "ce qui nous ramène à la « création » d’« hommes en renom » par les relations sexuelles entre ﬁls d’Elohim et anonymes ﬁlles d’hommes",
+   "note": "Heroes = hybrid offspring of sons of Elohim and women, but they are the heirs/priest-king dynasties (Noah a bastard of the Elohim), not a threat."
+  },
+  {
+   "id": "I032",
+   "status": "mentioned",
+   "locator": "Part I ch.4 (Tour de Babel) / line 733",
+   "quote_fr": "Les Célestes sont partis [Gen. VI, 5] écœurés « de la malice des hommes, dont l’objet des pensées est toujours le mal »",
+   "note": "Gen 6:5 quoted: Celestials leave disgusted with human malice; no 'evil = scientific ambition' reading."
+  },
+  {
+   "id": "I033",
+   "status": "similar",
+   "locator": "Part I ch.4 (Tour de Babel) / line 756",
+   "quote_fr": "le Déluge n’a détruit que leurs bases, la Terre reste peuplée de communautés paléolithiques",
+   "note": "Flood = the Celestials destroying their own terrestrial bases on departure (cf. cargo-cult 'Déluge', l.911); ark preserved 'choses et enseignements'. No nuclear missiles, no spaceship ark, no cells."
+  },
+  {
+   "id": "I034",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Gen 7:17 not discussed."
+  },
+  {
+   "id": "I035",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "150 days / three decks not discussed."
+  },
+  {
+   "id": "I036",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Raven/dove not discussed."
+  },
+  {
+   "id": "I037",
+   "status": "similar",
+   "locator": "Part I ch.4 (Tour de Babel) / line 1040",
+   "quote_fr": "le texte biblique fait état d’un « arc d’alliance laissé dans la nue »",
+   "note": "Covenant bow = installations/message left on the Moon for Noah's heirs (the book's thesis); Message = promise not to destroy again."
+  },
+  {
+   "id": "I038",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Gen 8:21 not discussed."
+  },
+  {
+   "id": "I039",
+   "status": "mentioned",
+   "locator": "Part I ch.4 (Tour de Babel) / line 767",
+   "quote_fr": "Le chapitre X se termine par l’indication que les ﬁls des trois ﬁls de Noé sont allés « essaimer les nations »",
+   "note": "Gen 10 read as Noah's descendants organising paleolithic peoples into nations as priest-kings (Message gives no specific reading)."
+  },
+  {
+   "id": "I040",
+   "status": "same",
+   "locator": "Part I ch.4 (Tour de Babel) / line 936",
+   "quote_fr": "une tour édiﬁée dans une plaine ne peut prétendre « atteindre les cieux » que par un lancement",
+   "note": "Babel = launch tower to reach the heavens (the Moon); 'rien ne leur sera impossible' quoted. Builders = Noah's hybrid heirs with inherited knowledge, not Israelites aided by exiled creators."
+  },
+  {
+   "id": "I041",
+   "status": "similar",
+   "locator": "Part I ch.4 (Tour de Babel) / line 1037",
+   "quote_fr": "ils préfèrent compromettre le succès de la civilisation projetée",
+   "note": "Elohim sabotage the project; 'one language' = a shared sacred priestly language whose confusion follows the failure. Message = physical dispersal of Jewish scientists and destruction of equipment."
+  },
+  {
+   "id": "I042",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Sodom and Gomorrah not discussed (Lot appears only in Gen 14)."
+  },
+  {
+   "id": "I043",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Sodom and Gomorrah not discussed (Lot appears only in Gen 14)."
+  },
+  {
+   "id": "I044",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Sodom and Gomorrah not discussed (Lot appears only in Gen 14)."
+  },
+  {
+   "id": "I045",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Sodom and Gomorrah not discussed (Lot appears only in Gen 14)."
+  },
+  {
+   "id": "I046",
+   "status": "mentioned",
+   "locator": "Part I ch.5 (Bible cohérente) / line 1128",
+   "quote_fr": "il trouvait tout naturel que son dieu lui demande le sacriﬁce de son ﬁls aîné",
+   "note": "Akedah cited only to show Abraham was not yet a 'Jew'; no loyalty-test reading."
+  },
+  {
+   "id": "I047",
+   "status": "mentioned",
+   "locator": "Part I ch.5 (Bible cohérente) / line 1177",
+   "quote_fr": "il « voit en rêve » l’échelle unissant sa lignée au message laissé par les Célestes",
+   "note": "Ladder = symbolic link between Jacob's lineage and the Celestials' message; no craft."
+  },
+  {
+   "id": "I048",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Gen 35:2 not cited. Theme present: idolatry = venerating stone statues of long-dead cosmonauts instead of reconstituting the Elohim heritage (l.262-266, 1221-1224)."
+  },
+  {
+   "id": "I049",
+   "status": "mentioned",
+   "locator": "Part I ch.5 (Bible cohérente) / line 1345",
+   "quote_fr": "Si Moïse a « entendu » un « ange » comme Jacob a « lutté » avec le sien, comme vous ou moi pouvons avoir « entendu » Aristote",
+   "note": "Ex 3:2 cited (l.1229); Sendy explicitly rejects a returning Celestial — Moses 'heard' an angel as one 'hears' Aristotle, i.e. through study of texts."
+  },
+  {
+   "id": "I050",
+   "status": "mentioned",
+   "locator": "Part I ch.5 (Bible cohérente) / line 1386",
+   "quote_fr": "Moïse rapportait, du désert de Madian, des connaissances « techniques immédiates » supérieures à celles des prêtres de Pharaon",
+   "note": "Exodus forced by Moses' recovered 'technical' knowledge; Sendy declines to explain the plagues (bacteriological war only as a temptation)."
+  },
+  {
+   "id": "I051",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Pillar of cloud/fire not discussed."
+  },
+  {
+   "id": "I052",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Not discussed."
+  },
+  {
+   "id": "I053",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Red Sea crossing not discussed."
+  },
+  {
+   "id": "I054",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Manna not discussed."
+  },
+  {
+   "id": "I055",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Staff/water from rock not discussed."
+  },
+  {
+   "id": "I056",
+   "status": "mentioned",
+   "locator": "Part I ch.5 (Bible cohérente) / line 1362",
+   "quote_fr": "la promesse d’une « Loi » qui, par un « conditionnement pavlovien », va assurer au « peuple élu » une increvabilité à toute épreuve",
+   "note": "Law of Moses = 'pavlovian conditioning' ensuring survival (613 precepts, l.2858); no hygiene reading of the Decalogue."
+  },
+  {
+   "id": "I057",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Sinai theophany not discussed (Sinai named only as place of the 'revelation')."
+  },
+  {
+   "id": "I058",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Not discussed."
+  },
+  {
+   "id": "I059",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Not discussed."
+  },
+  {
+   "id": "I060",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Not discussed."
+  },
+  {
+   "id": "I061",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Not discussed."
+  },
+  {
+   "id": "I062",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Not discussed."
+  },
+  {
+   "id": "I063",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Not discussed."
+  },
+  {
+   "id": "I064",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Not discussed."
+  },
+  {
+   "id": "I065",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Not discussed."
+  },
+  {
+   "id": "I066",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Not discussed."
+  },
+  {
+   "id": "I067",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Not discussed."
+  },
+  {
+   "id": "I068",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Not discussed."
+  },
+  {
+   "id": "I069",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Deut 4:37 not cited; chosen-people survival ('increvabilité de la race d'Abraham') discussed as a theme (ch.5, ch.8)."
+  },
+  {
+   "id": "I070",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Not discussed."
+  },
+  {
+   "id": "I071",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Not discussed."
+  },
+  {
+   "id": "I072",
+   "status": "mentioned",
+   "locator": "Part II (Agriculture) / line 3177",
+   "quote_fr": "à Jéricho où (Pur Hasard encore ?) le peuple élu de Moïse cherchait « un secret »",
+   "note": "Jericho named only as an early agricultural site where 'le peuple élu cherchait un secret'; no trumpets/ultrasound."
+  },
+  {
+   "id": "I073",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Not discussed."
+  },
+  {
+   "id": "I074",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Not discussed."
+  },
+  {
+   "id": "I075",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Not discussed."
+  },
+  {
+   "id": "I076",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Not discussed."
+  },
+  {
+   "id": "I077",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Not discussed."
+  },
+  {
+   "id": "I078",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Nazirite hair not discussed; a different rule (no blade on the cheeks, Lev 19:27) is cited only as an example of literal observance (l.2861)."
+  },
+  {
+   "id": "I079",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Not discussed."
+  },
+  {
+   "id": "I080",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Not discussed."
+  },
+  {
+   "id": "I081",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Not discussed."
+  },
+  {
+   "id": "I082",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Not discussed."
+  },
+  {
+   "id": "I083",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Not discussed."
+  },
+  {
+   "id": "I084",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Not discussed."
+  },
+  {
+   "id": "I085",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Not discussed."
+  },
+  {
+   "id": "I086",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Solomon named only for the schism after his death; Temple not discussed."
+  },
+  {
+   "id": "I087",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Not discussed (no Elijah/Elisha material)."
+  },
+  {
+   "id": "I088",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Not discussed (no Elijah/Elisha material)."
+  },
+  {
+   "id": "I089",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Not discussed (no Elijah/Elisha material)."
+  },
+  {
+   "id": "I090",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Not discussed (no Elijah/Elisha material)."
+  },
+  {
+   "id": "I091",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Not discussed (no Elijah/Elisha material)."
+  },
+  {
+   "id": "I092",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Not discussed (no Elijah/Elisha material)."
+  },
+  {
+   "id": "I093",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Not discussed (no Elijah/Elisha material)."
+  },
+  {
+   "id": "I094",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Not discussed (no Elijah/Elisha material)."
+  },
+  {
+   "id": "I095",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Not discussed (no Elijah/Elisha material)."
+  },
+  {
+   "id": "I096",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Not discussed (no Elijah/Elisha material)."
+  },
+  {
+   "id": "I097",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Not discussed (no Elijah/Elisha material)."
+  },
+  {
+   "id": "I098",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Not discussed (no Elijah/Elisha material)."
+  },
+  {
+   "id": "I099",
+   "status": "mentioned",
+   "locator": "Part I ch.8 (Etat d'Israël) / line 1938",
+   "quote_fr": "le Royaume de Juda, resté scrupuleusement ﬁdèle à la Loi de Moïse, a survécu, le Royaume d’Israël, partisan des accommodements avec les « idolâtres », a disparu",
+   "note": "Loss of the northern kingdom attributed to accommodation with idolaters (non-technological); no cannibalism/regression."
+  },
+  {
+   "id": "I100",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Isaiah cited only for a spelling anomaly (final mem)."
+  },
+  {
+   "id": "I101",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Isaiah cited only for a spelling anomaly (final mem)."
+  },
+  {
+   "id": "I102",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Isaiah cited only for a spelling anomaly (final mem)."
+  },
+  {
+   "id": "I103",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Isaiah cited only for a spelling anomaly (final mem)."
+  },
+  {
+   "id": "I104",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Isaiah cited only for a spelling anomaly (final mem)."
+  },
+  {
+   "id": "I105",
+   "status": "mentioned",
+   "locator": "Part I ch.12 (Jérusalem céleste) / line 3015",
+   "quote_fr": "dans le récit biblique, c’est le « char d’Ezéchiel »",
+   "note": "Ezekiel 1 covered only by the generic 'char d'Ezéchiel' = Celestials' vessel; no cloud/contrail, creatures or suits."
+  },
+  {
+   "id": "I106",
+   "status": "same",
+   "locator": "Part III ch.premier-suite / line 4616",
+   "quote_fr": "le char d’Ezéchiel, tel que le décrit le texte biblique, n’est pas quelque tapis volant, c’est un engin métallique, qui de toute évidence sort d’une usine",
+   "note": "Ezekiel's chariot = factory-built metal craft; no portholes/saucer detail."
+  },
+  {
+   "id": "I107",
+   "status": "mentioned",
+   "locator": "Part I ch.12 (Jérusalem céleste) / line 3015",
+   "quote_fr": "dans le récit biblique, c’est le « char d’Ezéchiel »",
+   "note": "Only the generic chariot reading; no platform/throne/mother-ship detail."
+  },
+  {
+   "id": "I108",
+   "status": "mentioned",
+   "locator": "Part I ch.12 (Jérusalem céleste) / line 3015",
+   "quote_fr": "dans le récit biblique, c’est le « char d’Ezéchiel »",
+   "note": "Only the generic chariot reading; no four-faces/helmet detail."
+  },
+  {
+   "id": "I109",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Not discussed."
+  },
+  {
+   "id": "I110",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Not discussed."
+  },
+  {
+   "id": "I111",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Not discussed."
+  },
+  {
+   "id": "I112",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Not discussed."
+  },
+  {
+   "id": "I113",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Not discussed."
+  },
+  {
+   "id": "I114",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Not discussed."
+  },
+  {
+   "id": "I115",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Not discussed."
+  },
+  {
+   "id": "I116",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Not discussed."
+  },
+  {
+   "id": "I117",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Not discussed."
+  },
+  {
+   "id": "I118",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Not discussed."
+  },
+  {
+   "id": "I119",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Not discussed."
+  },
+  {
+   "id": "I120",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Not discussed."
+  },
+  {
+   "id": "I121",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Not discussed."
+  },
+  {
+   "id": "I122",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Not discussed."
+  },
+  {
+   "id": "I123",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Not discussed."
+  },
+  {
+   "id": "I124",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Not discussed."
+  },
+  {
+   "id": "I125",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Not discussed."
+  },
+  {
+   "id": "I126",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Not discussed."
+  },
+  {
+   "id": "I127",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Not discussed."
+  },
+  {
+   "id": "I128",
+   "status": "similar",
+   "locator": "Part I ch.12 (Jérusalem céleste) / line 2846",
+   "quote_fr": "tous les textes à tenir secrets jusqu’à l’entrée dans « les temps messianiques » devraient être publiés dès que ces « temps » seraient arrivés, et il ﬁxait leur arrivée pour 1948",
+   "note": "Kabbalist reading: Schvili's Daniel-based calculation (deliverance of Jerusalem 1967-68) and the Gaon of Vilna's secret texts released in 1948, linked to the coming Moon landing. Dan 12 not quoted directly."
+  },
+  {
+   "id": "I129",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Not discussed."
+  },
+  {
+   "id": "I130",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Not discussed."
+  },
+  {
+   "id": "I131",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Not discussed."
+  },
+  {
+   "id": "I132",
+   "status": "similar",
+   "locator": "Part I ch.1 (Anges) / line 231",
+   "quote_fr": "Psaume VIII, qui précise que « le ﬁls d’Adam » est « de peu inférieur aux Elohim »",
+   "note": "Ps 8 used to show Elohim = concrete Angels (Byzantine Bibles); no claim of a scribal change from 'equal'."
+  },
+  {
+   "id": "I133",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Not discussed."
+  },
+  {
+   "id": "I134",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Not discussed."
+  },
+  {
+   "id": "I135",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Not discussed."
+  },
+  {
+   "id": "I136",
+   "status": "similar",
+   "locator": "Part III ch.troisième (Gen 3) / line 4907",
+   "quote_fr": "Satan, « l’ange déchu », est présenté comme « ﬁls des Elohim » dans le Livre de Job",
+   "note": "Job 1:6 quoted: Satan is one of the sons of the Elohim; Job suggested as an 'incidente' explaining Gen 3. No opposition faction on a home planet."
+  },
+  {
+   "id": "I137",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Job 37:18 not discussed (Job 38 is used instead)."
+  },
+  {
+   "id": "I138",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Not discussed."
+  },
+  {
+   "id": "I139",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Not discussed."
+  },
+  {
+   "id": "I140",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Wisdom of Solomon not cited."
+  },
+  {
+   "id": "I141",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Not discussed."
+  },
+  {
+   "id": "I142",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "No mountain/undersea bases; Sendy argues that imaginary gods would have been sought by climbing mountains (l.932-935)."
+  },
+  {
+   "id": "I143",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Not discussed."
+  },
+  {
+   "id": "I144",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Not discussed."
+  },
+  {
+   "id": "I145",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Not discussed."
+  },
+  {
+   "id": "I146",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Proverbs 8 not cited. Related theme: Kabbalah's 'l'homme renouvellera les actes relatés au début de la Genèse' — humans becoming Elohim on another planet (ch.7, Part III)."
+  },
+  {
+   "id": "I147",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Not discussed."
+  },
+  {
+   "id": "I148",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Not discussed."
+  },
+  {
+   "id": "I149",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Not discussed."
+  },
+  {
+   "id": "I150",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "No Star of David/swastika; symbolism discussed is pschent/tiara and precessional animals."
+  },
+  {
+   "id": "I151",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Not discussed."
+  },
+  {
+   "id": "I152",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Not discussed."
+  },
+  {
+   "id": "I153",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Not discussed."
+  },
+  {
+   "id": "I154",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Not discussed."
+  },
+  {
+   "id": "I155",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Not discussed."
+  },
+  {
+   "id": "I156",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Not discussed."
+  },
+  {
+   "id": "I157",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Not discussed."
+  },
+  {
+   "id": "I158",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Not discussed."
+  },
+  {
+   "id": "I159",
+   "status": "mentioned",
+   "locator": "Part I ch.8 (Etat d'Israël) / line 1984",
+   "quote_fr": "« Marie est mère de dieu »… de dieu sans majuscule",
+   "note": "Mary named only via Daniélou's lower-case 'dieu'; no creator-paternity reading."
+  },
+  {
+   "id": "I160",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Not discussed (no Gospel or Acts exegesis beyond John 10:35)."
+  },
+  {
+   "id": "I161",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Not discussed (no Gospel or Acts exegesis beyond John 10:35)."
+  },
+  {
+   "id": "I162",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Not discussed (no Gospel or Acts exegesis beyond John 10:35)."
+  },
+  {
+   "id": "I163",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Not discussed (no Gospel or Acts exegesis beyond John 10:35)."
+  },
+  {
+   "id": "I164",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Not discussed (no Gospel or Acts exegesis beyond John 10:35)."
+  },
+  {
+   "id": "I165",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Lord's Prayer not cited; related theme: man will 'renew the acts' of the Elohim (Kabbalah, ch.7)."
+  },
+  {
+   "id": "I166",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Not discussed (no Gospel or Acts exegesis beyond John 10:35)."
+  },
+  {
+   "id": "I167",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Not discussed (no Gospel or Acts exegesis beyond John 10:35)."
+  },
+  {
+   "id": "I168",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Not discussed (no Gospel or Acts exegesis beyond John 10:35)."
+  },
+  {
+   "id": "I169",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Gospel healings not discussed; heart transplants (Barnard) appear only re the 'mythical heart' superstition."
+  },
+  {
+   "id": "I170",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Mt 10:32 not cited; critique of medieval geocentric/flat-earth Church cosmology present (l.269-272)."
+  },
+  {
+   "id": "I171",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Not discussed (no Gospel or Acts exegesis beyond John 10:35)."
+  },
+  {
+   "id": "I172",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Not discussed (no Gospel or Acts exegesis beyond John 10:35)."
+  },
+  {
+   "id": "I173",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Not discussed (no Gospel or Acts exegesis beyond John 10:35)."
+  },
+  {
+   "id": "I174",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Not discussed (no Gospel or Acts exegesis beyond John 10:35)."
+  },
+  {
+   "id": "I175",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Not discussed (no Gospel or Acts exegesis beyond John 10:35)."
+  },
+  {
+   "id": "I176",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Not discussed (no Gospel or Acts exegesis beyond John 10:35)."
+  },
+  {
+   "id": "I177",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Not discussed (no Gospel or Acts exegesis beyond John 10:35)."
+  },
+  {
+   "id": "I178",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Not discussed (no Gospel or Acts exegesis beyond John 10:35)."
+  },
+  {
+   "id": "I179",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Not discussed (no Gospel or Acts exegesis beyond John 10:35)."
+  },
+  {
+   "id": "I180",
+   "status": "same",
+   "locator": "Part I ch.4 (Tour de Babel) / line 771",
+   "quote_fr": "populations pour lesquelles la possession d’une lampe de poche constitue un « miracle »",
+   "note": "No miracles, only civilizational gap: a flashlight is a 'miracle' to primitives; WWII cargo-cult analogy (l.906-918); a Celestial would give Moses a 'mitraillette' (l.1336)."
+  },
+  {
+   "id": "I181",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Not discussed (no Gospel or Acts exegesis beyond John 10:35)."
+  },
+  {
+   "id": "I182",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Not cited."
+  },
+  {
+   "id": "I183",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Not discussed (no Gospel or Acts exegesis beyond John 10:35)."
+  },
+  {
+   "id": "I184",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Not discussed (no Gospel or Acts exegesis beyond John 10:35)."
+  },
+  {
+   "id": "I185",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Not discussed (no Gospel or Acts exegesis beyond John 10:35)."
+  },
+  {
+   "id": "I186",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Not discussed (no Gospel or Acts exegesis beyond John 10:35)."
+  },
+  {
+   "id": "I187",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Not discussed (no Gospel or Acts exegesis beyond John 10:35)."
+  },
+  {
+   "id": "I188",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Not discussed (no Gospel or Acts exegesis beyond John 10:35)."
+  },
+  {
+   "id": "I189",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Not discussed (no Gospel or Acts exegesis beyond John 10:35)."
+  },
+  {
+   "id": "I190",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Not discussed (no Gospel or Acts exegesis beyond John 10:35)."
+  },
+  {
+   "id": "I191",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Not discussed (no Gospel or Acts exegesis beyond John 10:35)."
+  },
+  {
+   "id": "I192",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Not discussed (no Gospel or Acts exegesis beyond John 10:35)."
+  },
+  {
+   "id": "I193",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Not discussed (no Gospel or Acts exegesis beyond John 10:35)."
+  },
+  {
+   "id": "I194",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Mt 24 not cited; 'temps messianiques' = 'temps de l'apocalypse' = time of revelation (l.2853-2855) and catechism reformulation (l.620-628) are related themes."
+  },
+  {
+   "id": "I195",
+   "status": "similar",
+   "locator": "Part I ch.10 (Iahvé/Einstein) / line 2230",
+   "quote_fr": "de moins en moins au Dieu-du-catéchisme, barbu attentif aux prières dévotes",
+   "note": "Sendy mocks the bearded catechism God ('Barbapou', l.1950) but does not describe a collapse of belief; no angels/devil imagery."
+  },
+  {
+   "id": "I196",
+   "status": "same",
+   "locator": "Part II (Précession) / line 3611",
+   "quote_fr": "Et quand le point vernal est entré dans les Poissons, du « peuple élu » sortit la « Nouvelle Alliance », c’est-à-dire l’Eglise chrétienne dans le symbolisme de laquelle les poissons sont essentiels",
+   "note": "Precessional ages tied to religions: Taurus/Apis, Aries/Moses, Pisces/Church, Aquarius = Golden Age; Aquarius dated 21 March 1950 (l.3594), not 1946."
+  },
+  {
+   "id": "I197",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Zephaniah not cited."
+  },
+  {
+   "id": "I198",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Not discussed."
+  },
+  {
+   "id": "I199",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Not discussed."
+  },
+  {
+   "id": "I200",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Not discussed."
+  },
+  {
+   "id": "I201",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Isa 42:3 not cited; but the embedded gloss 'Elohim = plural of Eloah' is present (l.181)."
+  },
+  {
+   "id": "I202",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Not discussed."
+  },
+  {
+   "id": "I203",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Isa 43 not cited; the State of Israel as fulfilment 'conformément à la lettre du texte biblique' is a theme (ch.8, ch.12)."
+  },
+  {
+   "id": "I204",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Isa 43:8-13 not cited; letter-perfect preservation by the Judeans is a theme (l.1399-1406)."
+  },
+  {
+   "id": "I205",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Not discussed."
+  },
+  {
+   "id": "I206",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Not discussed."
+  },
+  {
+   "id": "I207",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Not discussed."
+  },
+  {
+   "id": "I208",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Not discussed."
+  },
+  {
+   "id": "I209",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Not discussed."
+  },
+  {
+   "id": "I210",
+   "status": "mentioned",
+   "locator": "Part II (Précession) / line 3676",
+   "quote_fr": "obliger tous les chrétiens aisés à manger du poisson le vendredi était une monstruosité économique",
+   "note": "Fish-Friday discussed, but as Pisces symbolism (and the 1967 abolition); Mt 15:11 not cited."
+  },
+  {
+   "id": "I211",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Not discussed."
+  },
+  {
+   "id": "I212",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Not discussed."
+  },
+  {
+   "id": "I213",
+   "status": "mentioned",
+   "locator": "Part I ch.11 (La Lune) / line 2656",
+   "quote_fr": "Aucun problème non plus pour les kabalistes : ils n’ont jamais traduit « Elohim » par « Dieu »",
+   "note": "Kabbalah discussed at length (Safran, gematria, Eliezer=318) as compatible with the hypothesis; nothing on Shi'ur Qomah/parasangs."
+  },
+  {
+   "id": "I214",
+   "status": "same",
+   "locator": "Part I ch.5 (Bible cohérente) / line 1407",
+   "quote_fr": "la Chine, l’Inde, la Perse faisaient état — comme l’Egypte — d’une Tradition que leurs prêtres proclamaient déjà plusieurs fois millénaires, et dont la trame est identique à celle de la Loi de Moïse",
+   "note": "All First Civilisations' myths relate the same Celestials (also Mount Meru, Amerindian maize, Greek gods in St Peter's); no Andes/Himalaya bases, Mormons, Islam."
+  },
+  {
+   "id": "I215",
+   "status": "mentioned",
+   "locator": "Part I ch.2 (Plateforme-escale) / line 448",
+   "quote_fr": "La Vie est apparue sur Terre, et y a évolué comme l’enseignent les meilleures autorités universitaires",
+   "note": "Opposite stance: Sendy accepts natural evolution (life ~1 billion years, man ~-600,000); Elohim found men already human."
+  },
+  {
+   "id": "I216",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Sodom not discussed."
+  },
+  {
+   "id": "I217",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Not applicable / not discussed."
+  },
+  {
+   "id": "I218",
+   "status": "mentioned",
+   "locator": "Part I ch.3 (Cosmonautes) / line 593",
+   "quote_fr": "il avait fallu renoncer à l’idée d’une Terre située au centre de l’univers",
+   "note": "Galileo/geocentrism theme (also l.3892-3905); Copernicus not named."
+  },
+  {
+   "id": "I219",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Jubilee not discussed."
+  },
+  {
+   "id": "I220",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Not discussed."
+  },
+  {
+   "id": "I221",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Not discussed."
+  },
+  {
+   "id": "I222",
+   "status": "mentioned",
+   "locator": "Part III ch.deuxième (Gen 2) / line 4566",
+   "quote_fr": "mystérieux « arbres », l’un « de la science du bien et du mal » et l’autre « de vie »",
+   "note": "Tree of life left 'en suspens'; guarded by the manufactured cherubim weapon; no surgery/longevity reading."
+  },
+  {
+   "id": "I223",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "No cloning, council of eternals or scientific last judgement."
+  },
+  {
+   "id": "I224",
+   "status": "similar",
+   "locator": "Part I ch.1 (Anges) / line 284",
+   "quote_fr": "concevoir des Elohim concrets, « Anges » venus du ciel",
+   "note": "Elohim = concrete 'Anges' come from the sky, but by Sendy's translation choice, not self-designation by the visitors."
+  },
+  {
+   "id": "I225",
+   "status": "same",
+   "locator": "Part I ch.6 (Hébreu) / line 1603",
+   "quote_fr": "dans une langue qui serait la souche des langues sémitiques, c’est-à-dire la langue de « l’Ange de Iahvé »",
+   "note": "Hebrew 'pas comme les autres', not derived from Canaanite, possibly the language of the 'Ange de Iahvé'; Elohim named day/night 'dans leur langue' (l.4763)."
+  },
+  {
+   "id": "I226",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Not discussed."
+  }
+ ],
+ "sendy_only": [
+  {
+   "locator": "Part I ch.1 (Anges) / line 195",
+   "passage": "Elohim (throughout)",
+   "reading": "Unify the translation of Elohim as 'les Anges' — Byzantine debate on sexed angels as precedent.",
+   "quote_fr": "une lecture de la Bible où la traduction de « Elohim » est uniﬁée… uniﬁée non sur « Dieu » mais sur « les Anges »"
+  },
+  {
+   "locator": "Part I ch.1 (Anges) / line 343",
+   "passage": "Gen 6:2",
+   "reading": "'béné Ha-Elohim' must mean 'sons of the Elohim'; Dhorme bent the text.",
+   "quote_fr": "le texte hébreu dit « béné Ha-Elohim », ce qui sans contestation possible signiﬁe « les ﬁls des Elohim »"
+  },
+  {
+   "locator": "Part III ch.premier (Gen 1) / line 4205",
+   "passage": "Gen 1:1",
+   "reading": "'Créer' = drawing planets out of anonymity by naming them; Earth = 'Eretz'.",
+   "quote_fr": "les hommes créèrent, en les tirant du néant de l’anonymat, les planètes du système"
+  },
+  {
+   "locator": "Part I ch.3 (Cosmonautes) / line 616",
+   "passage": "Gen 1:2",
+   "reading": "'Déserte et vide… ténèbres' = Earth under opaque Würm-III glaciation clouds (~-21,000), Venus-like.",
+   "quote_fr": "avait amené la Terre à se trouver entourée de nuages opaques, que la lumière du Soleil ne pouvait percer… ce qui rejoint la description donnée au début du texte biblique"
+  },
+  {
+   "locator": "Part I ch.11 (La Lune) / line 2536",
+   "passage": "Moon (thesis)",
+   "reading": "Celestials deliberately braked the Moon into captured rotation to use it as observatory/staging base ('Orly cosmonautique').",
+   "quote_fr": "il fallait la « stabiliser », de façon qu’elle présente à la Terre toujours la même face"
+  },
+  {
+   "locator": "Part III ch.premier (Gen 1) / line 4269",
+   "passage": "Gen 1 (days 1-3)",
+   "reading": "Celestials based on cloud-free Mars, shuttling to the Moon, during the first 'Tranches'.",
+   "quote_fr": "J’imagine les Célestes installant sur Mars, libre de nuages en pleine glaciation en raison même de sa pauvreté en eau et en atmosphère, leur base de départ"
+  },
+  {
+   "locator": "Part III ch.premier (Gen 1) / line 4332",
+   "passage": "Job 38:7",
+   "reading": "Morning stars' choir = congratulatory telegrams from inhabited worlds; sons of Elohim acclaim master builder Iahvé.",
+   "quote_fr": "nous pouvons même imaginer que « le chœur des étoiles » était fait des télégrammes de félicitations envoyés par tous les mondes habités connus"
+  },
+  {
+   "locator": "Part III ch.premier (Gen 1) / line 4309",
+   "passage": "Gen 1:5",
+   "reading": "Days begin at evening because each 'Tranche' starts with a night of planning.",
+   "quote_fr": "chacune des six « tranches » commence par « la nuit » où l’on tâtonne à établir le programme"
+  },
+  {
+   "locator": "Part III ch.deuxième (Gen 2) / line 4516",
+   "passage": "Gen 2:7",
+   "reading": "Man 'formed from the dust' = glaciation survivors emerging from caves; 'insufflation of soul' = an agreement/education.",
+   "quote_fr": "vu littéralement « surgir du sol » des bipèdes à leur image, mais aussi dépourvus « d’âme » que les animaux"
+  },
+  {
+   "locator": "Part III ch.deuxième (Gen 2) / line 4562",
+   "passage": "Gen 2:15",
+   "reading": "Mission to 'guard' Eden implies hostile outside natives.",
+   "quote_fr": "« garder » implique l’existence de prédateurs possibles"
+  },
+  {
+   "locator": "Part III ch.deuxième-suite / line 4815",
+   "passage": "Gen 2:21-24",
+   "reading": "Eve from the rib = Iahvé teaching obstetrics and paternity, ending the Mother-Goddess cult.",
+   "quote_fr": "Iahvé va donc s’occuper de l’homme, qu’il amène à comprendre des rudiments d’obstétrique"
+  },
+  {
+   "locator": "Part III ch.premier-suite / line 4691",
+   "passage": "Pauline theology",
+   "reading": "Paul made the Word identifiable with Zeus so barbarians would accept the Law of Moses.",
+   "quote_fr": "Paul leur a proposé une interprétation du texte biblique où le Verbe, dépassant leur entendement, était identiﬁable à Zeus"
+  },
+  {
+   "locator": "Part III ch.IV-XI / line 4967",
+   "passage": "Gen 9:13; Rev 21",
+   "reading": "The covenant bow 'in the cloud' is on the Moon; the Moon will be the Heavenly Jerusalem.",
+   "quote_fr": "La Lune sera, si « l’arc d’alliance » s’y trouve, la « Jérusalem Céleste »"
+  },
+  {
+   "locator": "Part I ch.4 (Tour de Babel) / line 1008",
+   "passage": "Gen 11 / Buddhist Meru",
+   "reading": "Mount Meru's 84,000 yojanas give Babel's height: the 'head of the tower' reaches lunar orbit.",
+   "quote_fr": "ce qui, même dans l’estimation minimale, situe la « tête de la tour » dans l’orbite lunaire"
+  },
+  {
+   "locator": "Part I ch.4 (Tour de Babel) / line 913",
+   "passage": "Gen 11:3-4",
+   "reading": "WWII cargo cult (mock control tower) as analogue of Babel's brick-and-bitumen tower.",
+   "quote_fr": "ces primitifs ont alors construit, dans l’espoir de faire revenir « les dieux blancs », un aérodrome"
+  },
+  {
+   "locator": "Part I ch.7 (Kabale) / line 1747",
+   "passage": "Gen 14:14; 15:2",
+   "reading": "Gematria: Eliezer = 318 = Abraham's warriors; Eliezer perhaps a Celestial or a text left by one.",
+   "quote_fr": "la valeur numérale des lettres formant le nom « Eliézer » est 318"
+  },
+  {
+   "locator": "Part I ch.5 (Bible cohérente) / line 1183",
+   "passage": "Gen 32",
+   "reading": "Jacob's wrestling 'man' is an envoy from the sky; Israel = 'able to measure oneself against the Celestials'.",
+   "quote_fr": "« Isra-El », ce qui veut dire « de taille à se mesurer avec les Célestes »"
+  },
+  {
+   "locator": "Part I ch.5 (Bible cohérente) / line 1137",
+   "passage": "Ex 6:3",
+   "reading": "Abraham never knew the name Iahvé and worshipped Shaddaï — half-pagan.",
+   "quote_fr": "il « n’a jamais connu le nom de Iahvé » et que, jusqu’à sa mort il a adoré le dieu Shaddaï"
+  },
+  {
+   "locator": "Part I ch.9 (Iahvé/Carnot) / line 2044",
+   "passage": "Iahvé (Exodus)",
+   "reading": "Iahvé speaking to Moses = an immaterial Principle like Carnot's principle, spoken through a teacher.",
+   "quote_fr": "Cela nous permet de le concevoir (sans l’imaginer) comparable à ce qu’est le Principe de Carnot"
+  },
+  {
+   "locator": "Part I ch.9 (Iahvé/Carnot) / line 2085",
+   "passage": "Iahvé (Gen 1-9)",
+   "reading": "In Genesis Iahvé is 'patron des Elohim' — possibly their hereditary king or elected president bearing the Principle's name.",
+   "quote_fr": "l’usage de dénommer « Iahvé » leur roi héréditaire, ou leur président élu, est concevable chez les Elohim"
+  },
+  {
+   "locator": "Part I ch.8 (Etat d'Israël) / line 1990",
+   "passage": "Ex 4:16; 7:1; John 10:35",
+   "reading": "'Dieu' (lower case) = one who has heard the Word; Mary 'mère de dieu' read accordingly.",
+   "quote_fr": "« La Loi appelle dieux ceux qui ont entendu le Verbe » [X, 35]"
+  },
+  {
+   "locator": "Part II (Précession) / line 3653",
+   "passage": "Ex 32; precession",
+   "reading": "Moses honours the Ram (Aries) and adds the detested Calf (son of Taurus) as a 'safety lock'; Church adds the Lamb to Pisces.",
+   "quote_fr": "au Bélier, honoré comme il convient à l’emplacement du point vernal, Moïse ajoute le Veau"
+  },
+  {
+   "locator": "Part I ch.4 (Tour de Babel) / line 736",
+   "passage": "Gen 5-6",
+   "reading": "Noah is a bastard of the Elohim, entrusted with their 'things and teachings'.",
+   "quote_fr": "Noé [cf. Gen. V] est un bâtard des Elohim"
+  },
+  {
+   "locator": "Part I ch.3 (Cosmonautes) / line 648",
+   "passage": "Gen 1-2:2; Gen 9",
+   "reading": "The seventh 'day' (~-8000) = Noah's mission and Leroi-Gourhan's 'explosion novatrice'.",
+   "quote_fr": "le « septième jour » de la Genèse correspond à la fois à la mission de « créer le monde des hommes » conﬁée à Noé"
+  },
+  {
+   "locator": "Part I ch.4 (Tour de Babel) / line 1051",
+   "passage": "Ex 2-3",
+   "reading": "Moses, an initiated priest of Pharaoh, reconstituted the Celestials' teaching (from the Great Pyramid) in Midian.",
+   "quote_fr": "un prêtre de Pharaon nommé Moïse est parvenu, dans le désert de Madian où il s’était retiré pour étudier, à surmonter la « confusion des langues »"
+  },
+  {
+   "locator": "Part II (Agriculture) / line 3232",
+   "passage": "Amerindian myth",
+   "reading": "Maize, with no wild ancestor, confirms the myth of a grain brought by Celestials.",
+   "quote_fr": "Le maïs s’obstine à conﬁrmer son mythe, de Célestes ayant apporté une graminée qui n’existe pas sur notre planète à l’état sauvage"
+  }
+ ]
+}

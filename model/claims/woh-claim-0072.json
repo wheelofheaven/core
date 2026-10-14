@@ -1,0 +1,158 @@
+{
+  "$schema": "../schemas/claim.schema.json",
+  "schema_version": "0.1.0",
+  "id": "woh-claim-0072",
+  "title": "Sendy and the Messages — resemblance, difference, dependence",
+  "version": "0.2.0",
+  "lifecycle": "accepted",
+  "statement": "The inspected French witnesses of Jean Sendy’s pre-1974 books and the first Raëlian Message share a substantial cluster of technological readings of Genesis 1–11 — among them life’s history read as laboratory trial and error, forbidden knowledge as scientific books, the serpent as a dissident, a deliberate technological Flood with preserved biological material, Babel as a launch project, hybrid offspring of celestials and humans, and an arrival or decision dated some 22,000 years ago — while giving that material different biological histories, narrative agents, sources of authority, and expectations of renewed contact. Beyond Genesis the overlap largely ends: of the Message’s 147 inventoried commentary items on Israel, the prophets, and Jesus, 105 have no counterpart in the five inspected Sendy books, whose thesis of departure without return excludes the continuing contact that this commentary presupposes. Selective literary adaptation is therefore a serious hypothesis for the Message’s Genesis chapter but cannot account for the book as a whole without a further, unidentified body of sources; neither direct dependence nor composition independent of Sendy is established. Differences and absences cannot establish independence, and resemblance cannot establish copying without further source-critical work.",
+  "claim_kind": "interpretation",
+  "framework_relation": "comparative",
+  "evidence_status": [
+    "scoped",
+    "contested"
+  ],
+  "public_label": "inferred",
+  "scope": {
+    "includes": [
+      "Passage-level resemblance and divergence in the inspected French digital witnesses, with later-edition limits explicit.",
+      "Natural evolution and later intervention in Sendy contrasted with the first Message’s successive biological designs.",
+      "Lost inheritance, medievalism, and the rejection of repeated visits in Ces dieux contrasted with continuing contact, a messenger, and an embassy in the first Message.",
+      "Distinct literary projects remain compatible with selective adaptation; direct borrowing, indirect influence, and shared-source recombination require different evidence.",
+      "The testimony’s selected comparisons and Sendy’s apparent accusation assessed at their actual access and evidential levels.",
+      "A passage inventory of the first Message’s scriptural and mythological commentary (226 items) classified against Les cahiers de cours de Moïse, La lune clé de la Bible, Ces dieux, Nous autres, and L’ère du Verseau, with conservative item-level coding.",
+      "Sendy’s explicit exclusion of return, radio contact with prophets, and visitors at the burning bush, and his denial that Ezekiel saw cosmonauts, as limits on what a Sendy blueprint could supply.",
+      "The canon’s own account of the commentary’s origin, reported in the framework voice and labelled as such.",
+      "Chronology of composition: Sendy’s books 1963–1970; the reported encounter of 13 December 1973; printing in autumn 1974 per the second Message; Vorilhon’s self-reported biography."
+    ],
+    "excludes": [
+      "Proof of copying, numerical probabilities of dependence, or claims that differences establish independent origin.",
+      "Verification or refutation of extraterrestrial encounters or judgments about authorial sincerity.",
+      "First-edition textual findings, whole-canon absence claims, or a comprehensive control-corpus analysis.",
+      "Endorsement of the sources’ scientific, linguistic, or medieval-historical assertions.",
+      "Adjudication of the testimony’s institutional or personal allegations.",
+      "Claims that the post-Genesis commentary is original to the Message relative to the wider 1960s ancient-astronaut literature, which has not been surveyed.",
+      "Measures of depth or quality of commentary; the inventory measures extent and agreement only.",
+      "Les dieux nous sont nés (1966), not inspected."
+    ]
+  },
+  "source_references": [
+    {
+      "source_id": "sendy-ces-dieux",
+      "locator": "Ch. 2 (OEBPS/PL4.xhtml), evolution; chs. 18–19 and 27, biological reconstruction; chs. 28–31 (PL30–PL33), forbidden knowledge, serpent, Noah; ch. 24 (PL26), eternity; ch. 34 (PL36), departure and rejected later visits. Ch. 35 (PL37), Babel as a failed launch project, deceased original visitors and possible living descendants; chs. 1 and 9, method and chronology.",
+      "role": "comparative",
+      "access": "excerpt",
+      "note": "../../source-notes/sendy-ces-dieux.md"
+    },
+    {
+      "source_id": "sendy-ere-du-verseau",
+      "locator": "Ch. 1 (OEBPS/PL4.xhtml); ch. 16 (PL31.xhtml), immaterial principle and medievalism; ch. 17 (PL33.xhtml), Lucifer-Satan and the celestial group; ch. 18 (PL34.xhtml), evolution, fish sentence, interpretive method.",
+      "role": "comparative",
+      "access": "excerpt",
+      "note": "../../source-notes/sendy-ere-du-verseau.md"
+    },
+    {
+      "source_id": "nous-autres-gens-du-moyen-ge",
+      "locator": "Opening OEBPS/PL1.xhtml: concession-holder thesis; medievalist resurrection; hypothesis rather than gospel; expected lunar confirmation.",
+      "role": "comparative",
+      "access": "excerpt",
+      "note": "../../source-notes/nous-autres-gens-du-moyen-ge.md"
+    },
+    {
+      "source_id": "les-temps-messianiques-ouverture-sur-le-cosmos",
+      "locator": "Ch. 17, OEBPS/PL21.xhtml, paragraph beginning Je ne croyais pas un mot; preceding June 1975 radio discussion; evolutionary passages in the later cosmological discussion.",
+      "role": "comparative",
+      "access": "excerpt",
+      "note": "../../source-notes/les-temps-messianiques-ouverture-sur-le-cosmos.md"
+    },
+    {
+      "source_id": "a-gentlemans-joyous-esotericism",
+      "locator": "Introduction; sections 12–15, especially printed pp. 18 and 20–21; bibliography.",
+      "role": "scholarly_context",
+      "access": "excerpt",
+      "note": "../../source-notes/a-gentlemans-joyous-esotericism.md"
+    },
+    {
+      "source_id": "sendy-lune-cle-bible",
+      "locator": "Contents; ch. 9 (Iahvé et le principe de Carnot): Iahvé as patron des Elohim and conceivable title of an elected president; Würm III and arrival around −22,000; ch. 15, Genesis exposition; passages on lunar confirmation, compatibility of biology, and scientific hypothesis.",
+      "role": "comparative",
+      "access": "excerpt",
+      "note": "../../source-notes/sendy-lune-cle-bible.md"
+    },
+    {
+      "source_id": "the-book-which-tells-the-truth",
+      "locator": "French project base text: TBWTT-1:46,53; 2:2–5,16–39,58,68; 3:113; 5:4,56,61–66; 6:7,21–22; 7:29–31. Represents the 2005 text, not an inspected first printing. Also 1:15–24,44,54–55; 2:72–76 (Babel); 5:57–60 (creation and purpose).",
+      "role": "primary_text",
+      "access": "project_digitization",
+      "note": "../../source-notes/the-book-which-tells-the-truth.md"
+    },
+    {
+      "source_id": "testimony-of-sage-ali",
+      "locator": "Letter dated 6 August 2010, inspected via 5 July 2019 repost: opening, Sendy comparison list, signature, and postscript.",
+      "role": "critical",
+      "access": "excerpt",
+      "note": "../../source-notes/testimony-of-sage-ali.md"
+    },
+    {
+      "source_id": "testimony-of-mark-woodgate",
+      "locator": "Opening account of learning about Sendy in 2010, subsequent reading, list of parallels, and references to other testimonies.",
+      "role": "critical",
+      "access": "excerpt",
+      "note": "../../source-notes/testimony-of-mark-woodgate.md"
+    },
+    {
+      "source_id": "testimony-of-marie-helene-parent",
+      "locator": "English paragraph beginning One night during dinner and corresponding French paragraph beginning Un soir, en soupant.",
+      "role": "critical",
+      "access": "excerpt",
+      "note": "../../source-notes/testimony-of-marie-helene-parent.md"
+    },
+    {
+      "source_id": "extraterrestrials-took-me-to-their-planet",
+      "locator": "ETTMTTP-1:7–61 (pre-1973 biography), 1:63–70 (writing, manuscript, printing in autumn 1974); 2:95 (president of the Council named Iahvé).",
+      "role": "primary_text",
+      "access": "project_digitization",
+      "note": "../../source-notes/extraterrestrials-took-me-to-their-planet.md"
+    },
+    {
+      "source_id": "sendy-cahiers-moise",
+      "locator": "Whole book checked against the inventory: Genesis 1–11 readings (Théosites, M. Satan, Babel launch tower, atomic Sodom, nuclear Flood); ark of the covenant as Moses’ notebooks.",
+      "role": "comparative",
+      "access": "excerpt",
+      "note": "../../source-notes/sendy-cahiers-moise.md"
+    }
+  ],
+  "dependencies": [],
+  "alternatives": [
+    {
+      "id": "alt-0072-direct-adaptation",
+      "statement": "Raël selectively adapted Sendy’s distinctive interpretations and transformed their narrative and religious purpose; differences are expected under adaptation."
+    },
+    {
+      "id": "alt-0072-mediated-influence",
+      "statement": "Relevant motifs reached Raël indirectly through other writers, conversation, lectures, or a shared milieu rather than direct reading."
+    },
+    {
+      "id": "alt-0072-shared-sources",
+      "statement": "The parallels reflect independent recombination of biblical, esoteric, and technological materials already circulating beyond Sendy."
+    },
+    {
+      "id": "alt-0072-edition-effects",
+      "statement": "Some apparent parallels or differences are amplified by later editions, translations, or retrospective selection rather than matching the earliest available texts."
+    }
+  ],
+  "revision_triggers": [
+    "An early French edition materially changes one of the compared passages.",
+    "Documentary evidence establishes or excludes a relevant route of access before composition.",
+    "A systematic control corpus identifies closer earlier precedents for the distinctive cluster.",
+    "Broader reading changes the scope of a proposed difference, including variation within Sendy’s works.",
+    "The original testimony or inspected English editions materially differ from the repost or current paraphrase.",
+    "A control survey of 1960s French and international ancient-astronaut literature locates earlier precedents for the Message’s post-Genesis commentary.",
+    "Les dieux nous sont nés (1966) or another Sendy text contains the post-Genesis readings found absent here."
+  ],
+  "controlling_document": "../../docs/framework/sendy-messages-literary-comparison.md",
+  "public_derivatives": [
+    "wheelofheaven/data-content:articles/sendy-and-the-raelian-messages.md"
+  ],
+  "last_reviewed": "2026-10-14"
+}

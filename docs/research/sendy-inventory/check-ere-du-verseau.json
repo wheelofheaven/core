@@ -1,0 +1,1752 @@
+{
+ "book": "Jean Sendy, L'ère du Verseau: fin de l'illusion humaniste (Robert Laffont, 1970; FeniXX EPUB 2019)",
+ "book_key": "ere-du-verseau",
+ "items": [
+  {
+   "id": "I001",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "No telepathic prompt; Sendy only advises reading Genesis in Hebrew or Dhorme (line 102)."
+  },
+  {
+   "id": "I002",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Not discussed."
+  },
+  {
+   "id": "I003",
+   "status": "mentioned",
+   "locator": "ch. 18 (PL34) / line 1250",
+   "quote_fr": "Nous avons la un excellent exemple du peu de crédit que l’on peut faire aux traductions de la Bible",
+   "note": "Sendy holds the Hebrew text intact to the letter and blames translators (not copyists) for distortion; opposite emphasis to the Message."
+  },
+  {
+   "id": "I004",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Nothing on lab life banned at home; Sendy's genetic engineering concerns breeding a 'race des dieux' in orbit for the voyage (lines 1183–1190)."
+  },
+  {
+   "id": "I005",
+   "status": "similar",
+   "locator": "ch. 18 (PL34) / line 1332; ch. 16 (PL31) / line 1058",
+   "quote_fr": "Les Galaxiens venus du ciel, on peut les appeler Célestes",
+   "note": "Elohim is plural ('les dieux', via Voltaire) and names Galaxians who came from the sky, but Sendy gives no etymology 'those who came from the sky'."
+  },
+  {
+   "id": "I006",
+   "status": "similar",
+   "locator": "ch. 1 (PL4) / line 142; ch. 10 (PL21) / line 691",
+   "quote_fr": "envoyer par exemple « l’esprit de l’homme voguer au-dessus des nuages sous lesquels Vénus est en tohu-bohu et privée de lumière »",
+   "note": "Gen 1:2 read as a spacecraft passing over clouds, but applied to human Venus probes as a 'renewal' of Genesis, not to Elohim satellites over Earth."
+  },
+  {
+   "id": "I007",
+   "status": "similar",
+   "locator": "ch. 17 (PL33) / line 1175; ch. 18 / line 1268",
+   "quote_fr": "Le texte biblique nous montre les Élohim passant un « jour » entier à faire revenir la lumière sur Terre.",
+   "note": "Day one = Elohim restoring light by dispersing post-glaciation clouds, not a test of solar radiation."
+  },
+  {
+   "id": "I008",
+   "status": "same",
+   "locator": "ch. 17 (PL33) / line 1176; ch. 18 (PL34) / line 1248",
+   "quote_fr": "Chacun de ces « jours », je l’ai montré dans mes livres précédents, correspond au temps qu’il faut à la précession des équinoxes pour faire passer le Soleil de printemps d’un signe du Zodiaque dans le précédent, c’est-à-dire 2 160 ans.",
+   "note": "Creation 'day' = one precessional sign (2,160 years); Sendy also argues from Hebrew ehad 'UN jour' vs rishon."
+  },
+  {
+   "id": "I009",
+   "status": "similar",
+   "locator": "ch. 17 (PL33) / line 1177",
+   "quote_fr": "Le deuxième « jour » est en entier consacré à l’établissement d’un régime de pluies torrentielles.",
+   "note": "Second day = establishing a rain regime (atmospheric engineering), not 'waters above = clouds' as such."
+  },
+  {
+   "id": "I010",
+   "status": "similar",
+   "locator": "ch. 17 (PL33) / line 1178",
+   "quote_fr": "« afin que les eaux de dessous les cieux s’amassent en un seul lieu, et qu’apparaisse la Sèche » (GEN. I, 9) qu’il est fait état d’une tranche de grands travaux supposant une visite sur le chantier",
+   "note": "Gen 1:9 = engineering works on site; no single original continent, explosions or continental drift."
+  },
+  {
+   "id": "I011",
+   "status": "similar",
+   "locator": "ch. 17 (PL33) / lines 1160–1161",
+   "quote_fr": "Le texte biblique montre des Galaxiens attelés à la reconstitution, très rationnelle, de l’équilibre biologique d’avant le tohu-bohu",
+   "note": "Vegetation is re-introduced to restore pre-glaciation ecology, not designed by artists for beauty/reproduction."
+  },
+  {
+   "id": "I012",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Gen 1:14 not discussed."
+  },
+  {
+   "id": "I013",
+   "status": "similar",
+   "locator": "ch. 17 (PL33) / lines 1161, 1225–1226",
+   "quote_fr": "tous les oiseaux sont « créés » au cinquième « jour » (I, 21)",
+   "note": "Birds/sea creatures are 'resurrected' species of the pre-cataclysm biosphere; no artists' competitions."
+  },
+  {
+   "id": "I014",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "No dinosaurs/dragons."
+  },
+  {
+   "id": "I015",
+   "status": "similar",
+   "locator": "ch. 17 (PL33) / lines 1161–1163",
+   "quote_fr": "ils ne pouvaient rétablir un équilibre biologique sans y réintroduire le moustique et la panthère",
+   "note": "Land animals re-introduced by Galaxians for ecological balance; no claim the speaker is a creator."
+  },
+  {
+   "id": "I016",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "No team-per-race claim; 'fifteen couples' arrive together (line 1150)."
+  },
+  {
+   "id": "I017",
+   "status": "same",
+   "locator": "ch. 16 (PL31) / lines 1058, 1061; ch. 15 / line 1045",
+   "quote_fr": "pour laquelle les Élohim de la Genèse étaient des Galaxiens, sexués comme vous et moi",
+   "note": "Gen 1:26–27 taken literally: Elohim are physically like humans (Adam Kadmon prototype); the plural is stressed."
+  },
+  {
+   "id": "I018",
+   "status": "similar",
+   "locator": "ch. 17 (PL33) / lines 1157–1159; ch. 9 / line 597",
+   "quote_fr": "leur premier souci devrait être de se faire construire un Eden fortifié, et de le faire garder par des échantillons d’indigènes",
+   "note": "Eden = the Galaxians' fortified colony in the Middle East, guarded by selected natives; not a laboratory located in Israel on a single continent."
+  },
+  {
+   "id": "I019",
+   "status": "similar",
+   "locator": "ch. 18 (PL34) / lines 1302, 1350",
+   "quote_fr": "Le Bien et le Mal dont la connaissance était interdite à l’homme concernait donc bien une échelle de valeurs à l’usage exclusif des Élohim",
+   "note": "Forbidden knowledge = the Elohim's own value scale ('Bien' = efficiency) and the fact they were not divine; not 'scientific books'."
+  },
+  {
+   "id": "I020",
+   "status": "similar",
+   "locator": "ch. 17 (PL33) / lines 1165–1166",
+   "quote_fr": "Le meilleur moyen de le savoir, c’était bien de consulter l’indigène, non ? Et d’apprendre quelques mots de sa langue, par la même occasion",
+   "note": "Naming = Elohim checking resurrected species with the native and learning his language, not zoology lessons for Adam."
+  },
+  {
+   "id": "I021",
+   "status": "same",
+   "locator": "ch. 18 (PL34) / lines 1305–1306, 1353",
+   "quote_fr": "Lucifer veut porter la lumière aux hommes tout de suite. Satan veut que les hommes sachent tout, tout de suite.",
+   "note": "Serpent = a dissident creator (one Théosite, Satan-Lucifer, not a group) who prematurely reveals that the Elohim are not divine but of human nature."
+  },
+  {
+   "id": "I022",
+   "status": "mentioned",
+   "locator": "ch. 19 (PL36) / line 1344",
+   "quote_fr": "chasser l’homme dès que celui-ci découvre le Bien et le Mal et prend honte de sa nudité",
+   "note": "Listed only among the 'incoherences' of the seventh day."
+  },
+  {
+   "id": "I023",
+   "status": "similar",
+   "locator": "ch. 17 (PL33) / line 1212",
+   "quote_fr": "à partir d’eux-mêmes amputés de Lucifer-Satan laissé sur Terre",
+   "note": "The dissident is left on Earth while the other Elohim prepare to leave; no sentence by a home-planet government."
+  },
+  {
+   "id": "I024",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Gen 3:21 not discussed."
+  },
+  {
+   "id": "I025",
+   "status": "similar",
+   "locator": "ch. 18 (PL34) / line 1309; ch. 19 / line 1345",
+   "quote_fr": "« L’homme est devenu comme l’un de nous, grâce à la science du Bien et du Mal », lui fait dire textuellement la Genèse, III, 22.",
+   "note": "Gen 3:22's 'us' read as physical Elohim whom man now equals; nothing on the tree of life, longevity or a chosen-people contest."
+  },
+  {
+   "id": "I026",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Cherubim/flaming sword not discussed."
+  },
+  {
+   "id": "I027",
+   "status": "similar",
+   "locator": "ch. 17 (PL33) / line 1206",
+   "quote_fr": "les Élohim tellement adaptés à la vie terrestre qu’Abel et Caïn leur apportent le produit de l’élevage et de l’agriculture pratiqués hors d’Eden",
+   "note": "Offerings go to physical Elohim, but as a sign of the Elohim's adaptation/decline, not a loyalty test."
+  },
+  {
+   "id": "I028",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Patriarchal longevity not discussed."
+  },
+  {
+   "id": "I029",
+   "status": "similar",
+   "locator": "ch. 19 (PL36) / lines 1371, 1375–1377; front matter PL46 / line 30",
+   "quote_fr": "en « fécondant les filles des hommes » qui leur auraient donné des bâtards capables de faire fonctionner les installations terrestres",
+   "note": "Sons of Elohim = the Elohim themselves (possibly via artificial insemination), breeding caretakers before departure; not exiled creators taking wives. Also cites Rashi: 'êtres célestes accomplissant une mission'."
+  },
+  {
+   "id": "I030",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Gen 6:3 not discussed."
+  },
+  {
+   "id": "I031",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Gen 6:4 heroes/Nephilim not discussed ('géant' hits are astronomical)."
+  },
+  {
+   "id": "I032",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Gen 6:5 not discussed; Sendy cites 6:7 for 'created' (named) men only (line 1392)."
+  },
+  {
+   "id": "I033",
+   "status": "similar",
+   "locator": "ch. 19 (PL36) / lines 1374, 1380–1382; ch. 20 / line 1391",
+   "quote_fr": "Il en fallait de l’imagination, aux auteurs de la Tradition, pour inventer un vaisseau clos, chargé de matériel génétique",
+   "note": "Ark = a closed vessel ('La capsule Apollo est un tebah') carrying genetic material; but the Flood is the departing Elohim destroying their own installations, not nuclear missiles from the home planet."
+  },
+  {
+   "id": "I034",
+   "status": "similar",
+   "locator": "ch. 19 (PL36) / line 1380",
+   "quote_fr": "il précise que Noé ne les passa pas SUR un bateau, qu’il les passa DANS une construction close",
+   "note": "Same move of a lexical argument against a floating boat, but on tebah = closed container, not 'above the earth'."
+  },
+  {
+   "id": "I035",
+   "status": "mentioned",
+   "locator": "ch. 19 (PL36) / line 1380",
+   "quote_fr": "Ce texte dit que le « Déluge » dura cent cinquante jours.",
+   "note": "150 days noted; no three-stage rocket."
+  },
+  {
+   "id": "I036",
+   "status": "mentioned",
+   "locator": "ch. 20 (PL38) / line 1390",
+   "quote_fr": "Lorsque Noé et ses fils sortirent de leur « arche », ils constatèrent qu’il n’y avait personne.",
+   "note": "Exit from the ark discussed (nobody known left, Elohim gone); no raven/dove atmosphere test or radioactivity."
+  },
+  {
+   "id": "I037",
+   "status": "similar",
+   "locator": "ch. 21 (PL39) / line 1497; ch. 10 / line 670; ch. 16 / line 1075",
+   "quote_fr": "ce sont les traducteurs volontiers poètes qui ont appelé « arc-en-ciel » ce qui en hébreu est un késheth, c’est-à-dire très expressément un arc lanceur de flèches",
+   "note": "Covenant sign read technologically as an 'arc d'alliance' (archive) left on the Moon and as Sagittarius; not a promise not to destroy."
+  },
+  {
+   "id": "I038",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Not discussed."
+  },
+  {
+   "id": "I039",
+   "status": "mentioned",
+   "locator": "ch. 20 (PL38) / line 1415",
+   "quote_fr": "Noé a une nombreuse progéniture, qui part « essaimer les nations », chacune selon sa langue, précise le chapitre X de la Genèse.",
+   "note": "Table of nations = spread of Noah's line carrying the Tradition."
+  },
+  {
+   "id": "I040",
+   "status": "similar",
+   "locator": "ch. 20 (PL38) / line 1424",
+   "quote_fr": "à tenter dès les Gémeaux d’atteindre l’ « arc d’alliance » dans ces « cieux » où l’objet proclamé de la Tour de Babel était de « placer sa tête »… comme les tours de lancement du Cap Kennedy y placent les leurs",
+   "note": "Babel = a launch tower, but built by heretical holders of the Tradition (sons of Ham?) to reach the lunar 'arc d'alliance' early, not Israel with exiled creators reaching the home planet."
+  },
+  {
+   "id": "I041",
+   "status": "mentioned",
+   "locator": "ch. 20 (PL38) / lines 1416, 1424, 1427",
+   "quote_fr": "ils ont réussi à imposer ce « seul langage » que Santillana appelle « le langage initiatique international » des temps archaïques",
+   "note": "One language = an imposed initiatic language whose loss ends the Golden Age; no dispersal of scientists."
+  },
+  {
+   "id": "I042",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Not found after searching names, verse numbers and key terms."
+  },
+  {
+   "id": "I043",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Not found after searching names, verse numbers and key terms."
+  },
+  {
+   "id": "I044",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Not found after searching names, verse numbers and key terms."
+  },
+  {
+   "id": "I045",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Not found after searching names, verse numbers and key terms."
+  },
+  {
+   "id": "I046",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Not found after searching names, verse numbers and key terms."
+  },
+  {
+   "id": "I047",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Not found after searching names, verse numbers and key terms."
+  },
+  {
+   "id": "I048",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Gen 35:2 not cited; Sendy treats idolatry as loss of the zodiacal thread of the Tradition (lines 1484–1488)."
+  },
+  {
+   "id": "I049",
+   "status": "mentioned",
+   "locator": "ch. 12 (PL24) / line 836",
+   "quote_fr": "invisible et en même temps repérable comme un « buisson ardent » par ses émissions sporadiques éventuelles",
+   "note": "'Buisson ardent' used only as a metaphor for a hidden lunar probe; Exod 3 itself is not read."
+  },
+  {
+   "id": "I050",
+   "status": "mentioned",
+   "locator": "ch. 21 (PL39) / lines 1485, 1493",
+   "quote_fr": "Ce que Moïse reprochait essentiellement à Pharaon, c’est d’avoir oublié les enseignements de Joseph, d’être tombé dans l’idolâtrie",
+   "note": "Exodus = Israel replaying Jacob's displacement of Esau against an idolatrous Egypt; zodiacal, not technological."
+  },
+  {
+   "id": "I051",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Not found after searching names, verse numbers and key terms."
+  },
+  {
+   "id": "I052",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Not found after searching names, verse numbers and key terms."
+  },
+  {
+   "id": "I053",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Not found after searching names, verse numbers and key terms."
+  },
+  {
+   "id": "I054",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Not found after searching names, verse numbers and key terms."
+  },
+  {
+   "id": "I055",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Not found after searching names, verse numbers and key terms."
+  },
+  {
+   "id": "I056",
+   "status": "mentioned",
+   "locator": "ch. 19 (PL36) / line 1367",
+   "quote_fr": "vous y trouverez les Dix Commandements, et pourrez constater qu’il est interdit de « porter un faux témoignage contre son prochain », mais que le mensonge en tant que tel n’est pas mentionné",
+   "note": "Only the point that lying is not forbidden; nothing hygienic or Sinai-related."
+  },
+  {
+   "id": "I057",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Not found after searching names, verse numbers and key terms."
+  },
+  {
+   "id": "I058",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Not found after searching names, verse numbers and key terms."
+  },
+  {
+   "id": "I059",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Not found after searching names, verse numbers and key terms."
+  },
+  {
+   "id": "I060",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Not found after searching names, verse numbers and key terms."
+  },
+  {
+   "id": "I061",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Not found after searching names, verse numbers and key terms."
+  },
+  {
+   "id": "I062",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Not found after searching names, verse numbers and key terms."
+  },
+  {
+   "id": "I063",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Exod 33:20 not cited; Sendy cites Num 12:8 for the forbidden 'figure' of YHWH as Principle (line 1065)."
+  },
+  {
+   "id": "I064",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Not found after searching names, verse numbers and key terms."
+  },
+  {
+   "id": "I065",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Not found after searching names, verse numbers and key terms."
+  },
+  {
+   "id": "I066",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Not found after searching names, verse numbers and key terms."
+  },
+  {
+   "id": "I067",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Not found after searching names, verse numbers and key terms."
+  },
+  {
+   "id": "I068",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Not found after searching names, verse numbers and key terms."
+  },
+  {
+   "id": "I069",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Not found after searching names, verse numbers and key terms."
+  },
+  {
+   "id": "I070",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Not found after searching names, verse numbers and key terms."
+  },
+  {
+   "id": "I071",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Not found after searching names, verse numbers and key terms."
+  },
+  {
+   "id": "I072",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Not found after searching names, verse numbers and key terms."
+  },
+  {
+   "id": "I073",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Not found after searching names, verse numbers and key terms."
+  },
+  {
+   "id": "I074",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Not found after searching names, verse numbers and key terms."
+  },
+  {
+   "id": "I075",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Not found after searching names, verse numbers and key terms."
+  },
+  {
+   "id": "I076",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Not found after searching names, verse numbers and key terms."
+  },
+  {
+   "id": "I077",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Not found after searching names, verse numbers and key terms."
+  },
+  {
+   "id": "I078",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Not found after searching names, verse numbers and key terms."
+  },
+  {
+   "id": "I079",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Not found after searching names, verse numbers and key terms."
+  },
+  {
+   "id": "I080",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Not found after searching names, verse numbers and key terms."
+  },
+  {
+   "id": "I081",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Not found after searching names, verse numbers and key terms."
+  },
+  {
+   "id": "I082",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Not found after searching names, verse numbers and key terms."
+  },
+  {
+   "id": "I083",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Not found after searching names, verse numbers and key terms."
+  },
+  {
+   "id": "I084",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Not found after searching names, verse numbers and key terms."
+  },
+  {
+   "id": "I085",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Not found after searching names, verse numbers and key terms."
+  },
+  {
+   "id": "I086",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Solomon's Temple only as the destroyed Temple dating the Dispersion (line 1515)."
+  },
+  {
+   "id": "I087",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Not found after searching names, verse numbers and key terms."
+  },
+  {
+   "id": "I088",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Not found after searching names, verse numbers and key terms."
+  },
+  {
+   "id": "I089",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Not found after searching names, verse numbers and key terms."
+  },
+  {
+   "id": "I090",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Not found after searching names, verse numbers and key terms."
+  },
+  {
+   "id": "I091",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Not found after searching names, verse numbers and key terms."
+  },
+  {
+   "id": "I092",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Not found after searching names, verse numbers and key terms."
+  },
+  {
+   "id": "I093",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Not found after searching names, verse numbers and key terms."
+  },
+  {
+   "id": "I094",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Not found after searching names, verse numbers and key terms."
+  },
+  {
+   "id": "I095",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Not found after searching names, verse numbers and key terms."
+  },
+  {
+   "id": "I096",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Not found after searching names, verse numbers and key terms."
+  },
+  {
+   "id": "I097",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Not found after searching names, verse numbers and key terms."
+  },
+  {
+   "id": "I098",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Not found after searching names, verse numbers and key terms."
+  },
+  {
+   "id": "I099",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Not found after searching names, verse numbers and key terms."
+  },
+  {
+   "id": "I100",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Not found after searching names, verse numbers and key terms."
+  },
+  {
+   "id": "I101",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Not found after searching names, verse numbers and key terms."
+  },
+  {
+   "id": "I102",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Not found after searching names, verse numbers and key terms."
+  },
+  {
+   "id": "I103",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Not found after searching names, verse numbers and key terms."
+  },
+  {
+   "id": "I104",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Not found after searching names, verse numbers and key terms."
+  },
+  {
+   "id": "I105",
+   "status": "similar",
+   "locator": "ch. 10 (PL21) / lines 679–683",
+   "quote_fr": "Ézéchiel décrit une machine volante, qui évoque un cosmonef.",
+   "note": "Sendy grants a flying machine resembling a spacecraft but explicitly denies Ezekiel saw cosmonauts ('Ézéchiel n’a donc pas vu de cosmonautes'): an 'illumination' drawn from Babylonian imagery, like an Amazonian describing a car from a catalogue."
+  },
+  {
+   "id": "I106",
+   "status": "mentioned",
+   "locator": "ch. 10 (PL21) / line 679",
+   "quote_fr": "Ézéchiel n’a donc pas vu de cosmonautes.",
+   "note": "Wheels/rims not discussed; only the global verdict on Ezekiel 1."
+  },
+  {
+   "id": "I107",
+   "status": "mentioned",
+   "locator": "ch. 10 (PL21) / line 680",
+   "quote_fr": "La description qu’Ézéchiel fait d’une machine volante fait penser à la description qu’un sorcier amazonien pourrait faire d’une auto",
+   "note": "Throne/platform not discussed; only the global verdict on Ezekiel 1."
+  },
+  {
+   "id": "I108",
+   "status": "mentioned",
+   "locator": "ch. 10 (PL21) / line 682",
+   "quote_fr": "Ézéchiel a trouvé des concordances entre la Tradition hébraïque et les illustrations babyloniennes.",
+   "note": "Four faces/helmets not discussed; only the global verdict on Ezekiel 1."
+  },
+  {
+   "id": "I109",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Not found after searching names, verse numbers and key terms."
+  },
+  {
+   "id": "I110",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Not found after searching names, verse numbers and key terms."
+  },
+  {
+   "id": "I111",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Not found after searching names, verse numbers and key terms."
+  },
+  {
+   "id": "I112",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Not found after searching names, verse numbers and key terms."
+  },
+  {
+   "id": "I113",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Not found after searching names, verse numbers and key terms."
+  },
+  {
+   "id": "I114",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Not found after searching names, verse numbers and key terms."
+  },
+  {
+   "id": "I115",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Not found after searching names, verse numbers and key terms."
+  },
+  {
+   "id": "I116",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Not found after searching names, verse numbers and key terms."
+  },
+  {
+   "id": "I117",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Not found after searching names, verse numbers and key terms."
+  },
+  {
+   "id": "I118",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Not found after searching names, verse numbers and key terms."
+  },
+  {
+   "id": "I119",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Not found after searching names, verse numbers and key terms."
+  },
+  {
+   "id": "I120",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Ezek 44 not cited; note Sendy's unrelated idea that sweat dispersal ends the crew's molecular 'eternity' (line 1201)."
+  },
+  {
+   "id": "I121",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Not found after searching names, verse numbers and key terms."
+  },
+  {
+   "id": "I122",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Not found after searching names, verse numbers and key terms."
+  },
+  {
+   "id": "I123",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Not found after searching names, verse numbers and key terms."
+  },
+  {
+   "id": "I124",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Not found after searching names, verse numbers and key terms."
+  },
+  {
+   "id": "I125",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Not found after searching names, verse numbers and key terms."
+  },
+  {
+   "id": "I126",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Not found after searching names, verse numbers and key terms."
+  },
+  {
+   "id": "I127",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Not found after searching names, verse numbers and key terms."
+  },
+  {
+   "id": "I128",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Daniel not cited, though Sendy reads the Aquarian 'accomplissement des temps' as Moon landing plus Jerusalem regained (line 1517)."
+  },
+  {
+   "id": "I129",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Not found after searching names, verse numbers and key terms."
+  },
+  {
+   "id": "I130",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Not found after searching names, verse numbers and key terms."
+  },
+  {
+   "id": "I131",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Zechariah not cited; Sendy's Galaxians do include women ('quinze couples', line 1186)."
+  },
+  {
+   "id": "I132",
+   "status": "similar",
+   "locator": "ch. 22 (PL41) / lines 1641–1645",
+   "quote_fr": "Le Psaume VIII, dans le texte hébreu, remercie YHWH (le Principe Ineffable) d’avoir fait le fils d’Adam presque égal à Élohim.",
+   "note": "Same verse and the near-equality reading, but Sendy blames translators' variants (Dieu/anges) rather than copyists who did not dare write 'equal'."
+  },
+  {
+   "id": "I133",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Not found after searching names, verse numbers and key terms."
+  },
+  {
+   "id": "I134",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Not found after searching names, verse numbers and key terms."
+  },
+  {
+   "id": "I135",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Not found after searching names, verse numbers and key terms."
+  },
+  {
+   "id": "I136",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Job 1–2 not cited; Satan is treated as a dissident Théosite under Gen 3 (see I021)."
+  },
+  {
+   "id": "I137",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Not found after searching names, verse numbers and key terms."
+  },
+  {
+   "id": "I138",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Not found after searching names, verse numbers and key terms."
+  },
+  {
+   "id": "I139",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Not found after searching names, verse numbers and key terms."
+  },
+  {
+   "id": "I140",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Not found after searching names, verse numbers and key terms."
+  },
+  {
+   "id": "I141",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Not found after searching names, verse numbers and key terms."
+  },
+  {
+   "id": "I142",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Not found after searching names, verse numbers and key terms."
+  },
+  {
+   "id": "I143",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Leviathan not mentioned."
+  },
+  {
+   "id": "I144",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Not found after searching names, verse numbers and key terms."
+  },
+  {
+   "id": "I145",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Not found after searching names, verse numbers and key terms."
+  },
+  {
+   "id": "I146",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Not found after searching names, verse numbers and key terms."
+  },
+  {
+   "id": "I147",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Not found after searching names, verse numbers and key terms."
+  },
+  {
+   "id": "I148",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Not found after searching names, verse numbers and key terms."
+  },
+  {
+   "id": "I149",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Not found after searching names, verse numbers and key terms."
+  },
+  {
+   "id": "I150",
+   "status": "same",
+   "locator": "ch. 22 (PL41) / lines 1554–1556",
+   "quote_fr": "Cette identité entre « ce qui est en haut » et « ce qui est en bas » est rappelée par le sceau de Salomon",
+   "note": "Hexagram tied to Hermes' 'what is above is like what is below' (heaven-beings and humans alike, interlaced as the promised alliance); no swastika and no emblem on a craft."
+  },
+  {
+   "id": "I151",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Not found after searching names, verse numbers and key terms."
+  },
+  {
+   "id": "I152",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Not found after searching names, verse numbers and key terms."
+  },
+  {
+   "id": "I153",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Not found after searching names, verse numbers and key terms."
+  },
+  {
+   "id": "I154",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Not found after searching names, verse numbers and key terms."
+  },
+  {
+   "id": "I155",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Not found after searching names, verse numbers and key terms."
+  },
+  {
+   "id": "I156",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Not found after searching names, verse numbers and key terms."
+  },
+  {
+   "id": "I157",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Not found after searching names, verse numbers and key terms."
+  },
+  {
+   "id": "I158",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Not found after searching names, verse numbers and key terms."
+  },
+  {
+   "id": "I159",
+   "status": "mentioned",
+   "locator": "ch. 21 (PL39) / line 1505; ch. 22 / lines 1543, 1551",
+   "quote_fr": "la naissance de Jésus répète celle de Dionysos, fils de Sémélé, vierge de sang royal, et de Zeus",
+   "note": "Virgin birth = missionary device echoing Dionysos; Mary had other sons. No creator paternity."
+  },
+  {
+   "id": "I160",
+   "status": "mentioned",
+   "locator": "ch. 21 (PL39) / lines 1502–1503",
+   "quote_fr": "il suffit d’être « Mage » pour chercher « l’étoile » à partir de laquelle on pourra crier : « Hosanna, nous voilà dans les Poissons ! »",
+   "note": "Magi's star = zodiacal marker of entry into Pisces, not a craft."
+  },
+  {
+   "id": "I161",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Not found after searching names, verse numbers and key terms."
+  },
+  {
+   "id": "I162",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Not found after searching names, verse numbers and key terms."
+  },
+  {
+   "id": "I163",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Not found after searching names, verse numbers and key terms."
+  },
+  {
+   "id": "I164",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Not found after searching names, verse numbers and key terms."
+  },
+  {
+   "id": "I165",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Not found after searching names, verse numbers and key terms."
+  },
+  {
+   "id": "I166",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Not found after searching names, verse numbers and key terms."
+  },
+  {
+   "id": "I167",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Not found after searching names, verse numbers and key terms."
+  },
+  {
+   "id": "I168",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Not found after searching names, verse numbers and key terms."
+  },
+  {
+   "id": "I169",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Healings not discussed; the general primitive-misperception argument is under I180."
+  },
+  {
+   "id": "I170",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Matt 10:32 not cited, although Sendy's geocentrism critique (Ptolemy) is extensive."
+  },
+  {
+   "id": "I171",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Not found after searching names, verse numbers and key terms."
+  },
+  {
+   "id": "I172",
+   "status": "mentioned",
+   "locator": "ch. 22 (PL41) / line 1547",
+   "quote_fr": "« Que ceux qui ont des oreilles entendent. »",
+   "note": "Formula used in the cursed-fig-tree/Dionysos discussion, not the sower context."
+  },
+  {
+   "id": "I173",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Not found after searching names, verse numbers and key terms."
+  },
+  {
+   "id": "I174",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Not found after searching names, verse numbers and key terms."
+  },
+  {
+   "id": "I175",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Not found after searching names, verse numbers and key terms."
+  },
+  {
+   "id": "I176",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Not found after searching names, verse numbers and key terms."
+  },
+  {
+   "id": "I177",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Not found after searching names, verse numbers and key terms."
+  },
+  {
+   "id": "I178",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Not found after searching names, verse numbers and key terms."
+  },
+  {
+   "id": "I179",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Not found after searching names, verse numbers and key terms."
+  },
+  {
+   "id": "I180",
+   "status": "same",
+   "locator": "ch. 17 (PL33) / line 1171; ch. 18 / line 1298; ch. 20 / line 1419",
+   "quote_fr": "Quand un rationaliste libéré des superstitions humanistes entend un primitif parler de voitures qui avancent toutes seules, il ne se met pas à admirer l’imagination primitive, il se dit que le primitif a sans doute eu l’occasion de voir une auto",
+   "note": "Miracles = technology seen by primitives (Amazonians, explorers' flashlights); no helicopter/rifle thought experiment as such."
+  },
+  {
+   "id": "I181",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Not found after searching names, verse numbers and key terms."
+  },
+  {
+   "id": "I182",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Not found after searching names, verse numbers and key terms."
+  },
+  {
+   "id": "I183",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Not found after searching names, verse numbers and key terms."
+  },
+  {
+   "id": "I184",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Not found after searching names, verse numbers and key terms."
+  },
+  {
+   "id": "I185",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Not found after searching names, verse numbers and key terms."
+  },
+  {
+   "id": "I186",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Not found after searching names, verse numbers and key terms."
+  },
+  {
+   "id": "I187",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Not found after searching names, verse numbers and key terms."
+  },
+  {
+   "id": "I188",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Not found after searching names, verse numbers and key terms."
+  },
+  {
+   "id": "I189",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Luke 21 fig tree not cited (Sendy discusses the cursed fig tree, Matt 21:19); UFOs read as laser holograms from a probe (lines 826–840), not as a sign of return."
+  },
+  {
+   "id": "I190",
+   "status": "mentioned",
+   "locator": "ch. 22 (PL41) / line 1542",
+   "quote_fr": "Les Évangélistes avaient admis la nécessité de « parler en langues »",
+   "note": "'Speaking in tongues' = adapting the message to barbarians; Acts 2 not read technologically."
+  },
+  {
+   "id": "I191",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Not found after searching names, verse numbers and key terms."
+  },
+  {
+   "id": "I192",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Not found after searching names, verse numbers and key terms."
+  },
+  {
+   "id": "I193",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Not found after searching names, verse numbers and key terms."
+  },
+  {
+   "id": "I194",
+   "status": "similar",
+   "locator": "ch. 20 (PL38) / lines 1428–1429; ch. 21 / lines 1513, 1520",
+   "quote_fr": "« Ce qui arriva du temps de Noé arrivera de même à l’avènement du fils de l’homme », nous dit l’Évangile de Matthieu (XXIV, 37).",
+   "note": "Matt 24 read as Aquarian-age deluge-suicide plus contact with galactic civilizations; Church's Pisces symbols being phased out; not explicitly the end of the Church."
+  },
+  {
+   "id": "I195",
+   "status": "mentioned",
+   "locator": "ch. 22 (PL41) / line 1573",
+   "quote_fr": "chaque fois que je prononce « Iahvé », l’image qui m’apparaît est celle de Zeus barbu",
+   "note": "Bearded-Zeus image of God mocked; no claim of its collapse."
+  },
+  {
+   "id": "I196",
+   "status": "same",
+   "locator": "ch. 21 (PL39) / line 1503; ch. 13 / line 888; ch. 17 / line 1193",
+   "quote_fr": "Le Christ prend pour symbole principal les Poissons, et pour symbole annexe la Vierge.",
+   "note": "Pisces = Christ's age, Aquarius = Golden Age when men equal the Elohim, arrival 'il y a 22 000 ans', Israel's return as fulfilment; Sendy dates Aquarius to 1950 (not 1946) and Jerusalem 1967."
+  },
+  {
+   "id": "I197",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Not found after searching names, verse numbers and key terms."
+  },
+  {
+   "id": "I198",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Not found after searching names, verse numbers and key terms."
+  },
+  {
+   "id": "I199",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Not found after searching names, verse numbers and key terms."
+  },
+  {
+   "id": "I200",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Not found after searching names, verse numbers and key terms."
+  },
+  {
+   "id": "I201",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Not found after searching names, verse numbers and key terms."
+  },
+  {
+   "id": "I202",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Not found after searching names, verse numbers and key terms."
+  },
+  {
+   "id": "I203",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Isaiah not cited, but Sendy reads Israel's return/Jerusalem 1967 as fulfilled prophecy (lines 1509–1515)."
+  },
+  {
+   "id": "I204",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Not found after searching names, verse numbers and key terms."
+  },
+  {
+   "id": "I205",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Not found after searching names, verse numbers and key terms."
+  },
+  {
+   "id": "I206",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Not found after searching names, verse numbers and key terms."
+  },
+  {
+   "id": "I207",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Not found after searching names, verse numbers and key terms."
+  },
+  {
+   "id": "I208",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Not found after searching names, verse numbers and key terms."
+  },
+  {
+   "id": "I209",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Not found after searching names, verse numbers and key terms."
+  },
+  {
+   "id": "I210",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Matt 15:11 not cited; Sendy notes Paul VI abolished the Friday fish as erasing Pisces symbols (line 1520)."
+  },
+  {
+   "id": "I211",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Not found after searching names, verse numbers and key terms."
+  },
+  {
+   "id": "I212",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Not found after searching names, verse numbers and key terms."
+  },
+  {
+   "id": "I213",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Shi'ur Qomah absent; Kabbalah/Zohar discussed generally (Adam Kadmon as Galaxian prototype, lines 1065, 1555)."
+  },
+  {
+   "id": "I214",
+   "status": "similar",
+   "locator": "ch. 1 (PL4) / line 73; ch. 21 (PL39) / lines 1449, 1526",
+   "quote_fr": "elles disent toutes la même chose : les hommes émergeaient tout juste de l’animalité, lorsque des Célestes physiquement analogues sont arrivés du ciel",
+   "note": "Broad shared premise (common Myth of all First Civilizations incl. China, Greece); idolatrous traditions treated as degraded, no Andes/Buddhism/Islam/Mormons."
+  },
+  {
+   "id": "I215",
+   "status": "mentioned",
+   "locator": "ch. 1 (PL4) / line 68; ch. 17 / line 1140",
+   "quote_fr": "L’homme est un animal parmi les autres. Bruno avait raison contre les humanistes.",
+   "note": "Opposite stance: Sendy accepts natural evolution of Homo sapiens, with only an acceleration/conditioning by the Galaxians."
+  },
+  {
+   "id": "I216",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Not found after searching names, verse numbers and key terms."
+  },
+  {
+   "id": "I217",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Not found after searching names, verse numbers and key terms."
+  },
+  {
+   "id": "I218",
+   "status": "mentioned",
+   "locator": "ch. 14 (PL28) / lines 947–948",
+   "quote_fr": "Le système de Copernic ne fut condamné, son livre ne fut mis à l’Index qu’en 1615.",
+   "note": "Copernicus discussed but the condemnation is blamed on Renaissance humanists, not on the medieval Church or a majority; Bruno is Sendy's martyr."
+  },
+  {
+   "id": "I219",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Not found after searching names, verse numbers and key terms."
+  },
+  {
+   "id": "I220",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Not discussed."
+  },
+  {
+   "id": "I221",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Not discussed beyond 'quinze couples' (line 1150)."
+  },
+  {
+   "id": "I222",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Not found after searching names, verse numbers and key terms."
+  },
+  {
+   "id": "I223",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Sendy's 'éternels' are crews recycling their molecules in a closed cosmonef (line 1201), not cloning; Daniel 12 absent."
+  },
+  {
+   "id": "I224",
+   "status": "similar",
+   "locator": "ch. 18 (PL34) / line 1332",
+   "quote_fr": "On peut les appeler Élohim, et je le fais chaque fois qu’il est question d’une activité indiquée dans la Bible, où ils portent ce nom.",
+   "note": "Terminology choice for 'Galaxiens venus du ciel' (alongside Célestes, Théosites); not a self-designation by visitors."
+  },
+  {
+   "id": "I225",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "No claim about the creators' language; Hebrew valued only for letter-perfect transmission (line 1393)."
+  },
+  {
+   "id": "I226",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Only a passing 'La Parousie, peut-être' (line 1513); nothing on Moses/Elijah/Jesus alive."
+  }
+ ],
+ "sendy_only": [
+  {
+   "locator": "ch. 10 (PL21) / line 670; ch. 21 / line 1497; ch. 16 / line 1075",
+   "passage": "Gen 9:13",
+   "reading": "The kesheth is a weapon-bow = Sagittarius and an 'arc d'alliance' archive left on the Moon for the Aquarian age.",
+   "quote_fr": "le « signe de l’alliance » entre les Élohim et Noé est un arc (un « késheth », en hébreu) laissé « dans les cieux »"
+  },
+  {
+   "locator": "ch. 22 (PL41) / line 1600",
+   "passage": "non-biblical: lunar negative mascon",
+   "reading": "The Elohim's underground lunar base should be under the negative mascon (56°N 75°W).",
+   "quote_fr": "si « ma » base souterraine existe bien sur la Lune, c’est là qu’elle devrait se trouver"
+  },
+  {
+   "locator": "ch. 16 (PL31) / line 1061",
+   "passage": "Gen 1:1 (Zohar I, 15a)",
+   "reading": "Bereshith bara Elohim read as 'the Beginning made the Elohim': Genesis tells the Galaxians' arrival, not cosmic creation.",
+   "quote_fr": "sont peut-être mieux traduits par « Le Commencement fit les Élohim »"
+  },
+  {
+   "locator": "ch. 16 (PL31) / line 1065",
+   "passage": "Num 12:8; John 10:35",
+   "reading": "YHWH is the ineffable immaterial Principle, distinct from the Elohim in whose image man was made.",
+   "quote_fr": "ce qui montre bien la distinction que la Tradition biblique établit, expressément, entre les Élohim à l’image de qui l’homme a été façonné, et le Principe Immatériel ineffable pour l’homme"
+  },
+  {
+   "locator": "ch. 17 (PL33) / line 1210",
+   "passage": "Elohim + singular verb",
+   "reading": "Plural Elohim with singular verbs = a crew so conformist that all decisions were unanimous.",
+   "quote_fr": "ils étaient d’un conformisme tellement orthodoxe que toutes leurs décisions étaient prises à l’unanimité"
+  },
+  {
+   "locator": "ch. 17 (PL33) / lines 1143–1149",
+   "passage": "Gen 1:2 (tohu-bohu)",
+   "reading": "Tohu-bohu = a Würm III glaciation c. −22,000; Gen 1 is a slow restoration of the biosphere by a handful of arrivals.",
+   "quote_fr": "si tohu-bohu il y avait, il s’est produit à l’occasion de la glaciation Würm-III, vers — 22000"
+  },
+  {
+   "locator": "ch. 17 (PL33) / lines 1150, 1187",
+   "passage": "non-biblical: the expedition",
+   "reading": "About fifteen couples in a 3–4 km village-cosmonef, bred as a 'race des dieux' over generations.",
+   "quote_fr": "je vous propose donc d’en rester à quinze couples"
+  },
+  {
+   "locator": "ch. 17 (PL33) / lines 1151–1153",
+   "passage": "non-biblical: Phobos/Deimos",
+   "reading": "Mars's moons possibly the two arrival ships (Chklovski), though Sendy prefers them natural.",
+   "quote_fr": "Phobos et Deimos pouvaient être les deux cosmonefs d’arrivée"
+  },
+  {
+   "locator": "ch. 17 (PL33) / lines 1158–1159",
+   "passage": "Gen 2:15",
+   "reading": "'To keep it' shows Eden needed native guards; a supernatural God would need none.",
+   "quote_fr": "Pour le garder ? Un Dieu surnaturel n’a pas besoin d’hommes pour garder son jardin."
+  },
+  {
+   "locator": "ch. 17 (PL33) / line 1227",
+   "passage": "Gen 2:5–19 vs 1:11–26",
+   "reading": "Re-ordered chronology: man appears between the 3rd and 5th 'days'; the 6th day is the conditioning 'in the image'.",
+   "quote_fr": "notre grand-père apparaît entre le 3e et le 5e « jour »"
+  },
+  {
+   "locator": "ch. 18 (PL34) / line 1301",
+   "passage": "Gen 2:21",
+   "reading": "The 'torpor' on Adam is anaesthesia for vivisection and genetic surgery.",
+   "quote_fr": "Nous ne faisons de vivisection sur eux qu’après les avoir anesthésiés (« en les faisant tomber dans la torpeur », dit la Genèse [II, 21])"
+  },
+  {
+   "locator": "ch. 18 (PL34) / lines 1281, 1288",
+   "passage": "Gen 2:7",
+   "reading": "The breathed-in 'soul' = conditioning; the Freudian second self; only Judeo-Christian minds are psychoanalysable.",
+   "quote_fr": "Nous aurions, en somme, bénéficié non d’une mutation mais d’un conditionnement."
+  },
+  {
+   "locator": "ch. 17 (PL33) / line 1169",
+   "passage": "Gen 3:8",
+   "reading": "The Lord walking in the garden = civilizers whose attention slackened after six 'days'.",
+   "quote_fr": "le récit cohérent et plausible de ce qui arrive à des civilisateurs dont l’attention se relâche, au bout de six « jours »"
+  },
+  {
+   "locator": "ch. 18 (PL34) / lines 1314–1318",
+   "passage": "Gen 3:4, 3:22",
+   "reading": "God lied and had to admit it; Plotin's spiritual pre-lapsarian man was invented to hide this.",
+   "quote_fr": "Dieu a non seulement menti, mais encore qu’il est obligé de reconnaître expressément son mensonge"
+  },
+  {
+   "locator": "ch. 18 (PL34) / line 1323",
+   "passage": "Gen 3:23",
+   "reading": "Expulsion to till the soil opens the 7th day c. −8850, matching the first farmers c. −8500.",
+   "quote_fr": "c’est vers — 8500 qu’apparaissent, parmi les hommes, les premiers agriculteurs"
+  },
+  {
+   "locator": "ch. 20 (PL38) / line 1392",
+   "passage": "Gen 5; 6:7",
+   "reading": "'Men' in Genesis are the named, 'created' men of ch. 5, not the anonymous million natives.",
+   "quote_fr": "La différence entre les hommes tout court et les hommes créés est que les créés ont un nom."
+  },
+  {
+   "locator": "ch. 19 (PL36) / line 1374; ch. 20 / line 1391",
+   "passage": "Gen 6–8 (Flood)",
+   "reading": "The 'Deluge' = the departing Elohim destroying their installations c. −6500, like US bases evacuated in the Pacific.",
+   "quote_fr": "jugeant imprudent de laisser leurs installations aux humains, les auraient détruites dans un « Déluge »"
+  },
+  {
+   "locator": "ch. 20 (PL38) / line 1395",
+   "passage": "Gen 9:20–27 (Ham)",
+   "reading": "Ham was perhaps cursed for posing as a Céleste; idolatrous 'gods' descend from Ham.",
+   "quote_fr": "Cham a-t-il été maudit pour avoir voulu, simple bâtard, se faire passer pour un Céleste ?"
+  },
+  {
+   "locator": "ch. 20 (PL38) / lines 1398–1399",
+   "passage": "Gen 9:21",
+   "reading": "Noah's drunkenness opens the 8th day (c. −6690, Gemini), the lost Golden Age.",
+   "quote_fr": "C’est sur cette cuite que commence le 8e « jour »"
+  },
+  {
+   "locator": "ch. 10 (PL21) / lines 672–674",
+   "passage": "Job 38:7",
+   "reading": "Morning stars singing and sons of the Elohim applauding = congratulations from earlier stopover systems.",
+   "quote_fr": "Le « chant des étoiles du matin » est-il une ésotérisation de l’envoi de félicitations par « les fils des Elohim » restés aux étapes"
+  },
+  {
+   "locator": "ch. 21 (PL39) / lines 1483, 1491",
+   "passage": "Exodus (ram, scales, golden calf)",
+   "reading": "Moses' ram and balance are opposite zodiac signs (Aries/Libra); the golden calf = Taurus's son clinging to power.",
+   "quote_fr": "symbolise l’ensemble des superstitions idolâtres par le Veau, « fils » du Taureau"
+  },
+  {
+   "locator": "ch. 21 (PL39) / line 1482",
+   "passage": "Gen 41 (Joseph)",
+   "reading": "Joseph won Pharaoh's favour by restoring precession-based Nile flood prediction ('ramener les vaches grasses').",
+   "quote_fr": "lorsqu’il s’acquit les faveurs de Pharaon pour avoir rétabli l’art de prévoir de façon exacte les crues du Nil"
+  },
+  {
+   "locator": "ch. 21 (PL39) / line 1509",
+   "passage": "Eve gematria",
+   "reading": "Eve = 19 = the 19 centuries of Dispersion (70 → 1967).",
+   "quote_fr": "Ève, en hébreu cela s’écrit en trois lettres (heith, waw, hé), dont la valeur numérale totale est 19."
+  },
+  {
+   "locator": "ch. 22 (PL41) / lines 1546–1547",
+   "passage": "Matt 21:19; Mark 11:13; Luke 13:6",
+   "reading": "The cursed fig tree = Jesus rejecting Dionysos's fig-and-vine symbols.",
+   "quote_fr": "Les symboles de Dionysos, « dieu sur Terre », étaient nécessairement des symboles de fécondité ; c’étaient la vigne et le figuier."
+  },
+  {
+   "locator": "ch. 16 (PL31) / lines 1093–1102",
+   "passage": "non-biblical: Aleph",
+   "reading": "Apollo crews Armstrong/Aldrin (A) and Bean/Conrad/Gordon (A-B-G) as a Kabbalist sign: man equals the Elohim.",
+   "quote_fr": "Les deux premiers hommes à avoir foulé le sol de la Lune sont deux « Aleph », Armstrong et Aldrin."
+  },
+  {
+   "locator": "ch. 22 (PL41) / lines 1566, 1574",
+   "passage": "Timaeus 35b; YHWH = 26",
+   "reading": "Plato's 1,2,3,4,9,8,27 placed on Solomon's seal; YHWH (26) + the ineffable 1 = 27.",
+   "quote_fr": "Quant à 26 on ajoute le 1 inconnaissable, on obtient le 27 du rébus de Platon."
+  },
+  {
+   "locator": "ch. 12 (PL24) / lines 826, 840",
+   "passage": "non-biblical: flying saucers",
+   "reading": "Saucers = laser holograms of a galaxy sent by an automatic probe.",
+   "quote_fr": "L’hologramme d’une galaxie, ça a la forme d’une soucoupe volante."
+  }
+ ]
+}

@@ -1,0 +1,1740 @@
+{
+ "book": "Jean Sendy, Les Cahiers de cours de Moïse (De la nuit des temps), Julliard, 1963 — FeniXX digital edition (2019)",
+ "book_key": "cahiers",
+ "items": [
+  {
+   "id": "I001",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "No telepathic prompting or Bible-purchase framing; Sendy hears \"la voix de Moïse\" only as a literary conceit (Cahier 1, ch. I, l.51)."
+  },
+  {
+   "id": "I002",
+   "status": "mentioned",
+   "locator": "Cahier 2, ch. I / PL5 / line 981",
+   "quote_fr": "Car à ce moment-là, le TAO sera porté au Coq.",
+   "note": "France (the Gallic Cock) is named as recipient of the Aquarian doctrine via a Nostradamus gloss; no 1945 messenger, no Jewish/Catholic bridge."
+  },
+  {
+   "id": "I003",
+   "status": "similar",
+   "locator": "Cahier 1, ch. IX / PL4 / line 665",
+   "quote_fr": "Je ferai le nécessaire pour que le texte en devienne si sacré qu’un Hébreu préférera se faire égorger plutôt que d’y changer un trait de lettre",
+   "note": "Same \"not a letter changed\" preservation idea, but Sendy has Moses deliberately encode an initiatic cipher; not copyists misreading technology as supernatural."
+  },
+  {
+   "id": "I004",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "No home-planet ban on genetic experiments or escaped lab animal."
+  },
+  {
+   "id": "I005",
+   "status": "similar",
+   "locator": "Cahier 2, ch. III / PL5 / line 1095",
+   "quote_fr": "Moïse désigne une partie d’entre eux par le pluriel Elohim",
+   "note": "Elohim = plural group of astronauts from planet \"Théos\" (a subset of the \"Théosites\"); no \"venus du ciel\" etymology, and creation is a re-terraforming after a cataclysm."
+  },
+  {
+   "id": "I006",
+   "status": "same",
+   "locator": "Cahier 2, ch. III / PL5 / line 1081",
+   "quote_fr": "contournèrent la Terre en explorateurs : « l’esprit de Dieu se mut autour des eaux » (GEN. I, 2)",
+   "note": "Spirit moving over the waters = extraterrestrial astronauts circling a fog-covered Earth on reconnaissance (no satellites as such)."
+  },
+  {
+   "id": "I007",
+   "status": "similar",
+   "locator": "Cahier 2, ch. IV / PL5 / line 1286",
+   "quote_fr": "les physiciens théosites font retomber les matières organiques opaques en suspension dans les brouillards, permettant au Soleil de les percer",
+   "note": "Day 1 = technological clearing of opaque fogs so sunlight reaches the ground; not a radiation-safety test."
+  },
+  {
+   "id": "I008",
+   "status": "same",
+   "locator": "Cahier 2, ch. III / PL5 / line 1103",
+   "quote_fr": "C’est le 6e « jour », Ere située entre — 11 010 et — 8850",
+   "note": "Each Genesis \"day\" = one zodiacal era of 2,160 years of precession (Sendy runs day 1 from the end of Capricorn, c. -20,000)."
+  },
+  {
+   "id": "I009",
+   "status": "similar",
+   "locator": "Cahier 2, ch. IV / PL5 / line 1287",
+   "quote_fr": "une partie des brouillards se condense en une nappe liquide baignant le globe",
+   "note": "Day 2 read as condensation of the fogs into a world ocean under Théosite works; no clouds-above/ocean-below firmament distinction."
+  },
+  {
+   "id": "I010",
+   "status": "mentioned",
+   "locator": "Cahier 2, ch. III / PL5 / line 1093",
+   "quote_fr": "« le sec apparaît »",
+   "note": "Dry land appears naturally as rivers find their beds (Scorpio/Archimedes); continental fit America/Eurafrica cited elsewhere (l.1176) but for Atlantis and dated far earlier; no explosions."
+  },
+  {
+   "id": "I011",
+   "status": "mentioned",
+   "locator": "Cahier 2, ch. III / PL5 / line 1093",
+   "quote_fr": "la terre les produit d’elle-même : le germen végétal avait apparemment gardé intactes ses propriétés",
+   "note": "Explicitly NOT created: vegetation regrows by itself from surviving germ; no lab synthesis or artists."
+  },
+  {
+   "id": "I012",
+   "status": "same",
+   "locator": "Cahier 2, ch. III / PL5 / line 1095",
+   "quote_fr": "les Théosites (Moïse désigne une partie d’entre eux par le pluriel Elohim ) eurent à « placer » les étoiles sur les cartes célestes et à établir les données d’une astronomie terrienne",
+   "note": "Luminaries verse = colonists establishing a terrestrial astronomy (\"ils marquèrent les époques, les jours et les années\")."
+  },
+  {
+   "id": "I013",
+   "status": "similar",
+   "locator": "Cahier 2, ch. III / PL5 / line 1100",
+   "quote_fr": "le germen de la faune, plus fragile que celui de la flore, dut être créé (I, 21). Sans doute par insémination artificielle, peut-être même in vitro.",
+   "note": "Aquatic animals and birds artificially (re)created by Théosite biologists in logical order; no artists, plumage contests or courtship design."
+  },
+  {
+   "id": "I014",
+   "status": "similar",
+   "locator": "Cahier 2, ch. VII / PL5 / line 1616",
+   "quote_fr": "l’existence d’espèces qui ont survécu malgré des erreurs flagrantes dans la conception de leur anatomie",
+   "note": "Flawed species explained as student biologists' practical work; dinosaurs/dragons are not named."
+  },
+  {
+   "id": "I015",
+   "status": "same",
+   "locator": "Cahier 2, ch. IV / PL5 / line 1294",
+   "quote_fr": "les Théosites se dépêchent donc de « créer le bétail ». Puis ils créent les reptiles, puis enfin les carnivores, le tout destiné à établir un équilibre biologique",
+   "note": "Herbivores first, carnivores last, to set an ecological balance; no first-person creator claim."
+  },
+  {
+   "id": "I016",
+   "status": "similar",
+   "locator": "Cahier 2, ch. IV / PL5 / line 1296",
+   "quote_fr": "chacune de celles-ci porte en effet la marque de fabrique du biologiste théosite qui « créa » son lointain ancêtre",
+   "note": "Variety of ANIMAL species = different creator-biologists' \"trademark\"; human groups differ by which Théosite seat guided them, not one team per race."
+  },
+  {
+   "id": "I017",
+   "status": "similar",
+   "locator": "Cahier 2, ch. IV / PL5 / line 1312",
+   "quote_fr": "Décidèrent-ils sur-le-champ de civiliser les Troglodytes, c’est-à-dire de « les façonner à leur image »",
+   "note": "Humans already exist (cave survivors of a previous cycle) and physically resemble the giants; \"in our image\" = civilising them, not artificial manufacture."
+  },
+  {
+   "id": "I018",
+   "status": "similar",
+   "locator": "Cahier 2, ch. III / PL5 / line 1156",
+   "quote_fr": "L’Eden devait se trouver à Thèbes ou dans les environs",
+   "note": "Eden = colonial establishment with a genetics lab, but placed at Thebes (Egypt); Palestine is \"east of Eden\" (Jericho I)."
+  },
+  {
+   "id": "I019",
+   "status": "same",
+   "locator": "Cahier 2, ch. III / PL5 / line 1113",
+   "quote_fr": "l’Amphi de la Science-des-Sciences (« Arbre de la Connaissance »)",
+   "note": "Tree of knowledge = the colonists' science, taught in a lecture hall forbidden to the native servants (II, 17)."
+  },
+  {
+   "id": "I020",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Naming of the animals (Gen 2:19-20) not discussed; Sendy only notes Adam receives a name at III, 20 (\"état civil\")."
+  },
+  {
+   "id": "I021",
+   "status": "same",
+   "locator": "Cahier 2, ch. III / PL5 / line 1116",
+   "quote_fr": "De son vrai nom ce Théosite anticonformiste s’appelait, comme chacun sait, M. Satan.",
+   "note": "Serpent = a dissident colonist (\"philanthrope ... estimant que les humains avaient droit à l’Initiation\"); one individual rather than a small group."
+  },
+  {
+   "id": "I022",
+   "status": "similar",
+   "locator": "Cahier 2, ch. III / PL5 / line 1129",
+   "quote_fr": "nos indigènes venaient de comprendre qu’ils étaient (malgré leur ressemblance purement physique avec les Elohim) semblables aux animaux",
+   "note": "Eyes opened = realising their animal status and that they must learn (\"se vêtir\") to equal the Elohim; no resentment at being lab animals."
+  },
+  {
+   "id": "I023",
+   "status": "similar",
+   "locator": "Cahier 2, ch. III / PL5 / line 1135",
+   "quote_fr": "M. Satan, traître par idéologie philanthropique, est donc condamné à être simple instituteur pour indigènes",
+   "note": "Punishment of the dissident colonist, but it is a teaching assignment, not exile on Earth; other colonists do not leave."
+  },
+  {
+   "id": "I024",
+   "status": "similar",
+   "locator": "Cahier 2, ch. III / PL5 / line 1133",
+   "quote_fr": "il remplace en effet la « ceinture de feuilles » par des « habits de peau » (III, 21)",
+   "note": "Garments of skin = Iahvé granting formal schooling (pun on \"vêture\"), not survival kit; no \"intact original document\" claim."
+  },
+  {
+   "id": "I025",
+   "status": "similar",
+   "locator": "Cahier 2, ch. III / PL5 / line 1113",
+   "quote_fr": "un Grand Labo de génétique-biologie (« Arbre de Vie »)",
+   "note": "Tree of life = the colonists' genetics/biology lab (incubators), not explicitly life-extension; \"comme l’un de nous\" = end of elementary schooling; no chosen-people contest."
+  },
+  {
+   "id": "I026",
+   "status": "similar",
+   "locator": "Cahier 2, ch. III / PL5 / line 1155",
+   "quote_fr": "« chérubins » (nom biblique des CRS) « agitant une épée flamboyante »",
+   "note": "Cherubim = guards (riot police) posted at Eden; no atomic disintegrator weapon."
+  },
+  {
+   "id": "I027",
+   "status": "similar",
+   "locator": "Cahier 2, ch. V / PL5 / line 1423",
+   "quote_fr": "ils manifestent leur reconnaissance en assurant le vivre et le couvert aux Elohim",
+   "note": "Offerings = food supply for the Elohim (who preferred meat); purpose is gratitude/upkeep, not exiles proving loyalty to superiors."
+  },
+  {
+   "id": "I028",
+   "status": "similar",
+   "locator": "Cahier 2, ch. V / PL5 / line 1455",
+   "quote_fr": "Ces Géants vivront 85o ans, en moyenne.",
+   "note": "Patriarchs' ages = real ages of Elohim-human hybrid \"Giants\", declining each generation by human mothers (l.1610); hereditary, not a treatment."
+  },
+  {
+   "id": "I029",
+   "status": "same",
+   "locator": "Cahier 2, ch. V / PL5 / line 1453",
+   "quote_fr": "« les fils des Elohim virent que les filles des hommes étaient belles et en prirent pour femmes » (GEN. VI, 2)",
+   "note": "Read literally as colonists interbreeding with human women (\"métissages entre les Elohim de Moïse et les humains\", l.1187)."
+  },
+  {
+   "id": "I030",
+   "status": "mentioned",
+   "locator": "Cahier 2, ch. V / PL5 / line 1454",
+   "quote_fr": "« les jours de l’homme » sont définitivement fixés à 120 ans",
+   "note": "Limit noted (humans 120 vs Théosites c. 1000 years) without the non-hereditary-treatment mechanism."
+  },
+  {
+   "id": "I031",
+   "status": "similar",
+   "locator": "Cahier 2, ch. V / PL5 / line 1455",
+   "quote_fr": "Rois, Géants nés des Elohim et des « filles des hommes »",
+   "note": "Hybrid Giants become kings guiding humans; no home-planet alarm at their scientific progress (Flood follows a \"War of the Gods\")."
+  },
+  {
+   "id": "I032",
+   "status": "mentioned",
+   "locator": "Cahier 2, ch. V / PL5 / line 1463",
+   "quote_fr": "Iahvé ait conclu que « la méchanceté des hommes était grande » (VI, 5)",
+   "note": "Wickedness = humans taking liberties with the letter of the Revelation and neglecting the Rite; not scientific ambition."
+  },
+  {
+   "id": "I033",
+   "status": "similar",
+   "locator": "Cahier 2, ch. VI / PL5 / line 1482",
+   "quote_fr": "les plus récentes bombes thermonucléaires sont de l’enfantillage à côté de ce que les Théosites surent déclencher, lorsqu’ils se résolurent à abandonner notre planète",
+   "note": "Flood = nuclear-scale destruction by the departing colonists, but the ark is a SUBMARINE carrying documents/plans, not a rocket carrying cells."
+  },
+  {
+   "id": "I034",
+   "status": "similar",
+   "locator": "Cahier 2, ch. VI / PL5 / line 1481",
+   "quote_fr": "toute pollution radioactive ayant disparu, la terre pût être enfin tenue pour « sèche »",
+   "note": "Waiting for radioactive fallout to clear is shared; the \"above the earth, not on the waters\" lexical argument is absent (submarine reading)."
+  },
+  {
+   "id": "I035",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Neither the 150 days nor the three-storey ark/three-stage rocket is discussed."
+  },
+  {
+   "id": "I036",
+   "status": "similar",
+   "locator": "Cahier 2, ch. VI / PL5 / line 1482",
+   "quote_fr": "Un an et dix jours de contamination",
+   "note": "Flood chronology read as a period of radioactive contamination; no raven/dove atmosphere test, no tithe."
+  },
+  {
+   "id": "I037",
+   "status": "similar",
+   "locator": "Cahier 2, ch. VII / PL5 / line 1594",
+   "quote_fr": "Je pense que cela consistait à lui confier toute la documentation scientifique de l’Eden sauvée dans l’Arche",
+   "note": "Covenant = handover of Eden's scientific documentation for gradual disclosure; altar = re-installed laboratories; not a promise not to destroy."
+  },
+  {
+   "id": "I038",
+   "status": "similar",
+   "locator": "Cahier 2, ch. VII / PL5 / line 1577",
+   "quote_fr": "Noé n’eut pas trop de difficultés pour repeupler la Terre en animaux.",
+   "note": "Biotech repopulation by analogy with artificial insemination; no stored cells in the ark."
+  },
+  {
+   "id": "I039",
+   "status": "mentioned",
+   "locator": "Cahier 2, ch. VII / PL5 / line 1580",
+   "quote_fr": "ont « peuplé les îles des nations », « selon la langue de chacune »",
+   "note": "Gen 10 read as Noah's sons rounding up survivors towards Giza; no technological reading."
+  },
+  {
+   "id": "I040",
+   "status": "same",
+   "locator": "Cahier 2, ch. VII / PL5 / line 1597",
+   "quote_fr": "les hommes se mettent à édifier la tour de lancement d’un astronef prématuré, dite Tour de Babel",
+   "note": "Babel = launch tower for a spacecraft built from Noah's documents; colonists stop a premature space attempt (no goal of reaching the creators' planet)."
+  },
+  {
+   "id": "I041",
+   "status": "similar",
+   "locator": "Cahier 2, ch. VII / PL5 / line 1607",
+   "quote_fr": "leur Tour s’effondre, entraînant dans sa chute la destruction de tout l’appareillage",
+   "note": "\"Confusion\" = discord sown among the scientists, collapse destroys all equipment; no deliberate scattering of Jewish scientists among primitives."
+  },
+  {
+   "id": "I042",
+   "status": "mentioned",
+   "locator": "Cahier 1, ch. XI / PL4 / line 748",
+   "quote_fr": "Le récit nous donne-t-il aussi les raisons véritables de la destruction ? Certainement. Mais elles importent peu ici",
+   "note": "No Sodom-as-base-of-avengers background; reasons explicitly left aside."
+  },
+  {
+   "id": "I043",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "The two angels and the blinding (Gen 19:1, 19:11) are not discussed."
+  },
+  {
+   "id": "I044",
+   "status": "mentioned",
+   "locator": "Cahier 1, ch. XI / PL4 / line 746",
+   "quote_fr": "Quiconque regarde l’explosion est « changé en statue de sel »",
+   "note": "Only the \"looking\" motif is linked to the explosion; no warning/flight episode or failure to hurry."
+  },
+  {
+   "id": "I045",
+   "status": "same",
+   "locator": "Cahier 1, ch. XI / PL4 / line 743",
+   "quote_fr": "l’explosion atomique qui détruisit ces deux villes et fit la mer Morte",
+   "note": "Sodom/Gomorrah = atomic explosion; whoever looked became a \"statue of salt\"; Lot's daughters believed him the last male."
+  },
+  {
+   "id": "I046",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Sacrifice of Isaac not discussed (Abraham appears only for circumcision and Gen 15:9)."
+  },
+  {
+   "id": "I047",
+   "status": "mentioned",
+   "locator": "Cahier 2, ch. I / PL5 / line 990",
+   "quote_fr": "en haut un horus (astronef venu du Ciel), et, entre les deux l’échelle de Jacob",
+   "note": "Jacob's ladder appears only as a component of Sendy's reading of the Chinese \"Tao\" ideogram beside a spacecraft; Gen 28:12 not interpreted."
+  },
+  {
+   "id": "I048",
+   "status": "similar",
+   "locator": "Cahier 2, ch. VI / PL5 / line 1547",
+   "quote_fr": "Absurdes en apparence, TOUTES ces légendes deviennent pourtant cohérentes dès qu’on y a remplacé le mot passe-partout dieux",
+   "note": "Idolatry/cults as degraded memory of the departed colonists (mana + fables); Gen 35:2 not cited."
+  },
+  {
+   "id": "I049",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Burning bush not discussed."
+  },
+  {
+   "id": "I050",
+   "status": "mentioned",
+   "locator": "Cahier 1, ch. IX / PL4 / line 661",
+   "quote_fr": "Pharaon ne put qu’ordonner un « duel de magiciens » opposant Moïse aux tenants de l’Egypte d’Amon.",
+   "note": "Exodus told as Moses (an Egyptian-trained initiate) leading a people he chose; plagues = \"sciences appliquées\"; no creators intervening."
+  },
+  {
+   "id": "I051",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Pillar of cloud/fire not discussed."
+  },
+  {
+   "id": "I052",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Cloud screen at the Red Sea not discussed."
+  },
+  {
+   "id": "I053",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Red Sea crossing not discussed."
+  },
+  {
+   "id": "I054",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Manna not discussed."
+  },
+  {
+   "id": "I055",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Water from the rock not discussed."
+  },
+  {
+   "id": "I056",
+   "status": "mentioned",
+   "locator": "Cahier 2, ch. I / PL5 / line 928",
+   "quote_fr": "Moïse établit donc les Tables de la Loi comme Carnot posa son Principe",
+   "note": "Commandments = dogma for the masses / theological equation for initiates; not hygienic laws dictated by visitors."
+  },
+  {
+   "id": "I057",
+   "status": "mentioned",
+   "locator": "Cahier 1, ch. III / PL4 / line 152",
+   "quote_fr": "« jolie montagne, ce Sinaï… je vais aller y dicter des Tables »",
+   "note": "Sinai theophany only mocked as naive belief; no landing-craft reading."
+  },
+  {
+   "id": "I058",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Passage not discussed."
+  },
+  {
+   "id": "I059",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Passage not discussed."
+  },
+  {
+   "id": "I060",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Passage not discussed."
+  },
+  {
+   "id": "I061",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Passage not discussed."
+  },
+  {
+   "id": "I062",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Passage not discussed."
+  },
+  {
+   "id": "I063",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Passage not discussed."
+  },
+  {
+   "id": "I064",
+   "status": "mentioned",
+   "locator": "Cahier 1, ch. IX / PL4 / line 672",
+   "quote_fr": "Chaque sacrifice du Pentateuque a un sens précis",
+   "note": "Sacrifices read as zodiacal/initiatic code (bull, ram, lamb); no food-supply or blemished-priest reading."
+  },
+  {
+   "id": "I065",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Passage not discussed."
+  },
+  {
+   "id": "I066",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Passage not discussed."
+  },
+  {
+   "id": "I067",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Passage not discussed."
+  },
+  {
+   "id": "I068",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Passage not discussed."
+  },
+  {
+   "id": "I069",
+   "status": "mentioned",
+   "locator": "Cahier 1, ch. IX / PL4 / line 612",
+   "quote_fr": "les Hébreux avaient constitué un matériel humain expressément « élu » pour ses qualités par Moïse",
+   "note": "Election by Moses (an initiate), not by creators who loved the fathers."
+  },
+  {
+   "id": "I070",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Jordan crossing not discussed."
+  },
+  {
+   "id": "I071",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Commander of Yahweh's army not discussed."
+  },
+  {
+   "id": "I072",
+   "status": "similar",
+   "locator": "Cahier 2, ch. V / PL5 / line 1429",
+   "quote_fr": "Josué a retrouvé cet héritage (grâce auquel il a pu permettre à notre lignée de tenir jusqu’à nous), puisque grâce au Rite du Shofar, au bout de sept jours et sept nuits « les murailles sont tombées »",
+   "note": "Jericho's fall tied to recovered colonist heritage under Jericho; no ultrasound weapon."
+  },
+  {
+   "id": "I073",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Hailstones not discussed."
+  },
+  {
+   "id": "I074",
+   "status": "mentioned",
+   "locator": "Cahier 1, ch. V / PL4 / line 378",
+   "quote_fr": "un frère du soleil arrêté en plein zénith par Josué",
+   "note": "Joshua's sun cited only as coded symbolism parallel to Pius XII's Fatima vision; no blitzkrieg reading."
+  },
+  {
+   "id": "I075",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Passage not discussed."
+  },
+  {
+   "id": "I076",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Passage not discussed."
+  },
+  {
+   "id": "I077",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Passage not discussed."
+  },
+  {
+   "id": "I078",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Passage not discussed."
+  },
+  {
+   "id": "I079",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Passage not discussed."
+  },
+  {
+   "id": "I080",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Passage not discussed."
+  },
+  {
+   "id": "I081",
+   "status": "mentioned",
+   "locator": "Cahier 2, ch. VI / PL5 / line 1507",
+   "quote_fr": "Le dernier Yéti dont il soit question dans un texte digne de foi s’appelait, comme chacun sait, Goliath.",
+   "note": "Goliath = last degenerate colonist survivor (Sendy-only reading); no \"living God\" argument."
+  },
+  {
+   "id": "I082",
+   "status": "mentioned",
+   "locator": "Cahier 1, ch. IX / PL4 / line 664",
+   "quote_fr": "Mes cahiers de cours et mes notes personnelles, je les ai enfermés dans un coffre, que je baptise Arche d’Alliance",
+   "note": "Ark of the Covenant = chest of Moses' course notebooks guarded by superstition; not a radio transmitter."
+  },
+  {
+   "id": "I083",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Passage not discussed (Elijah appears only as \"le temps fixé par Elie\" and at the Transfiguration)."
+  },
+  {
+   "id": "I084",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Passage not discussed (Elijah appears only as \"le temps fixé par Elie\" and at the Transfiguration)."
+  },
+  {
+   "id": "I085",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Passage not discussed (Elijah appears only as \"le temps fixé par Elie\" and at the Transfiguration)."
+  },
+  {
+   "id": "I086",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Passage not discussed (Elijah appears only as \"le temps fixé par Elie\" and at the Transfiguration)."
+  },
+  {
+   "id": "I087",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Passage not discussed (Elijah appears only as \"le temps fixé par Elie\" and at the Transfiguration)."
+  },
+  {
+   "id": "I088",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Passage not discussed (Elijah appears only as \"le temps fixé par Elie\" and at the Transfiguration)."
+  },
+  {
+   "id": "I089",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Passage not discussed (Elijah appears only as \"le temps fixé par Elie\" and at the Transfiguration)."
+  },
+  {
+   "id": "I090",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Passage not discussed (Elijah appears only as \"le temps fixé par Elie\" and at the Transfiguration)."
+  },
+  {
+   "id": "I091",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Passage not discussed (Elijah appears only as \"le temps fixé par Elie\" and at the Transfiguration)."
+  },
+  {
+   "id": "I092",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Passage not discussed (Elijah appears only as \"le temps fixé par Elie\" and at the Transfiguration)."
+  },
+  {
+   "id": "I093",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Passage not discussed (Elijah appears only as \"le temps fixé par Elie\" and at the Transfiguration)."
+  },
+  {
+   "id": "I094",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Passage not discussed (Elijah appears only as \"le temps fixé par Elie\" and at the Transfiguration)."
+  },
+  {
+   "id": "I095",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Passage not discussed (Elijah appears only as \"le temps fixé par Elie\" and at the Transfiguration)."
+  },
+  {
+   "id": "I096",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Passage not discussed (Elijah appears only as \"le temps fixé par Elie\" and at the Transfiguration)."
+  },
+  {
+   "id": "I097",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Passage not discussed (Elijah appears only as \"le temps fixé par Elie\" and at the Transfiguration)."
+  },
+  {
+   "id": "I098",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Passage not discussed (Elijah appears only as \"le temps fixé par Elie\" and at the Transfiguration)."
+  },
+  {
+   "id": "I099",
+   "status": "mentioned",
+   "locator": "Cahier 1, ch. XI / PL4 / line 781",
+   "quote_fr": "A Ninive, où eux sont tenus captifs, les schismatiques ont engendré un faux prophète, Tobie.",
+   "note": "Northern tribes' captivity mentioned as schism from Rehoboam; no cannibalism/regression reading."
+  },
+  {
+   "id": "I100",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Passage not discussed (Isaiah cited only for Cyrus and Emmanuel)."
+  },
+  {
+   "id": "I101",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Passage not discussed (Isaiah cited only for Cyrus and Emmanuel)."
+  },
+  {
+   "id": "I102",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Passage not discussed (Isaiah cited only for Cyrus and Emmanuel)."
+  },
+  {
+   "id": "I103",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Passage not discussed (Isaiah cited only for Cyrus and Emmanuel)."
+  },
+  {
+   "id": "I104",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Passage not discussed (Isaiah cited only for Cyrus and Emmanuel)."
+  },
+  {
+   "id": "I105",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Ezekiel is not cited anywhere in the book."
+  },
+  {
+   "id": "I106",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Ezekiel is not cited anywhere in the book."
+  },
+  {
+   "id": "I107",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Ezekiel is not cited anywhere in the book."
+  },
+  {
+   "id": "I108",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Ezekiel is not cited anywhere in the book."
+  },
+  {
+   "id": "I109",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Ezekiel is not cited anywhere in the book."
+  },
+  {
+   "id": "I110",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Ezekiel is not cited anywhere in the book."
+  },
+  {
+   "id": "I111",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Ezekiel is not cited anywhere in the book."
+  },
+  {
+   "id": "I112",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Ezekiel is not cited anywhere in the book."
+  },
+  {
+   "id": "I113",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Ezekiel is not cited anywhere in the book."
+  },
+  {
+   "id": "I114",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Ezekiel is not cited anywhere in the book."
+  },
+  {
+   "id": "I115",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Ezekiel is not cited anywhere in the book."
+  },
+  {
+   "id": "I116",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Ezekiel is not cited anywhere in the book."
+  },
+  {
+   "id": "I117",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Ezekiel is not cited anywhere in the book."
+  },
+  {
+   "id": "I118",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Ezekiel is not cited anywhere in the book."
+  },
+  {
+   "id": "I119",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Ezekiel is not cited anywhere in the book."
+  },
+  {
+   "id": "I120",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Ezekiel is not cited anywhere in the book."
+  },
+  {
+   "id": "I121",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Ezekiel is not cited anywhere in the book."
+  },
+  {
+   "id": "I122",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Daniel is not cited anywhere in the book."
+  },
+  {
+   "id": "I123",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Daniel is not cited anywhere in the book."
+  },
+  {
+   "id": "I124",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Daniel is not cited anywhere in the book."
+  },
+  {
+   "id": "I125",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Daniel is not cited anywhere in the book."
+  },
+  {
+   "id": "I126",
+   "status": "mentioned",
+   "locator": "Cahier 1, ch. V / PL4 / line 331",
+   "quote_fr": "un Juge Redoutable jugera le peuple",
+   "note": "Last judgement present only as Malachy's \"Juge Redoutable\" (an Aquarian examiner, l.1124); Daniel not cited; no scientific resurrection of the dead."
+  },
+  {
+   "id": "I127",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Daniel 12:3 not cited. Thematic parallel: the Aquarian Judge grants a \"doctorat ès Science Suprême\" to the \"Justes, c’est-à-dire de Savants\" (Cahier 2, ch. III, l.1124)."
+  },
+  {
+   "id": "I128",
+   "status": "mentioned",
+   "locator": "Cahier 1, ch. XI / PL4 / line 747",
+   "quote_fr": "Mais maintenant « les temps sont venus » ; nous pouvons enfin comprendre que le récit de la destruction était destiné à nous confirmer que fission et fusion nucléaires ont déjà été connues",
+   "note": "\"The times have come\" (post-Hiroshima science unlocks the text); Daniel not cited; no 1948 State-of-Israel sign."
+  },
+  {
+   "id": "I129",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Passage not discussed."
+  },
+  {
+   "id": "I130",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Passage not discussed."
+  },
+  {
+   "id": "I131",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Passage not discussed."
+  },
+  {
+   "id": "I132",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Passage not discussed."
+  },
+  {
+   "id": "I133",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Passage not discussed."
+  },
+  {
+   "id": "I134",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Passage not discussed."
+  },
+  {
+   "id": "I135",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Passage not discussed."
+  },
+  {
+   "id": "I136",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Job not discussed; Sendy's Satan is the pro-human serpent of Genesis (see I021), not a sceptical opposition leader."
+  },
+  {
+   "id": "I137",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Passage not discussed."
+  },
+  {
+   "id": "I138",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Passage not discussed."
+  },
+  {
+   "id": "I139",
+   "status": "mentioned",
+   "locator": "Cahier 1, ch. XI / PL4 / line 782",
+   "quote_fr": "Tobie avait cru que l’Ere des Poissons était déjà venue, plusieurs siècles avant que ce fût exact.",
+   "note": "Tobit read at length as a coded astronomical error (premature Pisces); Raphael and robots absent."
+  },
+  {
+   "id": "I140",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Passage not discussed."
+  },
+  {
+   "id": "I141",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Passage not discussed."
+  },
+  {
+   "id": "I142",
+   "status": "similar",
+   "locator": "Cahier 2, ch. V / PL5 / line 1402",
+   "quote_fr": "je suggère l’Himalaya, dont l’altitude est aussi excessive que l’orgueil des Théosites « indiens »",
+   "note": "Colonist seats on mountains (Himalaya, Iranian Alborj, Tibet) and Tiahuanaco's Venus calendar; no undersea bases (Atlanteans only flee by submarine)."
+  },
+  {
+   "id": "I143",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Leviathan not discussed."
+  },
+  {
+   "id": "I144",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Passage not discussed."
+  },
+  {
+   "id": "I145",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Passage not discussed."
+  },
+  {
+   "id": "I146",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Proverbs 8 not cited. Thematic parallel: humans will carry the colonists' principles \"vers d’autres planètes, où nous chercherons nous aussi des êtres à « former à notre image »\" (Cahier 2, ch. VII, l.1635)."
+  },
+  {
+   "id": "I147",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Passage not discussed."
+  },
+  {
+   "id": "I148",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Passage not discussed."
+  },
+  {
+   "id": "I149",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Passage not discussed."
+  },
+  {
+   "id": "I150",
+   "status": "mentioned",
+   "locator": "Cahier 1, ch. VI / PL4 / line 507",
+   "quote_fr": "prirent pour emblème la swastika",
+   "note": "Swastika discussed only as the Nazi emblem drawn from the Mahabharata's SWASTI; no Star of David or cyclicity symbol."
+  },
+  {
+   "id": "I151",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Passage not discussed."
+  },
+  {
+   "id": "I152",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Passage not discussed."
+  },
+  {
+   "id": "I153",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Passage not discussed."
+  },
+  {
+   "id": "I154",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Passage not discussed."
+  },
+  {
+   "id": "I155",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Passage not discussed."
+  },
+  {
+   "id": "I156",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Passage not discussed."
+  },
+  {
+   "id": "I157",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Passage not discussed."
+  },
+  {
+   "id": "I158",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Passage not discussed."
+  },
+  {
+   "id": "I159",
+   "status": "mentioned",
+   "locator": "Cahier 1, ch. XII / PL4 / line 825",
+   "quote_fr": "Venons-en donc à son vrai père, Iahvé Eternel.",
+   "note": "Virgin birth discussed ironically (Emmanuel naming, genealogies); no creator-paternity or telepathy reading."
+  },
+  {
+   "id": "I160",
+   "status": "mentioned",
+   "locator": "Cahier 1, ch. XI / PL4 / line 731",
+   "quote_fr": "le jour où « une étoile » indiquerait que le point vernal était enfin entré dans les Poissons",
+   "note": "Star = precessional/astronomical sign; Magi discussed (l.829); no guiding craft."
+  },
+  {
+   "id": "I161",
+   "status": "mentioned",
+   "locator": "Cahier 1, ch. XII / PL4 / line 826",
+   "quote_fr": "Joseph et Marie avaient fui en Egypte, avec le bambino, à cause des menaces d’Hérode",
+   "note": "Flight into Egypt noted as a Matthew/Luke contradiction; no creators warning Joseph."
+  },
+  {
+   "id": "I162",
+   "status": "mentioned",
+   "locator": "Cahier 2, ch. III / PL5 / line 1066",
+   "quote_fr": "dans l’eau des Poissons remplaçant l’ oing hébraïque à la graisse de Bélier",
+   "note": "Baptism read as Pisces symbolism replacing the Aries ram-fat anointing; temptation not discussed."
+  },
+  {
+   "id": "I163",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Passage not discussed."
+  },
+  {
+   "id": "I164",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Passage not discussed."
+  },
+  {
+   "id": "I165",
+   "status": "mentioned",
+   "locator": "Cahier 2, ch. III / PL5 / line 1161",
+   "quote_fr": "C’est du texte des prières à Ptah qu’est tiré le Notre Père des chrétiens.",
+   "note": "Lord's Prayer derived from Ptah prayers; \"on earth as in heaven\" not interpreted. Thematic parallel to \"the torch will be taken up\" at l.1635 (see I146)."
+  },
+  {
+   "id": "I166",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Passage not discussed."
+  },
+  {
+   "id": "I167",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Passage not discussed."
+  },
+  {
+   "id": "I168",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Mt 9:13 not cited (Sendy says Christ opened Moses' \"club\" to the Gentiles, l.813)."
+  },
+  {
+   "id": "I169",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Healing miracles not discussed; the general miracle-as-technology claim is recorded under I180."
+  },
+  {
+   "id": "I170",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Mt 10:32 not cited; geocentrism discussed only via Aristarchus/Copernicus/Galileo."
+  },
+  {
+   "id": "I171",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Parable of the sower not discussed."
+  },
+  {
+   "id": "I172",
+   "status": "mentioned",
+   "locator": "Cahier 2, ch. I / PL5 / line 930",
+   "quote_fr": "Car on donnera à celui qui a, et il sera dans l’abondance ; et à celui qui n’a pas, on ôtera même ce qu’il a.",
+   "note": "Read as a \"thermodynamic parable\" (heat pump: taking from the cold source to give to the hot); not creators helping the intelligent."
+  },
+  {
+   "id": "I173",
+   "status": "mentioned",
+   "locator": "Cahier 2, ch. I / PL5 / line 944",
+   "quote_fr": "en XIII, 13 à propos des Mystères du Royaume des Cieux",
+   "note": "Cited only as the setting of the thermodynamic parable; no interplanetary competition."
+  },
+  {
+   "id": "I174",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Passage not discussed."
+  },
+  {
+   "id": "I175",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Passage not discussed."
+  },
+  {
+   "id": "I176",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Passage not discussed."
+  },
+  {
+   "id": "I177",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Passage not discussed."
+  },
+  {
+   "id": "I178",
+   "status": "mentioned",
+   "locator": "Cahier 2, ch. III / PL5 / line 1066",
+   "quote_fr": "multiplié pains et poissons (VIII, 1 à 9)",
+   "note": "Listed among Mark's episodes; no food-pill/host reading."
+  },
+  {
+   "id": "I179",
+   "status": "mentioned",
+   "locator": "Cahier 2, ch. III / PL5 / line 1066",
+   "quote_fr": "Jésus avait déjà marché sur les eaux (VI, 48)",
+   "note": "Listed among Mark's episodes; no anti-gravity reading."
+  },
+  {
+   "id": "I180",
+   "status": "same",
+   "locator": "Cahier 2, ch. V / PL5 / line 1391",
+   "quote_fr": "Avions, radio, tout a été transformé en fables par les poètes",
+   "note": "Miracles/myths = advanced technology misdescribed by a less advanced people (\"ce que l’avion est au tapis-volant\", l.941; the saucer-and-ant parable, l.1077)."
+  },
+  {
+   "id": "I181",
+   "status": "mentioned",
+   "locator": "Cahier 1, ch. III / PL4 / line 190",
+   "quote_fr": "conférence du Mont Thabor avec Moïse et Elie, notamment",
+   "note": "Transfiguration = ceremonial handover of the Moses/Elijah lineage to Jesus; no craft, searchlights or life extension."
+  },
+  {
+   "id": "I182",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Passage not discussed."
+  },
+  {
+   "id": "I183",
+   "status": "mentioned",
+   "locator": "Cahier 2, ch. I / PL5 / line 944",
+   "quote_fr": "en XXV, 29 pour expliquer la punition du serviteur qui n’a pas su faire PRODUIRE DU TRAVAIL au talent à lui confié",
+   "note": "Talents read as a thermodynamics allegory; no competing planets."
+  },
+  {
+   "id": "I184",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Passage not discussed."
+  },
+  {
+   "id": "I185",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Passage not discussed."
+  },
+  {
+   "id": "I186",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Passage not discussed."
+  },
+  {
+   "id": "I187",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Passage not discussed."
+  },
+  {
+   "id": "I188",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Passage not discussed."
+  },
+  {
+   "id": "I189",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Passage not discussed."
+  },
+  {
+   "id": "I190",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Passage not discussed."
+  },
+  {
+   "id": "I191",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Passage not discussed."
+  },
+  {
+   "id": "I192",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Passage not discussed."
+  },
+  {
+   "id": "I193",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Passage not discussed."
+  },
+  {
+   "id": "I194",
+   "status": "mentioned",
+   "locator": "Cahier 1, ch. V / PL4 / line 331",
+   "quote_fr": "En la dernière persécution de la Sainte Eglise Romaine, siégera un Pierre Romain",
+   "note": "End of the age framed via Malachy's last pope and the destruction of Rome before the Judge, but the Vatican is cast as guardian of the \"Cohérence\" until then; Mt 24 not read as the end of the Church's mission."
+  },
+  {
+   "id": "I195",
+   "status": "same",
+   "locator": "Cahier 2, ch. III / PL5 / line 1055",
+   "quote_fr": "un « Dieu » barbu, omniscient, dont les inconséquences se dénomment « voies impénétrables » et qui, les fesses au doux sur un cumulus capitonné",
+   "note": "Same derision of the bearded God on a cloud as an obstacle to reading the Bible correctly (also \"Notre Père ... se lissant la barbe\", l.152)."
+  },
+  {
+   "id": "I196",
+   "status": "similar",
+   "locator": "Cahier 2, ch. II / PL5 / line 1037",
+   "quote_fr": "Nous voici maintenant, depuis 1950/1954, dans l’antichambre du Verseau.",
+   "note": "Pisces = Christ's age (\"pêcheur d’hommes\", fish emblem, l.179) and Aquarius now beginning; dated 1950-54 (Pius XII), cycle 25,920 years; no 1946 or 22,000-year plan."
+  },
+  {
+   "id": "I197",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Zephaniah not cited."
+  },
+  {
+   "id": "I198",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Isaiah 29 not cited. Thematic parallel: Christ at Pisces vs a Judge/\"retour du Christ à l’entrée dans le Verseau\" (l.981)."
+  },
+  {
+   "id": "I199",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Passage not discussed."
+  },
+  {
+   "id": "I200",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Passage not discussed."
+  },
+  {
+   "id": "I201",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Passage not discussed."
+  },
+  {
+   "id": "I202",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Passage not discussed."
+  },
+  {
+   "id": "I203",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Passage not discussed."
+  },
+  {
+   "id": "I204",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Passage not discussed."
+  },
+  {
+   "id": "I205",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Passage not discussed."
+  },
+  {
+   "id": "I206",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Passage not discussed."
+  },
+  {
+   "id": "I207",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Passage not discussed."
+  },
+  {
+   "id": "I208",
+   "status": "mentioned",
+   "locator": "Cahier 2, ch. III / PL5 / line 1161",
+   "quote_fr": "Ptah n’a jamais été adoré comme une idole à laquelle on demande d’être exaucé à force de paroles (MATTH. VI, 7)",
+   "note": "Mt 6:7 used to contrast idolatrous petitions with Ptah prayers / Shema / Our Father; not a critique of Church prayer."
+  },
+  {
+   "id": "I209",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Passage not discussed (Sendy is favourable to the Vatican)."
+  },
+  {
+   "id": "I210",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Passage not discussed (Sendy is favourable to the Vatican)."
+  },
+  {
+   "id": "I211",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Passage not discussed (Sendy is favourable to the Vatican)."
+  },
+  {
+   "id": "I212",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Passage not discussed (Sendy is favourable to the Vatican)."
+  },
+  {
+   "id": "I213",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Shi'ur Qomah not discussed (Kabbalah cited via Safran and the Zohar only)."
+  },
+  {
+   "id": "I214",
+   "status": "same",
+   "locator": "Cahier 2, ch. III / PL5 / line 1213",
+   "quote_fr": "ne seraient pas TOUS à l’origine des reportages sur le même événement, l’arrivée des Théosites sur Terre",
+   "note": "Mahabharata, Gilgamesh, Genesis, Avesta, Chinese myths, Popol Vuh all record the same visitors."
+  },
+  {
+   "id": "I215",
+   "status": "similar",
+   "locator": "Cahier 2, ch. VII / PL5 / line 1616",
+   "quote_fr": "supprimé comme les ingénieurs suppriment sur un prototype un deuxième carburateur",
+   "note": "Engineered-prototype language for anatomy (the appendix) and species bearing creators' \"trademark\"; but humans descend from cave survivors of an earlier cycle (Sinanthropus 400,000 years), not an \"improved ape model\"."
+  },
+  {
+   "id": "I216",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "No future Sodom; Sendy predicts a human-made \"re-Cataclysme\" at the end of the next Capricorn (l.1272)."
+  },
+  {
+   "id": "I217",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Name Raël not discussed."
+  },
+  {
+   "id": "I218",
+   "status": "mentioned",
+   "locator": "Cahier 1, ch. VIII / PL4 / line 565",
+   "quote_fr": "que Copernic, qui hésita de longues années à publier son Système, qu’il craignait prématuré, n’ait jamais eu d’ennuis avec l’Eglise",
+   "note": "Opposite claim: Copernicus never troubled; Galileo condemned for imprudence."
+  },
+  {
+   "id": "I219",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Jubilee not discussed."
+  },
+  {
+   "id": "I220",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "No spacesuit/helmet discussion beyond Earth becoming breathable \"sans casque\" for the colonists (l.1099)."
+  },
+  {
+   "id": "I221",
+   "status": "similar",
+   "locator": "Cahier 2, ch. VI / PL5 / line 1502",
+   "quote_fr": "ces 5 semaines de gestation chez la femme (dont l’enfant est prévu pour durer 120 ans) correspondraient à environ 9 mois chez Mme Théosite",
+   "note": "Colonists have wives and children (incubator births, l.1413-1414); Zechariah not cited."
+  },
+  {
+   "id": "I222",
+   "status": "similar",
+   "locator": "Cahier 2, ch. III / PL5 / line 1115",
+   "quote_fr": "une opération sous anesthésie totale (II, 21 à 24) permit d’en obtenir une autre",
+   "note": "A surgical operation appears, but it is the rib \"mutation\" of woman; the Tree of Life is a genetics lab/incubator, not a longevity operation."
+  },
+  {
+   "id": "I223",
+   "status": "mentioned",
+   "locator": "Cahier 2, ch. III / PL5 / line 1111",
+   "quote_fr": "Prêter l’immortalité aux Elohim serait nier la Loi d’Adonaï.",
+   "note": "Opposite: the Elohim are mortal; no cloning or council of eternals."
+  },
+  {
+   "id": "I224",
+   "status": "similar",
+   "locator": "Cahier 2, ch. III / PL5 / line 1110",
+   "quote_fr": "Ici, « Dieu » représente de toute évidence les Elohim, « à l’image de qui nous avons été créés ».",
+   "note": "Replace \"Dieu\" by Elohim (the colonists); no \"venus du ciel\" etymology."
+  },
+  {
+   "id": "I225",
+   "status": "mentioned",
+   "locator": "Cahier 2, ch. V / PL5 / line 1409",
+   "quote_fr": "On ne pourra le savoir que le jour où sera connue la langue que parlaient entre eux les Théosites.",
+   "note": "Colonists' language explicitly unknown; Hebrew valued as an immutable sacred key, Sumerian puns as liturgical."
+  },
+  {
+   "id": "I226",
+   "status": "mentioned",
+   "locator": "Cahier 2, ch. I / PL5 / line 981",
+   "quote_fr": "retour du Christ à l’entrée dans le Verseau",
+   "note": "Return of Christ at Aquarius alluded to via Nostradamus; no Moses/Elijah/Jesus living on another planet."
+  }
+ ],
+ "sendy_only": [
+  {
+   "locator": "Cahier 2, ch. III / PL5 / line 1079",
+   "passage": "Gen 1:2",
+   "reading": "The \"formless and void\" Earth is the aftermath of a previous human Golden Age that destroyed itself in a megaton war c. -20,000.",
+   "quote_fr": "Les hommes, dans un festival de mégatonnes, avaient pourtant réussi à faire évaporer les océans"
+  },
+  {
+   "locator": "Cahier 2, ch. III / PL5 / line 1084",
+   "passage": "Gen 1 (colonists)",
+   "reading": "Creators are \"Théosites\" from a planet Théos in our Galaxy, giants the size of Easter Island statues, using Baalbek as a landing pad; mission chief Metatron under a \"Constructeur Principal\".",
+   "quote_fr": "des Théosites ayant la taille des statues de l’île de Pâques, naviguant dans des astronefs ( horus ) pour qui la terrasse de Baalbek constituait une aire d’atterrissage raisonnable"
+  },
+  {
+   "locator": "Cahier 2, ch. IV / PL5 / line 1299",
+   "passage": "Gen 1:26 / 2:7",
+   "reading": "Humans were not created: they are troglodyte survivors of the earlier cataclysm, shrunk to under 150 cm, who emerged from underground (\"surgis de la terre\") and met the giants.",
+   "quote_fr": "les millénaires dans les grottes les avaient rabougris à moins de 150 centimètres de taille"
+  },
+  {
+   "locator": "Cahier 2, ch. IV / PL5 / line 1339",
+   "passage": "Gen 2:21-22",
+   "reading": "Eve from Adam's rib = a psychological \"mutation\" operation on the female; rib/life pun from Sumerian \"ti\".",
+   "quote_fr": "en langue sumérienne ti signifie à la fois côte et donner la vie"
+  },
+  {
+   "locator": "Cahier 2, ch. IV / PL5 / line 1348",
+   "passage": "Gen 3:16 / matrilineal descent",
+   "reading": "The Eve mutation is transmitted matrilineally, explaining Jewish matrilineal descent.",
+   "quote_fr": "Lier à la filiation matrilinéaire la transmission d’une mutation héréditaire depuis Eve est par contre parfaitement cohérent."
+  },
+  {
+   "locator": "Cahier 2, ch. VI / PL5 / line 1489",
+   "passage": "Gen 3:16",
+   "reading": "Pain in childbirth: in Eden women were delivered at five weeks and embryos finished growing in incubators; expelled, they lost this obstetrics.",
+   "quote_fr": "la femme fut, comme Mme Théosite, délivrée dès que le fœtus avait acquis une âme dans le ventre maternel et pouvait par conséquent terminer sa croissance en incubateur"
+  },
+  {
+   "locator": "Cahier 2, ch. III / PL5 / line 1109",
+   "passage": "Gen 2:2",
+   "reading": "God \"resting\" proves \"Dieu\" here means the mortal Elohim, not Adonaï, the abstract Law (conservation of energy).",
+   "quote_fr": "il s’use et ne saurait être éternel"
+  },
+  {
+   "locator": "Cahier 2, ch. III / PL5 / line 1073",
+   "passage": "Deut 6:4 / Mark 12:29",
+   "reading": "The Shema decoded syllable by syllable as the Law of Conservation of Energy.",
+   "quote_fr": "cette Formule (ADONAÏ), c’est la Loi de Conservation de l’Energie"
+  },
+  {
+   "locator": "Cahier 2, ch. III / PL5 / line 1123",
+   "passage": "Gen 32:28-31",
+   "reading": "Jacob's wrestling = an examination; \"Israël\" = a degree (\"bachelier\"); the limp = science's halting uncertainty; diplomas at heel, hip, heart, head.",
+   "quote_fr": "Israël, dans la hiérarchie des titres universitaires théosites, semble correspondre à « bachelier »."
+  },
+  {
+   "locator": "Cahier 2, ch. III / PL5 / line 1159",
+   "passage": "Gen 2-3 (Eden location)",
+   "reading": "Eden was in Egypt near Thebes; Ptah, \"god south of his wall\", is the Eden patron; the Our Father derives from Ptah prayers.",
+   "quote_fr": "Ptah-écraseur-de-serpents, dont les prêtres étaient au sommet de la hiérarchie ecclésiastique, était en effet dans TOUS ses temples qualifié de dieu au sud de son mur."
+  },
+  {
+   "locator": "Cahier 2, ch. III / PL5 / line 1164",
+   "passage": "Gen 4",
+   "reading": "Cain and Abel = the Gemini era twins (Abel \"LES bergers\", Cain \"LES laboureurs\"); Cain founds a rival \"Hénoc-City\"; East of Eden = Jericho I (C14 c. -6800).",
+   "quote_fr": "c’est en effet avec la naissance d’Abel (LES bergers) et de Caïn (LES laboureurs) qu’apparaît la grande nouveauté"
+  },
+  {
+   "locator": "Cahier 2, ch. V / PL5 / line 1472",
+   "passage": "Gen 6:17 / Flood",
+   "reading": "Flood linked to a Mahabharata-style \"War of the Gods\" between colonist factions in India and China, after which the Elohim left and razed their installations.",
+   "quote_fr": "NOS DIRIGEANTS (qui vivent dans les cieux) ont décidé de détruire toutes les installations théosites de la Terre"
+  },
+  {
+   "locator": "Cahier 2, ch. VI / PL5 / line 1510",
+   "passage": "Gen 6-8",
+   "reading": "Noah's ark = a submarine (the sea floor shields from radiation); it carried Eden's documents, plans and equipment.",
+   "quote_fr": "le fond des mers protège des radiations nucléaires et il savait que la seule chance de survie de Noé était de construire par conséquent un sous-marin"
+  },
+  {
+   "locator": "Cahier 2, ch. VII / PL5 / line 1596",
+   "passage": "Gen 9:22",
+   "reading": "Ham did not see Noah's genitals but the uncovered documents for building and launching a spacecraft.",
+   "quote_fr": "sur les documents scientifiques correspondant à la fabrication et au lancement d’un astronef que Noé, ayant trop bu, avait « laissés à découvert »"
+  },
+  {
+   "locator": "Cahier 2, ch. VII / PL5 / line 1652",
+   "passage": "Gen 9:13-14",
+   "reading": "The \"bow in the sky\" is an artificial (or fitted-out) satellite left as a staging post, perhaps the \"moon\" Lilith.",
+   "quote_fr": "Il n’est pas interdit de penser qu’il s’agissait d’un satellite tournant autour de la Terre, artificiel comme l’une des « lunes » de Mars"
+  },
+  {
+   "locator": "Cahier 2, ch. VII / PL5 / line 1583",
+   "passage": "Gen 10",
+   "reading": "Noah's sons scattered to round up survivors towards Giza, the \"Zero Point\"; Noah's \"altars to Adonaï\" stood where the Great Pyramid was later built.",
+   "quote_fr": "Noé commença par expédier ses trois fils dans toutes les directions pour, au contraire, rameuter VERS GIZEH tout ce qu’ils pourraient trouver comme humains"
+  },
+  {
+   "locator": "Cahier 2, ch. VI / PL5 / line 1507",
+   "passage": "1 Sam 17",
+   "reading": "Goliath was the last degenerate \"Yeti\", a colonist survivor of the War of the Gods stranded in Tibet.",
+   "quote_fr": "Le dernier Yéti dont il soit question dans un texte digne de foi s’appelait, comme chacun sait, Goliath."
+  },
+  {
+   "locator": "Cahier 1, ch. IX / PL4 / line 664",
+   "passage": "Exodus (Ark of the Covenant)",
+   "reading": "Moses was an Egyptian-trained initiate; the Ark held his course notebooks; the Pentateuch is a coded condensed \"formulary\".",
+   "quote_fr": "Je profiterai du voyage pour rédiger un condensé de tout cela, en Cinq Livres, ou Livre des Livres."
+  },
+  {
+   "locator": "Cahier 1, ch. III / PL4 / line 183",
+   "passage": "Ex 32 (golden calf)",
+   "reading": "Moses' fury at the Calf = refusal of a regression to the outdated Age of Taurus within the Age of Aries.",
+   "quote_fr": "admettre un retour superstitieux au Mythe de Papa, au Veau fils du Taureau révolu"
+  },
+  {
+   "locator": "Cahier 1, ch. IX / PL4 / line 672",
+   "passage": "Gen 15:9",
+   "reading": "Abram's heifer, goat and ram sacrifice encodes the Taurus-to-Aries precessional transition.",
+   "quote_fr": "la génisse, la chèvre et le bélier qu’Abram pas encore devenu Abraham sacrifie (GEN. XV, 9)"
+  },
+  {
+   "locator": "Cahier 1, ch. XI / PL4 / line 735",
+   "passage": "Gen 17:5, 24",
+   "reading": "Abram to Abraham: \"a syllable for a foreskin\", a kabbalistic mnemonic turned into rite.",
+   "quote_fr": "une syllabe contre un prépuce, les kabalistes étaient experts en mnémotechnique"
+  },
+  {
+   "locator": "Cahier 1, ch. XI / PL4 / line 786",
+   "passage": "Tobit",
+   "reading": "Tobit = a false prophet who announced Pisces too early; the son bearing his father's name is the deliberate key.",
+   "quote_fr": "le fils de Tobie s’appelle Tobie, comme son père"
+  },
+  {
+   "locator": "Cahier 1, ch. IX / PL4 / line 682",
+   "passage": "Psalm 104",
+   "reading": "Psalm 104 is attributed to Akhenaten and honoured by Moses' heirs.",
+   "quote_fr": "C’est le psaume 104"
+  },
+  {
+   "locator": "Cahier 1, ch. IX / PL4 / line 656",
+   "passage": "Exodus 2 (Moses' birth)",
+   "reading": "Moses' infancy story repeats the Sargon legend; Moses chose to proclaim himself a Hebrew.",
+   "quote_fr": "l’histoire de l’enfant appelé à devenir Moïse est la répétition exacte de la légende de Sargon"
+  },
+  {
+   "locator": "Cahier 2, ch. I / PL5 / line 944",
+   "passage": "Matt 13:12; 25:29",
+   "reading": "Jesus' \"to him who has shall be given\" is a thermodynamic parable (the refrigerator as heat pump).",
+   "quote_fr": "Jésus tenait beaucoup à sa parabole thermodynamique"
+  }
+ ]
+}

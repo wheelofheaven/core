@@ -2,7 +2,7 @@
   "$schema": "./schemas/catalog.schema.json",
   "catalog_version": "0.1.0",
   "status": "draft",
-  "last_reviewed": "2026-09-15",
+  "last_reviewed": "2026-10-14",
   "claims": [
     {
       "id": "woh-claim-0001",
@@ -713,6 +713,16 @@
       "framework_relation": "derived",
       "record": "claims/woh-claim-0071.json",
       "specification": "../docs/framework/continental-breakup-at-the-flood.md"
+    },
+    {
+      "id": "woh-claim-0072",
+      "title": "Sendy and the Messages — resemblance, difference, dependence",
+      "version": "0.2.0",
+      "lifecycle": "accepted",
+      "claim_kind": "interpretation",
+      "framework_relation": "comparative",
+      "record": "claims/woh-claim-0072.json",
+      "specification": "../docs/framework/sendy-messages-literary-comparison.md"
     }
   ]
 }

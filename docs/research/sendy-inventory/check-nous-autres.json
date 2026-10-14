@@ -1,0 +1,1740 @@
+{
+ "book": "Jean Sendy, Nous autres, gens du Moyen Âge (Julliard, 1969; FeniXX ePub 2019)",
+ "book_key": "nous-autres",
+ "items": [
+  {
+   "id": "I001",
+   "status": "similar",
+   "locator": "ch. \"Les inventeurs\" (PL3) / line 212",
+   "quote_fr": "le texte biblique devient cohérent et clair depuis que la possibilité pour l’homme d’échapper à la gravitation terrestre est un fait acquis",
+   "note": "Bible as the document to be decoded literally in the space age; no encounter, no telepathy, no instruction to read it."
+  },
+  {
+   "id": "I002",
+   "status": "mentioned",
+   "locator": "ch. \"Notre âge ingrat\" (PL2) / line 134",
+   "quote_fr": "Quand, en 1945, le nazisme est balayé, il ne reste plus rien",
+   "note": "1945 only as end of Nazism; Sendy's epochal trigger is Sputnik 1957, not the atomic bomb; no France-as-democracy or Jewish/Catholic messenger."
+  },
+  {
+   "id": "I003",
+   "status": "similar",
+   "locator": "ch. \"Les inventeurs\" (PL3) / line 205",
+   "quote_fr": "infiniment probable qu’ils travaillaient sur une transcription de transcriptions du texte attribué à Moïse",
+   "note": "Transmitted text kept 'au trait de lettre près' (l.268) but read by men who no longer understood it (bulb-in-a-shrine parable l.293); Sendy blames exegetes, not copyists' supernaturalizing."
+  },
+  {
+   "id": "I004",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Not found after searching names, verse refs and synonyms; this book (a polemic on humanism vs 'pensée médiévale') discusses few biblical passages."
+  },
+  {
+   "id": "I005",
+   "status": "similar",
+   "locator": "ch. \"De profundis\" (PL1) / line 70",
+   "quote_fr": "les Anges de Byzance, les « venus du ciel », les Elohim du texte biblique, les Célestes",
+   "note": "Elohim as plural, glossed in apposition as 'venus du ciel' / cosmonauts; no etymological claim and no reading of 'created' as 'selected the Earth'."
+  },
+  {
+   "id": "I006",
+   "status": "same",
+   "locator": "ch. \"Les inventeurs\" (PL3) / line 210",
+   "quote_fr": "« l’esprit d’Elohim planait au-dessus des eaux », et du contexte il ressort que les « eaux » en question étaient les nuages opaques dont était enveloppée la Terre",
+   "note": "Hovering = space vehicle over a cloud-shrouded Earth; a probe sent to Venus 'renouvelle' the act. Message: satellites/reconnaissance; Sendy: waters are clouds, not ocean+mists."
+  },
+  {
+   "id": "I007",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Not found after searching names, verse refs and synonyms; this book (a polemic on humanism vs 'pensée médiévale') discusses few biblical passages."
+  },
+  {
+   "id": "I008",
+   "status": "absent",
+   "locator": "ch. \"Les inventeurs\" (PL3) / line 271",
+   "quote_fr": null,
+   "note": "Precessional ages discussed at length, but Genesis 'day' never equated with an age."
+  },
+  {
+   "id": "I009",
+   "status": "similar",
+   "locator": "ch. \"Les inventeurs\" (PL3) / line 210",
+   "quote_fr": "les « eaux » en question étaient les nuages opaques dont était enveloppée la Terre",
+   "note": "Waters = clouds, but applied to Gen 1:2, not to the firmament's upper waters (1:6-7); clouds attributed to the Würm III glaciation."
+  },
+  {
+   "id": "I010",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Not found after searching names, verse refs and synonyms; this book (a polemic on humanism vs 'pensée médiévale') discusses few biblical passages."
+  },
+  {
+   "id": "I011",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Not found after searching names, verse refs and synonyms; this book (a polemic on humanism vs 'pensée médiévale') discusses few biblical passages."
+  },
+  {
+   "id": "I012",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Not found after searching names, verse refs and synonyms; this book (a polemic on humanism vs 'pensée médiévale') discusses few biblical passages."
+  },
+  {
+   "id": "I013",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Not found after searching names, verse refs and synonyms; this book (a polemic on humanism vs 'pensée médiévale') discusses few biblical passages."
+  },
+  {
+   "id": "I014",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Not found after searching names, verse refs and synonyms; this book (a polemic on humanism vs 'pensée médiévale') discusses few biblical passages."
+  },
+  {
+   "id": "I015",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Not found after searching names, verse refs and synonyms; this book (a polemic on humanism vs 'pensée médiévale') discusses few biblical passages."
+  },
+  {
+   "id": "I016",
+   "status": "mentioned",
+   "locator": "ch. \"Notre âge ingrat\" (PL2) / line 108",
+   "quote_fr": "Il est, dans une certaine mesure, rassurant de constater que les « races » n’expliquent rien",
+   "note": "Races discussed but held to explain nothing (cultural conditioning); opposite of one creator team per race."
+  },
+  {
+   "id": "I017",
+   "status": "similar",
+   "locator": "ch. \"Notre âge ingrat\" (PL2) / line 160",
+   "quote_fr": "« Mâle-et-femelle », pour citer le texte biblique, l’homme pris en charge par les Elohim",
+   "note": "Elohim were bipeds physically like the natives (l.251), but humans pre-existed by natural evolution and were 'taken in charge'/improved, not artificially made."
+  },
+  {
+   "id": "I018",
+   "status": "similar",
+   "locator": "ch. \"Les inventeurs\" (PL3) / line 251",
+   "quote_fr": "Eden clos de murs qui le protègent de la faune terrestre, avec à l’intérieur « Adam », éponyme des échantillons d’humanité prélevés par les Célestes sur la population indigène",
+   "note": "Eden = walled compound of the Celestials; Adam = sampled natives. No laboratory synthesis, no location in Israel, no rival teams."
+  },
+  {
+   "id": "I019",
+   "status": "similar",
+   "locator": "ch. \"Notre âge ingrat\" (PL2) / line 161",
+   "quote_fr": "Satan qui lui révéla la « connaissance du bien et du mal », lui fit comprendre que l’homme était non seulement supérieur aux autres mammifères mais aussi l’égal des dieux",
+   "note": "Forbidden knowledge = real knowledge withheld by the Celestials, but its content is equality with the gods (and linked to sex/paternity), not science books."
+  },
+  {
+   "id": "I020",
+   "status": "absent",
+   "locator": "ch. \"Notre âge ingrat\" (PL2) / line 160",
+   "quote_fr": null,
+   "note": "Naming of animals not discussed; Sendy instead has the Celestials teach Adam paternity/obstetrics."
+  },
+  {
+   "id": "I021",
+   "status": "similar",
+   "locator": "ch. \"Notre âge ingrat\" (PL2) / line 161",
+   "quote_fr": "C’est sur cette science rudimentaire que se greffe l’épisode de l’ « Ange Déchu », de Satan qui lui révéla la « connaissance du bien et du mal »",
+   "note": "Serpent = a fallen Angel (a Celestial) who told man he was equal to the gods. Message: a small faction of creating scientists offering full scientific education."
+  },
+  {
+   "id": "I022",
+   "status": "mentioned",
+   "locator": "ch. \"Notre âge ingrat\" (PL2) / line 157",
+   "quote_fr": "Eve « prend la pilule » comme elle avait « pris le fruit », et dans un cas comme dans l’autre ses yeux se dessillent",
+   "note": "Eyes opened used as an analogy for contraception (Humanae Vitae), no technological reading."
+  },
+  {
+   "id": "I023",
+   "status": "mentioned",
+   "locator": "ch. \"Notre âge ingrat\" (PL2) / line 161",
+   "quote_fr": "Les Célestes maudirent Satan, se résignèrent à faire le ménage eux-mêmes",
+   "note": "Curse noted, but no exile-on-Earth sentence by a home-planet government."
+  },
+  {
+   "id": "I024",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Not found after searching names, verse refs and synonyms; this book (a polemic on humanism vs 'pensée médiévale') discusses few biblical passages."
+  },
+  {
+   "id": "I025",
+   "status": "similar",
+   "locator": "ch. \"Notre âge ingrat\" (PL2) / line 161",
+   "quote_fr": "le primitif, jusque-là serviteur soumis, ivre d’orgueil de se savoir semblable aux « dieux », risquait évidemment à tout moment de jouer avec les manettes de n’importe quoi, de faire tout sauter",
+   "note": "Expulsion from fear of humans 'like the gods' tampering with technology; no tree-of-life longevity and no contest electing Israel."
+  },
+  {
+   "id": "I026",
+   "status": "similar",
+   "locator": "ch. \"Notre âge d’or\" (PL7) / line 427",
+   "quote_fr": "le jardin était gardé par des chérubins brandissant des objets flamboyants",
+   "note": "Analogy only: an Amazonian sorcerer shown Saclay (nuclear centre) would describe Eden-like cherubim with flaming objects. Not an explicit reading of Gen 3:24 as atomic weapon."
+  },
+  {
+   "id": "I027",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Not found after searching names, verse refs and synonyms; this book (a polemic on humanism vs 'pensée médiévale') discusses few biblical passages."
+  },
+  {
+   "id": "I028",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Not found after searching names, verse refs and synonyms; this book (a polemic on humanism vs 'pensée médiévale') discusses few biblical passages."
+  },
+  {
+   "id": "I029",
+   "status": "mentioned",
+   "locator": "ch. \"Les inventeurs\" (PL3) / line 208",
+   "quote_fr": "ce Dieu Immatériel a des fils qui, au chapitre VI, épousent les filles des hommes",
+   "note": "Cited as an incoherence that disappears if read literally; no exiled-creators reading (cf. sexed 'Anges mammifères', l.118)."
+  },
+  {
+   "id": "I030",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Not found after searching names, verse refs and synonyms; this book (a polemic on humanism vs 'pensée médiévale') discusses few biblical passages."
+  },
+  {
+   "id": "I031",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Not found after searching names, verse refs and synonyms; this book (a polemic on humanism vs 'pensée médiévale') discusses few biblical passages."
+  },
+  {
+   "id": "I032",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Not found after searching names, verse refs and synonyms; this book (a polemic on humanism vs 'pensée médiévale') discusses few biblical passages."
+  },
+  {
+   "id": "I033",
+   "status": "mentioned",
+   "locator": "ch. \"Notre âge ingrat\" (PL2) / line 191",
+   "quote_fr": "c’est dans un tebah que Noé s’est embarqué avec tout son fourbi, pour le temps du Déluge",
+   "note": "Lexical note (tebah vs aron) only; no nuclear flood, no spaceship-ark."
+  },
+  {
+   "id": "I034",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Not found after searching names, verse refs and synonyms; this book (a polemic on humanism vs 'pensée médiévale') discusses few biblical passages."
+  },
+  {
+   "id": "I035",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Not found after searching names, verse refs and synonyms; this book (a polemic on humanism vs 'pensée médiévale') discusses few biblical passages."
+  },
+  {
+   "id": "I036",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Not found after searching names, verse refs and synonyms; this book (a polemic on humanism vs 'pensée médiévale') discusses few biblical passages."
+  },
+  {
+   "id": "I037",
+   "status": "mentioned",
+   "locator": "ch. \"Notre âge d’or\" (PL7) / line 470",
+   "quote_fr": "une « preuve d’alliance », telle que la promet le chapitre IX de la Genèse, n’est pas cachée, mais balisée",
+   "note": "Gen 9 covenant read as a physical 'bow' artifact left on the Moon, not as a promise not to destroy again; see sendy_only."
+  },
+  {
+   "id": "I038",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Not found after searching names, verse refs and synonyms; this book (a polemic on humanism vs 'pensée médiévale') discusses few biblical passages."
+  },
+  {
+   "id": "I039",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Not found after searching names, verse refs and synonyms; this book (a polemic on humanism vs 'pensée médiévale') discusses few biblical passages."
+  },
+  {
+   "id": "I040",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Not found after searching names, verse refs and synonyms; this book (a polemic on humanism vs 'pensée médiévale') discusses few biblical passages."
+  },
+  {
+   "id": "I041",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Not found after searching names, verse refs and synonyms; this book (a polemic on humanism vs 'pensée médiévale') discusses few biblical passages."
+  },
+  {
+   "id": "I042",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Not found after searching names, verse refs and synonyms; this book (a polemic on humanism vs 'pensée médiévale') discusses few biblical passages."
+  },
+  {
+   "id": "I043",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Not found after searching names, verse refs and synonyms; this book (a polemic on humanism vs 'pensée médiévale') discusses few biblical passages."
+  },
+  {
+   "id": "I044",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Not found after searching names, verse refs and synonyms; this book (a polemic on humanism vs 'pensée médiévale') discusses few biblical passages."
+  },
+  {
+   "id": "I045",
+   "status": "mentioned",
+   "locator": "ch. \"Notre âge ingrat\" (PL2) / line 152",
+   "quote_fr": "il lui suffirait d’un seul coup d’œil en arrière pour être changé en statue de sel",
+   "note": "Pillar of salt used as a figure of speech only."
+  },
+  {
+   "id": "I046",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Not found after searching names, verse refs and synonyms; this book (a polemic on humanism vs 'pensée médiévale') discusses few biblical passages."
+  },
+  {
+   "id": "I047",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Not found after searching names, verse refs and synonyms; this book (a polemic on humanism vs 'pensée médiévale') discusses few biblical passages."
+  },
+  {
+   "id": "I048",
+   "status": "absent",
+   "locator": "ch. \"Les inventeurs\" (PL3) / line 242",
+   "quote_fr": null,
+   "note": "Gen 35:2 not cited; thematic parallel: the 'chain' of the Elohim's teaching broken and rediscovered by Abraham, and idolaters who 'made a god of the Wind' (l.276)."
+  },
+  {
+   "id": "I049",
+   "status": "similar",
+   "locator": "ch. \"Notre âge d’or\" (PL7) / line 463",
+   "quote_fr": "l’ « arc d’alliance » est une rampe de lancement, qui nous attend dans un cratère lunaire, et que ce cratère est balisé par quelque « buisson ardent »",
+   "note": "Bush = a beacon marking a cache (Moses 'retrouvé des textes', l.234); Sendy explicitly doubts a live cosmonaut was there (l.231-233). Message: landed rocket's light."
+  },
+  {
+   "id": "I050",
+   "status": "mentioned",
+   "locator": "ch. \"Les inventeurs\" (PL3) / line 228",
+   "quote_fr": "provoque les prêtres d’Amon en un « duel de magiciens », gagne haut la main, et oblige Pharaon à laisser partir un peuple",
+   "note": "Exodus as Moses' rational victory using rediscovered Tradition; no technological intervention."
+  },
+  {
+   "id": "I051",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Not found after searching names, verse refs and synonyms; this book (a polemic on humanism vs 'pensée médiévale') discusses few biblical passages."
+  },
+  {
+   "id": "I052",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Not found after searching names, verse refs and synonyms; this book (a polemic on humanism vs 'pensée médiévale') discusses few biblical passages."
+  },
+  {
+   "id": "I053",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Not found after searching names, verse refs and synonyms; this book (a polemic on humanism vs 'pensée médiévale') discusses few biblical passages."
+  },
+  {
+   "id": "I054",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Not found after searching names, verse refs and synonyms; this book (a polemic on humanism vs 'pensée médiévale') discusses few biblical passages."
+  },
+  {
+   "id": "I055",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Not found after searching names, verse refs and synonyms; this book (a polemic on humanism vs 'pensée médiévale') discusses few biblical passages."
+  },
+  {
+   "id": "I056",
+   "status": "similar",
+   "locator": "ch. \"Les inventeurs\" (PL3) / line 241",
+   "quote_fr": "le texte biblique (Exode, XXXI) précise qu’elle était « écrite de la main des Elohim ». Là encore, une lecture au pied de la lettre est plus satisfaisante pour l’esprit que toutes les exégèses : Moïse a retrouvé des textes",
+   "note": "Law of physical Elohim origin, but found as texts, not dictated by visitors in a flying machine; purpose = Pavlovian conditioning (613 precepts), not hygiene."
+  },
+  {
+   "id": "I057",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Not found after searching names, verse refs and synonyms; this book (a polemic on humanism vs 'pensée médiévale') discusses few biblical passages."
+  },
+  {
+   "id": "I058",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Not found after searching names, verse refs and synonyms; this book (a polemic on humanism vs 'pensée médiévale') discusses few biblical passages."
+  },
+  {
+   "id": "I059",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Not found after searching names, verse refs and synonyms; this book (a polemic on humanism vs 'pensée médiévale') discusses few biblical passages."
+  },
+  {
+   "id": "I060",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Not found after searching names, verse refs and synonyms; this book (a polemic on humanism vs 'pensée médiévale') discusses few biblical passages."
+  },
+  {
+   "id": "I061",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Not found after searching names, verse refs and synonyms; this book (a polemic on humanism vs 'pensée médiévale') discusses few biblical passages."
+  },
+  {
+   "id": "I062",
+   "status": "mentioned",
+   "locator": "ch. \"Notre âge ingrat\" (PL2) / line 167",
+   "quote_fr": "le Kremlin est pour le Maître ce que sa tente était pour Moïse",
+   "note": "Moses' tent used as a political analogy only."
+  },
+  {
+   "id": "I063",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Not found after searching names, verse refs and synonyms; this book (a polemic on humanism vs 'pensée médiévale') discusses few biblical passages."
+  },
+  {
+   "id": "I064",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Not found after searching names, verse refs and synonyms; this book (a polemic on humanism vs 'pensée médiévale') discusses few biblical passages."
+  },
+  {
+   "id": "I065",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Not found after searching names, verse refs and synonyms; this book (a polemic on humanism vs 'pensée médiévale') discusses few biblical passages."
+  },
+  {
+   "id": "I066",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Not found after searching names, verse refs and synonyms; this book (a polemic on humanism vs 'pensée médiévale') discusses few biblical passages."
+  },
+  {
+   "id": "I067",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Not found after searching names, verse refs and synonyms; this book (a polemic on humanism vs 'pensée médiévale') discusses few biblical passages."
+  },
+  {
+   "id": "I068",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Not found after searching names, verse refs and synonyms; this book (a polemic on humanism vs 'pensée médiévale') discusses few biblical passages."
+  },
+  {
+   "id": "I069",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Not found after searching names, verse refs and synonyms; this book (a polemic on humanism vs 'pensée médiévale') discusses few biblical passages."
+  },
+  {
+   "id": "I070",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Not found after searching names, verse refs and synonyms; this book (a polemic on humanism vs 'pensée médiévale') discusses few biblical passages."
+  },
+  {
+   "id": "I071",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Not found after searching names, verse refs and synonyms; this book (a polemic on humanism vs 'pensée médiévale') discusses few biblical passages."
+  },
+  {
+   "id": "I072",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Not found after searching names, verse refs and synonyms; this book (a polemic on humanism vs 'pensée médiévale') discusses few biblical passages."
+  },
+  {
+   "id": "I073",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Not found after searching names, verse refs and synonyms; this book (a polemic on humanism vs 'pensée médiévale') discusses few biblical passages."
+  },
+  {
+   "id": "I074",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Not found after searching names, verse refs and synonyms; this book (a polemic on humanism vs 'pensée médiévale') discusses few biblical passages."
+  },
+  {
+   "id": "I075",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Not found after searching names, verse refs and synonyms; this book (a polemic on humanism vs 'pensée médiévale') discusses few biblical passages."
+  },
+  {
+   "id": "I076",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Not found after searching names, verse refs and synonyms; this book (a polemic on humanism vs 'pensée médiévale') discusses few biblical passages."
+  },
+  {
+   "id": "I077",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Not found after searching names, verse refs and synonyms; this book (a polemic on humanism vs 'pensée médiévale') discusses few biblical passages."
+  },
+  {
+   "id": "I078",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Not found after searching names, verse refs and synonyms; this book (a polemic on humanism vs 'pensée médiévale') discusses few biblical passages."
+  },
+  {
+   "id": "I079",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Not found after searching names, verse refs and synonyms; this book (a polemic on humanism vs 'pensée médiévale') discusses few biblical passages."
+  },
+  {
+   "id": "I080",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Not found after searching names, verse refs and synonyms; this book (a polemic on humanism vs 'pensée médiévale') discusses few biblical passages."
+  },
+  {
+   "id": "I081",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Not found after searching names, verse refs and synonyms; this book (a polemic on humanism vs 'pensée médiévale') discusses few biblical passages."
+  },
+  {
+   "id": "I082",
+   "status": "mentioned",
+   "locator": "ch. \"Notre âge ingrat\" (PL2) / line 191",
+   "quote_fr": "L’Arche Sainte, construite sur les indications de Moïse est un aron",
+   "note": "Ark named only in a lexical note; no transmitter/radio reading."
+  },
+  {
+   "id": "I083",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Not found after searching names, verse refs and synonyms; this book (a polemic on humanism vs 'pensée médiévale') discusses few biblical passages."
+  },
+  {
+   "id": "I084",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Not found after searching names, verse refs and synonyms; this book (a polemic on humanism vs 'pensée médiévale') discusses few biblical passages."
+  },
+  {
+   "id": "I085",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Not found after searching names, verse refs and synonyms; this book (a polemic on humanism vs 'pensée médiévale') discusses few biblical passages."
+  },
+  {
+   "id": "I086",
+   "status": "mentioned",
+   "locator": "ch. \"Les inventeurs\" (PL3) / line 213",
+   "quote_fr": "la reconstruction du temple de Salomon, dont seul subsiste un mur",
+   "note": "Temple's rebuilding as end-time sign; buried foundation documents speculated; no residence-for-the-Elohim reading."
+  },
+  {
+   "id": "I087",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Not found after searching names, verse refs and synonyms; this book (a polemic on humanism vs 'pensée médiévale') discusses few biblical passages."
+  },
+  {
+   "id": "I088",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Not found after searching names, verse refs and synonyms; this book (a polemic on humanism vs 'pensée médiévale') discusses few biblical passages."
+  },
+  {
+   "id": "I089",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Not found after searching names, verse refs and synonyms; this book (a polemic on humanism vs 'pensée médiévale') discusses few biblical passages."
+  },
+  {
+   "id": "I090",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Not found after searching names, verse refs and synonyms; this book (a polemic on humanism vs 'pensée médiévale') discusses few biblical passages."
+  },
+  {
+   "id": "I091",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Not found after searching names, verse refs and synonyms; this book (a polemic on humanism vs 'pensée médiévale') discusses few biblical passages."
+  },
+  {
+   "id": "I092",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Not found after searching names, verse refs and synonyms; this book (a polemic on humanism vs 'pensée médiévale') discusses few biblical passages."
+  },
+  {
+   "id": "I093",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Not found after searching names, verse refs and synonyms; this book (a polemic on humanism vs 'pensée médiévale') discusses few biblical passages."
+  },
+  {
+   "id": "I094",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Not found after searching names, verse refs and synonyms; this book (a polemic on humanism vs 'pensée médiévale') discusses few biblical passages."
+  },
+  {
+   "id": "I095",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Not found after searching names, verse refs and synonyms; this book (a polemic on humanism vs 'pensée médiévale') discusses few biblical passages."
+  },
+  {
+   "id": "I096",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Not found after searching names, verse refs and synonyms; this book (a polemic on humanism vs 'pensée médiévale') discusses few biblical passages."
+  },
+  {
+   "id": "I097",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Not found after searching names, verse refs and synonyms; this book (a polemic on humanism vs 'pensée médiévale') discusses few biblical passages."
+  },
+  {
+   "id": "I098",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Not found after searching names, verse refs and synonyms; this book (a polemic on humanism vs 'pensée médiévale') discusses few biblical passages."
+  },
+  {
+   "id": "I099",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Not found after searching names, verse refs and synonyms; this book (a polemic on humanism vs 'pensée médiévale') discusses few biblical passages."
+  },
+  {
+   "id": "I100",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Not found after searching names, verse refs and synonyms; this book (a polemic on humanism vs 'pensée médiévale') discusses few biblical passages."
+  },
+  {
+   "id": "I101",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Not found after searching names, verse refs and synonyms; this book (a polemic on humanism vs 'pensée médiévale') discusses few biblical passages."
+  },
+  {
+   "id": "I102",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Not found after searching names, verse refs and synonyms; this book (a polemic on humanism vs 'pensée médiévale') discusses few biblical passages."
+  },
+  {
+   "id": "I103",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Not found after searching names, verse refs and synonyms; this book (a polemic on humanism vs 'pensée médiévale') discusses few biblical passages."
+  },
+  {
+   "id": "I104",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Not found after searching names, verse refs and synonyms; this book (a polemic on humanism vs 'pensée médiévale') discusses few biblical passages."
+  },
+  {
+   "id": "I105",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Not found after searching names, verse refs and synonyms; this book (a polemic on humanism vs 'pensée médiévale') discusses few biblical passages."
+  },
+  {
+   "id": "I106",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Not found after searching names, verse refs and synonyms; this book (a polemic on humanism vs 'pensée médiévale') discusses few biblical passages."
+  },
+  {
+   "id": "I107",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Not found after searching names, verse refs and synonyms; this book (a polemic on humanism vs 'pensée médiévale') discusses few biblical passages."
+  },
+  {
+   "id": "I108",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Not found after searching names, verse refs and synonyms; this book (a polemic on humanism vs 'pensée médiévale') discusses few biblical passages."
+  },
+  {
+   "id": "I109",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Not found after searching names, verse refs and synonyms; this book (a polemic on humanism vs 'pensée médiévale') discusses few biblical passages."
+  },
+  {
+   "id": "I110",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Not found after searching names, verse refs and synonyms; this book (a polemic on humanism vs 'pensée médiévale') discusses few biblical passages."
+  },
+  {
+   "id": "I111",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Not found after searching names, verse refs and synonyms; this book (a polemic on humanism vs 'pensée médiévale') discusses few biblical passages."
+  },
+  {
+   "id": "I112",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Not found after searching names, verse refs and synonyms; this book (a polemic on humanism vs 'pensée médiévale') discusses few biblical passages."
+  },
+  {
+   "id": "I113",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Not found after searching names, verse refs and synonyms; this book (a polemic on humanism vs 'pensée médiévale') discusses few biblical passages."
+  },
+  {
+   "id": "I114",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Not found after searching names, verse refs and synonyms; this book (a polemic on humanism vs 'pensée médiévale') discusses few biblical passages."
+  },
+  {
+   "id": "I115",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Not found after searching names, verse refs and synonyms; this book (a polemic on humanism vs 'pensée médiévale') discusses few biblical passages."
+  },
+  {
+   "id": "I116",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Not found after searching names, verse refs and synonyms; this book (a polemic on humanism vs 'pensée médiévale') discusses few biblical passages."
+  },
+  {
+   "id": "I117",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Not found after searching names, verse refs and synonyms; this book (a polemic on humanism vs 'pensée médiévale') discusses few biblical passages."
+  },
+  {
+   "id": "I118",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Not found after searching names, verse refs and synonyms; this book (a polemic on humanism vs 'pensée médiévale') discusses few biblical passages."
+  },
+  {
+   "id": "I119",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Not found after searching names, verse refs and synonyms; this book (a polemic on humanism vs 'pensée médiévale') discusses few biblical passages."
+  },
+  {
+   "id": "I120",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Not found after searching names, verse refs and synonyms; this book (a polemic on humanism vs 'pensée médiévale') discusses few biblical passages."
+  },
+  {
+   "id": "I121",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Not found after searching names, verse refs and synonyms; this book (a polemic on humanism vs 'pensée médiévale') discusses few biblical passages."
+  },
+  {
+   "id": "I122",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Not found after searching names, verse refs and synonyms; this book (a polemic on humanism vs 'pensée médiévale') discusses few biblical passages."
+  },
+  {
+   "id": "I123",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Not found after searching names, verse refs and synonyms; this book (a polemic on humanism vs 'pensée médiévale') discusses few biblical passages."
+  },
+  {
+   "id": "I124",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Not found after searching names, verse refs and synonyms; this book (a polemic on humanism vs 'pensée médiévale') discusses few biblical passages."
+  },
+  {
+   "id": "I125",
+   "status": "absent",
+   "locator": "ch. \"Les continuateurs\" (PL4) / line 320",
+   "quote_fr": null,
+   "note": "Daniel 10 not cited; distant parallel: Persians (Isaiah 45:1) and Greeks as temporal powers chosen to spread the Tradition."
+  },
+  {
+   "id": "I126",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Not found after searching names, verse refs and synonyms; this book (a polemic on humanism vs 'pensée médiévale') discusses few biblical passages."
+  },
+  {
+   "id": "I127",
+   "status": "absent",
+   "locator": "ch. \"Notre âge ingrat\" (PL2) / line 188",
+   "quote_fr": null,
+   "note": "Daniel 12:3 not cited; Sendy holds interpretation and politics should be reserved to 'spécialistes qualifiés'."
+  },
+  {
+   "id": "I128",
+   "status": "similar",
+   "locator": "ch. \"Les inventeurs\" (PL3) / line 210",
+   "quote_fr": "La Tradition a toujours affirmé que le texte biblique deviendrait cohérent et clair à l « accomplissement des temps »",
+   "note": "Daniel 12 not cited, but same logic: text understood only at the end-time, whose signs are Jerusalem delivered (Israel) + space age. Treated as the Tradition's general prophecy."
+  },
+  {
+   "id": "I129",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Not found after searching names, verse refs and synonyms; this book (a polemic on humanism vs 'pensée médiévale') discusses few biblical passages."
+  },
+  {
+   "id": "I130",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Not found after searching names, verse refs and synonyms; this book (a polemic on humanism vs 'pensée médiévale') discusses few biblical passages."
+  },
+  {
+   "id": "I131",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Not found after searching names, verse refs and synonyms; this book (a polemic on humanism vs 'pensée médiévale') discusses few biblical passages."
+  },
+  {
+   "id": "I132",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Not found after searching names, verse refs and synonyms; this book (a polemic on humanism vs 'pensée médiévale') discusses few biblical passages."
+  },
+  {
+   "id": "I133",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Not found after searching names, verse refs and synonyms; this book (a polemic on humanism vs 'pensée médiévale') discusses few biblical passages."
+  },
+  {
+   "id": "I134",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Not found after searching names, verse refs and synonyms; this book (a polemic on humanism vs 'pensée médiévale') discusses few biblical passages."
+  },
+  {
+   "id": "I135",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Not found after searching names, verse refs and synonyms; this book (a polemic on humanism vs 'pensée médiévale') discusses few biblical passages."
+  },
+  {
+   "id": "I136",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Not found after searching names, verse refs and synonyms; this book (a polemic on humanism vs 'pensée médiévale') discusses few biblical passages."
+  },
+  {
+   "id": "I137",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Not found after searching names, verse refs and synonyms; this book (a polemic on humanism vs 'pensée médiévale') discusses few biblical passages."
+  },
+  {
+   "id": "I138",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Not found after searching names, verse refs and synonyms; this book (a polemic on humanism vs 'pensée médiévale') discusses few biblical passages."
+  },
+  {
+   "id": "I139",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Not found after searching names, verse refs and synonyms; this book (a polemic on humanism vs 'pensée médiévale') discusses few biblical passages."
+  },
+  {
+   "id": "I140",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Not found after searching names, verse refs and synonyms; this book (a polemic on humanism vs 'pensée médiévale') discusses few biblical passages."
+  },
+  {
+   "id": "I141",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Not found after searching names, verse refs and synonyms; this book (a polemic on humanism vs 'pensée médiévale') discusses few biblical passages."
+  },
+  {
+   "id": "I142",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Not found after searching names, verse refs and synonyms; this book (a polemic on humanism vs 'pensée médiévale') discusses few biblical passages."
+  },
+  {
+   "id": "I143",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Not found after searching names, verse refs and synonyms; this book (a polemic on humanism vs 'pensée médiévale') discusses few biblical passages."
+  },
+  {
+   "id": "I144",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Not found after searching names, verse refs and synonyms; this book (a polemic on humanism vs 'pensée médiévale') discusses few biblical passages."
+  },
+  {
+   "id": "I145",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Not found after searching names, verse refs and synonyms; this book (a polemic on humanism vs 'pensée médiévale') discusses few biblical passages."
+  },
+  {
+   "id": "I146",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Not found after searching names, verse refs and synonyms; this book (a polemic on humanism vs 'pensée médiévale') discusses few biblical passages."
+  },
+  {
+   "id": "I147",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Not found after searching names, verse refs and synonyms; this book (a polemic on humanism vs 'pensée médiévale') discusses few biblical passages."
+  },
+  {
+   "id": "I148",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Not found after searching names, verse refs and synonyms; this book (a polemic on humanism vs 'pensée médiévale') discusses few biblical passages."
+  },
+  {
+   "id": "I149",
+   "status": "absent",
+   "locator": "ch. \"Les continuateurs\" (PL4) / line 308",
+   "quote_fr": null,
+   "note": "Isaiah 45 cited only for v.1 (Cyrus 'oint de YHWH'), not the potter/clay verses."
+  },
+  {
+   "id": "I150",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Not found after searching names, verse refs and synonyms; this book (a polemic on humanism vs 'pensée médiévale') discusses few biblical passages."
+  },
+  {
+   "id": "I151",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Not found after searching names, verse refs and synonyms; this book (a polemic on humanism vs 'pensée médiévale') discusses few biblical passages."
+  },
+  {
+   "id": "I152",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Not found after searching names, verse refs and synonyms; this book (a polemic on humanism vs 'pensée médiévale') discusses few biblical passages."
+  },
+  {
+   "id": "I153",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Not found after searching names, verse refs and synonyms; this book (a polemic on humanism vs 'pensée médiévale') discusses few biblical passages."
+  },
+  {
+   "id": "I154",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Not found after searching names, verse refs and synonyms; this book (a polemic on humanism vs 'pensée médiévale') discusses few biblical passages."
+  },
+  {
+   "id": "I155",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Not found after searching names, verse refs and synonyms; this book (a polemic on humanism vs 'pensée médiévale') discusses few biblical passages."
+  },
+  {
+   "id": "I156",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Not found after searching names, verse refs and synonyms; this book (a polemic on humanism vs 'pensée médiévale') discusses few biblical passages."
+  },
+  {
+   "id": "I157",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Not found after searching names, verse refs and synonyms; this book (a polemic on humanism vs 'pensée médiévale') discusses few biblical passages."
+  },
+  {
+   "id": "I158",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Not found after searching names, verse refs and synonyms; this book (a polemic on humanism vs 'pensée médiévale') discusses few biblical passages."
+  },
+  {
+   "id": "I159",
+   "status": "mentioned",
+   "locator": "ch. \"Notre âge ingrat\" (PL2) / line 113",
+   "quote_fr": "L’idée d’un Dieu Immatériel fécondant une vierge afin de ramener à la mesure de l’homme la Tradition ésotérique des Hébreux constitue un sommet de la pensée humaniste",
+   "note": "Virgin birth read as Hellenizing vulgarization (Zeus/Semele), not creator paternity."
+  },
+  {
+   "id": "I160",
+   "status": "mentioned",
+   "locator": "ch. \"Les continuateurs\" (PL4) / line 302",
+   "quote_fr": "le soleil d’équinoxe allait entrer dans les Poissons, ce qu’aux non-scientifiques du temps les Esséniens annonçaient en langage de vulgarisateur : « Une étoile a parlé aux Mages. »",
+   "note": "Star = astronomical/precessional code (Pisces), not a flying craft."
+  },
+  {
+   "id": "I161",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Not found after searching names, verse refs and synonyms; this book (a polemic on humanism vs 'pensée médiévale') discusses few biblical passages."
+  },
+  {
+   "id": "I162",
+   "status": "mentioned",
+   "locator": "ch. \"Le Moyen Age\" (PL5) / line 334",
+   "quote_fr": "Jean-Baptiste qui le baptisa, lui transmettant ainsi l’investiture des Esséniens",
+   "note": "Baptism = Essene investiture, not initiation by creators."
+  },
+  {
+   "id": "I163",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Not found after searching names, verse refs and synonyms; this book (a polemic on humanism vs 'pensée médiévale') discusses few biblical passages."
+  },
+  {
+   "id": "I164",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Not found after searching names, verse refs and synonyms; this book (a polemic on humanism vs 'pensée médiévale') discusses few biblical passages."
+  },
+  {
+   "id": "I165",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Not found after searching names, verse refs and synonyms; this book (a polemic on humanism vs 'pensée médiévale') discusses few biblical passages."
+  },
+  {
+   "id": "I166",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Not found after searching names, verse refs and synonyms; this book (a polemic on humanism vs 'pensée médiévale') discusses few biblical passages."
+  },
+  {
+   "id": "I167",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Not found after searching names, verse refs and synonyms; this book (a polemic on humanism vs 'pensée médiévale') discusses few biblical passages."
+  },
+  {
+   "id": "I168",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Not found after searching names, verse refs and synonyms; this book (a polemic on humanism vs 'pensée médiévale') discusses few biblical passages."
+  },
+  {
+   "id": "I169",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Healing miracles not discussed; the 'civilizational gap' argument appears generally (see I180)."
+  },
+  {
+   "id": "I170",
+   "status": "absent",
+   "locator": "ch. \"De profundis\" (PL1) / line 45",
+   "quote_fr": null,
+   "note": "Matthew 10:32 not cited; anti-geocentric/Copernican theme is pervasive but not tied to 'Father in heaven'."
+  },
+  {
+   "id": "I171",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Not found after searching names, verse refs and synonyms; this book (a polemic on humanism vs 'pensée médiévale') discusses few biblical passages."
+  },
+  {
+   "id": "I172",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Not found after searching names, verse refs and synonyms; this book (a polemic on humanism vs 'pensée médiévale') discusses few biblical passages."
+  },
+  {
+   "id": "I173",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Not found after searching names, verse refs and synonyms; this book (a polemic on humanism vs 'pensée médiévale') discusses few biblical passages."
+  },
+  {
+   "id": "I174",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Not found after searching names, verse refs and synonyms; this book (a polemic on humanism vs 'pensée médiévale') discusses few biblical passages."
+  },
+  {
+   "id": "I175",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Not found after searching names, verse refs and synonyms; this book (a polemic on humanism vs 'pensée médiévale') discusses few biblical passages."
+  },
+  {
+   "id": "I176",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Not found after searching names, verse refs and synonyms; this book (a polemic on humanism vs 'pensée médiévale') discusses few biblical passages."
+  },
+  {
+   "id": "I177",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Not found after searching names, verse refs and synonyms; this book (a polemic on humanism vs 'pensée médiévale') discusses few biblical passages."
+  },
+  {
+   "id": "I178",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Not found after searching names, verse refs and synonyms; this book (a polemic on humanism vs 'pensée médiévale') discusses few biblical passages."
+  },
+  {
+   "id": "I179",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Not found after searching names, verse refs and synonyms; this book (a polemic on humanism vs 'pensée médiévale') discusses few biblical passages."
+  },
+  {
+   "id": "I180",
+   "status": "same",
+   "locator": "ch. \"Notre âge d’or\" (PL7) / line 427",
+   "quote_fr": "le récit le plus probable qu’il pourrait faire de son aventure serait : « Des êtres à notre image m’ont emmené dans le ciel, puis m’ont redéposé sur Terre ; un char miraculeux m’a alors conduit dans un jardin",
+   "note": "Same argument: primitives describe advanced technology as gods/miracles (also l.137 'les accueilleront comme des dieux', bulb parable l.293). Different thought-experiment (Saclay, not helicopter/rifle)."
+  },
+  {
+   "id": "I181",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Not found after searching names, verse refs and synonyms; this book (a polemic on humanism vs 'pensée médiévale') discusses few biblical passages."
+  },
+  {
+   "id": "I182",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Not found after searching names, verse refs and synonyms; this book (a polemic on humanism vs 'pensée médiévale') discusses few biblical passages."
+  },
+  {
+   "id": "I183",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Not found after searching names, verse refs and synonyms; this book (a polemic on humanism vs 'pensée médiévale') discusses few biblical passages."
+  },
+  {
+   "id": "I184",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Not found after searching names, verse refs and synonyms; this book (a polemic on humanism vs 'pensée médiévale') discusses few biblical passages."
+  },
+  {
+   "id": "I185",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Not found after searching names, verse refs and synonyms; this book (a polemic on humanism vs 'pensée médiévale') discusses few biblical passages."
+  },
+  {
+   "id": "I186",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Not found after searching names, verse refs and synonyms; this book (a polemic on humanism vs 'pensée médiévale') discusses few biblical passages."
+  },
+  {
+   "id": "I187",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Not found after searching names, verse refs and synonyms; this book (a polemic on humanism vs 'pensée médiévale') discusses few biblical passages."
+  },
+  {
+   "id": "I188",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Not found after searching names, verse refs and synonyms; this book (a polemic on humanism vs 'pensée médiévale') discusses few biblical passages."
+  },
+  {
+   "id": "I189",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Not found after searching names, verse refs and synonyms; this book (a polemic on humanism vs 'pensée médiévale') discusses few biblical passages."
+  },
+  {
+   "id": "I190",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Not found after searching names, verse refs and synonyms; this book (a polemic on humanism vs 'pensée médiévale') discusses few biblical passages."
+  },
+  {
+   "id": "I191",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Not found after searching names, verse refs and synonyms; this book (a polemic on humanism vs 'pensée médiévale') discusses few biblical passages."
+  },
+  {
+   "id": "I192",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Not found after searching names, verse refs and synonyms; this book (a polemic on humanism vs 'pensée médiévale') discusses few biblical passages."
+  },
+  {
+   "id": "I193",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Not found after searching names, verse refs and synonyms; this book (a polemic on humanism vs 'pensée médiévale') discusses few biblical passages."
+  },
+  {
+   "id": "I194",
+   "status": "similar",
+   "locator": "ch. \"Notre âge ingrat\" (PL2) / line 187",
+   "quote_fr": "toutes les croyances fondées sur la Bible lue comme si Elohim désignait Dieu s’effondreraient alors, plus vite et de façon plus totale même que Babylone",
+   "note": "Church as a necessary popularizer/stage between 'venue' and 'retour' (l.113, 326), last pope 2012 (l.151); collapse triggered by lunar proof. Matthew 24 not cited."
+  },
+  {
+   "id": "I195",
+   "status": "same",
+   "locator": "ch. \"Le Moyen Age\" (PL5) / line 348",
+   "quote_fr": "un culte de néo-Zeus artificiellement maintenu dans une civilisation dont la technique conquiert des cieux où il suffit à Dupont de prendre l’avion pour constater l’absence des anges",
+   "note": "Technology makes the bearded Zeus-like God untenable and drives people from Christianity (also l.258 'la ressemblance entre Dieu et Zeus écarte du christianisme bon nombre de gens'). Generic idea; no devil/guardian-angel imagery."
+  },
+  {
+   "id": "I196",
+   "status": "similar",
+   "locator": "ch. \"Le Moyen Age\" (PL5) / line 348",
+   "quote_fr": "Le soleil d’équinoxe est passé de Poissons en Verseau vers 1950",
+   "note": "Pisces = Church's fish symbolism, Aquarius ~1950 coinciding with Jerusalem/Moon. No 1946 date, no 22,000-year programme (Sendy dates arrival c. -21,000, l.137)."
+  },
+  {
+   "id": "I197",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Not found after searching names, verse refs and synonyms; this book (a polemic on humanism vs 'pensée médiévale') discusses few biblical passages."
+  },
+  {
+   "id": "I198",
+   "status": "absent",
+   "locator": "ch. \"Le Moyen Age\" (PL5) / line 349",
+   "quote_fr": null,
+   "note": "Isaiah 29 not cited; Sendy explicitly denies a human messiah at Aquarius ('le Messie n’est pas un homme... Le Messie est un Principe')."
+  },
+  {
+   "id": "I199",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Not found after searching names, verse refs and synonyms; this book (a polemic on humanism vs 'pensée médiévale') discusses few biblical passages."
+  },
+  {
+   "id": "I200",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Not found after searching names, verse refs and synonyms; this book (a polemic on humanism vs 'pensée médiévale') discusses few biblical passages."
+  },
+  {
+   "id": "I201",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Not found after searching names, verse refs and synonyms; this book (a polemic on humanism vs 'pensée médiévale') discusses few biblical passages."
+  },
+  {
+   "id": "I202",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Not found after searching names, verse refs and synonyms; this book (a polemic on humanism vs 'pensée médiévale') discusses few biblical passages."
+  },
+  {
+   "id": "I203",
+   "status": "similar",
+   "locator": "ch. \"Notre âge ingrat\" (PL2) / line 116",
+   "quote_fr": "afin de réaliser, par les moyens les plus positifs, la prophétie millénaire sur la délivrance de Jérusalem",
+   "note": "Return/deliverance of Jerusalem (1948/1967) as fulfilled end-time prophecy; no Isaiah 43 citation."
+  },
+  {
+   "id": "I204",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Not found after searching names, verse refs and synonyms; this book (a polemic on humanism vs 'pensée médiévale') discusses few biblical passages."
+  },
+  {
+   "id": "I205",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Not found after searching names, verse refs and synonyms; this book (a polemic on humanism vs 'pensée médiévale') discusses few biblical passages."
+  },
+  {
+   "id": "I206",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Not found after searching names, verse refs and synonyms; this book (a polemic on humanism vs 'pensée médiévale') discusses few biblical passages."
+  },
+  {
+   "id": "I207",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Not found after searching names, verse refs and synonyms; this book (a polemic on humanism vs 'pensée médiévale') discusses few biblical passages."
+  },
+  {
+   "id": "I208",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Not found after searching names, verse refs and synonyms; this book (a polemic on humanism vs 'pensée médiévale') discusses few biblical passages."
+  },
+  {
+   "id": "I209",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Not found after searching names, verse refs and synonyms; this book (a polemic on humanism vs 'pensée médiévale') discusses few biblical passages."
+  },
+  {
+   "id": "I210",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Not found after searching names, verse refs and synonyms; this book (a polemic on humanism vs 'pensée médiévale') discusses few biblical passages."
+  },
+  {
+   "id": "I211",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Not found after searching names, verse refs and synonyms; this book (a polemic on humanism vs 'pensée médiévale') discusses few biblical passages."
+  },
+  {
+   "id": "I212",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Not found after searching names, verse refs and synonyms; this book (a polemic on humanism vs 'pensée médiévale') discusses few biblical passages."
+  },
+  {
+   "id": "I213",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Not found after searching names, verse refs and synonyms; this book (a polemic on humanism vs 'pensée médiévale') discusses few biblical passages."
+  },
+  {
+   "id": "I214",
+   "status": "similar",
+   "locator": "ch. \"Les inventeurs\" (PL3) / line 218",
+   "quote_fr": "toutes les premières civilisations brandissent le même récit de Célestes de chair, repartis en laissant un héritage-enseignement concret",
+   "note": "A 'Mythe commun' of flesh-and-blood Celestials in all early civilizations; but later religions (Islam, Hinduism) are cast as caricatures/opposites, not as further traces."
+  },
+  {
+   "id": "I215",
+   "status": "mentioned",
+   "locator": "ch. \"Les inventeurs\" (PL3) / line 140",
+   "quote_fr": "l’homme, produit d’une évolution naturelle jusqu’au paléolithique supérieur, aurait été amélioré par une évolution concertée dès l’arrivée des Célestes",
+   "note": "Accepts natural evolution up to the Upper Palaeolithic, then 'concerted' improvement; opposite of 'evolution is a myth'."
+  },
+  {
+   "id": "I216",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Not found after searching names, verse refs and synonyms; this book (a polemic on humanism vs 'pensée médiévale') discusses few biblical passages."
+  },
+  {
+   "id": "I217",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Not found after searching names, verse refs and synonyms; this book (a polemic on humanism vs 'pensée médiévale') discusses few biblical passages."
+  },
+  {
+   "id": "I218",
+   "status": "mentioned",
+   "locator": "ch. \"Les continuateurs\" (PL4) / line 282",
+   "quote_fr": "Chacun sait qu’en 1610 l’Eglise condamna Galilée",
+   "note": "Copernicus discussed but as safely taught by Jesuits; Galileo (and Aristarchus) are the condemned figures."
+  },
+  {
+   "id": "I219",
+   "status": "similar",
+   "locator": "ch. \"De profundis\" (PL1) / line 62",
+   "quote_fr": "l’homme est un simple concessionnaire des Célestes qui, en quittant la Terre, ont laissé la Tradition",
+   "note": "Humans as concessionaires, not owners, of the planet (the book's thesis). Message draws 49-year leases, equality, abolition of property; Sendy draws anti-egalitarian conclusions (l.107). Leviticus 25 not cited."
+  },
+  {
+   "id": "I220",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Not found after searching names, verse refs and synonyms; this book (a polemic on humanism vs 'pensée médiévale') discusses few biblical passages."
+  },
+  {
+   "id": "I221",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Not found after searching names, verse refs and synonyms; this book (a polemic on humanism vs 'pensée médiévale') discusses few biblical passages."
+  },
+  {
+   "id": "I222",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Not found after searching names, verse refs and synonyms; this book (a polemic on humanism vs 'pensée médiévale') discusses few biblical passages."
+  },
+  {
+   "id": "I223",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Not found after searching names, verse refs and synonyms; this book (a polemic on humanism vs 'pensée médiévale') discusses few biblical passages."
+  },
+  {
+   "id": "I224",
+   "status": "similar",
+   "locator": "ch. \"De profundis\" (PL1) / line 70",
+   "quote_fr": "les « venus du ciel », les Elohim du texte biblique",
+   "note": "Same gloss as I005: Elohim in apposition with 'venus du ciel'."
+  },
+  {
+   "id": "I225",
+   "status": "absent",
+   "locator": "ch. \"Notre âge ingrat\" (PL2) / line 191",
+   "quote_fr": null,
+   "note": "Only insistence that exegesis must be Hebrew-based; no claim the visitors spoke a Hebrew-like language."
+  },
+  {
+   "id": "I226",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Not found after searching names, verse refs and synonyms; this book (a polemic on humanism vs 'pensée médiévale') discusses few biblical passages."
+  }
+ ],
+ "sendy_only": [
+  {
+   "locator": "ch. \"Notre âge d’or\" (PL7) / line 463",
+   "passage": "Gen 9:13",
+   "reading": "The covenant bow is a launch ramp left in a lunar crater, awaiting discovery.",
+   "quote_fr": "l’ « arc d’alliance » est une rampe de lancement, qui nous attend dans un cratère lunaire"
+  },
+  {
+   "locator": "ch. \"Notre âge ingrat\" (PL2) / line 191",
+   "passage": "Gen 9:13; Ex 2:3; Gen 6:14; Ex 25:10",
+   "reading": "Lexical triad tebah (Moses’ basket, Noah’s ark) / aron (Ark) / kesheth (bow that shoots arrows).",
+   "quote_fr": "Mais l’ « arc d’alliance dans la nue » est un kesheth, un arc lanceur de flèches"
+  },
+  {
+   "locator": "ch. \"Notre âge ingrat\" (PL2) / line 192",
+   "passage": "Gen 9:13 (Kabbalah)",
+   "reading": "Arrow of the bow = superior virility of the Celestials; the bow means initiation into the sex of Angels.",
+   "quote_fr": "« L’arc d’alliance », dans la langue du Moyen Age, représente « l’initiation au Sexe des Anges »."
+  },
+  {
+   "locator": "ch. \"Notre âge ingrat\" (PL2) / line 118",
+   "passage": "Gen 6 / Byzantine angelology",
+   "reading": "Byzantine theologians read Elohim as carnal, sexed, mammalian Angels.",
+   "quote_fr": "pourvus d’organes sexuels mâles et femelles les rendant aptes à engendrer des angelots ; des Anges mammifères"
+  },
+  {
+   "locator": "ch. \"De profundis\" (PL1) / line 68",
+   "passage": "Jewish new-moon prayer (Kiddush Levana)",
+   "reading": "The Moon holds the Celestials’ secrets; traces of their passage are there.",
+   "quote_fr": "« 0 Lune, tu détiens nos secrets, et te voilà hors de notre atteinte ! »"
+  },
+  {
+   "locator": "ch. \"Les continuateurs\" (PL4) / line 312",
+   "passage": "Isa 30:26",
+   "reading": "Moonlight equalling sunlight = sign of the Messiah, i.e. discovery of the arc on the Moon.",
+   "quote_fr": "« la lumière de la Lune égalera la lumière du Soleil » (ES. XXX, 26)"
+  },
+  {
+   "locator": "ch. \"Les continuateurs\" (PL4) / line 308",
+   "passage": "Isa 45:1",
+   "reading": "Cyrus as anointed of YHWH: Persian Magi proposed as temporal power to spread the Tradition; Manichaeism as their church.",
+   "quote_fr": "avait (chap. XLV du Livre d’Isaïe ) qualifié de « oint de YHWH »"
+  },
+  {
+   "locator": "ch. \"Les inventeurs\" (PL3) / line 240",
+   "passage": "Tetragrammaton",
+   "reading": "YHWH is an immaterial Principle / mathematical Logic, distinct from the physical Elohim.",
+   "quote_fr": "YHWH désigne un principe, aussi immatériel qu’un principe mathématique"
+  },
+  {
+   "locator": "ch. \"Les inventeurs\" (PL3) / line 243",
+   "passage": "Ex 3:15",
+   "reading": "Elohim tell Moses to present himself as envoy of YHWH: Moses found Elohim texts authorizing him to speak for the Principle.",
+   "quote_fr": "en Exode III, 15 vous verrez les Elohim recommander à Moïse de se dire « envoyé de YHWH »"
+  },
+  {
+   "locator": "ch. \"Les inventeurs\" (PL3) / line 234",
+   "passage": "Ex 3; Ex 31:18",
+   "reading": "Moses found texts left by the Celestials in a cache and claimed to have spoken with their author.",
+   "quote_fr": "Moïse a retrouvé des textes laissés par les Célestes (dans une cachette, par exemple"
+  },
+  {
+   "locator": "ch. \"Les inventeurs\" (PL3) / line 222",
+   "passage": "Ex 2",
+   "reading": "Moses was a priest of Amon (possibly Pharaoh’s grandson); Midian chosen deliberately; Druzes descend from Midian.",
+   "quote_fr": "il fut élevé au palais de Pharaon et qu’il était prêtre d’Amon"
+  },
+  {
+   "locator": "ch. \"Notre âge ingrat\" (PL2) / line 161",
+   "passage": "Gen 3:16; 1:28",
+   "reading": "Pain in childbirth = psychic brake on births; “be fruitful” = grow in intelligence first, multiply sparingly.",
+   "quote_fr": "la douleur de l’enfantement promise à la femme était destinée à servir de frein psychique, de limitation raisonnée des naissances"
+  },
+  {
+   "locator": "ch. \"Notre âge ingrat\" (PL2) / line 160",
+   "passage": "Gen 1:27; 2",
+   "reading": "The Celestials taught Adam paternity and that woman is like him, not an emanation of the Mother Goddess.",
+   "quote_fr": "La notion de paternité a donc bien été communiquée aux hommes par les Célestes"
+  },
+  {
+   "locator": "ch. \"Notre âge ingrat\" (PL2) / line 162",
+   "passage": "Job 39:14-16",
+   "reading": "Humanity reverting to animality, women bearing like the ostrich abandoning its egg.",
+   "quote_fr": "les femmes enfantaient comme pond l’autruche qui abandonne son œuf dans la poussière"
+  },
+  {
+   "locator": "ch. \"Les inventeurs\" (PL3) / line 271",
+   "passage": "Precession; Ex 32",
+   "reading": "Apis bull → Moses’ ram (Amon) → Church’s fish, each age requiring new symbolism.",
+   "quote_fr": "comme le symbolisme du bélier avait, en son temps, remplacé celui du taureau Apis"
+  },
+  {
+   "locator": "ch. \"Les inventeurs\" (PL3) / line 272",
+   "passage": "Matt 9:17",
+   "reading": "Essenes (\"new wine, old wineskins\") founded the Church of Pisces before Jesus; Pharisees wanted only an annex symbol.",
+   "quote_fr": "on ne met pas du vin nouveau dans de vieilles outres, et qu’il fallait créer une Eglise Nouvelle, avec des Poissons comme symbole dominant"
+  },
+  {
+   "locator": "ch. \"Les inventeurs\" (PL3) / line 274",
+   "passage": "Cross symbolism",
+   "reading": "Vertical bar = chain linking men to the Celestials; horizontal = the Messiah spreading the Good News.",
+   "quote_fr": "la Tradition est, « traditionnellement », figurée par un trait vertical, la « chaîne » reliant les hommes aux Célestes"
+  },
+  {
+   "locator": "ch. \"Le Moyen Age\" (PL5) / line 349",
+   "passage": "John 16:13",
+   "reading": "The Messiah / return of Christ is a Principle, the Spirit of Truth, not a man.",
+   "quote_fr": "Le Messie, issu de YHWH, est aussi immatériel que YHWH. Le Messie est un Principe."
+  },
+  {
+   "locator": "ch. \"Notre âge ingrat\" (PL2) / line 137",
+   "passage": "Gen 1 (dating)",
+   "reading": "Celestials landed c. -21,000 under Würm III cloud cover; left c. -8,000.",
+   "quote_fr": "une équipe de cosmonautes ait ainsi débarqué chez nous vers — 21 000"
+  },
+  {
+   "locator": "ch. \"Le Moyen Age\" (PL5) / line 363",
+   "passage": "Islamic tradition",
+   "reading": "Muhammad (\"rabbin de La Mecque\") prophesied Islam would last until a man touched the Moon.",
+   "quote_fr": "« L’ISLAM DURERA TANT QU’UN HOMME N’AURA PAS TOUCHÉ LA LUNE DE SON PIED »."
+  },
+  {
+   "locator": "ch. \"Le Moyen Age\" (PL5) / line 351",
+   "passage": "Prometheus myth",
+   "reading": "Greeks hold the Earth by theft of the gods’ fire (ownership by rapine) vs Hebrew concession; Pharisee = \"separated\".",
+   "quote_fr": "Prométhée a volé le « feu » des dieux"
+  },
+  {
+   "locator": "ch. \"Les continuateurs\" (PL4) / line 288",
+   "passage": "Dionysos / Eucharist",
+   "reading": "Christ story built on the Zeus–Semele–Dionysos template (bread and wine).",
+   "quote_fr": "lequel partit sur un âne enseigner aux Gentils de l’Inde l’art de cultiver le blé (« ceci est ma chair ») et la vigne (« ceci est mon sang »)"
+  },
+  {
+   "locator": "ch. \"Les inventeurs\" (PL3) / line 203",
+   "passage": "Apocalypse (etymology)",
+   "reading": "Apocalypse means Revelation; apocryphal means hidden, not false.",
+   "quote_fr": "« Apocalypse » ne veut pas du tout dire « vision d’horreur », mais « Révélation »"
+  },
+  {
+   "locator": "ch. \"Notre âge ingrat\" (PL2) / line 151",
+   "passage": "Prophecy of Malachy",
+   "reading": "Jesuit reading (1951) gives the last pope in 2012.",
+   "quote_fr": "concluant que le dernier des papes régnerait en 2012"
+  },
+  {
+   "locator": "ch. \"Notre âge d’or\" (PL7) / line 428",
+   "passage": "Egyptian alchemy legend",
+   "reading": "Alchemists’ heat + lead = garbled memory of the gods’ nuclear transmutation.",
+   "quote_fr": "la légende de dieux que des hommes avaient vu fabriquer un or plus précieux que l’or, en utilisant beaucoup de chaleur et en faisant intervenir le plomb"
+  }
+ ]
+}

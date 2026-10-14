@@ -1,0 +1,1764 @@
+{
+ "book": "Jean Sendy, Ces dieux qui firent le ciel et la terre — le roman de la Bible (Robert Laffont 1969; J'ai Lu reissue; digital EPUB extraction)",
+ "book_key": "ces-dieux",
+ "items": [
+  {
+   "id": "I001",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "No narrative of a telepathically induced Bible purchase."
+  },
+  {
+   "id": "I002",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "No France/1945 messenger rationale."
+  },
+  {
+   "id": "I003",
+   "status": "similar",
+   "locator": "ch. 23 / PL25 / line 839",
+   "quote_fr": "maintenir et transmettre, au trait de lettre près et maudit soit celui qui y change un trait de lettre, cette Tradition",
+   "note": "Sendy also says the technological meaning was obscured, but blames translators/exegetes (e.g. 'firmament', 'ET ses grossesses'), and insists the Hebrew text was transmitted letter-perfect; Message blames copyists."
+  },
+  {
+   "id": "I004",
+   "status": "similar",
+   "locator": "ch. 15 / PL17 / line 553",
+   "quote_fr": "Ces cosmonautes quittent une civilisation qui, ayant réalisé le dernier des rêves fous qui passionnent les scientifiques dignes de ce nom, ne trouve plus à s’employer",
+   "note": "Home-world motive differs: Sendy's Theos scientists leave out of boredom, on good terms (and a mature world is glad to export its 'mutant' geniuses, l. 764); no lab-life ban, no escaped creature."
+  },
+  {
+   "id": "I005",
+   "status": "same",
+   "locator": "ch. 1 / PL3 / line 49",
+   "quote_fr": "le mot hébreu Elohim, traduit par « Dieu » dans les Bibles usuelles, est un pluriel. Quand on poursuit la lecture du texte biblique en lisant « les Venus-du-ciel »",
+   "note": "Same plural reading and same gloss 'Venus-du-ciel'; Sendy also reads 'créa' as 'firent' (re-ordering a cataclysm-hit Earth) rather than discovery/selection."
+  },
+  {
+   "id": "I006",
+   "status": "same",
+   "locator": "ch. 16 / PL18 / line 582",
+   "quote_fr": "Des capsules ont été laissées en orbite au-dessus des nuages et à l’intérieur de la couche nuageuse, qui continueront à transmettre leurs observations vers Phobos.",
+   "note": "Gen 1:2 'esprit des Élohim' circling Earth = exploration modules and orbiting observation capsules; context is a cloud-shrouded post-glacial Earth (l. 497, 950)."
+  },
+  {
+   "id": "I007",
+   "status": "similar",
+   "locator": "ch. 17 / PL19 / line 612",
+   "quote_fr": "un cratère est aménagé, à partir duquel la dispersion des nuages opaques est organisée",
+   "note": "Light = Celestials dispersing glaciation dust-clouds (from a lunar crater) to bring sunlight back; not a test of harmful solar radiation. Sendy mocks the God who checks the light is good (l. 614)."
+  },
+  {
+   "id": "I008",
+   "status": "same",
+   "locator": "ch. 20 / PL22 / line 696",
+   "quote_fr": "les « jours » à déterminer par l’observation du Soleil et des étoiles étaient les gahambârs de Voltaire, ces tranches de 2 160 ans que la précession des équinoxes détermine dans le Zodiaque",
+   "note": "Creation 'day' = one precessional sign of 2,160 years (l. 599); days are mapped to zodiacal signs (Capricorn, Sagittarius ... Leo)."
+  },
+  {
+   "id": "I009",
+   "status": "similar",
+   "locator": "ch. 18 / PL20 / line 629",
+   "quote_fr": "entre l’eau qui est « au-dessus » sous forme de nuages, et l’eau qui est « au-dessous » sous forme de cours d’eau et mers",
+   "note": "Same identification upper waters = clouds; but the work is precipitating the cataclysm clouds into rain, not creators descending below cloud level to study radiation. Also attacks 'firmament' translation (l. 632-634)."
+  },
+  {
+   "id": "I010",
+   "status": "similar",
+   "locator": "ch. 9 / PL11 / line 340",
+   "quote_fr": "cela commence par la canalisation des eaux retombées du ciel, qui peu à peu redeviennent cours d’eau et fleuves",
+   "note": "Dry land = draining/canalising fallen rainwater; no explosions, no single primordial continent, no continental drift."
+  },
+  {
+   "id": "I011",
+   "status": "similar",
+   "locator": "ch. 24 / PL26 / line 901",
+   "quote_fr": "D’une flore issue de la flore indigène, bien sûr, issue du matériel génétique ayant survécu au Cataclysme de la glaciation Würm-III.",
+   "note": "Vegetation reconstituted by Celestial botanists from surviving genetic material, not synthesised from chemicals; no artists/decorative plants."
+  },
+  {
+   "id": "I012",
+   "status": "similar",
+   "locator": "ch. 20 / PL22 / line 694",
+   "quote_fr": "j’ai plutôt l’impression que le texte biblique décrit l’établissement de cartes du ciel. De cartes du ciel à usage des astronomes, puisque le ciel vu de notre système solaire est très différent",
+   "note": "Both: newcomers from another system re-orient by the sky. Sendy: star charts + precession; Message: measuring Earth days/months/years for their own lives."
+  },
+  {
+   "id": "I013",
+   "status": "similar",
+   "locator": "ch. 21 / PL23 / line 752",
+   "quote_fr": "ayant recréé les espèces dans les laboratoires d’Éden pendant les « jours » précédents, les Célestes repeuplent la planète",
+   "note": "Sea and air fauna re-released from lab-recreated stocks to restore biological equilibrium; recreation not creation; no artist-designed bird colours."
+  },
+  {
+   "id": "I014",
+   "status": "similar",
+   "locator": "ch. 2 / PL4 / line 124",
+   "quote_fr": "démesurés comme la bactérie et l’hippopotame successeur du diplodocus raté",
+   "note": "Only as a rhetorical image of a lab-like experimenter-Creator producing 'monsters' (ch. 2, on evolution); not attributed to the Elohim teams."
+  },
+  {
+   "id": "I015",
+   "status": "similar",
+   "locator": "ch. 9 / PL11 / line 336",
+   "quote_fr": "ils relancèrent d’abord le cycle de vie des plantes, puis celui des herbivores, ne redonnant vie aux carnivores qu’une fois leur nourriture assurée",
+   "note": "Same plants->herbivores->carnivores ordering for ecological balance, but as re-launching surviving species after the Cataclysm; no narrator-as-creator claim."
+  },
+  {
+   "id": "I016",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Single team of ~30 Celestials; no races-per-team."
+  },
+  {
+   "id": "I017",
+   "status": "similar",
+   "locator": "ch. 1 / PL3 / line 51",
+   "quote_fr": "le récit de l’arrivée de Célestes parfaitement concrets, physiquement à notre image",
+   "note": "Literal physical likeness of the Elohim to us is affirmed, but 'make man in our image' = conditioning/directed evolution of native humans (l. 782, 899), not artificial creation."
+  },
+  {
+   "id": "I018",
+   "status": "similar",
+   "locator": "ch. 19 / PL21 / line 668",
+   "quote_fr": "Ils vivent dans un paradis du bassin méditerranéen, sous un micro-climat maintenu par le météorologue dont le laboratoire est Lilith",
+   "note": "Eden = walled laboratory park of the Celestials (l. 656, 963) in the Mediterranean basin / later Atlantis-like site (l. 1141); not located in Israel, single team only."
+  },
+  {
+   "id": "I019",
+   "status": "same",
+   "locator": "ch. 29 / PL31 / line 1047",
+   "quote_fr": "le Seigneur des Célestes leur a bien dit qu’ils mourraient s’ils entraient dans ce laboratoire, s’ils « mangeaient » les livres et gravures qui s’y trouvent",
+   "note": "Tree of knowledge = a laboratory of books and engravings forbidden on pain of death; 'eating' = learning (Ez 3, l. 1016). Within an experimental/control-group frame."
+  },
+  {
+   "id": "I020",
+   "status": "similar",
+   "locator": "ch. 18 / PL20 / line 653",
+   "quote_fr": "utilisant, à mesure, le procédé usuel des colonisateurs cherchant à apprendre la langue des indigènes",
+   "note": "Naming the animals = Elohim learning the native language (and adding native words to their own language, l. 528), not teaching botany/zoology."
+  },
+  {
+   "id": "I021",
+   "status": "similar",
+   "locator": "ch. 29 / PL31 / line 1043",
+   "quote_fr": "ce qui incite bien à voir en lui un indigène en cours de mutation",
+   "note": "Serpent = a mutant native (later Lucifer) who already knew the science, not a dissident faction of creators."
+  },
+  {
+   "id": "I022",
+   "status": "similar",
+   "locator": "ch. 29 / PL31 / line 1046",
+   "quote_fr": "la révélation par exemple du fait que les Célestes sont de même nature que les hommes, du fait que l’expérience en cours a pour objet de faire du mutant, du « serpent », l’égal des dieux",
+   "note": "Eyes opened = learning Celestials and humans are of one nature and the experiment aims at equality with gods; close to Message, but no resentment at being lab animals."
+  },
+  {
+   "id": "I023",
+   "status": "similar",
+   "locator": "ch. 29 / PL31 / line 1053",
+   "quote_fr": "Un humain, mutant initialement destiné à devenir Céleste, maudit et désormais condamné à rester cloué au sol",
+   "note": "Curse = being kept on the ground like humans (no sky access); but the cursed one is a mutant human, not exiled creators; no home-planet tribunal."
+  },
+  {
+   "id": "I024",
+   "status": "same",
+   "locator": "ch. 29 / PL31 / line 1075",
+   "quote_fr": "leur Seigneur a de ses mains cousu une « tunique de peau », que la Tradition a toujours interprétée comme un bagage culturel, pour cet homme qu’ils vont aider à s’améliorer par ses propres moyens",
+   "note": "Garments of skin = knowledge kit (agriculture/husbandry, l. 1080) given before leaving man to fend for himself."
+  },
+  {
+   "id": "I025",
+   "status": "similar",
+   "locator": "ch. 24 / PL26 / line 924",
+   "quote_fr": "qu’un dieu humoriste a surnommé « le peuple élu », surnom qui leur est resté",
+   "note": "'Chosen people' = Eden's vivisected experimental stock, not winners of a creators' contest; tree of life = living forever, left technologically unexplained (l. 1063, 1346)."
+  },
+  {
+   "id": "I026",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Cherubim and flaming sword not discussed (searched chérub/kérub/épée/glaive/flamb)."
+  },
+  {
+   "id": "I027",
+   "status": "similar",
+   "locator": "ch. 30 / PL32 / line 1102",
+   "quote_fr": "ils interdirent l’entrée d’Éden à tout bipède indigène, sauf pour leur apporter les viandes d’élevage (Abel) et les graminées, fruits et légumes (Caïn)",
+   "note": "Offerings = humans supplying the Celestials with food; no loyalty display to overseers; Cain/Abel also read as rival 'Gérant' kings (l. 1107)."
+  },
+  {
+   "id": "I028",
+   "status": "mentioned",
+   "locator": "ch. 30 / PL32 / line 1103",
+   "quote_fr": "les descendants d’Adam, malgré l’incident de parcours du 7e « jour », restent les gérants-concessionnaires légitimes, ainsi que l’expose la généalogie du chapitre V de la Genèse",
+   "note": "Gen 5 genealogy read as the line of legitimate 'Gérants' ('bourrée de symboles', l. 1109); no life-extension reading of patriarchal ages."
+  },
+  {
+   "id": "I029",
+   "status": "similar",
+   "locator": "ch. 25 / PL27 / line 948",
+   "quote_fr": "pour lire dans la Genèse (VI, 1 à 4) que les fils des Élohim firent des enfants aux filles des hommes",
+   "note": "Literal Celestial-human offspring affirmed; elsewhere as artificial fecundation of mutated native females producing 'demi-dieux' (l. 915-917), not exiled creators taking wives."
+  },
+  {
+   "id": "I030",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Gen 6:3 (120 years) not discussed."
+  },
+  {
+   "id": "I031",
+   "status": "similar",
+   "locator": "ch. 30 / PL32 / line 1100",
+   "quote_fr": "le gouvernement a été exercé par les Nefilîm, mot qui signifie « les Tombés »",
+   "note": "Nefilim = 'Tombés' = fallen human 'Gérants' expelled from Eden (rois-prêtres, 'Géants' of legend); hybrid demigods appear separately (l. 917); no home-planet alarm at their science."
+  },
+  {
+   "id": "I032",
+   "status": "similar",
+   "locator": "ch. 30 / PL32 / line 1124",
+   "quote_fr": "les thèses du « serpent » triomphaient : là où les Célestes avaient projeté d’instaurer un placide bonheur bovin s’instaurait un système de guerres furieuses",
+   "note": "Wickedness = Gérants' wars and the serpent's eye-opening defeating the plan of a contented humanity; related to but not identical with 'evil = wish to equal the creators'."
+  },
+  {
+   "id": "I033",
+   "status": "similar",
+   "locator": "ch. 31 / PL33 / line 1137",
+   "quote_fr": "Noé n’a pas fait entrer dans son tebah un couple d’éléphants, deux puces et un raton laveur mâle et femelle ; il y a entassé ce que l’Épopée de Gilgamesh appelle « les semences de vie »",
+   "note": "Ark (tebah) = container/'capsule Apollo' holding seeds of life and knowledge, not animals; but it is a shelter on Earth, and the Flood is the departing Celestials destroying Eden and its nuclear plants (l. 1171, 1199), not home-planet missiles; Noah not in orbit."
+  },
+  {
+   "id": "I034",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "No 'rose above the earth' lexical argument."
+  },
+  {
+   "id": "I035",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "150 days / three decks not discussed; tebah is a container, not a rocket."
+  },
+  {
+   "id": "I036",
+   "status": "mentioned",
+   "locator": "ch. 32 / PL34 / line 1156",
+   "quote_fr": "La communication entre les Élohim et Noé n’a rien de plus « miraculeux » que les contacts radio et télé entre Cap Kennedy et Apollo",
+   "note": "Gen 8:13-15 read as radio instructions to Noah from departing Celestials; no raven/dove atmosphere test, no radioactivity, no tithe."
+  },
+  {
+   "id": "I037",
+   "status": "mentioned",
+   "locator": "ch. 32 / PL34 / line 1158",
+   "quote_fr": "la première chose que j’ai dû faire en sortant du tebah a été de monter un récepteur-émetteur puissant",
+   "note": "Noah's altar = radio transmitter-receiver; covenant = 'arc d'alliance' (késheth, a launching device on the Moon, l. 1159-1161); no promise-not-to-destroy reading."
+  },
+  {
+   "id": "I038",
+   "status": "similar",
+   "locator": "ch. 34 / PL36 / line 1199",
+   "quote_fr": "Ils l’aident à construire son tebah et à y entasser matériel, documentation et semences de vie",
+   "note": "Life preserved as 'semences de vie' in the tebah; species earlier recreated from genetic material in Eden labs (l. 913); no per-race return or explicit recreation-from-ark-cells step."
+  },
+  {
+   "id": "I039",
+   "status": "mentioned",
+   "locator": "ch. 34 / PL36 / line 1210",
+   "quote_fr": "Quand les fils et petits-fils de Noé se dispersent, dans le bassin méditerranéen et en Mésopotamie",
+   "note": "Post-Flood dispersal of Noah's sons as priest-kings; Gen 10:32 not cited."
+  },
+  {
+   "id": "I040",
+   "status": "similar",
+   "locator": "ch. 35 / PL37 / line 1239",
+   "quote_fr": "L’intention de couronner la tour d’un mécanisme propulseur ne saurait être indiquée de façon plus évidente.",
+   "note": "Babel = launch tower crowned with a bow-like propulsion device to reach the Moon/'arc d'alliance' (l. 1221); builders are Noah's doubting heirs, without Celestial help, not Israel aiming at the creators' planet."
+  },
+  {
+   "id": "I041",
+   "status": "similar",
+   "locator": "ch. 35 / PL37 / line 1243",
+   "quote_fr": "aucun Céleste n’avait besoin de se déranger",
+   "note": "Confusion of languages arises naturally from failure and quarrels over sacred books; Sendy denies any Celestial intervention; no deliberate scattering of scientists."
+  },
+  {
+   "id": "I042",
+   "status": "similar",
+   "locator": "ch. 36 / PL38 / line 1274",
+   "quote_fr": "Les Célestes avaient-ils laissé, par fausse manœuvre ou volontairement, du combustible nucléaire dans un Éden annexe ?",
+   "note": "Sodom region = annex Eden with leftover nuclear fuel ('jardin du Seigneur'); no pardoned exiles, no avengers preparing an attack."
+  },
+  {
+   "id": "I043",
+   "status": "similar",
+   "locator": "ch. 36 / PL38 / line 1273",
+   "quote_fr": "deux « envoyés » (abusivement traduit par « anges » dans certaines Bibles usuelles) ont déclenché quelque chose qui est décrit comme une explosion nucléaire",
+   "note": "The two 'envoyés' trigger the explosion; not spies; no blinding by pocket atomic weapon."
+  },
+  {
+   "id": "I044",
+   "status": "similar",
+   "locator": "ch. 36 / PL38 / line 1273",
+   "quote_fr": "a cru voir la fin du monde pour avoir assisté à une explosion",
+   "note": "Same nuclear-explosion frame for Gen 19; the warning to flee and the slowness of the inhabitants are not discussed."
+  },
+  {
+   "id": "I045",
+   "status": "same",
+   "locator": "ch. 36 / PL38 / line 1273",
+   "quote_fr": "Mme Loth, que la curiosité a poussée à regarder l’explosion en face, a été changée en « statue de sel »",
+   "note": "Sodom/Gomorrah = nuclear explosion (bigger than Hiroshima, l. 1275); Lot's wife = victim of looking at the blast. Agent (envoys/leftover fuel) differs from Message's deliberate bomb."
+  },
+  {
+   "id": "I046",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Isaac named only; no Akedah reading."
+  },
+  {
+   "id": "I047",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Jacob's ladder not discussed (only Jacob's wrestling, Israel = able to debate with the Elohim)."
+  },
+  {
+   "id": "I048",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Gen 35:2 not cited; Sendy has a general decay of Noachic faith into doubt/idolatry (l. 1215-1217)."
+  },
+  {
+   "id": "I049",
+   "status": "similar",
+   "locator": "ch. 37 / PL39 / line 1308",
+   "quote_fr": "une aiguille aimantée ou un compteur Geiger qui l’aurait guidé vers le « buisson ardent », balisage (magnétique ou radioactif) indiquant la cachette des textes transmis depuis Noé",
+   "note": "Burning bush = magnetic/radioactive beacon marking a cache of Noachic texts; Sendy explicitly rejects a landed saucer (l. 1306)."
+  },
+  {
+   "id": "I050",
+   "status": "mentioned",
+   "locator": "ch. 37 / PL39 / line 1326",
+   "quote_fr": "Moïse est le premier homme de l’Histoire a avoir utilisé la force de dissuasion",
+   "note": "Exodus liberation = Moses' deterrence threat to Pharaoh's priests using inherited knowledge; plagues never happened; no creator intervention."
+  },
+  {
+   "id": "I051",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Exodus–Deuteronomy passage not treated (Sendy denies direct Celestial help to Moses, l. 1306)."
+  },
+  {
+   "id": "I052",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Exodus–Deuteronomy passage not treated (Sendy denies direct Celestial help to Moses, l. 1306)."
+  },
+  {
+   "id": "I053",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Exodus–Deuteronomy passage not treated (Sendy denies direct Celestial help to Moses, l. 1306)."
+  },
+  {
+   "id": "I054",
+   "status": "mentioned",
+   "locator": "ch. 36 / PL38 / line 1281",
+   "quote_fr": "la manne, dont le texte biblique dit qu’elle tombe du ciel dans la région du mont Sinaï, tombe effectivement du ciel dans la région du mont Sinaï",
+   "note": "Manna is a natural botanical phenomenon, not synthetic food."
+  },
+  {
+   "id": "I055",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Exodus–Deuteronomy passage not treated (Sendy denies direct Celestial help to Moses, l. 1306)."
+  },
+  {
+   "id": "I056",
+   "status": "mentioned",
+   "locator": "ch. 15 / PL17 / line 528",
+   "quote_fr": "la Loi ramenée par Moïse du Sinaï était « écrite du doigt des Élohim »",
+   "note": "Sinai Law = Celestial-language text recovered from Noah's legacy (l. 1294-1307); no dictation by creators in a craft, no hygiene emphasis."
+  },
+  {
+   "id": "I057",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Exodus–Deuteronomy passage not treated (Sendy denies direct Celestial help to Moses, l. 1306)."
+  },
+  {
+   "id": "I058",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Exodus–Deuteronomy passage not treated (Sendy denies direct Celestial help to Moses, l. 1306)."
+  },
+  {
+   "id": "I059",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Exodus–Deuteronomy passage not treated (Sendy denies direct Celestial help to Moses, l. 1306)."
+  },
+  {
+   "id": "I060",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Exodus–Deuteronomy passage not treated (Sendy denies direct Celestial help to Moses, l. 1306)."
+  },
+  {
+   "id": "I061",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Exodus–Deuteronomy passage not treated (Sendy denies direct Celestial help to Moses, l. 1306)."
+  },
+  {
+   "id": "I062",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Exodus–Deuteronomy passage not treated (Sendy denies direct Celestial help to Moses, l. 1306)."
+  },
+  {
+   "id": "I063",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Exodus–Deuteronomy passage not treated (Sendy denies direct Celestial help to Moses, l. 1306)."
+  },
+  {
+   "id": "I064",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Exodus–Deuteronomy passage not treated (Sendy denies direct Celestial help to Moses, l. 1306)."
+  },
+  {
+   "id": "I065",
+   "status": "mentioned",
+   "locator": "ch. 36 / PL38 / line 1281",
+   "quote_fr": "la manne, dont le texte biblique dit qu’elle tombe du ciel dans la région du mont Sinaï",
+   "note": "Manna discussed only as a natural phenomenon; Num 11:7-8 description not treated."
+  },
+  {
+   "id": "I066",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Exodus–Deuteronomy passage not treated (Sendy denies direct Celestial help to Moses, l. 1306)."
+  },
+  {
+   "id": "I067",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Exodus–Deuteronomy passage not treated (Sendy denies direct Celestial help to Moses, l. 1306)."
+  },
+  {
+   "id": "I068",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Exodus–Deuteronomy passage not treated (Sendy denies direct Celestial help to Moses, l. 1306)."
+  },
+  {
+   "id": "I069",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Exodus–Deuteronomy passage not treated (Sendy denies direct Celestial help to Moses, l. 1306)."
+  },
+  {
+   "id": "I070",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Joshua/Judges/Samuel passage not treated (searched Josué, Jéricho, Gédéon, Samson, Samuel)."
+  },
+  {
+   "id": "I071",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Joshua/Judges/Samuel passage not treated (searched Josué, Jéricho, Gédéon, Samson, Samuel)."
+  },
+  {
+   "id": "I072",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Joshua/Judges/Samuel passage not treated (searched Josué, Jéricho, Gédéon, Samson, Samuel)."
+  },
+  {
+   "id": "I073",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Joshua/Judges/Samuel passage not treated (searched Josué, Jéricho, Gédéon, Samson, Samuel)."
+  },
+  {
+   "id": "I074",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Joshua/Judges/Samuel passage not treated (searched Josué, Jéricho, Gédéon, Samson, Samuel)."
+  },
+  {
+   "id": "I075",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Joshua/Judges/Samuel passage not treated (searched Josué, Jéricho, Gédéon, Samson, Samuel)."
+  },
+  {
+   "id": "I076",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Joshua/Judges/Samuel passage not treated (searched Josué, Jéricho, Gédéon, Samson, Samuel)."
+  },
+  {
+   "id": "I077",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Joshua/Judges/Samuel passage not treated (searched Josué, Jéricho, Gédéon, Samson, Samuel)."
+  },
+  {
+   "id": "I078",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Joshua/Judges/Samuel passage not treated (searched Josué, Jéricho, Gédéon, Samson, Samuel)."
+  },
+  {
+   "id": "I079",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Joshua/Judges/Samuel passage not treated (searched Josué, Jéricho, Gédéon, Samson, Samuel)."
+  },
+  {
+   "id": "I080",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Joshua/Judges/Samuel passage not treated (searched Josué, Jéricho, Gédéon, Samson, Samuel)."
+  },
+  {
+   "id": "I081",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Joshua/Judges/Samuel passage not treated (searched Josué, Jéricho, Gédéon, Samson, Samuel)."
+  },
+  {
+   "id": "I082",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Ark of the covenant not treated; closest is Noah's altar read as a radio transmitter (l. 1158)."
+  },
+  {
+   "id": "I083",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Ark of the covenant not treated; closest is Noah's altar read as a radio transmitter (l. 1158)."
+  },
+  {
+   "id": "I084",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Ark of the covenant not treated; closest is Noah's altar read as a radio transmitter (l. 1158)."
+  },
+  {
+   "id": "I085",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "1 Kings altar horns not treated; but Sendy reads Noah's altar (Gen 8:20) as a radio transmitter-receiver (l. 1158)."
+  },
+  {
+   "id": "I086",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Kings passage not treated (no Solomon, Elijah, Elisha); Sendy excludes radio contact between historical prophets and Celestials (l. 1204)."
+  },
+  {
+   "id": "I087",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Kings passage not treated (no Solomon, Elijah, Elisha); Sendy excludes radio contact between historical prophets and Celestials (l. 1204)."
+  },
+  {
+   "id": "I088",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Kings passage not treated (no Solomon, Elijah, Elisha); Sendy excludes radio contact between historical prophets and Celestials (l. 1204)."
+  },
+  {
+   "id": "I089",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Kings passage not treated (no Solomon, Elijah, Elisha); Sendy excludes radio contact between historical prophets and Celestials (l. 1204)."
+  },
+  {
+   "id": "I090",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Kings passage not treated (no Solomon, Elijah, Elisha); Sendy excludes radio contact between historical prophets and Celestials (l. 1204)."
+  },
+  {
+   "id": "I091",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Kings passage not treated (no Solomon, Elijah, Elisha); Sendy excludes radio contact between historical prophets and Celestials (l. 1204)."
+  },
+  {
+   "id": "I092",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Kings passage not treated (no Solomon, Elijah, Elisha); Sendy excludes radio contact between historical prophets and Celestials (l. 1204)."
+  },
+  {
+   "id": "I093",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Kings passage not treated (no Solomon, Elijah, Elisha); Sendy excludes radio contact between historical prophets and Celestials (l. 1204)."
+  },
+  {
+   "id": "I094",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Kings passage not treated (no Solomon, Elijah, Elisha); Sendy excludes radio contact between historical prophets and Celestials (l. 1204)."
+  },
+  {
+   "id": "I095",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Kings passage not treated (no Solomon, Elijah, Elisha); Sendy excludes radio contact between historical prophets and Celestials (l. 1204)."
+  },
+  {
+   "id": "I096",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Kings passage not treated (no Solomon, Elijah, Elisha); Sendy excludes radio contact between historical prophets and Celestials (l. 1204)."
+  },
+  {
+   "id": "I097",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Kings passage not treated (no Solomon, Elijah, Elisha); Sendy excludes radio contact between historical prophets and Celestials (l. 1204)."
+  },
+  {
+   "id": "I098",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Kings passage not treated (no Solomon, Elijah, Elisha); Sendy excludes radio contact between historical prophets and Celestials (l. 1204)."
+  },
+  {
+   "id": "I099",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Kings passage not treated (no Solomon, Elijah, Elisha); Sendy excludes radio contact between historical prophets and Celestials (l. 1204)."
+  },
+  {
+   "id": "I100",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Isaiah passage not treated (Isaiah named only re Pharisees, l. 851)."
+  },
+  {
+   "id": "I101",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Isaiah passage not treated (Isaiah named only re Pharisees, l. 851)."
+  },
+  {
+   "id": "I102",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Isaiah passage not treated (Isaiah named only re Pharisees, l. 851)."
+  },
+  {
+   "id": "I103",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Isaiah passage not treated (Isaiah named only re Pharisees, l. 851)."
+  },
+  {
+   "id": "I104",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Isaiah passage not treated (Isaiah named only re Pharisees, l. 851)."
+  },
+  {
+   "id": "I105",
+   "status": "mentioned",
+   "locator": "ch. 14 / PL16 / line 497",
+   "quote_fr": "Le texte hébreu ne dit rien du cosmonef (le « récit du char » fait partie de l’enseignement « kabaliste », sorte d’enseignement du troisième cycle de la Tradition)",
+   "note": "Allusion that the 'récit du char' (Merkabah) is esoteric teaching about the cosmonef; Ezekiel 1 not analysed."
+  },
+  {
+   "id": "I106",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Ezekiel passage not treated (Ezekiel cited only at 1:28 and 3:1-3)."
+  },
+  {
+   "id": "I107",
+   "status": "mentioned",
+   "locator": "ch. 32 / PL34 / line 1159",
+   "quote_fr": "« Comme la vision du késheth qui se forme dans la nuée un jour de pluie, telle était la vision de clarté environnante » (EZ. I, 28)",
+   "note": "Ez 1:28 cited only as a philological control (késheth = rainbow there); no crystal platform/mother-ship reading."
+  },
+  {
+   "id": "I108",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Ezekiel passage not treated (Ezekiel cited only at 1:28 and 3:1-3)."
+  },
+  {
+   "id": "I109",
+   "status": "same",
+   "locator": "ch. 27 / PL29 / line 1016",
+   "quote_fr": "une voix ordonne à Ézéchiel de manger un livre, d’en nourrir son ventre, d’en emplir ses entrailles, et d’aller ensuite enseigner ce qu’il aurait ainsi appris en mangeant",
+   "note": "Same link: Ezekiel's eaten scroll shows 'eating' = learning, used to read the tree of knowledge; recto-verso anomaly absent."
+  },
+  {
+   "id": "I110",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Ezekiel passage not treated (Ezekiel cited only at 1:28 and 3:1-3)."
+  },
+  {
+   "id": "I111",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Ezekiel passage not treated (Ezekiel cited only at 1:28 and 3:1-3)."
+  },
+  {
+   "id": "I112",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Ezekiel passage not treated (Ezekiel cited only at 1:28 and 3:1-3)."
+  },
+  {
+   "id": "I113",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Ezekiel passage not treated (Ezekiel cited only at 1:28 and 3:1-3)."
+  },
+  {
+   "id": "I114",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Ezekiel passage not treated (Ezekiel cited only at 1:28 and 3:1-3)."
+  },
+  {
+   "id": "I115",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Ezekiel passage not treated (Ezekiel cited only at 1:28 and 3:1-3)."
+  },
+  {
+   "id": "I116",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Ezekiel passage not treated (Ezekiel cited only at 1:28 and 3:1-3)."
+  },
+  {
+   "id": "I117",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Ezekiel passage not treated (Ezekiel cited only at 1:28 and 3:1-3)."
+  },
+  {
+   "id": "I118",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Ezekiel passage not treated (Ezekiel cited only at 1:28 and 3:1-3)."
+  },
+  {
+   "id": "I119",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Ezekiel passage not treated (Ezekiel cited only at 1:28 and 3:1-3)."
+  },
+  {
+   "id": "I120",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Ezekiel passage not treated (Ezekiel cited only at 1:28 and 3:1-3)."
+  },
+  {
+   "id": "I121",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Ezekiel passage not treated (Ezekiel cited only at 1:28 and 3:1-3)."
+  },
+  {
+   "id": "I122",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Daniel not cited."
+  },
+  {
+   "id": "I123",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Daniel not cited."
+  },
+  {
+   "id": "I124",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Daniel not cited."
+  },
+  {
+   "id": "I125",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Daniel not cited."
+  },
+  {
+   "id": "I126",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Daniel not cited."
+  },
+  {
+   "id": "I127",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Daniel not cited."
+  },
+  {
+   "id": "I128",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Daniel not cited; Sendy's 'accomplissement des temps' = retaking Jerusalem + Moon landing (l. 1265) is a conceptual parallel only."
+  },
+  {
+   "id": "I129",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Jonah not cited."
+  },
+  {
+   "id": "I130",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Zechariah not cited."
+  },
+  {
+   "id": "I131",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Zechariah not cited."
+  },
+  {
+   "id": "I132",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Psalm not cited (Sendy quotes 'J'ai dit, vous êtes des dieux' via Eckhart, l. 384)."
+  },
+  {
+   "id": "I133",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Psalm not cited (Sendy quotes 'J'ai dit, vous êtes des dieux' via Eckhart, l. 384)."
+  },
+  {
+   "id": "I134",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Psalm not cited (Sendy quotes 'J'ai dit, vous êtes des dieux' via Eckhart, l. 384)."
+  },
+  {
+   "id": "I135",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Psalm not cited (Sendy quotes 'J'ai dit, vous êtes des dieux' via Eckhart, l. 384)."
+  },
+  {
+   "id": "I136",
+   "status": "similar",
+   "locator": "ch. 30 / PL32 / line 1113",
+   "quote_fr": "D’un commun accord, le Seigneur et Satan choisissent un sujet d’expérience, Job",
+   "note": "Satan among the bene ha-elohim = Lucifer (the fallen mutant) received in audience; Job an experiment; not a home-planet opposition leader."
+  },
+  {
+   "id": "I137",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Job 37:18 not cited (only Job 1:6 and 38:4-7)."
+  },
+  {
+   "id": "I138",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Job's restoration not discussed."
+  },
+  {
+   "id": "I139",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Tobit/Wisdom not cited."
+  },
+  {
+   "id": "I140",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Tobit/Wisdom not cited."
+  },
+  {
+   "id": "I141",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Tobit/Wisdom not cited."
+  },
+  {
+   "id": "I142",
+   "status": "mentioned",
+   "locator": "ch. 13 / PL15 / line 464",
+   "quote_fr": "Étaient-ce les pistes des avions utilisés par les dieux ? On peut le penser, mais il est exclu d’affirmer cela.",
+   "note": "Peru lines/Baalbek raised but explicitly not attributed (all artefacts on Earth must be ascribed to humans, l. 465); Tibet/Lhasa in a 'sacred band'; bases put on Mars/Moon instead."
+  },
+  {
+   "id": "I143",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Passage not cited."
+  },
+  {
+   "id": "I144",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Passage not cited."
+  },
+  {
+   "id": "I145",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Passage not cited."
+  },
+  {
+   "id": "I146",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Proverbs 8 not cited; conceptual parallel: chain in which colonised worlds later send out their own 'gods' (l. 767)."
+  },
+  {
+   "id": "I147",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Ecclesiastes not cited; same chain-of-worlds parallel (l. 767)."
+  },
+  {
+   "id": "I148",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Ecclesiastes not cited; conceptual parallel: Celestials recreated species, even from fossils (l. 913)."
+  },
+  {
+   "id": "I149",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Passage not cited."
+  },
+  {
+   "id": "I150",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "No emblem/Star of David/swastika."
+  },
+  {
+   "id": "I151",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Passage not cited."
+  },
+  {
+   "id": "I152",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Passage not cited."
+  },
+  {
+   "id": "I153",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Passage not cited."
+  },
+  {
+   "id": "I154",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Passage not cited."
+  },
+  {
+   "id": "I155",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Passage not cited."
+  },
+  {
+   "id": "I156",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Passage not cited."
+  },
+  {
+   "id": "I157",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Micah not cited; parallel idea: the Celestials' own ancestors were once natives visited by cosmonaut gods (l. 922)."
+  },
+  {
+   "id": "I158",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Passage not cited."
+  },
+  {
+   "id": "I159",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "No virgin-birth reading (only Zeus/Semele as a foil, l. 1151)."
+  },
+  {
+   "id": "I160",
+   "status": "mentioned",
+   "locator": "ch. 23 / PL25 / line 855",
+   "quote_fr": "ils avaient lu dans le ciel qu’une étoile brillait sur la Judée",
+   "note": "Magi as Zoroastrian astrologers reading the sky at the entry into Pisces; no guiding craft."
+  },
+  {
+   "id": "I161",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "New Testament passage not treated (Gospels cited only at Jn 10:34-35 and Jn 13)."
+  },
+  {
+   "id": "I162",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "New Testament passage not treated (Gospels cited only at Jn 10:34-35 and Jn 13)."
+  },
+  {
+   "id": "I163",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "New Testament passage not treated (Gospels cited only at Jn 10:34-35 and Jn 13)."
+  },
+  {
+   "id": "I164",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "New Testament passage not treated (Gospels cited only at Jn 10:34-35 and Jn 13)."
+  },
+  {
+   "id": "I165",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "New Testament passage not treated (Gospels cited only at Jn 10:34-35 and Jn 13)."
+  },
+  {
+   "id": "I166",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "New Testament passage not treated (Gospels cited only at Jn 10:34-35 and Jn 13)."
+  },
+  {
+   "id": "I167",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "New Testament passage not treated (Gospels cited only at Jn 10:34-35 and Jn 13)."
+  },
+  {
+   "id": "I168",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "New Testament passage not treated (Gospels cited only at Jn 10:34-35 and Jn 13)."
+  },
+  {
+   "id": "I169",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "New Testament passage not treated (Gospels cited only at Jn 10:34-35 and Jn 13)."
+  },
+  {
+   "id": "I170",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "New Testament passage not treated (Gospels cited only at Jn 10:34-35 and Jn 13)."
+  },
+  {
+   "id": "I171",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "New Testament passage not treated (Gospels cited only at Jn 10:34-35 and Jn 13)."
+  },
+  {
+   "id": "I172",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "New Testament passage not treated (Gospels cited only at Jn 10:34-35 and Jn 13)."
+  },
+  {
+   "id": "I173",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "New Testament passage not treated (Gospels cited only at Jn 10:34-35 and Jn 13)."
+  },
+  {
+   "id": "I174",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "New Testament passage not treated (Gospels cited only at Jn 10:34-35 and Jn 13)."
+  },
+  {
+   "id": "I175",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "New Testament passage not treated (Gospels cited only at Jn 10:34-35 and Jn 13)."
+  },
+  {
+   "id": "I176",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Matthew 13:35 not cited; Sendy cites Froman on moving the Earth when the Sun dies (l. 543) as a conceptual parallel."
+  },
+  {
+   "id": "I177",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "New Testament passage not treated (Gospels cited only at Jn 10:34-35 and Jn 13)."
+  },
+  {
+   "id": "I178",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "New Testament passage not treated (Gospels cited only at Jn 10:34-35 and Jn 13)."
+  },
+  {
+   "id": "I179",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "New Testament passage not treated (Gospels cited only at Jn 10:34-35 and Jn 13)."
+  },
+  {
+   "id": "I180",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "No helicopter/rifle 'miracle' thought experiment for Jesus' time; analogous image used for the post-Eden 'Gérants' (l. 1104)."
+  },
+  {
+   "id": "I181",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "New Testament passage not treated (Gospels cited only at Jn 10:34-35 and Jn 13)."
+  },
+  {
+   "id": "I182",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Mt 19:30 not cited; created-become-creators chain is a conceptual parallel (l. 767)."
+  },
+  {
+   "id": "I183",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "New Testament passage not treated (Gospels cited only at Jn 10:34-35 and Jn 13)."
+  },
+  {
+   "id": "I184",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Mt 26 not cited; Sendy's Judas reading (Jn 13) is zodiacal (twelve minus one for Pisces, l. 1186)."
+  },
+  {
+   "id": "I185",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "New Testament passage not treated (Gospels cited only at Jn 10:34-35 and Jn 13)."
+  },
+  {
+   "id": "I186",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "New Testament passage not treated (Gospels cited only at Jn 10:34-35 and Jn 13)."
+  },
+  {
+   "id": "I187",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "New Testament passage not treated (Gospels cited only at Jn 10:34-35 and Jn 13)."
+  },
+  {
+   "id": "I188",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "New Testament passage not treated (Gospels cited only at Jn 10:34-35 and Jn 13)."
+  },
+  {
+   "id": "I189",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "New Testament passage not treated (Gospels cited only at Jn 10:34-35 and Jn 13)."
+  },
+  {
+   "id": "I190",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "New Testament passage not treated (Gospels cited only at Jn 10:34-35 and Jn 13)."
+  },
+  {
+   "id": "I191",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "New Testament passage not treated (Gospels cited only at Jn 10:34-35 and Jn 13)."
+  },
+  {
+   "id": "I192",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "New Testament passage not treated (Gospels cited only at Jn 10:34-35 and Jn 13)."
+  },
+  {
+   "id": "I193",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "New Testament passage not treated (Gospels cited only at Jn 10:34-35 and Jn 13)."
+  },
+  {
+   "id": "I194",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Matthew 24 not cited; Aquarius = 'temps messianiques'/Parousie (l. 1346), not the end of the Church."
+  },
+  {
+   "id": "I195",
+   "status": "similar",
+   "locator": "ch. 18 / PL20 / line 630",
+   "quote_fr": "d’un Dieu pour âmes simples, d’un Dieu traditionnellement barbu, de Zeus pour tout dire, créant la Terre à partir du néant",
+   "note": "Mocks the bearded-God reading as the product of exegesis; not framed as a modern collapse of popular belief."
+  },
+  {
+   "id": "I196",
+   "status": "same",
+   "locator": "ch. 20 / PL22 / line 707",
+   "quote_fr": "à la naissance du Christ, le point vernal entrait dans les Poissons, et il en est sorti vers 1950 pour entrer dans le Verseau",
+   "note": "Precessional ages structure history: Pisces = Christianity's fish symbol (l. 719), Aquarius from c. 1950 = fulfilment/'paradis terrestre' (l. 732), Celestial arrival c. 21,000 BCE. Message dates Aquarius 1946."
+  },
+  {
+   "id": "I197",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Zephaniah not cited; Pisces-to-Aquarius transition c. 1950 is a conceptual parallel (l. 707)."
+  },
+  {
+   "id": "I198",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Passage not cited."
+  },
+  {
+   "id": "I199",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Passage not cited."
+  },
+  {
+   "id": "I200",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Passage not cited."
+  },
+  {
+   "id": "I201",
+   "status": "absent",
+   "locator": "ch. 14 / PL16 / line 496",
+   "quote_fr": "de même que Éloah (singulier d’Élohim) est reproduit tel quel",
+   "note": "Isaiah 42:3 not treated; but Sendy shares the Eloah/Elohim plural and the charge that translating 'Dieu' is a mistranslation."
+  },
+  {
+   "id": "I202",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Passage not cited."
+  },
+  {
+   "id": "I203",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Isaiah 43 not cited; Sendy notes Israel 'vient de reprendre Jérusalem' per the Tradition (l. 1265)."
+  },
+  {
+   "id": "I204",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Passage not cited."
+  },
+  {
+   "id": "I205",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Passage not cited."
+  },
+  {
+   "id": "I206",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Passage not cited."
+  },
+  {
+   "id": "I207",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Passage not cited."
+  },
+  {
+   "id": "I208",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Passage not cited."
+  },
+  {
+   "id": "I209",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Passage not cited."
+  },
+  {
+   "id": "I210",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Passage not cited."
+  },
+  {
+   "id": "I211",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Passage not cited."
+  },
+  {
+   "id": "I212",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Passage not cited."
+  },
+  {
+   "id": "I213",
+   "status": "mentioned",
+   "locator": "ch. 14 / PL16 / line 487",
+   "quote_fr": "les kabalistes font état de quarante-neuf « noms divins », dont certains semblent faire double emploi",
+   "note": "Kabbalah valued as higher-cycle Tradition (49 divine names -> 30-40 Celestials; récit du char); no Shi'ur Qomah measurements."
+  },
+  {
+   "id": "I214",
+   "status": "similar",
+   "locator": "ch. 25 / PL27 / line 953",
+   "quote_fr": "Maha Bharata sanscrit, Épopée de Gilgamesh assyrienne, Popol Vuh amérindien, pour ne rien dire des textes chinois, tibétains et autres",
+   "note": "Common Myth of sky-gods across First Civilizations (Egypt, Mesopotamia, China, India, Tibet, Greece); but Sendy dismisses non-biblical books as 'idolâtres' and Islam as knowing nothing (l. 479)."
+  },
+  {
+   "id": "I215",
+   "status": "similar",
+   "locator": "ch. 2 / PL4 / line 122",
+   "quote_fr": "la Vie apparaît avoir évolué exactement comme elle évoluerait dans un laboratoire où, à partir de l’« étincelle initiale » expérimentalement obtenue, des biologistes chercheraient à créer, par tâtonnements successifs",
+   "note": "Critique of mutation-driven evolution (Guyénot) and lab-like evolution; Sendy leaves it as a dilemma/galactic 'seeding' idea (l. 1385-1386) and attributes only some mutations to the Celestials (l. 677)."
+  },
+  {
+   "id": "I216",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "No future-Sodom threat."
+  },
+  {
+   "id": "I217",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "No Raël/Ramuel onomastics."
+  },
+  {
+   "id": "I218",
+   "status": "similar",
+   "locator": "ch. 11 / PL13 / line 401",
+   "quote_fr": "Si Galilée fut poursuivi et livré par ses ennemis à l’Inquisition",
+   "note": "Uses Galileo (not Copernicus) as the scientist condemned by 'blocage psychologique' of official science."
+  },
+  {
+   "id": "I219",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "No Jubilee reading."
+  },
+  {
+   "id": "I220",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "No spacesuit/repulsor-helmet discussion."
+  },
+  {
+   "id": "I221",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Zechariah not cited; Sendy's Celestials do travel as 15 couples (l. 359)."
+  },
+  {
+   "id": "I222",
+   "status": "mentioned",
+   "locator": "ch. 38 / PL40 / line 1346",
+   "quote_fr": "l’« arbre de vie » ou tout au moins ses épures nous attend dans l’« arc d’alliance », sur la Lune",
+   "note": "Tree of life = still-forbidden knowledge stored in the lunar 'arc'; no surgery, no 750-1,200-year lifespans or link to Gen 5 ages. Celestial 'immortality' = genetically identical twin lineages (l. 928)."
+  },
+  {
+   "id": "I223",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "No cloning or annual council; Sendy's 'eternity' is molecular recycling/metempsychosis and twin lineages (l. 889, 928)."
+  },
+  {
+   "id": "I224",
+   "status": "same",
+   "locator": "ch. 1 / PL3 / line 49",
+   "quote_fr": "en lisant « les Venus-du-ciel », ou « les Célestes », chaque fois que dans le texte hébreu revient le pluriel Elohim",
+   "note": "Elohim = 'les Venus-du-ciel' throughout the book."
+  },
+  {
+   "id": "I225",
+   "status": "same",
+   "locator": "ch. 15 / PL17 / line 528",
+   "quote_fr": "un testament scientifique, rédigé dans la langue des Célestes à laquelle sont mêlés quelques mots terrestres indigènes",
+   "note": "Biblical Hebrew = language of the Celestials (Noah spoke it, l. 1208; the lunar 'arc' data are 'écrites en hébreu', l. 1395)."
+  },
+  {
+   "id": "I226",
+   "status": "absent",
+   "locator": null,
+   "quote_fr": null,
+   "note": "Sendy holds the Celestials departed c. 7,000 BCE and their return infinitely improbable (l. 1203)."
+  }
+ ],
+ "sendy_only": [
+  {
+   "locator": "ch. 10 / PL12 / line 360",
+   "passage": "Gen 1:1 (frame)",
+   "reading": "Elohim = ~30 cosmonauts (15 couples) arriving c. 23,500 years ago in a 3 km hollow-sphere generation ship.",
+   "quote_fr": "Les occupants du cosmonef, et les générations issues d’eux, allaient devenir les dieux venus du ciel"
+  },
+  {
+   "locator": "ch. 15 / PL17 / line 546",
+   "passage": "Gen 1:1-2 (frame)",
+   "reading": "The arrival ship is Phobos, parked round Mars; Deimos a second ship/workshop.",
+   "quote_fr": "Si Phobos était le cosmonef que j’ai proposé au chapitre 10, toutes les caractéristiques ci-dessus entreraient dans l’ordre naturel des choses."
+  },
+  {
+   "locator": "ch. 9 / PL11 / line 343",
+   "passage": "Gen 1:2",
+   "reading": "Tohu-bohu = Earth after a Würm-III glaciation Cataclysm c. 21,500 BCE; creation = restoration of order.",
+   "quote_fr": "Si le Cataclysme a bien eu lieu, il a eu lieu vers — 21 500, et ses conséquences ont été le tohu-bohu décrit par le texte biblique."
+  },
+  {
+   "locator": "ch. 16 / PL18 / line 565",
+   "passage": "Divine names",
+   "reading": "Adonaï and Shaddaï are two individuals: expedition leader and deputy, revived from freezers on arrival.",
+   "quote_fr": "Le moment était venu d’extraire des congélateurs le chef de l’expédition, l’Adonaï, et son adjoint direct, Shaddaï."
+  },
+  {
+   "locator": "ch. 14 / PL16 / line 496",
+   "passage": "Divine names",
+   "reading": "Iahvé Élohim = 'Seigneur des Élohim', a title over the group, not a synonym of God.",
+   "quote_fr": "Dhorme a l’honnêteté de rendre par « Iahvé Élohim » le « Seigneur des Élohim »"
+  },
+  {
+   "locator": "ch. 17 / PL19 / line 611",
+   "passage": "Gen 1:3-5",
+   "reading": "First 'day': Moon stabilised (enlarged via its volcanism) so a crater faces Earth permanently as a work base.",
+   "quote_fr": "« Stabilisation » parachevée du satellite naturel de la Terre par un accroissement de son diamètre, obtenu en libérant son énergie volcanique"
+  },
+  {
+   "locator": "ch. 19 / PL21 / line 668",
+   "passage": "Gen 2 (Eden)",
+   "reading": "Lilith = artificial weather/biology satellite orbiting Earth (later linked to the 1908 Siberian fall, l. 546).",
+   "quote_fr": "le météorologue dont le laboratoire est Lilith, petit satellite artificiel en orbite autour de la Terre"
+  },
+  {
+   "locator": "ch. 9 / PL11 / line 341",
+   "passage": "Gen 2:4b-7",
+   "reading": "Gen 2 is a flashback: man emerges from caves after the Cataclysm before the rains, i.e. at the end of the first 'day', not the sixth.",
+   "quote_fr": "L’homme, seul animal à avoir survécu par ses propres moyens au Cataclysme, a donc surgi de ses grottes"
+  },
+  {
+   "locator": "ch. 19 / PL21 / line 669",
+   "passage": "Gen 1-2",
+   "reading": "Ants and bees are Celestial conditioning experiments released from Eden.",
+   "quote_fr": "Ces insectes, dont l’adam de service leur a appris que le nom terreste était « fourmi », ont été lâchés dans la nature, hors d’Éden."
+  },
+  {
+   "locator": "ch. 22 / PL24 / line 815",
+   "passage": "Gen 2:21-23",
+   "reading": "Rib story = the Lord revealing paternity to a matriarchal humanity ignorant of the male role (ich/icha).",
+   "quote_fr": "Après l’intervention du Seigneur, l’adam qui, jusque-là, ignorait le rôle du père dans la fécondation, apprend une nouvelle bouleversante"
+  },
+  {
+   "locator": "ch. 39 / PL41 / line 1374",
+   "passage": "Gen 1:27 / 2:21-23",
+   "reading": "'Adam mâle et femelle' may denote a line of identical twins bred into an immortal lineage.",
+   "quote_fr": "afin d’obtenir une lignée de répliques rigoureusement conformes, une lignée éternelle d’adams immortels ?"
+  },
+  {
+   "locator": "ch. 29 / PL31 / line 1054",
+   "passage": "Gen 3:16",
+   "reading": "'ET tes grossesses': Eden practised birth control; usual Bibles mistranslate.",
+   "quote_fr": "En Éden, les biologistes célestes pratiquaient donc sur elle le contrôle des naissances ?"
+  },
+  {
+   "locator": "ch. 28 / PL30 / line 1026",
+   "passage": "Gen 3:4-5, 3:22",
+   "reading": "The Lord lied and the serpent told the truth.",
+   "quote_fr": "le Seigneur des Célestes reconnaît implicitement que le serpent a dit la vérité et que lui, Seigneur des Célestes, en a menti"
+  },
+  {
+   "locator": "ch. 30 / PL32 / line 1095",
+   "passage": "Gen 6:4 / post-Eden",
+   "reading": "Expelled humans become 'Gérants', priest-kings c. 8,000 BCE who bring the Neolithic 'invention'.",
+   "quote_fr": "appelons-les Gérants."
+  },
+  {
+   "locator": "ch. 30 / PL32 / line 1100",
+   "passage": "Gen 6:4",
+   "reading": "Nefilim = 'les Tombés' (fallen Gérants), linked to Lucifer and Prometheus.",
+   "quote_fr": "les Nefilîm, mot qui signifie « les Tombés », et que l’on traduit usuellement par « les Géants »"
+  },
+  {
+   "locator": "ch. 30 / PL32 / line 1111",
+   "passage": "Gen 3 / Isa 14 tradition",
+   "reading": "Lucifer = 'the most intelligent of the created', intended concessionaire of Earth; Nazism a Luciferian heresy.",
+   "quote_fr": "c’est bien évidemment au « plus intelligent des créés », à Lucifer."
+  },
+  {
+   "locator": "ch. 32 / PL34 / line 1159",
+   "passage": "Gen 9:13",
+   "reading": "késheth = an archer's bow, not a rainbow: a launch mechanism to be found in a lunar crater.",
+   "quote_fr": "L’« arc dans la nue » est un késheth, un arc : très précisément, l’arc des archers. Traduire késheth par « arc-en-ciel », c’est se moquer."
+  },
+  {
+   "locator": "ch. 31 / PL33 / line 1136",
+   "passage": "Gen 6:14 / Ex 2:3",
+   "reading": "tebah = 'récipient', the same word as Moses' basket; comparable to an Apollo capsule.",
+   "quote_fr": "on reste dans l’esprit de l’hébreu en dénommant tebah une capsule Apollo"
+  },
+  {
+   "locator": "ch. 33 / PL35 / line 1181",
+   "passage": "Gen 9:20-27",
+   "reading": "Noah's drunkenness expresses his discouragement after the Celestials left.",
+   "quote_fr": "pour bien nous faire saisir le découragement qui s’empare de Noé"
+  },
+  {
+   "locator": "ch. 33 / PL35 / line 1182",
+   "passage": "Gen 9:18-27",
+   "reading": "Three sons minus Ham = two heirs, a code for entry into Gemini.",
+   "quote_fr": "nous sommes entrés dans le huitième « jour », celui où le soleil d’équinoxe se lèvera, pendant 2 160 ans, dans les Gémeaux"
+  },
+  {
+   "locator": "ch. 33 / PL35 / line 1180",
+   "passage": "Gen 9:1-2",
+   "reading": "'Fear and dread of you' = parting encouragement to a last-chance commando left behind.",
+   "quote_fr": "les encouragements qu’adressent, au commando de la dernière chance resté sur place, des cosmonautes qui s’en vont parce qu’ils n’y croient plus"
+  },
+  {
+   "locator": "ch. 14 / PL16 / line 508",
+   "passage": "Gen 9 / zodiac",
+   "reading": "Sagittarius (the Archer, galactic centre) marks the origin of a galactic chain of civilisations; the bow is its emblem.",
+   "quote_fr": "partie du centre de la Galaxie, d’un système planétaire de la constellation de l’Archer"
+  },
+  {
+   "locator": "ch. 17 / PL19 / line 616",
+   "passage": "Job 38:4-7",
+   "reading": "Adonaï 'founded' the Earth; morning stars singing = congratulations from other inhabited systems.",
+   "quote_fr": "c’est Adonaï, le « Seigneur » des Célestes, qui parle à Job et lui demande (versets 4 à 7) où il était lorsque Adonaï a fondé la Terre"
+  },
+  {
+   "locator": "ch. 36 / PL38 / line 1279",
+   "passage": "Gen 32:28",
+   "reading": "Israel = 'able to sustain a debate with the Elohim'.",
+   "quote_fr": "son surnom d’Israël qui signifie « Capable de soutenir un débat avec les Élohim »"
+  },
+  {
+   "locator": "ch. 20 / PL22 / line 718",
+   "passage": "Ex 32 / zodiac",
+   "reading": "Moses' ram cult and rejected golden calf encode the Taurus-to-Aries transition; the lamb and fish do the same for Pisces.",
+   "quote_fr": "au bélier « à adorer », il adjoint un symbole annexe, celui du veau (fils d’Apis) à rejeter"
+  },
+  {
+   "locator": "ch. 33 / PL35 / line 1186",
+   "passage": "John 13",
+   "reading": "Judas is the apostle to be 'deducted' so that eleven remain for Pisces, the eleventh 'day'.",
+   "quote_fr": "Judas était l’apôtre à « déduire » des douze, afin qu’il en reste onze pour l’entrée dans les Poissons"
+  },
+  {
+   "locator": "ch. 37 / PL39 / line 1311",
+   "passage": "Ex 3",
+   "reading": "Egyptian priests hid the Celestial legacy ('Coffre de la Tradition') in a beaconed desert cache; the Great Pyramid decommissioned.",
+   "quote_fr": "La prudence incitait à transporter le Coffre de la Tradition dans le désert, vers une cachette balisée par quelque « buisson ardent »"
+  },
+  {
+   "locator": "ch. 25 / PL27 / line 965",
+   "passage": "Gen 1 grammar",
+   "reading": "Plural Elohim with singular verb = a genetically identical group acting as One.",
+   "quote_fr": "LES Élohim A toujours été comme UN."
+  },
+  {
+   "locator": "ch. 31 / PL33 / line 1141",
+   "passage": "Gen 2-7",
+   "reading": "Eden is remembered as Atlantis, destroyed in a 'super-Hiroshima' at the Celestials' departure.",
+   "quote_fr": "le mythe de l’Atlantide, mythe tenace et parfaitement compatible avec la description de l’Éden, dont la destruction évoque un super-Hiroshima"
+  }
+ ]
+}

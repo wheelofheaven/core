@@ -127,6 +127,11 @@ biological creation programme.
 
 ## Verification log
 
+- 2026-10-14 — French project paragraphs inspected for the Sendy comparison:
+  TBWTT-1:46,53; 2:2–5,16–39,58,68; 3:113; 5:4,56,61–66;
+  6:7,21–22; 7:29–31.
+  This extends passage access for draft `woh-claim-0072`, not the earlier
+  print-collation finding; no 1974 first printing was inspected.
 - 2026-08-02 — Project digitization checked for `TBWTT-1:53` and
   `TBWTT-2:5`; no full edition collation performed.
 - 2026-08-02 — Project digitization checked for `TBWTT-5:7` (Aquarian
