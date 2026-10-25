@@ -79,3 +79,4 @@ extension; prose drift into per-figure identifications; changes to 0004.
 - `wheelofheaven/data-content:wiki/lucifer.md`
 - `wheelofheaven/data-content:articles/lucifer-and-satan.md`
 - `wheelofheaven/data-content:articles/the-world-behind-the-odyssey.md`
+- `wheelofheaven/data-content:wiki/chaoskampf.md` (redirect stub to Theomachy)

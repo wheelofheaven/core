@@ -124,7 +124,9 @@
   ],
   "controlling_document": "../../docs/framework/dragons-passage-signature.md",
   "public_derivatives": [
-    "wheelofheaven/data-content:articles/the-dragon-curve.md"
+    "wheelofheaven/data-content:articles/the-dragon-curve.md",
+    "wheelofheaven/data-content:wiki/dragons.md",
+    "wheelofheaven/data-content:wiki/dhorme-bible-translation.md"
   ],
   "last_reviewed": "2026-10-25"
 }

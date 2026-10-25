@@ -59,3 +59,4 @@ As in the machine record.
 - `wheelofheaven/data-content:wiki/serpent.md`
 - `wheelofheaven/data-content:wiki/dragons.md`
 - `wheelofheaven/data-content:articles/the-archdeacon-and-the-dragon.md`
+- `wheelofheaven/data-content:wiki/tannin.md` (redirect stub to Dragons)

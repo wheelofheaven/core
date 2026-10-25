@@ -100,3 +100,5 @@ operative one.
 ## Public derivatives
 
 - `wheelofheaven/data-content:articles/the-dragon-curve.md`
+- `wheelofheaven/data-content:wiki/dragons.md` (the quotation-gap subsection)
+- `wheelofheaven/data-content:wiki/dhorme-bible-translation.md` (the Genesis 1:21 rendering)
