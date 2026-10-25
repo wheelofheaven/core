@@ -723,6 +723,16 @@
       "framework_relation": "comparative",
       "record": "claims/woh-claim-0072.json",
       "specification": "../docs/framework/sendy-messages-literary-comparison.md"
+    },
+    {
+      "id": "woh-claim-0073",
+      "title": "The dragons passage as compositional signature",
+      "version": "0.1.0",
+      "lifecycle": "accepted",
+      "claim_kind": "interpretation",
+      "framework_relation": "derived",
+      "record": "claims/woh-claim-0073.json",
+      "specification": "../docs/framework/dragons-passage-signature.md"
     }
   ]
 }

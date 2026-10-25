@@ -21,3 +21,4 @@ superseding ADR and update both records; accepted history is not rewritten.
 | [0009](0009-reproducible-review-records.md) | Accepted | Adopt reproducible review records as the instrument that moves a claim beyond `scoped` (RFC 0007); no claim advanced |
 | [0010](0010-continental-breakup-promotion.md) | Accepted | Promote woh-claim-0071 (continental breakup at the Flood) to accepted; catalog again carries no draft records |
 | [0011](0011-sendy-comparison-promotion.md) | Accepted | Promote woh-claim-0072 (Sendy and the Messages) at 0.2.0 to accepted; catalog again carries no draft records |
+| [0012](0012-dragons-passage-promotion.md) | Accepted | Promote woh-claim-0073 (the dragons passage as compositional signature) at 0.1.0 to accepted; catalog again carries no draft records |

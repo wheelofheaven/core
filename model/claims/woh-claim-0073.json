@@ -1,0 +1,130 @@
+{
+  "$schema": "../schemas/claim.schema.json",
+  "schema_version": "0.1.0",
+  "id": "woh-claim-0073",
+  "title": "The dragons passage as compositional signature",
+  "version": "0.1.0",
+  "lifecycle": "accepted",
+  "statement": "The first Message's dragons material — TBWTT 2:22's 'dragons, or what you have named Dinosaurs or Brontosaurs,' created by 'other teams of scientists' and narrated at the bird stage of the creation exegesis — is read, together with its quotation context, as a compositional signature: the exegesis quotes Genesis 1:20 and 1:24 in Dhorme's wording and passes over Genesis 1:21, the verse that in the canon's own quotation source reads 'Élohim créa donc les grands dragons,' while the prose between the two quotations narrates that verse's content with the dragon register restored, attaches the dragon work to a distinct faction at the stage adjacent to the birds against the governing ornithological consensus of the composition years, and does so without counterpart for the complex — dragons by name, dissenting teams, bird-stage placement — in the inspected Sendy corpus; the corpus reads this use-pattern as consistent with the canon's provenance claim — a report that narrates its own content without leaning on its best proof-text — while the record carries at full force the deflationary account under which Dhorme's page supplies the dragon register, popular usage supplies the dinosaur gloss, the verse order supplies the day-five placement, and the omission conforms to the exegesis's visible quotation pattern — one stage-opening command quoted per work-stage, every fulfillment narrated; the signature reading is interpretive synthesis, establishes no authorship fact, and leaves the dependence question exactly where woh-claim-0072 leaves it.",
+  "claim_kind": "interpretation",
+  "framework_relation": "derived",
+  "evidence_status": [
+    "scoped",
+    "contested"
+  ],
+  "public_label": "speculative",
+  "scope": {
+    "includes": [
+      "The documentary quotation-gap observation: TBWTT 2:19 and 2:23 carry Dhorme's distinctive wording — 1:24 exactly, 1:20 with a one-word variance (les for des volatiles), and 1:26 at TBWTT 2:26 with the verb moved to the singular (Qu'il ait for Qu'ils aient) — verified against the Pléiade extract at excerpt grade; Genesis 1:21 is nowhere quoted in the three digitized volumes, and the prose at 2:20–22 narrates that verse's content — large aquatic fauna, winged birds, and the dragon-class creatures",
+      "The quotation pattern as documentary context: from the fourth day onward the exegesis quotes only the stage-opening commands (Genesis 1:14, 1:20, 1:24, 1:26) and narrates every fulfillment (1:15–19, 1:21–23, 1:25 unquoted), so the 1:21 gap conforms to the pattern; the record reads the discipline's uniformity at the point of maximal incentive — never the bare omission — as the signature's substrate",
+      "The Dhorme page as the quotation layer's content at this passage: 'Élohim créa donc les grands dragons' with the apparatus note deriving the rendering from tanninim and cross-referencing the sea-monster passages (Isaiah 27:1; Psalms 74:13; Job 7:12) and the serpent-nature passages (Exodus 7:9–12; Deuteronomy 32:33) — the dragon–sea-monster–serpent continuum exhibited by the canon's own source",
+      "The composition-era knowledge state, carried in mainstream scholarship's own voice: Heilmann's thecodont consensus governing ornithology from 1926 into the 1970s, Ostrom's theropod revival contemporaneous with the composition (Nature 242, March 1973) and confined to specialist literature, the consensus turning only through the 1980s cladistic work and the post-1996 Liaoning fossils",
+      "The Sendy comparison at the inventory's grade: item I014 (monsters: dragons and dinosaurs) absent from La lune, clé de la Bible and L'ère du Verseau, unnamed in Les cahiers de cours de Moïse, and coded similar in Ces dieux for the rhetorical image 'l'hippopotame successeur du diplodocus raté' (an experimenter-Creator figure, not attributed to Elohim teams) — counter-evidence carried in full, confining the absence claim to the complex (dragons by name, dissenting teams, bird-stage placement) rather than to any dinosaur mention; all under woh-claim-0072's apparatus and its stated limits",
+      "The faction wiring as the canon carries it: the 'other teams' attribution at 2:22, the serpent group of 2:28–39, and the Leviathan-exiles passage at 3:271–273 read with the serpent-vocabulary record (woh-claim-0022); the faction-name suggestion — that the group remembered as the serpent is remembered in part for the dragon-class work — carried as a structural suggestion only, never as etymology",
+      "The signature reading's yield, stated exactly: a use-pattern that the selective-adaptation hypothesis does not straightforwardly predict, registered as consistent with the canon's provenance claim at the canon's own grade — coherence, not confirmation"
+    ],
+    "excludes": [
+      "Any claim that the omission, the placement, or the faction attribution proves non-human authorship, settles the dependence question, or upgrades the canon's provenance claim beyond woh-claim-0020's grade; woh-claim-0072's adjudication is untouched",
+      "Etymological arguments connecting the serpent vocabulary to the faction; woh-claim-0022's exclusion is inherited in full",
+      "Concordist mapping of the Genesis sequence onto cladistic taxonomy or geological chronology, and any day-length or era arithmetic; woh-claim-0039's exclusions are inherited, and the K-Pg reconciliation stays where the corpus's dragons entry carries it",
+      "Claims that Tyrannosaurus or the dinosaur clade generally were aquatic; the demonstrated semiaquatic case is Spinosaurus's and remains paleontology's finding in paleontology's voice, and the early twentieth century's swamp-bound iconography is carried as history of science only",
+      "First-edition textual claims: the project digitization represents the 2005 collected text, and every passage-level observation holds of the inspected witness pending collation with a first printing",
+      "Enlistment of Dhorme, Ostrom, or any cited scholar for the framework; their philology and paleontology remain their own"
+    ]
+  },
+  "source_references": [
+    {
+      "source_id": "the-book-which-tells-the-truth",
+      "locator": "TBWTT 2:19–23 (the quotation bracket and the dragons sentence at 2:22); 2:28–39 (the Eden team and the serpent group); 3:271–273 (the banished creators under the oceans and the Isaiah 27:1 quotation). French project base text representing the 2005 collected edition.",
+      "role": "canonical_basis",
+      "access": "project_digitization",
+      "note": "../../source-notes/the-book-which-tells-the-truth.md"
+    },
+    {
+      "source_id": "dhorme-bible",
+      "locator": "La Bible — Ancien Testament I, Bibliothèque de la Pléiade (Gallimard, 1956): Genesis 1:20–24 text and the note on vv. 20–23 ('Les dragons (verset 21), hébreu tanninim, monstres marins… de la nature des serpents…'); the note on Genesis 3:1 identifying the nachash antagonist with Leviathan via Isaiah 27:1. Inspected in a publisher's digital extract.",
+      "role": "scholarly_context",
+      "access": "excerpt",
+      "note": "../../source-notes/dhorme-bible.md"
+    },
+    {
+      "source_id": "genesis",
+      "locator": "GEN-WOH-1:20–24 (the taninim verse and its apparatus; the bara/asah alternation).",
+      "role": "primary_text",
+      "access": "project_digitization"
+    },
+    {
+      "source_id": "ostrom-ancestry-of-birds",
+      "locator": "J. H. Ostrom, 'The ancestry of birds', Nature 242 (1973), 136 — the theropod revival contemporaneous with the canon's composition.",
+      "role": "scientific_context",
+      "access": "metadata_only"
+    },
+    {
+      "source_id": "heilmann-origin-of-birds",
+      "locator": "G. Heilmann, The Origin of Birds (1926) — the thecodont-origin consensus governing the field from 1926 into the 1970s.",
+      "role": "scientific_context",
+      "access": "metadata_only"
+    },
+    {
+      "source_id": "sendy-lune-cle-bible",
+      "locator": "Inventory check I013–I014: fifth day as post-glaciation repopulation; no dinosaurs or dragons.",
+      "role": "comparative",
+      "access": "excerpt",
+      "note": "../../source-notes/sendy-lune-cle-bible.md"
+    },
+    {
+      "source_id": "sendy-ere-du-verseau",
+      "locator": "Inventory check I013–I014: Genesis 1:21 cited as fifth-day creation of birds and sea creatures read as resurrection of the pre-cataclysm biosphere; no dinosaurs or dragons.",
+      "role": "comparative",
+      "access": "excerpt",
+      "note": "../../source-notes/sendy-ere-du-verseau.md"
+    },
+    {
+      "source_id": "sendy-cahiers-moise",
+      "locator": "Inventory check I014: flawed species as student biologists' practical work; dinosaurs and dragons not named.",
+      "role": "comparative",
+      "access": "excerpt",
+      "note": "../../source-notes/sendy-cahiers-moise.md"
+    },
+    {
+      "source_id": "sendy-ces-dieux",
+      "locator": "Inventory check I014 (ch. 2 / PL4 / line 124): 'démesurés comme la bactérie et l'hippopotame successeur du diplodocus raté' — a failed-dinosaur image within an experimenter-Creator figure of evolution, not attributed to Elohim teams; no dragons, no dissenting teams, no bird-stage placement.",
+      "role": "comparative",
+      "access": "excerpt",
+      "note": "../../source-notes/sendy-ces-dieux.md"
+    }
+  ],
+  "dependencies": [
+    "woh-claim-0020",
+    "woh-claim-0022",
+    "woh-claim-0039",
+    "woh-claim-0066",
+    "woh-claim-0072"
+  ],
+  "alternatives": [
+    {
+      "id": "alt-0073-dhorme-chain",
+      "statement": "The deflationary chain explains the passage without remainder: Dhorme's page supplies the dragon register, popular usage supplies the dinosaur gloss, the verse order supplies the day-five placement, and nothing in the passage requires knowledge beyond what the author's own Bible put in his hands."
+    },
+    {
+      "id": "alt-0073-omission-mundane",
+      "statement": "The unquoted verse carries no signal: from the fourth day onward the exegesis quotes one stage-opening command per work-stage and narrates everything else, so the 1:21 gap is exactly what the quotation pattern predicts — and an argument from omission is unfalsifiable, since any pattern of quotation could be read as deliberate after the fact."
+    },
+    {
+      "id": "alt-0073-bird-stage-artifact",
+      "statement": "The dragons' attachment to the bird paragraph is narrative convenience — the monsters as the dark counterpoint to the artists' competitions — not taxonomy; reading clade adjacency into it retrofits post-1996 knowledge onto a 1974 text (the sharpshooter objection)."
+    }
+  ],
+  "revision_triggers": [
+    "Claim woh-claim-0020, woh-claim-0022, woh-claim-0039, woh-claim-0066, or woh-claim-0072 is revised or retired.",
+    "A first-edition collation changes the text of TBWTT 2:19–23 or 3:271–273.",
+    "A collation of the canon's quotations qualifies the Dhorme identification at this passage.",
+    "A pre-1974 source is located that carries the dragons-at-the-bird-stage reading or the dragons-as-faction-work attribution, which would move the material into the shared-source column.",
+    "Public prose slides from signature-reading to authorship-proof, the move this record excludes."
+  ],
+  "controlling_document": "../../docs/framework/dragons-passage-signature.md",
+  "public_derivatives": [
+    "wheelofheaven/data-content:articles/the-dragon-curve.md"
+  ],
+  "last_reviewed": "2026-10-25"
+}
