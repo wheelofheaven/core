@@ -3,9 +3,9 @@
   "schema_version": "0.1.0",
   "id": "woh-claim-0009",
   "title": "The Elohim plural and the canonical gloss",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "lifecycle": "accepted",
-  "statement": "The Hebrew word Elohim is grammatically plural and the biblical text preserves plural usage around it (plural cohortatives, plural pronouns, the sons-of-God formulae, the divine council of Psalm 82); the corpus reads that plurality referentially — many individual Elohim rather than a majestic singular — and adopts the canon's gloss 'those who came from the sky', while recording explicitly that the gloss is a canonical rendering and not the consensus lexical derivation.",
+  "statement": "The Hebrew word Elohim is plural in form (usually construed with singular agreement when it names the God of Israel) and the biblical text preserves plural usage around it (plural cohortatives, plural pronouns, the sons-of-God formulae, the divine council of Psalm 82); the corpus reads that plurality referentially — many individual Elohim rather than a majestic singular — and adopts the canon's gloss 'those who came from the sky', while recording explicitly that the gloss is a canonical rendering and not the consensus lexical derivation.",
   "claim_kind": "interpretation",
   "framework_relation": "derived",
   "evidence_status": [
@@ -15,7 +15,7 @@
   "public_label": "framework",
   "scope": {
     "includes": [
-      "The philological layer, which is mainstream and direct: Elohim is morphologically plural (plural of Eloah); Genesis 1:26 ('let us make') and 3:22 ('as one of us') preserve plural forms; benei ha-elohim and the Psalm 82 assembly preserve plural divine beings",
+      "The philological layer, which is mainstream and direct: Elohim is morphologically plural (plural of Eloah) and, naming the God of Israel, normally takes singular verbs (Genesis 1:1), with a minority of plural verbs and adjectives (Genesis 20:13; 35:7; Deuteronomy 5:26; Joshua 24:19); Genesis 1:26 ('let us make') and 3:22 ('as one of us') preserve plural forms; benei ha-elohim and the Psalm 82 assembly preserve plural divine beings",
       "The referential reading, which is framework: the plural forms are read as referring to a plurality of individual beings, against the conventional plural-of-majesty resolution",
       "The canonical gloss, which is canon-explicit and labelled: 'those who came from the sky' is the canon's rendering; the record states plainly that this is not the consensus etymology (which derives Elohim through Eloah/El)",
       "The translation-history observation: the singular-God rendering is a translation decision with a history, not a property of the Hebrew text"
@@ -93,5 +93,5 @@
     "wheelofheaven/data-content:wiki/plurality-of-gods.md",
     "wheelofheaven/data-content:articles/monotheism-is-the-wrong-question.md"
   ],
-  "last_reviewed": "2026-08-16"
+  "last_reviewed": "2026-10-29"
 }

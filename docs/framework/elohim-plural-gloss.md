@@ -1,8 +1,8 @@
 ---
 title: The Elohim plural and the canonical gloss
 status: accepted
-version: 0.1.0
-last_reviewed: 2026-08-15
+version: 0.1.1
+last_reviewed: 2026-10-29
 claim_id: woh-claim-0009
 ---
 
@@ -10,7 +10,8 @@ claim_id: woh-claim-0009
 
 ## Exact proposition
 
-*Elohim* is grammatically plural and the biblical text preserves plural
+*Elohim* is plural in form (usually construed with singular agreement
+when it names the God of Israel) and the biblical text preserves plural
 usage around it; the corpus reads that plurality referentially — many
 individual Elohim — and adopts the canon's gloss "those who came from the
 sky," recording explicitly that the gloss is a canonical rendering and not
@@ -29,7 +30,10 @@ per-page judgment.
 
 ## Three layers, kept distinct
 
-1. **Philology (direct, mainstream):** the plural morphology; the plural
+1. **Philology (direct, mainstream):** the plural morphology, with the
+   normal singular agreement (Genesis 1:1) and its minority of plural-verb
+   and plural-adjective exceptions (Genesis 20:13; 35:7; Deuteronomy 5:26;
+   Joshua 24:19); the plural
    cohortative of Genesis 1:26 and the "as one of us" of 3:22; *benei
    ha-elohim*; the Psalm 82 assembly. None of this is contested; none of it
    alone yields the framework reading.
