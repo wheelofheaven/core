@@ -3,7 +3,7 @@
   "schema_version": "0.1.0",
   "id": "woh-claim-0075",
   "title": "The tent of meeting as the creators' residence",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "lifecycle": "accepted",
   "statement": "Per the canon, the sanctuary dictated at Sinai — the canon cites Exodus 26 — was a residence the Israelites built to the creators' own plans for a team staying on Earth for a time: the tent of meeting, where the creators met the people's representatives and where food and goods were brought, read as provisioning and 'a pledge of submission'; Moses' face-to-face exchanges at the tent door (Exodus 33:9-11) are read as conversation with a suited creator; the corpus records the reading at the canon's level, with the mainstream account of the Tabernacle as a priestly sanctuary tradition in its own voice.",
   "claim_kind": "interpretation",
@@ -33,7 +33,7 @@
   "source_references": [
     {
       "source_id": "the-book-which-tells-the-truth",
-      "locator": "TBWTT-3:32-45 (the glory as craft at Sinai; the residence-to-plan, Exodus 26; the tent of meeting; Exodus 33:9-11, 20 and the suit; Leviticus 21:17 as provisioning) and TBWTT-3:95-96 (telepathy when near, the Ark transmitter when distant); TBWTT-3:37 quotes 'Il entrerait dans la tente du rendez-vous' without a citation, and the quoted passage has not been located",
+      "locator": "TBWTT-3:32-45 (the glory as craft at Sinai; the residence-to-plan, Exodus 26; the tent of meeting; Exodus 33:9-11, 20 and the suit; Leviticus 21:17 as provisioning) and TBWTT-3:95-96 (telepathy when near, the Ark transmitter when distant); TBWTT-3:37 quotes 'Il entrerait dans la tente du rendez-vous' without a citation, and the quoted passage has not been located (the 1974 French edition also gives no citation, so the digitization is faithful)",
       "role": "canonical_basis",
       "access": "project_digitization",
       "note": "../../source-notes/the-book-which-tells-the-truth.md"
@@ -67,6 +67,18 @@
       "locator": "The academic account of the movement's biblical reinterpretation (locator not verified)",
       "role": "critical",
       "access": "metadata_only"
+    },
+    {
+      "source_id": "haran-temples-and-temple-service",
+      "locator": "The Tabernacle as a priestly sanctuary of divine dwelling and its cult; scholarly context for alt-0075-cultic-idiom (locator not verified)",
+      "role": "scholarly_context",
+      "access": "metadata_only"
+    },
+    {
+      "source_id": "homan-to-your-tents",
+      "locator": "Tents in the Hebrew Bible and the ancient Near East, including the form of the Tabernacle; scholarly context for alt-0075-two-tents (locator not verified)",
+      "role": "scholarly_context",
+      "access": "metadata_only"
     }
   ],
   "dependencies": [
@@ -85,7 +97,7 @@
     },
     {
       "id": "alt-0075-cultic-idiom",
-      "statement": "'Food of God' and the gift language of sacrifice are ordinary ancient Near Eastern temple idiom expressing a theology of divine dwelling; nothing in them describes the provisioning of resident beings."
+      "statement": "'Food of God' and the gift language of sacrifice are ordinary ancient Near Eastern temple idiom expressing a theology of divine dwelling; nothing in them describes the provisioning of resident beings. (Haran; metadata only)"
     },
     {
       "id": "alt-0075-speculation-lineage",

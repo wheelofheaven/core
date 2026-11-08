@@ -3,7 +3,7 @@
   "schema_version": "0.1.0",
   "id": "woh-claim-0078",
   "title": "The address to the traditions' expectations",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "lifecycle": "accepted",
   "statement": "In the second message's closing address, Yahweh calls each tradition to recognize its own expectation in the present message: the Christian who has read 'a hundred times that Jesus would return' (ETTMTTP-3:226), the child of Israel who 'still waits for your messiah' (3:227), the Buddhist whose 'writings indicate that the new Buddha must be born in the West; recognize the foreseen signs!' (3:228), and the Muslim told to 'welcome the last of the prophets' (3:229); read in that context and with ETTMTTP-3:257, where Raël is 'the last of the line of the prophets', the corpus takes the Buddhist clause as pointing at Raël, carried in the canon's own words.",
   "claim_kind": "interpretation",
@@ -39,6 +39,12 @@
       "locator": "Reference treatment of the Buddhist future-buddha tradition — the comparative control against which the canon's 'born in the West' clause is checked",
       "role": "comparative",
       "access": "metadata_only"
+    },
+    {
+      "source_id": "digha-nikaya-26-sujato",
+      "locator": "DN 26 in Bhikkhu Sujato's translation, segments dn26:23.2-23.8 (humans living 80,000 years; the royal capital Varanasi renamed Ketumatī; the Black Plum Tree Land), dn26:24.1 (the wheel-turning monarch Saṅkha) and dn26:25.1-25.2 (the Blessed One named Metteyya will arise in the world); nothing in dn26:23-26 places the next buddha in the West",
+      "role": "comparative",
+      "access": "full_text"
     }
   ],
   "dependencies": [
@@ -48,7 +54,7 @@
   "alternatives": [
     {
       "id": "alt-0078-no-western-birth",
-      "statement": "The classical Buddhist accounts of the next buddha are generally reported to place him in India in a remote future age, not in the West; if so, the canon's clause characterizes the Buddhist writings in a way the writings do not bear out (primary-text check outstanding)."
+      "statement": "The Pāli account of the next buddha (DN 26) places Metteyya's arising in Ketumatī, the renamed Varanasi, in an age when humans live 80,000 years, and nothing in it places him in the West; read against that text, the canon's clause characterizes the Buddhist writings in a way the Pāli account does not bear out. Later Buddhist literature on the future buddha has not been checked."
     },
     {
       "id": "alt-0078-exhortation",
@@ -56,7 +62,7 @@
     }
   ],
   "revision_triggers": [
-    "A primary-text check of the Buddhist future-buddha sources confirms or refutes the 'born in the West' characterization.",
+    "A Buddhist text that places the future buddha in the West, or a reading of DN 26 that does, is registered.",
     "Claim woh-claim-0038 or woh-claim-0077 is revised or retired.",
     "Public prose begins naming Maitreya or asserting what Buddhist scripture predicts, both of which this record excludes."
   ],

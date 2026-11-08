@@ -37,7 +37,7 @@ tradition, so their agreement counts as one source, not three.
 
 | Account | Source | Force |
 | --- | --- | --- |
-| Covenant (non-meritocratic) election | `deuteronomy` 7:7–8 | The strongest textual counter; inverts the competition clause |
+| Covenant (non-meritocratic) election | `deuteronomy` 7:7–8; `kaminsky-yet-i-loved-jacob`, `levenson-universal-horizon-biblical-particularism`, `novak-election-of-israel` (metadata_only; locators not verified) | The strongest textual counter; inverts the competition clause |
 | Iron Age I ethnogenesis | `finkelstein-bible-unearthed` (metadata_only; locator not verified) | The mainstream historical baseline; denies a primordial lineage |
 | Internal tension | LWTE-1:17 | The canon's readers' own objection; answered only tentatively |
 | Sociological account | `aliens-adored` (metadata_only); TBWTT-1:46; ETTMTTP-1:7 | Aimed at why the canon emphasizes Israel |

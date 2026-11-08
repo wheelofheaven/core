@@ -44,21 +44,21 @@ Wheel of Heaven translation of Exodus 25–40.
 | --- | --- | --- |
 | Priestly retrojection of the Temple | `wellhausen-prolegomena` (metadata_only; locator not verified) | The mainstream historical-critical baseline; denies a wilderness structure |
 | Two tents (oracle tent vs. Mishkan) | `friedman-who-wrote-bible` (metadata_only; locator not verified) | Aimed at the canon's harmonization; held off by the no-adjudication exclusion, not answered |
-| Cultic idiom of divine dwelling and sacrificial gift | (no registry id yet; see gaps) | Aimed at the provisioning clause directly |
+| Cultic idiom of divine dwelling and sacrificial gift | `haran-temples-and-temple-service` (metadata_only; locator not verified) | Aimed at the provisioning clause directly |
 | Speculation lineage | `aliens-adored` (metadata_only) | Aimed at the reading's genre |
 
 ## Gaps
 
-- No registry ids for Menahem Haran, *Temples and Temple-Service in
-  Ancient Israel*; Michael Homan, *To Your Tents, O Israel!*; or K. A.
+- Haran (`haran-temples-and-temple-service`) and Homan
+  (`homan-to-your-tents`) registered 2026-11-08, metadata only. K. A.
   Kitchen, *On the Reliability of the Old Testament* (cited by the
-  ark-of-the-covenant wiki entry, but not in the registry). The
-  cultic-idiom alternative is filed without a cited source until one is
-  registered.
+  ark-of-the-covenant wiki entry) still has no registry id.
 - Locators for Wellhausen, Friedman, and Palmer are not verified
   (metadata_only).
-- The source of the TBWTT-3:37 quotation is not located; next step is
-  to check the Dhorme Exodus (woh-claim-0066).
+- The source of the TBWTT-3:37 quotation is not located. The 1974 French
+  edition (project PDF) also prints it without a citation, so the
+  digitization is faithful. Next step: the Dhorme Exodus (woh-claim-0066),
+  which the project does not hold beyond Genesis 1–3.
 
 ## Dependency summary
 

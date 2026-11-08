@@ -19,7 +19,7 @@ Serves [`woh-claim-0079`](../framework/lds-cosmology-resemblance.md).
 | Worlds created; their inhabitants | D&C 76:24 (`DCSEL-76:24`) | doctrine-and-covenants | Project digitization |
 | Kolob, nearest the throne | Abraham 3:2–3 (`ABR-3:2–3`) | book-of-abraham | Project digitization |
 | "the Gods" organize heaven and earth | Abraham 4:1 (`ABR-4:1`) | book-of-abraham | Project digitization |
-| "worlds without number" | Moses 1:33 (`MOSES-1:33`) | — | Held in the library, but **no source ID registered**; not cited in the record |
+| "worlds without number" | Moses 1:33 (`MOSES-1:33`) | book-of-moses | Project digitization (registered 2026-11-08) |
 
 ## Canon and cross-record layer
 
@@ -35,10 +35,11 @@ Serves [`woh-claim-0079`](../framework/lds-cosmology-resemblance.md).
 | Objection | Source status |
 | --- | --- |
 | Milieu (plurality of worlds current before 1830) | No milieu study registered |
-| Papyri identified as funerary texts | No Egyptological edition registered |
+| Papyri identified as funerary texts | `ritner-joseph-smith-egyptian-papyri` (metadata only) |
 | Restorationist literalism | Scholarly context: Bushman, Shipps (metadata only) |
 
 Not inspected: the King Follett discourse (1844). It is not in the
-library and has no source ID, and it is not used.
+library and has no source ID (a verifiable edition URL was not found on
+2026-11-08), and it is not used.
 
 Dependencies: 0001, 0030, 0047.

@@ -1,7 +1,7 @@
 ---
 title: The address to the traditions' expectations
 status: accepted
-version: 0.1.0
+version: 0.1.1
 last_reviewed: 2026-11-08
 claim_id: woh-claim-0078
 ---
@@ -38,9 +38,13 @@ the label is `inferred`, not `direct`.
   canon does not use it.
 - **What Buddhist scripture predicts.** The record carries what the canon
   says the writings indicate, not what the writings say. The strongest
-  objection (`alt-0078-no-western-birth`) is that the classical accounts
-  of the next buddha place him in India. No Buddhist primary text is held
-  in the project library, so the check is outstanding.
+  objection (`alt-0078-no-western-birth`) is that the Buddhist accounts
+  of the next buddha place him in India. Checked on 2026-11-08 against the
+  Pāli account (DN 26, Sujato's CC0 translation, `digha-nikaya-26-sujato`):
+  Metteyya arises in Ketumatī, the renamed Varanasi, when humans live
+  80,000 years, and nothing places him in the West. The objection holds
+  for that text; later Buddhist literature has not been checked. Public
+  prose still does not state what Buddhist scripture predicts.
 - **Raël's later titles and publications** (post-canon reception) are not
   used.
 
@@ -57,3 +61,7 @@ As in the machine record.
 
 - `wheelofheaven/data-content:wiki/buddha.md`
 - `wheelofheaven/data-content:wiki/rael.md`
+
+## Revision 0.1.1 (2026-11-08)
+
+The Buddhist primary-text check is done against the Pāli account, DN 26 in Sujato's CC0 translation: Metteyya arises in Ketumatī and nothing places him in the West, so `alt-0078-no-western-birth` holds for that text; later Buddhist literature is not checked. The first revision trigger fired and is replaced. Statement, label, status and scope unchanged (ADR 0013, amendment 2).

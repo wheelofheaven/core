@@ -1,7 +1,7 @@
 ---
 title: The tent of meeting as the creators' residence
 status: accepted
-version: 0.1.1
+version: 0.1.2
 last_reviewed: 2026-11-08
 claim_id: woh-claim-0075
 ---
@@ -43,7 +43,8 @@ stage for the `/wiki/tabernacle/` entry.
 
 **Unlocated quotation.** TBWTT-3:37 quotes « Il entrerait dans la tente
 du rendez-vous » with no citation. The quoted passage has not been
-located. Per woh-claim-0066 the canon's quotations come through Dhorme,
+located. The 1974 French edition prints it without a citation too, so
+the project digitization is faithful. Per woh-claim-0066 the canon's quotations come through Dhorme,
 so the next step is a check against the Dhorme Exodus. The record does
 not rely on 3:37 for any clause.
 
@@ -83,7 +84,7 @@ revision triggers.
 - Two tents: source criticism separates an oracle tent from the
   Mishkan, a split the canon's harmonization ignores.
 - Cultic idiom: "food of God" and sacrificial gift language are ancient
-  Near Eastern temple idiom, not logistics.
+  Near Eastern temple idiom, not logistics (Haran, metadata only).
 - Speculation lineage: the reading belongs to the 1970s
   ancient-astronaut register (compare alt-0040-speculation-lineage).
 
@@ -103,3 +104,7 @@ As in the machine record.
 ## Revision 0.1.1 (2026-11-08)
 
 Locator corrected: the Exodus 24:17 glory-as-craft quotation is at TBWTT-3:32, so the locators read TBWTT-3:32–33. Directed by the founder at review (ADR 0013).
+
+## Revision 0.1.2 (2026-11-08)
+
+Source revision only: Haran and Homan are registered and cited (metadata only). The TBWTT-3:37 quotation is also uncited in the 1974 French edition, so the digitization is faithful; the Dhorme Exodus is still the open check. Statement, label, status and scope unchanged (ADR 0013, amendment 2).

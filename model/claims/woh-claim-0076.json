@@ -3,7 +3,7 @@
   "schema_version": "0.1.0",
   "id": "woh-claim-0076",
   "title": "Israel as the creators' chosen and descended people",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "lifecycle": "accepted",
   "statement": "Per the canon, the people of Israel were the humans made by the creator team whose laboratory lay in the land now called Israel; at a competition among the creator teams they were judged the most successful terrestrial type 'in intelligence and genius', which the canon gives as the origin of Israel's chosen-people self-understanding; through the unions of the sons of Elohim with the daughters of men that population became the Jewish people, whom the canon calls the creators' 'direct descendants on Earth' — the canon reconciling its two statements tentatively ('peut-être'), in Raël's commentary voice answering a reader's question (LWTE-1:17-18); and the canon narrates Israel's history as a tutelage and its keeping of the biblical record as custodianship of the message. The corpus records this as canon-explicit and mainstream-unendorsed.",
   "claim_kind": "interpretation",
@@ -76,6 +76,24 @@
       "locator": "The academic account of the movement, its embassy project, and its reading of Israel (locator not verified)",
       "role": "critical",
       "access": "metadata_only"
+    },
+    {
+      "source_id": "kaminsky-yet-i-loved-jacob",
+      "locator": "Election as non-meritocratic and as a vocation within the Hebrew Bible; scholarly context for alt-0076-covenant-election (locator not verified)",
+      "role": "scholarly_context",
+      "access": "metadata_only"
+    },
+    {
+      "source_id": "levenson-universal-horizon-biblical-particularism",
+      "locator": "Israel's particular election set within a universal horizon; scholarly context for alt-0076-covenant-election (locator not verified)",
+      "role": "scholarly_context",
+      "access": "metadata_only"
+    },
+    {
+      "source_id": "novak-election-of-israel",
+      "locator": "Jewish theology of election as God's free choice; scholarly context for alt-0076-covenant-election (locator not verified)",
+      "role": "scholarly_context",
+      "access": "metadata_only"
     }
   ],
   "dependencies": [
@@ -86,7 +104,7 @@
   "alternatives": [
     {
       "id": "alt-0076-covenant-election",
-      "statement": "Deuteronomy 7:7-8 grounds Israel's election explicitly in love and oath, 'not because ye were more in number'; the Hebrew Bible's own theory of election is non-meritocratic, and the competition reading inverts it."
+      "statement": "Deuteronomy 7:7-8 grounds Israel's election explicitly in love and oath, 'not because ye were more in number'; the Hebrew Bible's own theory of election is non-meritocratic, and the competition reading inverts it. Modern Jewish and biblical scholarship on election (Kaminsky; Levenson; Novak) develops the same non-meritocratic reading."
     },
     {
       "id": "alt-0076-ethnogenesis",
@@ -113,6 +131,8 @@
   ],
   "controlling_document": "../../docs/framework/israel-chosen-descended-people.md",
   "public_derivatives": [
+    "wheelofheaven/data-content:wiki/eden.md",
+    "wheelofheaven/data-content:wiki/genesis.md",
     "wheelofheaven/data-content:wiki/hebrew-bible.md",
     "wheelofheaven/data-content:wiki/hebrew.md",
     "wheelofheaven/data-content:wiki/hebrews.md"

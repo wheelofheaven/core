@@ -3,7 +3,7 @@
   "schema_version": "0.1.0",
   "id": "woh-claim-0079",
   "title": "LDS cosmology and the canon: resemblance",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "lifecycle": "accepted",
   "statement": "Scripture produced by Joseph Smith contains an embodied God ('The Father has a body of flesh and bones as tangible as man's', D&C 130:22), plural creators ('they, that is the Gods, organized and formed the heavens and the earth', Abraham 4:1), a plurality of created and inhabited worlds (D&C 76:24), and a named governing star near God's throne, Kolob (Abraham 3:2–3); these features resemble the canon's mortal, embodied, plural creators (TBWTT-1:53), its created-creators chain (woh-claim-0030), and its plurality of created humanities (woh-claim-0047); the corpus records the resemblance as resemblance only — not dependence, not identity, and not evidence for the authenticity of the LDS founding.",
   "claim_kind": "interpretation",
@@ -58,6 +58,18 @@
       "locator": "Mormonism studied as a new religious tradition in its own terms — the comparative-discipline anchor",
       "role": "scholarly_context",
       "access": "metadata_only"
+    },
+    {
+      "source_id": "book-of-moses",
+      "locator": "Moses 1:33 ('worlds without number') — MOSES-1:33 in the project digitization",
+      "role": "primary_text",
+      "access": "project_digitization"
+    },
+    {
+      "source_id": "ritner-joseph-smith-egyptian-papyri",
+      "locator": "The edition's identification of the surviving Joseph Smith papyri as Egyptian funerary texts (locator not verified)",
+      "role": "critical",
+      "access": "metadata_only"
     }
   ],
   "dependencies": [
@@ -72,7 +84,7 @@
     },
     {
       "id": "alt-0079-papyri-provenance",
-      "statement": "The surviving papyri associated with the Book of Abraham are identified by Egyptologists as ordinary Egyptian funerary texts, so the Kolob material is Smith's composition and carries no external weight (source for the identification not yet registered)."
+      "statement": "The surviving papyri associated with the Book of Abraham are identified by Egyptologists as ordinary Egyptian funerary texts, so the Kolob material is Smith's composition and carries no external weight (Ritner's edition of the papyri; metadata only)."
     },
     {
       "id": "alt-0079-restorationist-development",
@@ -80,7 +92,7 @@
     }
   ],
   "revision_triggers": [
-    "A verified milieu study or papyri edition is registered as a source.",
+    "A milieu study is registered, or the Ritner edition is inspected and its identification of the papyri differs from alt-0079-papyri-provenance.",
     "Claim woh-claim-0030, woh-claim-0047, or woh-claim-0001 is revised or retired.",
     "Public prose begins treating the resemblance as dependence, identity, or evidence of authenticity, all of which this record excludes."
   ],

@@ -1,7 +1,7 @@
 ---
 title: Israel as the creators' chosen and descended people
 status: accepted
-version: 0.1.1
+version: 0.1.2
 last_reviewed: 2026-11-08
 claim_id: woh-claim-0076
 ---
@@ -81,7 +81,8 @@ stage for the `/wiki/hebrews/` entry.
 ## Alternatives and challenges
 
 - Covenant election: Deuteronomy 7:7–8 grounds election in love and
-  oath, not merit.
+  oath, not merit. Kaminsky, Levenson and Novak (metadata only) develop
+  that non-meritocratic reading in modern scholarship.
 - Ethnogenesis: Israel emerges from an Iron Age I highland population;
   no lineage reaches back to a primordial creation.
 - Internal tension: the canon's readers saw a contradiction, and the
@@ -101,6 +102,8 @@ As in the machine record.
 
 ## Public derivatives
 
+- `wheelofheaven/data-content:wiki/eden.md`
+- `wheelofheaven/data-content:wiki/genesis.md`
 - `wheelofheaven/data-content:wiki/hebrew-bible.md`
 - `wheelofheaven/data-content:wiki/hebrew.md`
 - `wheelofheaven/data-content:wiki/hebrews.md`
@@ -108,3 +111,7 @@ As in the machine record.
 ## Revision 0.1.1 (2026-11-08)
 
 The harmonization (LWTE-1:17–18) is labelled as Raël's commentary voice answering a reader, per the commentary-voice rule of ADR 0013; it was previously described as the canon's own voice. Content and scope unchanged. Directed by the founder at review (ADR 0013).
+
+## Revision 0.1.2 (2026-11-08)
+
+Source revision only: Kaminsky, Levenson and Novak are registered and cited (metadata only) as scholarly context for the covenant-election alternative. Statement, label, status and scope unchanged. The Eden and Genesis wiki entries, which called the Hebrews the canon's "direct genetic descendants", are corrected and now bind this record (ADR 0013, amendment 2).

@@ -1,7 +1,7 @@
 ---
 title: "LDS cosmology and the canon: resemblance"
 status: accepted
-version: 0.1.0
+version: 0.1.1
 last_reviewed: 2026-11-08
 claim_id: woh-claim-0079
 ---
@@ -48,8 +48,9 @@ explicitly atheist.
    tradition. This bears directly on any prose that treats the LDS
    cosmology as unexplained by its milieu.
 2. **Papyri provenance** (`alt-0079-papyri-provenance`). The surviving
-   papyri are identified by Egyptologists as funerary texts. No source for
-   that identification is yet registered in the source registry.
+   papyri are identified by Egyptologists as funerary texts. Robert K.
+   Ritner's edition (`ritner-joseph-smith-egyptian-papyri`, metadata only)
+   is registered as the source for that identification.
 3. **Restorationist development** (`alt-0079-restorationist-development`).
    The resemblance may be shared literalism rather than shared content.
 
@@ -65,3 +66,7 @@ As in the machine record.
 ## Public derivatives
 
 - `wheelofheaven/data-content:wiki/joseph-smith.md`
+
+## Revision 0.1.1 (2026-11-08)
+
+Source revision only: the Book of Moses (Moses 1:33) and Ritner's edition of the papyri are registered and cited. The first revision trigger (a papyri edition registered) fired and is replaced. Statement, label, status and scope unchanged (ADR 0013, amendment 2).

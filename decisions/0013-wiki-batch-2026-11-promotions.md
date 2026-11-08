@@ -127,6 +127,38 @@ commentary voice, applying decision 4). The founder also confirmed that the
 Hebrews entry keeps the canon's "jealously" (ETTMTTP-2:124) inside the
 custody clause.
 
+## Amendment 2 (2026-11-08, source registration)
+
+At the founder's direction the counter-sources named under "Costs and
+risks" were registered and cited, as wording and source revisions with
+no change to any statement, label, status or scope:
+
+- `woh-claim-0078` to 0.1.1. The Buddhist primary-text check is done
+  against the Pāli account, DN 26 in Bhikkhu Sujato's CC0 translation
+  (`digha-nikaya-26-sujato`, full text). Metteyya arises in Ketumatī,
+  the renamed Varanasi, and nothing places him in the West, so
+  `alt-0078-no-western-birth` holds for that text. Later Buddhist
+  literature is not checked. The exclusions (no Maitreya; no statement
+  of what Buddhist scripture predicts) are unchanged.
+- `woh-claim-0079` to 0.1.1. The Book of Moses (`book-of-moses`) and
+  Ritner's edition of the papyri (`ritner-joseph-smith-egyptian-papyri`)
+  are registered and cited.
+- `woh-claim-0076` to 0.1.2. Kaminsky, Levenson and Novak are cited as
+  scholarly context for the covenant-election alternative.
+- `woh-claim-0075` to 0.1.2. Haran and Homan are cited. The TBWTT-3:37
+  quotation is also uncited in the 1974 French edition, so the
+  digitization is faithful; the Dhorme Exodus is still the open check.
+
+Not registered: the King Follett discourse, because no verifiable
+edition URL was found.
+
+The same pass found "direct genetic descendants" in the Eden and Genesis
+wiki entries (all ten languages). They are corrected to the 0076 wording
+and now bind `woh-claim-0076`. The *Age of Cancer* timeline chapter still
+argues a biological and cognitive basis for the "chosen people" clause,
+which 0076 excludes. That is held for founder direction and is not edited
+here.
+
 ## Validation and review
 
 The catalog validates after the flip. Review this ADR when a Buddhist
