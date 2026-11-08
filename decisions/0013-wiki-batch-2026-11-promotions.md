@@ -154,10 +154,14 @@ edition URL was found.
 
 The same pass found "direct genetic descendants" in the Eden and Genesis
 wiki entries (all ten languages). They are corrected to the 0076 wording
-and now bind `woh-claim-0076`. The *Age of Cancer* timeline chapter still
-argues a biological and cognitive basis for the "chosen people" clause,
-which 0076 excludes. That is held for founder direction and is not edited
-here.
+and now bind `woh-claim-0076`. The *Age of Cancer* timeline chapter
+argued a biological and cognitive basis for the "chosen people" clause and
+predicted an Elohim genetic signature in Jewish ancestry, both of which
+0076 excludes. At the founder's direction (2026-11-08) those passages are
+rewritten to the 0076 wording in all ten languages: the canon's two
+statements with Raël's tentative harmonization, no genetic or ability
+claim, Deuteronomy 7:7–8 in its own voice, and the containment paragraph
+kept. The chapter now binds `woh-claim-0076`.
 
 ## Validation and review
 
