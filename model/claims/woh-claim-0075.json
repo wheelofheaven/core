@@ -1,0 +1,104 @@
+{
+  "$schema": "../schemas/claim.schema.json",
+  "schema_version": "0.1.0",
+  "id": "woh-claim-0075",
+  "title": "The tent of meeting as the creators' residence",
+  "version": "0.1.0",
+  "lifecycle": "accepted",
+  "statement": "Per the canon, the sanctuary dictated at Sinai — the canon cites Exodus 26 — was a residence the Israelites built to the creators' own plans for a team staying on Earth for a time: the tent of meeting, where the creators met the people's representatives and where food and goods were brought, read as provisioning and 'a pledge of submission'; Moses' face-to-face exchanges at the tent door (Exodus 33:9-11) are read as conversation with a suited creator; the corpus records the reading at the canon's level, with the mainstream account of the Tabernacle as a priestly sanctuary tradition in its own voice.",
+  "claim_kind": "interpretation",
+  "framework_relation": "derived",
+  "evidence_status": [
+    "scoped",
+    "contested"
+  ],
+  "public_label": "framework",
+  "scope": {
+    "includes": [
+      "The residence-to-plan reading as the canon states it: a residence fashioned by the Israelites 'suivant leurs plans', dictated in Exodus 26, and named the tent of meeting (TBWTT-3:36; Exodus 25:8-9, 26)",
+      "The provisioning reading of the offerings: fresh food and riches requested by a team residing for a time on Earth, and the Levitical approach rules read as provisioning discipline (TBWTT-3:34-35, 3:43-45; Exodus 25:2-7; Leviticus 21:17-18)",
+      "The face-to-face reading: Moses speaking with Yahweh at the tent door read as conversation with a creator protected by a suit, the atmosphere difference being the canon's stated reason (TBWTT-3:38-42; Exodus 33:9-11, 33:20)",
+      "The two contact modes as the canon distinguishes them: presence and direct exchange at the tent when the creators were near, the Ark's transmitter-receiver when they were distant (TBWTT-3:95-96) — this clause rides on woh-claim-0040 and does not restate the device reading"
+    ],
+    "excludes": [
+      "Adjudication of the two-tents problem: the canon merges the tent Moses pitched 'without the camp' (Exodus 33:7) with the priestly Mishkan at the camp's centre; the record registers that the canon merges them and does not settle the source-critical question",
+      "Architectural, dimensional, or material reconstruction of the structure beyond what the canon states",
+      "The cloud and the 'glory' filling the Tabernacle (Exodus 40:34-38) read as a craft; the canon makes the glory-as-craft reading at Sinai (TBWTT-3:33, Exodus 24:17), not at the Tabernacle, and extending it needs its own record",
+      "Any sequence of reception sites running from the Tabernacle through the Temples to the Embassy; the canon calls Solomon's Temple 'la première résidence pour l'accueil des Elohim' (TBWTT-3:102), the continuity question is unrecorded, and the Embassy identification is woh-claim-0016's alone",
+      "Historicity and dating of the wilderness period",
+      "The other furnishings: the Ark is woh-claim-0040, the Menorah woh-claim-0069, and the altars, table, and laver have no record",
+      "Jewish and Christian theologies of the Mishkan (the Shekhinah; the Epistle to the Hebrews' typology), preserved in their own voice"
+    ]
+  },
+  "source_references": [
+    {
+      "source_id": "the-book-which-tells-the-truth",
+      "locator": "TBWTT-3:33-45 (the glory as craft at Sinai; the residence-to-plan, Exodus 26; the tent of meeting; Exodus 33:9-11, 20 and the suit; Leviticus 21:17 as provisioning) and TBWTT-3:95-96 (telepathy when near, the Ark transmitter when distant); TBWTT-3:37 quotes 'Il entrerait dans la tente du rendez-vous' without a citation, and the quoted passage has not been located",
+      "role": "canonical_basis",
+      "access": "project_digitization",
+      "note": "../../source-notes/the-book-which-tells-the-truth.md"
+    },
+    {
+      "source_id": "exodus",
+      "locator": "Exodus 25:1-9 (the offering and 'the pattern of the tabernacle'); 26 (the structure the canon cites); 33:7-11, 33:20 (the tent outside the camp; face to face); 40:34-38 (the cloud and glory, outside this record's scope) — ASV (1901) digitization; no Wheel of Heaven translation of Exodus 25-40 exists",
+      "role": "primary_text",
+      "access": "project_digitization"
+    },
+    {
+      "source_id": "leviticus",
+      "locator": "Leviticus 21:17-18 (the blemished may not approach to offer 'the food of his God')",
+      "role": "primary_text",
+      "access": "project_digitization"
+    },
+    {
+      "source_id": "wellhausen-prolegomena",
+      "locator": "The Tabernacle as the priestly writer's Temple projected back into the wilderness (exact locator not verified)",
+      "role": "scholarly_context",
+      "access": "metadata_only"
+    },
+    {
+      "source_id": "friedman-who-wrote-bible",
+      "locator": "The source-critical treatment of the Tabernacle and the tent of meeting (chapter locator not verified)",
+      "role": "scholarly_context",
+      "access": "metadata_only"
+    },
+    {
+      "source_id": "aliens-adored",
+      "locator": "The academic account of the movement's biblical reinterpretation (locator not verified)",
+      "role": "critical",
+      "access": "metadata_only"
+    }
+  ],
+  "dependencies": [
+    "woh-claim-0001",
+    "woh-claim-0028",
+    "woh-claim-0040"
+  ],
+  "alternatives": [
+    {
+      "id": "alt-0075-priestly-retrojection",
+      "statement": "The Tabernacle of Exodus 25-31 and 35-40 is the priestly writer's Temple projected into the wilderness; no desert structure stands behind the specifications (the Wellhausen line)."
+    },
+    {
+      "id": "alt-0075-two-tents",
+      "statement": "Source criticism separates an oracle tent pitched outside the camp (Exodus 33:7-11; Numbers 11-12) from the priestly Mishkan at the camp's centre; the canon's reading depends on a harmonization the texts themselves resist."
+    },
+    {
+      "id": "alt-0075-cultic-idiom",
+      "statement": "'Food of God' and the gift language of sacrifice are ordinary ancient Near Eastern temple idiom expressing a theology of divine dwelling; nothing in them describes the provisioning of resident beings."
+    },
+    {
+      "id": "alt-0075-speculation-lineage",
+      "statement": "The residence-and-provisioning reading belongs to the 1970s ancient-astronaut register rather than arising from the texts, as alt-0040-speculation-lineage argues for the Ark."
+    }
+  ],
+  "revision_triggers": [
+    "Claim woh-claim-0001, woh-claim-0028, or woh-claim-0040 is revised or retired.",
+    "A Wheel of Heaven translation of Exodus 25-31, 33, or 35-40 materially changes a rendering this record relies on (mishkan, ohel mo'ed, the 'pattern').",
+    "The source of the TBWTT-3:37 quotation is located and changes the reading.",
+    "Public prose begins asserting the glory-as-craft reading at the Tabernacle or a Tabernacle-to-Embassy sequence without a record, both of which this record excludes."
+  ],
+  "controlling_document": "../../docs/framework/tent-of-meeting-residence.md",
+  "public_derivatives": [],
+  "last_reviewed": "2026-11-08"
+}

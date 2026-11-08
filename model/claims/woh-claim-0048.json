@@ -3,9 +3,9 @@
   "schema_version": "0.1.0",
   "id": "woh-claim-0048",
   "title": "Samsara re-read through recreation",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "lifecycle": "accepted",
-  "statement": "The canon re-reads the rebirth cycle of the Dharmic traditions through its recreation mechanism: in the second message Yahweh takes the Buddhist frame and renders the cycle scientifically — recreation from preserved records rather than metaphysical transmigration — so that samsara joins resurrection (woh-claim-0029) among the religious structures the canon demystifies into the same technology; the mapping preserves the traditions' irreducible differences as the comparative discipline requires.",
+  "statement": "The canon re-reads the Buddhist rebirth cycle at the scale of humanity: in the second message Yahweh takes the Buddhist account of the dying 'soul' that must escape the 'demons' or fall back into the cycle and applies it 'not to the individual but to humanity entire' — the demons are aggressiveness against one's fellows and against nature, falling back into the cycle is a civilization's return to the primitive stage and a new slow progression, and 'the state of beatitude through awakening' is the golden age of civilizations where science is at the service of humanity (ETTMTTP-2:24); separately, and on its own passages, the canon promises individual 'scientific reincarnation' on the planet of the Eternals (ETTMTTP-3:208, 3:214), the recreation mechanism of woh-claim-0029, which the canon does not attach to the Buddhism passage; the mapping preserves the traditions' irreducible differences as the comparative discipline requires.",
   "claim_kind": "interpretation",
   "framework_relation": "comparative",
   "evidence_status": [
@@ -15,23 +15,26 @@
   "public_label": "framework",
   "scope": {
     "includes": [
-      "The canonical re-reading: the rebirth cycle rendered as recreation, delivered in the second message's engagement with the Buddhist frame",
-      "The pairing with woh-claim-0029: one mechanism behind two re-described structures (resurrection; rebirth), which is itself part of the canon's religion-of-religions posture (woh-claim-0027)",
+      "The canonical re-reading at humanity scale (ETTMTTP-2:24): the cycle, its 'demons' and its escape applied to humanity entire, coupled to the threshold choice of woh-claim-0031 and to the emblem's cycle sign recorded in woh-claim-0043",
+      "The awakening re-description, canon-explicit: the escape from the cycle — 'the state of beatitude through awakening' — rendered as the golden age of civilizations where science serves humanity, recorded as the canon's re-description and not as the tradition's own content",
+      "The separate individual layer: 'scientific reincarnation' on the planet of the Eternals (ETTMTTP-3:208, 3:214) as woh-claim-0029's mechanism, cited on its own passages and not attributed to the Buddhism passage",
       "The preservation clause: Hindu, Buddhist, Jain, and Sikh articulations of the cycle differ irreducibly (karma theory, anatta, liberation goals), and the mapping does not flatten them"
     ],
     "excludes": [
-      "Karma theory as content; the canon's re-reading concerns the cycle's mechanism, not the moral accounting",
-      "Any claim that the Dharmic traditions' own soteriology anticipates the technology; the mapping is the canon's, stated as such",
-      "Liberation (moksha, nirvana) re-description, which the canon does not perform and the corpus does not invent",
-      "The identity metaphysics, registered and unresolved in woh-claim-0029"
+      "Reading ETTMTTP-2:24 as a statement about individual rebirth, or attributing the individual recreation mechanism to it",
+      "Karma theory as content; the canon's re-reading concerns the cycle and its escape, not the moral accounting",
+      "Any claim that the Dharmic traditions' own soteriology anticipates the re-reading; the mapping is the canon's, stated as such",
+      "Liberation re-description beyond what ETTMTTP-2:24 states: the canon equates the awakening state with the golden age and gives no account of nirvana's metaphysics, of moksha, or of Jain and Sikh liberation, and the corpus does not supply one",
+      "The identity metaphysics of the individual layer, registered and unresolved in woh-claim-0029"
     ]
   },
   "source_references": [
     {
       "source_id": "extraterrestrials-took-me-to-their-planet",
-      "locator": "The second message's Buddhist-frame engagement and the scientific rendering of the cycle",
+      "locator": "ETTMTTP-2:24 (the Buddhism passage: the cycle applied 'not to the individual but to humanity entire'; awakening as the golden age; the svastika as the cycle); ETTMTTP-3:208, 3:214 (individual 'scientific reincarnation', a separate passage not tied to Buddhism)",
       "role": "canonical_basis",
-      "access": "project_digitization"
+      "access": "project_digitization",
+      "note": "../../source-notes/extraterrestrials-took-me-to-their-planet.md"
     },
     {
       "source_id": "the-book-which-tells-the-truth",
@@ -43,26 +46,32 @@
   ],
   "dependencies": [
     "woh-claim-0001",
-    "woh-claim-0029"
+    "woh-claim-0029",
+    "woh-claim-0031"
   ],
   "alternatives": [
     {
       "id": "alt-0048-category-substitution",
-      "statement": "Rendering transmigration as recreation re-describes a soteriological structure in technological idiom — the standing critique at its clearest application."
+      "statement": "Rendering the cycle and its escape in civilizational and technological idiom re-describes a soteriological structure as history — the standing critique at one of its clearest applications."
+    },
+    {
+      "id": "alt-0048-subject-substitution",
+      "statement": "Buddhist rebirth is the rebirth of individual beings conditioned by karma; moving the cycle to humanity's civilizational trajectory replaces the frame's subject altogether, so the 'very good description' the canon credits is the canon's re-reading, not the tradition's content."
     },
     {
       "id": "alt-0048-frame-mismatch",
-      "statement": "Anatta makes 'the same being recreated' precisely what Buddhist philosophy denies; the mapping fits the frame it borrows worse than any other."
+      "statement": "Where the canon's separate individual promise of scientific reincarnation is set beside Buddhist rebirth, anatta makes 'the same being recreated' precisely what Buddhist philosophy denies."
     }
   ],
   "revision_triggers": [
-    "Claim woh-claim-0001 or woh-claim-0029 is revised or retired.",
+    "Claim woh-claim-0001, woh-claim-0029, or woh-claim-0031 is revised or retired.",
     "The canon's fuller context changes the re-reading.",
-    "Public prose begins re-describing liberation or flattening the traditions, both of which this record excludes."
+    "A primary-source check establishes which Buddhist presentation the passage's death-moment account (a vigilant 'soul' escaping 'demons') reflects.",
+    "Public prose begins attributing individual recreation to the Buddhism passage, re-describing liberation beyond what ETTMTTP-2:24 states, or flattening the traditions, all of which this record excludes."
   ],
   "controlling_document": "../../docs/framework/samsara-recreation.md",
   "public_derivatives": [
     "wheelofheaven/data-content:wiki/samsara.md"
   ],
-  "last_reviewed": "2026-08-16"
+  "last_reviewed": "2026-11-08"
 }

@@ -3,7 +3,7 @@
   "schema_version": "0.1.0",
   "id": "woh-claim-0038",
   "title": "The prophet sequence",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "lifecycle": "accepted",
   "statement": "Per the canon, the prophets of the world's religious traditions were operational interlocutors between the Elohim and specific peoples and eras: contacted, briefed, and tasked figures — Moses, Elijah, Jesus, Muhammad, and the founders the canon enumerates — each delivering the message in the register his era and culture could carry, which is the mechanism behind the canon's claim that the religions testify to the same creators (woh-claim-0027); the corpus records the sequence at collective level, with per-figure records minted only where the corpus develops them.",
   "claim_kind": "interpretation",
@@ -34,6 +34,20 @@
       "role": "canonical_basis",
       "access": "project_digitization",
       "note": "../../source-notes/the-book-which-tells-the-truth.md"
+    },
+    {
+      "source_id": "extraterrestrials-took-me-to-their-planet",
+      "locator": "ETTMTTP-2:62–64 (the table scene: Jesus, Moses, Elijah, Buddha, Mohammed among the forty or so representatives); ETTMTTP-3:257 (Moses, Ezekiel, Elijah, Jesus, Mohammed, Buddha before 'the last of the line of the prophets')",
+      "role": "canonical_basis",
+      "access": "project_digitization",
+      "note": "../../source-notes/extraterrestrials-took-me-to-their-planet.md"
+    },
+    {
+      "source_id": "lets-welcome-the-extraterrestrials",
+      "locator": "Raël's commentary voice, not dictated message: LWTE-1:87 and LWTE-3:82 (Moses, Jesus, Buddha, Mohammed as the ancient messengers to be welcomed at the embassy); LWTE-3:27 (Jesus, Moses, Buddha, Mohammed, Joseph Smith named by Raël among the envoys of the creators)",
+      "role": "canonical_basis",
+      "access": "project_digitization",
+      "note": "../../source-notes/lets-welcome-the-extraterrestrials.md"
     },
     {
       "source_id": "the-qur-an",
@@ -76,5 +90,5 @@
     "wheelofheaven/data-content:datasets/prophets-and-religions.md",
     "wheelofheaven/data-content:wiki/list-of-prophets-and-religions.md"
   ],
-  "last_reviewed": "2026-08-16"
+  "last_reviewed": "2026-11-08"
 }

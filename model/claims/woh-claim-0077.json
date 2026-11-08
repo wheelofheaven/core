@@ -1,0 +1,89 @@
+{
+  "$schema": "../schemas/claim.schema.json",
+  "schema_version": "0.1.0",
+  "id": "woh-claim-0077",
+  "title": "The canon's named messengers and their expected return",
+  "version": "0.1.0",
+  "lifecycle": "accepted",
+  "statement": "The canon names specific figures as messengers of the Elohim, at two voice layers. In the dictated second message, Yahweh presents, among the forty or so representatives at a meal on the planet of the Eternals, Jesus (recreated from a preserved cell), Moses, Elijah, 'the one whom, on Earth, one remembers under the name of Buddha', and Mohammed (ETTMTTP-2:62–64), and names Moses, Ezekiel, Elijah, Jesus, Mohammed, and Buddha as predecessors of 'the last of the line of the prophets' (ETTMTTP-3:257). In his own commentary voice in the third book, Raël names Jesus, Moses, Buddha, Mohammed, and Joseph Smith among the envoys of the creators whose return with the Elohim Raëlians await (LWTE-3:27), and names Moses, Jesus, Buddha, and Mohammed as the ancient messengers to be welcomed at the embassy (LWTE-1:87, LWTE-3:82; presupposed by the reader's question at LWTE-1:75). By founder direction (2026-11-08; ADR to follow), the corpus identifies the canon's 'Buddha' with Siddhārtha Gautama (Śākyamuni); that identification is the corpus's, not the canon's.",
+  "claim_kind": "source_report",
+  "framework_relation": "contextual",
+  "evidence_status": [
+    "scoped"
+  ],
+  "public_label": "direct",
+  "scope": {
+    "includes": [
+      "The named lists exactly as the canon states them, each carried with its voice layer: dictated message (ETTMTTP-2:62–64, 3:257) versus Raël's commentary voice (LWTE-1:87, 3:27, 3:82), the latter labelled as such in every use",
+      "The table placements exactly as stated at ETTMTTP-2:62–64 (Moses at Jesus's right, Elijah at his left, Buddha at Jesus's left, Mohammed 'a little further')",
+      "The return clause: the named messengers expected to accompany the Elohim to the embassy, pointing to woh-claim-0015 (the conditional return) and woh-claim-0016 (the embassy) without restating them",
+      "The founder-directed identification of the canon's 'Buddha' with Siddhārtha Gautama (Śākyamuni), recorded as a corpus identification by founder direction (2026-11-08; ADR to follow) and never presented as canon content",
+      "Joseph Smith's status as the source states it: named by Raël among the envoys (LWTE-3:27), in no dictated message"
+    ],
+    "excludes": [
+      "Seating any figure at the table beyond those the text places there; Joseph Smith is not placed at the table",
+      "Ordinal positions or any roster of the forty; the canon supplies neither (see woh-claim-0054)",
+      "Census tiers, including any 'canonical tier' of traditions; no record carries one in this round",
+      "Per-figure contact mode, briefing, or mission content, which woh-claim-0038 leaves to instance records",
+      "Identification of any other canon-named figure with a historical individual beyond the founder-directed Buddha identification (the remaining names are unambiguous in context and are not adjudicated here)",
+      "The name Maitreya, and any identification of Moroni, Kolob, or other beings and places of the named figures' traditions with Elohim or Elohim sites",
+      "The historicity of the table scene or of the figures' recreation; this record reports source content"
+    ]
+  },
+  "source_references": [
+    {
+      "source_id": "extraterrestrials-took-me-to-their-planet",
+      "locator": "ETTMTTP-2:62–64 (the meal of the forty or so; Jesus recreated from a preserved cell; the named placements); ETTMTTP-3:257 (the line of the prophets)",
+      "role": "canonical_basis",
+      "access": "project_digitization",
+      "note": "../../source-notes/extraterrestrials-took-me-to-their-planet.md"
+    },
+    {
+      "source_id": "lets-welcome-the-extraterrestrials",
+      "locator": "Raël's commentary voice: LWTE-1:75 (reader's question presupposing the prophets on the planet of the Eternals), LWTE-1:87, LWTE-3:27 (Joseph Smith named among the envoys), LWTE-3:82",
+      "role": "canonical_basis",
+      "access": "project_digitization",
+      "note": "../../source-notes/lets-welcome-the-extraterrestrials.md"
+    },
+    {
+      "source_id": "buswell-lopez-princeton-buddhism",
+      "locator": "Reference entries for the historical Buddha (Śākyamuni / Siddhārtha Gautama) — supports the identity of the referent named by the founder's identification, not the identification itself",
+      "role": "scholarly_context",
+      "access": "metadata_only"
+    },
+    {
+      "source_id": "aliens-adored",
+      "locator": "The academic account of the movement's prophetology",
+      "role": "critical",
+      "access": "metadata_only"
+    }
+  ],
+  "dependencies": [
+    "woh-claim-0020",
+    "woh-claim-0038",
+    "woh-claim-0015"
+  ],
+  "alternatives": [
+    {
+      "id": "alt-0077-voice-weight",
+      "statement": "Joseph Smith is named only in Raël's 1979 commentary and in no dictated message; on a strict reading his naming carries the reporter's authority, not the message's, and should not be read as a revelation-level designation."
+    },
+    {
+      "id": "alt-0077-retrofit-enumeration",
+      "statement": "The named lists track the religious map of the canon's audience rather than any independent fact about the figures, as woh-claim-0038's retrofit alternative argues for the sequence as a whole."
+    },
+    {
+      "id": "alt-0077-buddha-referent",
+      "statement": "'Buddha' is a title borne by many figures in Buddhist tradition, and the canon's phrasing ('the one whom, on Earth, one remembers under the name of Buddha') does not itself fix the referent; the identification with Siddhārtha Gautama is the corpus's reading by founder direction, not a canon statement."
+    }
+  ],
+  "revision_triggers": [
+    "The founder's ADR on the Buddha identification is issued, amended, or declined.",
+    "Another edition of the third book is shown to alter the LWTE-3:27 or LWTE-3:82 lists.",
+    "Claim woh-claim-0020 or woh-claim-0038 is revised or retired.",
+    "Public prose begins seating Joseph Smith at the table, assigning ordinals, presenting the Buddha identification as canon content, or citing Raël's commentary voice without marking it, all of which this record excludes."
+  ],
+  "controlling_document": "../../docs/framework/named-messengers-return.md",
+  "public_derivatives": [],
+  "last_reviewed": "2026-11-08"
+}

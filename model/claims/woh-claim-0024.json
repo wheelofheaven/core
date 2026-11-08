@@ -3,7 +3,7 @@
   "schema_version": "0.1.0",
   "id": "woh-claim-0024",
   "title": "The early-qibla convergence on Petra",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "lifecycle": "accepted",
   "statement": "On Gibson's survey, the qibla walls of the earliest datable mosques point toward Petra rather than Mecca for roughly the first Islamic century, and this sits within a convergence the corpus registers — Mecca's absence from Ptolemy's Arabia, the earliest Ka'ba descriptions, the tradition's own memory of a qibla change — read alongside the canon's account of Abraham as a recruited figure of the recovery; the corpus deliberately preserves the tension between this reading and the traditional Hijaz account rather than resolving it.",
   "claim_kind": "interpretation",
@@ -43,7 +43,13 @@
     },
     {
       "source_id": "qibla-accuracy-schumm-goldstein",
-      "locator": "The measurement-accuracy critique of qibla-orientation arguments — the standing methodological objection",
+      "locator": "Statistical analysis of Gibson's early-mosque qibla data, concluding that under Gibson's assumptions the orientations are consistent with intentional aiming at Petra, with error growing with distance from the target",
+      "role": "scholarly_context",
+      "access": "metadata_only"
+    },
+    {
+      "source_id": "from-petra-back-to-makka",
+      "locator": "King's rejection of the Petra hypothesis: early mosque orientations explained by folk-astronomical 'sacred geography' alignment toward the Ka'ba rather than geographical aiming at Petra — the standing objection",
       "role": "critical",
       "access": "metadata_only"
     },
@@ -60,7 +66,7 @@
   "alternatives": [
     {
       "id": "alt-0024-measurement",
-      "statement": "Early builders lacked precise geodesy; orientation scatter reflects method, not target — the Schumm-Goldstein line, on which the Petra pattern dissolves."
+      "statement": "Early builders oriented mosques by folk-astronomical 'sacred geography' (alignment to stars, winds, and cardinal directions) rather than by spherical trigonometry; the orientations reflect a non-geographical sacred direction toward the Ka'ba, not aiming at Petra — David A. King's account, on which the Petra pattern dissolves."
     },
     {
       "id": "alt-0024-tradition-suffices",
@@ -84,5 +90,5 @@
     "wheelofheaven/data-content:wiki/hanafiyya.md",
     "wheelofheaven/data-content:wiki/nabataeans.md"
   ],
-  "last_reviewed": "2026-08-16"
+  "last_reviewed": "2026-11-08"
 }

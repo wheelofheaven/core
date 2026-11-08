@@ -1,8 +1,8 @@
 ---
 title: "Evidence map: The prophet sequence"
 status: draft
-version: 0.1.0
-last_reviewed: 2026-08-16
+version: 0.1.1
+last_reviewed: 2026-11-08
 claim_id: woh-claim-0038
 ---
 
@@ -17,6 +17,8 @@ and `contested`.
 | --- | --- | --- |
 | The role: contacted, briefed, tasked interlocutors | The messages' prophet-briefing material | Canon-explicit |
 | The enumeration; era-adaptation as design | TBWTT-5:54 and the narrative chapters | Canon-explicit |
+| The named members at the table and in the line of prophets | ETTMTTP-2:62–64; ETTMTTP-3:257 | Canon-explicit (dictated message) |
+| The ancient messengers named for the embassy; Joseph Smith among the envoys | LWTE-1:87, LWTE-3:82; LWTE-3:27 | Canon-explicit (Raël's commentary voice, marked) |
 | The testimony mechanism into woh-claim-0027 | Cross-record | Declared |
 
 ## Comparative layer

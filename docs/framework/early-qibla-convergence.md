@@ -1,8 +1,8 @@
 ---
 title: The early-qibla convergence on Petra
 status: accepted
-version: 0.1.0
-last_reviewed: 2026-08-16
+version: 0.1.1
+last_reviewed: 2026-11-08
 claim_id: woh-claim-0024
 ---
 
@@ -34,14 +34,18 @@ embarrassment to it.
 Equally hard-coded: the canon layer and the Gibson layer must not
 launder each other. The canon's Abraham reading is not evidence for the
 orientation survey; the survey is not evidence for the canon. Each layer
-carries its own grade, and the measurement-accuracy critique
-(Schumm–Goldstein) stands against the survey layer at full strength.
+carries its own grade. Schumm and Goldstein's statistical analysis sits
+inside the survey layer (it finds the orientations consistent with
+aiming at Petra *under Gibson's assumptions*), and David A. King's
+folk-astronomical "sacred geography" account stands against the survey
+layer at full strength.
 
 ## Alternatives and challenges
 
-Measurement scatter (on which the pattern dissolves); the tradition's
-own change-account sufficing; and the revisionist-overreach objection to
-mixed-quality convergence items.
+King's sacred-geography account (on which the orientations reflect a
+non-geographical sacred direction toward the Ka'ba and the Petra pattern
+dissolves); the tradition's own change-account sufficing; and the
+revisionist-overreach objection to mixed-quality convergence items.
 
 ## Evidence status
 
@@ -52,6 +56,20 @@ mixed-quality convergence items.
 
 As in the machine record — including tension-dissolving drift in either
 direction.
+
+## Revision 0.1.1 (2026-11-08)
+
+Source-role correction only; statement, scope, and label unchanged.
+0.1.0 listed `qibla-accuracy-schumm-goldstein` as the `critical` source
+and attributed the measurement objection (`alt-0024-measurement`) to
+it. That inverted the source: Schumm and Goldstein conclude that, under
+Gibson's assumptions, the early orientations are consistent with
+intentional aiming at Petra. The record now carries it as
+`scholarly_context` inside the survey layer, adds David A. King's
+*From Petra back to Makka* (`from-petra-back-to-makka`) as the `critical`
+source, and attributes `alt-0024-measurement` to King's folk-astronomical
+"sacred geography" account. The correction was found during the Ground
+stage for `/wiki/mecca/`.
 
 ## Public derivatives
 

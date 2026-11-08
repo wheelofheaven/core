@@ -1,0 +1,90 @@
+{
+  "$schema": "../schemas/claim.schema.json",
+  "schema_version": "0.1.0",
+  "id": "woh-claim-0079",
+  "title": "LDS cosmology and the canon: resemblance",
+  "version": "0.1.0",
+  "lifecycle": "accepted",
+  "statement": "Scripture produced by Joseph Smith contains an embodied God ('The Father has a body of flesh and bones as tangible as man's', D&C 130:22), plural creators ('they, that is the Gods, organized and formed the heavens and the earth', Abraham 4:1), a plurality of created and inhabited worlds (D&C 76:24), and a named governing star near God's throne, Kolob (Abraham 3:2–3); these features resemble the canon's mortal, embodied, plural creators (TBWTT-1:53), its created-creators chain (woh-claim-0030), and its plurality of created humanities (woh-claim-0047); the corpus records the resemblance as resemblance only — not dependence, not identity, and not evidence for the authenticity of the LDS founding.",
+  "claim_kind": "interpretation",
+  "framework_relation": "comparative",
+  "evidence_status": [
+    "scoped",
+    "contested"
+  ],
+  "public_label": "inferred",
+  "scope": {
+    "includes": [
+      "The LDS textual layer at its own locators, as source report: D&C 130:22; Abraham 4:1; D&C 76:24; Abraham 3:2–3",
+      "The resemblance mapping to canon content at the level of features: embodiment, plurality of creators, plurality of worlds",
+      "The preservation clause: in LDS theology the Godhead, exaltation, and salvation remain theistic and soteriological, while the canon is explicitly atheist; the resemblance does not flatten the difference"
+    ],
+    "excludes": [
+      "Dependence in either direction (the canon on LDS texts or the reverse)",
+      "Identity of referents: Kolob is not identified with the Elohim's star, nor Moroni or the personages of Smith's accounts with Elohim or their emissaries (founder direction, 2026-11-08)",
+      "Use of the resemblance as evidence for the authenticity of the LDS founding or for any census tier",
+      "Post-Smith LDS doctrinal development",
+      "Joseph Smith's status as a messenger, which woh-claim-0077 carries as source report"
+    ]
+  },
+  "source_references": [
+    {
+      "source_id": "doctrine-and-covenants",
+      "locator": "D&C 130:22 (embodied Father and Son); D&C 76:24 (the worlds created and their inhabitants) — DCSEL-130:22, DCSEL-76:24 in the project digitization of selections",
+      "role": "primary_text",
+      "access": "project_digitization"
+    },
+    {
+      "source_id": "book-of-abraham",
+      "locator": "Abraham 3:2–3 (Kolob, nearest the throne); Abraham 4:1 ('the Gods') — ABR-3:2–3, ABR-4:1 in the project digitization",
+      "role": "primary_text",
+      "access": "project_digitization"
+    },
+    {
+      "source_id": "the-book-which-tells-the-truth",
+      "locator": "TBWTT-1:53 ('We are men like you') — the canon's embodied, mortal creators",
+      "role": "canonical_basis",
+      "access": "project_digitization",
+      "note": "../../source-notes/the-book-which-tells-the-truth.md"
+    },
+    {
+      "source_id": "joseph-smith-rough-stone-rolling-the-standard-scholarly-biography-the-treasure-s",
+      "locator": "The biography's account of the development of Smith's theology and of the Book of Abraham",
+      "role": "scholarly_context",
+      "access": "metadata_only"
+    },
+    {
+      "source_id": "mormonism-the-story-of-a-new-religious-tradition",
+      "locator": "Mormonism studied as a new religious tradition in its own terms — the comparative-discipline anchor",
+      "role": "scholarly_context",
+      "access": "metadata_only"
+    }
+  ],
+  "dependencies": [
+    "woh-claim-0001",
+    "woh-claim-0030",
+    "woh-claim-0047"
+  ],
+  "alternatives": [
+    {
+      "id": "alt-0079-milieu",
+      "statement": "Plurality-of-worlds speculation was current in European and American religious and popular-astronomical writing well before 1830 (the tradition woh-claim-0067 itself registers from atomism onward); the LDS doctrine can be explained from Smith's milieu without positing any special source."
+    },
+    {
+      "id": "alt-0079-papyri-provenance",
+      "statement": "The surviving papyri associated with the Book of Abraham are identified by Egyptologists as ordinary Egyptian funerary texts, so the Kolob material is Smith's composition and carries no external weight (source for the identification not yet registered)."
+    },
+    {
+      "id": "alt-0079-restorationist-development",
+      "statement": "Embodied-God and plural-Gods doctrine developed from Smith's literal reading of the Bible (including the plural of Genesis 1) within his own theological trajectory; the resemblance to the canon is a shared literalism, not shared content."
+    }
+  ],
+  "revision_triggers": [
+    "A verified milieu study or papyri edition is registered as a source.",
+    "Claim woh-claim-0030, woh-claim-0047, or woh-claim-0001 is revised or retired.",
+    "Public prose begins treating the resemblance as dependence, identity, or evidence of authenticity, all of which this record excludes."
+  ],
+  "controlling_document": "../../docs/framework/lds-cosmology-resemblance.md",
+  "public_derivatives": [],
+  "last_reviewed": "2026-11-08"
+}

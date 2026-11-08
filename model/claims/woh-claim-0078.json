@@ -1,0 +1,66 @@
+{
+  "$schema": "../schemas/claim.schema.json",
+  "schema_version": "0.1.0",
+  "id": "woh-claim-0078",
+  "title": "The address to the traditions' expectations",
+  "version": "0.1.0",
+  "lifecycle": "accepted",
+  "statement": "In the second message's closing address, Yahweh calls each tradition to recognize its own expectation in the present message: the Christian who has read 'a hundred times that Jesus would return' (ETTMTTP-3:226), the child of Israel who 'still waits for your messiah' (3:227), the Buddhist whose 'writings indicate that the new Buddha must be born in the West; recognize the foreseen signs!' (3:228), and the Muslim told to 'welcome the last of the prophets' (3:229); read in that context and with ETTMTTP-3:257, where Raël is 'the last of the line of the prophets', the corpus takes the Buddhist clause as pointing at Raël, carried in the canon's own words.",
+  "claim_kind": "interpretation",
+  "framework_relation": "derived",
+  "evidence_status": [
+    "scoped",
+    "contested"
+  ],
+  "public_label": "inferred",
+  "scope": {
+    "includes": [
+      "The parallel address structure of ETTMTTP-3:226–229, quoted in the canon's own words",
+      "The contextual inference: the Buddhist clause, read with its neighbours and with ETTMTTP-3:257, points at Raël",
+      "The inference's grade: only the Muslim clause names 'the last of the prophets'; the Buddhist clause points by parallel, which is why the label is inferred"
+    ],
+    "excludes": [
+      "The name Maitreya (Metteyya) and any identification of the canon's 'new Buddha' with the Maitreya of Buddhist tradition (founder direction, 2026-11-08)",
+      "Any claim that Buddhist scriptures in fact predict a birth in the West; the record carries what the canon says the writings indicate, not what they say",
+      "Raël's later titles and publications (post-canon reception), which this record does not use",
+      "Any re-description of the other traditions' expectations beyond the address's own words"
+    ]
+  },
+  "source_references": [
+    {
+      "source_id": "extraterrestrials-took-me-to-their-planet",
+      "locator": "ETTMTTP-3:226–229 (the address to Christian, child of Israel, Buddhist, Muslim); ETTMTTP-3:257 ('the last of the line of the prophets')",
+      "role": "canonical_basis",
+      "access": "project_digitization",
+      "note": "../../source-notes/extraterrestrials-took-me-to-their-planet.md"
+    },
+    {
+      "source_id": "buswell-lopez-princeton-buddhism",
+      "locator": "Reference treatment of the Buddhist future-buddha tradition — the comparative control against which the canon's 'born in the West' clause is checked",
+      "role": "comparative",
+      "access": "metadata_only"
+    }
+  ],
+  "dependencies": [
+    "woh-claim-0038",
+    "woh-claim-0077"
+  ],
+  "alternatives": [
+    {
+      "id": "alt-0078-no-western-birth",
+      "statement": "The classical Buddhist accounts of the next buddha are generally reported to place him in India in a remote future age, not in the West; if so, the canon's clause characterizes the Buddhist writings in a way the writings do not bear out (primary-text check outstanding)."
+    },
+    {
+      "id": "alt-0078-exhortation",
+      "statement": "ETTMTTP-3:226–229 is exhortation addressed to readers of each tradition, not a doctrine of identification; reading a designation of Raël out of the Buddhist clause over-reads rhetoric."
+    }
+  ],
+  "revision_triggers": [
+    "A primary-text check of the Buddhist future-buddha sources confirms or refutes the 'born in the West' characterization.",
+    "Claim woh-claim-0038 or woh-claim-0077 is revised or retired.",
+    "Public prose begins naming Maitreya or asserting what Buddhist scripture predicts, both of which this record excludes."
+  ],
+  "controlling_document": "../../docs/framework/traditions-expectations-address.md",
+  "public_derivatives": [],
+  "last_reviewed": "2026-11-08"
+}

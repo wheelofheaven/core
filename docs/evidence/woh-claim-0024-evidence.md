@@ -1,8 +1,8 @@
 ---
 title: "Evidence map: The early-qibla convergence"
 status: draft
-version: 0.1.0
-last_reviewed: 2026-08-16
+version: 0.1.1
+last_reviewed: 2026-11-08
 claim_id: woh-claim-0024
 ---
 
@@ -16,7 +16,8 @@ outer layers are forbidden from laundering each other.
 
 | Item | Source | Standing objection |
 | --- | --- | --- |
-| Early datable mosques' qibla walls oriented toward Petra for ~the first Islamic century | Gibson, *Early Islamic Qiblas* (metadata_only) | The measurement-accuracy critique (Schumm–Goldstein, metadata_only): early geodesy could not target precisely, so orientation scatter reflects method — on this account the pattern dissolves |
+| Early datable mosques' qibla walls oriented toward Petra for ~the first Islamic century | Gibson, *Early Islamic Qiblas* (metadata_only) | King's folk-astronomical "sacred geography" account (*From Petra back to Makka*, `from-petra-back-to-makka`, metadata_only): early orientations follow a non-geographical sacred direction toward the Ka'ba (stars, winds, cardinal directions), not geographical aiming at Petra — on this account the pattern dissolves |
+| Statistical consistency of the orientations with aiming at Petra | Schumm & Goldstein (`qibla-accuracy-schumm-goldstein`, metadata_only) | Holds only under Gibson's assumptions; part of the survey layer, not independent confirmation; King's account contests the assumptions themselves |
 
 ## The convergence items (each at its own grade)
 
@@ -38,6 +39,12 @@ The corpus's Petra reading and its Hijaz-tradition material stand in
 deliberate, recorded tension. Resolving it in either direction — in
 prose, in either entry-family — is a revision trigger, not an editorial
 option.
+
+## Revision 0.1.1
+
+Schumm–Goldstein moved from standing objection to survey-layer support
+(their analysis finds Petra-consistency under Gibson's assumptions); King
+added as the standing objection. See the specification's revision note.
 
 ## Dependency summary
 

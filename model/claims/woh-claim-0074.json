@@ -1,0 +1,88 @@
+{
+  "$schema": "../schemas/claim.schema.json",
+  "schema_version": "0.1.0",
+  "id": "woh-claim-0074",
+  "title": "The canon's biochemical layer",
+  "version": "0.1.0",
+  "lifecycle": "accepted",
+  "statement": "The canon describes the life the Elohim made as synthesized from terrestrial chemical components, created in their image and interfertile with them, and describes humanities on other worlds as similar to their creators; it reports physiological divergence (mutually unbreathable atmospheres) and a forward plan to create humanoid life adapted to other environments, but nowhere describes non-standard biochemistry, alternative genetic chemistries, or the molecular makeup of the Elohim or of other-world life; Raël's 1979 commentary glosses all terrestrial life as built on one shared molecular 'alphabet'. This record asserts what the sources report and omit, not that the reported events occurred.",
+  "claim_kind": "source_report",
+  "framework_relation": "contextual",
+  "evidence_status": [
+    "scoped"
+  ],
+  "public_label": "direct",
+  "scope": {
+    "includes": [
+      "The synthesis reports as source content: plant cells made 'à partir de rien d'autre que des produits chimiques' on Earth (TBWTT-2:16), the earlier home-world work on 'cellules vivantes en éprouvettes' (TBWTT-2:2), and Raël's gloss that the creators took 'un peu des composants chimiques que l'on trouve dans la terre' and combined them 'scientifiquement' (LWTE-1:148)",
+      "The likeness-and-compatibility reports: humanity made 'à notre image' with 'la ressemblance … frappante' (TBWTT-2:27), and the creators able to 's'accoupler avec les filles des hommes … et en avoir des enfants exceptionnels' (TBWTT-2:55) — interfertility as reported content",
+      "The other-world reports: 'les hommes créent d'autres hommes, semblables à eux-mêmes, sur d'autres mondes' (TBWTT-3:279); 'sur deux autres planètes relativement proches il y a des êtres semblables aux hommes et créés par les mêmes créateurs', alongside failed attempts and a surviving 'monde uniquement végétal' (TBWTT-4:49); 'une infinité de mondes habités par des êtres de type humanoïde', with life on many of them 'créée par d'autres hommes' (TBWTT-7:23); the forward charge to 'créer ailleurs d'autres humanités, scientifiquement' (ETTMTTP-3:23)",
+      "The divergence reports: the Elohim's and humanity's atmospheres are mutually unsuitable (TBWTT-1:61; TBWTT-3:42), and the speaker breathes 'un air différent du vôtre' (TBWTT-7:4)",
+      "The adapted-humanoid report, which is the canon's own pantropy statement: 'la création d'une forme de vie humanoïde adaptée à un autre monde … Si le milieu ne peut s'adapter aux hommes, il faut créer un homme adapté au milieu … une autre race d'hommes vivant dans une atmosphère totalement différente' (TBWTT-4:61)",
+      "The hereditary-plan reports at the canon's level of statement: a cell carries 'le plan physique et intellectuel de l'être' (ETTMTTP-2:30) and the body forms 'selon le plan qu'ont défini, lors de la conception, les gènes du mâle et de la femelle' (ETTMTTP-2:33)",
+      "The documented silence: a search of the French text of all three volumes (2026-11-08) found no description of non-standard biochemistry, alternative genetic chemistries, or the molecular composition of the Elohim or of other-world life; the dictated messages (TBWTT, ETTMTTP) contain no DNA, nucleotide, amino-acid, or biochemical vocabulary at all — 'code génétique' and 'ADN' occur only in LWTE, in Raël's narration and in the Terrusse testimony (LWTE-4:129)",
+      "The voice distinction: TBWTT and ETTMTTP are reported dictation (speaker Yahweh in the digitization); LWTE-1 is Raël's own 1979 commentary (speaker Narrator) and LWTE-4 includes testimony by named Raëlians; the LWTE gloss is canon at Tier 0 but not dictated content, and public prose must attribute it to Raël",
+      "Raël's alphabet gloss, quoted from the French base text (LWTE-1:149): every living being on Earth was made by the Elohim 'à partir d'une «brique» de base, une structure moléculaire composée d'atomes judicieusement assemblés' — 'une sorte d'alphabet dont chaque lettre serait un atome, et qui composerait le code génétique de chaque espèce vivante … les lettres de l'alphabet seraient toujours les mêmes' — and species reproduce 'le code génétique du premier exemplaire de leur espèce qui a été fabriqué par les Elohim'",
+      "Two source-text observations on LWTE-1:149, recorded and not corrected here: (1) the digitization's English omits the closing clause « qui a été fabriqué par les Elohim »; the English's provenance (published translation or machine rendering) is unverified, so only the French is quoted; (2) the gloss makes each 'letter' of the genetic alphabet an atom, whereas in mainstream biochemistry the letters of the genetic code are nucleotide bases — the analogy's shared-alphabet point is unaffected, but its chemistry is loose and public prose must not reproduce it as stated fact"
+    ],
+    "excludes": [
+      "The historicity of any reported synthesis, encounter, or other-world creation, which belongs to woh-claim-0001 and its evidence discipline; this record carries the report layer only, as woh-claim-0070 does for TBWTT-1:53 and 2:5",
+      "Any inference that life across the chain of creation shares one biochemistry — a universality prediction the canon does not make; the silence is recorded as silence, not as denial and not as affirmation",
+      "Any claim that the canon describes or implies non-standard biochemistry for the Elohim, for adapted humanoids, or for other-world life; 'atmosphère totalement différente' (TBWTT-4:61) is physiological, not a statement about genetic chemistry",
+      "Design-signature arguments from terrestrial biochemistry (the shared alphabet as evidence of design), which are woh-claim-0036's territory and excluded there as detection claims",
+      "The population, location, ranking, or biology of the other humanities beyond what is quoted; woh-claim-0047 carries the multi-world evaluation frame and its exclusions",
+      "Scientific endorsement of LWTE-1:149's chemistry or of the 1979 commentary's popular-science claims generally",
+      "Corrections to the data-library digitization; the LWTE observations are recorded here as source-text findings for the library maintainers"
+    ]
+  },
+  "source_references": [
+    {
+      "source_id": "the-book-which-tells-the-truth",
+      "locator": "TBWTT-1:61; 2:2; 2:16; 2:27; 2:55; 3:42; 3:279; 4:49; 4:61; 7:4; 7:23 (French base text of the project digitization; the digitization's English is a 2026 machine rendering and is not quoted as the source's words). Full-text search for biochemical vocabulary: zero hits.",
+      "role": "canonical_basis",
+      "access": "project_digitization",
+      "note": "../../source-notes/the-book-which-tells-the-truth.md"
+    },
+    {
+      "source_id": "extraterrestrials-took-me-to-their-planet",
+      "locator": "ETTMTTP-2:30 (the cell as 'plan physique et intellectuel'); 2:33 (the genes of the parents as the body's plan); 3:23 (the charge to create other humanities elsewhere). French base text. Full-text search for biochemical vocabulary: the single 'gènes' at 2:33 only.",
+      "role": "canonical_basis",
+      "access": "project_digitization",
+      "note": "../../source-notes/extraterrestrials-took-me-to-their-planet.md"
+    },
+    {
+      "source_id": "lets-welcome-the-extraterrestrials",
+      "locator": "LWTE-1:148–149 (Raël's chemical-components and molecular-alphabet gloss; speaker Narrator); LWTE-2:6 (the home-world 'êtres vivants entièrement synthétiques' and the protest against 'manipulations génétiques'); LWTE-4:129 (Terrusse's testimony on gene synthesis and DNA transfer — testimony, not Raël's voice). French base text; no core source note yet.",
+      "role": "canonical_basis",
+      "access": "project_digitization"
+    }
+  ],
+  "dependencies": [
+    "woh-claim-0020",
+    "woh-claim-0070"
+  ],
+  "alternatives": [
+    {
+      "id": "alt-0074-silence-not-denial",
+      "statement": "The canon's silence on biochemistry carries no information: a text addressed to a 1973 lay reader had no occasion to specify molecular chemistry, so reading the absence of non-standard biochemistry as a positive report of standard biochemistry over-reads an omission."
+    },
+    {
+      "id": "alt-0074-image-is-morphological",
+      "statement": "'In our image' and 'similar to themselves' report bodily form and moral standing, not molecular identity; only the interfertility report (TBWTT-2:55) bears on genetic compatibility, and it concerns the Elohim and Earth's humanity alone."
+    },
+    {
+      "id": "alt-0074-era-biochemistry",
+      "statement": "Raël's 1979 alphabet gloss restates the popular-science picture of a universal genetic code current in the 1970s, in loose form (atoms for nucleotides); it reports the commentator's science education, not content from the messages."
+    }
+  ],
+  "revision_triggers": [
+    "Claim woh-claim-0020 or woh-claim-0070 is revised or retired.",
+    "A canonical passage describing the biochemistry of the Elohim, of adapted humanoids, or of other-world life is identified, or a retranslation or first-edition collation changes any passage cited here.",
+    "The provenance of the LWTE English is established, or the data-library LWTE-1:149 English is corrected.",
+    "Public prose infers biochemical universality across the chain, or cites the silence as evidence for or against the framework, both of which this record excludes.",
+    "Public prose quotes the digitization's TBWTT or ETTMTTP English as the source's own wording."
+  ],
+  "controlling_document": "../../docs/framework/canon-biochemical-layer.md",
+  "public_derivatives": [],
+  "last_reviewed": "2026-11-08"
+}

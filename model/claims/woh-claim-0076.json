@@ -1,0 +1,117 @@
+{
+  "$schema": "../schemas/claim.schema.json",
+  "schema_version": "0.1.0",
+  "id": "woh-claim-0076",
+  "title": "Israel as the creators' chosen and descended people",
+  "version": "0.1.0",
+  "lifecycle": "accepted",
+  "statement": "Per the canon, the people of Israel were the humans made by the creator team whose laboratory lay in the land now called Israel; at a competition among the creator teams they were judged the most successful terrestrial type 'in intelligence and genius', which the canon gives as the origin of Israel's chosen-people self-understanding; through the unions of the sons of Elohim with the daughters of men that population became the Jewish people, whom the canon calls the creators' 'direct descendants on Earth' — the canon reconciling its two statements in its own voice and tentatively ('peut-être'); and the canon narrates Israel's history as a tutelage and its keeping of the biblical record as custodianship of the message. The corpus records this as canon-explicit and mainstream-unendorsed.",
+  "claim_kind": "interpretation",
+  "framework_relation": "derived",
+  "evidence_status": [
+    "scoped",
+    "contested"
+  ],
+  "public_label": "framework",
+  "scope": {
+    "includes": [
+      "The election-by-competition clause as the canon states it: the people of Israel 'élu par le jury scientifique comme le type humanoïde terrestre le plus réussi sur le plan intelligence et génie', given as the origin of the chosen-people self-understanding (TBWTT-2:43)",
+      "The descent clause as the canon states it: the Jews as the creators' direct descendants, through the sons-of-Elohim / daughters-of-men unions of Genesis 6 (ETTMTTP-2:104, 2:123)",
+      "The canon's own harmonization of the two clauses, carried with its hedge: the laboratory-made people of Israel, 'peut-être' because they were the most successful, became the Jewish people through those unions (LWTE-1:17-18); the record presents no single settled genealogy",
+      "The custodial clause: a message entrusted to Israel and kept rather than spread, and the Bible preserved by the Jewish people as testimony (TBWTT-4:35, 5:25, 5:31; ETTMTTP-2:124)",
+      "The tutelage arc at the canon's level — liberation and guidance (TBWTT-3:9-10), dispersion as sanction (TBWTT-3:140-142), recovery of the land as a sign of the age (TBWTT-3:225, 5:24-25) — cross-referring woh-claim-0017 (Babel) and woh-claim-0006 (the Persian and Greek emissaries) rather than restating them",
+      "The scope convention: the historical ʿIvrim ('Hebrews') are treated in public prose as incidental, cited history; the canon itself speaks of 'le peuple d'Israël', 'les Juifs', and 'le peuple élu', and this record asserts nothing about the ʿIvrim beyond the canon's own Israel line"
+    ],
+    "excludes": [
+      "Any population-genetic claim; no genetic evidence is asserted, and 'genetic descendants' is not the canon's wording",
+      "Any biological-superiority or individual-worth claim; 'race' (TBWTT-2:43; LWTE-1:18) is the canon's 1970s wording, not a corpus category, and the election clause is recorded as the canon's account of a self-understanding, not as a ranking the corpus endorses",
+      "Identity between the canon's 'people of Israel' and the historical ʿIvrim, the habiru/ʿapiru, or any archaeological population, beyond what the canon states",
+      "The conditional statements about the State of Israel (ETTMTTP-2:104, 2:122-127: the embassy demand, the threatened chastisement and destruction), which belong to the conditionality of woh-claim-0015 and woh-claim-0016",
+      "Jewish election theology (Deuteronomy 7:6-8 and its tradition), preserved in its own voice and not superseded by the canon's account",
+      "Watcher and Nephilim identity questions, which are woh-claim-0012's; Eden geography, which is woh-claim-0018's; Babel mechanics, which are woh-claim-0017's"
+    ]
+  },
+  "source_references": [
+    {
+      "source_id": "the-book-which-tells-the-truth",
+      "locator": "TBWTT-2:28 (the Israel team; the man created there the most intelligent); 2:43 (the competition; 'le peuple élu'); 2:72, 2:76 (Babel); 3:9-10 (the chosen people's liberation); 3:140-142 (dispersion); 4:35; 5:24-25, 5:31 (return; the Bible preserved by the Jewish people)",
+      "role": "canonical_basis",
+      "access": "project_digitization",
+      "note": "../../source-notes/the-book-which-tells-the-truth.md"
+    },
+    {
+      "source_id": "extraterrestrials-took-me-to-their-planet",
+      "locator": "ETTMTTP-2:104 ('les Juifs sont nos descendants directs sur la Terre'); 2:123 (the people of Israel as descendants of the unions); 2:124 (the message kept 'jalousement')",
+      "role": "canonical_basis",
+      "access": "project_digitization",
+      "note": "../../source-notes/extraterrestrials-took-me-to-their-planet.md"
+    },
+    {
+      "source_id": "lets-welcome-the-extraterrestrials",
+      "locator": "LWTE-1:16-18 ('Le peuple d'Israël et les juifs': the reader's contradiction question and the hedged harmonization)",
+      "role": "canonical_basis",
+      "access": "project_digitization",
+      "note": "../../source-notes/lets-welcome-the-extraterrestrials.md"
+    },
+    {
+      "source_id": "genesis",
+      "locator": "GEN-WOH-6:1-4 (the benei ha-elohim and the daughters of men); GEN-WOH-14:13 (first occurrence of ha-ʿIvri, with the commentary's three etymologies)",
+      "role": "primary_text",
+      "access": "project_digitization"
+    },
+    {
+      "source_id": "deuteronomy",
+      "locator": "Deuteronomy 7:6-8 (election grounded in love and oath, 'not because ye were more in number') — the strongest textual counter",
+      "role": "primary_text",
+      "access": "project_digitization"
+    },
+    {
+      "source_id": "finkelstein-bible-unearthed",
+      "locator": "The archaeological account of Israel's emergence from the Iron Age I highland population (locator not verified)",
+      "role": "scholarly_context",
+      "access": "metadata_only"
+    },
+    {
+      "source_id": "aliens-adored",
+      "locator": "The academic account of the movement, its embassy project, and its reading of Israel (locator not verified)",
+      "role": "critical",
+      "access": "metadata_only"
+    }
+  ],
+  "dependencies": [
+    "woh-claim-0001",
+    "woh-claim-0012",
+    "woh-claim-0018"
+  ],
+  "alternatives": [
+    {
+      "id": "alt-0076-covenant-election",
+      "statement": "Deuteronomy 7:7-8 grounds Israel's election explicitly in love and oath, 'not because ye were more in number'; the Hebrew Bible's own theory of election is non-meritocratic, and the competition reading inverts it."
+    },
+    {
+      "id": "alt-0076-ethnogenesis",
+      "statement": "Mainstream archaeology derives Israel from an Iron Age I highland population largely continuous with Canaanite culture, first attested outside the Bible on the Merneptah stele (late 13th century BCE); no lineage reaches back to a primordial creation."
+    },
+    {
+      "id": "alt-0076-internal-tension",
+      "statement": "The canon's two accounts — an elected laboratory population and the descendants of the unions — were read as contradictory by the canon's own readers (LWTE-1:17), and the canon's harmonization is explicitly tentative; no single genealogy can be presented as the canon's settled position."
+    },
+    {
+      "id": "alt-0076-sociological",
+      "statement": "The canon's emphasis on Israel tracks the movement's Israel-embassy strategy and the founder's account of his Jewish paternity (TBWTT-1:46; ETTMTTP-1:7) rather than independent memory."
+    },
+    {
+      "id": "alt-0076-ethical",
+      "statement": "Ranking peoples by 'intelligence and genius' has a harmful reception history whatever its intent; any public projection of the election clause carries that risk and needs explicit containment."
+    }
+  ],
+  "revision_triggers": [
+    "Claim woh-claim-0001, woh-claim-0012, or woh-claim-0018 is revised or retired.",
+    "Fuller canonical text, including Raël titles not yet in the project digitization, changes the canon's harmonization of the election and descent clauses.",
+    "Public prose drifts toward genetic, superiority, or individual-worth language, or presents a single settled genealogy, all of which this record excludes.",
+    "Public prose identifies the historical ʿIvrim with the canon's people of Israel beyond the canon's own statements."
+  ],
+  "controlling_document": "../../docs/framework/israel-chosen-descended-people.md",
+  "public_derivatives": [],
+  "last_reviewed": "2026-11-08"
+}
