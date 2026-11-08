@@ -70,4 +70,6 @@ As in the machine record.
 
 ## Public derivatives
 
-None yet. Intended for `wiki/buddha.md` and `wiki/joseph-smith.md`.
+- `wheelofheaven/data-content:wiki/buddha.md`
+- `wheelofheaven/data-content:wiki/joseph-smith.md`
+- `wheelofheaven/data-content:wiki/muhammad.md`

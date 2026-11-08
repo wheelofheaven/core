@@ -1,7 +1,7 @@
 ---
 title: The tent of meeting as the creators' residence
 status: accepted
-version: 0.1.0
+version: 0.1.1
 last_reviewed: 2026-11-08
 claim_id: woh-claim-0075
 ---
@@ -21,8 +21,8 @@ canon's level, with the mainstream account of the Tabernacle as a
 priestly sanctuary tradition in its own voice.
 
 An `interpretation` with framework relation `derived` and public label
-`framework`. Lifecycle `draft`: drafted at the Ground stage for the
-`/wiki/tabernacle/` entry and awaiting founder review.
+`framework`. Lifecycle `accepted` (ADR 0013, 2026-11-08); drafted at the Ground
+stage for the `/wiki/tabernacle/` entry.
 
 ## What the canon says, and where
 
@@ -54,7 +54,7 @@ not rely on 3:37 for any clause.
   camp's centre. The record registers that the canon merges them and
   does not settle the source-critical question.
 - **Glory as craft.** The canon reads the "glory" as the craft at Sinai
-  (TBWTT-3:33; Exodus 24:17). It does not make that reading at the
+  (TBWTT-3:32–33; Exodus 24:17). It does not make that reading at the
   Tabernacle's cloud and glory (Exodus 40:34–38), and this record does
   not extend it there.
 - **No sequence of reception sites.** The canon heads its Solomon section
@@ -98,4 +98,8 @@ As in the machine record.
 
 ## Public derivatives
 
-None yet. The intended first derivative is `/wiki/tabernacle/`.
+- `wheelofheaven/data-content:wiki/tabernacle.md`
+
+## Revision 0.1.1 (2026-11-08)
+
+Locator corrected: the Exodus 24:17 glory-as-craft quotation is at TBWTT-3:32, so the locators read TBWTT-3:32–33. Directed by the founder at review (ADR 0013).

@@ -64,4 +64,4 @@ As in the machine record.
 
 ## Public derivatives
 
-None yet. Intended for `wiki/joseph-smith.md`.
+- `wheelofheaven/data-content:wiki/joseph-smith.md`

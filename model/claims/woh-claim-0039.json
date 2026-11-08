@@ -78,9 +78,10 @@
   ],
   "controlling_document": "../../docs/framework/genesis-compressed-report.md",
   "public_derivatives": [
+    "wheelofheaven/data-content:articles/the-dragon-curve.md",
+    "wheelofheaven/data-content:wiki/genesis-toolbox.md",
     "wheelofheaven/data-content:wiki/genesis.md",
-    "wheelofheaven/data-content:wiki/the-truth.md",
-    "wheelofheaven/data-content:wiki/genesis-toolbox.md"
+    "wheelofheaven/data-content:wiki/the-truth.md"
   ],
   "last_reviewed": "2026-08-16"
 }

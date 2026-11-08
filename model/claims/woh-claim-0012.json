@@ -97,9 +97,10 @@
   "controlling_document": "../../docs/framework/watchers-nephilim-unions.md",
   "public_derivatives": [
     "wheelofheaven/data-content:articles/watchers-and-the-nephilim.md",
+    "wheelofheaven/data-content:wiki/book-of-enoch.md",
+    "wheelofheaven/data-content:wiki/hebrews.md",
     "wheelofheaven/data-content:wiki/nephilim.md",
-    "wheelofheaven/data-content:wiki/watchers.md",
-    "wheelofheaven/data-content:wiki/book-of-enoch.md"
+    "wheelofheaven/data-content:wiki/watchers.md"
   ],
   "last_reviewed": "2026-08-16"
 }

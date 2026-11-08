@@ -3,7 +3,7 @@
   "schema_version": "0.1.0",
   "id": "woh-claim-0074",
   "title": "The canon's biochemical layer",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "lifecycle": "accepted",
   "statement": "The canon describes the life the Elohim made as synthesized from terrestrial chemical components, created in their image and interfertile with them, and describes humanities on other worlds as similar to their creators; it reports physiological divergence (mutually unbreathable atmospheres) and a forward plan to create humanoid life adapted to other environments, but nowhere describes non-standard biochemistry, alternative genetic chemistries, or the molecular makeup of the Elohim or of other-world life; Raël's 1979 commentary glosses all terrestrial life as built on one shared molecular 'alphabet'. This record asserts what the sources report and omit, not that the reported events occurred.",
   "claim_kind": "source_report",
@@ -20,7 +20,7 @@
       "The divergence reports: the Elohim's and humanity's atmospheres are mutually unsuitable (TBWTT-1:61; TBWTT-3:42), and the speaker breathes 'un air différent du vôtre' (TBWTT-7:4)",
       "The adapted-humanoid report, which is the canon's own pantropy statement: 'la création d'une forme de vie humanoïde adaptée à un autre monde … Si le milieu ne peut s'adapter aux hommes, il faut créer un homme adapté au milieu … une autre race d'hommes vivant dans une atmosphère totalement différente' (TBWTT-4:61)",
       "The hereditary-plan reports at the canon's level of statement: a cell carries 'le plan physique et intellectuel de l'être' (ETTMTTP-2:30) and the body forms 'selon le plan qu'ont défini, lors de la conception, les gènes du mâle et de la femelle' (ETTMTTP-2:33)",
-      "The documented silence: a search of the French text of all three volumes (2026-11-08) found no description of non-standard biochemistry, alternative genetic chemistries, or the molecular composition of the Elohim or of other-world life; the dictated messages (TBWTT, ETTMTTP) contain no DNA, nucleotide, amino-acid, or biochemical vocabulary at all — 'code génétique' and 'ADN' occur only in LWTE, in Raël's narration and in the Terrusse testimony (LWTE-4:129)",
+      "The documented silence: a search of the French text of all three volumes (2026-11-08) found no description of non-standard biochemistry, alternative genetic chemistries, or the molecular composition of the Elohim or of other-world life; the dictated messages (TBWTT, ETTMTTP) contain no DNA, nucleotide, or amino-acid vocabulary; their one genetic term is « gènes » (ETTMTTP-2:33), at the level of the hereditary plan, and « cellule » and « molécules » occur without chemical specification — 'code génétique' and 'ADN' occur only in LWTE, in Raël's narration and in the Terrusse testimony (LWTE-4:129)",
       "The voice distinction: TBWTT and ETTMTTP are reported dictation (speaker Yahweh in the digitization); LWTE-1 is Raël's own 1979 commentary (speaker Narrator) and LWTE-4 includes testimony by named Raëlians; the LWTE gloss is canon at Tier 0 but not dictated content, and public prose must attribute it to Raël",
       "Raël's alphabet gloss, quoted from the French base text (LWTE-1:149): every living being on Earth was made by the Elohim 'à partir d'une «brique» de base, une structure moléculaire composée d'atomes judicieusement assemblés' — 'une sorte d'alphabet dont chaque lettre serait un atome, et qui composerait le code génétique de chaque espèce vivante … les lettres de l'alphabet seraient toujours les mêmes' — and species reproduce 'le code génétique du premier exemplaire de leur espèce qui a été fabriqué par les Elohim'",
       "Two source-text observations on LWTE-1:149, recorded and not corrected here: (1) the digitization's English omits the closing clause « qui a été fabriqué par les Elohim »; the English's provenance (published translation or machine rendering) is unverified, so only the French is quoted; (2) the gloss makes each 'letter' of the genetic alphabet an atom, whereas in mainstream biochemistry the letters of the genetic code are nucleotide bases — the analogy's shared-alphabet point is unaffected, but its chemistry is loose and public prose must not reproduce it as stated fact"
@@ -83,6 +83,9 @@
     "Public prose quotes the digitization's TBWTT or ETTMTTP English as the source's own wording."
   ],
   "controlling_document": "../../docs/framework/canon-biochemical-layer.md",
-  "public_derivatives": [],
+  "public_derivatives": [
+    "wheelofheaven/data-content:wiki/life-engineering.md",
+    "wheelofheaven/data-content:wiki/xenobiology.md"
+  ],
   "last_reviewed": "2026-11-08"
 }

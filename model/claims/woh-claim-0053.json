@@ -67,8 +67,10 @@
   ],
   "controlling_document": "../../docs/framework/hebrew-bible-historical-record.md",
   "public_derivatives": [
+    "wheelofheaven/data-content:wiki/bible.md",
     "wheelofheaven/data-content:wiki/hebrew-bible.md",
-    "wheelofheaven/data-content:wiki/bible.md"
+    "wheelofheaven/data-content:wiki/hebrews.md",
+    "wheelofheaven/data-content:wiki/tabernacle.md"
   ],
   "last_reviewed": "2026-08-16"
 }

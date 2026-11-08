@@ -1,7 +1,7 @@
 ---
 title: The canon's biochemical layer
 status: accepted
-version: 0.1.0
+version: 0.1.1
 last_reviewed: 2026-11-08
 claim_id: woh-claim-0074
 ---
@@ -22,8 +22,8 @@ built on one shared molecular "alphabet".
 
 This record asserts what the sources report and omit, not that the
 reported events occurred. It is a `source_report` with framework relation
-`contextual` and public label `direct`. Lifecycle `draft`, pending
-founder review.
+`contextual` and public label `direct`. Lifecycle `accepted` (ADR 0013,
+2026-11-08).
 
 ## Why this record exists
 
@@ -165,5 +165,9 @@ As in the machine record.
 
 ## Public derivatives
 
-None bound yet. Intended first derivative: `wiki/xenobiology.md`, bound
-at the Bind stage after founder review.
+- `wheelofheaven/data-content:wiki/life-engineering.md`
+- `wheelofheaven/data-content:wiki/xenobiology.md`
+
+## Revision 0.1.1 (2026-11-08)
+
+Scope wording corrected: the dictated messages' one genetic term, « gènes » (ETTMTTP-2:33), and the occurrences of « cellule » and « molécules » are now stated; the record previously said they contained no biochemical vocabulary at all. The silence finding is unchanged. Directed by the founder at review (ADR 0013).

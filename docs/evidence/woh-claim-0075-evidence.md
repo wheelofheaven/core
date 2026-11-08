@@ -21,7 +21,7 @@ Serves [`woh-claim-0075`](../framework/tent-of-meeting-residence.md).
 | Face to face; the suit; the atmosphere difference | TBWTT-3:38–42 | Canon-explicit |
 | Leviticus 21:17 as provisioning discipline | TBWTT-3:43–45 | Canon-explicit |
 | Telepathy when near, Ark transmitter when distant | TBWTT-3:95–96 | Canon-explicit; the device reading is woh-claim-0040's |
-| "Glory" = craft | TBWTT-3:33 (Sinai, Exodus 24:17) | Canon-explicit **at Sinai only**; not extended to Exodus 40:34–38 |
+| "Glory" = craft | TBWTT-3:32–33 (Sinai, Exodus 24:17) | Canon-explicit **at Sinai only**; not extended to Exodus 40:34–38 |
 | Solomon's Temple as « la première résidence pour l'accueil des Elohim » | TBWTT-3:102–107 | Canon-explicit; registered as a boundary, not used |
 
 ## Textual layer

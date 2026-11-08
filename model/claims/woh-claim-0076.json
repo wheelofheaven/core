@@ -3,9 +3,9 @@
   "schema_version": "0.1.0",
   "id": "woh-claim-0076",
   "title": "Israel as the creators' chosen and descended people",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "lifecycle": "accepted",
-  "statement": "Per the canon, the people of Israel were the humans made by the creator team whose laboratory lay in the land now called Israel; at a competition among the creator teams they were judged the most successful terrestrial type 'in intelligence and genius', which the canon gives as the origin of Israel's chosen-people self-understanding; through the unions of the sons of Elohim with the daughters of men that population became the Jewish people, whom the canon calls the creators' 'direct descendants on Earth' — the canon reconciling its two statements in its own voice and tentatively ('peut-être'); and the canon narrates Israel's history as a tutelage and its keeping of the biblical record as custodianship of the message. The corpus records this as canon-explicit and mainstream-unendorsed.",
+  "statement": "Per the canon, the people of Israel were the humans made by the creator team whose laboratory lay in the land now called Israel; at a competition among the creator teams they were judged the most successful terrestrial type 'in intelligence and genius', which the canon gives as the origin of Israel's chosen-people self-understanding; through the unions of the sons of Elohim with the daughters of men that population became the Jewish people, whom the canon calls the creators' 'direct descendants on Earth' — the canon reconciling its two statements tentatively ('peut-être'), in Raël's commentary voice answering a reader's question (LWTE-1:17-18); and the canon narrates Israel's history as a tutelage and its keeping of the biblical record as custodianship of the message. The corpus records this as canon-explicit and mainstream-unendorsed.",
   "claim_kind": "interpretation",
   "framework_relation": "derived",
   "evidence_status": [
@@ -112,6 +112,10 @@
     "Public prose identifies the historical ʿIvrim with the canon's people of Israel beyond the canon's own statements."
   ],
   "controlling_document": "../../docs/framework/israel-chosen-descended-people.md",
-  "public_derivatives": [],
+  "public_derivatives": [
+    "wheelofheaven/data-content:wiki/hebrew-bible.md",
+    "wheelofheaven/data-content:wiki/hebrew.md",
+    "wheelofheaven/data-content:wiki/hebrews.md"
+  ],
   "last_reviewed": "2026-11-08"
 }

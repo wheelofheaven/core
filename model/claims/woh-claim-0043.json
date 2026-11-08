@@ -68,9 +68,10 @@
   ],
   "controlling_document": "../../docs/framework/emblem-infinity-symbol.md",
   "public_derivatives": [
-    "wheelofheaven/data-content:wiki/swastika.md",
+    "wheelofheaven/data-content:wiki/buddha.md",
+    "wheelofheaven/data-content:wiki/raelian-symbol-of-infinity.md",
     "wheelofheaven/data-content:wiki/star-of-david.md",
-    "wheelofheaven/data-content:wiki/raelian-symbol-of-infinity.md"
+    "wheelofheaven/data-content:wiki/swastika.md"
   ],
   "last_reviewed": "2026-08-16"
 }

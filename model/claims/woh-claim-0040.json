@@ -72,7 +72,8 @@
   ],
   "controlling_document": "../../docs/framework/ark-communication-device.md",
   "public_derivatives": [
-    "wheelofheaven/data-content:wiki/ark-of-the-covenant.md"
+    "wheelofheaven/data-content:wiki/ark-of-the-covenant.md",
+    "wheelofheaven/data-content:wiki/tabernacle.md"
   ],
   "last_reviewed": "2026-08-16"
 }

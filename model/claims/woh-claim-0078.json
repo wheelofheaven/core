@@ -61,6 +61,9 @@
     "Public prose begins naming Maitreya or asserting what Buddhist scripture predicts, both of which this record excludes."
   ],
   "controlling_document": "../../docs/framework/traditions-expectations-address.md",
-  "public_derivatives": [],
+  "public_derivatives": [
+    "wheelofheaven/data-content:wiki/buddha.md",
+    "wheelofheaven/data-content:wiki/rael.md"
+  ],
   "last_reviewed": "2026-11-08"
 }

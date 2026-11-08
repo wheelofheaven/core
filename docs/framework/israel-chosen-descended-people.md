@@ -1,7 +1,7 @@
 ---
 title: Israel as the creators' chosen and descended people
 status: accepted
-version: 0.1.0
+version: 0.1.1
 last_reviewed: 2026-11-08
 claim_id: woh-claim-0076
 ---
@@ -17,15 +17,15 @@ terrestrial type "in intelligence and genius", which the canon gives as
 the origin of Israel's chosen-people self-understanding. Through the
 unions of the sons of Elohim with the daughters of men, that population
 became the Jewish people, whom the canon calls the creators' "direct
-descendants on Earth". The canon reconciles its two statements in its own
-voice and tentatively. It also narrates Israel's history as a tutelage,
+descendants on Earth". The canon reconciles its two statements tentatively,
+in Raël's commentary voice answering a reader (LWTE-1:17–18). It also narrates Israel's history as a tutelage,
 and Israel's keeping of the biblical record as custodianship of the
 message. The corpus records all of this as canon-explicit and
 mainstream-unendorsed.
 
 An `interpretation` with framework relation `derived` and public label
-`framework`. Lifecycle `draft`: drafted at the Ground stage for the
-`/wiki/hebrews/` entry and awaiting founder review.
+`framework`. Lifecycle `accepted` (ADR 0013, 2026-11-08); drafted at the Ground
+stage for the `/wiki/hebrews/` entry.
 
 ## What the canon says, and where
 
@@ -101,7 +101,10 @@ As in the machine record.
 
 ## Public derivatives
 
-None yet. The intended first derivative is `/wiki/hebrews/`. Once this
-record is reviewed, the existing `wiki/hebrew.md` and
-`wiki/hebrew-bible.md` sentences about "genetic descendants" should be
-brought into line with it.
+- `wheelofheaven/data-content:wiki/hebrew-bible.md`
+- `wheelofheaven/data-content:wiki/hebrew.md`
+- `wheelofheaven/data-content:wiki/hebrews.md`
+
+## Revision 0.1.1 (2026-11-08)
+
+The harmonization (LWTE-1:17–18) is labelled as Raël's commentary voice answering a reader, per the commentary-voice rule of ADR 0013; it was previously described as the canon's own voice. Content and scope unchanged. Directed by the founder at review (ADR 0013).

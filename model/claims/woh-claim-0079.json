@@ -48,7 +48,7 @@
       "note": "../../source-notes/the-book-which-tells-the-truth.md"
     },
     {
-      "source_id": "joseph-smith-rough-stone-rolling-the-standard-scholarly-biography-the-treasure-s",
+      "source_id": "bushman-rough-stone-rolling",
       "locator": "The biography's account of the development of Smith's theology and of the Book of Abraham",
       "role": "scholarly_context",
       "access": "metadata_only"
@@ -85,6 +85,8 @@
     "Public prose begins treating the resemblance as dependence, identity, or evidence of authenticity, all of which this record excludes."
   ],
   "controlling_document": "../../docs/framework/lds-cosmology-resemblance.md",
-  "public_derivatives": [],
+  "public_derivatives": [
+    "wheelofheaven/data-content:wiki/joseph-smith.md"
+  ],
   "last_reviewed": "2026-11-08"
 }

@@ -3,7 +3,7 @@
   "schema_version": "0.1.0",
   "id": "woh-claim-0075",
   "title": "The tent of meeting as the creators' residence",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "lifecycle": "accepted",
   "statement": "Per the canon, the sanctuary dictated at Sinai — the canon cites Exodus 26 — was a residence the Israelites built to the creators' own plans for a team staying on Earth for a time: the tent of meeting, where the creators met the people's representatives and where food and goods were brought, read as provisioning and 'a pledge of submission'; Moses' face-to-face exchanges at the tent door (Exodus 33:9-11) are read as conversation with a suited creator; the corpus records the reading at the canon's level, with the mainstream account of the Tabernacle as a priestly sanctuary tradition in its own voice.",
   "claim_kind": "interpretation",
@@ -23,7 +23,7 @@
     "excludes": [
       "Adjudication of the two-tents problem: the canon merges the tent Moses pitched 'without the camp' (Exodus 33:7) with the priestly Mishkan at the camp's centre; the record registers that the canon merges them and does not settle the source-critical question",
       "Architectural, dimensional, or material reconstruction of the structure beyond what the canon states",
-      "The cloud and the 'glory' filling the Tabernacle (Exodus 40:34-38) read as a craft; the canon makes the glory-as-craft reading at Sinai (TBWTT-3:33, Exodus 24:17), not at the Tabernacle, and extending it needs its own record",
+      "The cloud and the 'glory' filling the Tabernacle (Exodus 40:34-38) read as a craft; the canon makes the glory-as-craft reading at Sinai (TBWTT-3:32-33, Exodus 24:17), not at the Tabernacle, and extending it needs its own record",
       "Any sequence of reception sites running from the Tabernacle through the Temples to the Embassy; the canon calls Solomon's Temple 'la première résidence pour l'accueil des Elohim' (TBWTT-3:102), the continuity question is unrecorded, and the Embassy identification is woh-claim-0016's alone",
       "Historicity and dating of the wilderness period",
       "The other furnishings: the Ark is woh-claim-0040, the Menorah woh-claim-0069, and the altars, table, and laver have no record",
@@ -33,7 +33,7 @@
   "source_references": [
     {
       "source_id": "the-book-which-tells-the-truth",
-      "locator": "TBWTT-3:33-45 (the glory as craft at Sinai; the residence-to-plan, Exodus 26; the tent of meeting; Exodus 33:9-11, 20 and the suit; Leviticus 21:17 as provisioning) and TBWTT-3:95-96 (telepathy when near, the Ark transmitter when distant); TBWTT-3:37 quotes 'Il entrerait dans la tente du rendez-vous' without a citation, and the quoted passage has not been located",
+      "locator": "TBWTT-3:32-45 (the glory as craft at Sinai; the residence-to-plan, Exodus 26; the tent of meeting; Exodus 33:9-11, 20 and the suit; Leviticus 21:17 as provisioning) and TBWTT-3:95-96 (telepathy when near, the Ark transmitter when distant); TBWTT-3:37 quotes 'Il entrerait dans la tente du rendez-vous' without a citation, and the quoted passage has not been located",
       "role": "canonical_basis",
       "access": "project_digitization",
       "note": "../../source-notes/the-book-which-tells-the-truth.md"
@@ -99,6 +99,8 @@
     "Public prose begins asserting the glory-as-craft reading at the Tabernacle or a Tabernacle-to-Embassy sequence without a record, both of which this record excludes."
   ],
   "controlling_document": "../../docs/framework/tent-of-meeting-residence.md",
-  "public_derivatives": [],
+  "public_derivatives": [
+    "wheelofheaven/data-content:wiki/tabernacle.md"
+  ],
   "last_reviewed": "2026-11-08"
 }

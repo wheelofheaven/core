@@ -89,9 +89,10 @@
   ],
   "controlling_document": "../../docs/framework/elohim-plural-gloss.md",
   "public_derivatives": [
+    "wheelofheaven/data-content:articles/monotheism-is-the-wrong-question.md",
     "wheelofheaven/data-content:wiki/elohim.md",
-    "wheelofheaven/data-content:wiki/plurality-of-gods.md",
-    "wheelofheaven/data-content:articles/monotheism-is-the-wrong-question.md"
+    "wheelofheaven/data-content:wiki/hebrews.md",
+    "wheelofheaven/data-content:wiki/plurality-of-gods.md"
   ],
   "last_reviewed": "2026-10-29"
 }

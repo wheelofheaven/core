@@ -68,7 +68,8 @@
   "public_derivatives": [
     "wheelofheaven/data-content:wiki/astrobiology.md",
     "wheelofheaven/data-content:wiki/cosmic-pluralism.md",
-    "wheelofheaven/data-content:wiki/drake-equation.md"
+    "wheelofheaven/data-content:wiki/drake-equation.md",
+    "wheelofheaven/data-content:wiki/xenobiology.md"
   ],
   "last_reviewed": "2026-08-16"
 }

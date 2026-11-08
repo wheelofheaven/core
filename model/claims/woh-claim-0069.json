@@ -65,7 +65,8 @@
   ],
   "controlling_document": "../../docs/framework/menorah-base-network.md",
   "public_derivatives": [
-    "wheelofheaven/data-content:wiki/menorah.md"
+    "wheelofheaven/data-content:wiki/menorah.md",
+    "wheelofheaven/data-content:wiki/tabernacle.md"
   ],
   "last_reviewed": "2026-08-16"
 }

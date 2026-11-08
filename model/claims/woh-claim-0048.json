@@ -71,6 +71,7 @@
   ],
   "controlling_document": "../../docs/framework/samsara-recreation.md",
   "public_derivatives": [
+    "wheelofheaven/data-content:wiki/buddha.md",
     "wheelofheaven/data-content:wiki/samsara.md"
   ],
   "last_reviewed": "2026-11-08"

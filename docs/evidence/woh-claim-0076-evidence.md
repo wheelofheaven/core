@@ -19,7 +19,7 @@ tradition, so their agreement counts as one source, not three.
 | Israel team's laboratory; the man created there the most intelligent | TBWTT-2:28 | Canon-explicit (the Eden layer is woh-claim-0018's) |
 | Election by the creators' scientific jury; origin of "peuple élu" | TBWTT-2:43 | Canon-explicit |
 | Jews as direct descendants through the Genesis 6 unions | ETTMTTP-2:104, 2:123 | Canon-explicit |
-| Reader's contradiction question; harmonization with « peut-être » | LWTE-1:17–18 | Canon-explicit; **tentative in the canon's own voice** |
+| Reader's contradiction question; harmonization with « peut-être » | LWTE-1:17–18 | Canon-explicit; **tentative; Raël's commentary voice** (his answer to a reader) |
 | Message entrusted and kept | TBWTT-4:35; ETTMTTP-2:124 | Canon-explicit |
 | Bible preserved as testimony | TBWTT-5:25, 5:31 | Canon-explicit |
 | Liberation, dispersion, return | TBWTT-3:9–10, 3:140–142, 3:225, 5:24–25 | Canon-explicit; Babel (2:72, 2:76) is woh-claim-0017's, the Persian and Greek emissaries (3:214) woh-claim-0006's |

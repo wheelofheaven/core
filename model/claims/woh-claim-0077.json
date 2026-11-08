@@ -84,6 +84,10 @@
     "Public prose begins seating Joseph Smith at the table, assigning ordinals, presenting the Buddha identification as canon content, or citing Raël's commentary voice without marking it, all of which this record excludes."
   ],
   "controlling_document": "../../docs/framework/named-messengers-return.md",
-  "public_derivatives": [],
+  "public_derivatives": [
+    "wheelofheaven/data-content:wiki/buddha.md",
+    "wheelofheaven/data-content:wiki/joseph-smith.md",
+    "wheelofheaven/data-content:wiki/muhammad.md"
+  ],
   "last_reviewed": "2026-11-08"
 }

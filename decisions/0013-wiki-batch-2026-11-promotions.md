@@ -116,6 +116,17 @@ title of `woh-claim-0048` is kept for continuity.
   conditions on every derivative, and prose that drifts past them is a
   revision trigger.
 
+## Amendment (2026-11-08, after review)
+
+Independent review of the six derived wiki entries found three wording
+errors in the records promoted above. The founder directed wording-only
+revisions to 0.1.1: `woh-claim-0074` (the dictated messages' one genetic
+term, « gènes », is now stated), `woh-claim-0075` (locator TBWTT-3:32–33)
+and `woh-claim-0076` (the LWTE-1:17–18 harmonization labelled as Raël's
+commentary voice, applying decision 4). The founder also confirmed that the
+Hebrews entry keeps the canon's "jealously" (ETTMTTP-2:124) inside the
+custody clause.
+
 ## Validation and review
 
 The catalog validates after the flip. Review this ADR when a Buddhist

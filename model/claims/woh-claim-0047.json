@@ -64,7 +64,8 @@
   ],
   "controlling_document": "../../docs/framework/cosmic-competition.md",
   "public_derivatives": [
-    "wheelofheaven/data-content:wiki/cosmic-competition.md"
+    "wheelofheaven/data-content:wiki/cosmic-competition.md",
+    "wheelofheaven/data-content:wiki/xenobiology.md"
   ],
   "last_reviewed": "2026-08-16"
 }
