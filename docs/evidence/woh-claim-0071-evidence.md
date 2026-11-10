@@ -49,6 +49,13 @@ E p. 327. Absent from the 2005 French combined edition.
 | Geological and climatic upheaval; the survivors' return to an unrecognizable continent | E p. 332; D English `n=43–44` | Signed essay |
 | Dinosaurs and other large reptiles not re-implanted after the Flood | D French `n=54` | Signed essay; bears on `wiki/dragons.md`, not on this record |
 
+## Canonical layer — tier (c), Raël's commentary
+
+| Element | Locator | Grade |
+| --- | --- | --- |
+| Dating methods err by assuming constant atomic behaviour; « rien n'est constant dans l'univers ni dans l'espace ni dans le temps »; refers readers to *Évolution ou Création* | `LWTE-1:28–29` | Raël answering a reader (commentary voice), project digitization; registered, not adopted as a mechanism |
+| At the beginning the continents moved apart « de plusieurs centaines de kilomètres chaque année »; a one-night metre-scale rift near Arabia as illustration | `LWTE-1:30–31` | Same |
+
 ## The cited study
 
 | Item | Locator | Status |

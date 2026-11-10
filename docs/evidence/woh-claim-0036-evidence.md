@@ -1,7 +1,7 @@
 ---
 title: "Evidence map: The design signature and the natural designers"
 status: draft
-version: 0.1.0
+version: 0.2.0
 last_reviewed: 2026-08-16
 claim_id: woh-claim-0036
 ---
@@ -25,11 +25,16 @@ Serves
 | --- | --- | --- |
 | Crick–Orgel, directed panspermia (Icarus 19, metadata_only) | A created-life hypothesis is scientifically stateable — the epistemic principles' own worked example | That the event happened |
 | Minimal-genome synthesis (metadata_only) | Design of life is an existing engineering practice | That terrestrial life was designed |
+| Crick, *Life Itself* (1981; `crick-life-itself`, metadata_only) | A Nobel-laureate argument that an unguided terrestrial origin is hard to account for, developed into directed panspermia | Mainstream acceptance; it is reported as a minority position |
+| Hoyle and Wickramasinghe, *Lifecloud* (1978; `hoyle-wickramasinghe-lifecloud`, metadata_only) | Improbability of an unguided terrestrial origin argued with panspermia | Same; the replies are carried in the critical layer |
 
 ## The honesty clause (the record's spine)
 
-No biological evidence currently discriminates designed from evolved
-terrestrial life. The discriminating-test trigger cuts both ways: a
+The canon's premise that terrestrial life was designed is stated directly
+(woh-claim-0001). Mainstream biology does not accept that design has been
+detected; a minority of scientists have argued for deliberate seeding
+(Crick and Orgel; Crick) or for the improbability of an unguided origin
+(Hoyle and Wickramasinghe), and the corpus reports them as such. The discriminating-test trigger cuts both ways: a
 surviving test moves this record whichever way it points.
 
 ## Critical layer

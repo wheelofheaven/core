@@ -357,7 +357,7 @@
     {
       "id": "woh-claim-0036",
       "title": "The design signature and the natural designers",
-      "version": "0.1.0",
+      "version": "0.2.0",
       "lifecycle": "accepted",
       "claim_kind": "interpretation",
       "framework_relation": "comparative",
@@ -707,7 +707,7 @@
     {
       "id": "woh-claim-0071",
       "title": "Continental breakup at the Flood",
-      "version": "0.3.0",
+      "version": "0.3.1",
       "lifecycle": "accepted",
       "claim_kind": "interpretation",
       "framework_relation": "derived",

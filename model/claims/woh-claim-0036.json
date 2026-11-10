@@ -3,9 +3,9 @@
   "schema_version": "0.1.0",
   "id": "woh-claim-0036",
   "title": "The design signature and the natural designers",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "lifecycle": "accepted",
-  "statement": "The corpus engages the design-inference debate on a distinctive footing: it takes seriously the intuition that cellular life carries signatures of engineering (the intuition Meyer's programme argues and Dawkins conceded as a hypothetical), while rejecting the supernatural designer of the intelligent-design movement — the canon's designers are natural, evolved elsewhere, themselves created (woh-claim-0030), and empirically formulable in the way Crick and Orgel's directed panspermia showed; the corpus's claim is that this position is coherent and stateable, and that its truth would require exactly the kind of biological evidence that has not been produced.",
+  "statement": "The corpus engages the design-inference debate on a distinctive footing: the canon's premise that terrestrial life was designed by the Elohim (woh-claim-0001) is stated directly; the corpus reports, in their own voice and with the critical replies, the scientists who have argued that life may have been deliberately seeded (Crick and Orgel's directed panspermia; Crick's Life Itself) or that its unguided origin is mathematically improbable, usually alongside panspermia (Hoyle and Wickramasinghe); and it rejects the supernatural designer of the intelligent-design movement — the canon's designers are natural, evolved elsewhere, themselves created (woh-claim-0030). Mainstream biology does not accept that design has been detected; a minority of scientists have argued for seeding or for the improbability of an unguided origin, and the corpus reports them as such.",
   "claim_kind": "interpretation",
   "framework_relation": "comparative",
   "evidence_status": [
@@ -15,16 +15,17 @@
   "public_label": "speculative",
   "scope": {
     "includes": [
+      "The canon's premise, stated directly: terrestrial life, humanity included, was designed and engineered by the Elohim (woh-claim-0001)",
       "The position statement: natural, non-supernatural designers as a third option between the ID movement's designer and unguided abiogenesis — with the created-creators chain (woh-claim-0030) absorbing the regress objection Dawkins raised in the moment the article anchors on",
-      "The formulability layer: directed panspermia as the peer-reviewed demonstration that a created-life hypothesis can be scientifically stated (formulability, never evidence — the epistemic principles' own example)",
+      "The minority scientific literature, reported in its own voice with its replies: directed panspermia, the proposal that life may have been deliberately seeded (Crick and Orgel 1973; Crick 1981), and the improbability of an unguided terrestrial origin argued with panspermia (Hoyle and Wickramasinghe)",
       "The engagement with Meyer at the article's hinge: what the signature argument would need to show, and where the corpus's position departs from the ID movement's",
-      "The honesty clause, which is the record's spine: no biological evidence currently discriminates designed from evolved terrestrial life, and the corpus says so"
+      "The honesty clause, which is the record's spine: mainstream biology does not accept that design has been detected in terrestrial life; a minority of scientists have argued for deliberate seeding or for the improbability of an unguided origin, and the corpus reports them as a minority position"
     ],
     "excludes": [
-      "Any claim that design has been detected in terrestrial biology; the record asserts coherence and stateability, not detection",
+      "Presenting the detection of design as established science or as mainstream consensus; the minority arguments are reported in their own voice, with the replies",
       "Endorsement of the ID movement's arguments, institutions, or designer",
       "The synthetic-biology analogy as proof (minimal-genome engineering shows design is possible, not that it happened)",
-      "Probability arguments over abiogenesis, which the corpus does not model"
+      "The corpus's own probability modelling of abiogenesis; others' improbability arguments are reported, not computed"
     ]
   },
   "source_references": [
@@ -52,6 +53,18 @@
       "locator": "The synthetic-genome work as possibility demonstration (design of life is an existing engineering practice)",
       "role": "scientific_context",
       "access": "metadata_only"
+    },
+    {
+      "source_id": "crick-life-itself",
+      "locator": "The book-length development of directed panspermia and of the difficulty of an unguided terrestrial origin (locator not verified)",
+      "role": "scientific_context",
+      "access": "metadata_only"
+    },
+    {
+      "source_id": "hoyle-wickramasinghe-lifecloud",
+      "locator": "The improbability of an unguided terrestrial origin argued together with panspermia (locator not verified)",
+      "role": "scientific_context",
+      "access": "metadata_only"
     }
   ],
   "dependencies": [
@@ -75,12 +88,12 @@
   "revision_triggers": [
     "Claim woh-claim-0001 or woh-claim-0030 is revised or retired.",
     "A discriminating biological test between designed and evolved terrestrial life is proposed and survives review — in either direction, this record must move.",
-    "Public prose begins asserting detection or endorsing ID-movement arguments, both of which this record excludes.",
+    "Public prose begins presenting design detection as established science or mainstream consensus, or endorsing ID-movement arguments, both of which this record excludes.",
     "The article's Meyer engagement is revised at its hinge."
   ],
   "controlling_document": "../../docs/framework/design-signature-natural-designers.md",
   "public_derivatives": [
     "wheelofheaven/data-content:articles/the-signature-and-the-designers.md"
   ],
-  "last_reviewed": "2026-08-16"
+  "last_reviewed": "2026-11-10"
 }

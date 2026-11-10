@@ -23,3 +23,4 @@ superseding ADR and update both records; accepted history is not rewritten.
 | [0011](0011-sendy-comparison-promotion.md) | Accepted | Promote woh-claim-0072 (Sendy and the Messages) at 0.2.0 to accepted; catalog again carries no draft records |
 | [0012](0012-dragons-passage-promotion.md) | Accepted | Promote woh-claim-0073 (the dragons passage as compositional signature) at 0.1.0 to accepted; catalog again carries no draft records |
 | [0013](0013-wiki-batch-2026-11-promotions.md) | Accepted | Promote woh-claim-0074–0079 (wiki batch: Xenobiology, Tabernacle, Hebrews, Buddha, Joseph Smith) at 0.1.0; revise 0024, 0038, 0048; Buddha = Siddhārtha Gautama (no Maitreya); Raël's commentary voice is canon, always marked |
+| [0014](0014-canon-consistency-rulings-2026-11.md) | Accepted | Founder rulings from the 2026-11 canon-consistency scan; 0036 to 0.2.0 (design premise direct, minority detection arguments reported), 0071 to 0.3.1 (Raël's dating commentary registered) |

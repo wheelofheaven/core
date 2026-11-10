@@ -1,7 +1,7 @@
 ---
 title: Continental breakup at the Flood
 status: accepted
-version: 0.3.0
+version: 0.3.1
 last_reviewed: 2026-09-15
 claim_id: woh-claim-0071
 ---
@@ -73,6 +73,21 @@ Two tiers of source, of different standing, kept distinct:
    résiduelle"* of present-day drift (`n=40–41`) — which is where the
    corpus's residual-momentum reading comes from. The 2005 French combined
    edition of the messages omits the chapter altogether.
+
+3. **Raël's own commentary, answering readers** (*Let's Welcome the
+   Extraterrestrials*, ch. 1, `LWTE-1:28–31`; commentary voice, not a
+   dictated Message — labelled as such per ADR 0013). Asked about
+   radiometric dates, Raël answers that the methods err by assuming that
+   « le comportement atomique actuel a toujours été le même », « car rien
+   n'est constant dans l'univers ni dans l'espace ni dans le temps »
+   (¶28–29, pointing readers to the creationist book *Évolution ou
+   Création*). Asked how a 25,000-year-old continent could have drifted
+   thousands of kilometres, he answers that « au commencement, ils
+   s'éloignaient de plusieurs centaines de kilomètres chaque année »
+   (¶31). The corpus registers this as the canon's commentary layer on
+   dating and drift. It does not adopt non-constant decay as a reconciling
+   mechanism: the record keeps the planet's deep age and offers no
+   mechanism, and a stated mechanism would still be a new record.
 
 The corpus has treated the whole volume as canon. Whether a guide's essay
 printed with the message carries canonical weight is a stance question
@@ -167,3 +182,11 @@ drifting to a young planet, a denied breakup, or specified impact sites.
 - `wheelofheaven/data-content:wiki/great-flood.md`
 - `wheelofheaven/data-content:timeline/age-of-gemini.md`
 - `wheelofheaven/data-content:articles/the-signature-and-the-designers.md`
+
+## Revision 0.3.1 (2026-11-10)
+
+Source revision at the founder's direction: Raël's commentary at
+LWTE-1:28–31 (non-constant atomic behaviour; drift of several hundred
+kilometres a year at the beginning) is registered as the canon's
+commentary layer, labelled as his commentary. The corpus does not adopt it
+as a reconciling mechanism. Statement, label, status and scope unchanged.
