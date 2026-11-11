@@ -31,7 +31,7 @@ a contact. It is a compilation in several voices:
 | 1 *Questions Revenant le Plus Souvent* | Readers' questions (marked "Question:") answered by Raël in his own voice |
 | 2 *Nouvelles Révélations* | Raël's presentation of further revelations. Internal voice structure not inspected for this note |
 | 3 *Une Religion Athée* | A continuous essay in Raël's own voice, signed "RAEL" with the movement's Geneva address (`LWTE-3:88`) |
-| 4 *Commentaires et Témoignages de Raëliens* | Signed contributions by Raëlians, not by Raël. One is Marcel Terrusse's essay (`LWTE-4:26–46`), per `woh-claim-0071`'s specification; not re-inspected here |
+| 4 *Commentaires et Témoignages de Raëliens* | Signed contributions by Raëlians, not by Raël. Marcel Terrusse's essay *Le Raëlisme sous l'œil de la science* runs `LWTE-4:1–79` in three sections (I `4:1–25`; II, the new history of humanity, `4:26–58`, whose continental-breakup passage `4:26–46` is the one `woh-claim-0071` cites; III, the Raëlian baptism, `4:59–79`); a second Terrusse piece begins at `4:95` (the gene-synthesis testimony at `4:129`, cited by `woh-claim-0074`). Inspected 2026-11-11 in the data-library chapter file |
 
 **Voice rule (founder direction, 2026-11-08):** Raël's own commentary
 voice in this book is canon. Every use must be labelled as Raël's
