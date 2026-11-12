@@ -968,6 +968,22 @@
    "note": "docs/research/canon-close-reading/first-printings.md",
    "rechecked": true,
    "wave": 5
+  },
+  {
+   "id": "H08",
+   "kind": "finding",
+   "title": "A 1989 printing gives the rocket journey as \"près de 90 000 ans\"; the later text has 26 000",
+   "summary": "Yahweh's voice. Nine thousand billion kilometres at 40,000 km/h is about 25,700 years, so the later figure is the one that closes. OCR reading of digits; to confirm on the page image. Also after 1989: the parasang sentence and the two-child sentence are reworded.",
+   "refs": [
+    "TBWTT-5:52",
+    "TBWTT-7:13"
+   ],
+   "claims": [
+    "woh-claim-0021"
+   ],
+   "note": "docs/research/canon-close-reading/first-printings.md",
+   "rechecked": true,
+   "wave": 5
   }
  ]
 }

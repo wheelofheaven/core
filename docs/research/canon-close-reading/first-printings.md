@@ -81,6 +81,17 @@ Machine-checked later wording: QUOTE[TBWTT-3:16]: «(...) il mit ainsi la mer à
 3. Not every change goes toward the source: at Matthew 5:3 the Pléiade New Testament and the early printings read "par esprit" and the later text "par l'esprit".
 4. In 2 Kings 4:42 the early text had the man of God bring the loaves; the later text restores the verse, in which a man brings them to him. The commentary that follows was not compared.
 
+### 2.1 Other changes in book 1 after 1989
+
+**TEXT.** Read in the OCR of B1-1989 against the later text.
+
+- The rocket journey: B1-1989, p. 114: "Avec vos fusées actuelles qui ne se déplacent qu'à 40 000 km/h, vous mettriez près de 90 000 ans avant d'ariver jusqu'à nous." Later: QUOTE[TBWTT-5:52]: vous mettriez près de 26 000 ans avant d’arriver jusqu’à nous ENDQUOTE The distance given in the same sentence (nine thousand billion kilometres) divided by 40,000 km/h is about 25,700 years, so the later figure is the one that closes; `numerics.md` recorded the sum as closing on the later text. The 2005 English has 26,000. **OPEN:** "90 000" is an OCR reading of digits and should be confirmed on the page image; what the 1974 printing had is unknown.
+- The parasang sentence: 1989 "Le parasange est une unité de mesure comme le parsec, qui signifie la distance que parcourt la lumière en une seconde"; later "Le parasange qui, comme le parsec, est une unité de mesure, équivaut à la distance…".
+- The two-child rule: 1989 "Si deux égale deux, la population arrivera à ne plus augmenter"; later "Si chaque couple n'engendre que deux enfants" (TBWTT-7:13).
+- Vocabulary: "anti-gravitiques" becomes "antigravitationnelles" (TBWTT-3:163); "afin que l'humanité survive" becomes "afin que les hommes survivent" (TBWTT-4:61).
+
+The collation located 655 of 659 paragraphs of book 1 in B1-1989. No paragraph of the later text is missing from the 1989 printing and no sentence of 1989 was found missing later, apart from the editorial caption at TBWTT-3:305, which 1989 lacks.
+
 ## 3. Statements about the first printing of book 1 that rest on other people's reading
 
 **TEXT, second hand.** Not seen by me in a 1974 copy.
