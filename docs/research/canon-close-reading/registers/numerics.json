@@ -1,0 +1,2563 @@
+{
+ "key": "numerics",
+ "date": "2026-11-12",
+ "source_of_record": "texts/{TBWTT,ETTMTTP,LWTE}.fr.txt",
+ "register_count": 213,
+ "class_key": {
+  "K": "canon doctrine/cosmology",
+  "C": "contact narrative",
+  "B": "biography/movement",
+  "Q": "biblical or quoted figure glossed by canon",
+  "H": "hypothetical/illustration",
+  "P": "prescription",
+  "W": "third-party witness (LWTE ch.4)"
+ },
+ "derived_arithmetic": [
+  {
+   "id": "D01",
+   "inputs": [
+    "TBWTT-5:51",
+    "TBWTT-5:52"
+   ],
+   "sum": "30,000,000 parasangs x 300,000 km = 9.0e12 km",
+   "stated": "neuf mille milliards de kilomètres",
+   "closes": true
+  },
+  {
+   "id": "D02",
+   "inputs": [
+    "TBWTT-5:53"
+   ],
+   "sum": "236,000 x 300,000 km = 7.08e10 km",
+   "stated": "70 milliards huit cent millions",
+   "closes": true
+  },
+  {
+   "id": "D03",
+   "inputs": [
+    "TBWTT-5:52"
+   ],
+   "sum": "9.0e12 km / 300,000 km/s = 3.0e7 s = 347 d",
+   "stated": "presque un an",
+   "closes": true
+  },
+  {
+   "id": "D04",
+   "inputs": [
+    "TBWTT-5:52"
+   ],
+   "sum": "9.0e12 km / 40,000 km/h = 2.25e8 h = c. 25,670 yr",
+   "stated": "près de 26 000 ans",
+   "closes": true
+  },
+  {
+   "id": "D05",
+   "inputs": [
+    "TBWTT-5:52",
+    "TBWTT-5:53"
+   ],
+   "sum": "347 d / 7 = 49.6 d",
+   "stated": "moins de deux mois",
+   "closes": true
+  },
+  {
+   "id": "D06",
+   "inputs": [
+    "TBWTT-5:52"
+   ],
+   "sum": "9.0e12 / 9.46e12 = 0.95 ly",
+   "stated": "un peu moins d'une année lumière",
+   "closes": true,
+   "outside_constant": "light-year in km"
+  },
+  {
+   "id": "D07",
+   "inputs": [
+    "TBWTT-7:56",
+    "TBWTT-7:30"
+   ],
+   "sum": "25,000 yr / 25 bodies = 1,000 yr",
+   "stated": "mille de vos années",
+   "closes": true
+  },
+  {
+   "id": "D08",
+   "inputs": [
+    "TBWTT-7:13",
+    "TBWTT-7:30"
+   ],
+   "sum": "75 x 10 = 750",
+   "stated": "750-1,200; 1,000 per body",
+   "closes": "lower bound only"
+  },
+  {
+   "id": "D09",
+   "inputs": [
+    "TBWTT-7:13",
+    "TBWTT-7:15",
+    "TBWTT-7:46",
+    "TBWTT-7:30"
+   ],
+   "sum": "stationary population: minors = childhood/lifespan = 1.5-2.8% = 105-196 million",
+   "stated": "40 million",
+   "closes": false,
+   "gap": "factor 2.6-4.9"
+  },
+  {
+   "id": "D10",
+   "inputs": [
+    "TBWTT-7:46",
+    "TBWTT-7:19"
+   ],
+   "sum": "7 provinces x 10 = 70/yr",
+   "stated": "70 par an",
+   "closes": true
+  },
+  {
+   "id": "D11",
+   "inputs": [
+    "TBWTT-7:46",
+    "TBWTT-7:31",
+    "TBWTT-7:30"
+   ],
+   "sum": "70/yr x 3 existences (~3,000 yr) = ~210,000 probationers",
+   "stated": "210",
+   "closes": false,
+   "note": "210 = 3 years of intake"
+  },
+  {
+   "id": "D12",
+   "inputs": [
+    "TBWTT-7:19"
+   ],
+   "sum": "7 + 2 = 9",
+   "stated": "neuf",
+   "closes": true
+  },
+  {
+   "id": "D13",
+   "inputs": [
+    "ETTMTTP-2:50",
+    "ETTMTTP-2:54"
+   ],
+   "sum": "8,400 + 700 = 9,100; x ~10 = 91,000",
+   "stated": "un peu plus de neuf mille; environ quatre-vingt-dix mille",
+   "closes": true
+  },
+  {
+   "id": "D14",
+   "inputs": [
+    "LWTE-2:208"
+   ],
+   "sum": "666 x 20 = 13,320",
+   "stated": "treize mille trois cent vingt",
+   "closes": true,
+   "project_derivation": "1945 - 13,320 = 11,375 BCE (not in canon)"
+  },
+  {
+   "id": "D15",
+   "inputs": [
+    "ETTMTTP-2:43",
+    "TBWTT-2:10",
+    "LWTE-2:208"
+   ],
+   "sum": "25,000 - 6 x 2,000 = 13,000",
+   "stated": "environ treize mille ans (never summed in text)",
+   "closes": true,
+   "note": "six-day count supplied from Genesis; fails with 2,160 (12,040)"
+  },
+  {
+   "id": "D16",
+   "inputs": [
+    "TBWTT-5:4",
+    "ETTMTTP-2:43"
+   ],
+   "sum": "25,000 - 22,000 = 3,000 = 1.5 'days'",
+   "stated": null,
+   "closes": "reconcilable only as decision-after-survey"
+  },
+  {
+   "id": "D17",
+   "inputs": [
+    "ETTMTTP-3:172",
+    "LWTE-1:2",
+    "LWTE-2:2",
+    "LWTE-4:219"
+   ],
+   "sum": "1946=1 -> 1975=30, 1976=31, 1979=34",
+   "stated": "30; 31; 34; but 22 May 1979 = an 33",
+   "closes": "3 of 4"
+  },
+  {
+   "id": "D18",
+   "inputs": [
+    "TBWTT-6:8"
+   ],
+   "sum": "21 + 49 = 70",
+   "stated": "soixante-dix ans (21 +49)",
+   "closes": true
+  },
+  {
+   "id": "D19",
+   "inputs": [
+    "TBWTT-3:234",
+    "TBWTT-3:235"
+   ],
+   "sum": "20 cubits = 9 m; 10 cubits = 4.50 m (0.45 m/cubit)",
+   "stated": "9 mètres; 4,50 mètres",
+   "closes": true
+  },
+  {
+   "id": "D20",
+   "inputs": [
+    "TBWTT-3:138"
+   ],
+   "sum": "20 loaves x 5 = 100 men",
+   "stated": "cent hommes",
+   "closes": true
+  },
+  {
+   "id": "D21",
+   "inputs": [
+    "ETTMTTP-1:7"
+   ],
+   "sum": "1945-12-25 to 1946-09-30 = 279 days",
+   "stated": null,
+   "closes": "plausible"
+  },
+  {
+   "id": "D22",
+   "inputs": [
+    "LWTE-1:47",
+    "LWTE-4:42",
+    "LWTE-1:31"
+   ],
+   "sum": "Flood ~5,000 BP; breakup at Flood => Atlantic opens in ~5,000 yr (order 1 km/yr) vs Raël's 25,000-yr drift",
+   "stated": null,
+   "closes": false
+  }
+ ],
+ "tensions": [
+  {
+   "id": "T01",
+   "refs": [
+    "TBWTT-7:56",
+    "TBWTT-7:21",
+    "TBWTT-5:56",
+    "ETTMTTP-2:43",
+    "LWTE-1:13",
+    "LWTE-1:30",
+    "LWTE-1:31"
+   ],
+   "text": "25,000 used for Yahweh's age, the scientific lead, the landing, and the creation of life/continent"
+  },
+  {
+   "id": "T02",
+   "refs": [
+    "TBWTT-7:31",
+    "TBWTT-7:56",
+    "ETTMTTP-2:43"
+   ],
+   "text": "council-of-eternals scientists initiate off-world creation, but the first eternal is no older than the landing"
+  },
+  {
+   "id": "T03",
+   "refs": [
+    "TBWTT-5:4",
+    "ETTMTTP-2:43"
+   ],
+   "text": "22,000 (decision) vs 25,000 (landing)"
+  },
+  {
+   "id": "T04",
+   "refs": [
+    "TBWTT-2:10",
+    "TBWTT-5:12",
+    "TBWTT-5:4"
+   ],
+   "text": "canon day ~2,000 yr and Pisces from the crucifixion vs project 2,160 and 210 BCE"
+  },
+  {
+   "id": "T05",
+   "refs": [
+    "TBWTT-5:1",
+    "TBWTT-5:4",
+    "ETTMTTP-3:172",
+    "LWTE-2:208",
+    "LWTE-3:79",
+    "LWTE-3:26",
+    "LWTE-4:219"
+   ],
+   "text": "era epoch 1946 vs 1945; an 33 vs an 34 for 1979"
+  },
+  {
+   "id": "T06",
+   "refs": [
+    "TBWTT-5:52",
+    "LWTE-1:26",
+    "LWTE-1:27",
+    "TBWTT-5:57"
+   ],
+   "text": "<1 light-year vs ~4 ly nearest star; distance published vs location withheld"
+  },
+  {
+   "id": "T07",
+   "refs": [
+    "TBWTT-5:53",
+    "ETTMTTP-2:43"
+   ],
+   "text": "7c / two months present tense in book 1, back-dated 25,000 years in book 2"
+  },
+  {
+   "id": "T08",
+   "refs": [
+    "TBWTT-7:45",
+    "ETTMTTP-2:50",
+    "ETTMTTP-3:193"
+   ],
+   "text": "eternals on the home planet (book 1) vs separate planet of the eternals (book 2); its distance never stated"
+  },
+  {
+   "id": "T09",
+   "refs": [
+    "TBWTT-7:46",
+    "TBWTT-7:31",
+    "TBWTT-7:30",
+    "TBWTT-7:13"
+   ],
+   "text": "40 million children, 210 probationers, 700 perpetual members do not close with stated lifespans and rates"
+  },
+  {
+   "id": "T10",
+   "refs": [
+    "TBWTT-7:13",
+    "TBWTT-7:30",
+    "TBWTT-7:46",
+    "ETTMTTP-2:53"
+   ],
+   "text": "lifespan x10 / 750-1,200 / 1,000 / >750 / ~700"
+  },
+  {
+   "id": "T11",
+   "refs": [
+    "LWTE-2:208",
+    "TBWTT-2:49",
+    "TBWTT-7:46"
+   ],
+   "text": "20-year generation vs 900-year first humans"
+  },
+  {
+   "id": "T12",
+   "refs": [
+    "LWTE-1:31",
+    "LWTE-4:42",
+    "LWTE-4:40",
+    "TBWTT-2:76",
+    "LWTE-1:47"
+   ],
+   "text": "continental drift dated from the creation (Raël), from the Flood (Terrusse); single continent still after Babel (Yahweh)"
+  },
+  {
+   "id": "T13",
+   "refs": [
+    "TBWTT-4:49",
+    "LWTE-2:98",
+    "LWTE-1:15"
+   ],
+   "text": "three successes vs an infinity of created planets / creations"
+  },
+  {
+   "id": "T14",
+   "refs": [
+    "LWTE-2:68",
+    "LWTE-2:96",
+    "LWTE-2:231"
+   ],
+   "text": "survival odds 1/10 vs 1/100"
+  },
+  {
+   "id": "T15",
+   "refs": [
+    "TBWTT-1:47",
+    "LWTE-2:79",
+    "LWTE-2:209"
+   ],
+   "text": "'first atomic explosion' 1945 specified as Hiroshima 6 Aug (outside: Trinity, July 1945)"
+  }
+ ],
+ "null_results": [
+  "précession: 0 occurrences",
+  "zodiaque/zodiacal: 0",
+  "2160 / 25920 / 21810 / 11375: 0",
+  "sign names as ages: only Poissons and Verseau",
+  "sept équipes / sept races: 0 (number of teams unstated, TBWTT-2:25)",
+  "no BCE date anywhere",
+  "no distance for the planet of the eternals",
+  "no end date for Aquarius",
+  "'douze' never applied to signs or ages"
+ ],
+ "project_vs_canon": [
+  {
+   "project": "2,160-year ages",
+   "in_canon": false,
+   "canon": "deux mille ans terrestres environ (TBWTT-2:10)"
+  },
+  {
+   "project": "-21,810 cycle opening",
+   "in_canon": false,
+   "canon": "22,000 since decision (TBWTT-5:4); 25,000 since landing (ETTMTTP-2:43)"
+  },
+  {
+   "project": "11,375 BCE",
+   "in_canon": false,
+   "canon": "13,320 years and 1945 stated (LWTE-2:208); subtraction is the project's"
+  },
+  {
+   "project": "666 generations x ?",
+   "in_canon": true,
+   "canon": "x 20 years = 13,320 (LWTE-2:208)"
+  },
+  {
+   "project": "seven teams",
+   "in_canon": false,
+   "canon": "teams = human races, unnumbered (TBWTT-2:25); seven bases (TBWTT-3:292); seven provinces (TBWTT-7:19)"
+  },
+  {
+   "project": "Aquarius from 1950",
+   "in_canon": false,
+   "canon": "depuis 1946 (TBWTT-5:4); Apocalypse age depuis 1945 (LWTE-3:79)"
+  }
+ ],
+ "register": [
+  {
+   "id": "N001",
+   "ref": "TBWTT-1:1",
+   "fr": "Depuis l’âge de neuf ans",
+   "value": "9",
+   "unit": "years (age)",
+   "quantifies": "age at which Raël's passion for motor sport began",
+   "voice": "Raël",
+   "cls": "B"
+  },
+  {
+   "id": "N002",
+   "ref": "TBWTT-1:1",
+   "fr": "voilà trois ans",
+   "value": "3",
+   "unit": "years",
+   "quantifies": "time since he founded his motoring magazine (i.e. c. 1970-71)",
+   "voice": "Raël",
+   "cls": "B"
+  },
+  {
+   "id": "N003",
+   "ref": "TBWTT-1:1",
+   "fr": "une dizaine de coupes",
+   "value": "~10",
+   "unit": "trophies",
+   "quantifies": "racing cups won",
+   "voice": "Raël",
+   "cls": "B"
+  },
+  {
+   "id": "N004",
+   "ref": "TBWTT-1:2",
+   "fr": "ce matin du 13 décembre 1973",
+   "value": "1973-12-13",
+   "unit": "date",
+   "quantifies": "first encounter",
+   "voice": "Raël",
+   "cls": "C"
+  },
+  {
+   "id": "N005",
+   "ref": "TBWTT-1:3",
+   "fr": "voici quelques milliers d’années",
+   "value": "a few thousand",
+   "unit": "years ago",
+   "quantifies": "when lava last flowed at the Auvergne volcano (Raël's own remark)",
+   "voice": "Raël",
+   "cls": "B"
+  },
+  {
+   "id": "N006",
+   "ref": "TBWTT-1:4",
+   "fr": "une vingtaine de mètres d’altitude",
+   "value": "~20",
+   "unit": "m",
+   "quantifies": "altitude of craft when first seen as flattened",
+   "voice": "Raël",
+   "cls": "C"
+  },
+  {
+   "id": "N007",
+   "ref": "TBWTT-1:4",
+   "fr": "environ sept mètres de diamètre",
+   "value": "~7",
+   "unit": "m",
+   "quantifies": "diameter of the small craft",
+   "voice": "Raël",
+   "cls": "C"
+  },
+  {
+   "id": "N008",
+   "ref": "TBWTT-1:4",
+   "fr": "haute d’environ deux mètres cinquante",
+   "value": "~2.5",
+   "unit": "m",
+   "quantifies": "height of the small craft",
+   "voice": "Raël",
+   "cls": "C"
+  },
+  {
+   "id": "N009",
+   "ref": "TBWTT-1:5",
+   "fr": "s’immobilisa à deux mètres du sol",
+   "value": "2",
+   "unit": "m",
+   "quantifies": "hover height",
+   "voice": "Raël",
+   "cls": "C"
+  },
+  {
+   "id": "N010",
+   "ref": "TBWTT-1:6",
+   "fr": "sa taille voisine d’un mètre vingt",
+   "value": "~1.20",
+   "unit": "m",
+   "quantifies": "stature of the Eloha",
+   "voice": "Raël",
+   "cls": "C"
+  },
+  {
+   "id": "N011",
+   "ref": "TBWTT-1:6",
+   "fr": "une dizaine de mètres de moi",
+   "value": "~10",
+   "unit": "m",
+   "quantifies": "distance at which the Eloha stopped",
+   "voice": "Raël",
+   "cls": "C"
+  },
+  {
+   "id": "N012",
+   "ref": "TBWTT-1:22",
+   "fr": "père de deux enfants",
+   "value": "2",
+   "unit": "children",
+   "quantifies": "Raël's children in 1973",
+   "voice": "Yahweh",
+   "cls": "B"
+  },
+  {
+   "id": "N013",
+   "ref": "TBWTT-1:41",
+   "fr": "deux fauteuils face à face",
+   "value": "2",
+   "unit": "seats",
+   "quantifies": "seats in small craft",
+   "voice": "Raël",
+   "cls": "C"
+  },
+  {
+   "id": "N014",
+   "ref": "TBWTT-1:47",
+   "fr": "la première explosion atomique qui eut lieu en 1945 et vous êtes né en 1946",
+   "value": "1945; 1946",
+   "unit": "years",
+   "quantifies": "first atomic explosion; Raël's birth year",
+   "voice": "Yahweh",
+   "cls": "K"
+  },
+  {
+   "id": "N015",
+   "ref": "TBWTT-1:64",
+   "fr": "jusqu’à environ 400 mètres",
+   "value": "~400",
+   "unit": "m",
+   "quantifies": "altitude before craft vanished (day 1)",
+   "voice": "Raël",
+   "cls": "C"
+  },
+  {
+   "id": "N016",
+   "ref": "TBWTT-2:10",
+   "fr": "soit deux mille ans terrestres environ",
+   "value": "~2,000",
+   "unit": "Earth years",
+   "quantifies": "length of a Genesis \"day\" = period the sun rises in the same sign at the spring equinox",
+   "voice": "Yahweh",
+   "cls": "K"
+  },
+  {
+   "id": "N017",
+   "ref": "TBWTT-2:25",
+   "fr": "chaque race humaine correspond à une équipe de créateurs",
+   "value": "unspecified (\"easy to find\")",
+   "unit": "teams",
+   "quantifies": "number of creator teams = number of human races; no figure given",
+   "voice": "Yahweh",
+   "cls": "K"
+  },
+  {
+   "id": "N018",
+   "ref": "TBWTT-2:43",
+   "fr": "dix fois plus longtemps",
+   "value": "x10",
+   "unit": "ratio",
+   "quantifies": "hypothetical human lifespan with life-extension",
+   "voice": "Yahweh",
+   "cls": "K"
+  },
+  {
+   "id": "N019",
+   "ref": "TBWTT-2:49",
+   "fr": "Adam neuf cent trente ans, Seth neuf cent douze ans, Énosh neuf cent cinq ans",
+   "value": "930; 912; 905",
+   "unit": "years",
+   "quantifies": "Genesis 5 lifespans, accepted as real (\"tree of life\")",
+   "voice": "Yahweh",
+   "cls": "Q"
+  },
+  {
+   "id": "N020",
+   "ref": "TBWTT-2:52",
+   "fr": "Ses jours seront de cent vingt ans",
+   "value": "120",
+   "unit": "years",
+   "quantifies": "Gen 6:3, quoted",
+   "voice": "Yahweh",
+   "cls": "Q"
+  },
+  {
+   "id": "N021",
+   "ref": "TBWTT-2:58",
+   "fr": "à quelques milliers de kilomètres au-dessus de la Terre",
+   "value": "a few thousand",
+   "unit": "km",
+   "quantifies": "orbital altitude of the ark during the Flood strike",
+   "voice": "Yahweh",
+   "cls": "K"
+  },
+  {
+   "id": "N022",
+   "ref": "TBWTT-2:61",
+   "fr": "durant cent cinquante jours",
+   "value": "150",
+   "unit": "days",
+   "quantifies": "Gen 7:24, quoted",
+   "voice": "Yahweh",
+   "cls": "Q"
+  },
+  {
+   "id": "N023",
+   "ref": "TBWTT-2:62",
+   "fr": "la fusée à trois étages",
+   "value": "3",
+   "unit": "stages",
+   "quantifies": "the ark as three-stage rocket (from Gen 6:16)",
+   "voice": "Yahweh",
+   "cls": "K"
+  },
+  {
+   "id": "N024",
+   "ref": "TBWTT-2:62",
+   "fr": "un couple de chaque race humaine",
+   "value": "1 couple per race",
+   "unit": "people",
+   "quantifies": "human cargo of the ark besides Noah",
+   "voice": "Yahweh",
+   "cls": "K"
+  },
+  {
+   "id": "N025",
+   "ref": "TBWTT-2:78",
+   "fr": "deux espions",
+   "value": "2",
+   "unit": "persons",
+   "quantifies": "scouts sent to Sodom",
+   "voice": "Yahweh",
+   "cls": "K"
+  },
+  {
+   "id": "N026",
+   "ref": "TBWTT-2:92",
+   "fr": "à 400 mètres environ",
+   "value": "~400",
+   "unit": "m",
+   "quantifies": "altitude at which craft glowed and vanished (day 2)",
+   "voice": "Raël",
+   "cls": "C"
+  },
+  {
+   "id": "N027",
+   "ref": "TBWTT-3:75",
+   "fr": "les 300 hommes",
+   "value": "300",
+   "unit": "men",
+   "quantifies": "Gideon's men (Judges 7)",
+   "voice": "Yahweh",
+   "cls": "Q"
+  },
+  {
+   "id": "N028",
+   "ref": "TBWTT-3:138",
+   "fr": "correspond à cinq fois plus de volume",
+   "value": "x5",
+   "unit": "ratio",
+   "quantifies": "expansion of dehydrated synthetic food",
+   "voice": "Yahweh",
+   "cls": "K"
+  },
+  {
+   "id": "N029",
+   "ref": "TBWTT-3:138",
+   "fr": "Avec vingt petits «pains», il y a suffisamment de nourriture pour cent hommes",
+   "value": "20 -> 100",
+   "unit": "loaves -> men",
+   "quantifies": "gloss on 2 Kings 4:42-44",
+   "voice": "Yahweh",
+   "cls": "Q"
+  },
+  {
+   "id": "N030",
+   "ref": "TBWTT-3:145",
+   "fr": "six petits réacteurs : deux dans le dos, deux aux mains et deux aux pieds",
+   "value": "6 (2+2+2)",
+   "unit": "thrusters",
+   "quantifies": "seraph's \"six wings\" as suit thrusters",
+   "voice": "Yahweh",
+   "cls": "K"
+  },
+  {
+   "id": "N031",
+   "ref": "TBWTT-3:163",
+   "fr": "Quatre créateurs",
+   "value": "4",
+   "unit": "persons",
+   "quantifies": "Ezekiel's four living beings",
+   "voice": "Yahweh",
+   "cls": "K"
+  },
+  {
+   "id": "N032",
+   "ref": "TBWTT-3:165",
+   "fr": "ses quatre hublots",
+   "value": "4",
+   "unit": "portholes",
+   "quantifies": "\"four faces\" as helmet ports",
+   "voice": "Yahweh",
+   "cls": "K"
+  },
+  {
+   "id": "N033",
+   "ref": "TBWTT-3:207",
+   "fr": "trois hommes",
+   "value": "3",
+   "unit": "men",
+   "quantifies": "Daniel 3 furnace (a fourth = a creator)",
+   "voice": "Yahweh",
+   "cls": "Q"
+  },
+  {
+   "id": "N034",
+   "ref": "TBWTT-3:225",
+   "fr": "voici quelques dizaines d’années",
+   "value": "a few tens",
+   "unit": "years ago",
+   "quantifies": "creation of the State of Israel, relative to 1973",
+   "voice": "Yahweh",
+   "cls": "K"
+  },
+  {
+   "id": "N035",
+   "ref": "TBWTT-3:229",
+   "fr": "trois jours et trois nuits",
+   "value": "3",
+   "unit": "days and nights",
+   "quantifies": "Jonah in the \"fish\" (submarine)",
+   "voice": "Yahweh",
+   "cls": "Q"
+  },
+  {
+   "id": "N036",
+   "ref": "TBWTT-3:234",
+   "fr": "d’une longueur de vingt coudées",
+   "value": "20",
+   "unit": "cubits",
+   "quantifies": "flying scroll length (Zech 5)",
+   "voice": "Yahweh",
+   "cls": "Q"
+  },
+  {
+   "id": "N037",
+   "ref": "TBWTT-3:235",
+   "fr": "(9 mètres) et d’une largeur de dix coudées (4,50 mètres)",
+   "value": "9; 4.50 (10 cubits)",
+   "unit": "m",
+   "quantifies": "conversion of the cubits -> 0.45 m per cubit",
+   "voice": "Yahweh",
+   "cls": "Q"
+  },
+  {
+   "id": "N038",
+   "ref": "TBWTT-3:238",
+   "fr": "Deux compagnes féminines",
+   "value": "2",
+   "unit": "persons",
+   "quantifies": "Zech 5:9 women",
+   "voice": "Yahweh",
+   "cls": "K"
+  },
+  {
+   "id": "N039",
+   "ref": "TBWTT-3:292",
+   "fr": "Les bases des créateurs étaient au nombre de sept",
+   "value": "7",
+   "unit": "bases",
+   "quantifies": "number of the creators' bases on Earth",
+   "voice": "Yahweh",
+   "cls": "K"
+  },
+  {
+   "id": "N040",
+   "ref": "TBWTT-3:294",
+   "fr": "un central comportant sept témoins lumineux",
+   "value": "7",
+   "unit": "indicator lights",
+   "quantifies": "HQ console = menorah",
+   "voice": "Yahweh",
+   "cls": "K"
+  },
+  {
+   "id": "N041",
+   "ref": "TBWTT-4:48",
+   "fr": "celle-ci cent, celle-là soixante, celle-là trente",
+   "value": "100; 60; 30",
+   "unit": "yield",
+   "quantifies": "Matt 13:8, quoted",
+   "voice": "Yahweh",
+   "cls": "Q"
+  },
+  {
+   "id": "N042",
+   "ref": "TBWTT-4:49",
+   "fr": "trois tentatives échouèrent",
+   "value": "3",
+   "unit": "failed attempts",
+   "quantifies": "life-creation attempts on other planets that failed",
+   "voice": "Yahweh",
+   "cls": "K"
+  },
+  {
+   "id": "N043",
+   "ref": "TBWTT-4:49",
+   "fr": "la quatrième tentative fut un succès",
+   "value": "4th",
+   "unit": "attempt",
+   "quantifies": "first success",
+   "voice": "Yahweh",
+   "cls": "K"
+  },
+  {
+   "id": "N044",
+   "ref": "TBWTT-4:49",
+   "fr": "il y a eu trois succès",
+   "value": "3",
+   "unit": "successes",
+   "quantifies": "inhabited created worlds (Earth + 2)",
+   "voice": "Yahweh",
+   "cls": "K"
+  },
+  {
+   "id": "N045",
+   "ref": "TBWTT-4:49",
+   "fr": "sur deux autres planètes relativement proches",
+   "value": "2",
+   "unit": "planets",
+   "quantifies": "other worlds with humans made by the same creators",
+   "voice": "Yahweh",
+   "cls": "K"
+  },
+  {
+   "id": "N046",
+   "ref": "TBWTT-4:55",
+   "fr": "Les trois planètes où la vie a été créée ont été mises en compétition",
+   "value": "3",
+   "unit": "planets",
+   "quantifies": "worlds in competition for the heritage",
+   "voice": "Yahweh",
+   "cls": "K"
+  },
+  {
+   "id": "N047",
+   "ref": "TBWTT-4:64",
+   "fr": "de quoi nourrir des milliers d’hommes",
+   "value": "thousands",
+   "unit": "men",
+   "quantifies": "loaves miracle as concentrated food",
+   "voice": "Yahweh",
+   "cls": "Q"
+  },
+  {
+   "id": "N048",
+   "ref": "TBWTT-4:71",
+   "fr": "depuis quelques dizaines d’années",
+   "value": "a few tens",
+   "unit": "years",
+   "quantifies": "how long humanity has been on the road of scientific development",
+   "voice": "Yahweh",
+   "cls": "K"
+  },
+  {
+   "id": "N049",
+   "ref": "TBWTT-4:81",
+   "fr": "Le premier a reçu cinq talents",
+   "value": "5 (then 2, 1)",
+   "unit": "talents",
+   "quantifies": "Matt 25 parable = three planets",
+   "voice": "Yahweh",
+   "cls": "Q"
+  },
+  {
+   "id": "N050",
+   "ref": "TBWTT-4:91",
+   "fr": "plus de douze légions d’anges",
+   "value": ">12",
+   "unit": "legions",
+   "quantifies": "Matt 26:53, quoted",
+   "voice": "Yahweh",
+   "cls": "Q"
+  },
+  {
+   "id": "N051",
+   "ref": "TBWTT-5:1",
+   "fr": "1946, an 1 de l’ère nouvelle",
+   "value": "1946 = year 1",
+   "unit": "era",
+   "quantifies": "chapter title: epoch of the new era",
+   "voice": "Narrator",
+   "cls": "K"
+  },
+  {
+   "id": "N052",
+   "ref": "TBWTT-5:4",
+   "fr": "Depuis vingt-deux mille ans que les créateurs décidèrent de faire leur œuvre sur Terre",
+   "value": "22,000",
+   "unit": "years",
+   "quantifies": "time since the creators decided to do their work on Earth",
+   "voice": "Yahweh",
+   "cls": "K"
+  },
+  {
+   "id": "N053",
+   "ref": "TBWTT-5:4",
+   "fr": "le Verseau, qui suit, est là depuis 1946",
+   "value": "1946",
+   "unit": "year",
+   "quantifies": "Aquarius begins; \"epoch when Israel regains its land\"",
+   "voice": "Yahweh",
+   "cls": "K"
+  },
+  {
+   "id": "N054",
+   "ref": "TBWTT-5:7",
+   "fr": "si vous êtes né en 1946 ce n’est pas par hasard",
+   "value": "1946",
+   "unit": "year",
+   "quantifies": "Raël's birth year tied to Aquarius",
+   "voice": "Yahweh",
+   "cls": "K"
+  },
+  {
+   "id": "N055",
+   "ref": "TBWTT-5:51",
+   "fr": "la «hauteur du créateur» est de 236 000» parasanges»",
+   "value": "236,000",
+   "unit": "parasangs",
+   "quantifies": "\"height of the creator\" (attributed to Kabbalah / Song of Songs V)",
+   "voice": "Yahweh",
+   "cls": "K"
+  },
+  {
+   "id": "N056",
+   "ref": "TBWTT-5:51",
+   "fr": "la «hauteur de ses talons» est de 30 millions de «parasanges»",
+   "value": "30,000,000",
+   "unit": "parasangs",
+   "quantifies": "\"height of his heels\"",
+   "voice": "Yahweh",
+   "cls": "K"
+  },
+  {
+   "id": "N057",
+   "ref": "TBWTT-5:52",
+   "fr": "la distance que parcourt la lumière en une seconde soit environ 300 000 kilomètres",
+   "value": "~300,000",
+   "unit": "km (= 1 light-second)",
+   "quantifies": "definition of the parasang",
+   "voice": "Yahweh",
+   "cls": "K"
+  },
+  {
+   "id": "N058",
+   "ref": "TBWTT-5:52",
+   "fr": "soit neuf mille milliards de kilomètres environ ou un peu moins d’une année lumière",
+   "value": "~9 x 10^12; <1",
+   "unit": "km; light-year",
+   "quantifies": "distance home planet - Earth",
+   "voice": "Yahweh",
+   "cls": "K"
+  },
+  {
+   "id": "N059",
+   "ref": "TBWTT-5:52",
+   "fr": "vous mettriez presque un an",
+   "value": "~1 (just under)",
+   "unit": "year",
+   "quantifies": "travel time at light speed",
+   "voice": "Yahweh",
+   "cls": "K"
+  },
+  {
+   "id": "N060",
+   "ref": "TBWTT-5:52",
+   "fr": "qui ne se déplacent qu’à 40 000 km/h",
+   "value": "40,000",
+   "unit": "km/h",
+   "quantifies": "speed of current terrestrial rockets",
+   "voice": "Yahweh",
+   "cls": "K"
+  },
+  {
+   "id": "N061",
+   "ref": "TBWTT-5:52",
+   "fr": "près de 26 000 ans",
+   "value": "~26,000",
+   "unit": "years",
+   "quantifies": "rocket travel time to the home planet",
+   "voice": "Yahweh",
+   "cls": "K"
+  },
+  {
+   "id": "N062",
+   "ref": "TBWTT-5:53",
+   "fr": "en moins de deux mois",
+   "value": "<2",
+   "unit": "months",
+   "quantifies": "Elohim travel time, home planet - Earth",
+   "voice": "Yahweh",
+   "cls": "K"
+  },
+  {
+   "id": "N063",
+   "ref": "TBWTT-5:53",
+   "fr": "sept fois plus rapides que la lumière",
+   "value": "7c",
+   "unit": "speed",
+   "quantifies": "speed of the carrier \"rays\"",
+   "voice": "Yahweh",
+   "cls": "K"
+  },
+  {
+   "id": "N064",
+   "ref": "TBWTT-5:53",
+   "fr": "236 000 parasanges, soit 70 milliards huit cent millions de kilomètres",
+   "value": "70.8 x 10^9",
+   "unit": "km",
+   "quantifies": "distance of the home planet from its sun (\"a large star\")",
+   "voice": "Yahweh",
+   "cls": "K"
+  },
+  {
+   "id": "N065",
+   "ref": "TBWTT-5:56",
+   "fr": "en leur faisant ainsi gagner 25 000 ans",
+   "value": "25,000",
+   "unit": "years",
+   "quantifies": "scientific head-start humans would gain",
+   "voice": "Yahweh",
+   "cls": "K"
+  },
+  {
+   "id": "N066",
+   "ref": "TBWTT-5:57",
+   "fr": "sept fois plus rapides que les ondesradioélectriques",
+   "value": "x7",
+   "unit": "ratio",
+   "quantifies": "speed of Elohim communication waves vs radio",
+   "voice": "Yahweh",
+   "cls": "K"
+  },
+  {
+   "id": "N067",
+   "ref": "TBWTT-5:57",
+   "fr": "une fois et demie plus rapide que ces dernières",
+   "value": "x1.5 (=> 10.5 x radio)",
+   "unit": "ratio",
+   "quantifies": "new waves under trial",
+   "voice": "Yahweh",
+   "cls": "K"
+  },
+  {
+   "id": "N068",
+   "ref": "TBWTT-6:5",
+   "fr": "supérieur de 50% à la moyenne",
+   "value": "+50%",
+   "unit": "IQ above mean",
+   "quantifies": "eligibility threshold for office (geniocracy)",
+   "voice": "Yahweh",
+   "cls": "P"
+  },
+  {
+   "id": "N069",
+   "ref": "TBWTT-6:5",
+   "fr": "supérieur de 10% à la moyenne",
+   "value": "+10%",
+   "unit": "IQ above mean",
+   "quantifies": "threshold to vote",
+   "voice": "Yahweh",
+   "cls": "P"
+  },
+  {
+   "id": "N070",
+   "ref": "TBWTT-6:7",
+   "fr": "loués pour quarante-neuf ans",
+   "value": "49",
+   "unit": "years",
+   "quantifies": "maximum lease of any property",
+   "voice": "Yahweh",
+   "cls": "P"
+  },
+  {
+   "id": "N071",
+   "ref": "TBWTT-6:8",
+   "fr": "À soixante-dix ans (21 +49)",
+   "value": "70 = 21 + 49",
+   "unit": "years (age)",
+   "quantifies": "age at which the house is paid off",
+   "voice": "Yahweh",
+   "cls": "P"
+  },
+  {
+   "id": "N072",
+   "ref": "TBWTT-6:8",
+   "fr": "cent mille francs",
+   "value": "100,000",
+   "unit": "francs",
+   "quantifies": "example house value",
+   "voice": "Yahweh",
+   "cls": "H"
+  },
+  {
+   "id": "N073",
+   "ref": "TBWTT-6:11",
+   "fr": "sept fois sept années : (...) quarante-neuf ans",
+   "value": "7 x 7 = 49",
+   "unit": "years",
+   "quantifies": "Lev 25:8, source of the 49",
+   "voice": "Yahweh",
+   "cls": "Q"
+  },
+  {
+   "id": "N074",
+   "ref": "TBWTT-6:21",
+   "fr": "comprenant sept chambres",
+   "value": "7",
+   "unit": "rooms",
+   "quantifies": "guest rooms of the residence (embassy)",
+   "voice": "Yahweh",
+   "cls": "P"
+  },
+  {
+   "id": "N075",
+   "ref": "TBWTT-6:21",
+   "fr": "au moins vingt et une personnes",
+   "value": ">=21",
+   "unit": "persons",
+   "quantifies": "conference-room and dining-room capacity",
+   "voice": "Yahweh",
+   "cls": "P"
+  },
+  {
+   "id": "N076",
+   "ref": "TBWTT-6:21",
+   "fr": "au moins à 1000 mètres du mur",
+   "value": ">=1000",
+   "unit": "m",
+   "quantifies": "distance residence - perimeter wall",
+   "voice": "Yahweh",
+   "cls": "P"
+  },
+  {
+   "id": "N077",
+   "ref": "TBWTT-6:21",
+   "fr": "un engin de douze mètres de diamètre",
+   "value": "12",
+   "unit": "m",
+   "quantifies": "craft the roof terrace must take",
+   "voice": "Yahweh",
+   "cls": "P"
+  },
+  {
+   "id": "N078",
+   "ref": "TBWTT-7:13",
+   "fr": "n’autorisant les femmes à avoir que deux enfants",
+   "value": "2",
+   "unit": "children per woman",
+   "quantifies": "prescribed birth limit",
+   "voice": "Yahweh",
+   "cls": "P"
+  },
+  {
+   "id": "N079",
+   "ref": "TBWTT-7:13",
+   "fr": "soixante-quinze ans en moyenne",
+   "value": "75",
+   "unit": "years",
+   "quantifies": "average human lifespan",
+   "voice": "Yahweh",
+   "cls": "K"
+  },
+  {
+   "id": "N080",
+   "ref": "TBWTT-7:13",
+   "fr": "dix fois plus longtemps que vous",
+   "value": "x10",
+   "unit": "ratio",
+   "quantifies": "Elohim lifespan after the operation",
+   "voice": "Yahweh",
+   "cls": "K"
+  },
+  {
+   "id": "N081",
+   "ref": "TBWTT-7:15",
+   "fr": "Nous sommes environ 7 milliards",
+   "value": "~7 x 10^9",
+   "unit": "persons",
+   "quantifies": "population of the home planet",
+   "voice": "Yahweh",
+   "cls": "K"
+  },
+  {
+   "id": "N082",
+   "ref": "TBWTT-7:16",
+   "fr": "six jours de suite",
+   "value": "6",
+   "unit": "consecutive days",
+   "quantifies": "meetings of December 1973",
+   "voice": "Raël",
+   "cls": "C"
+  },
+  {
+   "id": "N083",
+   "ref": "TBWTT-7:19",
+   "fr": "il y a sept provinces",
+   "value": "7",
+   "unit": "provinces",
+   "quantifies": "divisions of the home planet",
+   "voice": "Yahweh",
+   "cls": "K"
+  },
+  {
+   "id": "N084",
+   "ref": "TBWTT-7:19",
+   "fr": "nous sommes en permanence neuf",
+   "value": "9 (7 + 2)",
+   "unit": "persons",
+   "quantifies": "crew of the base ship near Earth",
+   "voice": "Yahweh",
+   "cls": "K"
+  },
+  {
+   "id": "N085",
+   "ref": "TBWTT-7:21",
+   "fr": "nos vingt-cinq mille ans d’avance scientifique",
+   "value": "25,000",
+   "unit": "years",
+   "quantifies": "Elohim scientific lead",
+   "voice": "Yahweh",
+   "cls": "K"
+  },
+  {
+   "id": "N086",
+   "ref": "TBWTT-7:30",
+   "fr": "Entre sept cent cinquante et mille deux cents ans",
+   "value": "750-1,200",
+   "unit": "years",
+   "quantifies": "Elohim bodily lifespan",
+   "voice": "Yahweh",
+   "cls": "K"
+  },
+  {
+   "id": "N087",
+   "ref": "TBWTT-7:30",
+   "fr": "mille de vos années à vivre",
+   "value": "1,000",
+   "unit": "years",
+   "quantifies": "life expectancy of each re-created body",
+   "voice": "Yahweh",
+   "cls": "K"
+  },
+  {
+   "id": "N088",
+   "ref": "TBWTT-7:31",
+   "fr": "Durant trois existences, l’éternel est stagiaire",
+   "value": "3",
+   "unit": "lives",
+   "quantifies": "probation before perpetual council membership",
+   "voice": "Yahweh",
+   "cls": "K"
+  },
+  {
+   "id": "N089",
+   "ref": "TBWTT-7:45",
+   "fr": "il n’y a que sept cents éternels",
+   "value": "700",
+   "unit": "persons",
+   "quantifies": "eternals among 7 billion",
+   "voice": "Yahweh",
+   "cls": "K"
+  },
+  {
+   "id": "N090",
+   "ref": "TBWTT-7:46",
+   "fr": "deux cent dix stagiaires (environ soixante-dix par an soit dix par province)",
+   "value": "210; ~70/yr; 10/province",
+   "unit": "persons",
+   "quantifies": "probationer eternals and intake rate",
+   "voice": "Yahweh",
+   "cls": "K"
+  },
+  {
+   "id": "N091",
+   "ref": "TBWTT-7:46",
+   "fr": "quarante millions d’enfants environ",
+   "value": "~40 x 10^6",
+   "unit": "children",
+   "quantifies": "children among 7 billion",
+   "voice": "Yahweh",
+   "cls": "K"
+  },
+  {
+   "id": "N092",
+   "ref": "TBWTT-7:46",
+   "fr": "entre dix-huit et vingt et un ans",
+   "value": "18-21",
+   "unit": "years (age)",
+   "quantifies": "majority / age of the longevity operation",
+   "voice": "Yahweh",
+   "cls": "K"
+  },
+  {
+   "id": "N093",
+   "ref": "TBWTT-7:46",
+   "fr": "une longévité de plus de sept cent cinquante ans",
+   "value": ">750",
+   "unit": "years",
+   "quantifies": "longevity conferred",
+   "voice": "Yahweh",
+   "cls": "K"
+  },
+  {
+   "id": "N094",
+   "ref": "TBWTT-7:46",
+   "fr": "jusqu’à la cinquantième génération",
+   "value": "50th",
+   "unit": "generation",
+   "quantifies": "descendants the oldest ordinary inhabitants live to know",
+   "voice": "Yahweh",
+   "cls": "K"
+  },
+  {
+   "id": "N095",
+   "ref": "TBWTT-7:46",
+   "fr": "qu’un million d’inactifs",
+   "value": "~10^6",
+   "unit": "persons",
+   "quantifies": "inactive (mostly under ~6 months' treatment)",
+   "voice": "Yahweh",
+   "cls": "K"
+  },
+  {
+   "id": "N096",
+   "ref": "TBWTT-7:47",
+   "fr": "en moyenne de cinq cent mille habitants",
+   "value": "500,000",
+   "unit": "inhabitants",
+   "quantifies": "average city",
+   "voice": "Yahweh",
+   "cls": "K"
+  },
+  {
+   "id": "N097",
+   "ref": "TBWTT-7:47",
+   "fr": "à peu près un kilomètre de côté et de haut",
+   "value": "~1",
+   "unit": "km (cube edge)",
+   "quantifies": "size of a \"city-house\"",
+   "voice": "Yahweh",
+   "cls": "K"
+  },
+  {
+   "id": "N098",
+   "ref": "TBWTT-7:47",
+   "fr": "couvre vingt fois plus de surface",
+   "value": "x20",
+   "unit": "ratio",
+   "quantifies": "footprint of an Earth city of 500,000 vs theirs",
+   "voice": "Yahweh",
+   "cls": "K"
+  },
+  {
+   "id": "N099",
+   "ref": "TBWTT-7:56",
+   "fr": "a vingtcinq mille ans",
+   "value": "25,000",
+   "unit": "years (age)",
+   "quantifies": "age of Yahweh, oldest eternal",
+   "voice": "Yahweh",
+   "cls": "K"
+  },
+  {
+   "id": "N100",
+   "ref": "TBWTT-7:56",
+   "fr": "J’ai habité 25 corps jusqu’à ce jour",
+   "value": "25",
+   "unit": "bodies",
+   "quantifies": "Yahweh's successive bodies",
+   "voice": "Yahweh",
+   "cls": "K"
+  },
+  {
+   "id": "N101",
+   "ref": "TBWTT-7:76",
+   "fr": "six jours de suite",
+   "value": "6",
+   "unit": "consecutive days",
+   "quantifies": "meetings (Raël's afterword)",
+   "voice": "Raël",
+   "cls": "C"
+  },
+  {
+   "id": "N102",
+   "ref": "ETTMTTP-1:3",
+   "fr": "Bientôt deux ans",
+   "value": "~2",
+   "unit": "years",
+   "quantifies": "since the first encounter (writing late 1975)",
+   "voice": "Raël",
+   "cls": "B"
+  },
+  {
+   "id": "N103",
+   "ref": "ETTMTTP-1:3",
+   "fr": "ils sont sept cents à l'heure où je mets ces lignes au propre",
+   "value": "700",
+   "unit": "members",
+   "quantifies": "movement membership, late 1975",
+   "voice": "Raël",
+   "cls": "B"
+  },
+  {
+   "id": "N104",
+   "ref": "ETTMTTP-1:3",
+   "fr": "quatre milliards d'hommes",
+   "value": "4 x 10^9",
+   "unit": "persons",
+   "quantifies": "Earth population",
+   "voice": "Raël",
+   "cls": "B"
+  },
+  {
+   "id": "N105",
+   "ref": "ETTMTTP-1:3",
+   "fr": "il y a deux mille ans",
+   "value": "2,000",
+   "unit": "years ago",
+   "quantifies": "Jesus",
+   "voice": "Raël",
+   "cls": "K"
+  },
+  {
+   "id": "N106",
+   "ref": "ETTMTTP-1:5",
+   "fr": "à peu près quarante conférences",
+   "value": "~40",
+   "unit": "lectures",
+   "quantifies": "in two years",
+   "voice": "Raël",
+   "cls": "B"
+  },
+  {
+   "id": "N107",
+   "ref": "ETTMTTP-1:7",
+   "fr": "le 30 septembre 1946 vers les deux heures du matin",
+   "value": "1946-09-30 ~02:00",
+   "unit": "date",
+   "quantifies": "Raël's birth",
+   "voice": "Raël",
+   "cls": "B"
+  },
+  {
+   "id": "N108",
+   "ref": "ETTMTTP-1:7",
+   "fr": "j'ai été conçu le 25 décembre 1945",
+   "value": "1945-12-25",
+   "unit": "date",
+   "quantifies": "Raël's conception",
+   "voice": "Raël",
+   "cls": "B"
+  },
+  {
+   "id": "N109",
+   "ref": "ETTMTTP-1:10",
+   "fr": "en 1947",
+   "value": "1947",
+   "unit": "year",
+   "quantifies": "grandmother's sighting over Ambert",
+   "voice": "Raël",
+   "cls": "B"
+  },
+  {
+   "id": "N110",
+   "ref": "ETTMTTP-1:13",
+   "fr": "J'avais sept ans",
+   "value": "7",
+   "unit": "years (age)",
+   "quantifies": "\"counting to nine\" episode",
+   "voice": "Raël",
+   "cls": "B"
+  },
+  {
+   "id": "N111",
+   "ref": "ETTMTTP-1:15",
+   "fr": "à neuf ans (encore le neuf)",
+   "value": "9",
+   "unit": "years (age)",
+   "quantifies": "age of several turning points; nine flagged as a recurring \"code\" number",
+   "voice": "Raël",
+   "cls": "B"
+  },
+  {
+   "id": "N112",
+   "ref": "ETTMTTP-1:31",
+   "fr": "A quatorze ans",
+   "value": "14",
+   "unit": "years (age)",
+   "quantifies": "boarding school at Le Mont-Dore",
+   "voice": "Raël",
+   "cls": "B"
+  },
+  {
+   "id": "N113",
+   "ref": "ETTMTTP-1:33",
+   "fr": "j'avais quinze ans",
+   "value": "15",
+   "unit": "years (age)",
+   "quantifies": "leaves for Paris",
+   "voice": "Raël",
+   "cls": "B"
+  },
+  {
+   "id": "N114",
+   "ref": "ETTMTTP-1:37",
+   "fr": "durant trois ans",
+   "value": "3",
+   "unit": "years",
+   "quantifies": "street-singing years",
+   "voice": "Raël",
+   "cls": "B"
+  },
+  {
+   "id": "N115",
+   "ref": "ETTMTTP-1:39",
+   "fr": "à dix-huit ans précis",
+   "value": "18",
+   "unit": "years (age)",
+   "quantifies": "driving licence",
+   "voice": "Raël",
+   "cls": "B"
+  },
+  {
+   "id": "N116",
+   "ref": "ETTMTTP-1:53",
+   "fr": "à vingt-deux ans",
+   "value": "22",
+   "unit": "years (age)",
+   "quantifies": "still no race entered",
+   "voice": "Raël",
+   "cls": "B"
+  },
+  {
+   "id": "N117",
+   "ref": "ETTMTTP-1:61",
+   "fr": "trois merveilleuses années",
+   "value": "3",
+   "unit": "years",
+   "quantifies": "running the magazine before Dec 1973",
+   "voice": "Raël",
+   "cls": "B"
+  },
+  {
+   "id": "N118",
+   "ref": "ETTMTTP-1:63",
+   "fr": "six jours de suite",
+   "value": "6",
+   "unit": "consecutive days",
+   "quantifies": "meetings of December 1973",
+   "voice": "Raël",
+   "cls": "C"
+  },
+  {
+   "id": "N119",
+   "ref": "ETTMTTP-1:63",
+   "fr": "pendant une heure environ",
+   "value": "~1",
+   "unit": "hour",
+   "quantifies": "length of each dictation session",
+   "voice": "Raël",
+   "cls": "C"
+  },
+  {
+   "id": "N120",
+   "ref": "ETTMTTP-1:70",
+   "fr": "à l'automne 1974",
+   "value": "autumn 1974",
+   "unit": "date",
+   "quantifies": "first book printed",
+   "voice": "Raël",
+   "cls": "B"
+  },
+  {
+   "id": "N121",
+   "ref": "ETTMTTP-1:74",
+   "fr": "plus de trois mille personnes",
+   "value": ">3,000",
+   "unit": "persons",
+   "quantifies": "turnout at first Paris lecture",
+   "voice": "Raël",
+   "cls": "B"
+  },
+  {
+   "id": "N122",
+   "ref": "ETTMTTP-1:75",
+   "fr": "plus de deux mille personnes",
+   "value": ">2,000",
+   "unit": "persons",
+   "quantifies": "second lecture",
+   "voice": "Raël",
+   "cls": "B"
+  },
+  {
+   "id": "N123",
+   "ref": "ETTMTTP-2:1",
+   "fr": "au mois de juin 1975",
+   "value": "June 1975",
+   "unit": "date",
+   "quantifies": "Raël resigns MADECH presidency",
+   "voice": "Raël",
+   "cls": "B"
+  },
+  {
+   "id": "N124",
+   "ref": "ETTMTTP-2:5",
+   "fr": "le 31 juillet",
+   "value": "[1975]-07-31",
+   "unit": "date",
+   "quantifies": "sighting in Périgord",
+   "voice": "Raël",
+   "cls": "C"
+  },
+  {
+   "id": "N125",
+   "ref": "ETTMTTP-2:5",
+   "fr": "à environ cinq cents mètres de nous",
+   "value": "~500",
+   "unit": "m",
+   "quantifies": "distance of the craft",
+   "voice": "Raël",
+   "cls": "C"
+  },
+  {
+   "id": "N126",
+   "ref": "ETTMTTP-2:6",
+   "fr": "d'environ trois centimètres de diamètre",
+   "value": "~3",
+   "unit": "cm",
+   "quantifies": "red mark on Raël's arm",
+   "voice": "Raël",
+   "cls": "C"
+  },
+  {
+   "id": "N127",
+   "ref": "ETTMTTP-2:7",
+   "fr": "La réunion du 6 août",
+   "value": "[1975]-08-06",
+   "unit": "date",
+   "quantifies": "MADECH gathering at Puy-de-Lassolas",
+   "voice": "Raël",
+   "cls": "B"
+  },
+  {
+   "id": "N128",
+   "ref": "ETTMTTP-2:9",
+   "fr": "Le 7 octobre, vers 23 heures",
+   "value": "[1975]-10-07 ~23:00",
+   "unit": "date",
+   "quantifies": "leaves house; arrives Roc Plat \"vers minuit\"",
+   "voice": "Raël",
+   "cls": "C"
+  },
+  {
+   "id": "N129",
+   "ref": "ETTMTTP-2:10",
+   "fr": "à six reprises au mois de décembre 1973",
+   "value": "6",
+   "unit": "times",
+   "quantifies": "sightings of the craft, Dec 1973",
+   "voice": "Raël",
+   "cls": "C"
+  },
+  {
+   "id": "N130",
+   "ref": "ETTMTTP-2:11",
+   "fr": "Ces deux années",
+   "value": "2",
+   "unit": "years",
+   "quantifies": "probation period 1973-75",
+   "voice": "Yahweh",
+   "cls": "C"
+  },
+  {
+   "id": "N131",
+   "ref": "ETTMTTP-2:14",
+   "fr": "d'une quinzaine de mètres de diamètre et d'une dizaine de mètres de haut",
+   "value": "~15; ~10",
+   "unit": "m",
+   "quantifies": "docking room in the relay base",
+   "voice": "Raël",
+   "cls": "C"
+  },
+  {
+   "id": "N132",
+   "ref": "ETTMTTP-2:16",
+   "fr": "une centaine de mètres de diamètre",
+   "value": "~100",
+   "unit": "m",
+   "quantifies": "domed hall",
+   "voice": "Raël",
+   "cls": "C"
+  },
+  {
+   "id": "N133",
+   "ref": "ETTMTTP-2:28",
+   "fr": "cela fait à peine trente ans",
+   "value": "~30",
+   "unit": "years",
+   "quantifies": "time since advanced nations ceased to be wholly primitive (=> c. 1945)",
+   "voice": "Yahweh",
+   "cls": "K"
+  },
+  {
+   "id": "N134",
+   "ref": "ETTMTTP-2:43",
+   "fr": "sept fois plus vite que la lumière, ceci était vrai il y a vingt-cinq mille ans lorsque nous avons débarqué sur la terre",
+   "value": "7c; 25,000",
+   "unit": "speed; years ago",
+   "quantifies": "the 7c figure back-dated to the landing on Earth 25,000 years ago",
+   "voice": "Yahweh",
+   "cls": "K"
+  },
+  {
+   "id": "N135",
+   "ref": "ETTMTTP-2:43",
+   "fr": "quelques instants pour effectuer le trajet que nous mettions près de deux mois à parcourir",
+   "value": "moments vs ~2 months",
+   "unit": "time",
+   "quantifies": "present vs former journey time",
+   "voice": "Yahweh",
+   "cls": "K"
+  },
+  {
+   "id": "N136",
+   "ref": "ETTMTTP-2:44",
+   "fr": "une douzaine de mètres de diamètre extérieur",
+   "value": "~12",
+   "unit": "m",
+   "quantifies": "larger craft (4 seats)",
+   "voice": "Raël",
+   "cls": "C"
+  },
+  {
+   "id": "N137",
+   "ref": "ETTMTTP-2:44",
+   "fr": "une dizaine de minutes environ",
+   "value": "~10",
+   "unit": "minutes",
+   "quantifies": "duration of the cold sensation on the second leg",
+   "voice": "Raël",
+   "cls": "C"
+  },
+  {
+   "id": "N138",
+   "ref": "ETTMTTP-2:47",
+   "fr": "une quarantaine de convives",
+   "value": "~40",
+   "unit": "persons",
+   "quantifies": "guests at the meal (prophets)",
+   "voice": "Raël",
+   "cls": "C"
+  },
+  {
+   "id": "N139",
+   "ref": "ETTMTTP-2:48",
+   "fr": "des six autres Elohim",
+   "value": "6 (+ Yahweh = 7)",
+   "unit": "persons",
+   "quantifies": "Elohim at table",
+   "voice": "Raël",
+   "cls": "C"
+  },
+  {
+   "id": "N140",
+   "ref": "ETTMTTP-2:50",
+   "fr": "huit mille quatre cents Terriens",
+   "value": "8,400",
+   "unit": "persons",
+   "quantifies": "re-created Earth people on the planet of the eternals",
+   "voice": "Yahweh",
+   "cls": "K"
+  },
+  {
+   "id": "N141",
+   "ref": "ETTMTTP-2:50",
+   "fr": "les sept cents Elohim membres du conseil des éternels",
+   "value": "700",
+   "unit": "persons",
+   "quantifies": "council of eternals",
+   "voice": "Yahweh",
+   "cls": "K"
+  },
+  {
+   "id": "N142",
+   "ref": "ETTMTTP-2:53",
+   "fr": "de sept-cents ans environ",
+   "value": "~700",
+   "unit": "years",
+   "quantifies": "lifespan \"similar to ours\" (robots and Elohim) after the operation",
+   "voice": "Yahweh",
+   "cls": "K"
+  },
+  {
+   "id": "N143",
+   "ref": "ETTMTTP-2:54",
+   "fr": "un peu plus de neuf mille Terriens et Elohim",
+   "value": ">9,000",
+   "unit": "persons",
+   "quantifies": "inhabitants of the planet of eternals",
+   "voice": "Yahweh",
+   "cls": "K"
+  },
+  {
+   "id": "N144",
+   "ref": "ETTMTTP-2:54",
+   "fr": "environ quatre-vingt-dix mille",
+   "value": "~90,000",
+   "unit": "biological robots",
+   "quantifies": "about ten per inhabitant",
+   "voice": "Yahweh",
+   "cls": "K"
+  },
+  {
+   "id": "N145",
+   "ref": "ETTMTTP-2:62",
+   "fr": "il y a deux mille ans",
+   "value": "2,000",
+   "unit": "years ago",
+   "quantifies": "Jesus's mission",
+   "voice": "Yahweh",
+   "cls": "K"
+  },
+  {
+   "id": "N146",
+   "ref": "ETTMTTP-2:67",
+   "fr": "à environ vingt mètres au-dessus de l'herbe",
+   "value": "~20",
+   "unit": "m",
+   "quantifies": "belt-flight altitude",
+   "voice": "Raël",
+   "cls": "C"
+  },
+  {
+   "id": "N147",
+   "ref": "ETTMTTP-2:67",
+   "fr": "peut-être une centaine de kilomètres à l'heure",
+   "value": "~100",
+   "unit": "km/h",
+   "quantifies": "belt-flight speed",
+   "voice": "Raël",
+   "cls": "C"
+  },
+  {
+   "id": "N148",
+   "ref": "ETTMTTP-2:102",
+   "fr": "le dimanche matin vers onze heures",
+   "value": "Sunday ~11:00",
+   "unit": "time",
+   "quantifies": "telepathic contact gathering",
+   "voice": "Yahweh",
+   "cls": "P"
+  },
+  {
+   "id": "N149",
+   "ref": "ETTMTTP-2:131",
+   "fr": "il était minuit",
+   "value": "00:00",
+   "unit": "time",
+   "quantifies": "return to Roc Plat (=> absence of about 24 h)",
+   "voice": "Raël",
+   "cls": "C"
+  },
+  {
+   "id": "N150",
+   "ref": "ETTMTTP-3:16",
+   "fr": "A partir de sept ans",
+   "value": "7 (and 14)",
+   "unit": "years (age)",
+   "quantifies": "limits on corporal punishment",
+   "voice": "Yahweh",
+   "cls": "P"
+  },
+  {
+   "id": "N151",
+   "ref": "ETTMTTP-3:69",
+   "fr": "à 33 mm au-dessus du milieu de l'axe reliant tes deux pupilles",
+   "value": "33",
+   "unit": "mm",
+   "quantifies": "location of the frontal bone to be preserved",
+   "voice": "Yahweh",
+   "cls": "P"
+  },
+  {
+   "id": "N152",
+   "ref": "ETTMTTP-3:69",
+   "fr": "au moins un centimètre carré de cet os",
+   "value": ">=1",
+   "unit": "cm^2",
+   "quantifies": "bone sample",
+   "voice": "Yahweh",
+   "cls": "P"
+  },
+  {
+   "id": "N153",
+   "ref": "ETTMTTP-3:84",
+   "fr": "supérieur de 50 % à la moyenne",
+   "value": "+50% (and +10%)",
+   "unit": "IQ above mean",
+   "quantifies": "geniocracy thresholds restated",
+   "voice": "Yahweh",
+   "cls": "P"
+  },
+  {
+   "id": "N154",
+   "ref": "ETTMTTP-3:101",
+   "fr": "environ cinquante mille habitants",
+   "value": "~50,000",
+   "unit": "inhabitants",
+   "quantifies": "recommended town size on Earth",
+   "voice": "Yahweh",
+   "cls": "P"
+  },
+  {
+   "id": "N155",
+   "ref": "ETTMTTP-3:172",
+   "fr": "en comptant l'an 1946 comme l'an un après Raël",
+   "value": "1946 = year 1",
+   "unit": "era",
+   "quantifies": "dating rule",
+   "voice": "Yahweh",
+   "cls": "P"
+  },
+  {
+   "id": "N156",
+   "ref": "ETTMTTP-3:172",
+   "fr": "1976 sera donc l'an 31 après Raël",
+   "value": "1976 = year 31",
+   "unit": "era",
+   "quantifies": "worked example (inclusive count)",
+   "voice": "Yahweh",
+   "cls": "P"
+  },
+  {
+   "id": "N157",
+   "ref": "ETTMTTP-3:245",
+   "fr": "Il y a cinquante ans, il y avait cinquante mille séminaristes, maintenant il n'y en a plus que cinq cents",
+   "value": "50,000 -> 500 (in 50 yrs)",
+   "unit": "seminarians",
+   "quantifies": "decline of vocations; \"49,500 unhappy beings\"",
+   "voice": "Yahweh",
+   "cls": "K"
+  },
+  {
+   "id": "N158",
+   "ref": "ETTMTTP-3:266",
+   "fr": "le premier dimanche d'avril, le 6 août, le 7 octobre et le 13 décembre",
+   "value": "4 dates",
+   "unit": "annual gatherings",
+   "quantifies": "feast calendar",
+   "voice": "Yahweh",
+   "cls": "P"
+  },
+  {
+   "id": "N159",
+   "ref": "LWTE-1:2",
+   "fr": "le 7 octobre 30 (1975)",
+   "value": "year 30 = 1975",
+   "unit": "era",
+   "quantifies": "second encounter dated in the new era",
+   "voice": "Questioner",
+   "cls": "C"
+  },
+  {
+   "id": "N160",
+   "ref": "LWTE-1:2",
+   "fr": "près de vingt-quatre heures sur la planète des éternels",
+   "value": "~24",
+   "unit": "hours",
+   "quantifies": "length of stay",
+   "voice": "Questioner",
+   "cls": "C"
+  },
+  {
+   "id": "N161",
+   "ref": "LWTE-1:13",
+   "fr": "il y a vingtcinq mille ans",
+   "value": "25,000",
+   "unit": "years ago",
+   "quantifies": "creation of life on Earth (questioner's summary of the messages)",
+   "voice": "Questioner",
+   "cls": "K"
+  },
+  {
+   "id": "N162",
+   "ref": "LWTE-1:13",
+   "fr": "plusieurs centaines de milliers d'années",
+   "value": "hundreds of thousands",
+   "unit": "years",
+   "quantifies": "age of animal remains (objection)",
+   "voice": "Questioner",
+   "cls": "H"
+  },
+  {
+   "id": "N163",
+   "ref": "LWTE-1:15",
+   "fr": "dix ou vingt mille ans avant leur venue",
+   "value": "10,000-20,000",
+   "unit": "years before arrival",
+   "quantifies": "hypothetical earlier, destroyed creation",
+   "voice": "Raël",
+   "cls": "K"
+  },
+  {
+   "id": "N164",
+   "ref": "LWTE-1:15",
+   "fr": "Il y a eu une infinité de créations sur notre planète",
+   "value": "infinite",
+   "unit": "creations",
+   "quantifies": "prior creations and destructions on Earth",
+   "voice": "Raël",
+   "cls": "K"
+  },
+  {
+   "id": "N165",
+   "ref": "LWTE-1:26",
+   "fr": "environ quatre années-lumière",
+   "value": "~4",
+   "unit": "light-years",
+   "quantifies": "nearest star per terrestrial science (objection)",
+   "voice": "Questioner",
+   "cls": "H"
+  },
+  {
+   "id": "N166",
+   "ref": "LWTE-1:27",
+   "fr": "quatre années-lumière en suivant la lumière",
+   "value": "4 vs 1",
+   "unit": "light-years",
+   "quantifies": "members' hypothesis: curved light path vs straight line",
+   "voice": "Raël",
+   "cls": "K"
+  },
+  {
+   "id": "N167",
+   "ref": "LWTE-1:30",
+   "fr": "les Elohim ont créé, il y a vingt-cinq mille ans, le continent originel",
+   "value": "25,000",
+   "unit": "years ago",
+   "quantifies": "creation of the original continent (questioner)",
+   "voice": "Questioner",
+   "cls": "K"
+  },
+  {
+   "id": "N168",
+   "ref": "LWTE-1:30",
+   "fr": "en ving-cinq mille ans l'on obtiendrait vingt-cinq mille mètres, soit ving-cinq kilomètres",
+   "value": "25 km at 1 m/yr",
+   "unit": "km",
+   "quantifies": "objection: drift at today's rate",
+   "voice": "Questioner",
+   "cls": "H"
+  },
+  {
+   "id": "N169",
+   "ref": "LWTE-1:31",
+   "fr": "ils s'éloignaient de plusieurs centaines de kilomètres chaque année",
+   "value": "hundreds",
+   "unit": "km/yr",
+   "quantifies": "initial continental separation rate",
+   "voice": "Raël",
+   "cls": "K"
+  },
+  {
+   "id": "N170",
+   "ref": "LWTE-1:31",
+   "fr": "en vingtcinq millénaires",
+   "value": "25",
+   "unit": "millennia",
+   "quantifies": "time since the \"storm\" of the continent's creation",
+   "voice": "Raël",
+   "cls": "K"
+  },
+  {
+   "id": "N171",
+   "ref": "LWTE-1:36",
+   "fr": "la religion dominante dans le monde du troisième millénaire",
+   "value": "3rd millennium",
+   "unit": "era",
+   "quantifies": "forecast for Raëlism",
+   "voice": "Raël",
+   "cls": "K"
+  },
+  {
+   "id": "N172",
+   "ref": "LWTE-1:46",
+   "fr": "ils n'étaient vieux que de sept cents ans",
+   "value": "700",
+   "unit": "years",
+   "quantifies": "dated age of the Ararat wood",
+   "voice": "Raël",
+   "cls": "H"
+  },
+  {
+   "id": "N173",
+   "ref": "LWTE-1:47",
+   "fr": "datant d'environ cinq mille ans, ce qui correspondrait à la période du «déluge » réel",
+   "value": "~5,000",
+   "unit": "years ago",
+   "quantifies": "date of the real Flood",
+   "voice": "Raël",
+   "cls": "K"
+  },
+  {
+   "id": "N174",
+   "ref": "LWTE-1:56",
+   "fr": "les Elohim ont vingt-cinq mille ans d'avance sur nous",
+   "value": "25,000",
+   "unit": "years",
+   "quantifies": "Elohim lead (question)",
+   "voice": "Questioner",
+   "cls": "K"
+  },
+  {
+   "id": "N175",
+   "ref": "LWTE-1:72",
+   "fr": "qu'une chance sur cent",
+   "value": "1/100",
+   "unit": "probability",
+   "quantifies": "that humanity chooses wisdom",
+   "voice": "Raël",
+   "cls": "K"
+  },
+  {
+   "id": "N176",
+   "ref": "LWTE-1:73",
+   "fr": "vingt-cinq mille ans d'avance sur nous",
+   "value": "25,000",
+   "unit": "years",
+   "quantifies": "Elohim lead",
+   "voice": "Raël",
+   "cls": "K"
+  },
+  {
+   "id": "N177",
+   "ref": "LWTE-1:176",
+   "fr": "dix pour cent des possibilités de son cerveau",
+   "value": "10%",
+   "unit": "share",
+   "quantifies": "brain capacity ordinary people use",
+   "voice": "Raël",
+   "cls": "K"
+  },
+  {
+   "id": "N178",
+   "ref": "LWTE-2:1",
+   "fr": "trois années",
+   "value": "3",
+   "unit": "years",
+   "quantifies": "embargo on the ch. 2 revelations after the 1975 voyage",
+   "voice": "Editor",
+   "cls": "C"
+  },
+  {
+   "id": "N179",
+   "ref": "LWTE-2:2",
+   "fr": "nous sommes en l'an 34 (1979)",
+   "value": "year 34 = 1979",
+   "unit": "era",
+   "quantifies": "date of writing",
+   "voice": "Editor",
+   "cls": "C"
+  },
+  {
+   "id": "N180",
+   "ref": "LWTE-2:11",
+   "fr": "après deux nouveaux échecs",
+   "value": "2 (after the first)",
+   "unit": "failures",
+   "quantifies": "failed planets before Earth",
+   "voice": "Raël",
+   "cls": "K"
+  },
+  {
+   "id": "N181",
+   "ref": "LWTE-2:17",
+   "fr": "sur deux autres planètes à cette époque",
+   "value": "2",
+   "unit": "planets",
+   "quantifies": "other created worlds",
+   "voice": "Raël",
+   "cls": "K"
+  },
+  {
+   "id": "N182",
+   "ref": "LWTE-2:63",
+   "fr": "un milliard, cinq milliards, dix milliards",
+   "value": "10^9 - 10^10",
+   "unit": "[currency unstated]",
+   "quantifies": "sum offered by Satan in the test",
+   "voice": "Satan (reported)",
+   "cls": "C"
+  },
+  {
+   "id": "N183",
+   "ref": "LWTE-2:68",
+   "fr": "neuf chances sur dix",
+   "value": "9/10",
+   "unit": "probability",
+   "quantifies": "of self-destruction (Raël's reply to Satan)",
+   "voice": "Raël",
+   "cls": "C"
+  },
+  {
+   "id": "N184",
+   "ref": "LWTE-2:68",
+   "fr": "une chance sur mille",
+   "value": "1/1000",
+   "unit": "probability",
+   "quantifies": "hypothetical chance of escaping destruction",
+   "voice": "Raël",
+   "cls": "H"
+  },
+  {
+   "id": "N185",
+   "ref": "LWTE-2:77",
+   "fr": "plus d'une douzaine d'hommes comme moi",
+   "value": "<=12",
+   "unit": "men",
+   "quantifies": "men like Raël on Earth (Satan's estimate)",
+   "voice": "Satan (reported)",
+   "cls": "C"
+  },
+  {
+   "id": "N186",
+   "ref": "LWTE-2:79",
+   "fr": "l'explosion atomique qui eut lieu le 6 août 1945 à Hiroshima",
+   "value": "1945-08-06",
+   "unit": "date",
+   "quantifies": "the explosion after which a messenger was chosen",
+   "voice": "Raël",
+   "cls": "K"
+  },
+  {
+   "id": "N187",
+   "ref": "LWTE-2:90",
+   "fr": "avant que trois années soient écoulées",
+   "value": "3",
+   "unit": "years",
+   "quantifies": "embargo on the paternity revelation",
+   "voice": "Raël",
+   "cls": "C"
+  },
+  {
+   "id": "N188",
+   "ref": "LWTE-2:96",
+   "fr": "qu'une chance sur cent pour que votre humanité ne s'auto-détruise pas",
+   "value": "1/100",
+   "unit": "probability",
+   "quantifies": "of humanity not destroying itself",
+   "voice": "Yahweh",
+   "cls": "K"
+  },
+  {
+   "id": "N189",
+   "ref": "LWTE-2:118",
+   "fr": "Il voit sept engins volants",
+   "value": "7",
+   "unit": "craft",
+   "quantifies": "Rev 1 \"seven lamps\"",
+   "voice": "Yahweh",
+   "cls": "Q"
+  },
+  {
+   "id": "N190",
+   "ref": "LWTE-2:128",
+   "fr": "j'étais entouré de vingt-quatre autres éternels",
+   "value": "24",
+   "unit": "eternals",
+   "quantifies": "\"representing the council\" before John (Rev 4)",
+   "voice": "Yahweh",
+   "cls": "K"
+  },
+  {
+   "id": "N191",
+   "ref": "LWTE-2:132",
+   "fr": "des sept sceaux, ou encore des sept chapitres de l'histoire de l'humanité",
+   "value": "7",
+   "unit": "chapters",
+   "quantifies": "seals = chapters of human history",
+   "voice": "Yahweh",
+   "cls": "K"
+  },
+  {
+   "id": "N192",
+   "ref": "LWTE-2:147",
+   "fr": "aux quelques milliers de terriens que nous avons recréés",
+   "value": "a few thousand",
+   "unit": "persons",
+   "quantifies": "Earth people already re-created",
+   "voice": "Yahweh",
+   "cls": "K"
+  },
+  {
+   "id": "N193",
+   "ref": "LWTE-2:158",
+   "fr": "sera d'à peu près cent quarante-quatre mille",
+   "value": "~144,000",
+   "unit": "persons",
+   "quantifies": "total \"sealed on the forehead\", incl. those already re-created",
+   "voice": "Yahweh",
+   "cls": "K"
+  },
+  {
+   "id": "N194",
+   "ref": "LWTE-2:163",
+   "fr": "Le tiers de la terre est brûlé par la radioactivité",
+   "value": "1/3",
+   "unit": "share",
+   "quantifies": "Rev 8 trumpets as nuclear effects",
+   "voice": "Yahweh",
+   "cls": "Q"
+  },
+  {
+   "id": "N195",
+   "ref": "LWTE-2:193",
+   "fr": "les quatre haut-parleurs",
+   "value": "4",
+   "unit": "loudspeakers",
+   "quantifies": "Rev 9:13 \"four horns\"",
+   "voice": "Yahweh",
+   "cls": "K"
+  },
+  {
+   "id": "N196",
+   "ref": "LWTE-2:208",
+   "fr": "Six cent soixante-six, c'est le nombre de générations humaines",
+   "value": "666",
+   "unit": "generations",
+   "quantifies": "since the creation of the first humans in the laboratories",
+   "voice": "Yahweh",
+   "cls": "K"
+  },
+  {
+   "id": "N197",
+   "ref": "LWTE-2:208",
+   "fr": "Les premiers hommes ayant été créés il y a environ treize mille ans",
+   "value": "~13,000",
+   "unit": "years ago",
+   "quantifies": "creation of the first humans",
+   "voice": "Yahweh",
+   "cls": "K"
+  },
+  {
+   "id": "N198",
+   "ref": "LWTE-2:208",
+   "fr": "la durée d'une génération humaine estimée à vingt ans",
+   "value": "20",
+   "unit": "years",
+   "quantifies": "assumed generation length",
+   "voice": "Yahweh",
+   "cls": "K"
+  },
+  {
+   "id": "N199",
+   "ref": "LWTE-2:208",
+   "fr": "un total de treize mille trois cent vingt ans",
+   "value": "13,320",
+   "unit": "years",
+   "quantifies": "666 x 20, computed in the text",
+   "voice": "Yahweh",
+   "cls": "K"
+  },
+  {
+   "id": "N200",
+   "ref": "LWTE-2:208",
+   "fr": "au commencement de l'âge de l'Apocalypse en 1945 de l'ère chrétienne",
+   "value": "1945",
+   "unit": "year",
+   "quantifies": "start of the age of Apocalypse; birth of the 666th generation",
+   "voice": "Yahweh",
+   "cls": "K"
+  },
+  {
+   "id": "N201",
+   "ref": "LWTE-2:209",
+   "fr": "le 6 août de cette année 1945 à Hiroshima",
+   "value": "1945-08-06",
+   "unit": "date",
+   "quantifies": "first murderous use of nuclear energy",
+   "voice": "Yahweh",
+   "cls": "K"
+  },
+  {
+   "id": "N202",
+   "ref": "LWTE-2:231",
+   "fr": "quatre-vingt-dix-neuf pour cent de chance",
+   "value": "99%",
+   "unit": "probability",
+   "quantifies": "of the final cataclysm",
+   "voice": "Yahweh",
+   "cls": "K"
+  },
+  {
+   "id": "N203",
+   "ref": "LWTE-3:26",
+   "fr": "le rassemblement annuel du 6 août pour fêter l'entrée dans l'âge de l'Apocalypse",
+   "value": "6 August",
+   "unit": "date",
+   "quantifies": "annual feast of the era's opening",
+   "voice": "Raël",
+   "cls": "P"
+  },
+  {
+   "id": "N204",
+   "ref": "LWTE-3:45",
+   "fr": "soixante pour cent des sujets",
+   "value": "60% (US); >70% (Europe); 85% (Germany)",
+   "unit": "share",
+   "quantifies": "Milgram obedience figures as reported by Raël",
+   "voice": "Raël",
+   "cls": "H"
+  },
+  {
+   "id": "N205",
+   "ref": "LWTE-3:76",
+   "fr": "je suis trois mille",
+   "value": "3,000",
+   "unit": "members",
+   "quantifies": "movement size, 1979",
+   "voice": "Raël",
+   "cls": "B"
+  },
+  {
+   "id": "N206",
+   "ref": "LWTE-3:79",
+   "fr": "Depuis 1945",
+   "value": "1945",
+   "unit": "year",
+   "quantifies": "entry into the age of Apocalypse",
+   "voice": "Raël",
+   "cls": "K"
+  },
+  {
+   "id": "N207",
+   "ref": "LWTE-4:32",
+   "fr": "deux mille mètres dans le Nord de la France",
+   "value": "2,000",
+   "unit": "m",
+   "quantifies": "thickness of coal accumulations",
+   "voice": "Terrusse",
+   "cls": "W"
+  },
+  {
+   "id": "N208",
+   "ref": "LWTE-4:40",
+   "fr": "quelques centimètres par an",
+   "value": "a few",
+   "unit": "cm/yr",
+   "quantifies": "present drift rate (residual of the Flood breakup)",
+   "voice": "Terrusse",
+   "cls": "W"
+  },
+  {
+   "id": "N209",
+   "ref": "LWTE-4:42",
+   "fr": "Pendant les milliers d'années qui séparèrent la création du continent originel par les Elohim de la période du déluge",
+   "value": "thousands",
+   "unit": "years",
+   "quantifies": "interval continent-creation to Flood",
+   "voice": "Terrusse",
+   "cls": "W"
+  },
+  {
+   "id": "N210",
+   "ref": "LWTE-4:73",
+   "fr": "dans les années 1920",
+   "value": "1920s",
+   "unit": "date",
+   "quantifies": "Hertz's discovery of radio waves, as stated",
+   "voice": "Terrusse",
+   "cls": "W"
+  },
+  {
+   "id": "N211",
+   "ref": "LWTE-4:73",
+   "fr": "les Elohim nous devancent de vingt cinq mille ans",
+   "value": "25,000",
+   "unit": "years",
+   "quantifies": "Elohim lead",
+   "voice": "Terrusse",
+   "cls": "W"
+  },
+  {
+   "id": "N212",
+   "ref": "LWTE-4:90",
+   "fr": "près d'une quarantaine",
+   "value": "~40",
+   "unit": "prophets",
+   "quantifies": "prophets who will return",
+   "voice": "Le Gendre",
+   "cls": "W"
+  },
+  {
+   "id": "N213",
+   "ref": "LWTE-4:219",
+   "fr": "Cannes, 22 mai 1979, an 33 après Raël",
+   "value": "year 33 = May 1979",
+   "unit": "era",
+   "quantifies": "dateline of a guide's testimony",
+   "voice": "Deydier",
+   "cls": "W"
+  }
+ ]
+}

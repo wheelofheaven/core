@@ -1,0 +1,5442 @@
+{
+ "key": "development",
+ "source_of_record": "French dumps (project digitization, later-edition text)",
+ "corpus_words": {
+  "TBWTT": 29635,
+  "ETTMTTP": 33443,
+  "LWTE": 42026
+ },
+ "items": [
+  {
+   "type": "term",
+   "term": "Elohim",
+   "regex": "\\b[ÉE]lohim\\b",
+   "first": {
+    "TBWTT": "TBWTT-2:4",
+    "ETTMTTP": "ETTMTTP-1:63",
+    "LWTE": "LWTE-1:8"
+   },
+   "counts": {
+    "TBWTT": 29,
+    "ETTMTTP": 79,
+    "LWTE": 135
+   },
+   "per_10k_words": {
+    "TBWTT": 9.8,
+    "ETTMTTP": 23.6,
+    "LWTE": 32.1
+   },
+   "by_chapter": {
+    "TBWTT": {
+     "2": 11,
+     "3": 12,
+     "5": 5,
+     "7": 1
+    },
+    "ETTMTTP": {
+     "1": 2,
+     "2": 18,
+     "3": 59
+    },
+    "LWTE": {
+     "1": 58,
+     "2": 35,
+     "3": 16,
+     "4": 26
+    }
+   },
+   "shift": "Offered as an optional name at TBWTT-7:33; becomes the standard designation; displaces \"créateurs\" (finding 14)"
+  },
+  {
+   "type": "term",
+   "term": "créateurs",
+   "regex": "\\bcréateurs?\\b",
+   "first": {
+    "TBWTT": "TBWTT-2:25",
+    "ETTMTTP": "ETTMTTP-2:1",
+    "LWTE": "LWTE-1:4"
+   },
+   "counts": {
+    "TBWTT": 175,
+    "ETTMTTP": 63,
+    "LWTE": 73
+   },
+   "per_10k_words": {
+    "TBWTT": 59.1,
+    "ETTMTTP": 18.8,
+    "LWTE": 17.4
+   },
+   "by_chapter": {
+    "TBWTT": {
+     "2": 27,
+     "3": 88,
+     "4": 40,
+     "5": 17,
+     "6": 2,
+     "7": 1
+    },
+    "ETTMTTP": {
+     "2": 6,
+     "3": 57
+    },
+    "LWTE": {
+     "1": 30,
+     "2": 13,
+     "3": 19,
+     "4": 11
+    }
+   },
+   "shift": "Book 1's standard term; falls by more than half"
+  },
+  {
+   "type": "term",
+   "term": "Éloha",
+   "regex": "\\b[ÉE]loha\\b",
+   "first": {
+    "TBWTT": "TBWTT-5:21",
+    "ETTMTTP": "ETTMTTP-1:63",
+    "LWTE": "LWTE-1:2"
+   },
+   "counts": {
+    "TBWTT": 1,
+    "ETTMTTP": 2,
+    "LWTE": 4
+   },
+   "per_10k_words": {
+    "TBWTT": 0.3,
+    "ETTMTTP": 0.6,
+    "LWTE": 1.0
+   },
+   "by_chapter": {
+    "TBWTT": {
+     "5": 1
+    },
+    "ETTMTTP": {
+     "1": 1,
+     "2": 1
+    },
+    "LWTE": {
+     "1": 2,
+     "2": 1,
+     "3": 1
+    }
+   },
+   "shift": "Singular; rare throughout"
+  },
+  {
+   "type": "term",
+   "term": "Iahvé (spelling)",
+   "regex": "Iahv[ée]",
+   "first": {
+    "TBWTT": "TBWTT-2:38",
+    "ETTMTTP": "ETTMTTP-2:50",
+    "LWTE": null
+   },
+   "counts": {
+    "TBWTT": 61,
+    "ETTMTTP": 10,
+    "LWTE": 0
+   },
+   "per_10k_words": {
+    "TBWTT": 20.6,
+    "ETTMTTP": 3.0,
+    "LWTE": 0.0
+   },
+   "by_chapter": {
+    "TBWTT": {
+     "2": 8,
+     "3": 49,
+     "5": 4
+    },
+    "ETTMTTP": {
+     "2": 10
+    },
+    "LWTE": {}
+   },
+   "shift": "Book 1: only in Bible quotations and glosses, never as the speaker's name; book 2: the speaker names himself (2:50)"
+  },
+  {
+   "type": "term",
+   "term": "Yahvé (spelling)",
+   "regex": "Yahv[ée]",
+   "first": {
+    "TBWTT": null,
+    "ETTMTTP": null,
+    "LWTE": "LWTE-2:22"
+   },
+   "counts": {
+    "TBWTT": 0,
+    "ETTMTTP": 0,
+    "LWTE": 47
+   },
+   "per_10k_words": {
+    "TBWTT": 0.0,
+    "ETTMTTP": 0.0,
+    "LWTE": 11.2
+   },
+   "by_chapter": {
+    "TBWTT": {},
+    "ETTMTTP": {},
+    "LWTE": {
+     "2": 44,
+     "3": 2,
+     "4": 1
+    }
+   },
+   "shift": "Spelling changes in book 3; now also father of Jesus and of Raël (2:87), author of the 1979 message"
+  },
+  {
+   "type": "term",
+   "term": "Satan",
+   "regex": "\\bSatan\\b",
+   "first": {
+    "TBWTT": "TBWTT-3:248",
+    "ETTMTTP": null,
+    "LWTE": "LWTE-2:4"
+   },
+   "counts": {
+    "TBWTT": 13,
+    "ETTMTTP": 0,
+    "LWTE": 43
+   },
+   "per_10k_words": {
+    "TBWTT": 4.4,
+    "ETTMTTP": 0.0,
+    "LWTE": 10.2
+   },
+   "by_chapter": {
+    "TBWTT": {
+     "3": 9,
+     "4": 3,
+     "5": 1
+    },
+    "ETTMTTP": {},
+    "LWTE": {
+     "2": 42,
+     "3": 1
+    }
+   },
+   "shift": "Present 1974, absent 1975, rebuilt 1979 (finding 4)"
+  },
+  {
+   "type": "term",
+   "term": "Lucifer",
+   "regex": "\\bLucifer\\b",
+   "first": {
+    "TBWTT": null,
+    "ETTMTTP": null,
+    "LWTE": "LWTE-2:4"
+   },
+   "counts": {
+    "TBWTT": 0,
+    "ETTMTTP": 0,
+    "LWTE": 9
+   },
+   "per_10k_words": {
+    "TBWTT": 0.0,
+    "ETTMTTP": 0.0,
+    "LWTE": 2.1
+   },
+   "by_chapter": {
+    "TBWTT": {},
+    "ETTMTTP": {},
+    "LWTE": {
+     "2": 9
+    }
+   },
+   "shift": "Book 3 only; names book 1's anonymous \"serpent\" group"
+  },
+  {
+   "type": "term",
+   "term": "serpent",
+   "regex": "\\bserpents?\\b",
+   "first": {
+    "TBWTT": "TBWTT-2:34",
+    "ETTMTTP": null,
+    "LWTE": "LWTE-2:24"
+   },
+   "counts": {
+    "TBWTT": 8,
+    "ETTMTTP": 0,
+    "LWTE": 2
+   },
+   "per_10k_words": {
+    "TBWTT": 2.7,
+    "ETTMTTP": 0.0,
+    "LWTE": 0.5
+   },
+   "by_chapter": {
+    "TBWTT": {
+     "2": 3,
+     "3": 4,
+     "4": 1
+    },
+    "ETTMTTP": {},
+    "LWTE": {
+     "2": 2
+    }
+   },
+   "shift": "Book 1: Genesis gloss (2:39) plus unrelated Bible uses; book 3: one back-reference (2:24)"
+  },
+  {
+   "type": "term",
+   "term": "diable/démon",
+   "regex": "\\bdiable|\\bdémon",
+   "first": {
+    "TBWTT": "TBWTT-4:19",
+    "ETTMTTP": "ETTMTTP-2:24",
+    "LWTE": "LWTE-1:76"
+   },
+   "counts": {
+    "TBWTT": 5,
+    "ETTMTTP": 5,
+    "LWTE": 18
+   },
+   "per_10k_words": {
+    "TBWTT": 1.7,
+    "ETTMTTP": 1.5,
+    "LWTE": 4.3
+   },
+   "by_chapter": {
+    "TBWTT": {
+     "4": 2,
+     "5": 2,
+     "7": 1
+    },
+    "ETTMTTP": {
+     "2": 5
+    },
+    "LWTE": {
+     "1": 4,
+     "2": 13,
+     "4": 1
+    }
+   },
+   "shift": "Book 2 \"démons\" = Buddhist image of aggression (2:24); book 3 diabolos = calumniator"
+  },
+  {
+   "type": "term",
+   "term": "ange",
+   "regex": "\\banges?\\b",
+   "first": {
+    "TBWTT": "TBWTT-3:210",
+    "ETTMTTP": null,
+    "LWTE": "LWTE-2:38"
+   },
+   "counts": {
+    "TBWTT": 15,
+    "ETTMTTP": 0,
+    "LWTE": 15
+   },
+   "per_10k_words": {
+    "TBWTT": 5.1,
+    "ETTMTTP": 0.0,
+    "LWTE": 3.6
+   },
+   "by_chapter": {
+    "TBWTT": {
+     "3": 3,
+     "4": 11,
+     "5": 1
+    },
+    "ETTMTTP": {},
+    "LWTE": {
+     "2": 12,
+     "3": 3
+    }
+   },
+   "shift": "Bible quotations in book 1; etymologised \"messager\" in book 3 (3:7); none in book 2"
+  },
+  {
+   "type": "term",
+   "term": "éternels",
+   "regex": "\\b[ée]ternels\\b",
+   "first": {
+    "TBWTT": "TBWTT-7:13",
+    "ETTMTTP": "ETTMTTP-2:50",
+    "LWTE": "LWTE-1:2"
+   },
+   "counts": {
+    "TBWTT": 15,
+    "ETTMTTP": 24,
+    "LWTE": 5
+   },
+   "per_10k_words": {
+    "TBWTT": 5.1,
+    "ETTMTTP": 7.2,
+    "LWTE": 1.2
+   },
+   "by_chapter": {
+    "TBWTT": {
+     "7": 15
+    },
+    "ETTMTTP": {
+     "2": 12,
+     "3": 12
+    },
+    "LWTE": {
+     "1": 4,
+     "2": 1
+    }
+   },
+   "shift": "Book 1: 700 on the home planet; book 2: a planet of their own; noun fades in book 3"
+  },
+  {
+   "type": "term",
+   "term": "conseil des éternels",
+   "regex": "conseil des [ée]ternels",
+   "first": {
+    "TBWTT": "TBWTT-7:31",
+    "ETTMTTP": "ETTMTTP-2:50",
+    "LWTE": null
+   },
+   "counts": {
+    "TBWTT": 5,
+    "ETTMTTP": 5,
+    "LWTE": 0
+   },
+   "per_10k_words": {
+    "TBWTT": 1.7,
+    "ETTMTTP": 1.5,
+    "LWTE": 0.0
+   },
+   "by_chapter": {
+    "TBWTT": {
+     "7": 5
+    },
+    "ETTMTTP": {
+     "2": 5
+    },
+    "LWTE": {}
+   },
+   "shift": "Disclosed with its president at TBWTT-7:31/7:56 (regex is case-sensitive: LWTE writes \"conseil des Eternels\", 6 instances in LWTE, not counted in this row)"
+  },
+  {
+   "type": "term",
+   "term": "planète des éternels",
+   "regex": "planète des [ée]ternels",
+   "first": {
+    "TBWTT": null,
+    "ETTMTTP": "ETTMTTP-3:26",
+    "LWTE": "LWTE-1:2"
+   },
+   "counts": {
+    "TBWTT": 0,
+    "ETTMTTP": 9,
+    "LWTE": 2
+   },
+   "per_10k_words": {
+    "TBWTT": 0.0,
+    "ETTMTTP": 2.7,
+    "LWTE": 0.5
+   },
+   "by_chapter": {
+    "TBWTT": {},
+    "ETTMTTP": {
+     "3": 9
+    },
+    "LWTE": {
+     "1": 2
+    }
+   },
+   "shift": "Book 2 coinage (finding 7)"
+  },
+  {
+   "type": "term",
+   "term": "géniocratie",
+   "regex": "géniocrat",
+   "first": {
+    "TBWTT": "TBWTT-6:6",
+    "ETTMTTP": "ETTMTTP-2:1",
+    "LWTE": "LWTE-1:83"
+   },
+   "counts": {
+    "TBWTT": 1,
+    "ETTMTTP": 10,
+    "LWTE": 12
+   },
+   "per_10k_words": {
+    "TBWTT": 0.3,
+    "ETTMTTP": 3.0,
+    "LWTE": 2.9
+   },
+   "by_chapter": {
+    "TBWTT": {
+     "6": 1
+    },
+    "ETTMTTP": {
+     "2": 3,
+     "3": 7
+    },
+    "LWTE": {
+     "1": 10,
+     "4": 2
+    }
+   },
+   "shift": "Proposal → commandment → demoted by Raël (finding 8)"
+  },
+  {
+   "type": "term",
+   "term": "humanitarisme",
+   "regex": "humanitaris",
+   "first": {
+    "TBWTT": "TBWTT-6:10",
+    "ETTMTTP": "ETTMTTP-2:1",
+    "LWTE": "LWTE-4:90"
+   },
+   "counts": {
+    "TBWTT": 1,
+    "ETTMTTP": 5,
+    "LWTE": 1
+   },
+   "per_10k_words": {
+    "TBWTT": 0.3,
+    "ETTMTTP": 1.5,
+    "LWTE": 0.2
+   },
+   "by_chapter": {
+    "TBWTT": {
+     "6": 1
+    },
+    "ETTMTTP": {
+     "2": 1,
+     "3": 4
+    },
+    "LWTE": {
+     "4": 1
+    }
+   },
+   "shift": "Named 1974; commanded 1975; one instance in 1979, in a testimony"
+  },
+  {
+   "type": "term",
+   "term": "ambassade",
+   "regex": "\\bambassade",
+   "first": {
+    "TBWTT": "TBWTT-3:113",
+    "ETTMTTP": "ETTMTTP-2:99",
+    "LWTE": "LWTE-1:23"
+   },
+   "counts": {
+    "TBWTT": 5,
+    "ETTMTTP": 20,
+    "LWTE": 15
+   },
+   "per_10k_words": {
+    "TBWTT": 1.7,
+    "ETTMTTP": 6.0,
+    "LWTE": 3.6
+   },
+   "by_chapter": {
+    "TBWTT": {
+     "3": 1,
+     "5": 3,
+     "6": 1
+    },
+    "ETTMTTP": {
+     "2": 14,
+     "3": 6
+    },
+    "LWTE": {
+     "1": 11,
+     "2": 1,
+     "3": 3
+    }
+   },
+   "shift": "Overtakes \"résidence\"; Israel site in book 2 only"
+  },
+  {
+   "type": "term",
+   "term": "résidence",
+   "regex": "\\brésidence",
+   "first": {
+    "TBWTT": "TBWTT-2:45",
+    "ETTMTTP": "ETTMTTP-2:50",
+    "LWTE": "LWTE-3:82"
+   },
+   "counts": {
+    "TBWTT": 21,
+    "ETTMTTP": 4,
+    "LWTE": 1
+   },
+   "per_10k_words": {
+    "TBWTT": 7.1,
+    "ETTMTTP": 1.2,
+    "LWTE": 0.2
+   },
+   "by_chapter": {
+    "TBWTT": {
+     "2": 1,
+     "3": 5,
+     "6": 11,
+     "7": 4
+    },
+    "ETTMTTP": {
+     "2": 4
+    },
+    "LWTE": {
+     "3": 1
+    }
+   },
+   "shift": "Book 1's word for the building (and for the Eden base, and for the Terrans' quarters on the planet)"
+  },
+  {
+   "type": "term",
+   "term": "ambassadeur",
+   "regex": "ambassadeur",
+   "first": {
+    "TBWTT": "TBWTT-3:113",
+    "ETTMTTP": "ETTMTTP-2:99",
+    "LWTE": null
+   },
+   "counts": {
+    "TBWTT": 3,
+    "ETTMTTP": 8,
+    "LWTE": 0
+   },
+   "per_10k_words": {
+    "TBWTT": 1.0,
+    "ETTMTTP": 2.4,
+    "LWTE": 0.0
+   },
+   "by_chapter": {
+    "TBWTT": {
+     "3": 1,
+     "5": 2
+    },
+    "ETTMTTP": {
+     "2": 5,
+     "3": 3
+    },
+    "LWTE": {}
+   },
+   "shift": "Title of Raël in books 1–2 (also of the prophets, TBWTT-3:113); not used in book 3"
+  },
+  {
+   "type": "term",
+   "term": "raëlien",
+   "regex": "\\bra[ëe]lien",
+   "first": {
+    "TBWTT": null,
+    "ETTMTTP": "ETTMTTP-3:260",
+    "LWTE": "LWTE-1:33"
+   },
+   "counts": {
+    "TBWTT": 0,
+    "ETTMTTP": 1,
+    "LWTE": 49
+   },
+   "per_10k_words": {
+    "TBWTT": 0.0,
+    "ETTMTTP": 0.3,
+    "LWTE": 11.7
+   },
+   "by_chapter": {
+    "TBWTT": {},
+    "ETTMTTP": {
+     "3": 1
+    },
+    "LWTE": {
+     "1": 31,
+     "2": 2,
+     "3": 6,
+     "4": 10
+    }
+   },
+   "shift": "0 in book 1; single book-2 instance in the closing appeal (3:260); see finding 6"
+  },
+  {
+   "type": "term",
+   "term": "Raël",
+   "regex": "\\bRa[ëe]l\\b",
+   "first": {
+    "TBWTT": "TBWTT-3:305",
+    "ETTMTTP": "ETTMTTP-2:99",
+    "LWTE": "LWTE-1:1"
+   },
+   "counts": {
+    "TBWTT": 1,
+    "ETTMTTP": 12,
+    "LWTE": 29
+   },
+   "per_10k_words": {
+    "TBWTT": 0.3,
+    "ETTMTTP": 3.6,
+    "LWTE": 6.9
+   },
+   "by_chapter": {
+    "TBWTT": {
+     "3": 1
+    },
+    "ETTMTTP": {
+     "2": 3,
+     "3": 9
+    },
+    "LWTE": {
+     "1": 6,
+     "2": 8,
+     "3": 2,
+     "4": 13
+    }
+   },
+   "shift": "TBWTT first hit 3:305 is a later caption; name given at TBWTT-5:66"
+  },
+  {
+   "type": "term",
+   "term": "Claude Vorilhon",
+   "regex": "Vorilhon",
+   "first": {
+    "TBWTT": "TBWTT-1:22",
+    "ETTMTTP": null,
+    "LWTE": "LWTE-4:83"
+   },
+   "counts": {
+    "TBWTT": 2,
+    "ETTMTTP": 0,
+    "LWTE": 5
+   },
+   "per_10k_words": {
+    "TBWTT": 0.7,
+    "ETTMTTP": 0.0,
+    "LWTE": 1.2
+   },
+   "by_chapter": {
+    "TBWTT": {
+     "1": 1,
+     "5": 1
+    },
+    "ETTMTTP": {},
+    "LWTE": {
+     "4": 5
+    }
+   },
+   "shift": "Book 1 address (1:22, 5:66); returns in book 3 only in members' testimonies"
+  },
+  {
+   "type": "term",
+   "term": "Mouvement",
+   "regex": "\\bMouvement\\b|\\bmouvement ra",
+   "first": {
+    "TBWTT": "TBWTT-6:29",
+    "ETTMTTP": "ETTMTTP-2:105",
+    "LWTE": "LWTE-1:21"
+   },
+   "counts": {
+    "TBWTT": 4,
+    "ETTMTTP": 2,
+    "LWTE": 14
+   },
+   "per_10k_words": {
+    "TBWTT": 1.3,
+    "ETTMTTP": 0.6,
+    "LWTE": 3.3
+   },
+   "by_chapter": {
+    "TBWTT": {
+     "6": 1,
+     "7": 3
+    },
+    "ETTMTTP": {
+     "2": 1,
+     "3": 1
+    },
+    "LWTE": {
+     "1": 6,
+     "3": 1,
+     "4": 7
+    }
+   },
+   "shift": "\"Mouvement Raélien\" in book 1 (6:29; 7:73–83) is suspect as a later layer (finding 6)"
+  },
+  {
+   "type": "term",
+   "term": "MADECH",
+   "regex": "M\\.?A\\.?D\\.?E\\.?C\\.?H",
+   "first": {
+    "TBWTT": null,
+    "ETTMTTP": "ETTMTTP-1:4",
+    "LWTE": null
+   },
+   "counts": {
+    "TBWTT": 0,
+    "ETTMTTP": 16,
+    "LWTE": 0
+   },
+   "per_10k_words": {
+    "TBWTT": 0.0,
+    "ETTMTTP": 4.8,
+    "LWTE": 0.0
+   },
+   "by_chapter": {
+    "TBWTT": {},
+    "ETTMTTP": {
+     "1": 5,
+     "2": 11
+    },
+    "LWTE": {}
+   },
+   "shift": "Book 2 only (16)"
+  },
+  {
+   "type": "term",
+   "term": "infini",
+   "regex": "\\binfini(e|s|es|ment)?\\b",
+   "first": {
+    "TBWTT": "TBWTT-3:305",
+    "ETTMTTP": "ETTMTTP-2:2",
+    "LWTE": "LWTE-1:27"
+   },
+   "counts": {
+    "TBWTT": 6,
+    "ETTMTTP": 65,
+    "LWTE": 77
+   },
+   "per_10k_words": {
+    "TBWTT": 2.0,
+    "ETTMTTP": 19.4,
+    "LWTE": 18.3
+   },
+   "by_chapter": {
+    "TBWTT": {
+     "3": 4,
+     "5": 2
+    },
+    "ETTMTTP": {
+     "2": 23,
+     "3": 42
+    },
+    "LWTE": {
+     "1": 62,
+     "2": 1,
+     "3": 2,
+     "4": 12
+    }
+   },
+   "shift": "Marginal in book 1; systematic from book 2; \"religion de l'infini\" in book 3 (finding 17)"
+  },
+  {
+   "type": "term",
+   "term": "plan cellulaire",
+   "regex": "plan cellulaire",
+   "first": {
+    "TBWTT": null,
+    "ETTMTTP": "ETTMTTP-2:116",
+    "LWTE": "LWTE-1:33"
+   },
+   "counts": {
+    "TBWTT": 0,
+    "ETTMTTP": 2,
+    "LWTE": 11
+   },
+   "per_10k_words": {
+    "TBWTT": 0.0,
+    "ETTMTTP": 0.6,
+    "LWTE": 2.6
+   },
+   "by_chapter": {
+    "TBWTT": {},
+    "ETTMTTP": {
+     "2": 1,
+     "3": 1
+    },
+    "LWTE": {
+     "1": 6,
+     "2": 2,
+     "3": 1,
+     "4": 2
+    }
+   },
+   "shift": "First ETTMTTP-2:116; fixed rite-name \"transmission du plan cellulaire\" in book 3"
+  },
+  {
+   "type": "term",
+   "term": "code génétique",
+   "regex": "code génétique",
+   "first": {
+    "TBWTT": null,
+    "ETTMTTP": null,
+    "LWTE": "LWTE-1:33"
+   },
+   "counts": {
+    "TBWTT": 0,
+    "ETTMTTP": 0,
+    "LWTE": 18
+   },
+   "per_10k_words": {
+    "TBWTT": 0.0,
+    "ETTMTTP": 0.0,
+    "LWTE": 4.3
+   },
+   "by_chapter": {
+    "TBWTT": {},
+    "ETTMTTP": {},
+    "LWTE": {
+     "1": 15,
+     "2": 3
+    }
+   },
+   "shift": "Book 3 only; equated with plan cellulaire and with \"âme\" (LWTE-1:34, 1:68–70)"
+  },
+  {
+   "type": "term",
+   "term": "recréation/recréer",
+   "regex": "\\brecré",
+   "first": {
+    "TBWTT": "TBWTT-2:68",
+    "ETTMTTP": "ETTMTTP-2:30",
+    "LWTE": "LWTE-1:33"
+   },
+   "counts": {
+    "TBWTT": 5,
+    "ETTMTTP": 15,
+    "LWTE": 19
+   },
+   "per_10k_words": {
+    "TBWTT": 1.7,
+    "ETTMTTP": 4.5,
+    "LWTE": 4.5
+   },
+   "by_chapter": {
+    "TBWTT": {
+     "2": 1,
+     "3": 2,
+     "7": 2
+    },
+    "ETTMTTP": {
+     "2": 9,
+     "3": 6
+    },
+    "LWTE": {
+     "1": 12,
+     "2": 6,
+     "4": 1
+    }
+   },
+   "shift": "Book 1: Elohim self-renewal and animals after the Flood; books 2–3: reward/punishment of humans"
+  },
+  {
+   "type": "term",
+   "term": "clonage/clone",
+   "regex": "\\bclon",
+   "first": {
+    "TBWTT": null,
+    "ETTMTTP": null,
+    "LWTE": null
+   },
+   "counts": {
+    "TBWTT": 0,
+    "ETTMTTP": 0,
+    "LWTE": 0
+   },
+   "per_10k_words": {
+    "TBWTT": 0.0,
+    "ETTMTTP": 0.0,
+    "LWTE": 0.0
+   },
+   "by_chapter": {
+    "TBWTT": {},
+    "ETTMTTP": {},
+    "LWTE": {}
+   },
+   "shift": "Never used"
+  },
+  {
+   "type": "term",
+   "term": "réincarnation scientifique",
+   "regex": "réincarn[a]?tion scientifique",
+   "first": {
+    "TBWTT": null,
+    "ETTMTTP": "ETTMTTP-3:208",
+    "LWTE": null
+   },
+   "counts": {
+    "TBWTT": 0,
+    "ETTMTTP": 4,
+    "LWTE": 0
+   },
+   "per_10k_words": {
+    "TBWTT": 0.0,
+    "ETTMTTP": 1.2,
+    "LWTE": 0.0
+   },
+   "by_chapter": {
+    "TBWTT": {},
+    "ETTMTTP": {
+     "3": 4
+    },
+    "LWTE": {}
+   },
+   "shift": "Book 2 only"
+  },
+  {
+   "type": "term",
+   "term": "os frontal/os de ton front",
+   "regex": "os frontal|os de ton front",
+   "first": {
+    "TBWTT": null,
+    "ETTMTTP": "ETTMTTP-3:69",
+    "LWTE": "LWTE-1:33"
+   },
+   "counts": {
+    "TBWTT": 0,
+    "ETTMTTP": 1,
+    "LWTE": 6
+   },
+   "per_10k_words": {
+    "TBWTT": 0.0,
+    "ETTMTTP": 0.3,
+    "LWTE": 1.4
+   },
+   "by_chapter": {
+    "TBWTT": {},
+    "ETTMTTP": {
+     "3": 1
+    },
+    "LWTE": {
+     "1": 5,
+     "2": 1
+    }
+   },
+   "shift": "First ETTMTTP-3:69; condition relaxed LWTE-1:36"
+  },
+  {
+   "type": "term",
+   "term": "méditation sensuelle",
+   "regex": "méditation sensuelle",
+   "first": {
+    "TBWTT": null,
+    "ETTMTTP": "ETTMTTP-3:113",
+    "LWTE": "LWTE-1:72"
+   },
+   "counts": {
+    "TBWTT": 0,
+    "ETTMTTP": 4,
+    "LWTE": 3
+   },
+   "per_10k_words": {
+    "TBWTT": 0.0,
+    "ETTMTTP": 1.2,
+    "LWTE": 0.7
+   },
+   "by_chapter": {
+    "TBWTT": {},
+    "ETTMTTP": {
+     "3": 4
+    },
+    "LWTE": {
+     "1": 3
+    }
+   },
+   "shift": "First ETTMTTP-3:113"
+  },
+  {
+   "type": "term",
+   "term": "éveil",
+   "regex": "\\béveil",
+   "first": {
+    "TBWTT": null,
+    "ETTMTTP": "ETTMTTP-2:24",
+    "LWTE": "LWTE-1:74"
+   },
+   "counts": {
+    "TBWTT": 0,
+    "ETTMTTP": 26,
+    "LWTE": 16
+   },
+   "per_10k_words": {
+    "TBWTT": 0.0,
+    "ETTMTTP": 7.8,
+    "LWTE": 3.8
+   },
+   "by_chapter": {
+    "TBWTT": {},
+    "ETTMTTP": {
+     "2": 5,
+     "3": 21
+    },
+    "LWTE": {
+     "1": 11,
+     "2": 1,
+     "4": 4
+    }
+   },
+   "shift": "Book 2 coinage; \"stages d'éveil\" book 3"
+  },
+  {
+   "type": "term",
+   "term": "plaisir",
+   "regex": "\\bplaisir",
+   "first": {
+    "TBWTT": "TBWTT-7:49",
+    "ETTMTTP": "ETTMTTP-1:4",
+    "LWTE": "LWTE-1:50"
+   },
+   "counts": {
+    "TBWTT": 1,
+    "ETTMTTP": 39,
+    "LWTE": 47
+   },
+   "per_10k_words": {
+    "TBWTT": 0.3,
+    "ETTMTTP": 11.7,
+    "LWTE": 11.2
+   },
+   "by_chapter": {
+    "TBWTT": {
+     "7": 1
+    },
+    "ETTMTTP": {
+     "1": 3,
+     "2": 8,
+     "3": 28
+    },
+    "LWTE": {
+     "1": 43,
+     "3": 1,
+     "4": 3
+    }
+   },
+   "shift": "1 → 39 → 47; theorised in LWTE-1:110–140"
+  },
+  {
+   "type": "term",
+   "term": "prophète",
+   "regex": "\\bprophètes?\\b",
+   "first": {
+    "TBWTT": "TBWTT-3:85",
+    "ETTMTTP": "ETTMTTP-2:105",
+    "LWTE": "LWTE-1:33"
+   },
+   "counts": {
+    "TBWTT": 8,
+    "ETTMTTP": 31,
+    "LWTE": 34
+   },
+   "per_10k_words": {
+    "TBWTT": 2.7,
+    "ETTMTTP": 9.3,
+    "LWTE": 8.1
+   },
+   "by_chapter": {
+    "TBWTT": {
+     "3": 6,
+     "4": 2
+    },
+    "ETTMTTP": {
+     "2": 11,
+     "3": 20
+    },
+    "LWTE": {
+     "1": 9,
+     "2": 12,
+     "3": 7,
+     "4": 6
+    }
+   },
+   "shift": "Book 1: biblical figures only; book 2: Raël \"dernier des prophètes\""
+  },
+  {
+   "type": "term",
+   "term": "dernier des prophètes",
+   "regex": "dernier des prophètes",
+   "first": {
+    "TBWTT": null,
+    "ETTMTTP": "ETTMTTP-2:121",
+    "LWTE": "LWTE-1:33"
+   },
+   "counts": {
+    "TBWTT": 0,
+    "ETTMTTP": 10,
+    "LWTE": 3
+   },
+   "per_10k_words": {
+    "TBWTT": 0.0,
+    "ETTMTTP": 3.0,
+    "LWTE": 0.7
+   },
+   "by_chapter": {
+    "TBWTT": {},
+    "ETTMTTP": {
+     "2": 2,
+     "3": 8
+    },
+    "LWTE": {
+     "1": 1,
+     "4": 2
+    }
+   },
+   "shift": "Book 2 title"
+  },
+  {
+   "type": "term",
+   "term": "Messie",
+   "regex": "\\b[Mm]essie",
+   "first": {
+    "TBWTT": "TBWTT-3:302",
+    "ETTMTTP": "ETTMTTP-3:227",
+    "LWTE": "LWTE-3:1"
+   },
+   "counts": {
+    "TBWTT": 1,
+    "ETTMTTP": 1,
+    "LWTE": 6
+   },
+   "per_10k_words": {
+    "TBWTT": 0.3,
+    "ETTMTTP": 0.3,
+    "LWTE": 1.4
+   },
+   "by_chapter": {
+    "TBWTT": {
+     "3": 1
+    },
+    "ETTMTTP": {
+     "3": 1
+    },
+    "LWTE": {
+     "3": 6
+    }
+   },
+   "shift": "Book 1: of Jesus (3:302); book 2: apostrophe to Israel (3:227); book 3: \"messie de l'Apocalypse\" of Raël (3:1–11)"
+  },
+  {
+   "type": "term",
+   "term": "Guide des guides",
+   "regex": "[Gg]uide des [Gg]uides",
+   "first": {
+    "TBWTT": null,
+    "ETTMTTP": "ETTMTTP-2:114",
+    "LWTE": "LWTE-1:33"
+   },
+   "counts": {
+    "TBWTT": 0,
+    "ETTMTTP": 22,
+    "LWTE": 2
+   },
+   "per_10k_words": {
+    "TBWTT": 0.0,
+    "ETTMTTP": 6.6,
+    "LWTE": 0.5
+   },
+   "by_chapter": {
+    "TBWTT": {},
+    "ETTMTTP": {
+     "2": 9,
+     "3": 13
+    },
+    "LWTE": {
+     "1": 2
+    }
+   },
+   "shift": "Book 2 title (22); 2 in book 3"
+  },
+  {
+   "type": "term",
+   "term": "guide",
+   "regex": "\\b[Gg]uides?\\b",
+   "first": {
+    "TBWTT": "TBWTT-4:8",
+    "ETTMTTP": "ETTMTTP-2:2",
+    "LWTE": "LWTE-1:33"
+   },
+   "counts": {
+    "TBWTT": 2,
+    "ETTMTTP": 75,
+    "LWTE": 31
+   },
+   "per_10k_words": {
+    "TBWTT": 0.7,
+    "ETTMTTP": 22.4,
+    "LWTE": 7.4
+   },
+   "by_chapter": {
+    "TBWTT": {
+     "4": 1,
+     "6": 1
+    },
+    "ETTMTTP": {
+     "2": 37,
+     "3": 38
+    },
+    "LWTE": {
+     "1": 11,
+     "3": 5,
+     "4": 15
+    }
+   },
+   "shift": "Office of the movement from book 2"
+  },
+  {
+   "type": "term",
+   "term": "Bouddha",
+   "regex": "\\bBouddha",
+   "first": {
+    "TBWTT": null,
+    "ETTMTTP": "ETTMTTP-2:64",
+    "LWTE": "LWTE-1:75"
+   },
+   "counts": {
+    "TBWTT": 0,
+    "ETTMTTP": 3,
+    "LWTE": 4
+   },
+   "per_10k_words": {
+    "TBWTT": 0.0,
+    "ETTMTTP": 0.9,
+    "LWTE": 1.0
+   },
+   "by_chapter": {
+    "TBWTT": {},
+    "ETTMTTP": {
+     "2": 1,
+     "3": 2
+    },
+    "LWTE": {
+     "1": 2,
+     "3": 2
+    }
+   },
+   "shift": "Not in book 1 (only \"religion Bouddhiste\", 5:54); met in person 1975"
+  },
+  {
+   "type": "term",
+   "term": "Mahomet",
+   "regex": "\\bMahomet",
+   "first": {
+    "TBWTT": null,
+    "ETTMTTP": "ETTMTTP-2:64",
+    "LWTE": "LWTE-1:75"
+   },
+   "counts": {
+    "TBWTT": 0,
+    "ETTMTTP": 6,
+    "LWTE": 4
+   },
+   "per_10k_words": {
+    "TBWTT": 0.0,
+    "ETTMTTP": 1.8,
+    "LWTE": 1.0
+   },
+   "by_chapter": {
+    "TBWTT": {},
+    "ETTMTTP": {
+     "2": 4,
+     "3": 2
+    },
+    "LWTE": {
+     "1": 2,
+     "3": 2
+    }
+   },
+   "shift": "Not in book 1; met in person 1975; \"Allah\" explained (2:64)"
+  },
+  {
+   "type": "term",
+   "term": "Jésus",
+   "regex": "\\bJésus",
+   "first": {
+    "TBWTT": "TBWTT-4:18",
+    "ETTMTTP": "ETTMTTP-1:11",
+    "LWTE": "LWTE-1:75"
+   },
+   "counts": {
+    "TBWTT": 28,
+    "ETTMTTP": 17,
+    "LWTE": 43
+   },
+   "per_10k_words": {
+    "TBWTT": 9.4,
+    "ETTMTTP": 5.1,
+    "LWTE": 10.2
+   },
+   "by_chapter": {
+    "TBWTT": {
+     "4": 22,
+     "5": 3,
+     "7": 3
+    },
+    "ETTMTTP": {
+     "1": 1,
+     "2": 7,
+     "3": 9
+    },
+    "LWTE": {
+     "1": 7,
+     "2": 21,
+     "3": 6,
+     "4": 9
+    }
+   },
+   "shift": "Book 3 adds: brother of Raël; tested by Satan re-told"
+  },
+  {
+   "type": "term",
+   "term": "Moïse",
+   "regex": "\\bMoïse",
+   "first": {
+    "TBWTT": "TBWTT-3:1",
+    "ETTMTTP": "ETTMTTP-2:50",
+    "LWTE": "LWTE-1:75"
+   },
+   "counts": {
+    "TBWTT": 11,
+    "ETTMTTP": 4,
+    "LWTE": 6
+   },
+   "per_10k_words": {
+    "TBWTT": 3.7,
+    "ETTMTTP": 1.2,
+    "LWTE": 1.4
+   },
+   "by_chapter": {
+    "TBWTT": {
+     "3": 8,
+     "4": 2,
+     "7": 1
+    },
+    "ETTMTTP": {
+     "2": 2,
+     "3": 2
+    },
+    "LWTE": {
+     "1": 3,
+     "2": 1,
+     "3": 2
+    }
+   },
+   "shift": "Stable"
+  },
+  {
+   "type": "term",
+   "term": "Joseph Smith",
+   "regex": "Joseph Smith|Mormon",
+   "first": {
+    "TBWTT": "TBWTT-5:54",
+    "ETTMTTP": null,
+    "LWTE": "LWTE-3:27"
+   },
+   "counts": {
+    "TBWTT": 1,
+    "ETTMTTP": 0,
+    "LWTE": 1
+   },
+   "per_10k_words": {
+    "TBWTT": 0.3,
+    "ETTMTTP": 0.0,
+    "LWTE": 0.2
+   },
+   "by_chapter": {
+    "TBWTT": {
+     "5": 1
+    },
+    "ETTMTTP": {},
+    "LWTE": {
+     "3": 1
+    }
+   },
+   "shift": "Book 1 \"les Mormons\" (5:54); named only at LWTE-3:27"
+  },
+  {
+   "type": "term",
+   "term": "Juifs",
+   "regex": "\\b[Jj]uifs?\\b|\\bjuives?\\b",
+   "first": {
+    "TBWTT": "TBWTT-1:46",
+    "ETTMTTP": "ETTMTTP-1:7",
+    "LWTE": "LWTE-1:16"
+   },
+   "counts": {
+    "TBWTT": 9,
+    "ETTMTTP": 6,
+    "LWTE": 8
+   },
+   "per_10k_words": {
+    "TBWTT": 3.0,
+    "ETTMTTP": 1.8,
+    "LWTE": 1.9
+   },
+   "by_chapter": {
+    "TBWTT": {
+     "1": 1,
+     "2": 1,
+     "3": 4,
+     "5": 3
+    },
+    "ETTMTTP": {
+     "1": 1,
+     "2": 2,
+     "3": 3
+    },
+    "LWTE": {
+     "1": 5,
+     "2": 1,
+     "3": 2
+    }
+   },
+   "shift": "Election (book 1) → descent (book 2) → harmonised (book 3)"
+  },
+  {
+   "type": "term",
+   "term": "Israël",
+   "regex": "\\bIsraël",
+   "first": {
+    "TBWTT": "TBWTT-2:28",
+    "ETTMTTP": "ETTMTTP-2:62",
+    "LWTE": "LWTE-1:16"
+   },
+   "counts": {
+    "TBWTT": 32,
+    "ETTMTTP": 11,
+    "LWTE": 6
+   },
+   "per_10k_words": {
+    "TBWTT": 10.8,
+    "ETTMTTP": 3.3,
+    "LWTE": 1.4
+   },
+   "by_chapter": {
+    "TBWTT": {
+     "2": 4,
+     "3": 19,
+     "4": 4,
+     "5": 5
+    },
+    "ETTMTTP": {
+     "2": 10,
+     "3": 1
+    },
+    "LWTE": {
+     "1": 4,
+     "2": 1,
+     "4": 1
+    }
+   },
+   "shift": "32 → 11 → 6; embassy site only in book 2"
+  },
+  {
+   "type": "term",
+   "term": "âge d'or",
+   "regex": "âge d'or|âge d’or",
+   "first": {
+    "TBWTT": "TBWTT-5:4",
+    "ETTMTTP": "ETTMTTP-2:23",
+    "LWTE": "LWTE-1:65"
+   },
+   "counts": {
+    "TBWTT": 3,
+    "ETTMTTP": 5,
+    "LWTE": 14
+   },
+   "per_10k_words": {
+    "TBWTT": 1.0,
+    "ETTMTTP": 1.5,
+    "LWTE": 3.3
+   },
+   "by_chapter": {
+    "TBWTT": {
+     "5": 2,
+     "7": 1
+    },
+    "ETTMTTP": {
+     "2": 2,
+     "3": 3
+    },
+    "LWTE": {
+     "1": 6,
+     "2": 4,
+     "3": 3,
+     "4": 1
+    }
+   },
+   "shift": "Arrived (books 1–2) → conditional (book 3) (finding 9)"
+  },
+  {
+   "type": "term",
+   "term": "apocalypse",
+   "regex": "\\b[Aa]pocalypse",
+   "first": {
+    "TBWTT": null,
+    "ETTMTTP": "ETTMTTP-2:121",
+    "LWTE": "LWTE-1:10"
+   },
+   "counts": {
+    "TBWTT": 0,
+    "ETTMTTP": 5,
+    "LWTE": 52
+   },
+   "per_10k_words": {
+    "TBWTT": 0.0,
+    "ETTMTTP": 1.5,
+    "LWTE": 12.4
+   },
+   "by_chapter": {
+    "TBWTT": {},
+    "ETTMTTP": {
+     "2": 1,
+     "3": 4
+    },
+    "LWTE": {
+     "1": 2,
+     "2": 37,
+     "3": 7,
+     "4": 6
+    }
+   },
+   "shift": "Absent from book 1 (\"fin du monde\" instead); = révélation in book 2; nuclear reading of John in book 3"
+  },
+  {
+   "type": "term",
+   "term": "fin du monde",
+   "regex": "fin du monde",
+   "first": {
+    "TBWTT": "TBWTT-5:3",
+    "ETTMTTP": null,
+    "LWTE": "LWTE-1:10"
+   },
+   "counts": {
+    "TBWTT": 3,
+    "ETTMTTP": 0,
+    "LWTE": 5
+   },
+   "per_10k_words": {
+    "TBWTT": 1.0,
+    "ETTMTTP": 0.0,
+    "LWTE": 1.2
+   },
+   "by_chapter": {
+    "TBWTT": {
+     "5": 3
+    },
+    "ETTMTTP": {},
+    "LWTE": {
+     "1": 1,
+     "2": 1,
+     "3": 2,
+     "4": 1
+    }
+   },
+   "shift": "Book 1: end of the Church's world (5:3)"
+  },
+  {
+   "type": "term",
+   "term": "Verseau",
+   "regex": "Verseau",
+   "first": {
+    "TBWTT": "TBWTT-5:4",
+    "ETTMTTP": "ETTMTTP-3:172",
+    "LWTE": null
+   },
+   "counts": {
+    "TBWTT": 5,
+    "ETTMTTP": 1,
+    "LWTE": 0
+   },
+   "per_10k_words": {
+    "TBWTT": 1.7,
+    "ETTMTTP": 0.3,
+    "LWTE": 0.0
+   },
+   "by_chapter": {
+    "TBWTT": {
+     "5": 5
+    },
+    "ETTMTTP": {
+     "3": 1
+    },
+    "LWTE": {}
+   },
+   "shift": "Book 1 framing; one echo ETTMTTP-3:172; none in book 3"
+  },
+  {
+   "type": "term",
+   "term": "ordinateur",
+   "regex": "\\bordinateur",
+   "first": {
+    "TBWTT": "TBWTT-7:45",
+    "ETTMTTP": "ETTMTTP-2:37",
+    "LWTE": "LWTE-1:34"
+   },
+   "counts": {
+    "TBWTT": 1,
+    "ETTMTTP": 9,
+    "LWTE": 40
+   },
+   "per_10k_words": {
+    "TBWTT": 0.3,
+    "ETTMTTP": 2.7,
+    "LWTE": 9.5
+   },
+   "by_chapter": {
+    "TBWTT": {
+     "7": 1
+    },
+    "ETTMTTP": {
+     "2": 6,
+     "3": 3
+    },
+    "LWTE": {
+     "1": 38,
+     "2": 1,
+     "4": 1
+    }
+   },
+   "shift": "Book 1: utilities (7:45); book 2: surveillance and judgement (2:98); book 3: also model of man"
+  },
+  {
+   "type": "term",
+   "term": "robots biologiques",
+   "regex": "robots? biologique",
+   "first": {
+    "TBWTT": null,
+    "ETTMTTP": "ETTMTTP-2:53",
+    "LWTE": "LWTE-1:24"
+   },
+   "counts": {
+    "TBWTT": 0,
+    "ETTMTTP": 5,
+    "LWTE": 1
+   },
+   "per_10k_words": {
+    "TBWTT": 0.0,
+    "ETTMTTP": 1.5,
+    "LWTE": 0.2
+   },
+   "by_chapter": {
+    "TBWTT": {},
+    "ETTMTTP": {
+     "2": 4,
+     "3": 1
+    },
+    "LWTE": {
+     "1": 1
+    }
+   },
+   "shift": "Book 2 coinage (2:53); goal for mankind (3:100; LWTE-1:24)"
+  },
+  {
+   "type": "term",
+   "term": "Dieu",
+   "regex": "\\bDieu\\b",
+   "first": {
+    "TBWTT": "TBWTT-2:5",
+    "ETTMTTP": "ETTMTTP-2:111",
+    "LWTE": "LWTE-1:21"
+   },
+   "counts": {
+    "TBWTT": 43,
+    "ETTMTTP": 1,
+    "LWTE": 30
+   },
+   "per_10k_words": {
+    "TBWTT": 14.5,
+    "ETTMTTP": 0.3,
+    "LWTE": 7.1
+   },
+   "by_chapter": {
+    "TBWTT": {
+     "2": 2,
+     "3": 28,
+     "4": 5,
+     "5": 5,
+     "7": 3
+    },
+    "ETTMTTP": {
+     "2": 1
+    },
+    "LWTE": {
+     "1": 5,
+     "2": 16,
+     "3": 1,
+     "4": 8
+    }
+   },
+   "shift": "43 → 1 → 30"
+  },
+  {
+   "type": "term",
+   "term": "âme",
+   "regex": "\\bâmes?\\b",
+   "first": {
+    "TBWTT": "TBWTT-5:15",
+    "ETTMTTP": "ETTMTTP-2:24",
+    "LWTE": "LWTE-1:49"
+   },
+   "counts": {
+    "TBWTT": 4,
+    "ETTMTTP": 7,
+    "LWTE": 17
+   },
+   "per_10k_words": {
+    "TBWTT": 1.3,
+    "ETTMTTP": 2.1,
+    "LWTE": 4.0
+   },
+   "by_chapter": {
+    "TBWTT": {
+     "5": 4
+    },
+    "ETTMTTP": {
+     "2": 7
+    },
+    "LWTE": {
+     "1": 15,
+     "2": 1,
+     "4": 1
+    }
+   },
+   "shift": "Denied at length from book 2; book 3 re-defines as genetic code"
+  },
+  {
+   "type": "term",
+   "term": "religion",
+   "regex": "\\breligion",
+   "first": {
+    "TBWTT": "TBWTT-5:50",
+    "ETTMTTP": "ETTMTTP-2:2",
+    "LWTE": "LWTE-1:36"
+   },
+   "counts": {
+    "TBWTT": 7,
+    "ETTMTTP": 28,
+    "LWTE": 62
+   },
+   "per_10k_words": {
+    "TBWTT": 2.4,
+    "ETTMTTP": 8.4,
+    "LWTE": 14.8
+   },
+   "by_chapter": {
+    "TBWTT": {
+     "5": 4,
+     "7": 3
+    },
+    "ETTMTTP": {
+     "2": 13,
+     "3": 15
+    },
+    "LWTE": {
+     "1": 20,
+     "2": 5,
+     "3": 17,
+     "4": 20
+    }
+   },
+   "shift": "Book 1: \"notre seule religion c'est le génie humain\"; book 2: \"religion des religions\"; book 3: \"religion athée\", \"religion de l'infini\""
+  },
+  {
+   "type": "term",
+   "term": "religion athée",
+   "regex": "religion athée",
+   "first": {
+    "TBWTT": null,
+    "ETTMTTP": "ETTMTTP-2:105",
+    "LWTE": "LWTE-1:71"
+   },
+   "counts": {
+    "TBWTT": 0,
+    "ETTMTTP": 1,
+    "LWTE": 4
+   },
+   "per_10k_words": {
+    "TBWTT": 0.0,
+    "ETTMTTP": 0.3,
+    "LWTE": 1.0
+   },
+   "by_chapter": {
+    "TBWTT": {},
+    "ETTMTTP": {
+     "2": 1
+    },
+    "LWTE": {
+     "1": 1,
+     "3": 2,
+     "4": 1
+    }
+   },
+   "shift": "Single book-2 instance sits in a suspect sentence (finding 6)"
+  },
+  {
+   "type": "term",
+   "term": "religion des religions",
+   "regex": "religion des religions",
+   "first": {
+    "TBWTT": null,
+    "ETTMTTP": "ETTMTTP-2:105",
+    "LWTE": "LWTE-4:173"
+   },
+   "counts": {
+    "TBWTT": 0,
+    "ETTMTTP": 4,
+    "LWTE": 1
+   },
+   "per_10k_words": {
+    "TBWTT": 0.0,
+    "ETTMTTP": 1.2,
+    "LWTE": 0.2
+   },
+   "by_chapter": {
+    "TBWTT": {},
+    "ETTMTTP": {
+     "2": 2,
+     "3": 2
+    },
+    "LWTE": {
+     "4": 1
+    }
+   },
+   "shift": "Book 2 phrase"
+  },
+  {
+   "type": "term",
+   "term": "autodestruction",
+   "regex": "auto-?détrui|autodestruction|s'autodétrui",
+   "first": {
+    "TBWTT": null,
+    "ETTMTTP": "ETTMTTP-2:25",
+    "LWTE": "LWTE-1:65"
+   },
+   "counts": {
+    "TBWTT": 0,
+    "ETTMTTP": 2,
+    "LWTE": 9
+   },
+   "per_10k_words": {
+    "TBWTT": 0.0,
+    "ETTMTTP": 0.6,
+    "LWTE": 2.1
+   },
+   "by_chapter": {
+    "TBWTT": {},
+    "ETTMTTP": {
+     "2": 1,
+     "3": 1
+    },
+    "LWTE": {
+     "1": 2,
+     "2": 7
+    }
+   },
+   "shift": "Not in book 1, where destruction is threatened by the Elohim"
+  },
+  {
+   "type": "term",
+   "term": "144 000",
+   "regex": "cent quarante-quatre mille",
+   "first": {
+    "TBWTT": null,
+    "ETTMTTP": null,
+    "LWTE": "LWTE-2:158"
+   },
+   "counts": {
+    "TBWTT": 0,
+    "ETTMTTP": 0,
+    "LWTE": 2
+   },
+   "per_10k_words": {
+    "TBWTT": 0.0,
+    "ETTMTTP": 0.0,
+    "LWTE": 0.5
+   },
+   "by_chapter": {
+    "TBWTT": {},
+    "ETTMTTP": {},
+    "LWTE": {
+     "2": 2
+    }
+   },
+   "shift": "Book 3 only (Yahweh message)"
+  },
+  {
+   "type": "term",
+   "term": "Hiroshima",
+   "regex": "Hiroshima",
+   "first": {
+    "TBWTT": null,
+    "ETTMTTP": "ETTMTTP-2:7",
+    "LWTE": "LWTE-2:79"
+   },
+   "counts": {
+    "TBWTT": 0,
+    "ETTMTTP": 1,
+    "LWTE": 5
+   },
+   "per_10k_words": {
+    "TBWTT": 0.0,
+    "ETTMTTP": 0.3,
+    "LWTE": 1.2
+   },
+   "by_chapter": {
+    "TBWTT": {},
+    "ETTMTTP": {
+     "2": 1
+    },
+    "LWTE": {
+     "2": 3,
+     "3": 2
+    }
+   },
+   "shift": "Book 1 says only \"la première explosion atomique … en 1945\""
+  },
+  {
+   "type": "term",
+   "term": "télépathie",
+   "regex": "télépath",
+   "first": {
+    "TBWTT": "TBWTT-1:32",
+    "ETTMTTP": "ETTMTTP-2:9",
+    "LWTE": "LWTE-2:110"
+   },
+   "counts": {
+    "TBWTT": 19,
+    "ETTMTTP": 13,
+    "LWTE": 2
+   },
+   "per_10k_words": {
+    "TBWTT": 6.4,
+    "ETTMTTP": 3.9,
+    "LWTE": 0.5
+   },
+   "by_chapter": {
+    "TBWTT": {
+     "1": 3,
+     "3": 10,
+     "4": 3,
+     "5": 1,
+     "6": 1,
+     "7": 1
+    },
+    "ETTMTTP": {
+     "2": 3,
+     "3": 10
+    },
+    "LWTE": {
+     "2": 1,
+     "3": 1
+    }
+   },
+   "shift": "19 → 13 → 2"
+  },
+  {
+   "type": "term",
+   "term": "médium",
+   "regex": "médium",
+   "first": {
+    "TBWTT": null,
+    "ETTMTTP": "ETTMTTP-2:103",
+    "LWTE": null
+   },
+   "counts": {
+    "TBWTT": 0,
+    "ETTMTTP": 6,
+    "LWTE": 0
+   },
+   "per_10k_words": {
+    "TBWTT": 0.0,
+    "ETTMTTP": 1.8,
+    "LWTE": 0.0
+   },
+   "by_chapter": {
+    "TBWTT": {},
+    "ETTMTTP": {
+     "2": 2,
+     "3": 4
+    },
+    "LWTE": {}
+   },
+   "shift": "Book 2 only"
+  },
+  {
+   "type": "term",
+   "term": "héritage",
+   "regex": "\\bhéritage",
+   "first": {
+    "TBWTT": "TBWTT-4:55",
+    "ETTMTTP": "ETTMTTP-3:71",
+    "LWTE": "LWTE-2:205"
+   },
+   "counts": {
+    "TBWTT": 17,
+    "ETTMTTP": 1,
+    "LWTE": 3
+   },
+   "per_10k_words": {
+    "TBWTT": 5.7,
+    "ETTMTTP": 0.3,
+    "LWTE": 0.7
+   },
+   "by_chapter": {
+    "TBWTT": {
+     "4": 6,
+     "5": 1,
+     "6": 6,
+     "7": 4
+    },
+    "ETTMTTP": {
+     "3": 1
+    },
+    "LWTE": {
+     "2": 2,
+     "4": 1
+    }
+   },
+   "shift": "Book 1: abolition of inheritance / the Elohim's scientific legacy; book 2: legacy to the Guide (3:71)"
+  },
+  {
+   "type": "term",
+   "term": "deux enfants (birth limit)",
+   "regex": "deux enfants",
+   "first": {
+    "TBWTT": "TBWTT-1:22",
+    "ETTMTTP": null,
+    "LWTE": null
+   },
+   "counts": {
+    "TBWTT": 5,
+    "ETTMTTP": 0,
+    "LWTE": 0
+   },
+   "per_10k_words": {
+    "TBWTT": 1.7,
+    "ETTMTTP": 0.0,
+    "LWTE": 0.0
+   },
+   "by_chapter": {
+    "TBWTT": {
+     "1": 1,
+     "2": 1,
+     "6": 1,
+     "7": 2
+    },
+    "ETTMTTP": {},
+    "LWTE": {}
+   },
+   "shift": "Law at TBWTT-7:13 (first regex hit 1:22 is biographical); not restated"
+  },
+  {
+   "type": "term",
+   "term": "compétition",
+   "regex": "compétition",
+   "first": {
+    "TBWTT": "TBWTT-3:113",
+    "ETTMTTP": "ETTMTTP-1:18",
+    "LWTE": null
+   },
+   "counts": {
+    "TBWTT": 3,
+    "ETTMTTP": 4,
+    "LWTE": 0
+   },
+   "per_10k_words": {
+    "TBWTT": 1.0,
+    "ETTMTTP": 1.2,
+    "LWTE": 0.0
+   },
+   "by_chapter": {
+    "TBWTT": {
+     "3": 1,
+     "4": 1,
+     "7": 1
+    },
+    "ETTMTTP": {
+     "1": 3,
+     "2": 1
+    },
+    "LWTE": {}
+   },
+   "shift": "In the sense \"humanités en compétition\": TBWTT-3:113 only"
+  },
+  {
+   "type": "term",
+   "term": "scaphandre",
+   "regex": "scaphandre",
+   "first": {
+    "TBWTT": "TBWTT-1:6",
+    "ETTMTTP": "ETTMTTP-2:10",
+    "LWTE": "LWTE-1:4"
+   },
+   "counts": {
+    "TBWTT": 16,
+    "ETTMTTP": 1,
+    "LWTE": 5
+   },
+   "per_10k_words": {
+    "TBWTT": 5.4,
+    "ETTMTTP": 0.3,
+    "LWTE": 1.2
+   },
+   "by_chapter": {
+    "TBWTT": {
+     "1": 1,
+     "3": 10,
+     "7": 5
+    },
+    "ETTMTTP": {
+     "2": 1
+    },
+    "LWTE": {
+     "1": 4,
+     "2": 1
+    }
+   },
+   "shift": "Book 1 motif (Ezekiel etc.); explained away in books 2–3"
+  },
+  {
+   "type": "term",
+   "term": "évolution",
+   "regex": "\\bévolution",
+   "first": {
+    "TBWTT": "TBWTT-3:230",
+    "ETTMTTP": "ETTMTTP-3:63",
+    "LWTE": "LWTE-1:56"
+   },
+   "counts": {
+    "TBWTT": 11,
+    "ETTMTTP": 2,
+    "LWTE": 25
+   },
+   "per_10k_words": {
+    "TBWTT": 3.7,
+    "ETTMTTP": 0.6,
+    "LWTE": 5.9
+   },
+   "by_chapter": {
+    "TBWTT": {
+     "3": 1,
+     "5": 8,
+     "6": 1,
+     "7": 1
+    },
+    "ETTMTTP": {
+     "3": 2
+    },
+    "LWTE": {
+     "1": 5,
+     "2": 2,
+     "4": 18
+    }
+   },
+   "shift": "Book 1 5:62–65 \"un mythe\" yet \"ne se trompent pas complètement\"; book 3 ch. 4 polemic (Terrusse), \"faux prophètes\" (1:196)"
+  },
+  {
+   "type": "term",
+   "term": "premier/deuxième message (self-citation)",
+   "regex": "premier message|deuxième message",
+   "first": {
+    "TBWTT": null,
+    "ETTMTTP": "ETTMTTP-1:2",
+    "LWTE": "LWTE-1:2"
+   },
+   "counts": {
+    "TBWTT": 0,
+    "ETTMTTP": 6,
+    "LWTE": 23
+   },
+   "per_10k_words": {
+    "TBWTT": 0.0,
+    "ETTMTTP": 1.8,
+    "LWTE": 5.5
+   },
+   "by_chapter": {
+    "TBWTT": {},
+    "ETTMTTP": {
+     "1": 1,
+     "2": 5
+    },
+    "LWTE": {
+     "1": 13,
+     "2": 6,
+     "3": 1,
+     "4": 3
+    }
+   },
+   "shift": "The canon begins to cite itself by page in book 3"
+  },
+  {
+   "type": "term",
+   "term": "étymologi-",
+   "regex": "étymolog",
+   "first": {
+    "TBWTT": null,
+    "ETTMTTP": null,
+    "LWTE": "LWTE-1:68"
+   },
+   "counts": {
+    "TBWTT": 0,
+    "ETTMTTP": 0,
+    "LWTE": 8
+   },
+   "per_10k_words": {
+    "TBWTT": 0.0,
+    "ETTMTTP": 0.0,
+    "LWTE": 1.9
+   },
+   "by_chapter": {
+    "TBWTT": {},
+    "ETTMTTP": {},
+    "LWTE": {
+     "1": 2,
+     "2": 1,
+     "3": 5
+    }
+   },
+   "shift": "Book 3 method (ange, messie, pape, religion, âme, diabolos, Lucifer)"
+  },
+  {
+   "type": "term",
+   "term": "homme total",
+   "regex": "homme total|hommes totaux",
+   "first": {
+    "TBWTT": null,
+    "ETTMTTP": null,
+    "LWTE": "LWTE-1:175"
+   },
+   "counts": {
+    "TBWTT": 0,
+    "ETTMTTP": 0,
+    "LWTE": 6
+   },
+   "per_10k_words": {
+    "TBWTT": 0.0,
+    "ETTMTTP": 0.0,
+    "LWTE": 1.4
+   },
+   "by_chapter": {
+    "TBWTT": {},
+    "ETTMTTP": {},
+    "LWTE": {
+     "1": 6
+    }
+   },
+   "shift": "Book 3 only"
+  },
+  {
+   "type": "term",
+   "term": "niveau de conscience",
+   "regex": "niveau de conscience",
+   "first": {
+    "TBWTT": null,
+    "ETTMTTP": null,
+    "LWTE": "LWTE-1:72"
+   },
+   "counts": {
+    "TBWTT": 0,
+    "ETTMTTP": 0,
+    "LWTE": 14
+   },
+   "per_10k_words": {
+    "TBWTT": 0.0,
+    "ETTMTTP": 0.0,
+    "LWTE": 3.3
+   },
+   "by_chapter": {
+    "TBWTT": {},
+    "ETTMTTP": {},
+    "LWTE": {
+     "1": 13,
+     "4": 1
+    }
+   },
+   "shift": "Book 3 only"
+  },
+  {
+   "type": "term",
+   "term": "programm-",
+   "regex": "programm",
+   "first": {
+    "TBWTT": "TBWTT-7:62",
+    "ETTMTTP": null,
+    "LWTE": "LWTE-1:154"
+   },
+   "counts": {
+    "TBWTT": 1,
+    "ETTMTTP": 0,
+    "LWTE": 32
+   },
+   "per_10k_words": {
+    "TBWTT": 0.3,
+    "ETTMTTP": 0.0,
+    "LWTE": 7.6
+   },
+   "by_chapter": {
+    "TBWTT": {
+     "7": 1
+    },
+    "ETTMTTP": {},
+    "LWTE": {
+     "1": 32
+    }
+   },
+   "shift": "Book 3 (LWTE-1:154–183)"
+  },
+  {
+   "type": "term",
+   "term": "homosexu",
+   "regex": "homosex",
+   "first": {
+    "TBWTT": null,
+    "ETTMTTP": null,
+    "LWTE": "LWTE-1:189"
+   },
+   "counts": {
+    "TBWTT": 0,
+    "ETTMTTP": 0,
+    "LWTE": 12
+   },
+   "per_10k_words": {
+    "TBWTT": 0.0,
+    "ETTMTTP": 0.0,
+    "LWTE": 2.9
+   },
+   "by_chapter": {
+    "TBWTT": {},
+    "ETTMTTP": {},
+    "LWTE": {
+     "1": 12
+    }
+   },
+   "shift": "Book 3 only (book 2 has \"quel que soit leur sexe\", 3:43)"
+  },
+  {
+   "type": "term",
+   "term": "suicide",
+   "regex": "\\bsuicid",
+   "first": {
+    "TBWTT": null,
+    "ETTMTTP": "ETTMTTP-3:75",
+    "LWTE": "LWTE-1:114"
+   },
+   "counts": {
+    "TBWTT": 0,
+    "ETTMTTP": 2,
+    "LWTE": 5
+   },
+   "per_10k_words": {
+    "TBWTT": 0.0,
+    "ETTMTTP": 0.6,
+    "LWTE": 1.2
+   },
+   "by_chapter": {
+    "TBWTT": {},
+    "ETTMTTP": {
+     "3": 2
+    },
+    "LWTE": {
+     "1": 5
+    }
+   },
+   "shift": "Right in book 2; restricted in book 3"
+  },
+  {
+   "type": "term",
+   "term": "contraception/avortement",
+   "regex": "contracepti|avortement",
+   "first": {
+    "TBWTT": "TBWTT-7:13",
+    "ETTMTTP": "ETTMTTP-3:48",
+    "LWTE": "LWTE-1:171"
+   },
+   "counts": {
+    "TBWTT": 1,
+    "ETTMTTP": 3,
+    "LWTE": 1
+   },
+   "per_10k_words": {
+    "TBWTT": 0.3,
+    "ETTMTTP": 0.9,
+    "LWTE": 0.2
+   },
+   "by_chapter": {
+    "TBWTT": {
+     "7": 1
+    },
+    "ETTMTTP": {
+     "3": 3
+    },
+    "LWTE": {
+     "1": 1
+    }
+   },
+   "shift": "Contraception book 1 (7:13); abortion book 2 (3:51)"
+  },
+  {
+   "type": "term",
+   "term": "Sodome",
+   "regex": "Sodome",
+   "first": {
+    "TBWTT": "TBWTT-2:77",
+    "ETTMTTP": "ETTMTTP-3:235",
+    "LWTE": null
+   },
+   "counts": {
+    "TBWTT": 9,
+    "ETTMTTP": 1,
+    "LWTE": 0
+   },
+   "per_10k_words": {
+    "TBWTT": 3.0,
+    "ETTMTTP": 0.3,
+    "LWTE": 0.0
+   },
+   "by_chapter": {
+    "TBWTT": {
+     "2": 4,
+     "3": 3,
+     "5": 1,
+     "6": 1
+    },
+    "ETTMTTP": {
+     "3": 1
+    },
+    "LWTE": {}
+   },
+   "shift": "Paradigm of intervention; book 1"
+  },
+  {
+   "type": "term",
+   "term": "châtiment",
+   "regex": "châtiment",
+   "first": {
+    "TBWTT": null,
+    "ETTMTTP": "ETTMTTP-2:82",
+    "LWTE": "LWTE-1:195"
+   },
+   "counts": {
+    "TBWTT": 0,
+    "ETTMTTP": 8,
+    "LWTE": 1
+   },
+   "per_10k_words": {
+    "TBWTT": 0.0,
+    "ETTMTTP": 2.4,
+    "LWTE": 0.2
+   },
+   "by_chapter": {
+    "TBWTT": {},
+    "ETTMTTP": {
+     "2": 4,
+     "3": 4
+    },
+    "LWTE": {
+     "1": 1
+    }
+   },
+   "shift": "Book 2 (punitive re-creation)"
+  },
+  {
+   "type": "term",
+   "term": "non-violence",
+   "regex": "non-violen|non violen",
+   "first": {
+    "TBWTT": null,
+    "ETTMTTP": "ETTMTTP-2:40",
+    "LWTE": "LWTE-1:127"
+   },
+   "counts": {
+    "TBWTT": 0,
+    "ETTMTTP": 3,
+    "LWTE": 9
+   },
+   "per_10k_words": {
+    "TBWTT": 0.0,
+    "ETTMTTP": 0.9,
+    "LWTE": 2.1
+   },
+   "by_chapter": {
+    "TBWTT": {},
+    "ETTMTTP": {
+     "2": 1,
+     "3": 2
+    },
+    "LWTE": {
+     "1": 1,
+     "2": 4,
+     "3": 3,
+     "4": 1
+    }
+   },
+   "shift": "From book 2"
+  },
+  {
+   "type": "term",
+   "term": "Vatican/Eglise/pape",
+   "regex": "Vatican|\\bpape\\b|[ÉE]glise",
+   "first": {
+    "TBWTT": "TBWTT-5:3",
+    "ETTMTTP": "ETTMTTP-1:13",
+    "LWTE": "LWTE-1:21"
+   },
+   "counts": {
+    "TBWTT": 23,
+    "ETTMTTP": 13,
+    "LWTE": 18
+   },
+   "per_10k_words": {
+    "TBWTT": 7.8,
+    "ETTMTTP": 3.9,
+    "LWTE": 4.3
+   },
+   "by_chapter": {
+    "TBWTT": {
+     "5": 21,
+     "6": 1,
+     "7": 1
+    },
+    "ETTMTTP": {
+     "1": 2,
+     "3": 11
+    },
+    "LWTE": {
+     "1": 4,
+     "3": 4,
+     "4": 10
+    }
+   },
+   "shift": "Stable polemic; book 3 answers the money objection"
+  },
+  {
+   "type": "explicit_correction",
+   "summary": "B1 Threat of intervention retracted as mis-transcription; threat stated three times in book 1",
+   "refs": [
+    "ETTMTTP-2:23",
+    "TBWTT-5:65",
+    "TBWTT-6:25",
+    "TBWTT-7:6",
+    "TBWTT-2:66",
+    "ETTMTTP-3:220",
+    "ETTMTTP-2:125"
+   ]
+  },
+  {
+   "type": "explicit_correction",
+   "summary": "B2 Approach lights and halo were reassurance techniques",
+   "refs": [
+    "ETTMTTP-2:11",
+    "TBWTT-1:6",
+    "LWTE-1:7",
+    "LWTE-1:58"
+   ]
+  },
+  {
+   "type": "explicit_correction",
+   "summary": "B3 Seven-times-light speed was true 25,000 years ago",
+   "refs": [
+    "ETTMTTP-2:43",
+    "TBWTT-5:53"
+   ]
+  },
+  {
+   "type": "explicit_correction",
+   "summary": "B4 Residence on the planet is in fact a whole planet",
+   "refs": [
+    "ETTMTTP-2:50",
+    "TBWTT-7:68",
+    "TBWTT-7:45",
+    "TBWTT-7:54"
+   ]
+  },
+  {
+   "type": "explicit_correction",
+   "summary": "B5 MADECH as a voting association was an error",
+   "refs": [
+    "ETTMTTP-2:1",
+    "ETTMTTP-2:2"
+   ]
+  },
+  {
+   "type": "explicit_correction",
+   "summary": "B6 Refusal of a visit was a pedagogical untruth",
+   "refs": [
+    "LWTE-1:12",
+    "TBWTT-1:61",
+    "TBWTT-3:42",
+    "TBWTT-7:68"
+   ]
+  },
+  {
+   "type": "explicit_correction",
+   "summary": "B7 The Jewish father was not the father; Yahweh is",
+   "refs": [
+    "LWTE-2:85",
+    "LWTE-2:86",
+    "LWTE-2:87",
+    "TBWTT-1:46",
+    "ETTMTTP-1:7"
+   ]
+  },
+  {
+   "type": "explicit_correction",
+   "summary": "B8 Salvation not restricted to followers",
+   "refs": [
+    "LWTE-1:40",
+    "ETTMTTP-2:23",
+    "ETTMTTP-3:233",
+    "LWTE-2:158"
+   ]
+  },
+  {
+   "type": "implicit_revision",
+   "summary": "C1 Flood motive: progress / indifferent experiment / violence proven by Satan",
+   "refs": [
+    "TBWTT-2:55",
+    "TBWTT-2:57",
+    "ETTMTTP-3:219",
+    "LWTE-2:25",
+    "LWTE-2:26"
+   ]
+  },
+  {
+   "type": "implicit_revision",
+   "summary": "C2 Moment the Elohim learn they were created",
+   "refs": [
+    "TBWTT-3:302",
+    "TBWTT-5:58",
+    "TBWTT-7:25",
+    "ETTMTTP-3:219",
+    "LWTE-2:28"
+   ]
+  },
+  {
+   "type": "implicit_revision",
+   "summary": "C3 Yahweh: narrator with the teams (book 1) vs president who forbids, exiles and floods (book 3)",
+   "refs": [
+    "TBWTT-2:25",
+    "TBWTT-2:39",
+    "TBWTT-7:56",
+    "LWTE-2:22",
+    "LWTE-2:24",
+    "LWTE-2:26",
+    "LWTE-2:76"
+   ]
+  },
+  {
+   "type": "implicit_revision",
+   "summary": "C4 Satan: role, motive and history",
+   "refs": [
+    "TBWTT-3:251",
+    "TBWTT-3:254",
+    "TBWTT-4:20",
+    "TBWTT-4:49",
+    "TBWTT-5:64",
+    "TBWTT-7:58",
+    "LWTE-2:7",
+    "LWTE-2:10",
+    "LWTE-2:19",
+    "LWTE-2:30",
+    "LWTE-2:31",
+    "LWTE-2:59",
+    "LWTE-2:76"
+   ]
+  },
+  {
+   "type": "implicit_revision",
+   "summary": "C5 Israel elected / descended / harmonised",
+   "refs": [
+    "TBWTT-2:43",
+    "TBWTT-2:51",
+    "ETTMTTP-2:104",
+    "ETTMTTP-2:123",
+    "LWTE-1:17",
+    "LWTE-1:18"
+   ]
+  },
+  {
+   "type": "implicit_revision",
+   "summary": "C6 Embassy: residence in a mild country / Israel / no site",
+   "refs": [
+    "TBWTT-6:21",
+    "TBWTT-6:22",
+    "ETTMTTP-2:104",
+    "ETTMTTP-2:122",
+    "LWTE-1:23",
+    "LWTE-1:24"
+   ]
+  },
+  {
+   "type": "implicit_revision",
+   "summary": "C7 Condition for re-creation: tombs / frontal bone / intention",
+   "refs": [
+    "TBWTT-6:27",
+    "ETTMTTP-3:69",
+    "LWTE-1:34",
+    "LWTE-1:36"
+   ]
+  },
+  {
+   "type": "implicit_revision",
+   "summary": "C9 Elohim lifespan",
+   "refs": [
+    "TBWTT-7:13",
+    "TBWTT-7:30",
+    "ETTMTTP-2:53"
+   ]
+  },
+  {
+   "type": "implicit_revision",
+   "summary": "C10 Golden age arrived vs one chance in a hundred",
+   "refs": [
+    "TBWTT-5:4",
+    "ETTMTTP-3:99",
+    "ETTMTTP-3:172",
+    "ETTMTTP-3:237",
+    "LWTE-2:96",
+    "LWTE-2:231",
+    "LWTE-1:72",
+    "LWTE-2:68"
+   ]
+  },
+  {
+   "type": "implicit_revision",
+   "summary": "C11 Geniocracy: proposal / commandment / demotion",
+   "refs": [
+    "TBWTT-6:6",
+    "ETTMTTP-3:79",
+    "ETTMTTP-3:80",
+    "ETTMTTP-3:82",
+    "LWTE-1:84",
+    "LWTE-1:85",
+    "LWTE-1:86",
+    "LWTE-1:87"
+   ]
+  },
+  {
+   "type": "implicit_revision",
+   "summary": "C12 Suicide",
+   "refs": [
+    "ETTMTTP-3:75",
+    "ETTMTTP-3:76",
+    "LWTE-1:198",
+    "LWTE-1:199"
+   ]
+  },
+  {
+   "type": "implicit_revision",
+   "summary": "C13 Religion of the Elohim: human genius / science / infinity",
+   "refs": [
+    "TBWTT-7:25",
+    "ETTMTTP-3:166",
+    "LWTE-1:72",
+    "LWTE-1:73"
+   ]
+  },
+  {
+   "type": "implicit_revision",
+   "summary": "C14 Other creations",
+   "refs": [
+    "TBWTT-5:59",
+    "TBWTT-4:49",
+    "LWTE-2:17",
+    "LWTE-2:98",
+    "LWTE-1:15"
+   ]
+  },
+  {
+   "type": "implicit_revision",
+   "summary": "C15 Choice and origin of Raël",
+   "refs": [
+    "TBWTT-1:46",
+    "TBWTT-1:47",
+    "ETTMTTP-1:7",
+    "LWTE-2:79",
+    "LWTE-2:85",
+    "LWTE-2:86"
+   ]
+  },
+  {
+   "type": "implicit_revision",
+   "summary": "C16 World language",
+   "refs": [
+    "TBWTT-6:16",
+    "ETTMTTP-2:27",
+    "ETTMTTP-3:161"
+   ]
+  },
+  {
+   "type": "implicit_revision",
+   "summary": "C17 Status of the word dieu",
+   "refs": [
+    "TBWTT-2:5",
+    "ETTMTTP-2:30",
+    "ETTMTTP-2:33",
+    "LWTE-1:63",
+    "LWTE-1:66",
+    "LWTE-1:67"
+   ]
+  },
+  {
+   "type": "textual_layer",
+   "summary": "Signs of post-publication retouching: Mouvement Raélien in book 1, Mouvement Raëlien beside MADECH in one 1975 speech, later captions and footnotes",
+   "refs": [
+    "TBWTT-6:29",
+    "TBWTT-7:73",
+    "TBWTT-7:81",
+    "TBWTT-7:83",
+    "TBWTT-3:305",
+    "ETTMTTP-2:1",
+    "ETTMTTP-2:105",
+    "ETTMTTP-2:114",
+    "ETTMTTP-3:260",
+    "ETTMTTP-3:265",
+    "LWTE-1:21",
+    "LWTE-2:60",
+    "LWTE-2:83",
+    "LWTE-4:220"
+   ]
+  },
+  {
+   "type": "embargo",
+   "summary": "Three-year embargo attested only in the book that lifts it; two scenes added to the 1975 journey",
+   "refs": [
+    "LWTE-2:1",
+    "LWTE-2:58",
+    "LWTE-2:78",
+    "LWTE-2:80",
+    "LWTE-2:90",
+    "ETTMTTP-2:43",
+    "ETTMTTP-2:44",
+    "ETTMTTP-2:104",
+    "ETTMTTP-2:129",
+    "ETTMTTP-2:130"
+   ]
+  },
+  {
+   "type": "voice",
+   "summary": "Les Clés is mixed-voice automatic writing, not first-person Elohim speech",
+   "refs": [
+    "ETTMTTP-2:129",
+    "ETTMTTP-2:132",
+    "ETTMTTP-3:5",
+    "ETTMTTP-3:30",
+    "ETTMTTP-3:69",
+    "ETTMTTP-3:174",
+    "ETTMTTP-3:241",
+    "ETTMTTP-3:264"
+   ]
+  },
+  {
+   "type": "voice",
+   "summary": "1979 Yahweh message: exact extent, no reception scene",
+   "refs": [
+    "LWTE-2:94",
+    "LWTE-2:95",
+    "LWTE-2:235",
+    "ETTMTTP-2:98"
+   ]
+  },
+  {
+   "type": "new_in_book2",
+   "summary": "Robots biologiques; planet of eternals with 8,400 Terrans; Buddha and Muhammad met; emblem explained; punitive re-creation; mediums; tithe; legacy to Guide; abortion; no marriage; Esperanto; calendar after Raël; ban on judging the Elohim",
+   "refs": [
+    "ETTMTTP-2:53",
+    "ETTMTTP-2:50",
+    "ETTMTTP-2:64",
+    "ETTMTTP-2:24",
+    "ETTMTTP-2:35",
+    "ETTMTTP-2:82",
+    "ETTMTTP-2:103",
+    "ETTMTTP-2:118",
+    "ETTMTTP-3:71",
+    "ETTMTTP-3:51",
+    "ETTMTTP-3:59",
+    "ETTMTTP-3:161",
+    "ETTMTTP-3:172",
+    "ETTMTTP-3:241"
+   ]
+  },
+  {
+   "type": "book1_not_restated",
+   "summary": "Two-child law; 49-year lease; Kabbalah distance; zodiacal framing; brain-matter education; humanities in competition; contributor file",
+   "refs": [
+    "TBWTT-7:13",
+    "TBWTT-6:7",
+    "TBWTT-5:51",
+    "TBWTT-5:52",
+    "TBWTT-5:4",
+    "TBWTT-7:62",
+    "TBWTT-3:113",
+    "TBWTT-6:23"
+   ]
+  },
+  {
+   "type": "new_in_book3_elohim_voice",
+   "summary": "1 percent; Revelation dictated; seals; 144,000; 666 generations and 13,000 years; council of 24",
+   "refs": [
+    "LWTE-2:96",
+    "LWTE-2:104",
+    "LWTE-2:105",
+    "LWTE-2:132",
+    "LWTE-2:158",
+    "LWTE-2:159",
+    "LWTE-2:208",
+    "LWTE-2:128"
+   ]
+  },
+  {
+   "type": "new_in_book3_rael_voice",
+   "summary": "Earlier creations on Earth; nothing constant; religion of infinity; man as computer; responsibility; refuse an Eloha who orders killing",
+   "refs": [
+    "LWTE-1:15",
+    "LWTE-1:27",
+    "LWTE-1:28",
+    "LWTE-1:72",
+    "LWTE-1:154",
+    "LWTE-3:59",
+    "LWTE-3:68",
+    "LWTE-3:69"
+   ]
+  },
+  {
+   "type": "titles",
+   "summary": "Escalation of Raël's titles and the counter-statement",
+   "refs": [
+    "TBWTT-5:66",
+    "ETTMTTP-2:121",
+    "ETTMTTP-2:122",
+    "ETTMTTP-3:172",
+    "ETTMTTP-3:227",
+    "ETTMTTP-3:228",
+    "LWTE-2:87",
+    "LWTE-3:1",
+    "LWTE-2:92",
+    "ETTMTTP-3:180"
+   ]
+  },
+  {
+   "type": "lwte_question",
+   "refs": [
+    "LWTE-1:2",
+    "LWTE-1:12"
+   ],
+   "range": "LWTE-1:2–LWTE-1:12",
+   "topic": "contradictions between first and second message"
+  },
+  {
+   "type": "lwte_question",
+   "refs": [
+    "LWTE-1:13",
+    "LWTE-1:15"
+   ],
+   "range": "LWTE-1:13–LWTE-1:15",
+   "topic": "dating vs fossils"
+  },
+  {
+   "type": "lwte_question",
+   "refs": [
+    "LWTE-1:16",
+    "LWTE-1:18"
+   ],
+   "range": "LWTE-1:16–LWTE-1:18",
+   "topic": "Israel elected vs Jews descended"
+  },
+  {
+   "type": "lwte_question",
+   "refs": [
+    "LWTE-1:19",
+    "LWTE-1:25"
+   ],
+   "range": "LWTE-1:19–LWTE-1:25",
+   "topic": "money"
+  },
+  {
+   "type": "lwte_question",
+   "refs": [
+    "LWTE-1:26",
+    "LWTE-1:29"
+   ],
+   "range": "LWTE-1:26–LWTE-1:29",
+   "topic": "one light-year; dating methods"
+  },
+  {
+   "type": "lwte_question",
+   "refs": [
+    "LWTE-1:30",
+    "LWTE-1:32"
+   ],
+   "range": "LWTE-1:30–LWTE-1:32",
+   "topic": "continental drift rate"
+  },
+  {
+   "type": "lwte_question",
+   "refs": [
+    "LWTE-1:33",
+    "LWTE-1:40"
+   ],
+   "range": "LWTE-1:33–LWTE-1:40",
+   "topic": "cell plan, frontal bone, who is saved"
+  },
+  {
+   "type": "lwte_question",
+   "refs": [
+    "LWTE-1:41",
+    "LWTE-1:44"
+   ],
+   "range": "LWTE-1:41–LWTE-1:44",
+   "topic": "is the great being God"
+  },
+  {
+   "type": "lwte_question",
+   "refs": [
+    "LWTE-1:45",
+    "LWTE-1:48"
+   ],
+   "range": "LWTE-1:45–LWTE-1:48",
+   "topic": "Ararat ark"
+  },
+  {
+   "type": "lwte_question",
+   "refs": [
+    "LWTE-1:49",
+    "LWTE-1:55"
+   ],
+   "range": "LWTE-1:49–LWTE-1:55",
+   "topic": "near-death accounts"
+  },
+  {
+   "type": "lwte_question",
+   "refs": [
+    "LWTE-1:56",
+    "LWTE-1:60"
+   ],
+   "range": "LWTE-1:56–LWTE-1:60",
+   "topic": "Elohim science level"
+  },
+  {
+   "type": "lwte_question",
+   "refs": [
+    "LWTE-1:61",
+    "LWTE-1:70"
+   ],
+   "range": "LWTE-1:61–LWTE-1:70",
+   "topic": "Elohim replace God, re-creation replaces soul"
+  },
+  {
+   "type": "lwte_question",
+   "refs": [
+    "LWTE-1:71",
+    "LWTE-1:74"
+   ],
+   "range": "LWTE-1:71–LWTE-1:74",
+   "topic": "purpose of the religion afterwards"
+  },
+  {
+   "type": "lwte_question",
+   "refs": [
+    "LWTE-1:75",
+    "LWTE-1:82"
+   ],
+   "range": "LWTE-1:75–LWTE-1:82",
+   "topic": "future of traditional religions"
+  },
+  {
+   "type": "lwte_question",
+   "refs": [
+    "LWTE-1:83",
+    "LWTE-1:87"
+   ],
+   "range": "LWTE-1:83–LWTE-1:87",
+   "topic": "geniocracy and politics"
+  },
+  {
+   "type": "lwte_question",
+   "refs": [
+    "LWTE-1:88",
+    "LWTE-1:103"
+   ],
+   "range": "LWTE-1:88–LWTE-1:103",
+   "topic": "who created the creators of the creators"
+  },
+  {
+   "type": "lwte_question",
+   "refs": [
+    "LWTE-1:104",
+    "LWTE-1:109"
+   ],
+   "range": "LWTE-1:104–LWTE-1:109",
+   "topic": "purpose of living"
+  },
+  {
+   "type": "lwte_question",
+   "refs": [
+    "LWTE-1:110",
+    "LWTE-1:140"
+   ],
+   "range": "LWTE-1:110–LWTE-1:140",
+   "topic": "pleasure"
+  },
+  {
+   "type": "lwte_question",
+   "refs": [
+    "LWTE-1:141",
+    "LWTE-1:183"
+   ],
+   "range": "LWTE-1:141–LWTE-1:183",
+   "topic": "death; man as computer"
+  },
+  {
+   "type": "lwte_question",
+   "refs": [
+    "LWTE-1:184",
+    "LWTE-1:188"
+   ],
+   "range": "LWTE-1:184–LWTE-1:188",
+   "topic": "sexual freedom obligatory?"
+  },
+  {
+   "type": "lwte_question",
+   "refs": [
+    "LWTE-1:189",
+    "LWTE-1:193"
+   ],
+   "range": "LWTE-1:189–LWTE-1:193",
+   "topic": "homosexuality"
+  },
+  {
+   "type": "lwte_question",
+   "refs": [
+    "LWTE-1:194",
+    "LWTE-1:196"
+   ],
+   "range": "LWTE-1:194–LWTE-1:196",
+   "topic": "false prophets"
+  },
+  {
+   "type": "lwte_question",
+   "refs": [
+    "LWTE-1:197",
+    "LWTE-1:201"
+   ],
+   "range": "LWTE-1:197–LWTE-1:201",
+   "topic": "suicide"
+  },
+  {
+   "type": "lwte_speaker",
+   "refs": [
+    "LWTE-1:1",
+    "LWTE-1:1"
+   ],
+   "range": "LWTE-1:1–LWTE-1:1",
+   "voice": "editorial"
+  },
+  {
+   "type": "lwte_speaker",
+   "refs": [
+    "LWTE-1:2",
+    "LWTE-1:201"
+   ],
+   "range": "LWTE-1:2–LWTE-1:201",
+   "voice": "questions and Raël answers"
+  },
+  {
+   "type": "lwte_speaker",
+   "refs": [
+    "LWTE-2:1",
+    "LWTE-2:2"
+   ],
+   "range": "LWTE-2:1–LWTE-2:2",
+   "voice": "editorial"
+  },
+  {
+   "type": "lwte_speaker",
+   "refs": [
+    "LWTE-2:3",
+    "LWTE-2:57"
+   ],
+   "range": "LWTE-2:3–LWTE-2:57",
+   "voice": "Raël exposition with Bible quotations"
+  },
+  {
+   "type": "lwte_speaker",
+   "refs": [
+    "LWTE-2:58",
+    "LWTE-2:78"
+   ],
+   "range": "LWTE-2:58–LWTE-2:78",
+   "voice": "Raël narrative; reported Satan 2:59-67,71,73; reported Yahweh 2:76"
+  },
+  {
+   "type": "lwte_speaker",
+   "refs": [
+    "LWTE-2:79",
+    "LWTE-2:93"
+   ],
+   "range": "LWTE-2:79–LWTE-2:93",
+   "voice": "Raël narrative; reported Yahweh 2:85-88"
+  },
+  {
+   "type": "lwte_speaker",
+   "refs": [
+    "LWTE-2:94",
+    "LWTE-2:94"
+   ],
+   "range": "LWTE-2:94–LWTE-2:94",
+   "voice": "heading"
+  },
+  {
+   "type": "lwte_speaker",
+   "refs": [
+    "LWTE-2:95",
+    "LWTE-2:235"
+   ],
+   "range": "LWTE-2:95–LWTE-2:235",
+   "voice": "Yahweh first person (new message)"
+  },
+  {
+   "type": "lwte_speaker",
+   "refs": [
+    "LWTE-3:1",
+    "LWTE-3:88"
+   ],
+   "range": "LWTE-3:1–LWTE-3:88",
+   "voice": "Raël; Milgram quotation 3:46-53"
+  },
+  {
+   "type": "lwte_speaker",
+   "refs": [
+    "LWTE-4:1",
+    "LWTE-4:79"
+   ],
+   "range": "LWTE-4:1–LWTE-4:79",
+   "voice": "Marcel Terrusse"
+  },
+  {
+   "type": "lwte_speaker",
+   "refs": [
+    "LWTE-4:80",
+    "LWTE-4:93"
+   ],
+   "range": "LWTE-4:80–LWTE-4:93",
+   "voice": "Victor Le Gendre"
+  },
+  {
+   "type": "lwte_speaker",
+   "refs": [
+    "LWTE-4:94",
+    "LWTE-4:147"
+   ],
+   "range": "LWTE-4:94–LWTE-4:147",
+   "voice": "Marcel Terrusse"
+  },
+  {
+   "type": "lwte_speaker",
+   "refs": [
+    "LWTE-4:148",
+    "LWTE-4:176"
+   ],
+   "range": "LWTE-4:148–LWTE-4:176",
+   "voice": "Yvan Giroux"
+  },
+  {
+   "type": "lwte_speaker",
+   "refs": [
+    "LWTE-4:177",
+    "LWTE-4:193"
+   ],
+   "range": "LWTE-4:177–LWTE-4:193",
+   "voice": "Michel Beluet"
+  },
+  {
+   "type": "lwte_speaker",
+   "refs": [
+    "LWTE-4:194",
+    "LWTE-4:203"
+   ],
+   "range": "LWTE-4:194–LWTE-4:203",
+   "voice": "Jean-Bernard Ndjoga-Awirondjogo"
+  },
+  {
+   "type": "lwte_speaker",
+   "refs": [
+    "LWTE-4:204",
+    "LWTE-4:219"
+   ],
+   "range": "LWTE-4:204–LWTE-4:219",
+   "voice": "Michel Deydier"
+  },
+  {
+   "type": "lwte_speaker",
+   "refs": [
+    "LWTE-4:220",
+    "LWTE-4:257"
+   ],
+   "range": "LWTE-4:220–LWTE-4:257",
+   "voice": "address list (later edition)"
+  }
+ ],
+ "all_terms_counted": {
+  "Elohim": {
+   "first": {
+    "TBWTT": "TBWTT-2:4",
+    "ETTMTTP": "ETTMTTP-1:63",
+    "LWTE": "LWTE-1:8"
+   },
+   "counts": {
+    "TBWTT": 29,
+    "ETTMTTP": 79,
+    "LWTE": 135
+   }
+  },
+  "Éloha": {
+   "first": {
+    "TBWTT": "TBWTT-5:21",
+    "ETTMTTP": "ETTMTTP-1:63",
+    "LWTE": "LWTE-1:2"
+   },
+   "counts": {
+    "TBWTT": 1,
+    "ETTMTTP": 2,
+    "LWTE": 4
+   }
+  },
+  "Iahvé/Yahvé": {
+   "first": {
+    "TBWTT": "TBWTT-2:38",
+    "ETTMTTP": "ETTMTTP-2:50",
+    "LWTE": "LWTE-2:22"
+   },
+   "counts": {
+    "TBWTT": 61,
+    "ETTMTTP": 10,
+    "LWTE": 47
+   }
+  },
+  "Satan": {
+   "first": {
+    "TBWTT": "TBWTT-3:248",
+    "ETTMTTP": null,
+    "LWTE": "LWTE-2:4"
+   },
+   "counts": {
+    "TBWTT": 13,
+    "ETTMTTP": 0,
+    "LWTE": 43
+   }
+  },
+  "Lucifer": {
+   "first": {
+    "TBWTT": null,
+    "ETTMTTP": null,
+    "LWTE": "LWTE-2:4"
+   },
+   "counts": {
+    "TBWTT": 0,
+    "ETTMTTP": 0,
+    "LWTE": 9
+   }
+  },
+  "serpent": {
+   "first": {
+    "TBWTT": "TBWTT-2:34",
+    "ETTMTTP": null,
+    "LWTE": "LWTE-2:24"
+   },
+   "counts": {
+    "TBWTT": 8,
+    "ETTMTTP": 0,
+    "LWTE": 2
+   }
+  },
+  "éternels": {
+   "first": {
+    "TBWTT": "TBWTT-7:13",
+    "ETTMTTP": "ETTMTTP-2:50",
+    "LWTE": "LWTE-1:2"
+   },
+   "counts": {
+    "TBWTT": 15,
+    "ETTMTTP": 24,
+    "LWTE": 5
+   }
+  },
+  "conseil des éternels": {
+   "first": {
+    "TBWTT": "TBWTT-7:31",
+    "ETTMTTP": "ETTMTTP-2:50",
+    "LWTE": null
+   },
+   "counts": {
+    "TBWTT": 5,
+    "ETTMTTP": 5,
+    "LWTE": 0
+   }
+  },
+  "conseil (any)": {
+   "first": {
+    "TBWTT": "TBWTT-5:16",
+    "ETTMTTP": "ETTMTTP-2:3",
+    "LWTE": "LWTE-2:22"
+   },
+   "counts": {
+    "TBWTT": 7,
+    "ETTMTTP": 8,
+    "LWTE": 7
+   }
+  },
+  "géniocratie": {
+   "first": {
+    "TBWTT": "TBWTT-6:6",
+    "ETTMTTP": "ETTMTTP-2:1",
+    "LWTE": "LWTE-1:83"
+   },
+   "counts": {
+    "TBWTT": 1,
+    "ETTMTTP": 10,
+    "LWTE": 12
+   }
+  },
+  "humanitarisme": {
+   "first": {
+    "TBWTT": "TBWTT-6:10",
+    "ETTMTTP": "ETTMTTP-2:1",
+    "LWTE": "LWTE-4:90"
+   },
+   "counts": {
+    "TBWTT": 1,
+    "ETTMTTP": 5,
+    "LWTE": 1
+   }
+  },
+  "ambassade": {
+   "first": {
+    "TBWTT": "TBWTT-3:113",
+    "ETTMTTP": "ETTMTTP-2:99",
+    "LWTE": "LWTE-1:23"
+   },
+   "counts": {
+    "TBWTT": 5,
+    "ETTMTTP": 20,
+    "LWTE": 15
+   }
+  },
+  "résidence": {
+   "first": {
+    "TBWTT": "TBWTT-2:45",
+    "ETTMTTP": "ETTMTTP-2:50",
+    "LWTE": "LWTE-3:82"
+   },
+   "counts": {
+    "TBWTT": 21,
+    "ETTMTTP": 4,
+    "LWTE": 1
+   }
+  },
+  "raëlien": {
+   "first": {
+    "TBWTT": null,
+    "ETTMTTP": "ETTMTTP-3:260",
+    "LWTE": "LWTE-1:33"
+   },
+   "counts": {
+    "TBWTT": 0,
+    "ETTMTTP": 1,
+    "LWTE": 49
+   }
+  },
+  "Raël": {
+   "first": {
+    "TBWTT": "TBWTT-3:305",
+    "ETTMTTP": "ETTMTTP-2:99",
+    "LWTE": "LWTE-1:1"
+   },
+   "counts": {
+    "TBWTT": 1,
+    "ETTMTTP": 12,
+    "LWTE": 29
+   }
+  },
+  "Claude Vorilhon": {
+   "first": {
+    "TBWTT": "TBWTT-1:22",
+    "ETTMTTP": null,
+    "LWTE": "LWTE-4:83"
+   },
+   "counts": {
+    "TBWTT": 2,
+    "ETTMTTP": 0,
+    "LWTE": 5
+   }
+  },
+  "Claude": {
+   "first": {
+    "TBWTT": "TBWTT-1:22",
+    "ETTMTTP": "ETTMTTP-1:38",
+    "LWTE": "LWTE-4:83"
+   },
+   "counts": {
+    "TBWTT": 2,
+    "ETTMTTP": 1,
+    "LWTE": 6
+   }
+  },
+  "Mouvement": {
+   "first": {
+    "TBWTT": "TBWTT-6:29",
+    "ETTMTTP": "ETTMTTP-2:105",
+    "LWTE": "LWTE-1:21"
+   },
+   "counts": {
+    "TBWTT": 4,
+    "ETTMTTP": 2,
+    "LWTE": 14
+   }
+  },
+  "MADECH": {
+   "first": {
+    "TBWTT": null,
+    "ETTMTTP": "ETTMTTP-1:4",
+    "LWTE": null
+   },
+   "counts": {
+    "TBWTT": 0,
+    "ETTMTTP": 16,
+    "LWTE": 0
+   }
+  },
+  "infini": {
+   "first": {
+    "TBWTT": "TBWTT-3:305",
+    "ETTMTTP": "ETTMTTP-2:2",
+    "LWTE": "LWTE-1:27"
+   },
+   "counts": {
+    "TBWTT": 6,
+    "ETTMTTP": 65,
+    "LWTE": 77
+   }
+  },
+  "infiniment petit": {
+   "first": {
+    "TBWTT": "TBWTT-3:305",
+    "ETTMTTP": "ETTMTTP-2:30",
+    "LWTE": "LWTE-1:44"
+   },
+   "counts": {
+    "TBWTT": 2,
+    "ETTMTTP": 8,
+    "LWTE": 4
+   }
+  },
+  "infiniment grand": {
+   "first": {
+    "TBWTT": "TBWTT-3:305",
+    "ETTMTTP": "ETTMTTP-2:31",
+    "LWTE": "LWTE-1:44"
+   },
+   "counts": {
+    "TBWTT": 1,
+    "ETTMTTP": 9,
+    "LWTE": 3
+   }
+  },
+  "plan cellulaire": {
+   "first": {
+    "TBWTT": null,
+    "ETTMTTP": "ETTMTTP-2:116",
+    "LWTE": "LWTE-1:33"
+   },
+   "counts": {
+    "TBWTT": 0,
+    "ETTMTTP": 2,
+    "LWTE": 11
+   }
+  },
+  "code génétique": {
+   "first": {
+    "TBWTT": null,
+    "ETTMTTP": null,
+    "LWTE": "LWTE-1:33"
+   },
+   "counts": {
+    "TBWTT": 0,
+    "ETTMTTP": 0,
+    "LWTE": 18
+   }
+  },
+  "A.D.N.": {
+   "first": {
+    "TBWTT": null,
+    "ETTMTTP": null,
+    "LWTE": "LWTE-4:87"
+   },
+   "counts": {
+    "TBWTT": 0,
+    "ETTMTTP": 0,
+    "LWTE": 2
+   }
+  },
+  "recréation/recréer": {
+   "first": {
+    "TBWTT": "TBWTT-2:68",
+    "ETTMTTP": "ETTMTTP-2:30",
+    "LWTE": "LWTE-1:33"
+   },
+   "counts": {
+    "TBWTT": 5,
+    "ETTMTTP": 15,
+    "LWTE": 19
+   }
+  },
+  "clonage/clone": {
+   "first": {
+    "TBWTT": null,
+    "ETTMTTP": null,
+    "LWTE": null
+   },
+   "counts": {
+    "TBWTT": 0,
+    "ETTMTTP": 0,
+    "LWTE": 0
+   }
+  },
+  "méditation sensuelle": {
+   "first": {
+    "TBWTT": null,
+    "ETTMTTP": "ETTMTTP-3:113",
+    "LWTE": "LWTE-1:72"
+   },
+   "counts": {
+    "TBWTT": 0,
+    "ETTMTTP": 4,
+    "LWTE": 3
+   }
+  },
+  "méditation": {
+   "first": {
+    "TBWTT": null,
+    "ETTMTTP": "ETTMTTP-1:71",
+    "LWTE": "LWTE-1:72"
+   },
+   "counts": {
+    "TBWTT": 0,
+    "ETTMTTP": 14,
+    "LWTE": 4
+   }
+  },
+  "éveil": {
+   "first": {
+    "TBWTT": null,
+    "ETTMTTP": "ETTMTTP-2:24",
+    "LWTE": "LWTE-1:74"
+   },
+   "counts": {
+    "TBWTT": 0,
+    "ETTMTTP": 26,
+    "LWTE": 16
+   }
+  },
+  "prophète": {
+   "first": {
+    "TBWTT": "TBWTT-3:85",
+    "ETTMTTP": "ETTMTTP-2:105",
+    "LWTE": "LWTE-1:33"
+   },
+   "counts": {
+    "TBWTT": 8,
+    "ETTMTTP": 31,
+    "LWTE": 34
+   }
+  },
+  "Messie": {
+   "first": {
+    "TBWTT": "TBWTT-3:302",
+    "ETTMTTP": "ETTMTTP-3:227",
+    "LWTE": "LWTE-3:1"
+   },
+   "counts": {
+    "TBWTT": 1,
+    "ETTMTTP": 1,
+    "LWTE": 6
+   }
+  },
+  "Bouddha": {
+   "first": {
+    "TBWTT": null,
+    "ETTMTTP": "ETTMTTP-2:64",
+    "LWTE": "LWTE-1:75"
+   },
+   "counts": {
+    "TBWTT": 0,
+    "ETTMTTP": 3,
+    "LWTE": 4
+   }
+  },
+  "Mahomet": {
+   "first": {
+    "TBWTT": null,
+    "ETTMTTP": "ETTMTTP-2:64",
+    "LWTE": "LWTE-1:75"
+   },
+   "counts": {
+    "TBWTT": 0,
+    "ETTMTTP": 6,
+    "LWTE": 4
+   }
+  },
+  "Jésus": {
+   "first": {
+    "TBWTT": "TBWTT-4:18",
+    "ETTMTTP": "ETTMTTP-1:11",
+    "LWTE": "LWTE-1:75"
+   },
+   "counts": {
+    "TBWTT": 28,
+    "ETTMTTP": 17,
+    "LWTE": 43
+   }
+  },
+  "Christ": {
+   "first": {
+    "TBWTT": "TBWTT-4:2",
+    "ETTMTTP": "ETTMTTP-1:11",
+    "LWTE": "LWTE-1:76"
+   },
+   "counts": {
+    "TBWTT": 10,
+    "ETTMTTP": 1,
+    "LWTE": 3
+   }
+  },
+  "Moïse": {
+   "first": {
+    "TBWTT": "TBWTT-3:1",
+    "ETTMTTP": "ETTMTTP-2:50",
+    "LWTE": "LWTE-1:75"
+   },
+   "counts": {
+    "TBWTT": 11,
+    "ETTMTTP": 4,
+    "LWTE": 6
+   }
+  },
+  "Joseph Smith": {
+   "first": {
+    "TBWTT": "TBWTT-5:54",
+    "ETTMTTP": null,
+    "LWTE": "LWTE-3:27"
+   },
+   "counts": {
+    "TBWTT": 1,
+    "ETTMTTP": 0,
+    "LWTE": 1
+   }
+  },
+  "Juifs": {
+   "first": {
+    "TBWTT": "TBWTT-1:46",
+    "ETTMTTP": "ETTMTTP-1:7",
+    "LWTE": "LWTE-1:16"
+   },
+   "counts": {
+    "TBWTT": 9,
+    "ETTMTTP": 6,
+    "LWTE": 8
+   }
+  },
+  "Israël": {
+   "first": {
+    "TBWTT": "TBWTT-2:28",
+    "ETTMTTP": "ETTMTTP-2:62",
+    "LWTE": "LWTE-1:16"
+   },
+   "counts": {
+    "TBWTT": 32,
+    "ETTMTTP": 11,
+    "LWTE": 6
+   }
+  },
+  "guide": {
+   "first": {
+    "TBWTT": "TBWTT-4:8",
+    "ETTMTTP": "ETTMTTP-2:2",
+    "LWTE": "LWTE-1:33"
+   },
+   "counts": {
+    "TBWTT": 2,
+    "ETTMTTP": 75,
+    "LWTE": 31
+   }
+  },
+  "Guide des guides": {
+   "first": {
+    "TBWTT": null,
+    "ETTMTTP": "ETTMTTP-2:114",
+    "LWTE": "LWTE-1:33"
+   },
+   "counts": {
+    "TBWTT": 0,
+    "ETTMTTP": 22,
+    "LWTE": 2
+   }
+  },
+  "évêque/prêtre guides": {
+   "first": {
+    "TBWTT": "TBWTT-3:28",
+    "ETTMTTP": null,
+    "LWTE": "LWTE-1:22"
+   },
+   "counts": {
+    "TBWTT": 5,
+    "ETTMTTP": 0,
+    "LWTE": 13
+   }
+  },
+  "âge d'or": {
+   "first": {
+    "TBWTT": "TBWTT-5:4",
+    "ETTMTTP": "ETTMTTP-2:23",
+    "LWTE": "LWTE-1:65"
+   },
+   "counts": {
+    "TBWTT": 3,
+    "ETTMTTP": 5,
+    "LWTE": 14
+   }
+  },
+  "apocalypse": {
+   "first": {
+    "TBWTT": null,
+    "ETTMTTP": "ETTMTTP-2:121",
+    "LWTE": "LWTE-1:10"
+   },
+   "counts": {
+    "TBWTT": 0,
+    "ETTMTTP": 5,
+    "LWTE": 52
+   }
+  },
+  "révélation": {
+   "first": {
+    "TBWTT": "TBWTT-1:46",
+    "ETTMTTP": "ETTMTTP-1:63",
+    "LWTE": "LWTE-1:10"
+   },
+   "counts": {
+    "TBWTT": 9,
+    "ETTMTTP": 5,
+    "LWTE": 9
+   }
+  },
+  "ordinateur": {
+   "first": {
+    "TBWTT": "TBWTT-7:45",
+    "ETTMTTP": "ETTMTTP-2:37",
+    "LWTE": "LWTE-1:34"
+   },
+   "counts": {
+    "TBWTT": 1,
+    "ETTMTTP": 9,
+    "LWTE": 40
+   }
+  },
+  "robots biologiques": {
+   "first": {
+    "TBWTT": null,
+    "ETTMTTP": "ETTMTTP-2:53",
+    "LWTE": "LWTE-1:24"
+   },
+   "counts": {
+    "TBWTT": 0,
+    "ETTMTTP": 5,
+    "LWTE": 1
+   }
+  },
+  "robot": {
+   "first": {
+    "TBWTT": "TBWTT-3:263",
+    "ETTMTTP": "ETTMTTP-2:53",
+    "LWTE": "LWTE-1:24"
+   },
+   "counts": {
+    "TBWTT": 2,
+    "ETTMTTP": 32,
+    "LWTE": 2
+   }
+  },
+  "Dieu": {
+   "first": {
+    "TBWTT": "TBWTT-2:5",
+    "ETTMTTP": "ETTMTTP-2:111",
+    "LWTE": "LWTE-1:21"
+   },
+   "counts": {
+    "TBWTT": 43,
+    "ETTMTTP": 1,
+    "LWTE": 30
+   }
+  },
+  "âme": {
+   "first": {
+    "TBWTT": "TBWTT-5:15",
+    "ETTMTTP": "ETTMTTP-2:24",
+    "LWTE": "LWTE-1:49"
+   },
+   "counts": {
+    "TBWTT": 4,
+    "ETTMTTP": 7,
+    "LWTE": 17
+   }
+  },
+  "athée/athéisme": {
+   "first": {
+    "TBWTT": null,
+    "ETTMTTP": "ETTMTTP-2:105",
+    "LWTE": "LWTE-1:71"
+   },
+   "counts": {
+    "TBWTT": 0,
+    "ETTMTTP": 1,
+    "LWTE": 7
+   }
+  },
+  "religion": {
+   "first": {
+    "TBWTT": "TBWTT-5:50",
+    "ETTMTTP": "ETTMTTP-2:2",
+    "LWTE": "LWTE-1:36"
+   },
+   "counts": {
+    "TBWTT": 7,
+    "ETTMTTP": 28,
+    "LWTE": 62
+   }
+  },
+  "immortalité/vie éternelle": {
+   "first": {
+    "TBWTT": "TBWTT-3:218",
+    "ETTMTTP": "ETTMTTP-3:131",
+    "LWTE": "LWTE-1:34"
+   },
+   "counts": {
+    "TBWTT": 2,
+    "ETTMTTP": 3,
+    "LWTE": 7
+   }
+  },
+  "planète des éternels": {
+   "first": {
+    "TBWTT": null,
+    "ETTMTTP": "ETTMTTP-3:26",
+    "LWTE": "LWTE-1:2"
+   },
+   "counts": {
+    "TBWTT": 0,
+    "ETTMTTP": 9,
+    "LWTE": 2
+   }
+  },
+  "télépathie": {
+   "first": {
+    "TBWTT": "TBWTT-1:32",
+    "ETTMTTP": "ETTMTTP-2:9",
+    "LWTE": "LWTE-2:110"
+   },
+   "counts": {
+    "TBWTT": 19,
+    "ETTMTTP": 13,
+    "LWTE": 2
+   }
+  },
+  "transmission du plan cellulaire": {
+   "first": {
+    "TBWTT": null,
+    "ETTMTTP": null,
+    "LWTE": "LWTE-1:33"
+   },
+   "counts": {
+    "TBWTT": 0,
+    "ETTMTTP": 0,
+    "LWTE": 3
+   }
+  },
+  "baptême": {
+   "first": {
+    "TBWTT": "TBWTT-2:22",
+    "ETTMTTP": "ETTMTTP-1:21",
+    "LWTE": "LWTE-1:135"
+   },
+   "counts": {
+    "TBWTT": 1,
+    "ETTMTTP": 5,
+    "LWTE": 4
+   }
+  },
+  "apostasie": {
+   "first": {
+    "TBWTT": null,
+    "ETTMTTP": null,
+    "LWTE": "LWTE-4:175"
+   },
+   "counts": {
+    "TBWTT": 0,
+    "ETTMTTP": 0,
+    "LWTE": 1
+   }
+  },
+  "os frontal": {
+   "first": {
+    "TBWTT": null,
+    "ETTMTTP": null,
+    "LWTE": "LWTE-1:33"
+   },
+   "counts": {
+    "TBWTT": 0,
+    "ETTMTTP": 0,
+    "LWTE": 6
+   }
+  },
+  "dîme/1%/don": {
+   "first": {
+    "TBWTT": "TBWTT-3:138",
+    "ETTMTTP": "ETTMTTP-1:61",
+    "LWTE": "LWTE-1:176"
+   },
+   "counts": {
+    "TBWTT": 4,
+    "ETTMTTP": 4,
+    "LWTE": 9
+   }
+  },
+  "héritage": {
+   "first": {
+    "TBWTT": "TBWTT-4:55",
+    "ETTMTTP": "ETTMTTP-3:71",
+    "LWTE": "LWTE-2:205"
+   },
+   "counts": {
+    "TBWTT": 17,
+    "ETTMTTP": 1,
+    "LWTE": 3
+   }
+  },
+  "mariage": {
+   "first": {
+    "TBWTT": "TBWTT-5:49",
+    "ETTMTTP": "ETTMTTP-3:59",
+    "LWTE": "LWTE-4:88"
+   },
+   "counts": {
+    "TBWTT": 2,
+    "ETTMTTP": 2,
+    "LWTE": 1
+   }
+  },
+  "contraception/avortement": {
+   "first": {
+    "TBWTT": "TBWTT-7:13",
+    "ETTMTTP": "ETTMTTP-3:48",
+    "LWTE": "LWTE-1:171"
+   },
+   "counts": {
+    "TBWTT": 1,
+    "ETTMTTP": 3,
+    "LWTE": 1
+   }
+  },
+  "sensualité": {
+   "first": {
+    "TBWTT": null,
+    "ETTMTTP": "ETTMTTP-2:59",
+    "LWTE": "LWTE-1:72"
+   },
+   "counts": {
+    "TBWTT": 0,
+    "ETTMTTP": 13,
+    "LWTE": 12
+   }
+  },
+  "plaisir": {
+   "first": {
+    "TBWTT": "TBWTT-7:49",
+    "ETTMTTP": "ETTMTTP-1:4",
+    "LWTE": "LWTE-1:50"
+   },
+   "counts": {
+    "TBWTT": 1,
+    "ETTMTTP": 39,
+    "LWTE": 47
+   }
+  },
+  "amour": {
+   "first": {
+    "TBWTT": "TBWTT-3:286",
+    "ETTMTTP": "ETTMTTP-1:23",
+    "LWTE": "LWTE-1:50"
+   },
+   "counts": {
+    "TBWTT": 9,
+    "ETTMTTP": 39,
+    "LWTE": 15
+   }
+  },
+  "épanouissement": {
+   "first": {
+    "TBWTT": "TBWTT-3:221",
+    "ETTMTTP": "ETTMTTP-2:23",
+    "LWTE": "LWTE-1:39"
+   },
+   "counts": {
+    "TBWTT": 2,
+    "ETTMTTP": 45,
+    "LWTE": 17
+   }
+  },
+  "désarmement/armée": {
+   "first": {
+    "TBWTT": "TBWTT-3:62",
+    "ETTMTTP": "ETTMTTP-2:26",
+    "LWTE": "LWTE-1:127"
+   },
+   "counts": {
+    "TBWTT": 8,
+    "ETTMTTP": 10,
+    "LWTE": 13
+   }
+  },
+  "gouvernement mondial": {
+   "first": {
+    "TBWTT": null,
+    "ETTMTTP": "ETTMTTP-3:160",
+    "LWTE": "LWTE-4:90"
+   },
+   "counts": {
+    "TBWTT": 0,
+    "ETTMTTP": 1,
+    "LWTE": 1
+   }
+  },
+  "monnaie": {
+   "first": {
+    "TBWTT": "TBWTT-5:41",
+    "ETTMTTP": "ETTMTTP-1:36",
+    "LWTE": "LWTE-4:90"
+   },
+   "counts": {
+    "TBWTT": 4,
+    "ETTMTTP": 4,
+    "LWTE": 1
+   }
+  },
+  "langue mondiale": {
+   "first": {
+    "TBWTT": null,
+    "ETTMTTP": "ETTMTTP-2:27",
+    "LWTE": null
+   },
+   "counts": {
+    "TBWTT": 0,
+    "ETTMTTP": 1,
+    "LWTE": 0
+   }
+  },
+  "Hiroshima": {
+   "first": {
+    "TBWTT": null,
+    "ETTMTTP": "ETTMTTP-2:7",
+    "LWTE": "LWTE-2:79"
+   },
+   "counts": {
+    "TBWTT": 0,
+    "ETTMTTP": 1,
+    "LWTE": 5
+   }
+  },
+  "1945/1946": {
+   "first": {
+    "TBWTT": "TBWTT-1:47",
+    "ETTMTTP": "ETTMTTP-1:7",
+    "LWTE": "LWTE-2:79"
+   },
+   "counts": {
+    "TBWTT": 5,
+    "ETTMTTP": 3,
+    "LWTE": 6
+   }
+  },
+  "Verseau": {
+   "first": {
+    "TBWTT": "TBWTT-5:4",
+    "ETTMTTP": "ETTMTTP-3:172",
+    "LWTE": null
+   },
+   "counts": {
+    "TBWTT": 5,
+    "ETTMTTP": 1,
+    "LWTE": 0
+   }
+  },
+  "précession/ère": {
+   "first": {
+    "TBWTT": "TBWTT-5:4",
+    "ETTMTTP": null,
+    "LWTE": null
+   },
+   "counts": {
+    "TBWTT": 4,
+    "ETTMTTP": 0,
+    "LWTE": 0
+   }
+  },
+  "ange": {
+   "first": {
+    "TBWTT": "TBWTT-3:210",
+    "ETTMTTP": null,
+    "LWTE": "LWTE-2:38"
+   },
+   "counts": {
+    "TBWTT": 15,
+    "ETTMTTP": 0,
+    "LWTE": 15
+   }
+  },
+  "diable/démon": {
+   "first": {
+    "TBWTT": "TBWTT-4:19",
+    "ETTMTTP": "ETTMTTP-2:24",
+    "LWTE": "LWTE-1:76"
+   },
+   "counts": {
+    "TBWTT": 5,
+    "ETTMTTP": 5,
+    "LWTE": 18
+   }
+  },
+  "péché originel": {
+   "first": {
+    "TBWTT": "TBWTT-5:12",
+    "ETTMTTP": null,
+    "LWTE": null
+   },
+   "counts": {
+    "TBWTT": 1,
+    "ETTMTTP": 0,
+    "LWTE": 0
+   }
+  },
+  "paradis": {
+   "first": {
+    "TBWTT": "TBWTT-2:28",
+    "ETTMTTP": "ETTMTTP-2:24",
+    "LWTE": "LWTE-1:62"
+   },
+   "counts": {
+    "TBWTT": 1,
+    "ETTMTTP": 15,
+    "LWTE": 3
+   }
+  },
+  "enfer": {
+   "first": {
+    "TBWTT": null,
+    "ETTMTTP": "ETTMTTP-2:24",
+    "LWTE": "LWTE-3:76"
+   },
+   "counts": {
+    "TBWTT": 0,
+    "ETTMTTP": 10,
+    "LWTE": 2
+   }
+  },
+  "Neph/géants": {
+   "first": {
+    "TBWTT": null,
+    "ETTMTTP": null,
+    "LWTE": "LWTE-4:103"
+   },
+   "counts": {
+    "TBWTT": 0,
+    "ETTMTTP": 0,
+    "LWTE": 1
+   }
+  },
+  "déluge": {
+   "first": {
+    "TBWTT": "TBWTT-2:46",
+    "ETTMTTP": null,
+    "LWTE": "LWTE-1:46"
+   },
+   "counts": {
+    "TBWTT": 1,
+    "ETTMTTP": 0,
+    "LWTE": 10
+   }
+  },
+  "Noé": {
+   "first": {
+    "TBWTT": "TBWTT-2:58",
+    "ETTMTTP": "ETTMTTP-2:23",
+    "LWTE": "LWTE-1:45"
+   },
+   "counts": {
+    "TBWTT": 6,
+    "ETTMTTP": 2,
+    "LWTE": 8
+   }
+  },
+  "soucoupe/engin/OVNI": {
+   "first": {
+    "TBWTT": "TBWTT-1:4",
+    "ETTMTTP": "ETTMTTP-1:10",
+    "LWTE": "LWTE-1:2"
+   },
+   "counts": {
+    "TBWTT": 45,
+    "ETTMTTP": 12,
+    "LWTE": 19
+   }
+  },
+  "extra-terrestre": {
+   "first": {
+    "TBWTT": "TBWTT-3:305",
+    "ETTMTTP": null,
+    "LWTE": "LWTE-1:7"
+   },
+   "counts": {
+    "TBWTT": 1,
+    "ETTMTTP": 0,
+    "LWTE": 22
+   }
+  },
+  "créateurs": {
+   "first": {
+    "TBWTT": "TBWTT-2:25",
+    "ETTMTTP": "ETTMTTP-2:1",
+    "LWTE": "LWTE-1:4"
+   },
+   "counts": {
+    "TBWTT": 175,
+    "ETTMTTP": 63,
+    "LWTE": 73
+   }
+  },
+  "nos pères": {
+   "first": {
+    "TBWTT": "TBWTT-2:37",
+    "ETTMTTP": "ETTMTTP-1:8",
+    "LWTE": "LWTE-1:31"
+   },
+   "counts": {
+    "TBWTT": 8,
+    "ETTMTTP": 5,
+    "LWTE": 9
+   }
+  },
+  "homme de quelque part/dans les cieux": {
+   "first": {
+    "TBWTT": "TBWTT-4:38",
+    "ETTMTTP": "ETTMTTP-3:246",
+    "LWTE": "LWTE-1:200"
+   },
+   "counts": {
+    "TBWTT": 4,
+    "ETTMTTP": 3,
+    "LWTE": 4
+   }
+  },
+  "scientifiques": {
+   "first": {
+    "TBWTT": "TBWTT-1:46",
+    "ETTMTTP": "ETTMTTP-1:4",
+    "LWTE": "LWTE-1:7"
+   },
+   "counts": {
+    "TBWTT": 74,
+    "ETTMTTP": 32,
+    "LWTE": 61
+   }
+  },
+  "laboratoire": {
+   "first": {
+    "TBWTT": "TBWTT-2:16",
+    "ETTMTTP": null,
+    "LWTE": "LWTE-1:14"
+   },
+   "counts": {
+    "TBWTT": 2,
+    "ETTMTTP": 0,
+    "LWTE": 21
+   }
+  },
+  "synthétique/de synthèse": {
+   "first": {
+    "TBWTT": "TBWTT-3:22",
+    "ETTMTTP": null,
+    "LWTE": "LWTE-1:152"
+   },
+   "counts": {
+    "TBWTT": 2,
+    "ETTMTTP": 0,
+    "LWTE": 3
+   }
+  },
+  "race": {
+   "first": {
+    "TBWTT": "TBWTT-2:25",
+    "ETTMTTP": "ETTMTTP-2:42",
+    "LWTE": "LWTE-1:18"
+   },
+   "counts": {
+    "TBWTT": 12,
+    "ETTMTTP": 4,
+    "LWTE": 3
+   }
+  },
+  "génie": {
+   "first": {
+    "TBWTT": "TBWTT-2:43",
+    "ETTMTTP": "ETTMTTP-2:23",
+    "LWTE": "LWTE-1:17"
+   },
+   "counts": {
+    "TBWTT": 15,
+    "ETTMTTP": 4,
+    "LWTE": 5
+   }
+  },
+  "intelligence": {
+   "first": {
+    "TBWTT": "TBWTT-2:28",
+    "ETTMTTP": "ETTMTTP-2:28",
+    "LWTE": "LWTE-1:17"
+   },
+   "counts": {
+    "TBWTT": 15,
+    "ETTMTTP": 6,
+    "LWTE": 10
+   }
+  },
+  "élection/vote": {
+   "first": {
+    "TBWTT": "TBWTT-6:4",
+    "ETTMTTP": "ETTMTTP-1:46",
+    "LWTE": "LWTE-1:84"
+   },
+   "counts": {
+    "TBWTT": 10,
+    "ETTMTTP": 6,
+    "LWTE": 3
+   }
+  },
+  "démocratie": {
+   "first": {
+    "TBWTT": "TBWTT-1:46",
+    "ETTMTTP": "ETTMTTP-3:82",
+    "LWTE": "LWTE-1:86"
+   },
+   "counts": {
+    "TBWTT": 3,
+    "ETTMTTP": 4,
+    "LWTE": 2
+   }
+  },
+  "suicide": {
+   "first": {
+    "TBWTT": null,
+    "ETTMTTP": "ETTMTTP-3:75",
+    "LWTE": "LWTE-1:114"
+   },
+   "counts": {
+    "TBWTT": 0,
+    "ETTMTTP": 2,
+    "LWTE": 5
+   }
+  },
+  "euthanasie": {
+   "first": {
+    "TBWTT": null,
+    "ETTMTTP": null,
+    "LWTE": null
+   },
+   "counts": {
+    "TBWTT": 0,
+    "ETTMTTP": 0,
+    "LWTE": 0
+   }
+  },
+  "réincarnation": {
+   "first": {
+    "TBWTT": null,
+    "ETTMTTP": "ETTMTTP-2:24",
+    "LWTE": "LWTE-2:147"
+   },
+   "counts": {
+    "TBWTT": 0,
+    "ETTMTTP": 6,
+    "LWTE": 1
+   }
+  },
+  "évolution": {
+   "first": {
+    "TBWTT": "TBWTT-3:230",
+    "ETTMTTP": "ETTMTTP-3:63",
+    "LWTE": "LWTE-1:56"
+   },
+   "counts": {
+    "TBWTT": 11,
+    "ETTMTTP": 2,
+    "LWTE": 25
+   }
+  },
+  "hasard": {
+   "first": {
+    "TBWTT": "TBWTT-5:7",
+    "ETTMTTP": "ETTMTTP-1:7",
+    "LWTE": "LWTE-1:196"
+   },
+   "counts": {
+    "TBWTT": 2,
+    "ETTMTTP": 5,
+    "LWTE": 11
+   }
+  },
+  "atome": {
+   "first": {
+    "TBWTT": "TBWTT-5:53",
+    "ETTMTTP": "ETTMTTP-2:31",
+    "LWTE": "LWTE-1:41"
+   },
+   "counts": {
+    "TBWTT": 7,
+    "ETTMTTP": 7,
+    "LWTE": 44
+   }
+  },
+  "vitesse lumière": {
+   "first": {
+    "TBWTT": "TBWTT-5:52",
+    "ETTMTTP": null,
+    "LWTE": "LWTE-4:114"
+   },
+   "counts": {
+    "TBWTT": 2,
+    "ETTMTTP": 0,
+    "LWTE": 1
+   }
+  },
+  "années-lumière": {
+   "first": {
+    "TBWTT": "TBWTT-5:52",
+    "ETTMTTP": null,
+    "LWTE": "LWTE-1:26"
+   },
+   "counts": {
+    "TBWTT": 1,
+    "ETTMTTP": 0,
+    "LWTE": 8
+   }
+  },
+  "jugement/jugé": {
+   "first": {
+    "TBWTT": "TBWTT-2:43",
+    "ETTMTTP": "ETTMTTP-1:64",
+    "LWTE": "LWTE-1:27"
+   },
+   "counts": {
+    "TBWTT": 11,
+    "ETTMTTP": 18,
+    "LWTE": 12
+   }
+  },
+  "grand ordinateur/surveill": {
+   "first": {
+    "TBWTT": "TBWTT-2:48",
+    "ETTMTTP": "ETTMTTP-2:37",
+    "LWTE": "LWTE-1:36"
+   },
+   "counts": {
+    "TBWTT": 7,
+    "ETTMTTP": 3,
+    "LWTE": 4
+   }
+  },
+  "Elohim créés (créateurs des créateurs)": {
+   "first": {
+    "TBWTT": null,
+    "ETTMTTP": null,
+    "LWTE": null
+   },
+   "counts": {
+    "TBWTT": 0,
+    "ETTMTTP": 0,
+    "LWTE": 0
+   }
+  },
+  "svastika/étoile": {
+   "first": {
+    "TBWTT": "TBWTT-3:288",
+    "ETTMTTP": "ETTMTTP-2:24",
+    "LWTE": null
+   },
+   "counts": {
+    "TBWTT": 6,
+    "ETTMTTP": 8,
+    "LWTE": 0
+   }
+  },
+  "sectes/secte": {
+   "first": {
+    "TBWTT": "TBWTT-5:54",
+    "ETTMTTP": "ETTMTTP-3:179",
+    "LWTE": "LWTE-3:37"
+   },
+   "counts": {
+    "TBWTT": 1,
+    "ETTMTTP": 2,
+    "LWTE": 3
+   }
+  },
+  "Vatican/Eglise/pape": {
+   "first": {
+    "TBWTT": "TBWTT-5:3",
+    "ETTMTTP": "ETTMTTP-1:13",
+    "LWTE": "LWTE-1:21"
+   },
+   "counts": {
+    "TBWTT": 23,
+    "ETTMTTP": 13,
+    "LWTE": 18
+   }
+  },
+  "ONU": {
+   "first": {
+    "TBWTT": null,
+    "ETTMTTP": null,
+    "LWTE": "LWTE-3:72"
+   },
+   "counts": {
+    "TBWTT": 0,
+    "ETTMTTP": 0,
+    "LWTE": 1
+   }
+  },
+  "Temple": {
+   "first": {
+    "TBWTT": "TBWTT-3:86",
+    "ETTMTTP": "ETTMTTP-3:248",
+    "LWTE": "LWTE-1:179"
+   },
+   "counts": {
+    "TBWTT": 3,
+    "ETTMTTP": 2,
+    "LWTE": 3
+   }
+  },
+  "territoire neutre/extraterritorialité": {
+   "first": {
+    "TBWTT": null,
+    "ETTMTTP": "ETTMTTP-3:212",
+    "LWTE": null
+   },
+   "counts": {
+    "TBWTT": 0,
+    "ETTMTTP": 1,
+    "LWTE": 0
+   }
+  },
+  "hôtes/hôtes": {
+   "first": {
+    "TBWTT": "TBWTT-3:110",
+    "ETTMTTP": "ETTMTTP-3:226",
+    "LWTE": "LWTE-4:90"
+   },
+   "counts": {
+    "TBWTT": 9,
+    "ETTMTTP": 1,
+    "LWTE": 1
+   }
+  },
+  "monogamie/couple": {
+   "first": {
+    "TBWTT": "TBWTT-2:58",
+    "ETTMTTP": null,
+    "LWTE": "LWTE-1:184"
+   },
+   "counts": {
+    "TBWTT": 5,
+    "ETTMTTP": 0,
+    "LWTE": 4
+   }
+  },
+  "homosexu": {
+   "first": {
+    "TBWTT": null,
+    "ETTMTTP": null,
+    "LWTE": "LWTE-1:189"
+   },
+   "counts": {
+    "TBWTT": 0,
+    "ETTMTTP": 0,
+    "LWTE": 12
+   }
+  },
+  "drogue": {
+   "first": {
+    "TBWTT": null,
+    "ETTMTTP": "ETTMTTP-3:109",
+    "LWTE": null
+   },
+   "counts": {
+    "TBWTT": 0,
+    "ETTMTTP": 3,
+    "LWTE": 0
+   }
+  },
+  "tabac/alcool": {
+   "first": {
+    "TBWTT": "TBWTT-7:76",
+    "ETTMTTP": "ETTMTTP-1:36",
+    "LWTE": "LWTE-1:12"
+   },
+   "counts": {
+    "TBWTT": 1,
+    "ETTMTTP": 3,
+    "LWTE": 1
+   }
+  },
+  "jeûne": {
+   "first": {
+    "TBWTT": null,
+    "ETTMTTP": null,
+    "LWTE": "LWTE-2:38"
+   },
+   "counts": {
+    "TBWTT": 0,
+    "ETTMTTP": 0,
+    "LWTE": 1
+   }
+  },
+  "prière": {
+   "first": {
+    "TBWTT": "TBWTT-4:25",
+    "ETTMTTP": "ETTMTTP-1:21",
+    "LWTE": "LWTE-1:10"
+   },
+   "counts": {
+    "TBWTT": 4,
+    "ETTMTTP": 5,
+    "LWTE": 5
+   }
+  },
+  "contact télépathique": {
+   "first": {
+    "TBWTT": null,
+    "ETTMTTP": null,
+    "LWTE": "LWTE-3:26"
+   },
+   "counts": {
+    "TBWTT": 0,
+    "ETTMTTP": 0,
+    "LWTE": 1
+   }
+  },
+  "cerveau": {
+   "first": {
+    "TBWTT": "TBWTT-2:89",
+    "ETTMTTP": "ETTMTTP-2:23",
+    "LWTE": "LWTE-1:50"
+   },
+   "counts": {
+    "TBWTT": 11,
+    "ETTMTTP": 14,
+    "LWTE": 17
+   }
+  },
+  "génie génétique/manipul": {
+   "first": {
+    "TBWTT": "TBWTT-3:96",
+    "ETTMTTP": null,
+    "LWTE": "LWTE-2:6"
+   },
+   "counts": {
+    "TBWTT": 2,
+    "ETTMTTP": 0,
+    "LWTE": 2
+   }
+  },
+  "ADN": {
+   "first": {
+    "TBWTT": null,
+    "ETTMTTP": null,
+    "LWTE": null
+   },
+   "counts": {
+    "TBWTT": 0,
+    "ETTMTTP": 0,
+    "LWTE": 0
+   }
+  },
+  "chromosome": {
+   "first": {
+    "TBWTT": null,
+    "ETTMTTP": null,
+    "LWTE": "LWTE-4:12"
+   },
+   "counts": {
+    "TBWTT": 0,
+    "ETTMTTP": 0,
+    "LWTE": 3
+   }
+  },
+  "cellule": {
+   "first": {
+    "TBWTT": "TBWTT-2:2",
+    "ETTMTTP": "ETTMTTP-2:30",
+    "LWTE": "LWTE-1:52"
+   },
+   "counts": {
+    "TBWTT": 11,
+    "ETTMTTP": 18,
+    "LWTE": 16
+   }
+  },
+  "messager": {
+   "first": {
+    "TBWTT": "TBWTT-3:117",
+    "ETTMTTP": "ETTMTTP-2:99",
+    "LWTE": "LWTE-1:65"
+   },
+   "counts": {
+    "TBWTT": 3,
+    "ETTMTTP": 4,
+    "LWTE": 23
+   }
+  },
+  "ambassadeur": {
+   "first": {
+    "TBWTT": "TBWTT-3:113",
+    "ETTMTTP": "ETTMTTP-2:99",
+    "LWTE": null
+   },
+   "counts": {
+    "TBWTT": 3,
+    "ETTMTTP": 8,
+    "LWTE": 0
+   }
+  },
+  "dernier des prophètes": {
+   "first": {
+    "TBWTT": null,
+    "ETTMTTP": "ETTMTTP-2:121",
+    "LWTE": "LWTE-1:33"
+   },
+   "counts": {
+    "TBWTT": 0,
+    "ETTMTTP": 10,
+    "LWTE": 3
+   }
+  },
+  "père (Raël fils)": {
+   "first": {
+    "TBWTT": "TBWTT-4:38",
+    "ETTMTTP": "ETTMTTP-1:21",
+    "LWTE": "LWTE-1:67"
+   },
+   "counts": {
+    "TBWTT": 5,
+    "ETTMTTP": 6,
+    "LWTE": 21
+   }
+  },
+  "Iahvé (spelling)": {
+   "first": {
+    "TBWTT": "TBWTT-2:38",
+    "ETTMTTP": "ETTMTTP-2:50",
+    "LWTE": null
+   },
+   "counts": {
+    "TBWTT": 61,
+    "ETTMTTP": 10,
+    "LWTE": 0
+   }
+  },
+  "Yahvé (spelling)": {
+   "first": {
+    "TBWTT": null,
+    "ETTMTTP": null,
+    "LWTE": "LWTE-2:22"
+   },
+   "counts": {
+    "TBWTT": 0,
+    "ETTMTTP": 0,
+    "LWTE": 47
+   }
+  },
+  "scaphandre": {
+   "first": {
+    "TBWTT": "TBWTT-1:6",
+    "ETTMTTP": "ETTMTTP-2:10",
+    "LWTE": "LWTE-1:4"
+   },
+   "counts": {
+    "TBWTT": 16,
+    "ETTMTTP": 1,
+    "LWTE": 5
+   }
+  },
+  "homme total": {
+   "first": {
+    "TBWTT": null,
+    "ETTMTTP": null,
+    "LWTE": "LWTE-1:175"
+   },
+   "counts": {
+    "TBWTT": 0,
+    "ETTMTTP": 0,
+    "LWTE": 6
+   }
+  },
+  "niveau de conscience": {
+   "first": {
+    "TBWTT": null,
+    "ETTMTTP": null,
+    "LWTE": "LWTE-1:72"
+   },
+   "counts": {
+    "TBWTT": 0,
+    "ETTMTTP": 0,
+    "LWTE": 14
+   }
+  },
+  "programm-": {
+   "first": {
+    "TBWTT": "TBWTT-7:62",
+    "ETTMTTP": null,
+    "LWTE": "LWTE-1:154"
+   },
+   "counts": {
+    "TBWTT": 1,
+    "ETTMTTP": 0,
+    "LWTE": 32
+   }
+  },
+  "religion athée": {
+   "first": {
+    "TBWTT": null,
+    "ETTMTTP": "ETTMTTP-2:105",
+    "LWTE": "LWTE-1:71"
+   },
+   "counts": {
+    "TBWTT": 0,
+    "ETTMTTP": 1,
+    "LWTE": 4
+   }
+  },
+  "démystif-": {
+   "first": {
+    "TBWTT": null,
+    "ETTMTTP": "ETTMTTP-2:121",
+    "LWTE": "LWTE-1:71"
+   },
+   "counts": {
+    "TBWTT": 0,
+    "ETTMTTP": 1,
+    "LWTE": 5
+   }
+  },
+  "autodestruction": {
+   "first": {
+    "TBWTT": null,
+    "ETTMTTP": "ETTMTTP-2:25",
+    "LWTE": "LWTE-1:65"
+   },
+   "counts": {
+    "TBWTT": 0,
+    "ETTMTTP": 2,
+    "LWTE": 9
+   }
+  },
+  "144 000": {
+   "first": {
+    "TBWTT": null,
+    "ETTMTTP": null,
+    "LWTE": "LWTE-2:158"
+   },
+   "counts": {
+    "TBWTT": 0,
+    "ETTMTTP": 0,
+    "LWTE": 2
+   }
+  },
+  "religion des religions": {
+   "first": {
+    "TBWTT": null,
+    "ETTMTTP": "ETTMTTP-2:105",
+    "LWTE": "LWTE-4:173"
+   },
+   "counts": {
+    "TBWTT": 0,
+    "ETTMTTP": 4,
+    "LWTE": 1
+   }
+  },
+  "fils d'Elohim": {
+   "first": {
+    "TBWTT": "TBWTT-2:50",
+    "ETTMTTP": "ETTMTTP-2:104",
+    "LWTE": "LWTE-1:17"
+   },
+   "counts": {
+    "TBWTT": 4,
+    "ETTMTTP": 2,
+    "LWTE": 4
+   }
+  },
+  "premier/deuxième message (self-citation)": {
+   "first": {
+    "TBWTT": null,
+    "ETTMTTP": "ETTMTTP-1:2",
+    "LWTE": "LWTE-1:2"
+   },
+   "counts": {
+    "TBWTT": 0,
+    "ETTMTTP": 6,
+    "LWTE": 23
+   }
+  },
+  "génétique": {
+   "first": {
+    "TBWTT": null,
+    "ETTMTTP": null,
+    "LWTE": "LWTE-1:33"
+   },
+   "counts": {
+    "TBWTT": 0,
+    "ETTMTTP": 0,
+    "LWTE": 27
+   }
+  },
+  "non-violence": {
+   "first": {
+    "TBWTT": null,
+    "ETTMTTP": "ETTMTTP-2:40",
+    "LWTE": "LWTE-1:127"
+   },
+   "counts": {
+    "TBWTT": 0,
+    "ETTMTTP": 3,
+    "LWTE": 9
+   }
+  },
+  "cataclysme": {
+   "first": {
+    "TBWTT": "TBWTT-2:58",
+    "ETTMTTP": "ETTMTTP-2:23",
+    "LWTE": "LWTE-1:48"
+   },
+   "counts": {
+    "TBWTT": 1,
+    "ETTMTTP": 3,
+    "LWTE": 12
+   }
+  },
+  "deux enfants (birth limit)": {
+   "first": {
+    "TBWTT": "TBWTT-1:22",
+    "ETTMTTP": null,
+    "LWTE": null
+   },
+   "counts": {
+    "TBWTT": 5,
+    "ETTMTTP": 0,
+    "LWTE": 0
+   }
+  },
+  "compétition": {
+   "first": {
+    "TBWTT": "TBWTT-3:113",
+    "ETTMTTP": "ETTMTTP-1:18",
+    "LWTE": null
+   },
+   "counts": {
+    "TBWTT": 3,
+    "ETTMTTP": 4,
+    "LWTE": 0
+   }
+  },
+  "fin du monde": {
+   "first": {
+    "TBWTT": "TBWTT-5:3",
+    "ETTMTTP": null,
+    "LWTE": "LWTE-1:10"
+   },
+   "counts": {
+    "TBWTT": 3,
+    "ETTMTTP": 0,
+    "LWTE": 5
+   }
+  },
+  "Sodome": {
+   "first": {
+    "TBWTT": "TBWTT-2:77",
+    "ETTMTTP": "ETTMTTP-3:235",
+    "LWTE": null
+   },
+   "counts": {
+    "TBWTT": 9,
+    "ETTMTTP": 1,
+    "LWTE": 0
+   }
+  },
+  "tombeau": {
+   "first": {
+    "TBWTT": "TBWTT-4:95",
+    "ETTMTTP": null,
+    "LWTE": null
+   },
+   "counts": {
+    "TBWTT": 2,
+    "ETTMTTP": 0,
+    "LWTE": 0
+   }
+  },
+  "Kabbale": {
+   "first": {
+    "TBWTT": "TBWTT-5:51",
+    "ETTMTTP": null,
+    "LWTE": "LWTE-4:86"
+   },
+   "counts": {
+    "TBWTT": 2,
+    "ETTMTTP": 0,
+    "LWTE": 2
+   }
+  },
+  "médium": {
+   "first": {
+    "TBWTT": null,
+    "ETTMTTP": "ETTMTTP-2:103",
+    "LWTE": null
+   },
+   "counts": {
+    "TBWTT": 0,
+    "ETTMTTP": 6,
+    "LWTE": 0
+   }
+  },
+  "espéranto": {
+   "first": {
+    "TBWTT": null,
+    "ETTMTTP": "ETTMTTP-3:161",
+    "LWTE": null
+   },
+   "counts": {
+    "TBWTT": 0,
+    "ETTMTTP": 2,
+    "LWTE": 0
+   }
+  },
+  "Lucifer/porteur de lumière": {
+   "first": {
+    "TBWTT": null,
+    "ETTMTTP": null,
+    "LWTE": "LWTE-2:21"
+   },
+   "counts": {
+    "TBWTT": 0,
+    "ETTMTTP": 0,
+    "LWTE": 2
+   }
+  },
+  "calomniateur/diabolos": {
+   "first": {
+    "TBWTT": null,
+    "ETTMTTP": null,
+    "LWTE": "LWTE-2:31"
+   },
+   "counts": {
+    "TBWTT": 0,
+    "ETTMTTP": 0,
+    "LWTE": 4
+   }
+  },
+  "péché/faute originelle": {
+   "first": {
+    "TBWTT": "TBWTT-5:12",
+    "ETTMTTP": "ETTMTTP-2:104",
+    "LWTE": null
+   },
+   "counts": {
+    "TBWTT": 1,
+    "ETTMTTP": 1,
+    "LWTE": 0
+   }
+  },
+  "châtiment": {
+   "first": {
+    "TBWTT": null,
+    "ETTMTTP": "ETTMTTP-2:82",
+    "LWTE": "LWTE-1:195"
+   },
+   "counts": {
+    "TBWTT": 0,
+    "ETTMTTP": 8,
+    "LWTE": 1
+   }
+  },
+  "objecteur": {
+   "first": {
+    "TBWTT": null,
+    "ETTMTTP": "ETTMTTP-3:91",
+    "LWTE": null
+   },
+   "counts": {
+    "TBWTT": 0,
+    "ETTMTTP": 2,
+    "LWTE": 0
+   }
+  },
+  "Vatican": {
+   "first": {
+    "TBWTT": "TBWTT-5:45",
+    "ETTMTTP": "ETTMTTP-3:251",
+    "LWTE": "LWTE-1:21"
+   },
+   "counts": {
+    "TBWTT": 3,
+    "ETTMTTP": 2,
+    "LWTE": 4
+   }
+  },
+  "évangéliser": {
+   "first": {
+    "TBWTT": null,
+    "ETTMTTP": null,
+    "LWTE": "LWTE-1:200"
+   },
+   "counts": {
+    "TBWTT": 0,
+    "ETTMTTP": 0,
+    "LWTE": 3
+   }
+  },
+  "culte": {
+   "first": {
+    "TBWTT": null,
+    "ETTMTTP": "ETTMTTP-2:28",
+    "LWTE": "LWTE-3:26"
+   },
+   "counts": {
+    "TBWTT": 0,
+    "ETTMTTP": 1,
+    "LWTE": 6
+   }
+  },
+  "foi": {
+   "first": {
+    "TBWTT": "TBWTT-3:214",
+    "ETTMTTP": "ETTMTTP-3:239",
+    "LWTE": "LWTE-1:70"
+   },
+   "counts": {
+    "TBWTT": 1,
+    "ETTMTTP": 1,
+    "LWTE": 7
+   }
+  },
+  "croyances primitives/déiste": {
+   "first": {
+    "TBWTT": null,
+    "ETTMTTP": "ETTMTTP-2:1",
+    "LWTE": "LWTE-2:104"
+   },
+   "counts": {
+    "TBWTT": 0,
+    "ETTMTTP": 4,
+    "LWTE": 2
+   }
+  },
+  "étymologi-": {
+   "first": {
+    "TBWTT": null,
+    "ETTMTTP": null,
+    "LWTE": "LWTE-1:68"
+   },
+   "counts": {
+    "TBWTT": 0,
+    "ETTMTTP": 0,
+    "LWTE": 8
+   }
+  },
+  "congrégation/monastère": {
+   "first": {
+    "TBWTT": null,
+    "ETTMTTP": "ETTMTTP-2:2",
+    "LWTE": null
+   },
+   "counts": {
+    "TBWTT": 0,
+    "ETTMTTP": 4,
+    "LWTE": 0
+   }
+  },
+  "stage/séminaire": {
+   "first": {
+    "TBWTT": null,
+    "ETTMTTP": null,
+    "LWTE": "LWTE-1:74"
+   },
+   "counts": {
+    "TBWTT": 0,
+    "ETTMTTP": 0,
+    "LWTE": 3
+   }
+  },
+  "os frontal/os de ton front": {
+   "first": {
+    "TBWTT": null,
+    "ETTMTTP": "ETTMTTP-3:69",
+    "LWTE": "LWTE-1:33"
+   },
+   "counts": {
+    "TBWTT": 0,
+    "ETTMTTP": 1,
+    "LWTE": 6
+   }
+  },
+  "vie éternelle (phrase)": {
+   "first": {
+    "TBWTT": "TBWTT-3:218",
+    "ETTMTTP": "ETTMTTP-3:131",
+    "LWTE": "LWTE-1:34"
+   },
+   "counts": {
+    "TBWTT": 1,
+    "ETTMTTP": 3,
+    "LWTE": 7
+   }
+  },
+  "réincarnation scientifique": {
+   "first": {
+    "TBWTT": null,
+    "ETTMTTP": "ETTMTTP-3:208",
+    "LWTE": null
+   },
+   "counts": {
+    "TBWTT": 0,
+    "ETTMTTP": 4,
+    "LWTE": 0
+   }
+  },
+  "résurrection": {
+   "first": {
+    "TBWTT": "TBWTT-3:134",
+    "ETTMTTP": "ETTMTTP-3:26",
+    "LWTE": null
+   },
+   "counts": {
+    "TBWTT": 3,
+    "ETTMTTP": 1,
+    "LWTE": 0
+   }
+  },
+  "jugement dernier/Jugement": {
+   "first": {
+    "TBWTT": "TBWTT-3:213",
+    "ETTMTTP": "ETTMTTP-2:121",
+    "LWTE": null
+   },
+   "counts": {
+    "TBWTT": 4,
+    "ETTMTTP": 1,
+    "LWTE": 0
+   }
+  }
+ }
+}

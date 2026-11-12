@@ -14,3 +14,4 @@ framework.
 - [Research agenda](research-agenda.md)
 - [Research question template](research-question-template.md)
 - [Should claim 0001 be split into four claims?](decompose-claim-0001.md)
+- [Canon close reading (November 2026)](canon-close-reading/README.md) — draft notes from a paragraph-level reading of the three books; proposals pending founder review

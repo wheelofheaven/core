@@ -1,0 +1,2931 @@
+{
+ "key": "ancient-parallels",
+ "question": "Which narrative details of the canon's primeval history are absent from Genesis but present in other ancient texts held in the project library, and which have no ancient parallel there?",
+ "status_codes": {
+  "P": "present",
+  "p": "partial",
+  "A": "absent",
+  "C": "contrary",
+  "D": "different content in the same slot",
+  "-": "episode not covered by the library holding"
+ },
+ "columns": {
+  "GEN": "genesis-woh",
+  "ATR": "atrahasis-woh",
+  "GIL": "gilgamesh-woh (Tablet XI only)",
+  "SUM": "flood-story-woh, enki-and-ninmah-woh, song-of-the-hoe-woh, sumerian-king-list-woh, adapa-woh",
+  "BER": "chaldean-account-of-genesis (Smith 1876: Berossus, Sibyl, Babel fragment)",
+  "ENO": "book-of-enoch-woh (ENO-WOH, chs 1-36, 72-82) and book-of-enoch (1ENO, Charles 1917)",
+  "JUB": "jubilees-woh (chs 1-12) and book-of-jubilees (JUB, Charles)",
+  "QUR": "quran (Arabic only; English glosses are the researcher's)",
+  "OTH": "theogony-woh, vendidad-woh (Avestan only), enuma-elish (King 1902, fragmentary)"
+ },
+ "class_labels": {
+  "shared-not-genesis": "Shared with an older text, absent from or reversed in Genesis",
+  "genesis-has-it": "Already in Genesis (the canon's addition, if any, has no ancient counterpart)",
+  "canon-contradicts-older": "The canon contradicts the older texts",
+  "unique-and-contradicted": "Canon only, and contradicted by every text that covers the point",
+  "unique": "Canon only (no counterpart found in the library)",
+  "weak": "Too weak to discriminate"
+ },
+ "class_counts": {
+  "unique": 6,
+  "shared-not-genesis": 21,
+  "genesis-has-it": 4,
+  "canon-contradicts-older": 2,
+  "weak": 2,
+  "unique-and-contradicted": 2
+ },
+ "items": [
+  {
+   "id": "D01",
+   "episode": "creation",
+   "detail": "Home-world public opinion and government forbid the life experiments; the scientists leave for a distant planet",
+   "canon": [
+    {
+     "ref": "TBWTT-2:2",
+     "fr": "l’opinion publique de notre planète et le gouvernement interdirent à ces savants de poursuivre leurs expériences"
+    }
+   ],
+   "canon_voice": "Yahweh",
+   "cells": {
+    "GEN": {
+     "status": "A",
+     "refs": [],
+     "evidence": ""
+    },
+    "ATR": {
+     "status": "C",
+     "refs": [
+      "ATRA-WOH-I:220"
+     ],
+     "evidence": "the making of man is approved by the whole assembly: '\"Yes!\" they answered in their assembly' (an-nu i-pu-lu i-na pu-uḫ-ri-šu-nu)"
+    },
+    "GIL": {
+     "status": "-",
+     "refs": [],
+     "evidence": ""
+    },
+    "SUM": {
+     "status": "C",
+     "refs": [
+      "ENM-WOH-1:23"
+     ],
+     "evidence": "the gods themselves ask for the substitute to be made"
+    },
+    "BER": {
+     "status": "A",
+     "refs": [],
+     "evidence": ""
+    },
+    "ENO": {
+     "status": "A",
+     "refs": [],
+     "evidence": ""
+    },
+    "JUB": {
+     "status": "A",
+     "refs": [],
+     "evidence": ""
+    },
+    "QUR": {
+     "status": "A",
+     "refs": [],
+     "evidence": ""
+    },
+    "OTH": {
+     "status": "A",
+     "refs": [],
+     "evidence": ""
+    }
+   },
+   "klass": "unique",
+   "note": ""
+  },
+  {
+   "id": "D02",
+   "episode": "creation",
+   "detail": "Earth is found, not made; it is water-covered; the 'light' is tested for harmful rays",
+   "canon": [
+    {
+     "ref": "TBWTT-2:5",
+     "fr": "Ils ont «créé», découvert en réalité, la terre"
+    },
+    {
+     "ref": "TBWTT-2:8",
+     "fr": "Il s’avéra que le soleil chauffait correctement la Terre sans lui envoyer de rayons nocifs"
+    }
+   ],
+   "canon_voice": "Yahweh",
+   "cells": {
+    "GEN": {
+     "status": "D",
+     "refs": [
+      "GEN-WOH-1:2"
+     ],
+     "evidence": "primeval waters are present ('the breath of the Elohim hovering over the face of the waters'); the Earth is not 'found'"
+    },
+    "ATR": {
+     "status": "-",
+     "refs": [],
+     "evidence": ""
+    },
+    "GIL": {
+     "status": "-",
+     "refs": [],
+     "evidence": ""
+    },
+    "SUM": {
+     "status": "A",
+     "refs": [],
+     "evidence": ""
+    },
+    "BER": {
+     "status": "p",
+     "refs": [
+      "CAG-3:13",
+      "CAG-3:15"
+     ],
+     "evidence": "pre-existing 'darkness and an abyss of waters'; first creatures 'not being able to bear the prevalence of light, died'"
+    },
+    "ENO": {
+     "status": "A",
+     "refs": [],
+     "evidence": ""
+    },
+    "JUB": {
+     "status": "A",
+     "refs": [],
+     "evidence": ""
+    },
+    "QUR": {
+     "status": "A",
+     "refs": [],
+     "evidence": ""
+    },
+    "OTH": {
+     "status": "p",
+     "refs": [
+      "EE-1:5"
+     ],
+     "evidence": "pre-existing mingled waters (King's text, fragmentary)"
+    }
+   },
+   "klass": "unique",
+   "note": "Only the pre-existing water is shared, and Genesis has that too."
+  },
+  {
+   "id": "D03",
+   "episode": "creation",
+   "detail": "One continent is raised from a shallow sea-bed by explosions; the continents later split (at the Flood, LWTE ch. 4)",
+   "canon": [
+    {
+     "ref": "TBWTT-2:14",
+     "fr": "fait en sorte que de la matière soit enlevée du fond des mers et qu’elle s’amasse au même endroit, ce qui forma un continent"
+    },
+    {
+     "ref": "LWTE-4:40",
+     "fr": "les plaques continentales se séparèrent brutalement"
+    }
+   ],
+   "canon_voice": "Yahweh (TBWTT); Marcel Terrusse, guide (LWTE-4:40, see LWTE-4:95)",
+   "cells": {
+    "GEN": {
+     "status": "p",
+     "refs": [
+      "GEN-WOH-1:9"
+     ],
+     "evidence": "waters gathered 'to one place', dry ground appears; no explosions, no later break-up"
+    },
+    "ATR": {
+     "status": "A",
+     "refs": [],
+     "evidence": ""
+    },
+    "GIL": {
+     "status": "A",
+     "refs": [],
+     "evidence": ""
+    },
+    "SUM": {
+     "status": "A",
+     "refs": [],
+     "evidence": ""
+    },
+    "BER": {
+     "status": "A",
+     "refs": [],
+     "evidence": ""
+    },
+    "ENO": {
+     "status": "A",
+     "refs": [],
+     "evidence": ""
+    },
+    "JUB": {
+     "status": "A",
+     "refs": [],
+     "evidence": ""
+    },
+    "QUR": {
+     "status": "A",
+     "refs": [],
+     "evidence": ""
+    },
+    "OTH": {
+     "status": "A",
+     "refs": [],
+     "evidence": ""
+    }
+   },
+   "klass": "unique",
+   "note": ""
+  },
+  {
+   "id": "D04",
+   "episode": "creation",
+   "detail": "Several teams of makers work in parallel, meet, compare and hold contests",
+   "canon": [
+    {
+     "ref": "TBWTT-2:16",
+     "fr": "Ils se sont répandus sur cet immense continent en divers groupes de recherche scientifique"
+    },
+    {
+     "ref": "TBWTT-2:21",
+     "fr": "organisaient des concours pour désigner l’équipe de savants ayant créé l’animal le plus beau ou le plus intéressant"
+    },
+    {
+     "ref": "TBWTT-2:25",
+     "fr": "Chaque équipe se mit au travail, nous pûmes comparer bientôt nos créations"
+    }
+   ],
+   "canon_voice": "Yahweh",
+   "cells": {
+    "GEN": {
+     "status": "A",
+     "refs": [
+      "GEN-WOH-1:26"
+     ],
+     "evidence": "one grammatical subject; only the plural 'Let us make'"
+    },
+    "ATR": {
+     "status": "p",
+     "refs": [
+      "ATRA-WOH-I:255",
+      "ATRA-WOH-I:260",
+      "ATRA-WOH-I:267"
+     ],
+     "evidence": "'The womb-goddesses were assembled'; 'she nipped off fourteen pieces of clay' (14 ki-iṣ-ri ik-ta-ri-iṣ); 'seven and seven they fashioned: seven male'"
+    },
+    "GIL": {
+     "status": "-",
+     "refs": [],
+     "evidence": ""
+    },
+    "SUM": {
+     "status": "P",
+     "refs": [
+      "ENM-WOH-1:54",
+      "ENM-WOH-1:57",
+      "ENM-WOH-1:82"
+     ],
+     "evidence": "an explicit making-contest between two makers: 'As for the form of mankind — whether it turns out fair or ill is in (my) hands' / 'I will counter-balance it' / 'let me, in turn, fashion (one) for you'"
+    },
+    "BER": {
+     "status": "A",
+     "refs": [],
+     "evidence": ""
+    },
+    "ENO": {
+     "status": "A",
+     "refs": [],
+     "evidence": ""
+    },
+    "JUB": {
+     "status": "A",
+     "refs": [],
+     "evidence": ""
+    },
+    "QUR": {
+     "status": "A",
+     "refs": [],
+     "evidence": ""
+    },
+    "OTH": {
+     "status": "A",
+     "refs": [],
+     "evidence": ""
+    }
+   },
+   "klass": "shared-not-genesis",
+   "note": "Contest between makers is in Enki and Ninmah; plural birth-goddesses and a plural first batch are in Atrahasis. No text has geographically separate teams."
+  },
+  {
+   "id": "D05",
+   "episode": "creation",
+   "detail": "Some teams make monsters; earlier human 'prototypes' are superseded",
+   "canon": [
+    {
+     "ref": "TBWTT-2:22",
+     "fr": "d’autres équipes de savants créèrent des animaux épouvantables, des monstres"
+    },
+    {
+     "ref": "TBWTT-5:64",
+     "fr": "les crânes des premiers prototypes d’homme qui furent supplantés par d’autres plus évolués"
+    }
+   ],
+   "canon_voice": "Yahweh",
+   "cells": {
+    "GEN": {
+     "status": "p",
+     "refs": [
+      "GEN-WOH-1:21"
+     ],
+     "evidence": "'the great dragons' (ha-tanninim ha-gedolim) are among the creatures; no failed or superseded makes"
+    },
+    "ATR": {
+     "status": "A",
+     "refs": [],
+     "evidence": ""
+    },
+    "GIL": {
+     "status": "-",
+     "refs": [],
+     "evidence": ""
+    },
+    "SUM": {
+     "status": "p",
+     "refs": [
+      "ENM-WOH-1:59",
+      "ENM-WOH-1:88",
+      "ENM-WOH-1:101"
+     ],
+     "evidence": "defective humans made in the contest; Umul: 'not a living man, is not a [dead] man — he cannot sustain himself'"
+    },
+    "BER": {
+     "status": "P",
+     "refs": [
+      "CAG-3:13",
+      "CAG-3:15"
+     ],
+     "evidence": "'most hideous beings ... creatures in which were combined the limbs of every species of animals'; they die and 'other men and animals' are formed"
+    },
+    "ENO": {
+     "status": "A",
+     "refs": [],
+     "evidence": ""
+    },
+    "JUB": {
+     "status": "A",
+     "refs": [],
+     "evidence": ""
+    },
+    "QUR": {
+     "status": "A",
+     "refs": [],
+     "evidence": ""
+    },
+    "OTH": {
+     "status": "A",
+     "refs": [],
+     "evidence": ""
+    }
+   },
+   "klass": "shared-not-genesis",
+   "note": ""
+  },
+  {
+   "id": "D06",
+   "episode": "creation",
+   "detail": "Earlier creation attempts fail (destroyed on order; burned by a star's harmful rays; choked by vegetation); two other planets seeded",
+   "canon": [
+    {
+     "ref": "LWTE-2:11",
+     "fr": "deux nouveaux échecs dus l'un à la trop grande proximité d'un astre dont les rayons nocifs brûlèrent leur création"
+    },
+    {
+     "ref": "LWTE-2:17",
+     "fr": "les Elohim ont créé également la vie sur deux autres planètes à cette époque"
+    }
+   ],
+   "canon_voice": "Raël (LWTE ch. 2 exposition)",
+   "cells": {
+    "GEN": {
+     "status": "A",
+     "refs": [],
+     "evidence": ""
+    },
+    "ATR": {
+     "status": "A",
+     "refs": [],
+     "evidence": ""
+    },
+    "GIL": {
+     "status": "-",
+     "refs": [],
+     "evidence": ""
+    },
+    "SUM": {
+     "status": "A",
+     "refs": [],
+     "evidence": ""
+    },
+    "BER": {
+     "status": "p",
+     "refs": [
+      "CAG-3:15"
+     ],
+     "evidence": "a first creation that dies of the light, then a second 'capable of bearing the air'"
+    },
+    "ENO": {
+     "status": "A",
+     "refs": [],
+     "evidence": ""
+    },
+    "JUB": {
+     "status": "A",
+     "refs": [],
+     "evidence": ""
+    },
+    "QUR": {
+     "status": "A",
+     "refs": [],
+     "evidence": ""
+    },
+    "OTH": {
+     "status": "A",
+     "refs": [],
+     "evidence": ""
+    }
+   },
+   "klass": "unique",
+   "note": "Other planets: no parallel. The failed-first-creation shape has the Berossus partial only. The canon grounds the detail in Matthew 13, not in any primeval text."
+  },
+  {
+   "id": "D07",
+   "episode": "creation",
+   "detail": "Man is made artificially, in laboratories, in the makers' image",
+   "canon": [
+    {
+     "ref": "TBWTT-2:25",
+     "fr": "voulurent créer un homme comme nous artificiellement"
+    },
+    {
+     "ref": "LWTE-2:6",
+     "fr": "entièrement synthétiques dans les laboratoires de leur planète d'origine"
+    }
+   ],
+   "canon_voice": "Yahweh; Raël",
+   "cells": {
+    "GEN": {
+     "status": "P",
+     "refs": [
+      "GEN-WOH-1:26",
+      "GEN-WOH-2:7"
+     ],
+     "evidence": "image and likeness; formed 'dust from the ground' — the image motif is Genesis' own"
+    },
+    "ATR": {
+     "status": "p",
+     "refs": [
+      "ATRA-WOH-I:212",
+      "ATRA-WOH-I:213",
+      "ATRA-WOH-I:214",
+      "ATRA-WOH-I:215"
+     ],
+     "evidence": "substance not image: 'With the flesh of the god and (his) blood' ... 'so that god and man' / 'may be mixed together in the clay' (i-na ši-ir i-li ù da-mi ... i-lu-um-ma ù a-wi-lum)"
+    },
+    "GIL": {
+     "status": "-",
+     "refs": [],
+     "evidence": ""
+    },
+    "SUM": {
+     "status": "p",
+     "refs": [
+      "ENM-WOH-1:28",
+      "ENM-WOH-1:133",
+      "SOTH-WOH-1:19"
+     ],
+     "evidence": "'having drawn out from his own mind the form of his own being'; 'the human whose form is mine'; 'he placed the first of humankind in the brick-mould'"
+    },
+    "BER": {
+     "status": "p",
+     "refs": [
+      "CAG-3:15"
+     ],
+     "evidence": "divine blood mixed with earth: 'On this account it is that they are rational, and partake of divine knowledge'"
+    },
+    "ENO": {
+     "status": "A",
+     "refs": [],
+     "evidence": ""
+    },
+    "JUB": {
+     "status": "A",
+     "refs": [],
+     "evidence": ""
+    },
+    "QUR": {
+     "status": "p",
+     "refs": [
+      "QUR-15:28"
+     ],
+     "evidence": "a mortal from clay (my gloss of the Arabic)"
+    },
+    "OTH": {
+     "status": "A",
+     "refs": [],
+     "evidence": ""
+    }
+   },
+   "klass": "genesis-has-it",
+   "note": "Laboratory, test-tube, chemicals: no ancient counterpart; every ancient text has clay/dust."
+  },
+  {
+   "id": "D08",
+   "episode": "creation",
+   "detail": "Why man is made: the ablest makers want to make a being like themselves (no labor motive)",
+   "canon": [
+    {
+     "ref": "TBWTT-2:25",
+     "fr": "C’est alors que les plus habiles d’entre nous voulurent créer un homme comme nous artificiellement"
+    }
+   ],
+   "canon_voice": "Yahweh",
+   "cells": {
+    "GEN": {
+     "status": "D",
+     "refs": [
+      "GEN-WOH-1:26",
+      "GEN-WOH-2:15"
+     ],
+     "evidence": "to rule the animals; 'to work it and to guard it'"
+    },
+    "ATR": {
+     "status": "C",
+     "refs": [
+      "ATRA-WOH-I:195",
+      "ATRA-WOH-I:240"
+     ],
+     "evidence": "'let man bear the labor of the gods' (a-wi-lum li-iš-ši du-ul-li i-li)"
+    },
+    "GIL": {
+     "status": "-",
+     "refs": [],
+     "evidence": ""
+    },
+    "SUM": {
+     "status": "C",
+     "refs": [
+      "ENM-WOH-1:23",
+      "SOTH-WOH-1:31"
+     ],
+     "evidence": "'fashion a substitute for the gods (?), so that they may be released from their toil'; 'took them up to provide rations for the gods'"
+    },
+    "BER": {
+     "status": "A",
+     "refs": [],
+     "evidence": ""
+    },
+    "ENO": {
+     "status": "A",
+     "refs": [],
+     "evidence": ""
+    },
+    "JUB": {
+     "status": "A",
+     "refs": [],
+     "evidence": ""
+    },
+    "QUR": {
+     "status": "A",
+     "refs": [],
+     "evidence": ""
+    },
+    "OTH": {
+     "status": "A",
+     "refs": [],
+     "evidence": ""
+    }
+   },
+   "klass": "canon-contradicts-older",
+   "note": "The canon's creation motive is the opposite of the Mesopotamian labor anthropogony (core 0034)."
+  },
+  {
+   "id": "D09",
+   "episode": "exile/flood",
+   "detail": "Humans supply food to the makers: offerings prompted by the exiles; after the Flood Noah pledges a share of crops and herds 'for their subsistence'",
+   "canon": [
+    {
+     "ref": "TBWTT-2:48",
+     "fr": "poussèrent les hommes à leur amener de la nourriture"
+    },
+    {
+     "ref": "TBWTT-2:64",
+     "fr": "Noé s’engagea à verser une part de toutes les récoltes ou élevages aux créateurs pour leur subsistance"
+    }
+   ],
+   "canon_voice": "Yahweh",
+   "cells": {
+    "GEN": {
+     "status": "p",
+     "refs": [
+      "GEN-WOH-4:3",
+      "GEN-WOH-8:20",
+      "GEN-WOH-8:21"
+     ],
+     "evidence": "offerings exist; YHWH 'smelled the soothing aroma'; nothing about subsistence"
+    },
+    "ATR": {
+     "status": "P",
+     "refs": [
+      "ATRA-WOH-III:iv.18",
+      "ATRA-WOH-III:iv.19",
+      "ATRA-WOH-III:v.42"
+     ],
+     "evidence": "without mankind 'The Anunna, the great gods, sat in thirst and hunger' (uš-bu i-na ṣú-mi ù bu-bu-ti); 'like flies they gathered over the offering'"
+    },
+    "GIL": {
+     "status": "P",
+     "refs": [
+      "GILG-WOH-11:159"
+     ],
+     "evidence": "'The gods gathered like flies around the (lord-of-the-)sacrifice' (ilānu kīma zumbī eli bēl niqê ip-taḫ-ru)"
+    },
+    "SUM": {
+     "status": "P",
+     "refs": [
+      "SOTH-WOH-1:31",
+      "ENM-WOH-1:8",
+      "FLS-WOH-D:11"
+     ],
+     "evidence": "people 'to provide rations for the gods' (diĝir-re-e-ne-ra šukur2-še3 mu-un-dab5-be2)"
+    },
+    "BER": {
+     "status": "p",
+     "refs": [
+      "CAG-3:18"
+     ],
+     "evidence": "altar and sacrifices"
+    },
+    "ENO": {
+     "status": "A",
+     "refs": [],
+     "evidence": ""
+    },
+    "JUB": {
+     "status": "A",
+     "refs": [],
+     "evidence": ""
+    },
+    "QUR": {
+     "status": "A",
+     "refs": [],
+     "evidence": ""
+    },
+    "OTH": {
+     "status": "p",
+     "refs": [
+      "THEO-535"
+     ],
+     "evidence": "the Mekone division of the ox between gods and men"
+    }
+   },
+   "klass": "shared-not-genesis",
+   "note": "The makers' material dependence on human produce is a Mesopotamian idea that Genesis has reduced to an aroma. In the canon it is a post-exile and post-Flood arrangement, not the purpose of creation (D08)."
+  },
+  {
+   "id": "D10",
+   "episode": "creation",
+   "detail": "The home world objects to the making of man and fears he will surpass his makers; man must be kept ignorant",
+   "canon": [
+    {
+     "ref": "TBWTT-2:25",
+     "fr": "Ils craignaient que ces hommes soient un danger pour eux si leurs capacités ou leurs pouvoirs s’avéraient supérieurs à ceux de leurs créateurs"
+    },
+    {
+     "ref": "LWTE-2:18",
+     "fr": "à la condition qu'ils ne créent pas d'êtres à leur image"
+    }
+   ],
+   "canon_voice": "Yahweh; Raël",
+   "cells": {
+    "GEN": {
+     "status": "p",
+     "refs": [
+      "GEN-WOH-3:22",
+      "GEN-WOH-11:6"
+     ],
+     "evidence": "divine alarm at human parity is in Genesis ('has become like one of us'; 'nothing will be withheld from them') but nobody objects to the creation itself"
+    },
+    "ATR": {
+     "status": "C",
+     "refs": [
+      "ATRA-WOH-I:220"
+     ],
+     "evidence": "unanimous approval"
+    },
+    "GIL": {
+     "status": "-",
+     "refs": [],
+     "evidence": ""
+    },
+    "SUM": {
+     "status": "p",
+     "refs": [
+      "ADP-WOH-B:50"
+     ],
+     "evidence": "Anu: 'Why did Ea reveal (the things) of heaven and earth to a son of humankind?'"
+    },
+    "BER": {
+     "status": "A",
+     "refs": [],
+     "evidence": ""
+    },
+    "ENO": {
+     "status": "A",
+     "refs": [],
+     "evidence": ""
+    },
+    "JUB": {
+     "status": "p",
+     "refs": [
+      "JUB-WOH-10:8"
+     ],
+     "evidence": "Mastema: 'great is the wickedness of the sons of men'"
+    },
+    "QUR": {
+     "status": "P",
+     "refs": [
+      "QUR-2:30",
+      "QUR-7:12",
+      "QUR-17:62"
+     ],
+     "evidence": "the angels object before the creation: a-tajʿalu fīhā man yufsidu fīhā wa-yasfiku d-dimāʾ (“will you place in it one who will work corruption in it and shed blood?” — my gloss); Iblīs refuses to bow"
+    },
+    "OTH": {
+     "status": "p",
+     "refs": [
+      "THEO-563"
+     ],
+     "evidence": "Zeus 'would not give the might of unwearying fire' to mortal men"
+    }
+   },
+   "klass": "shared-not-genesis",
+   "note": "An objection from within the heavenly assembly, made before or at the creation of man, on the ground that man will be violent: Quran 2:30. Not in Genesis, not in Mesopotamia."
+  },
+  {
+   "id": "D11",
+   "episode": "creation/exile",
+   "detail": "Satan is one of the Elohim, head of the party that expects only evil from man; he is later licensed to test humans",
+   "canon": [
+    {
+     "ref": "TBWTT-3:251",
+     "fr": "l’un d’entre eux nommé Satan, fait partie de ceux qui ont toujours condamné la création d’autres êtres intelligents"
+    },
+    {
+     "ref": "LWTE-2:19",
+     "fr": "Satan pensait qu'il ne fallait rien attendre de bon de ces créatures fabriquées en laboratoire"
+    },
+    {
+     "ref": "LWTE-2:30",
+     "fr": "l'on confie à Satan le soin de tester les prophètes"
+    }
+   ],
+   "canon_voice": "Yahweh; Raël",
+   "cells": {
+    "GEN": {
+     "status": "A",
+     "refs": [],
+     "evidence": "no Satan in Genesis; the canon takes him from Job 1 (TBWTT-3:250)"
+    },
+    "ATR": {
+     "status": "p",
+     "refs": [
+      "ATRA-WOH-II:i.6"
+     ],
+     "evidence": "Enlil is the god hostile to mankind, but he is the ruler, not an opposition"
+    },
+    "GIL": {
+     "status": "p",
+     "refs": [
+      "GILG-WOH-11:166"
+     ],
+     "evidence": "Enlil"
+    },
+    "SUM": {
+     "status": "A",
+     "refs": [],
+     "evidence": ""
+    },
+    "BER": {
+     "status": "A",
+     "refs": [],
+     "evidence": ""
+    },
+    "ENO": {
+     "status": "p",
+     "refs": [
+      "1ENO-65:6"
+     ],
+     "evidence": "'the violence of the Satans' (plural class)"
+    },
+    "JUB": {
+     "status": "P",
+     "refs": [
+      "JUB-WOH-10:8",
+      "JUB-17:10",
+      "JUB-18:7"
+     ],
+     "evidence": "Mastema, 'chief of the spirits', negotiates before God for licence over mankind; proposes the test of Abraham ('bid him offer him as a burnt-offering ... and Thou wilt know if he is faithful'); 'was put to shame'"
+    },
+    "QUR": {
+     "status": "P",
+     "refs": [
+      "QUR-15:36",
+      "QUR-15:37",
+      "QUR-15:39",
+      "QUR-38:82"
+     ],
+     "evidence": "Iblīs asks for and is granted respite and announces he will mislead them all (my gloss)"
+    },
+    "OTH": {
+     "status": "A",
+     "refs": [],
+     "evidence": ""
+    }
+   },
+   "klass": "shared-not-genesis",
+   "note": "The licensed adversary who doubts man and tests him is Second Temple and Qur'anic. Jubilees puts the Satan-figure behind the Abraham test; the canon's own Abraham paragraph (TBWTT-2:89) names only 'les créateurs'."
+  },
+  {
+   "id": "D12",
+   "episode": "eden",
+   "detail": "The makers teach the first man the names and properties of plants and animals",
+   "canon": [
+    {
+     "ref": "TBWTT-2:32",
+     "fr": "Les créateurs lui apprirent le nom et les pouvoirs de tout ce qui vivait autour de lui"
+    }
+   ],
+   "canon_voice": "Yahweh",
+   "cells": {
+    "GEN": {
+     "status": "C",
+     "refs": [
+      "GEN-WOH-2:19"
+     ],
+     "evidence": "the man does the naming: 'brought them to the human to see what he would call them'"
+    },
+    "ATR": {
+     "status": "A",
+     "refs": [],
+     "evidence": ""
+    },
+    "GIL": {
+     "status": "-",
+     "refs": [],
+     "evidence": ""
+    },
+    "SUM": {
+     "status": "A",
+     "refs": [],
+     "evidence": ""
+    },
+    "BER": {
+     "status": "p",
+     "refs": [
+      "CAG-3:12"
+     ],
+     "evidence": "Oannes 'gave them an insight into letters and sciences ... made them distinguish the seeds of the earth'"
+    },
+    "ENO": {
+     "status": "A",
+     "refs": [],
+     "evidence": ""
+    },
+    "JUB": {
+     "status": "p",
+     "refs": [
+      "JUB-WOH-3:15"
+     ],
+     "evidence": "'we gave him work, and we taught him to do everything that was fitting to be done'"
+    },
+    "QUR": {
+     "status": "P",
+     "refs": [
+      "QUR-2:31"
+     ],
+     "evidence": "wa-ʿallama Ādama l-asmāʾa kullahā (“and He taught Adam the names, all of them” — my gloss)"
+    },
+    "OTH": {
+     "status": "A",
+     "refs": [],
+     "evidence": ""
+    }
+   },
+   "klass": "shared-not-genesis",
+   "note": "The canon quotes Genesis 2:19 and then states the reverse of it; the reversal matches Quran 2:31 and, more loosely, Jubilees 3:15."
+  },
+  {
+   "id": "D13",
+   "episode": "eden",
+   "detail": "The prohibition concerns scientific knowledge (books)",
+   "canon": [
+    {
+     "ref": "TBWTT-2:30",
+     "fr": "ne touche pas aux livres scientifiques sinon tu mourrais"
+    }
+   ],
+   "canon_voice": "Yahweh",
+   "cells": {
+    "GEN": {
+     "status": "P",
+     "refs": [
+      "GEN-WOH-2:17"
+     ],
+     "evidence": "tree of knowing good and bad"
+    },
+    "ATR": {
+     "status": "A",
+     "refs": [],
+     "evidence": ""
+    },
+    "GIL": {
+     "status": "-",
+     "refs": [],
+     "evidence": ""
+    },
+    "SUM": {
+     "status": "p",
+     "refs": [
+      "ADP-WOH-A:10"
+     ],
+     "evidence": "'Wisdom he gave him; eternal life he did not give him' (ne-me-qa id-din-šu napišta dāriti ul id-din-šu)"
+    },
+    "BER": {
+     "status": "A",
+     "refs": [],
+     "evidence": ""
+    },
+    "ENO": {
+     "status": "p",
+     "refs": [
+      "1ENO-32:4"
+     ],
+     "evidence": "'the tree of wisdom' (v. 6, inside library refId 1ENO-32:4)"
+    },
+    "JUB": {
+     "status": "A",
+     "refs": [],
+     "evidence": ""
+    },
+    "QUR": {
+     "status": "A",
+     "refs": [],
+     "evidence": ""
+    },
+    "OTH": {
+     "status": "A",
+     "refs": [],
+     "evidence": ""
+    }
+   },
+   "klass": "genesis-has-it",
+   "note": "Books: no ancient counterpart in the library (core 0072 records the Sendy parallel)."
+  },
+  {
+   "id": "D14",
+   "episode": "eden",
+   "detail": "The 'serpent' is a small group of the makers themselves who, out of love for the humans, tell them the truth",
+   "canon": [
+    {
+     "ref": "TBWTT-2:35",
+     "fr": "quelques-uns qui aimaient profondément leurs petits hommes"
+    },
+    {
+     "ref": "TBWTT-2:39",
+     "fr": "Le «serpent», ce petit groupe de créateurs qui avait voulu apprendre la vérité à Adam et Ève"
+    },
+    {
+     "ref": "LWTE-2:22",
+     "fr": "révéler à ces êtres qu'ils ne sont pas des «dieux» mais des hommes comme eux"
+    }
+   ],
+   "canon_voice": "Yahweh; Raël",
+   "cells": {
+    "GEN": {
+     "status": "D",
+     "refs": [
+      "GEN-WOH-3:1",
+      "GEN-WOH-3:5",
+      "GEN-WOH-3:22"
+     ],
+     "evidence": "the serpent is 'shrewder than any wild animal of the field'; its statement is confirmed by 3:22"
+    },
+    "ATR": {
+     "status": "p",
+     "refs": [
+      "ATRA-WOH-II:vii.1",
+      "ATRA-WOH-II:vii.2",
+      "ATRA-WOH-III:vi.17"
+     ],
+     "evidence": "a member of the assembly sides with mankind against it: 'he kept thwarting the work of Enlil'; 'I did it, indeed, against your will!'"
+    },
+    "GIL": {
+     "status": "p",
+     "refs": [
+      "GILG-WOH-11:189"
+     ],
+     "evidence": "'the secret of the gods he heard'"
+    },
+    "SUM": {
+     "status": "p",
+     "refs": [
+      "ADP-WOH-B:50"
+     ],
+     "evidence": "a god reveals 'heaven and earth' to a human and the high god objects"
+    },
+    "BER": {
+     "status": "A",
+     "refs": [],
+     "evidence": ""
+    },
+    "ENO": {
+     "status": "p",
+     "refs": [
+      "1ENO-69:4",
+      "ENO-WOH-9:6",
+      "1ENO-64:1"
+     ],
+     "evidence": "the tempter of Eve is one of the angels: Gâdreêl — 'he led astray Eve' (v. 6, inside library refId 1ENO-69:4); Asael 'revealed the mysteries of the age that are in heaven' — valued as sin"
+    },
+    "JUB": {
+     "status": "D",
+     "refs": [
+      "JUB-WOH-3:17"
+     ],
+     "evidence": "serpent, as Genesis"
+    },
+    "QUR": {
+     "status": "p",
+     "refs": [
+      "QUR-7:20",
+      "QUR-18:50"
+     ],
+     "evidence": "the tempter is Iblīs/the Shayṭān, a member of the heavenly assembly, not an animal — valued as enemy"
+    },
+    "OTH": {
+     "status": "p",
+     "refs": [
+      "THEO-565",
+      "THEO-566",
+      "THEO-614"
+     ],
+     "evidence": "'kindly Prometheus' steals fire for men, deceiving Zeus (κλέψας ἀκαμάτοιο πυρὸς τηλέσκοπον αὐγήν)"
+    }
+   },
+   "klass": "shared-not-genesis",
+   "note": "Two separable features. (a) The tempter belongs to the heavenly company: 1 Enoch 69, Quran — negative valence. (b) A member of the divine company benefits mankind against the ruling decision: Ea, Prometheus — positive valence. The canon has (a)'s identity with (b)'s valence. No library text has both."
+  },
+  {
+   "id": "D15",
+   "episode": "eden/exile",
+   "detail": "The disclosing group is sentenced by the home government to live on Earth; the other makers must leave",
+   "canon": [
+    {
+     "ref": "TBWTT-2:39",
+     "fr": "était condamné par le gouvernement de la planète originelle à vivre sur Terre en exil tandis que les autres créateurs devaient stopper leurs expériences et quitter la Terre"
+    },
+    {
+     "ref": "LWTE-2:24",
+     "fr": "Yahvé condamne les scientifiques qui ont désobéi à ses ordres à vivre en exil sur la Terre"
+    }
+   ],
+   "canon_voice": "Yahweh; Raël",
+   "cells": {
+    "GEN": {
+     "status": "D",
+     "refs": [
+      "GEN-WOH-3:14"
+     ],
+     "evidence": "'on your belly you shall go' — an animal's curse"
+    },
+    "ATR": {
+     "status": "A",
+     "refs": [],
+     "evidence": ""
+    },
+    "GIL": {
+     "status": "A",
+     "refs": [],
+     "evidence": ""
+    },
+    "SUM": {
+     "status": "A",
+     "refs": [],
+     "evidence": ""
+    },
+    "BER": {
+     "status": "A",
+     "refs": [],
+     "evidence": ""
+    },
+    "ENO": {
+     "status": "p",
+     "refs": [
+      "ENO-WOH-10:12",
+      "ENO-WOH-12:4",
+      "ENO-WOH-15:8"
+     ],
+     "evidence": "Watchers 'who have abandoned the high heaven' are bound 'in the valleys of the earth' (εἰς τὰς νάπας τῆς γῆς); the offence is the unions, not a disclosure in Eden"
+    },
+    "JUB": {
+     "status": "p",
+     "refs": [
+      "JUB-WOH-5:6"
+     ],
+     "evidence": "'he removed them from all their stations; and he commanded us to bind them in the depths of the earth'"
+    },
+    "QUR": {
+     "status": "p",
+     "refs": [
+      "QUR-7:24",
+      "QUR-2:36"
+     ],
+     "evidence": "ihbiṭū ... wa-lakum fī l-arḍi mustaqarrun (“go down ... on the earth you shall have a dwelling for a time” — my gloss), plural address after the tempter's act"
+    },
+    "OTH": {
+     "status": "p",
+     "refs": [
+      "THEO-521",
+      "THEO-717",
+      "THEO-732"
+     ],
+     "evidence": "Prometheus bound; Titans 'beneath the wide-wayed earth ... no way out'"
+    }
+   },
+   "klass": "shared-not-genesis",
+   "note": "Confinement to the Earth of a heavenly group is Enochic; in Enoch it is imprisonment under the earth with no return, in the canon residence on it with later pardon (D39)."
+  },
+  {
+   "id": "D16",
+   "episode": "eden",
+   "detail": "Longevity is a technique ('tree of life'); the exiles obtain it for the chiefs of the first humans, hence the patriarchs' ages; it is not hereditary",
+   "canon": [
+    {
+     "ref": "TBWTT-2:49",
+     "fr": "Ils obtinrent ainsi qu’on fasse bénéficier les chefs de ces premiers hommes de «l’arbre de vie»"
+    },
+    {
+     "ref": "TBWTT-2:53",
+     "fr": "La longévité n’est pas héréditaire"
+    }
+   ],
+   "canon_voice": "Yahweh",
+   "cells": {
+    "GEN": {
+     "status": "C",
+     "refs": [
+      "GEN-WOH-3:22",
+      "GEN-WOH-3:24",
+      "GEN-WOH-5:5",
+      "GEN-WOH-6:3"
+     ],
+     "evidence": "the tree of life is barred to man; the long lives are stated without cause; the 120-year limit is present"
+    },
+    "ATR": {
+     "status": "A",
+     "refs": [],
+     "evidence": ""
+    },
+    "GIL": {
+     "status": "p",
+     "refs": [
+      "GILG-WOH-11:196",
+      "GILG-WOH-11:285"
+     ],
+     "evidence": "godlike life is conferred on one man by decision of the gods; a plant is named 'The Old Man is Made Young!'"
+    },
+    "SUM": {
+     "status": "p",
+     "refs": [
+      "SKL-4",
+      "SKL-38",
+      "FLS-WOH-E:7",
+      "ADP-WOH-B:51"
+     ],
+     "evidence": "the huge spans belong to rulers: 'he ruled for 28800 years' (mu 28800 i3-ak); 'Life like (that of) a god they gave him'; Anu orders 'the food of life' for Adapa"
+    },
+    "BER": {
+     "status": "p",
+     "refs": [
+      "CAG-3:19"
+     ],
+     "evidence": "Xisuthrus 'translated to live with the gods'"
+    },
+    "ENO": {
+     "status": "p",
+     "refs": [
+      "ENO-WOH-10:9",
+      "ENO-WOH-10:10"
+     ],
+     "evidence": "the sons of the Watchers hope for long life: 'length of days shall not be theirs'"
+    },
+    "JUB": {
+     "status": "D",
+     "refs": [
+      "JUB-WOH-4:30"
+     ],
+     "evidence": "Adam dies within the thousand-year 'day'"
+    },
+    "QUR": {
+     "status": "D",
+     "refs": [
+      "QUR-20:120"
+     ],
+     "evidence": "the tempter offers “the tree of immortality” (shajarat al-khuld — my gloss)"
+    },
+    "OTH": {
+     "status": "A",
+     "refs": [],
+     "evidence": ""
+    }
+   },
+   "klass": "shared-not-genesis",
+   "note": "Longevity as something the gods can confer on selected men, and antediluvian longevity attached to rulers, are Mesopotamian. Genesis says the opposite about the tree."
+  },
+  {
+   "id": "D17",
+   "episode": "unions",
+   "detail": "The 'sons of Elohim' who take human daughters are the exiled makers; the children are exceptional",
+   "canon": [
+    {
+     "ref": "TBWTT-2:51",
+     "fr": "Les créateurs en exil prirent aux hommes leurs filles les plus belles et en firent leurs femmes"
+    },
+    {
+     "ref": "TBWTT-2:55",
+     "fr": "en avoir des enfants exceptionnels"
+    }
+   ],
+   "canon_voice": "Yahweh",
+   "cells": {
+    "GEN": {
+     "status": "P",
+     "refs": [
+      "GEN-WOH-6:2",
+      "GEN-WOH-6:4"
+     ],
+     "evidence": "unions and 'the mighty ones who were from of old, men of name'; who the sons of the Elohim are is not said"
+    },
+    "ATR": {
+     "status": "A",
+     "refs": [],
+     "evidence": ""
+    },
+    "GIL": {
+     "status": "-",
+     "refs": [],
+     "evidence": ""
+    },
+    "SUM": {
+     "status": "A",
+     "refs": [],
+     "evidence": ""
+    },
+    "BER": {
+     "status": "A",
+     "refs": [],
+     "evidence": ""
+    },
+    "ENO": {
+     "status": "P",
+     "refs": [
+      "ENO-WOH-6:2",
+      "ENO-WOH-6:6",
+      "ENO-WOH-7:2",
+      "ENO-WOH-7:4"
+     ],
+     "evidence": "a named, numbered group of Watchers, 'in all two hundred'; the offspring are giants who 'devoured mankind'"
+    },
+    "JUB": {
+     "status": "P",
+     "refs": [
+      "JUB-WOH-4:10",
+      "JUB-WOH-5:1",
+      "JUB-WOH-7:22"
+     ],
+     "evidence": "the Watchers first 'descended upon the earth ... that they might instruct the sons of men'; the offspring destroy one another"
+    },
+    "QUR": {
+     "status": "A",
+     "refs": [],
+     "evidence": ""
+    },
+    "OTH": {
+     "status": "p",
+     "refs": [
+      "THEO-967",
+      "THEO-968"
+     ],
+     "evidence": "goddesses with mortal men 'bore children like to the gods'"
+    }
+   },
+   "klass": "genesis-has-it",
+   "note": "Genesis has the unions. What the canon adds — the fathers are a specific group already under sentence on Earth — is the Enochic identification with the order reversed: in Enoch the union is the offence and the sentence follows; in the canon the sentence comes first. The canon values the children positively, Enoch and Jubilees negatively."
+  },
+  {
+   "id": "D18",
+   "episode": "unions",
+   "detail": "The exiles' sons hand weapons to human women; men slaughter each other with them; this bloodshed is the case for destruction",
+   "canon": [
+    {
+     "ref": "LWTE-2:25",
+     "fr": "avec les armes qui leur sont données par les fils des Elohim bannis, du groupe de Lucifer"
+    },
+    {
+     "ref": "LWTE-2:25",
+     "fr": "qui parviennent à se faire remettre par eux des armes en échange de leurs charmes"
+    }
+   ],
+   "canon_voice": "Raël (LWTE ch. 2); absent from TBWTT (1974)",
+   "cells": {
+    "GEN": {
+     "status": "A",
+     "refs": [
+      "GEN-WOH-6:11",
+      "GEN-WOH-4:22"
+     ],
+     "evidence": "'the land was filled with violence' with no source named; metal cutting-tools come from a human, Tuval-Cain"
+    },
+    "ATR": {
+     "status": "A",
+     "refs": [],
+     "evidence": ""
+    },
+    "GIL": {
+     "status": "-",
+     "refs": [],
+     "evidence": ""
+    },
+    "SUM": {
+     "status": "A",
+     "refs": [],
+     "evidence": ""
+    },
+    "BER": {
+     "status": "A",
+     "refs": [],
+     "evidence": ""
+    },
+    "ENO": {
+     "status": "P",
+     "refs": [
+      "ENO-WOH-8:1",
+      "1ENO-69:4",
+      "1ENO-88:1",
+      "ENO-WOH-8:3",
+      "ENO-WOH-16:3",
+      "ENO-WOH-9:1"
+     ],
+     "evidence": "'Asael taught men to make swords and knives and shields and breastplates' (ואסאל אלף לאנשא למעבד סיפין וסכינין); Gâdreêl showed 'all the weapons of death to the children of men' (v. 6, inside refId 1ENO-69:4); a sword is handed to the giants (v. 2, inside 1ENO-88:1); knowledge passes through the wives ('this you made known to the women'); 'much blood that was shed upon the earth'"
+    },
+    "JUB": {
+     "status": "p",
+     "refs": [
+      "JUB-WOH-7:22"
+     ],
+     "evidence": "'they would destroy one another'"
+    },
+    "QUR": {
+     "status": "A",
+     "refs": [],
+     "evidence": ""
+    },
+    "OTH": {
+     "status": "A",
+     "refs": [],
+     "evidence": ""
+    }
+   },
+   "klass": "shared-not-genesis",
+   "note": "The closest single match in the register, and it is in the 1979 book only. 1 Enoch 69:6 gives one figure both roles the canon gives the Lucifer group: leading Eve astray and arming mankind."
+  },
+  {
+   "id": "D19",
+   "episode": "flood",
+   "detail": "An accuser lays the evidence before the Council; the president decides",
+   "canon": [
+    {
+     "ref": "LWTE-2:26",
+     "fr": "Devant les preuves ramenées par Satan devant le conseil des Eternels d'un tel carnage, Yahvé décide de faire ce que demande Satan"
+    }
+   ],
+   "canon_voice": "Raël (LWTE ch. 2)",
+   "cells": {
+    "GEN": {
+     "status": "A",
+     "refs": [
+      "GEN-WOH-6:5"
+     ],
+     "evidence": "YHWH sees for himself"
+    },
+    "ATR": {
+     "status": "p",
+     "refs": [
+      "ATRA-WOH-II:vi.1",
+      "ATRA-WOH-II:vii.5",
+      "ATRA-WOH-II:viii.2"
+     ],
+     "evidence": "Enlil 'convened his assembly'; 'Anu and Enlil made all the gods swear'"
+    },
+    "GIL": {
+     "status": "p",
+     "refs": [
+      "GILG-WOH-11:14",
+      "GILG-WOH-11:15"
+     ],
+     "evidence": "'the great gods' hearts were moved to bring on a flood. Their father Anu bound them by oath'"
+    },
+    "SUM": {
+     "status": "p",
+     "refs": [
+      "FLS-WOH-C:24"
+     ],
+     "evidence": "'the word of the [assembly cannot be revoked]' (restored)"
+    },
+    "BER": {
+     "status": "A",
+     "refs": [],
+     "evidence": ""
+    },
+    "ENO": {
+     "status": "P",
+     "refs": [
+      "ENO-WOH-9:1",
+      "ENO-WOH-9:3",
+      "ENO-WOH-9:9",
+      "ENO-WOH-10:1"
+     ],
+     "evidence": "four heavenly beings bring the case — bloodshed, the unions, the revealed mysteries — before the Most High, who then rules"
+    },
+    "JUB": {
+     "status": "A",
+     "refs": [],
+     "evidence": ""
+    },
+    "QUR": {
+     "status": "A",
+     "refs": [],
+     "evidence": ""
+    },
+    "OTH": {
+     "status": "A",
+     "refs": [],
+     "evidence": ""
+    }
+   },
+   "klass": "shared-not-genesis",
+   "note": "Assembly decision: Mesopotamian (already in core 0010). Accusation-then-ruling before a presiding figure: 1 Enoch 9–10, where the accusers are the loyal archangels, not a Satan."
+  },
+  {
+   "id": "D20",
+   "episode": "flood",
+   "detail": "Why the destruction: (TBWTT) human scientific progress, the wish to equal the makers; (LWTE) human violence",
+   "canon": [
+    {
+     "ref": "TBWTT-2:55",
+     "fr": "Le progrès scientifique était énorme sur Terre et ils décidèrent de supprimer leur création"
+    },
+    {
+     "ref": "TBWTT-2:57",
+     "fr": "Le mal, c’est-à-dire le désir de devenir un peuple égal à ses créateurs, un peuple scientifique et indépendant"
+    },
+    {
+     "ref": "LWTE-2:25",
+     "fr": "car il les juge dangereux en raison de leur violence"
+    }
+   ],
+   "canon_voice": "Yahweh (TBWTT); Raël (LWTE)",
+   "cells": {
+    "GEN": {
+     "status": "D",
+     "refs": [
+      "GEN-WOH-6:5",
+      "GEN-WOH-6:11",
+      "GEN-WOH-6:13"
+     ],
+     "evidence": "wickedness and violence — agrees with the LWTE motive, not the TBWTT one"
+    },
+    "ATR": {
+     "status": "C",
+     "refs": [
+      "ATRA-WOH-II:i.6",
+      "ATRA-WOH-II:vii.5"
+     ],
+     "evidence": "noise of a multiplied humankind: 'The noise of humankind has grown burdensome to me' (ik-ta-ab-ta ri-gi-im a-wi-lu-ti)"
+    },
+    "GIL": {
+     "status": "A",
+     "refs": [
+      "GILG-WOH-11:14"
+     ],
+     "evidence": "no reason given"
+    },
+    "SUM": {
+     "status": "A",
+     "refs": [
+      "FLS-WOH-C:23"
+     ],
+     "evidence": "not preserved"
+    },
+    "BER": {
+     "status": "A",
+     "refs": [
+      "CAG-3:17"
+     ],
+     "evidence": "no reason given"
+    },
+    "ENO": {
+     "status": "P",
+     "refs": [
+      "1ENO-65:6",
+      "ENO-WOH-10:7",
+      "ENO-WOH-9:9"
+     ],
+     "evidence": "knowledge motive: 'their ruin is accomplished because they have learnt all the secrets of the angels'; violence motive also present"
+    },
+    "JUB": {
+     "status": "D",
+     "refs": [
+      "JUB-WOH-5:4"
+     ],
+     "evidence": "corruption of all flesh"
+    },
+    "QUR": {
+     "status": "D",
+     "refs": [
+      "QUR-11:37"
+     ],
+     "evidence": "wrongdoing, unbelief"
+    },
+    "OTH": {
+     "status": "A",
+     "refs": [],
+     "evidence": ""
+    }
+   },
+   "klass": "shared-not-genesis",
+   "note": "The TBWTT motive (illicit knowledge) has one ancient counterpart in the library, 1 Enoch 65:6. The two canon books give different motives; the later one is the Genesis/Enoch violence motive."
+  },
+  {
+   "id": "D21",
+   "episode": "flood",
+   "detail": "The decision is taken on the distant home planet",
+   "canon": [
+    {
+     "ref": "TBWTT-2:58",
+     "fr": "Ils décidèrent donc, de leur lointaine planète, de détruire toute vie sur la Terre en envoyant des missiles nucléaires"
+    }
+   ],
+   "canon_voice": "Yahweh",
+   "cells": {
+    "GEN": {
+     "status": "p",
+     "refs": [
+      "GEN-WOH-6:7"
+     ],
+     "evidence": "a decision by the deity; no place"
+    },
+    "ATR": {
+     "status": "p",
+     "refs": [
+      "ATRA-WOH-I:13",
+      "ATRA-WOH-II:vi.1"
+     ],
+     "evidence": "'Anu went up to the heavens'; the assembly"
+    },
+    "GIL": {
+     "status": "C",
+     "refs": [
+      "GILG-WOH-11:13",
+      "GILG-WOH-11:112"
+     ],
+     "evidence": "the gods who decide dwell in Shuruppak ('the gods (dwelt) within it', ilānu qerbu-šu) and flee 'up to the heaven of Anu' when it comes"
+    },
+    "SUM": {
+     "status": "A",
+     "refs": [],
+     "evidence": ""
+    },
+    "BER": {
+     "status": "A",
+     "refs": [],
+     "evidence": ""
+    },
+    "ENO": {
+     "status": "p",
+     "refs": [
+      "ENO-WOH-10:1"
+     ],
+     "evidence": "the Most High, from heaven"
+    },
+    "JUB": {
+     "status": "A",
+     "refs": [],
+     "evidence": ""
+    },
+    "QUR": {
+     "status": "A",
+     "refs": [],
+     "evidence": ""
+    },
+    "OTH": {
+     "status": "A",
+     "refs": [],
+     "evidence": ""
+    }
+   },
+   "klass": "weak",
+   "note": "Not a discriminating detail: every text puts the decision with the higher gods."
+  },
+  {
+   "id": "D22",
+   "episode": "flood",
+   "detail": "The means: explosions; a tidal wave over the single continent; a sudden cataclysm, not prolonged rain; fallout afterwards",
+   "canon": [
+    {
+     "ref": "TBWTT-2:58",
+     "fr": "Le continent fut immergé par un immense raz-de-marée qui détruisit toute vie à sa surface"
+    },
+    {
+     "ref": "LWTE-1:48",
+     "fr": "le déluge n'était pas le résultat d'une pluie continuelle comme on se le représente généralement"
+    }
+   ],
+   "canon_voice": "Yahweh; Raël (LWTE-1 Q&A)",
+   "cells": {
+    "GEN": {
+     "status": "D",
+     "refs": [
+      "GEN-WOH-7:11",
+      "GEN-WOH-7:17"
+     ],
+     "evidence": "forty days of rain and 'all the fountains of the great deep burst open'"
+    },
+    "ATR": {
+     "status": "p",
+     "refs": [
+      "ATRA-WOH-III:iii.7",
+      "ATRA-WOH-III:iii.9",
+      "ATRA-WOH-III:v.34"
+     ],
+     "evidence": "'He shattered the land like a pot'; 'like a battle'; seven days"
+    },
+    "GIL": {
+     "status": "p",
+     "refs": [
+      "GILG-WOH-11:101",
+      "GILG-WOH-11:102",
+      "GILG-WOH-11:105",
+      "GILG-WOH-11:108"
+     ],
+     "evidence": "'The Anunnaki raised up their torches; with their bright radiance they set the land ablaze' (ina nam-ri-ri-šu-nu uḫam-ma-ṭu mātu); 'The land was shattered like a pot'; 'Like a battle it came over the people'"
+    },
+    "SUM": {
+     "status": "p",
+     "refs": [
+      "FLS-WOH-D:1",
+      "FLS-WOH-D:3"
+     ],
+     "evidence": "storms 'stood together as one'; seven days and nights"
+    },
+    "BER": {
+     "status": "A",
+     "refs": [],
+     "evidence": ""
+    },
+    "ENO": {
+     "status": "p",
+     "refs": [
+      "1ENO-65:1"
+     ],
+     "evidence": "'the earth that it had sunk down'; 'shaken' (vv. 1, 3)"
+    },
+    "JUB": {
+     "status": "D",
+     "refs": [
+      "JUB-WOH-5:25"
+     ],
+     "evidence": "rain, deeps"
+    },
+    "QUR": {
+     "status": "D",
+     "refs": [
+      "QUR-54:11",
+      "QUR-54:12"
+     ],
+     "evidence": "sky-water and springs"
+    },
+    "OTH": {
+     "status": "A",
+     "refs": [],
+     "evidence": ""
+    }
+   },
+   "klass": "shared-not-genesis",
+   "note": "A short, violent, fire-accompanied, battle-like event is the Mesopotamian picture; missiles and fallout have no counterpart. The canon nevertheless keeps Genesis' 150 days (TBWTT-2:61), which the seven-day texts contradict."
+  },
+  {
+   "id": "D23",
+   "episode": "flood",
+   "detail": "The survivor is warned by the dissident (exiled) makers, against the intent of those who decided — not by the destroyer",
+   "canon": [
+    {
+     "ref": "TBWTT-2:58",
+     "fr": "Mais les exilés, prévenus de la chose, avaient demandé à Noé de construire une fusée"
+    },
+    {
+     "ref": "LWTE-2:27",
+     "fr": "Mais ces derniers apprennent que toute leur fantastique création va être détruite. Ils ne peuvent admettre cela"
+    }
+   ],
+   "canon_voice": "Yahweh; Raël",
+   "cells": {
+    "GEN": {
+     "status": "C",
+     "refs": [
+      "GEN-WOH-6:13",
+      "GEN-WOH-6:14",
+      "GEN-WOH-7:1"
+     ],
+     "evidence": "the destroyer himself warns and instructs: 'I am about to destroy them ... Make for yourself an ark'"
+    },
+    "ATR": {
+     "status": "P",
+     "refs": [
+      "ATRA-WOH-II:viii.3",
+      "ATRA-WOH-III:i.13",
+      "ATRA-WOH-III:vi.17",
+      "ATRA-WOH-III:vi.18",
+      "ATRA-WOH-III:ii.15"
+     ],
+     "evidence": "Ea is under the oath and still warns: 'Dismantle the house, build a boat!' (ú-qú-ur bi-ta bi-ni e-le-ep-pa); 'I did it, indeed, against your will! I saw to it that life was preserved' (aš-šum na-ap-ša-tim uš-te-ṣi); 'Enki and Enlil have grown angry with each other'"
+    },
+    "GIL": {
+     "status": "P",
+     "refs": [
+      "GILG-WOH-11:19",
+      "GILG-WOH-11:24",
+      "GILG-WOH-11:175",
+      "GILG-WOH-11:188"
+     ],
+     "evidence": "'Prince Ea was with them, bound by the (same) oath'; 'Who but Ea could (have) devise(d) this matter?'; 'I did not (myself) reveal the secret of the great gods'"
+    },
+    "SUM": {
+     "status": "p",
+     "refs": [
+      "FLS-WOH-C:8",
+      "FLS-WOH-C:20",
+      "FLS-WOH-C:24"
+     ],
+     "evidence": "'Enki took counsel in his own heart'; the side-wall speech (speaker lost in the break)"
+    },
+    "BER": {
+     "status": "p",
+     "refs": [
+      "CAG-3:17"
+     ],
+     "evidence": "'The deity Cronos appeared to him in a vision, and warned him' — one god, no dissent stated"
+    },
+    "ENO": {
+     "status": "C",
+     "refs": [
+      "ENO-WOH-10:1",
+      "ENO-WOH-10:2",
+      "1ENO-67:1",
+      "1ENO-89:1"
+     ],
+     "evidence": "the Most High sends the warning; the Watchers are the ones condemned"
+    },
+    "JUB": {
+     "status": "C",
+     "refs": [
+      "JUB-WOH-5:21"
+     ],
+     "evidence": "'he commanded Noah to make for himself an ark'"
+    },
+    "QUR": {
+     "status": "C",
+     "refs": [
+      "QUR-11:37"
+     ],
+     "evidence": "God commands the ship"
+    },
+    "OTH": {
+     "status": "A",
+     "refs": [],
+     "evidence": ""
+    }
+   },
+   "klass": "shared-not-genesis",
+   "note": "The strongest item. The canon's structure (decision by one party, warning by another against it) is the Atrahasis/Gilgamesh structure and is the reverse of Genesis, 1 Enoch, Jubilees and the Quran. In the Mesopotamian texts the warner is a full member of the deciding assembly; in the canon he is a group already expelled from it."
+  },
+  {
+   "id": "D24",
+   "episode": "flood",
+   "detail": "The exiles help build the vessel",
+   "canon": [
+    {
+     "ref": "LWTE-2:27",
+     "fr": "Noé qu'ils aident à construire un vaisseau spatial"
+    }
+   ],
+   "canon_voice": "Raël (LWTE); TBWTT-2:58 has only 'avaient demandé à Noé de construire'",
+   "cells": {
+    "GEN": {
+     "status": "A",
+     "refs": [
+      "GEN-WOH-6:14"
+     ],
+     "evidence": "Noah builds"
+    },
+    "ATR": {
+     "status": "A",
+     "refs": [
+      "ATRA-WOH-III:ii.10"
+     ],
+     "evidence": "the man builds"
+    },
+    "GIL": {
+     "status": "C",
+     "refs": [
+      "GILG-WOH-11:49",
+      "GILG-WOH-11:50"
+     ],
+     "evidence": "human craftsmen"
+    },
+    "SUM": {
+     "status": "A",
+     "refs": [],
+     "evidence": ""
+    },
+    "BER": {
+     "status": "A",
+     "refs": [],
+     "evidence": ""
+    },
+    "ENO": {
+     "status": "p",
+     "refs": [
+      "1ENO-67:1"
+     ],
+     "evidence": "'the angels are making a wooden (building)' (v. 2, inside refId 1ENO-67:1) — loyal angels, on God's order"
+    },
+    "JUB": {
+     "status": "A",
+     "refs": [],
+     "evidence": ""
+    },
+    "QUR": {
+     "status": "p",
+     "refs": [
+      "QUR-11:37"
+     ],
+     "evidence": "built “under our eyes and our inspiration” (bi-aʿyuninā wa-waḥyinā — my gloss)"
+    },
+    "OTH": {
+     "status": "A",
+     "refs": [],
+     "evidence": ""
+    }
+   },
+   "klass": "weak",
+   "note": ""
+  },
+  {
+   "id": "D25",
+   "episode": "flood",
+   "detail": "The vessel is a rocket that orbits the Earth; life is kept some thousands of kilometres up; 'above the earth and not on the waters'",
+   "canon": [
+    {
+     "ref": "TBWTT-2:58",
+     "fr": "une fusée qui devait tourner autour de la Terre durant le cataclysme"
+    },
+    {
+     "ref": "TBWTT-2:58",
+     "fr": "la vie était préservée à quelques milliers de kilomètres au-dessus de la Terre"
+    },
+    {
+     "ref": "TBWTT-2:60",
+     "fr": "il est bien dit qu’elle s’éleva audessus de la Terre et non pas sur les eaux"
+    },
+    {
+     "ref": "LWTE-1:48",
+     "fr": "c'était le seul vaisseau... spatial"
+    }
+   ],
+   "canon_voice": "Yahweh; Raël",
+   "cells": {
+    "GEN": {
+     "status": "C",
+     "refs": [
+      "GEN-WOH-7:17",
+      "GEN-WOH-7:18",
+      "GEN-WOH-8:4"
+     ],
+     "evidence": "7:17 has the quoted phrase with its cause — 'the waters increased and lifted up the ark, and it rose above the land' (וַתָּרָם מֵעַל הָאָרֶץ) — and 7:18 continues 'the ark went on the face of the waters' (וַתֵּלֶךְ הַתֵּבָה עַל־פְּנֵי הַמָּיִם); it grounds on Ararat"
+    },
+    "ATR": {
+     "status": "C",
+     "refs": [
+      "ATRA-WOH-III:i.21",
+      "ATRA-WOH-III:ii.33"
+     ],
+     "evidence": "pitch; 'he cut the mooring-rope and set the boat adrift'"
+    },
+    "GIL": {
+     "status": "C",
+     "refs": [
+      "GILG-WOH-11:61",
+      "GILG-WOH-11:76",
+      "GILG-WOH-11:138"
+     ],
+     "evidence": "punt-poles; launched 'until two-thirds of her had entered the water'; 'On Mount Nimush the boat came to rest'"
+    },
+    "SUM": {
+     "status": "C",
+     "refs": [
+      "FLS-WOH-D:5"
+     ],
+     "evidence": "'the great boat had been tossed by the destructive storms on the great waters'"
+    },
+    "BER": {
+     "status": "C",
+     "refs": [
+      "CAG-3:17",
+      "CAG-3:20"
+     ],
+     "evidence": "'trust himself fearlessly to the deep'; stranded in Armenia, bitumen scraped off"
+    },
+    "ENO": {
+     "status": "C",
+     "refs": [
+      "1ENO-67:1",
+      "1ENO-89:1"
+     ],
+     "evidence": "'a wooden (building)'; 'a great vessel ... covered in'"
+    },
+    "JUB": {
+     "status": "C",
+     "refs": [
+      "JUB-WOH-5:28"
+     ],
+     "evidence": "rests on Mount Lubar"
+    },
+    "QUR": {
+     "status": "C",
+     "refs": [
+      "QUR-11:42",
+      "QUR-54:13"
+     ],
+     "evidence": "wa-hiya tajrī bihim fī mawjin ka-l-jibāl (“it ran with them amid waves like mountains”); “a thing of planks and nails” (my glosses)"
+    },
+    "OTH": {
+     "status": "A",
+     "refs": [],
+     "evidence": ""
+    }
+   },
+   "klass": "unique-and-contradicted",
+   "note": "No library text has a vessel that leaves the Earth; every one that describes it has a boat on water. The canon's proof-text is the first half of Genesis 7:17; the same verse names the waters as what lifts the ark and the next verse puts it on them. Loose congruences only: sealed and roofed 'like the Apsû, so that Shamash may not see within her' (ATRA-WOH-III:i.17–18); the destination 'To the Gods' (CAG-3:17); Enoch lifted to 'a tower raised high above the earth' to watch (1ENO-87:3)."
+  },
+  {
+   "id": "D26",
+   "episode": "flood",
+   "detail": "What is preserved is a living cell, male and female, of each species; the animals are re-created from them afterwards",
+   "canon": [
+    {
+     "ref": "TBWTT-2:58",
+     "fr": "il suffit d’avoir une cellule vivante de chaque espèce, mâle et femelle, pour reconstituer ensuite l’être tout entier"
+    },
+    {
+     "ref": "TBWTT-2:68",
+     "fr": "chaque animal fut recréé à partir de la cellule préservée dans l’arche"
+    },
+    {
+     "ref": "LWTE-2:27",
+     "fr": "certaines espèces animales dont l'on conserve le code génétique"
+    }
+   ],
+   "canon_voice": "Yahweh; Raël",
+   "cells": {
+    "GEN": {
+     "status": "p",
+     "refs": [
+      "GEN-WOH-6:19",
+      "GEN-WOH-7:3"
+     ],
+     "evidence": "living animals, 'two of each'. Purpose clause: 'to keep seed alive' (לְחַיּוֹת זֶרַע)"
+    },
+    "ATR": {
+     "status": "p",
+     "refs": [
+      "ATRA-WOH-III:ii.19",
+      "ATRA-WOH-III:ii.20"
+     ],
+     "evidence": "flocks, cattle, birds, beasts"
+    },
+    "GIL": {
+     "status": "P",
+     "refs": [
+      "GILG-WOH-11:27",
+      "GILG-WOH-11:80",
+      "GILG-WOH-11:82"
+     ],
+     "evidence": "'Bring aboard the seed of all living things into the boat' (šūli-ma zēr napšāti kalāma ana libbi eleppi) — and also the animals themselves"
+    },
+    "SUM": {
+     "status": "p",
+     "refs": [
+      "FLS-WOH-E:10"
+     ],
+     "evidence": "'for preserving the small animals and the seed of humankind' (numun nam-lu2-ulu3)"
+    },
+    "BER": {
+     "status": "p",
+     "refs": [
+      "CAG-3:17"
+     ],
+     "evidence": "'all the different animals'"
+    },
+    "ENO": {
+     "status": "p",
+     "refs": [
+      "1ENO-67:1",
+      "ENO-WOH-10:3"
+     ],
+     "evidence": "'there shall come forth from it the seed of life' (v. 2, inside refId 1ENO-67:1)"
+    },
+    "JUB": {
+     "status": "A",
+     "refs": [],
+     "evidence": ""
+    },
+    "QUR": {
+     "status": "p",
+     "refs": [
+      "QUR-11:40"
+     ],
+     "evidence": "min kullin zawjayni thnayn (“of each, a pair, two” — my gloss)"
+    },
+    "OTH": {
+     "status": "p",
+     "refs": [
+      "VID-2:27",
+      "VID-2:28"
+     ],
+     "evidence": "the vara is stocked with taoxma ('seed') of men, cattle, plants and foods, in pairs (mithwaire) — Avestan only in the library; gloss mine, unverified"
+    }
+   },
+   "klass": "shared-not-genesis",
+   "note": "'Seed' as the thing carried is a formula of the flood tradition (Gilgamesh XI 27, the Sumerian Flood Story, Vendidad 2) and survives in Genesis 7:3. The canon's 'cellule' reads that word biologically. Re-creation of whole animals from it: no counterpart."
+  },
+  {
+   "id": "D27",
+   "episode": "flood",
+   "detail": "Aboard: Noah and one couple of each human race; each race is put back at its place of creation",
+   "canon": [
+    {
+     "ref": "TBWTT-2:62",
+     "fr": "Il y avait à l’intérieur outre Noé, un couple de chaque race humaine de la Terre"
+    },
+    {
+     "ref": "TBWTT-2:68",
+     "fr": "Chaque race humaine fut replacée en son lieu de création"
+    }
+   ],
+   "canon_voice": "Yahweh",
+   "cells": {
+    "GEN": {
+     "status": "C",
+     "refs": [
+      "GEN-WOH-7:1",
+      "GEN-WOH-7:23",
+      "GEN-WOH-10:32"
+     ],
+     "evidence": "Noah's household only; the nations descend from his sons"
+    },
+    "ATR": {
+     "status": "C",
+     "refs": [
+      "ATRA-WOH-III:ii.21"
+     ],
+     "evidence": "'His family'"
+    },
+    "GIL": {
+     "status": "C",
+     "refs": [
+      "GILG-WOH-11:81",
+      "GILG-WOH-11:82"
+     ],
+     "evidence": "family, kin 'and all the craftsmen'"
+    },
+    "SUM": {
+     "status": "A",
+     "refs": [],
+     "evidence": ""
+    },
+    "BER": {
+     "status": "C",
+     "refs": [
+      "CAG-3:17"
+     ],
+     "evidence": "'his wife, his children, and his friends'"
+    },
+    "ENO": {
+     "status": "C",
+     "refs": [
+      "1ENO-89:1"
+     ],
+     "evidence": "three with him"
+    },
+    "JUB": {
+     "status": "A",
+     "refs": [],
+     "evidence": ""
+    },
+    "QUR": {
+     "status": "C",
+     "refs": [
+      "QUR-11:40"
+     ],
+     "evidence": "his household and the few who believed"
+    },
+    "OTH": {
+     "status": "A",
+     "refs": [],
+     "evidence": ""
+    }
+   },
+   "klass": "unique-and-contradicted",
+   "note": ""
+  },
+  {
+   "id": "D28",
+   "episode": "flood",
+   "detail": "Noah was not believed and was mocked",
+   "canon": [
+    {
+     "ref": "ETTMTTP-3:234",
+     "fr": "Autrefois Noé ne fut pas cru et les gens se moquaient de lui quand il se préparait pour la destruction"
+    }
+   ],
+   "canon_voice": "Yahweh (ETTMTTP)",
+   "cells": {
+    "GEN": {
+     "status": "A",
+     "refs": [],
+     "evidence": ""
+    },
+    "ATR": {
+     "status": "p",
+     "refs": [
+      "ATRA-WOH-III:ii.13",
+      "ATRA-WOH-III:ii.16"
+     ],
+     "evidence": "he addresses the elders with a cover story"
+    },
+    "GIL": {
+     "status": "p",
+     "refs": [
+      "GILG-WOH-11:34",
+      "GILG-WOH-11:35",
+      "GILG-WOH-11:39"
+     ],
+     "evidence": "'But what shall I answer' / '(when) the city, the populace, and the elders (ask me)?'"
+    },
+    "SUM": {
+     "status": "A",
+     "refs": [],
+     "evidence": ""
+    },
+    "BER": {
+     "status": "A",
+     "refs": [],
+     "evidence": ""
+    },
+    "ENO": {
+     "status": "A",
+     "refs": [],
+     "evidence": ""
+    },
+    "JUB": {
+     "status": "A",
+     "refs": [],
+     "evidence": ""
+    },
+    "QUR": {
+     "status": "P",
+     "refs": [
+      "QUR-11:38"
+     ],
+     "evidence": "wa-kullamā marra ʿalayhi malaʾun min qawmihi sakhirū minhu (“whenever chiefs of his people passed by him they mocked him” — my gloss)"
+    },
+    "OTH": {
+     "status": "A",
+     "refs": [],
+     "evidence": ""
+    }
+   },
+   "klass": "shared-not-genesis",
+   "note": "A small clean case: not in Genesis, explicit in Quran 11:38."
+  },
+  {
+   "id": "D29",
+   "episode": "flood",
+   "detail": "Those who ordered the destruction learn only afterwards that life survived, and are alarmed",
+   "canon": [
+    {
+     "ref": "TBWTT-2:74",
+     "fr": "Ils observaient toujours la terre et s’étaient aperçus que la vie n’avait pas été détruite"
+    }
+   ],
+   "canon_voice": "Yahweh (TBWTT); contradicted by LWTE-2:28",
+   "cells": {
+    "GEN": {
+     "status": "C",
+     "refs": [
+      "GEN-WOH-8:1"
+     ],
+     "evidence": "'The Elohim remembered Noah'"
+    },
+    "ATR": {
+     "status": "P",
+     "refs": [
+      "ATRA-WOH-III:vi.5",
+      "ATRA-WOH-III:vi.6",
+      "ATRA-WOH-III:vi.9",
+      "ATRA-WOH-III:vi.10"
+     ],
+     "evidence": "'When Enlil saw the boat' / 'he was filled with fury at the Igigi' / 'Where did life escape?' (e-eš-ta uṣ-ṣí-a-am na-pí-iš-tum) / 'How did a man survive the catastrophe?'"
+    },
+    "GIL": {
+     "status": "P",
+     "refs": [
+      "GILG-WOH-11:169",
+      "GILG-WOH-11:171",
+      "GILG-WOH-11:172"
+     ],
+     "evidence": "'Has anyone (here) come out alive? No man was to have survived the destruction!'"
+    },
+    "SUM": {
+     "status": "-",
+     "refs": [],
+     "evidence": ""
+    },
+    "BER": {
+     "status": "A",
+     "refs": [],
+     "evidence": ""
+    },
+    "ENO": {
+     "status": "A",
+     "refs": [],
+     "evidence": ""
+    },
+    "JUB": {
+     "status": "A",
+     "refs": [],
+     "evidence": ""
+    },
+    "QUR": {
+     "status": "A",
+     "refs": [],
+     "evidence": ""
+    },
+    "OTH": {
+     "status": "A",
+     "refs": [],
+     "evidence": ""
+    }
+   },
+   "klass": "shared-not-genesis",
+   "note": "In the Mesopotamian texts the discovery is immediate, at the sacrifice; in TBWTT it comes at the Babel episode."
+  },
+  {
+   "id": "D30",
+   "episode": "flood",
+   "detail": "The makers promise never again to destroy mankind; the reason",
+   "canon": [
+    {
+     "ref": "TBWTT-2:66",
+     "fr": "promirent de ne jamais essayer de les détruire à l’avenir, car ils avaient compris qu’il était normal qu’ils veuillent faire des progrès"
+    },
+    {
+     "ref": "LWTE-2:28",
+     "fr": "C'est alors que les Elohim s'aperçoivent qu'ils ont été eux-mêmes créés de la même manière qu'ils ont créé les hommes"
+    },
+    {
+     "ref": "LWTE-2:28",
+     "fr": "Ils décident alors que plus jamais ils n'essaieront de détruire l'humanité"
+    }
+   ],
+   "canon_voice": "Yahweh; Raël",
+   "cells": {
+    "GEN": {
+     "status": "P",
+     "refs": [
+      "GEN-WOH-8:21",
+      "GEN-WOH-9:11"
+     ],
+     "evidence": "'I will not again strike down every living thing' — reason: 'the inclination of the heart of the human is evil from his youth'"
+    },
+    "ATR": {
+     "status": "p",
+     "refs": [
+      "ATRA-WOH-III:v.47",
+      "ATRA-WOH-III:vi.21",
+      "ATRA-WOH-III:vi.22"
+     ],
+     "evidence": "reproach ('without deliberating'), and lesser instruments 'Instead of your bringing on a flood'"
+    },
+    "GIL": {
+     "status": "p",
+     "refs": [
+      "GILG-WOH-11:163",
+      "GILG-WOH-11:184"
+     ],
+     "evidence": "'These days let me remember — for ever, let me not forget!'"
+    },
+    "SUM": {
+     "status": "p",
+     "refs": [
+      "FLS-WOH-E:1",
+      "FLS-WOH-E:2"
+     ],
+     "evidence": "an oath 'by the life of heaven and the life of earth'"
+    },
+    "BER": {
+     "status": "A",
+     "refs": [],
+     "evidence": ""
+    },
+    "ENO": {
+     "status": "P",
+     "refs": [
+      "ENO-WOH-10:22"
+     ],
+     "evidence": "'I will not again send wrath and plague upon it'"
+    },
+    "JUB": {
+     "status": "p",
+     "refs": [
+      "JUB-WOH-5:32"
+     ],
+     "evidence": "covenant memorial"
+    },
+    "QUR": {
+     "status": "A",
+     "refs": [],
+     "evidence": ""
+    },
+    "OTH": {
+     "status": "A",
+     "refs": [],
+     "evidence": ""
+    }
+   },
+   "klass": "genesis-has-it",
+   "note": "The promise is Genesis'. Both canon reasons are the canon's own: 'progress is normal' re-glosses Genesis 8:21; the discovery that the Elohim were themselves made (LWTE) has no counterpart."
+  },
+  {
+   "id": "D31",
+   "episode": "flood",
+   "detail": "The Elohim are themselves created beings (message in an automatic vessel from their own makers)",
+   "canon": [
+    {
+     "ref": "LWTE-2:28",
+     "fr": "le message que contenait le vaisseau automatique en provenance du monde des créateurs des Elohim"
+    }
+   ],
+   "canon_voice": "Raël (LWTE)",
+   "cells": {
+    "GEN": {
+     "status": "A",
+     "refs": [],
+     "evidence": ""
+    },
+    "ATR": {
+     "status": "A",
+     "refs": [],
+     "evidence": ""
+    },
+    "GIL": {
+     "status": "A",
+     "refs": [],
+     "evidence": ""
+    },
+    "SUM": {
+     "status": "A",
+     "refs": [],
+     "evidence": ""
+    },
+    "BER": {
+     "status": "A",
+     "refs": [],
+     "evidence": ""
+    },
+    "ENO": {
+     "status": "A",
+     "refs": [],
+     "evidence": ""
+    },
+    "JUB": {
+     "status": "A",
+     "refs": [],
+     "evidence": ""
+    },
+    "QUR": {
+     "status": "A",
+     "refs": [],
+     "evidence": ""
+    },
+    "OTH": {
+     "status": "p",
+     "refs": [
+      "EE-1:9",
+      "THEO-1"
+     ],
+     "evidence": "typological only: gods are themselves generated (theogony) — births, not manufacture by an earlier civilisation"
+    }
+   },
+   "klass": "unique",
+   "note": ""
+  },
+  {
+   "id": "D32",
+   "episode": "flood",
+   "detail": "Not every species is re-established after the Flood (the great reptiles are left out); geology and coastlines are rewritten",
+   "canon": [
+    {
+     "ref": "LWTE-4:54",
+     "fr": "certaines, considérées comme monstrueuses ou nuisibles pour le maintien de l'équilibre écologique, ne furent pas réimplantées"
+    },
+    {
+     "ref": "LWTE-4:49",
+     "fr": "ils retrouvèrent des continents complètement ravagés par les destructions, méconnaissables"
+    }
+   ],
+   "canon_voice": "Marcel Terrusse, guide (LWTE ch. 4)",
+   "cells": {
+    "GEN": {
+     "status": "C",
+     "refs": [
+      "GEN-WOH-6:19"
+     ],
+     "evidence": "'Of every living thing'"
+    },
+    "ATR": {
+     "status": "A",
+     "refs": [],
+     "evidence": ""
+    },
+    "GIL": {
+     "status": "p",
+     "refs": [
+      "GILG-WOH-11:136"
+     ],
+     "evidence": "'(the world had become) the edge of the sea'"
+    },
+    "SUM": {
+     "status": "A",
+     "refs": [],
+     "evidence": ""
+    },
+    "BER": {
+     "status": "p",
+     "refs": [
+      "CAG-3:15"
+     ],
+     "evidence": "the monstrous first creatures do not survive into the second creation — at the creation, not the flood"
+    },
+    "ENO": {
+     "status": "p",
+     "refs": [
+      "ENO-WOH-10:9"
+     ],
+     "evidence": "the giants are destroyed"
+    },
+    "JUB": {
+     "status": "A",
+     "refs": [],
+     "evidence": ""
+    },
+    "QUR": {
+     "status": "A",
+     "refs": [],
+     "evidence": ""
+    },
+    "OTH": {
+     "status": "A",
+     "refs": [],
+     "evidence": ""
+    }
+   },
+   "klass": "unique",
+   "note": ""
+  },
+  {
+   "id": "D33",
+   "episode": "babel",
+   "detail": "The tower is a vehicle for reaching the makers' world, built by the most advanced people with the exiles' help",
+   "canon": [
+    {
+     "ref": "TBWTT-2:72",
+     "fr": "il entreprit bientôt de se lancer dans la conquête de l’espace, aidé par les créateurs exilés"
+    },
+    {
+     "ref": "TBWTT-2:72",
+     "fr": "Ils construisirent donc une immense fusée : la Tour de Babel"
+    }
+   ],
+   "canon_voice": "Yahweh",
+   "cells": {
+    "GEN": {
+     "status": "p",
+     "refs": [
+      "GEN-WOH-11:4"
+     ],
+     "evidence": "'a tower with its top in the skies'; stated aim: a name, and not to be scattered"
+    },
+    "ATR": {
+     "status": "-",
+     "refs": [],
+     "evidence": ""
+    },
+    "GIL": {
+     "status": "-",
+     "refs": [],
+     "evidence": ""
+    },
+    "SUM": {
+     "status": "-",
+     "refs": [],
+     "evidence": ""
+    },
+    "BER": {
+     "status": "P",
+     "refs": [
+      "CAG-3:34",
+      "CAG-3:28"
+     ],
+     "evidence": "the Sibyl: 'a large and lofty tower, that they might climb up into heaven'; 'when it approached the heaven'"
+    },
+    "ENO": {
+     "status": "A",
+     "refs": [],
+     "evidence": ""
+    },
+    "JUB": {
+     "status": "P",
+     "refs": [
+      "JUB-WOH-10:19"
+     ],
+     "evidence": "'Let us ascend by it into heaven' (wa-yəbēlu nəʿrəg bottu samāya)"
+    },
+    "QUR": {
+     "status": "A",
+     "refs": [],
+     "evidence": ""
+    },
+    "OTH": {
+     "status": "A",
+     "refs": [],
+     "evidence": ""
+    }
+   },
+   "klass": "shared-not-genesis",
+   "note": "Ascent into heaven as the stated purpose is explicit in Jubilees and the Sibylline fragment, only implied in Genesis. Divine helpers in the building: no text."
+  },
+  {
+   "id": "D34",
+   "episode": "babel",
+   "detail": "The purpose is to obtain the exiles' pardon by showing mankind grateful and peaceful",
+   "canon": [
+    {
+     "ref": "TBWTT-2:72",
+     "fr": "Ces derniers voulaient que les hommes aillent sur la planète des créateurs afin d’obtenir leur pardon en montrant que les hommes étaient intelligents et scientifiques mais reconnaissants et pacifiques"
+    }
+   ],
+   "canon_voice": "Yahweh",
+   "cells": {
+    "GEN": {
+     "status": "D",
+     "refs": [
+      "GEN-WOH-11:4"
+     ],
+     "evidence": "'let us make for ourselves a name'"
+    },
+    "ATR": {
+     "status": "-",
+     "refs": [],
+     "evidence": ""
+    },
+    "GIL": {
+     "status": "-",
+     "refs": [],
+     "evidence": ""
+    },
+    "SUM": {
+     "status": "-",
+     "refs": [],
+     "evidence": ""
+    },
+    "BER": {
+     "status": "C",
+     "refs": [
+      "CAG-3:28"
+     ],
+     "evidence": "'glorying in their own strength and size and despising the gods'"
+    },
+    "ENO": {
+     "status": "p",
+     "refs": [
+      "ENO-WOH-13:4",
+      "ENO-WOH-13:6",
+      "ENO-WOH-14:3",
+      "ENO-WOH-16:4"
+     ],
+     "evidence": "a different episode with the same shape: the condemned Watchers ask a man to carry 'a memorial of petition for them, that they might find forgiveness' before the Lord of heaven (ἵνα γένηται αὐτοῖς ἄφεσις); he is borne up into heaven; the answer is 'There shall be no peace for you'"
+    },
+    "JUB": {
+     "status": "C",
+     "refs": [
+      "JUB-WOH-10:18"
+     ],
+     "evidence": "'evil purpose'"
+    },
+    "QUR": {
+     "status": "A",
+     "refs": [],
+     "evidence": ""
+    },
+    "OTH": {
+     "status": "A",
+     "refs": [],
+     "evidence": ""
+    }
+   },
+   "klass": "shared-not-genesis",
+   "note": "No Babel text has a pardon motive; those that state a motive state defiance. The pardon-petition-carried-to-heaven shape exists in 1 Enoch 13–16, attached to the Watchers before the Flood, with the opposite outcome."
+  },
+  {
+   "id": "D35",
+   "episode": "babel",
+   "detail": "The home world is alarmed, comes, removes the most learned and scatters them among peoples whose languages already differ, and destroys the equipment",
+   "canon": [
+    {
+     "ref": "TBWTT-2:74",
+     "fr": "Les gens de la planète eurent peur en apprenant la chose"
+    },
+    {
+     "ref": "TBWTT-2:76",
+     "fr": "les dispersèrent sur tout le continent, dans des peuplades primitives, dans des pays où aucun ne pouvait se faire comprendre car le langage y était différent et ils détruisirent les appareillages scientifiques"
+    }
+   ],
+   "canon_voice": "Yahweh",
+   "cells": {
+    "GEN": {
+     "status": "p",
+     "refs": [
+      "GEN-WOH-11:6",
+      "GEN-WOH-11:7",
+      "GEN-WOH-11:8",
+      "GEN-WOH-10:5"
+     ],
+     "evidence": "alarm and scattering present; the one language is itself confounded (the canon has languages that already differ); the building merely stops; Genesis 10:5 already has nations 'each by his tongue'"
+    },
+    "ATR": {
+     "status": "-",
+     "refs": [],
+     "evidence": ""
+    },
+    "GIL": {
+     "status": "-",
+     "refs": [],
+     "evidence": ""
+    },
+    "SUM": {
+     "status": "-",
+     "refs": [],
+     "evidence": ""
+    },
+    "BER": {
+     "status": "P",
+     "refs": [
+      "CAG-3:28",
+      "CAG-3:34",
+      "CAG-9:264"
+     ],
+     "evidence": "destruction: 'the winds assisted the gods, and overthrew the work upon its contrivers'; the cuneiform fragment printed by Smith: 'he confounded their speech'"
+    },
+    "ENO": {
+     "status": "A",
+     "refs": [],
+     "evidence": ""
+    },
+    "JUB": {
+     "status": "P",
+     "refs": [
+      "JUB-WOH-10:26",
+      "JUB-WOH-10:23"
+     ],
+     "evidence": "'the Lord sent forth a great wind against the tower, and overthrew it upon the earth'; 'we descended with him'"
+    },
+    "QUR": {
+     "status": "A",
+     "refs": [],
+     "evidence": ""
+    },
+    "OTH": {
+     "status": "A",
+     "refs": [],
+     "evidence": ""
+    }
+   },
+   "klass": "shared-not-genesis",
+   "note": "Physical destruction of the structure is in Jubilees and the Berossus/Sibyl fragments, not in Genesis. The canon's pre-existing language diversity agrees with Genesis 10 against Genesis 11 and against all the Babel parallels."
+  },
+  {
+   "id": "D36",
+   "episode": "babel",
+   "detail": "The exiles are then pardoned, return home and plead for mankind",
+   "canon": [
+    {
+     "ref": "TBWTT-2:78",
+     "fr": "Les créateurs exilés furent pardonnés et eurent le droit de revenir sur leur planète d’origine où ils plaidèrent la cause de leur magnifique création"
+    },
+    {
+     "ref": "LWTE-2:26",
+     "fr": "en permettant à l'équipe de Lucifer de revenir sur la planète des Elohim en les amnistiant de leur condamnation à l'exil"
+    }
+   ],
+   "canon_voice": "Yahweh (TBWTT: after Babel); Raël (LWTE: amnesty offered before the Flood)",
+   "cells": {
+    "GEN": {
+     "status": "A",
+     "refs": [],
+     "evidence": ""
+    },
+    "ATR": {
+     "status": "p",
+     "refs": [
+      "ATRA-WOH-III:vi.17"
+     ],
+     "evidence": "Enki is never expelled; he answers for himself in the assembly"
+    },
+    "GIL": {
+     "status": "p",
+     "refs": [
+      "GILG-WOH-11:190"
+     ],
+     "evidence": "Ea prevails: 'take counsel for him'"
+    },
+    "SUM": {
+     "status": "A",
+     "refs": [],
+     "evidence": ""
+    },
+    "BER": {
+     "status": "A",
+     "refs": [],
+     "evidence": ""
+    },
+    "ENO": {
+     "status": "C",
+     "refs": [
+      "ENO-WOH-12:5",
+      "ENO-WOH-13:2",
+      "ENO-WOH-16:4"
+     ],
+     "evidence": "'There shall be no peace for them upon the earth, nor any forgiveness of sins'"
+    },
+    "JUB": {
+     "status": "C",
+     "refs": [
+      "JUB-WOH-5:6"
+     ],
+     "evidence": "'bound there until the day of the great judgment'"
+    },
+    "QUR": {
+     "status": "C",
+     "refs": [
+      "QUR-15:37"
+     ],
+     "evidence": "respite, not pardon"
+    },
+    "OTH": {
+     "status": "C",
+     "refs": [
+      "THEO-732"
+     ],
+     "evidence": "'For them there is no way out'"
+    }
+   },
+   "klass": "canon-contradicts-older",
+   "note": "Every tradition that has a confined heavenly group denies it release. The two canon books date the amnesty differently."
+  },
+  {
+   "id": "D37",
+   "episode": "structure",
+   "detail": "Three roles: the one who presses for destruction (Satan), the president who decides (Yahweh), the faction that saves (Lucifer's group); Yahweh is also one of the makers",
+   "canon": [
+    {
+     "ref": "TBWTT-2:24",
+     "fr": "Je suis l’un de ceux qui ont créé la vie sur la Terre"
+    },
+    {
+     "ref": "LWTE-2:26",
+     "fr": "Yahvé décide de faire ce que demande Satan"
+    },
+    {
+     "ref": "LWTE-2:22",
+     "fr": "désobéissant aux ordres de Yahvé, le président du conseil des Eternels"
+    }
+   ],
+   "canon_voice": "Yahweh; Raël",
+   "cells": {
+    "GEN": {
+     "status": "C",
+     "refs": [
+      "GEN-WOH-6:7",
+      "GEN-WOH-6:13",
+      "GEN-WOH-8:21"
+     ],
+     "evidence": "one subject decides, warns, saves and promises"
+    },
+    "ATR": {
+     "status": "P",
+     "refs": [
+      "ATRA-WOH-I:7",
+      "ATRA-WOH-I:8",
+      "ATRA-WOH-II:vii.5",
+      "ATRA-WOH-II:viii.2",
+      "ATRA-WOH-III:vi.18"
+     ],
+     "evidence": "Anu the king who administers the oath; Enlil who proposes the flood; Enki who preserves life"
+    },
+    "GIL": {
+     "status": "P",
+     "refs": [
+      "GILG-WOH-11:15",
+      "GILG-WOH-11:16",
+      "GILG-WOH-11:19"
+     ],
+     "evidence": "'Their father Anu bound them by oath, their counsellor — the warrior Enlil ... Prince Ea was with them'"
+    },
+    "SUM": {
+     "status": "p",
+     "refs": [
+      "FLS-WOH-C:9",
+      "FLS-WOH-C:25"
+     ],
+     "evidence": "An, Enlil, Enki, Ninhursaĝa"
+    },
+    "BER": {
+     "status": "A",
+     "refs": [],
+     "evidence": ""
+    },
+    "ENO": {
+     "status": "p",
+     "refs": [
+      "ENO-WOH-9:1",
+      "ENO-WOH-10:1"
+     ],
+     "evidence": "accusers, judge; no saving faction"
+    },
+    "JUB": {
+     "status": "A",
+     "refs": [],
+     "evidence": ""
+    },
+    "QUR": {
+     "status": "A",
+     "refs": [],
+     "evidence": ""
+    },
+    "OTH": {
+     "status": "A",
+     "refs": [],
+     "evidence": ""
+    }
+   },
+   "klass": "shared-not-genesis",
+   "note": "A role-structure observation only. It is not a per-figure identification, which core 0002 and 0008 exclude. In Mesopotamia the maker of man (Enki) and the destroyer (Enlil) are different gods; in LWTE the destroyer-president is himself a maker (TBWTT-2:24)."
+  }
+ ]
+}
