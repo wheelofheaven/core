@@ -51,6 +51,7 @@ abstracts, encyclopaedia pages and secondary reports, as each note states.
 | [checkpoints.md](checkpoints.md) | Which public facts in the narrative can be compared with the public record? (outside sources) | 60 checkpoints |
 | [editions.md](editions.md) | Which editions does the project hold, and how do the French and the 2005 English differ? (held PDFs) | 3 copies collated |
 | [paratexts.md](paratexts.md) | What do the 1997 message and author's postscript add, and which familiar statements come from them and not from the three books? (held PDFs) | 3 pieces |
+| [first-printings.md](first-printings.md) | What changed between the 1974–1989 printings and the 1998 text, and what does published scholarship already say? (open scans, Maridor 2009) | 3 witnesses collated |
 
 Structured registers are in [`registers/`](registers/). Quotations in the notes
 are written `QUOTE[REF]: … ENDQUOTE` so that they can be machine-checked:
@@ -222,6 +223,45 @@ each point below against them.
 
 The canon boundary (are the 1997 message and postscript Tier 0?) needs a
 ruling; several labels depend on it.
+
+## Fifth wave: earlier printings and the literature (2026-11-12)
+
+[first-printings.md](first-printings.md). Witnesses: an open scan of the 1975
+first printing of book 2, an open scan of a 1989 printing of book 1, and the
+Bible citations of the 1974 printing as transcribed in Maridor's 2009
+Neuchâtel thesis. Quoted passages were read by me in the OCR text; page images
+were not inspected.
+
+- **The hostage rule in "Les Clés" is reversed.** 1975, p. 132: give the
+  hostage-takers what they ask, "car la vie d'un innocent n'a pas de prix".
+  Later text (ETTMTTP-3:158): do not give it, "car accepter un tel chantage
+  c'est encourager d'autres criminels".
+- **Force against the violent is reworded** (ETTMTTP-3:156: "par la violence,
+  et au besoin par l'action" becomes "si nécessaire par la force mais toujours
+  sans chercher à tuer"), and **an astronomical slip is corrected**
+  (ETTMTTP-3:193: in 1975 the moon "tourne autour du soleil").
+- **The ellipsis marks and corrected Bible quotations date from after 1989.**
+  The 1974 transcription and the 1989 printing both give Exodus 14:21 and
+  Daniel 10:13 as continuous quotations; the 1998 text adds "(...)". This
+  qualifies lead finding 10.
+- **Lead finding 16 is confirmed at second hand:** the first printing of
+  book 1 read "puy de la Vache" and "MADECH" (Maridor; the 1975 book 2 has the
+  author's own "J'avais d'ailleurs appelé à tort ce lieu le Puy de la Vache").
+- **The New Testament quotations follow the Pléiade New Testament** of
+  Grosjean and Léturmy (41 of 48 quotations matched in a scan).
+- **Prior literature.** Maridor 2009 already has, for books 1 and 2: the
+  correction of book 1 by book 2, the French-dependent readings and irregular
+  ellipses, the speaker confusion in "Les Clefs", and the main edition
+  changes. Not found in the literature read: the 2,000-year day and the
+  chronology sums, the Flood motive by book, the proof policy, the Third
+  Temple and 2035 points, anything on book 3, passage-level comparison with
+  Sendy. Most English-language scholarship was seen only in abstract, so this
+  is provisional. The two agent reports are kept under `reports/`.
+
+Unchanged between 1975 and the later text: the "mal retranscrit" correction,
+the 25,000-year landing, the threat to the State of Israel, the calendar rule.
+Not testable: the corporal-punishment and sensual-education paragraphs (pages
+missing from the scan).
 
 ## Housekeeping found on the way (other repositories)
 

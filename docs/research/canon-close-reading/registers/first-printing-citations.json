@@ -1,0 +1,1609 @@
+[
+ {
+  "ref": "Gn 1,5",
+  "status": "no match",
+  "first": "« Il y eu un soir, il y eu un matin, premier jour » (genèse I-5)."
+ },
+ {
+  "ref": "Gn 1,7",
+  "canon": "TBWTT-2:11",
+  "diff": [
+   [
+    "replace",
+    "en",
+    "au"
+   ],
+   [
+    "replace",
+    "en",
+    "au"
+   ]
+  ]
+ },
+ {
+  "ref": "Gn 1,11-12",
+  "canon": "TBWTT-2:15",
+  "diff": [
+   [
+    "replace",
+    "ont",
+    "aient"
+   ]
+  ]
+ },
+ {
+  "ref": "Gn 1,26",
+  "canon": "TBWTT-2:26",
+  "diff": [
+   [
+    "replace",
+    "ils aient",
+    "il ait"
+   ],
+   [
+    "insert",
+    "",
+    "la"
+   ]
+  ]
+ },
+ {
+  "ref": "Gn 2,16-17",
+  "canon": "TBWTT-2:29",
+  "diff": [
+   [
+    "delete",
+    "en mourais",
+    ""
+   ]
+  ]
+ },
+ {
+  "ref": "Gn 3,14",
+  "canon": "TBWTT-2:38",
+  "diff": [
+   [
+    "insert",
+    "",
+    "tu"
+   ]
+  ]
+ },
+ {
+  "ref": "Gn 3,24",
+  "canon": "TBWTT-2:44",
+  "diff": [
+   [
+    "replace",
+    "epée",
+    "épée"
+   ]
+  ]
+ },
+ {
+  "ref": "Gn 4,3-4",
+  "canon": "TBWTT-2:47",
+  "diff": [
+   [
+    "insert",
+    "",
+    "petit"
+   ]
+  ]
+ },
+ {
+  "ref": "Gn 5,1-11",
+  "status": "no match",
+  "first": "(Pas de citation directe, mais écrit la liste généalogique, et annonce dans le MDE qu’il tire cette liste de ces versets) (…) Adam 930 ans, Seth 912 ans, Enoch "
+ },
+ {
+  "ref": "Gn 6,1-2",
+  "canon": "TBWTT-2:50",
+  "diff": [
+   [
+    "insert",
+    "",
+    "donc"
+   ],
+   [
+    "replace",
+    "parmis sic",
+    "parmi"
+   ]
+  ]
+ },
+ {
+  "ref": "Gn 6,3",
+  "canon": "TBWTT-2:52",
+  "diff": [
+   [
+    "replace",
+    "sont",
+    "seront"
+   ],
+   [
+    "insert",
+    "",
+    "cent vingt"
+   ]
+  ]
+ },
+ {
+  "ref": "Gn 6,4",
+  "canon": "TBWTT-2:54",
+  "diff": [
+   [
+    "replace",
+    "firent",
+    "furent"
+   ]
+  ]
+ },
+ {
+  "ref": "Gn 6,5",
+  "canon": "TBWTT-2:56",
+  "diff": [
+   [
+    "insert",
+    "",
+    "la"
+   ]
+  ]
+ },
+ {
+  "ref": "Gn 7,17",
+  "status": "no match",
+  "first": "« L’arche s’éleva au-dessus de la terre » (genèse VII-17)."
+ },
+ {
+  "ref": "Gn 7,24",
+  "canon": "TBWTT-2:61",
+  "diff": [
+   [
+    "insert",
+    "",
+    "cent cinquante"
+   ]
+  ]
+ },
+ {
+  "ref": "Gn 6,16",
+  "status": "no match",
+  "first": "(Il n’écrit jamais quelle est la référence de la citation qu’il fait entre parenthèse) : (« tu la disposeras en étages, l’inférieur, le second et le troisième »"
+ },
+ {
+  "ref": "Gn 6,19",
+  "status": "no match",
+  "first": "Il ne cite pas le verset, mais l’extraterrestre dit : « Il y avait à l’intérieur outre Noë (sic), un couple de chaque race humaine de la terre. » Ce qui corresp"
+ },
+ {
+  "ref": "Gn 8,1",
+  "canon": "TBWTT-2:63",
+  "diff": [
+   [
+    "replace",
+    "noë sic",
+    "noé"
+   ]
+  ]
+ },
+ {
+  "ref": "Gn 8,20",
+  "canon": "TBWTT-2:65",
+  "diff": [
+   [
+    "delete",
+    "noë sic batti sic",
+    ""
+   ],
+   [
+    "replace",
+    "iahwé sic",
+    "iahvé"
+   ],
+   [
+    "replace",
+    "des",
+    "les"
+   ]
+  ]
+ },
+ {
+  "ref": "Gn 8,21",
+  "status": "no match",
+  "first": "« L’objet du cœur de l’homme est le mal » (genèse VIII-21)."
+ },
+ {
+  "ref": "Gn 10,32",
+  "canon": "TBWTT-2:69",
+  "diff": [
+   [
+    "delete",
+    "déluge",
+    ""
+   ]
+  ]
+ },
+ {
+  "ref": "Gn 11,7-8",
+  "canon": "TBWTT-2:75",
+  "diff": [
+   [
+    "replace",
+    "dispersera",
+    "dispersa"
+   ]
+  ]
+ },
+ {
+  "ref": "Gn 19,17",
+  "canon": "TBWTT-2:85",
+  "diff": [
+   [
+    "delete",
+    "plus",
+    ""
+   ]
+  ]
+ },
+ {
+  "ref": "Gn 22,12",
+  "canon": "TBWTT-2:90",
+  "diff": [
+   [
+    "replace",
+    "ta",
+    "la"
+   ]
+  ]
+ },
+ {
+  "ref": "Gn 35,2",
+  "canon": "TBWTT-3:5",
+  "diff": [
+   [
+    "delete",
+    "elevez",
+    ""
+   ]
+  ]
+ },
+ {
+  "ref": "Ex 3,2",
+  "canon": "TBWTT-3:8",
+  "diff": [
+   [
+    "replace",
+    "ialvé sic",
+    "iahvé"
+   ]
+  ]
+ },
+ {
+  "ref": "Ex 14,30",
+  "status": "no match",
+  "first": "« En ce jour, Iahvé sauva Israël (exode XIV-30)."
+ },
+ {
+  "ref": "Ex 16,14",
+  "canon": "TBWTT-3:20",
+  "diff": [
+   [
+    "delete",
+    "a",
+    ""
+   ]
+  ]
+ },
+ {
+  "ref": "Ex 17,6",
+  "status": "no match",
+  "first": "« de faire jaillir de l’eau » (exode III-2). L’extraterrestre introduit exceptionnellement la citation du verset par : Quant au bâton de Moïse qui lui permit"
+ },
+ {
+  "ref": "Ex 19,18-19",
+  "canon": "TBWTT-3:26",
+  "diff": [
+   [
+    "delete",
+    "l extraterrestre introduit ce verset dans le début du paragraphe précédent par au chapitre xx de l exode",
+    ""
+   ]
+  ]
+ },
+ {
+  "ref": "Ex 14,10",
+  "canon": "TBWTT-3:30",
+  "diff": [
+   [
+    "insert",
+    "",
+    "d"
+   ]
+  ]
+ },
+ {
+  "ref": "Ex 25,2-7",
+  "canon": "TBWTT-3:35",
+  "diff": [
+   [
+    "insert",
+    "",
+    "et"
+   ]
+  ]
+ },
+ {
+  "ref": "Ex 26",
+  "status": "no match",
+  "first": "Le chapitre « XXVI » de l’exode est seulement décrit et nommé, mais pas cité."
+ },
+ {
+  "ref": "Ex 33,9",
+  "canon": "TBWTT-3:38",
+  "diff": [
+   [
+    "replace",
+    "une",
+    "la"
+   ]
+  ]
+ },
+ {
+  "ref": "Ex 33,20",
+  "status": "no match",
+  "first": "« Tu ne peux voir ma face car l’homme ne peut voir ma face et vivre » (exode XXXIII-20)."
+ },
+ {
+  "ref": "Lev 21,18 et 21",
+  "canon": "TBWTT-3:44",
+  "diff": [
+   [
+    "delete",
+    "tout le début de la lévitique par exemple en xxi",
+    ""
+   ]
+  ]
+ },
+ {
+  "ref": "Nb 11,7-8",
+  "canon": "TBWTT-3:47",
+  "diff": [
+   [
+    "delete",
+    "vous avez en nombre xi",
+    ""
+   ]
+  ]
+ },
+ {
+  "ref": "Nb 18,13",
+  "canon": "TBWTT-3:49",
+  "diff": [
+   [
+    "insert",
+    "",
+    "et qu"
+   ],
+   [
+    "delete",
+    "l",
+    ""
+   ]
+  ]
+ },
+ {
+  "ref": "Nb 21,8",
+  "canon": "TBWTT-3:51",
+  "diff": [
+   [
+    "replace",
+    "lampe",
+    "hampe"
+   ],
+   [
+    "insert",
+    "",
+    "il"
+   ]
+  ]
+ },
+ {
+  "ref": "Nb 33,52-53",
+  "canon": "TBWTT-3:54",
+  "diff": [
+   [
+    "replace",
+    "possèderez tout",
+    "posséderez"
+   ]
+  ]
+ },
+ {
+  "ref": "Jos 3,15-16",
+  "canon": "TBWTT-3:58",
+  "diff": [
+   [
+    "delete",
+    "dans josué iii",
+    ""
+   ],
+   [
+    "delete",
+    "et",
+    ""
+   ],
+   [
+    "insert",
+    "",
+    "un"
+   ]
+  ]
+ },
+ {
+  "ref": "Jos 5,14",
+  "status": "no match",
+  "first": "« Je suis le chef de l’armée de Iahvé, je viens d’arriver » (Josué V-14)."
+ },
+ {
+  "ref": "Jos 10,11",
+  "canon": "TBWTT-3:67",
+  "diff": [
+   [
+    "delete",
+    "epée",
+    ""
+   ]
+  ]
+ },
+ {
+  "ref": "Jos 10,13",
+  "canon": "TBWTT-3:70",
+  "diff": [
+   [
+    "delete",
+    "dans josué x",
+    ""
+   ],
+   [
+    "replace",
+    "fut",
+    "fût"
+   ]
+  ]
+ },
+ {
+  "ref": "Jg 6,21",
+  "canon": "TBWTT-3:73",
+  "diff": [
+   [
+    "delete",
+    "dans juges vi",
+    ""
+   ]
+  ]
+ },
+ {
+  "ref": "Jg 7",
+  "status": "no match",
+  "first": "Dans les Juges VII (…) Annonce la référence et ensuite en fait un résumé rapide."
+ },
+ {
+  "ref": "Jg 13,3",
+  "canon": "TBWTT-3:78",
+  "diff": [
+   [
+    "delete",
+    "un exemple en juges xiii",
+    ""
+   ],
+   [
+    "insert",
+    "",
+    "donc"
+   ]
+  ]
+ },
+ {
+  "ref": "Jg 13,4",
+  "status": "no match",
+  "first": "« gardes-toi bien de boire du vin et de la boisson ennivrante (sic), car voici que tu vas enfanter un fils »."
+ },
+ {
+  "ref": "Jg 13,9",
+  "status": "no match",
+  "first": "L’ange d’Elohim vint encore vers la femme alors que son mari n’était pas avec elle »."
+ },
+ {
+  "ref": "1Sam 3,9",
+  "canon": "TBWTT-3:88",
+  "diff": [
+   [
+    "delete",
+    "dans samuel iii",
+    ""
+   ],
+   [
+    "delete",
+    "t",
+    ""
+   ]
+  ]
+ },
+ {
+  "ref": "1Sam 3,10.9*",
+  "canon": "TBWTT-3:88",
+  "diff": [
+   [
+    "delete",
+    "samuel samuel",
+    ""
+   ],
+   [
+    "delete",
+    "t",
+    ""
+   ]
+  ]
+ },
+ {
+  "ref": "1Sam 5 et 6",
+  "status": "no match",
+  "first": "Annonce la référence (I Samuel V et VI), mais ne la cite pas."
+ },
+ {
+  "ref": "2Sam 6,6-7",
+  "canon": "TBWTT-3:99",
+  "diff": [
+   [
+    "replace",
+    "sa",
+    "la"
+   ],
+   [
+    "insert",
+    "",
+    "là"
+   ],
+   [
+    "delete",
+    "ii samuel vi",
+    ""
+   ]
+  ]
+ },
+ {
+  "ref": "1R 13,1-5",
+  "canon": "TBWTT-3:108",
+  "diff": [
+   [
+    "replace",
+    "étendu",
+    "étendue"
+   ]
+  ]
+ },
+ {
+  "ref": "1R 13,9-10",
+  "canon": "TBWTT-3:110",
+  "diff": [
+   [
+    "insert",
+    "",
+    "par"
+   ]
+  ]
+ },
+ {
+  "ref": "1R 17,6",
+  "canon": "TBWTT-3:112",
+  "diff": [
+   [
+    "delete",
+    "en i rois xvii",
+    ""
+   ],
+   [
+    "replace",
+    "corbeau",
+    "corbeaux"
+   ]
+  ]
+ },
+ {
+  "ref": "1R 17,23",
+  "canon": "TBWTT-3:114",
+  "diff": [
+   [
+    "delete",
+    "il",
+    ""
+   ]
+  ]
+ },
+ {
+  "ref": "1R 18,38",
+  "canon": "TBWTT-3:116",
+  "diff": [
+   [
+    "insert",
+    "",
+    "les pierres"
+   ]
+  ]
+ },
+ {
+  "ref": "1R 19,5-6",
+  "canon": "TBWTT-3:119",
+  "diff": [
+   [
+    "delete",
+    "et",
+    ""
+   ],
+   [
+    "replace",
+    "a",
+    "à"
+   ]
+  ]
+ },
+ {
+  "ref": "1R 19,11-12",
+  "canon": "TBWTT-3:120",
+  "diff": [
+   [
+    "replace",
+    "le",
+    "un"
+   ]
+  ]
+ },
+ {
+  "ref": "2R 1,12",
+  "canon": "TBWTT-3:126",
+  "diff": [
+   [
+    "delete",
+    "en ii rois i",
+    ""
+   ],
+   [
+    "insert",
+    "",
+    "de dieu"
+   ],
+   [
+    "delete",
+    "et",
+    ""
+   ],
+   [
+    "insert",
+    "",
+    "le"
+   ]
+  ]
+ },
+ {
+  "ref": "2R 2,1",
+  "canon": "TBWTT-3:130",
+  "diff": [
+   [
+    "delete",
+    "dans ii rois ii",
+    ""
+   ]
+  ]
+ },
+ {
+  "ref": "2R 2,11",
+  "canon": "TBWTT-3:132",
+  "diff": [
+   [
+    "replace",
+    "feux",
+    "feu"
+   ],
+   [
+    "replace",
+    "de",
+    "des"
+   ],
+   [
+    "insert",
+    "",
+    "eux"
+   ],
+   [
+    "replace",
+    "un",
+    "le"
+   ]
+  ]
+ },
+ {
+  "ref": "2R 4,42-44",
+  "canon": "TBWTT-3:137",
+  "diff": [
+   [
+    "replace",
+    "apporta",
+    "vingt"
+   ],
+   [
+    "replace",
+    "nourrirais je",
+    "serviraije cela à"
+   ],
+   [
+    "delete",
+    "avec vingt pains",
+    ""
+   ]
+  ]
+ },
+ {
+  "ref": "Es 6,1-2",
+  "canon": "TBWTT-3:144",
+  "diff": [
+   [
+    "delete",
+    "se",
+    ""
+   ],
+   [
+    "replace",
+    "la",
+    "sa"
+   ]
+  ]
+ },
+ {
+  "ref": "Es 13,4-5",
+  "canon": "TBWTT-3:146",
+  "diff": [
+   [
+    "replace",
+    "un",
+    "de"
+   ]
+  ]
+ },
+ {
+  "ref": "Es 14,13",
+  "canon": "TBWTT-3:148",
+  "diff": [
+   [
+    "replace",
+    "montrerai",
+    "monterai"
+   ]
+  ]
+ },
+ {
+  "ref": "Es 14,14",
+  "canon": "TBWTT-3:150",
+  "diff": [
+   [
+    "delete",
+    "très haut",
+    ""
+   ]
+  ]
+ },
+ {
+  "ref": "Es 15,8-9",
+  "canon": "TBWTT-3:154",
+  "diff": [
+   [
+    "replace",
+    "eglim",
+    "eylim"
+   ]
+  ]
+ },
+ {
+  "ref": "Ez 1, 21",
+  "status": "no match",
+  "first": "« L’esprit des êtres était dans les roues »."
+ },
+ {
+  "ref": "Ez 1,9*",
+  "canon": "TBWTT-3:159",
+  "diff": [
+   [
+    "delete",
+    "d eux",
+    ""
+   ],
+   [
+    "insert",
+    "",
+    "et chacun avait quatre ailes quant à leurs jambes la jambe était droite et la plante de leurs pieds était comme la plante de la patte du veau et brillait comme le scintillement de l airain poli sous leurs ailes et sur leurs quatre côtés il y avait des mains d homme leurs ailes à tous les quatre se rejoignaient l une l autre"
+   ],
+   [
+    "insert",
+    "",
+    "se"
+   ],
+   [
+    "replace",
+    "ce verset est cité",
+    "chacun allait selon l orientation de ses faces quant à la forme de leurs faces c était une face d homme puis une face de lion sur la droite des quatre puis une face de taureau sur la gauche des quatre et une face d aigle"
+   ],
+   [
+    "insert",
+    "",
+    "les quatre leurs ailes étaient déployées vers le haut chacun en avait deux rejoignant chacune sa voisine et deux couvrant son corps chacun allait selon l orientation de sa face ils allaient là où l esprit devait aller ils ne se tournaient pas en marchant entre les êtres"
+   ],
+   [
+    "delete",
+    "deuxième fois",
+    ""
+   ]
+  ]
+ },
+ {
+  "ref": "Ez 2,1.8",
+  "canon": "TBWTT-3:168",
+  "diff": [
+   [
+    "replace",
+    "ecoutes",
+    "écoute"
+   ],
+   [
+    "replace",
+    "manges",
+    "mange"
+   ]
+  ]
+ },
+ {
+  "ref": "Ez 3,3",
+  "canon": "TBWTT-3:171",
+  "diff": [
+   [
+    "replace",
+    "mangerai",
+    "mangeai donc"
+   ]
+  ]
+ },
+ {
+  "ref": "Ez 3,14.12*",
+  "canon": "TBWTT-3:173",
+  "diff": [
+   [
+    "replace",
+    "entendais",
+    "entendis"
+   ]
+  ]
+ },
+ {
+  "ref": "Ez 8,3",
+  "canon": "TBWTT-3:175",
+  "diff": [
+   [
+    "delete",
+    "jérusalem",
+    ""
+   ]
+  ]
+ },
+ {
+  "ref": "Ez 40,2-3",
+  "canon": "TBWTT-3:188",
+  "diff": [
+   [
+    "delete",
+    "ezéchiel dans le chapitre xi",
+    ""
+   ]
+  ]
+ },
+ {
+  "ref": "Ez 43,2",
+  "canon": "TBWTT-3:194",
+  "diff": [
+   [
+    "delete",
+    "au chapitre xviii",
+    ""
+   ]
+  ]
+ },
+ {
+  "ref": "Ez 44,30",
+  "canon": "TBWTT-3:205",
+  "diff": [
+   [
+    "delete",
+    "les meilleures",
+    ""
+   ],
+   [
+    "insert",
+    "",
+    "que"
+   ]
+  ]
+ },
+ {
+  "ref": "Dan 3",
+  "status": "no match",
+  "first": "Dans le 3ème paragraphe de Daniel (…) Après cette annonce, le chapitre est résumé succinctement."
+ },
+ {
+  "ref": "Dan 6,23",
+  "canon": "TBWTT-3:210",
+  "diff": [
+   [
+    "delete",
+    "du lion",
+    ""
+   ]
+  ]
+ },
+ {
+  "ref": "Dan 10,5-6",
+  "canon": "TBWTT-3:212",
+  "diff": [
+   [
+    "delete",
+    "dans le dixième chapitre de daniel",
+    ""
+   ],
+   [
+    "replace",
+    "chrysolithe",
+    "chrysolite"
+   ]
+  ]
+ },
+ {
+  "ref": "Dan 10,13",
+  "status": "no match",
+  "first": "« Micaël (sic) est venu là près des rois de Perse » (Daniel X)."
+ },
+ {
+  "ref": "Dan 12,2",
+  "canon": "TBWTT-3:218",
+  "diff": [
+   [
+    "delete",
+    "au chapitre xii de daniel",
+    ""
+   ]
+  ]
+ },
+ {
+  "ref": "Jon 2,11",
+  "canon": "TBWTT-3:231",
+  "diff": [
+   [
+    "delete",
+    "jonas sur la terre sèche",
+    ""
+   ]
+  ]
+ },
+ {
+  "ref": "Zc 5,1-2",
+  "canon": "TBWTT-3:234",
+  "diff": [
+   [
+    "delete",
+    "dans zacharie v",
+    ""
+   ],
+   [
+    "replace",
+    "recommençais",
+    "recommençai"
+   ],
+   [
+    "delete",
+    "m et une largeur de dix coudées m",
+    ""
+   ]
+  ]
+ },
+ {
+  "ref": "Ps 8,6",
+  "canon": "TBWTT-3:239",
+  "diff": [
+   [
+    "replace",
+    "le psaume",
+    "les psaumes"
+   ],
+   [
+    "insert",
+    "",
+    "il est dit en parlant de l homme"
+   ]
+  ]
+ },
+ {
+  "ref": "Jb 1,9.11-12",
+  "canon": "TBWTT-3:252",
+  "diff": [
+   [
+    "insert",
+    "",
+    "à"
+   ]
+  ]
+ },
+ {
+  "ref": "Jb 37,18",
+  "status": "no match",
+  "first": "Toujours dans le livre de Job une petite phrase au chapitre XXXVII (…) : « Entendras-tu, avec lui des nuages solides comme un miroir de métal fondu »."
+ },
+ {
+  "ref": "Tb 12,19-20",
+  "canon": "TBWTT-3:264",
+  "diff": [
+   [
+    "delete",
+    "mais",
+    ""
+   ]
+  ]
+ },
+ {
+  "ref": "Sg 13,1*",
+  "canon": "TBWTT-3:270",
+  "diff": [
+   [
+    "replace",
+    "reconnaître",
+    "connaître"
+   ],
+   [
+    "replace",
+    "choses",
+    "biens"
+   ]
+  ]
+ },
+ {
+  "ref": "Es 27,1*",
+  "canon": "TBWTT-3:272",
+  "diff": [
+   [
+    "insert",
+    "",
+    "là"
+   ],
+   [
+    "insert",
+    "",
+    "grande et"
+   ],
+   [
+    "delete",
+    "et grande",
+    ""
+   ]
+  ]
+ },
+ {
+  "ref": "Es 29,12*",
+  "canon": "TBWTT-3:274",
+  "diff": [
+   [
+    "delete",
+    "ecriture",
+    ""
+   ]
+  ]
+ },
+ {
+  "ref": "Pr 8,23-23.27.29-31*",
+  "canon": "TBWTT-3:278",
+  "diff": [
+   [
+    "replace",
+    "terre",
+    "mer"
+   ],
+   [
+    "insert",
+    "",
+    "et"
+   ],
+   [
+    "delete",
+    "des hommes",
+    ""
+   ]
+  ]
+ },
+ {
+  "ref": "Qo 3,15*",
+  "status": "no match",
+  "first": "« Ce qui déjà fut est, et ce qui doit être a déjà été » (l’écclésiaste III)."
+ },
+ {
+  "ref": "Es 45,9-10*",
+  "canon": "TBWTT-3:285",
+  "diff": [
+   [
+    "replace",
+    "fais tu",
+    "faistu"
+   ]
+  ]
+ },
+ {
+  "ref": "Es 40,21*",
+  "canon": "TBWTT-3:289",
+  "diff": [
+   [
+    "delete",
+    "isaïe xl",
+    ""
+   ]
+  ]
+ },
+ {
+  "ref": "Zc 4,10*",
+  "canon": "TBWTT-3:293",
+  "diff": [
+   [
+    "replace",
+    "se",
+    "ce"
+   ],
+   [
+    "replace",
+    "sur",
+    "par"
+   ]
+  ]
+ },
+ {
+  "ref": "Ps 147,4-5*",
+  "canon": "TBWTT-3:299",
+  "diff": [
+   [
+    "replace",
+    "il est",
+    "et très"
+   ],
+   [
+    "delete",
+    "indiscutable",
+    ""
+   ]
+  ]
+ },
+ {
+  "ref": "Mi 5, 1-4*",
+  "canon": "TBWTT-3:303",
+  "diff": [
+   [
+    "delete",
+    "béthleem",
+    ""
+   ]
+  ]
+ },
+ {
+  "ref": "Mt 1,20",
+  "canon": "TBWTT-4:6",
+  "diff": [
+   [
+    "delete",
+    "voici",
+    ""
+   ]
+  ]
+ },
+ {
+  "ref": "Mt 2,9",
+  "canon": "TBWTT-4:10",
+  "diff": [
+   [
+    "replace",
+    "vu",
+    "vue"
+   ]
+  ]
+ },
+ {
+  "ref": "Mt 2,13",
+  "canon": "TBWTT-4:14",
+  "diff": [
+   [
+    "delete",
+    "voilà qu un ange du seigneur apparut en songe à joseph et dit",
+    ""
+   ],
+   [
+    "replace",
+    "egypte",
+    "égypte"
+   ],
+   [
+    "delete",
+    "prendre",
+    ""
+   ]
+  ]
+ },
+ {
+  "ref": "Mt 2,19-20",
+  "canon": "TBWTT-4:16",
+  "diff": [
+   [
+    "replace",
+    "egypte",
+    "égypte"
+   ]
+  ]
+ },
+ {
+  "ref": "Mt 5,3",
+  "canon": "TBWTT-4:23",
+  "diff": [
+   [
+    "insert",
+    "",
+    "l"
+   ]
+  ]
+ },
+ {
+  "ref": "Mt 6,10",
+  "canon": "TBWTT-4:26",
+  "diff": [
+   [
+    "insert",
+    "",
+    "au"
+   ]
+  ]
+ },
+ {
+  "ref": "Mt 13,4-9",
+  "canon": "TBWTT-4:45",
+  "diff": [
+   [
+    "delete",
+    "les graines",
+    ""
+   ]
+  ]
+ },
+ {
+  "ref": "Mt 13,11*",
+  "canon": "TBWTT-4:54",
+  "diff": [
+   [
+    "delete",
+    "a",
+    ""
+   ]
+  ]
+ },
+ {
+  "ref": "Mt 13,35",
+  "canon": "TBWTT-4:60",
+  "diff": [
+   [
+    "replace",
+    "réclamerai",
+    "clamerai"
+   ]
+  ]
+ },
+ {
+  "ref": "Mt 13,49",
+  "canon": "TBWTT-4:63",
+  "diff": [
+   [
+    "delete",
+    "a",
+    ""
+   ]
+  ]
+ },
+ {
+  "ref": "Mt 14,25",
+  "canon": "TBWTT-4:67",
+  "diff": [
+   [
+    "delete",
+    "en",
+    ""
+   ]
+  ]
+ },
+ {
+  "ref": "Mt 17,1-3.5",
+  "canon": "TBWTT-4:74",
+  "diff": [
+   [
+    "delete",
+    "au chapitre xvii de matthieu",
+    ""
+   ]
+  ]
+ },
+ {
+  "ref": "Mt 25,14",
+  "canon": "TBWTT-4:80",
+  "diff": [
+   [
+    "delete",
+    "au chapitre xxv de l evangile selon matthieu",
+    ""
+   ]
+  ]
+ },
+ {
+  "ref": "Mt 25, 15-27",
+  "canon": "ETTMTTP-1:75",
+  "diff": [
+   [
+    "delete",
+    "résumé",
+    ""
+   ],
+   [
+    "insert",
+    "",
+    "dehors des inévitables railleurs que d ailleurs je parvenais à rendre ridicules du fait même du peu de dimension de leurs questions un grand nombre de gens étaient prêts à m aider et à me soutenir moi qui avais un trac épouvantable un trac comme jamais je n en avais connu lorsque je chantais tout se passait sans problème les réponses aux questions les plus difficiles venaient toutes seules sur mes lèvres je me sentais véritablement aidé d en haut comme cela m avait été promis j avais l impression de m entendre répondre des choses que j étais incapable de trouver tout seul"
+   ],
+   [
+    "insert",
+    "",
+    "jours plus tard la deuxième conférence eut lieu j avais très peur que les gens qui n avaient pu entrer la première fois ne reviennent pas et de me retrouver avec une salle louée très cher aux trois quarts vide sur les bras d autant plus qu il n y avait pas eu d autre publicité depuis cette émission de télévision à part une petit entrefilet dans france soir le seul journal ayant accepté sur trois"
+   ]
+  ]
+ },
+ {
+  "ref": "Mt 26,52-54",
+  "canon": "TBWTT-4:91",
+  "diff": [
+   [
+    "delete",
+    "au chapitre xxvi",
+    ""
+   ],
+   [
+    "insert",
+    "",
+    "pas"
+   ]
+  ]
+ },
+ {
+  "ref": "Mc 16,18",
+  "canon": "TBWTT-4:100",
+  "diff": [
+   [
+    "insert",
+    "",
+    "venus"
+   ],
+   [
+    "replace",
+    "biens",
+    "bien"
+   ],
+   [
+    "delete",
+    "marc xvi",
+    ""
+   ]
+  ]
+ },
+ {
+  "ref": "Act 2,1-4",
+  "canon": "TBWTT-4:106",
+  "diff": [
+   [
+    "delete",
+    "dans les actes des apôtres au chapitre ii",
+    ""
+   ],
+   [
+    "insert",
+    "",
+    "vint"
+   ],
+   [
+    "delete",
+    "vint",
+    ""
+   ],
+   [
+    "insert",
+    "",
+    "d"
+   ],
+   [
+    "replace",
+    "du",
+    "de"
+   ]
+  ]
+ },
+ {
+  "ref": "Act 12,7-9",
+  "canon": "TBWTT-4:109",
+  "diff": [
+   [
+    "delete",
+    "dans les actes des apôtres",
+    ""
+   ]
+  ]
+ },
+ {
+  "ref": "Act 12,10",
+  "canon": "TBWTT-4:111",
+  "diff": [
+   [
+    "replace",
+    "une",
+    "la"
+   ],
+   [
+    "delete",
+    "aussitôt l ange le quitta",
+    ""
+   ]
+  ]
+ },
+ {
+  "ref": "Act 17,28",
+  "status": "no match",
+  "first": "« Nous sommes bien de sa race en effet » (Actes des Apôtres XVII)."
+ },
+ {
+  "ref": "So 1,10*",
+  "canon": "TBWTT-5:5",
+  "diff": [
+   [
+    "delete",
+    "porte des poissons",
+    ""
+   ]
+  ]
+ },
+ {
+  "ref": "Es 32,6-8*",
+  "canon": "TBWTT-5:15",
+  "diff": [
+   [
+    "delete",
+    "car l insensé profère des folies et son coeur songe à l iniquité de sorte qu il pratique l impiété profère à l adresse de",
+    ""
+   ]
+  ]
+ },
+ {
+  "ref": "Es 44,19*",
+  "canon": "TBWTT-5:22",
+  "diff": [
+   [
+    "insert",
+    "",
+    "de"
+   ]
+  ]
+ },
+ {
+  "ref": "Es 43,8-9*",
+  "canon": "TBWTT-5:27",
+  "diff": [
+   [
+    "replace",
+    "vous",
+    "nous"
+   ],
+   [
+    "replace",
+    "évènements",
+    "événements"
+   ]
+  ]
+ },
+ {
+  "ref": "Es 54,7*",
+  "canon": "TBWTT-5:30",
+  "diff": [
+   [
+    "replace",
+    "abandonné",
+    "abandonnée"
+   ]
+  ]
+ },
+ {
+  "ref": "Mt 6,7*",
+  "canon": "TBWTT-5:38",
+  "diff": [
+   [
+    "replace",
+    "bavardages",
+    "bavardage"
+   ]
+  ]
+ },
+ {
+  "ref": "Mt 6,24.19*",
+  "canon": "TBWTT-5:40",
+  "diff": [
+   [
+    "replace",
+    "où",
+    "ou"
+   ],
+   [
+    "delete",
+    "matthieu vi",
+    ""
+   ]
+  ]
+ },
+ {
+  "ref": "Mt 23,4-11*",
+  "canon": "TBWTT-5:47",
+  "diff": [
+   [
+    "replace",
+    "les",
+    "leurs"
+   ],
+   [
+    "replace",
+    "diners",
+    "dîners"
+   ],
+   [
+    "insert",
+    "",
+    "vous"
+   ],
+   [
+    "insert",
+    "",
+    "non plus"
+   ]
+  ]
+ },
+ {
+  "ref": "Ez 27,3.7-8.10*",
+  "canon": "ETTMTTP-2:72",
+  "diff": [
+   [
+    "delete",
+    "dans ezéchiel xxxvii",
+    ""
+   ],
+   [
+    "insert",
+    "",
+    "de"
+   ],
+   [
+    "insert",
+    "",
+    "très"
+   ]
+  ]
+ },
+ {
+  "ref": "Mt 27,42-43*",
+  "status": "no match",
+  "first": "\"puisqu’il est le fils de Dieu, qu’il descende tout seul maintenant !\" (Matthieu XXVII – 43)."
+ }
+]

@@ -793,6 +793,181 @@
    "note": "docs/research/canon-close-reading/paratexts.md",
    "rechecked": true,
    "wave": 4
+  },
+  {
+   "id": "H01",
+   "kind": "finding",
+   "title": "The hostage rule in \"Les Clés\" was reversed between 1975 and the later text",
+   "summary": "1975, p. 132: give the hostage-takers what they ask, \"car la vie d'un innocent n'a pas de prix et il est facile de rattraper les coupables par la suite\". Later: do not give it. The 2005 English follows the later wording.",
+   "refs": [
+    "ETTMTTP-3:158"
+   ],
+   "claims": [
+    "woh-claim-0035",
+    "woh-claim-0020"
+   ],
+   "note": "docs/research/canon-close-reading/first-printings.md",
+   "rechecked": true,
+   "wave": 5
+  },
+  {
+   "id": "H02",
+   "kind": "finding",
+   "title": "Force against the violent was reworded; an astronomical slip was corrected",
+   "summary": "1975: \"tu réduiras à l'impuissance les violents par la violence, et au besoin par l'action\"; later \"si nécessaire par la force mais toujours sans chercher à tuer\". 1975: the moon \"tourne autour du soleil\"; later \"autour de la Terre\". Both in the part presented as written through the author's hand.",
+   "refs": [
+    "ETTMTTP-3:156",
+    "ETTMTTP-3:193"
+   ],
+   "claims": [
+    "woh-claim-0035",
+    "woh-claim-0020"
+   ],
+   "note": "docs/research/canon-close-reading/first-printings.md",
+   "rechecked": true,
+   "wave": 5
+  },
+  {
+   "id": "H03",
+   "kind": "finding",
+   "title": "Ellipsis marks and corrected Bible quotations date from after 1989",
+   "summary": "The 1974 printing (as transcribed by Maridor) and a 1989 printing give Exodus 14:21 and Daniel 10:13 as continuous quotations. The 1998 text adds \"(...)\" and moves wording toward Dhorme (93 ellipsis marks before, 182 after, over 217 matched citations). This qualifies finding F10.",
+   "refs": [
+    "TBWTT-3:16",
+    "TBWTT-3:216",
+    "TBWTT-2:61",
+    "TBWTT-3:116",
+    "TBWTT-3:137"
+   ],
+   "claims": [
+    "woh-claim-0066"
+   ],
+   "note": "docs/research/canon-close-reading/first-printings.md",
+   "rechecked": true,
+   "wave": 5
+  },
+  {
+   "id": "H04",
+   "kind": "finding",
+   "title": "The first printing of book 1 read \"puy de la Vache\" and \"MADECH\" (second hand)",
+   "summary": "Maridor quotes both from the July 1974 printing; the 1975 book 2 has the author's own \"J'avais d'ailleurs appelé à tort ce lieu le Puy de la Vache\". A 1989 printing already has the later readings. Confirms finding F16.",
+   "refs": [
+    "TBWTT-1:3",
+    "TBWTT-7:73"
+   ],
+   "claims": [],
+   "note": "docs/research/canon-close-reading/first-printings.md",
+   "rechecked": false,
+   "wave": 5
+  },
+  {
+   "id": "H05",
+   "kind": "finding",
+   "title": "The New Testament quotations follow the Pléiade New Testament (Grosjean and Léturmy)",
+   "summary": "41 of 48 New Testament quotations have at least half their five-word runs in a scan of that volume. The books name only Dhorme, whose volumes are the Old Testament.",
+   "refs": [
+    "TBWTT-4:23"
+   ],
+   "claims": [
+    "woh-claim-0066"
+   ],
+   "note": "docs/research/canon-close-reading/first-printings.md",
+   "rechecked": true,
+   "wave": 5
+  },
+  {
+   "id": "H06",
+   "kind": "finding",
+   "title": "Prior literature: Maridor 2009 has several of the lead findings for books 1 and 2",
+   "summary": "Already there: book 2 corrects book 1; French-dependent readings and irregular ellipses; speaker confusion in \"Les Clefs\"; the main edition changes. Not found in the literature read: the 2,000-year day and chronology sums, Flood motive by book, proof policy, Third Temple and 2035, anything on book 3, passage-level Sendy comparison. Provisional: most English-language work was seen only in abstract.",
+   "refs": [],
+   "claims": [],
+   "note": "docs/research/canon-close-reading/first-printings.md",
+   "rechecked": false,
+   "wave": 5
+  },
+  {
+   "id": "H07",
+   "kind": "finding",
+   "title": "Unchanged since 1975: the correction, the 25,000 years, the threat to the State of Israel, the calendar rule",
+   "summary": "The corporal-punishment and sensual-education paragraphs cannot be tested: the scan lacks pages 102–103 and 106–107.",
+   "refs": [
+    "ETTMTTP-2:23",
+    "ETTMTTP-2:43",
+    "ETTMTTP-2:125",
+    "ETTMTTP-3:172"
+   ],
+   "claims": [],
+   "note": "docs/research/canon-close-reading/first-printings.md",
+   "rechecked": true,
+   "wave": 5
+  },
+  {
+   "id": "P20",
+   "kind": "proposal",
+   "title": "Source notes for books 1 and 2: record the three earlier witnesses and the changes",
+   "summary": "State that the library text is the 1998 revision.",
+   "refs": [],
+   "claims": [],
+   "note": "docs/research/canon-close-reading/first-printings.md",
+   "rechecked": true,
+   "wave": 5
+  },
+  {
+   "id": "P21",
+   "kind": "proposal",
+   "title": "0066 and the selective-quotation candidate: date the ellipsis marks to the 1998 revision; add the Pléiade New Testament",
+   "summary": "",
+   "refs": [
+    "TBWTT-3:16"
+   ],
+   "claims": [
+    "woh-claim-0066"
+   ],
+   "note": "docs/research/canon-close-reading/first-printings.md",
+   "rechecked": true,
+   "wave": 5
+  },
+  {
+   "id": "P22",
+   "kind": "proposal",
+   "title": "0035 / 0020: record that dictated and hand-written sentences were changed between printings",
+   "summary": "With Maridor 2009 as prior literature.",
+   "refs": [
+    "ETTMTTP-3:158"
+   ],
+   "claims": [
+    "woh-claim-0035",
+    "woh-claim-0020"
+   ],
+   "note": "docs/research/canon-close-reading/first-printings.md",
+   "rechecked": true,
+   "wave": 5
+  },
+  {
+   "id": "P23",
+   "kind": "proposal",
+   "title": "New source note: Maridor 2009 (Neuchâtel thesis), cited wherever it has the point first",
+   "summary": "",
+   "refs": [],
+   "claims": [],
+   "note": "docs/research/canon-close-reading/first-printings.md",
+   "rechecked": true,
+   "wave": 5
+  },
+  {
+   "id": "D06",
+   "kind": "decision",
+   "title": "Library apparatus: show first-printing readings at the changed passages?",
+   "summary": "Candidates: ETTMTTP-3:158, 3:156, 3:193; TBWTT-3:16, 3:216.",
+   "refs": [
+    "ETTMTTP-3:158",
+    "TBWTT-3:16"
+   ],
+   "claims": [],
+   "note": "docs/research/canon-close-reading/first-printings.md",
+   "rechecked": true,
+   "wave": 5
   }
  ]
 }
