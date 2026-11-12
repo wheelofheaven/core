@@ -49,6 +49,7 @@ abstracts, encyclopaedia pages and secondary reports, as each note states.
 | [sendy-crosscheck.md](sendy-crosscheck.md) | Which non-Genesis details are already in Sendy's books, per the existing inventory? | 37 details |
 | [science-dated.md](science-dated.md) | What did published science say, and when, on the points where the canon leans on recent discoveries? (outside sources) | 30 comparisons |
 | [checkpoints.md](checkpoints.md) | Which public facts in the narrative can be compared with the public record? (outside sources) | 60 checkpoints |
+| [editions.md](editions.md) | Which editions does the project hold, and how do the French and the 2005 English differ? (held PDFs) | 3 copies collated |
 
 Structured registers are in [`registers/`](registers/). Quotations in the notes
 are written `QUOTE[REF]: … ENDQUOTE` so that they can be machine-checked:
@@ -169,10 +170,31 @@ the data-fix list for speaker tags; the 14-of-21 Sendy coverage count; zero
 occurrences of *paradisme*, *troisième temple* and *eugén-*; and every
 outside-source comparison in `science-dated.md` and `checkpoints.md` (memory
 transfer 1965–72 and its later abandonment; the nearest-star and parasang
-comparisons; the Ararat radiocarbon ages; the tentative identification of
-*Évolution ou création ?* as Flori and Rasolofomasoandro, 1974; INA dates
+comparisons; the Ararat radiocarbon ages; INA dates
 for the 1974 television appearances; station weather for 13 December 1973
 and 7 October 1975).
+
+## Third wave: the held editions (2026-11-12)
+
+[editions.md](editions.md) reads the three PDFs in `data-sources` and I re-read
+each point below against them.
+
+- The French in the library is the 1998 combined volume (books 1 and 2) and
+  the 2001 Nova edition (book 3). No first printing is held.
+- The library's English for book 3 is the 2005 edition's translation
+  (630 of 631 paragraphs). Its licence status needs a ruling.
+- *Évolution ou Création* (LWTE-1:28) is now identified: both editions print
+  the bibliography entry (Flori misprinted "Fiori"; Éditions S.D.T.,
+  Dammarie-les-Lys).
+- Both editions name Dhorme's translation as the Bible used; the 2005 editor
+  calls it "the one that Rael had with him during his encounter".
+- The 1998 volume prints the French text of the message of 13 December 1997
+  (pp. 207–210), which core has no source note for.
+- Book 3, French 2001 against English 2005: no change of doctrine or figure
+  found; two date differences (year 30 or 31 for October 1975; a witness's
+  1977 or 1978).
+- The lead findings checked in the 2005 English of books 1 and 2 are all
+  present there (list in the note).
 
 ## Housekeeping found on the way (other repositories)
 
