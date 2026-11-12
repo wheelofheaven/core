@@ -1,0 +1,3030 @@
+{
+ "question": "Which extra-Genesis primeval details of the canon are already in Sendy (1963–1970) per the existing inventory",
+ "sources": {
+  "inventory_dir": "core/docs/research/sendy-inventory/",
+  "ancient_parallels": "ancient-parallels.json"
+ },
+ "books": {
+  "cahiers": 1963,
+  "la-lune": 1968,
+  "ces-dieux": 1969,
+  "nous-autres": 1969,
+  "ere-du-verseau": 1970
+ },
+ "details": [
+  {
+   "id": "D01",
+   "detail": "Home-world public opinion and government forbid the life experiments; the scientists leave for a distant planet",
+   "ap_class": "unique",
+   "inventory_items": [
+    {
+     "id": "I004",
+     "tbwtt": "2:2",
+     "bible_ref": "non-biblical: origin of the creators — lab-created life on the home planet",
+     "topic": "Creators banned from genetic experiments at home",
+     "per_book": {
+      "cahiers": {
+       "status": "absent",
+       "locator": null,
+       "quote_fr": null,
+       "note": "No home-planet ban on genetic experiments or escaped lab animal."
+      },
+      "la-lune": {
+       "status": "absent",
+       "locator": null,
+       "quote_fr": null,
+       "note": "Not discussed; Sendy does not speculate on the Celestials' origin (l.80-82)."
+      },
+      "ces-dieux": {
+       "status": "similar",
+       "locator": "ch. 15 / PL17 / line 553",
+       "quote_fr": "Ces cosmonautes quittent une civilisation qui, ayant réalisé le dernier des rêves fous qui passionnent les scientifiques dignes de ce nom, ne trouve plus à s’employer",
+       "note": "Home-world motive differs: Sendy's Theos scientists leave out of boredom, on good terms (and a mature world is glad to export its 'mutant' geniuses, l. 764); no lab-life ban, no escaped creature."
+      },
+      "nous-autres": {
+       "status": "absent",
+       "locator": null,
+       "quote_fr": null,
+       "note": "Not found after searching names, verse refs and synonyms; this book (a polemic on humanism vs 'pensée médiévale') discusses few biblical passages."
+      },
+      "ere-du-verseau": {
+       "status": "absent",
+       "locator": null,
+       "quote_fr": null,
+       "note": "Nothing on lab life banned at home; Sendy's genetic engineering concerns breeding a 'race des dieux' in orbit for the voyage (lines 1183–1190)."
+      }
+     }
+    }
+   ],
+   "verdict": "NOT",
+   "summary": "Home-world ban recorded absent in all five; Ces dieux gives a different home-world motive (boredom, departure on good terms).",
+   "lookups": []
+  },
+  {
+   "id": "D02",
+   "detail": "Earth is found, not made; it is water-covered; the 'light' is tested for harmful rays",
+   "ap_class": "unique",
+   "inventory_items": [
+    {
+     "id": "I005",
+     "tbwtt": "2:4–5",
+     "bible_ref": "Genesis 1:1",
+     "topic": "In the beginning Elohim created",
+     "per_book": {
+      "cahiers": {
+       "status": "similar",
+       "locator": "Cahier 2, ch. III / PL5 / line 1095",
+       "quote_fr": "Moïse désigne une partie d’entre eux par le pluriel Elohim",
+       "note": "Elohim = plural group of astronauts from planet \"Théos\" (a subset of the \"Théosites\"); no \"venus du ciel\" etymology, and creation is a re-terraforming after a cataclysm."
+      },
+      "la-lune": {
+       "status": "same",
+       "locator": "Part I ch.1 (Anges) / line 200",
+       "quote_fr": "la Genèse devient le récit, parfaitement cohérent en soi, d’une colonisation de la Terre par des cosmonautes « venus du ciel » et devenus « anges » dans la mémoire des hommes",
+       "note": "Elohim = plural (of Eloah, l.181) = concrete cosmonauts 'venus du ciel'. Not given as an etymology; and 'créèrent' = naming/rehabilitating a planet, not creating life."
+      },
+      "ces-dieux": {
+       "status": "same",
+       "locator": "ch. 1 / PL3 / line 49",
+       "quote_fr": "le mot hébreu Elohim, traduit par « Dieu » dans les Bibles usuelles, est un pluriel. Quand on poursuit la lecture du texte biblique en lisant « les Venus-du-ciel »",
+       "note": "Same plural reading and same gloss 'Venus-du-ciel'; Sendy also reads 'créa' as 'firent' (re-ordering a cataclysm-hit Earth) rather than discovery/selection."
+      },
+      "nous-autres": {
+       "status": "similar",
+       "locator": "ch. \"De profundis\" (PL1) / line 70",
+       "quote_fr": "les Anges de Byzance, les « venus du ciel », les Elohim du texte biblique, les Célestes",
+       "note": "Elohim as plural, glossed in apposition as 'venus du ciel' / cosmonauts; no etymological claim and no reading of 'created' as 'selected the Earth'."
+      },
+      "ere-du-verseau": {
+       "status": "similar",
+       "locator": "ch. 18 (PL34) / line 1332; ch. 16 (PL31) / line 1058",
+       "quote_fr": "Les Galaxiens venus du ciel, on peut les appeler Célestes",
+       "note": "Elohim is plural ('les dieux', via Voltaire) and names Galaxians who came from the sky, but Sendy gives no etymology 'those who came from the sky'."
+      }
+     }
+    },
+    {
+     "id": "I006",
+     "tbwtt": "2:6–7",
+     "bible_ref": "Genesis 1:2",
+     "topic": "Spirit of Elohim hovered over the waters",
+     "per_book": {
+      "cahiers": {
+       "status": "same",
+       "locator": "Cahier 2, ch. III / PL5 / line 1081",
+       "quote_fr": "contournèrent la Terre en explorateurs : « l’esprit de Dieu se mut autour des eaux » (GEN. I, 2)",
+       "note": "Spirit moving over the waters = extraterrestrial astronauts circling a fog-covered Earth on reconnaissance (no satellites as such)."
+      },
+      "la-lune": {
+       "status": "same",
+       "locator": "Part III ch.premier (Gen 1) / line 4214",
+       "quote_fr": "les radars du cosmonef (« projection de l’esprit des hommes ») n’y discernaient aucune installation",
+       "note": "Spirit of Elohim hovering = the spacecraft's sensors surveying a cloud-shrouded Earth (cf. l.1846 unmanned Venus probe as 'l'esprit des hommes'); Message: artificial satellites."
+      },
+      "ces-dieux": {
+       "status": "same",
+       "locator": "ch. 16 / PL18 / line 582",
+       "quote_fr": "Des capsules ont été laissées en orbite au-dessus des nuages et à l’intérieur de la couche nuageuse, qui continueront à transmettre leurs observations vers Phobos.",
+       "note": "Gen 1:2 'esprit des Élohim' circling Earth = exploration modules and orbiting observation capsules; context is a cloud-shrouded post-glacial Earth (l. 497, 950)."
+      },
+      "nous-autres": {
+       "status": "same",
+       "locator": "ch. \"Les inventeurs\" (PL3) / line 210",
+       "quote_fr": "« l’esprit d’Elohim planait au-dessus des eaux », et du contexte il ressort que les « eaux » en question étaient les nuages opaques dont était enveloppée la Terre",
+       "note": "Hovering = space vehicle over a cloud-shrouded Earth; a probe sent to Venus 'renouvelle' the act. Message: satellites/reconnaissance; Sendy: waters are clouds, not ocean+mists."
+      },
+      "ere-du-verseau": {
+       "status": "similar",
+       "locator": "ch. 1 (PL4) / line 142; ch. 10 (PL21) / line 691",
+       "quote_fr": "envoyer par exemple « l’esprit de l’homme voguer au-dessus des nuages sous lesquels Vénus est en tohu-bohu et privée de lumière »",
+       "note": "Gen 1:2 read as a spacecraft passing over clouds, but applied to human Venus probes as a 'renewal' of Genesis, not to Elohim satellites over Earth."
+      }
+     }
+    },
+    {
+     "id": "I007",
+     "tbwtt": "2:7–8",
+     "bible_ref": "Genesis 1:3–4",
+     "topic": "The light was good",
+     "per_book": {
+      "cahiers": {
+       "status": "similar",
+       "locator": "Cahier 2, ch. IV / PL5 / line 1286",
+       "quote_fr": "les physiciens théosites font retomber les matières organiques opaques en suspension dans les brouillards, permettant au Soleil de les percer",
+       "note": "Day 1 = technological clearing of opaque fogs so sunlight reaches the ground; not a radiation-safety test."
+      },
+      "la-lune": {
+       "status": "similar",
+       "locator": "Part I ch.8 (Etat d'Israël) / line 1965",
+       "quote_fr": "se livrent à une expérience de dispersion de ces nuages, constatent que la lumière passe, et se congratulent d’avoir si bien réussi",
+       "note": "Light 'good' = successful experiment dispersing glaciation clouds; Message = test that solar rays are not harmful."
+      },
+      "ces-dieux": {
+       "status": "similar",
+       "locator": "ch. 17 / PL19 / line 612",
+       "quote_fr": "un cratère est aménagé, à partir duquel la dispersion des nuages opaques est organisée",
+       "note": "Light = Celestials dispersing glaciation dust-clouds (from a lunar crater) to bring sunlight back; not a test of harmful solar radiation. Sendy mocks the God who checks the light is good (l. 614)."
+      },
+      "nous-autres": {
+       "status": "absent",
+       "locator": null,
+       "quote_fr": null,
+       "note": "Not found after searching names, verse refs and synonyms; this book (a polemic on humanism vs 'pensée médiévale') discusses few biblical passages."
+      },
+      "ere-du-verseau": {
+       "status": "similar",
+       "locator": "ch. 17 (PL33) / line 1175; ch. 18 / line 1268",
+       "quote_fr": "Le texte biblique nous montre les Élohim passant un « jour » entier à faire revenir la lumière sur Terre.",
+       "note": "Day one = Elohim restoring light by dispersing post-glaciation clouds, not a test of solar radiation."
+      }
+     }
+    }
+   ],
+   "verdict": "PARTIAL",
+   "summary": "Cloud/water-covered Earth surveyed from orbit: same in four books. \"Created\" re-read (as re-ordering, not discovery). Harmful-ray test of the light: not recorded (light = cloud dispersal).",
+   "lookups": []
+  },
+  {
+   "id": "D03",
+   "detail": "One continent is raised from a shallow sea-bed by explosions; the continents later split (at the Flood, LWTE ch. 4)",
+   "ap_class": "unique",
+   "inventory_items": [
+    {
+     "id": "I010",
+     "tbwtt": "2:13–14",
+     "bible_ref": "Genesis 1:9",
+     "topic": "Gathering of the waters, appearance of dry land",
+     "per_book": {
+      "cahiers": {
+       "status": "mentioned",
+       "locator": "Cahier 2, ch. III / PL5 / line 1093",
+       "quote_fr": "« le sec apparaît »",
+       "note": "Dry land appears naturally as rivers find their beds (Scorpio/Archimedes); continental fit America/Eurafrica cited elsewhere (l.1176) but for Atlantis and dated far earlier; no explosions."
+      },
+      "la-lune": {
+       "status": "similar",
+       "locator": "Part II (Glaciations) / line 3389",
+       "quote_fr": "rétabli le régime des pluies et séparé les terres des mers",
+       "note": "Dry land = waters returning to their beds after the marsh phase; no explosions, no single continent, no continental drift."
+      },
+      "ces-dieux": {
+       "status": "similar",
+       "locator": "ch. 9 / PL11 / line 340",
+       "quote_fr": "cela commence par la canalisation des eaux retombées du ciel, qui peu à peu redeviennent cours d’eau et fleuves",
+       "note": "Dry land = draining/canalising fallen rainwater; no explosions, no single primordial continent, no continental drift."
+      },
+      "nous-autres": {
+       "status": "absent",
+       "locator": null,
+       "quote_fr": null,
+       "note": "Not found after searching names, verse refs and synonyms; this book (a polemic on humanism vs 'pensée médiévale') discusses few biblical passages."
+      },
+      "ere-du-verseau": {
+       "status": "similar",
+       "locator": "ch. 17 (PL33) / line 1178",
+       "quote_fr": "« afin que les eaux de dessous les cieux s’amassent en un seul lieu, et qu’apparaisse la Sèche » (GEN. I, 9) qu’il est fait état d’une tranche de grands travaux supposant une visite sur le chantier",
+       "note": "Gen 1:9 = engineering works on site; no single original continent, explosions or continental drift."
+      }
+     }
+    }
+   ],
+   "verdict": "NOT",
+   "summary": "No explosions, no single raised continent in any book; Cahiers cites the America/Eurafrica fit, for Atlantis (note only, no quote).",
+   "lookups": [
+    "L11"
+   ]
+  },
+  {
+   "id": "D04",
+   "detail": "Several teams of makers work in parallel, meet, compare and hold contests",
+   "ap_class": "shared-not-genesis",
+   "inventory_items": [
+    {
+     "id": "I011",
+     "tbwtt": "2:15–16",
+     "bible_ref": "Genesis 1:11–12",
+     "topic": "Vegetation according to its kind",
+     "per_book": {
+      "cahiers": {
+       "status": "mentioned",
+       "locator": "Cahier 2, ch. III / PL5 / line 1093",
+       "quote_fr": "la terre les produit d’elle-même : le germen végétal avait apparemment gardé intactes ses propriétés",
+       "note": "Explicitly NOT created: vegetation regrows by itself from surviving germ; no lab synthesis or artists."
+      },
+      "la-lune": {
+       "status": "similar",
+       "locator": "Part III ch.premier (Gen 1) / line 4396",
+       "quote_fr": "les arbres fruitiers (explicitement « indigènes », « produits par la terre ») produisent des fruits",
+       "note": "Vegetation = native regrowth ('produits par la terre') within a planned rehabitation 'Tranche'; Message = lab-synthesised plants designed by artists."
+      },
+      "ces-dieux": {
+       "status": "similar",
+       "locator": "ch. 24 / PL26 / line 901",
+       "quote_fr": "D’une flore issue de la flore indigène, bien sûr, issue du matériel génétique ayant survécu au Cataclysme de la glaciation Würm-III.",
+       "note": "Vegetation reconstituted by Celestial botanists from surviving genetic material, not synthesised from chemicals; no artists/decorative plants."
+      },
+      "nous-autres": {
+       "status": "absent",
+       "locator": null,
+       "quote_fr": null,
+       "note": "Not found after searching names, verse refs and synonyms; this book (a polemic on humanism vs 'pensée médiévale') discusses few biblical passages."
+      },
+      "ere-du-verseau": {
+       "status": "similar",
+       "locator": "ch. 17 (PL33) / lines 1160–1161",
+       "quote_fr": "Le texte biblique montre des Galaxiens attelés à la reconstitution, très rationnelle, de l’équilibre biologique d’avant le tohu-bohu",
+       "note": "Vegetation is re-introduced to restore pre-glaciation ecology, not designed by artists for beauty/reproduction."
+      }
+     }
+    },
+    {
+     "id": "I013",
+     "tbwtt": "2:19–22",
+     "bible_ref": "Genesis 1:20–21",
+     "topic": "Sea creatures and birds",
+     "per_book": {
+      "cahiers": {
+       "status": "similar",
+       "locator": "Cahier 2, ch. III / PL5 / line 1100",
+       "quote_fr": "le germen de la faune, plus fragile que celui de la flore, dut être créé (I, 21). Sans doute par insémination artificielle, peut-être même in vitro.",
+       "note": "Aquatic animals and birds artificially (re)created by Théosite biologists in logical order; no artists, plumage contests or courtship design."
+      },
+      "la-lune": {
+       "status": "similar",
+       "locator": "Part III ch.premier-suite / line 4639",
+       "quote_fr": "les oiseaux, dont les insectes assurent la pâture, « renaissent » ensuite, plus ou moins artiﬁciellement",
+       "note": "Fifth day = repopulation after glaciation (insects, then birds 'plus ou moins artificiellement', sea life from frozen stock); no artist-designed birds."
+      },
+      "ces-dieux": {
+       "status": "similar",
+       "locator": "ch. 21 / PL23 / line 752",
+       "quote_fr": "ayant recréé les espèces dans les laboratoires d’Éden pendant les « jours » précédents, les Célestes repeuplent la planète",
+       "note": "Sea and air fauna re-released from lab-recreated stocks to restore biological equilibrium; recreation not creation; no artist-designed bird colours."
+      },
+      "nous-autres": {
+       "status": "absent",
+       "locator": null,
+       "quote_fr": null,
+       "note": "Not found after searching names, verse refs and synonyms; this book (a polemic on humanism vs 'pensée médiévale') discusses few biblical passages."
+      },
+      "ere-du-verseau": {
+       "status": "similar",
+       "locator": "ch. 17 (PL33) / lines 1161, 1225–1226",
+       "quote_fr": "tous les oiseaux sont « créés » au cinquième « jour » (I, 21)",
+       "note": "Birds/sea creatures are 'resurrected' species of the pre-cataclysm biosphere; no artists' competitions."
+      }
+     }
+    },
+    {
+     "id": "I016",
+     "tbwtt": "2:25",
+     "bible_ref": "non-biblical: origin of human races",
+     "topic": "Each human race = one team of creators",
+     "per_book": {
+      "cahiers": {
+       "status": "similar",
+       "locator": "Cahier 2, ch. IV / PL5 / line 1296",
+       "quote_fr": "chacune de celles-ci porte en effet la marque de fabrique du biologiste théosite qui « créa » son lointain ancêtre",
+       "note": "Variety of ANIMAL species = different creator-biologists' \"trademark\"; human groups differ by which Théosite seat guided them, not one team per race."
+      },
+      "la-lune": {
+       "status": "absent",
+       "locator": null,
+       "quote_fr": null,
+       "note": "Not discussed."
+      },
+      "ces-dieux": {
+       "status": "absent",
+       "locator": null,
+       "quote_fr": null,
+       "note": "Single team of ~30 Celestials; no races-per-team."
+      },
+      "nous-autres": {
+       "status": "mentioned",
+       "locator": "ch. \"Notre âge ingrat\" (PL2) / line 108",
+       "quote_fr": "Il est, dans une certaine mesure, rassurant de constater que les « races » n’expliquent rien",
+       "note": "Races discussed but held to explain nothing (cultural conditioning); opposite of one creator team per race."
+      },
+      "ere-du-verseau": {
+       "status": "absent",
+       "locator": null,
+       "quote_fr": null,
+       "note": "No team-per-race claim; 'fifteen couples' arrive together (line 1150)."
+      }
+     }
+    }
+   ],
+   "verdict": "PARTIAL",
+   "summary": "Cahiers: different Théosite biologists each leave a \"marque de fabrique\" on animal species. Contests, artists, geographic teams, one team per race: recorded absent.",
+   "lookups": []
+  },
+  {
+   "id": "D05",
+   "detail": "Some teams make monsters; earlier human 'prototypes' are superseded",
+   "ap_class": "shared-not-genesis",
+   "inventory_items": [
+    {
+     "id": "I014",
+     "tbwtt": "2:22",
+     "bible_ref": "non-biblical: dinosaurs / dragons",
+     "topic": "Monsters: dragons and dinosaurs",
+     "per_book": {
+      "cahiers": {
+       "status": "similar",
+       "locator": "Cahier 2, ch. VII / PL5 / line 1616",
+       "quote_fr": "l’existence d’espèces qui ont survécu malgré des erreurs flagrantes dans la conception de leur anatomie",
+       "note": "Flawed species explained as student biologists' practical work; dinosaurs/dragons are not named."
+      },
+      "la-lune": {
+       "status": "absent",
+       "locator": null,
+       "quote_fr": null,
+       "note": "No dinosaurs/dragons."
+      },
+      "ces-dieux": {
+       "status": "similar",
+       "locator": "ch. 2 / PL4 / line 124",
+       "quote_fr": "démesurés comme la bactérie et l’hippopotame successeur du diplodocus raté",
+       "note": "Only as a rhetorical image of a lab-like experimenter-Creator producing 'monsters' (ch. 2, on evolution); not attributed to the Elohim teams."
+      },
+      "nous-autres": {
+       "status": "absent",
+       "locator": null,
+       "quote_fr": null,
+       "note": "Not found after searching names, verse refs and synonyms; this book (a polemic on humanism vs 'pensée médiévale') discusses few biblical passages."
+      },
+      "ere-du-verseau": {
+       "status": "absent",
+       "locator": null,
+       "quote_fr": null,
+       "note": "No dinosaurs/dragons."
+      }
+     }
+    },
+    {
+     "id": "I215",
+     "tbwtt": "5:62–64",
+     "bible_ref": "non-biblical: theory of evolution (with Genesis 1:26)",
+     "topic": "Evolution is a myth: evolution of creation techniques",
+     "per_book": {
+      "cahiers": {
+       "status": "similar",
+       "locator": "Cahier 2, ch. VII / PL5 / line 1616",
+       "quote_fr": "supprimé comme les ingénieurs suppriment sur un prototype un deuxième carburateur",
+       "note": "Engineered-prototype language for anatomy (the appendix) and species bearing creators' \"trademark\"; but humans descend from cave survivors of an earlier cycle (Sinanthropus 400,000 years), not an \"improved ape model\"."
+      },
+      "la-lune": {
+       "status": "mentioned",
+       "locator": "Part I ch.2 (Plateforme-escale) / line 448",
+       "quote_fr": "La Vie est apparue sur Terre, et y a évolué comme l’enseignent les meilleures autorités universitaires",
+       "note": "Opposite stance: Sendy accepts natural evolution (life ~1 billion years, man ~-600,000); Elohim found men already human."
+      },
+      "ces-dieux": {
+       "status": "similar",
+       "locator": "ch. 2 / PL4 / line 122",
+       "quote_fr": "la Vie apparaît avoir évolué exactement comme elle évoluerait dans un laboratoire où, à partir de l’« étincelle initiale » expérimentalement obtenue, des biologistes chercheraient à créer, par tâtonnements successifs",
+       "note": "Critique of mutation-driven evolution (Guyénot) and lab-like evolution; Sendy leaves it as a dilemma/galactic 'seeding' idea (l. 1385-1386) and attributes only some mutations to the Celestials (l. 677)."
+      },
+      "nous-autres": {
+       "status": "mentioned",
+       "locator": "ch. \"Les inventeurs\" (PL3) / line 140",
+       "quote_fr": "l’homme, produit d’une évolution naturelle jusqu’au paléolithique supérieur, aurait été amélioré par une évolution concertée dès l’arrivée des Célestes",
+       "note": "Accepts natural evolution up to the Upper Palaeolithic, then 'concerted' improvement; opposite of 'evolution is a myth'."
+      },
+      "ere-du-verseau": {
+       "status": "mentioned",
+       "locator": "ch. 1 (PL4) / line 68; ch. 17 / line 1140",
+       "quote_fr": "L’homme est un animal parmi les autres. Bruno avait raison contre les humanistes.",
+       "note": "Opposite stance: Sendy accepts natural evolution of Homo sapiens, with only an acceleration/conditioning by the Galaxians."
+      }
+     }
+    }
+   ],
+   "verdict": "PARTIAL",
+   "summary": "Flawed makes as student biologists' work and prototype language (Cahiers); laboratory trial-and-error and the \"diplodocus raté\" as a rhetorical image (Ces dieux). Superseded human prototypes: not recorded (Sendy's humans evolve naturally).",
+   "lookups": []
+  },
+  {
+   "id": "D06",
+   "detail": "Earlier creation attempts fail (destroyed on order; burned by a star's harmful rays; choked by vegetation); two other planets seeded",
+   "ap_class": "unique",
+   "inventory_items": [
+    {
+     "id": "I171",
+     "tbwtt": "4:41–50",
+     "bible_ref": "Matthew 13:3–9",
+     "topic": "Parable of the sower — parallel humanities",
+     "per_book": {
+      "cahiers": {
+       "status": "absent",
+       "locator": null,
+       "quote_fr": null,
+       "note": "Parable of the sower not discussed."
+      },
+      "la-lune": {
+       "status": "absent",
+       "locator": null,
+       "quote_fr": null,
+       "note": "Not discussed (no Gospel or Acts exegesis beyond John 10:35)."
+      },
+      "ces-dieux": {
+       "status": "absent",
+       "locator": null,
+       "quote_fr": null,
+       "note": "New Testament passage not treated (Gospels cited only at Jn 10:34-35 and Jn 13)."
+      },
+      "nous-autres": {
+       "status": "absent",
+       "locator": null,
+       "quote_fr": null,
+       "note": "Not found after searching names, verse refs and synonyms; this book (a polemic on humanism vs 'pensée médiévale') discusses few biblical passages."
+      },
+      "ere-du-verseau": {
+       "status": "absent",
+       "locator": null,
+       "quote_fr": null,
+       "note": "Not found after searching names, verse numbers and key terms."
+      }
+     }
+    }
+   ],
+   "verdict": "NOT",
+   "summary": "Matthew 13 sower reading absent in all five. LWTE-2:11 specifics are outside the inventory but hang on the same passage. Sendy-only neighbour: an earlier human Golden Age destroyed by a megaton war (Cahiers).",
+   "lookups": [
+    "L12"
+   ]
+  },
+  {
+   "id": "D07",
+   "detail": "Man is made artificially, in laboratories, in the makers' image",
+   "ap_class": "genesis-has-it",
+   "inventory_items": [
+    {
+     "id": "I017",
+     "tbwtt": "2:26–27",
+     "bible_ref": "Genesis 1:26–27",
+     "topic": "Let us make man in our image",
+     "per_book": {
+      "cahiers": {
+       "status": "similar",
+       "locator": "Cahier 2, ch. IV / PL5 / line 1312",
+       "quote_fr": "Décidèrent-ils sur-le-champ de civiliser les Troglodytes, c’est-à-dire de « les façonner à leur image »",
+       "note": "Humans already exist (cave survivors of a previous cycle) and physically resemble the giants; \"in our image\" = civilising them, not artificial manufacture."
+      },
+      "la-lune": {
+       "status": "similar",
+       "locator": "Part III ch.premier-suite / line 4668",
+       "quote_fr": "ou « Elohim » est le pluriel que je propose, et « notre » est aussi cohérent que la décision de façonner l’homme à l’image de bipèdes aussi concrets que nous",
+       "note": "Same plural and literal physical likeness (rejects plural of majesty), but 'making man' = uplifting naturally evolved native bipeds, not laboratory synthesis."
+      },
+      "ces-dieux": {
+       "status": "similar",
+       "locator": "ch. 1 / PL3 / line 51",
+       "quote_fr": "le récit de l’arrivée de Célestes parfaitement concrets, physiquement à notre image",
+       "note": "Literal physical likeness of the Elohim to us is affirmed, but 'make man in our image' = conditioning/directed evolution of native humans (l. 782, 899), not artificial creation."
+      },
+      "nous-autres": {
+       "status": "similar",
+       "locator": "ch. \"Notre âge ingrat\" (PL2) / line 160",
+       "quote_fr": "« Mâle-et-femelle », pour citer le texte biblique, l’homme pris en charge par les Elohim",
+       "note": "Elohim were bipeds physically like the natives (l.251), but humans pre-existed by natural evolution and were 'taken in charge'/improved, not artificially made."
+      },
+      "ere-du-verseau": {
+       "status": "same",
+       "locator": "ch. 16 (PL31) / lines 1058, 1061; ch. 15 / line 1045",
+       "quote_fr": "pour laquelle les Élohim de la Genèse étaient des Galaxiens, sexués comme vous et moi",
+       "note": "Gen 1:26–27 taken literally: Elohim are physically like humans (Adam Kadmon prototype); the plural is stressed."
+      }
+     }
+    },
+    {
+     "id": "I018",
+     "tbwtt": "2:28",
+     "bible_ref": "Genesis 2:8–15",
+     "topic": "Garden of Eden = laboratory in Israel",
+     "per_book": {
+      "cahiers": {
+       "status": "similar",
+       "locator": "Cahier 2, ch. III / PL5 / line 1156",
+       "quote_fr": "L’Eden devait se trouver à Thèbes ou dans les environs",
+       "note": "Eden = colonial establishment with a genetics lab, but placed at Thebes (Egypt); Palestine is \"east of Eden\" (Jericho I)."
+      },
+      "la-lune": {
+       "status": "similar",
+       "locator": "Part III ch.deuxième (Gen 2) / line 4568",
+       "quote_fr": "comme on installe généralement les centres de recherches scientiﬁques (Saclay, par exemple) au milieu d’un jardin ﬂeuri",
+       "note": "Eden = a garden with its trees placed 'like research centres (Saclay)'; natives garden and guard it. No laboratory creation, not located in Israel."
+      },
+      "ces-dieux": {
+       "status": "similar",
+       "locator": "ch. 19 / PL21 / line 668",
+       "quote_fr": "Ils vivent dans un paradis du bassin méditerranéen, sous un micro-climat maintenu par le météorologue dont le laboratoire est Lilith",
+       "note": "Eden = walled laboratory park of the Celestials (l. 656, 963) in the Mediterranean basin / later Atlantis-like site (l. 1141); not located in Israel, single team only."
+      },
+      "nous-autres": {
+       "status": "similar",
+       "locator": "ch. \"Les inventeurs\" (PL3) / line 251",
+       "quote_fr": "Eden clos de murs qui le protègent de la faune terrestre, avec à l’intérieur « Adam », éponyme des échantillons d’humanité prélevés par les Célestes sur la population indigène",
+       "note": "Eden = walled compound of the Celestials; Adam = sampled natives. No laboratory synthesis, no location in Israel, no rival teams."
+      },
+      "ere-du-verseau": {
+       "status": "similar",
+       "locator": "ch. 17 (PL33) / lines 1157–1159; ch. 9 / line 597",
+       "quote_fr": "leur premier souci devrait être de se faire construire un Eden fortifié, et de le faire garder par des échantillons d’indigènes",
+       "note": "Eden = the Galaxians' fortified colony in the Middle East, guarded by selected natives; not a laboratory located in Israel on a single continent."
+      }
+     }
+    }
+   ],
+   "verdict": "PARTIAL",
+   "summary": "Literal physical image: same (L'ère) / similar (four books). Laboratory manufacture of man: contradicted in all five (natives pre-exist; improved, not made). Eden as laboratory compound: similar in all five.",
+   "lookups": []
+  },
+  {
+   "id": "D08",
+   "detail": "Why man is made: the ablest makers want to make a being like themselves (no labor motive)",
+   "ap_class": "canon-contradicts-older",
+   "inventory_items": [
+    {
+     "id": "I017",
+     "tbwtt": "2:26–27",
+     "bible_ref": "Genesis 1:26–27",
+     "topic": "Let us make man in our image",
+     "per_book": {
+      "cahiers": {
+       "status": "similar",
+       "locator": "Cahier 2, ch. IV / PL5 / line 1312",
+       "quote_fr": "Décidèrent-ils sur-le-champ de civiliser les Troglodytes, c’est-à-dire de « les façonner à leur image »",
+       "note": "Humans already exist (cave survivors of a previous cycle) and physically resemble the giants; \"in our image\" = civilising them, not artificial manufacture."
+      },
+      "la-lune": {
+       "status": "similar",
+       "locator": "Part III ch.premier-suite / line 4668",
+       "quote_fr": "ou « Elohim » est le pluriel que je propose, et « notre » est aussi cohérent que la décision de façonner l’homme à l’image de bipèdes aussi concrets que nous",
+       "note": "Same plural and literal physical likeness (rejects plural of majesty), but 'making man' = uplifting naturally evolved native bipeds, not laboratory synthesis."
+      },
+      "ces-dieux": {
+       "status": "similar",
+       "locator": "ch. 1 / PL3 / line 51",
+       "quote_fr": "le récit de l’arrivée de Célestes parfaitement concrets, physiquement à notre image",
+       "note": "Literal physical likeness of the Elohim to us is affirmed, but 'make man in our image' = conditioning/directed evolution of native humans (l. 782, 899), not artificial creation."
+      },
+      "nous-autres": {
+       "status": "similar",
+       "locator": "ch. \"Notre âge ingrat\" (PL2) / line 160",
+       "quote_fr": "« Mâle-et-femelle », pour citer le texte biblique, l’homme pris en charge par les Elohim",
+       "note": "Elohim were bipeds physically like the natives (l.251), but humans pre-existed by natural evolution and were 'taken in charge'/improved, not artificially made."
+      },
+      "ere-du-verseau": {
+       "status": "same",
+       "locator": "ch. 16 (PL31) / lines 1058, 1061; ch. 15 / line 1045",
+       "quote_fr": "pour laquelle les Élohim de la Genèse étaient des Galaxiens, sexués comme vous et moi",
+       "note": "Gen 1:26–27 taken literally: Elohim are physically like humans (Adam Kadmon prototype); the plural is stressed."
+      }
+     }
+    },
+    {
+     "id": "I018",
+     "tbwtt": "2:28",
+     "bible_ref": "Genesis 2:8–15",
+     "topic": "Garden of Eden = laboratory in Israel",
+     "per_book": {
+      "cahiers": {
+       "status": "similar",
+       "locator": "Cahier 2, ch. III / PL5 / line 1156",
+       "quote_fr": "L’Eden devait se trouver à Thèbes ou dans les environs",
+       "note": "Eden = colonial establishment with a genetics lab, but placed at Thebes (Egypt); Palestine is \"east of Eden\" (Jericho I)."
+      },
+      "la-lune": {
+       "status": "similar",
+       "locator": "Part III ch.deuxième (Gen 2) / line 4568",
+       "quote_fr": "comme on installe généralement les centres de recherches scientiﬁques (Saclay, par exemple) au milieu d’un jardin ﬂeuri",
+       "note": "Eden = a garden with its trees placed 'like research centres (Saclay)'; natives garden and guard it. No laboratory creation, not located in Israel."
+      },
+      "ces-dieux": {
+       "status": "similar",
+       "locator": "ch. 19 / PL21 / line 668",
+       "quote_fr": "Ils vivent dans un paradis du bassin méditerranéen, sous un micro-climat maintenu par le météorologue dont le laboratoire est Lilith",
+       "note": "Eden = walled laboratory park of the Celestials (l. 656, 963) in the Mediterranean basin / later Atlantis-like site (l. 1141); not located in Israel, single team only."
+      },
+      "nous-autres": {
+       "status": "similar",
+       "locator": "ch. \"Les inventeurs\" (PL3) / line 251",
+       "quote_fr": "Eden clos de murs qui le protègent de la faune terrestre, avec à l’intérieur « Adam », éponyme des échantillons d’humanité prélevés par les Célestes sur la population indigène",
+       "note": "Eden = walled compound of the Celestials; Adam = sampled natives. No laboratory synthesis, no location in Israel, no rival teams."
+      },
+      "ere-du-verseau": {
+       "status": "similar",
+       "locator": "ch. 17 (PL33) / lines 1157–1159; ch. 9 / line 597",
+       "quote_fr": "leur premier souci devrait être de se faire construire un Eden fortifié, et de le faire garder par des échantillons d’indigènes",
+       "note": "Eden = the Galaxians' fortified colony in the Middle East, guarded by selected natives; not a laboratory located in Israel on a single continent."
+      }
+     }
+    }
+   ],
+   "verdict": "NOT",
+   "summary": "No making of man, so no making-motive. What Sendy has in the slot: natives civilised, sampled, and used as guards/servants of Eden.",
+   "lookups": []
+  },
+  {
+   "id": "D09",
+   "detail": "Humans supply food to the makers: offerings prompted by the exiles; after the Flood Noah pledges a share of crops and herds 'for their subsistence'",
+   "ap_class": "shared-not-genesis",
+   "inventory_items": [
+    {
+     "id": "I027",
+     "tbwtt": "2:47–48",
+     "bible_ref": "Genesis 4:3–4",
+     "topic": "Offerings of Cain and Abel",
+     "per_book": {
+      "cahiers": {
+       "status": "similar",
+       "locator": "Cahier 2, ch. V / PL5 / line 1423",
+       "quote_fr": "ils manifestent leur reconnaissance en assurant le vivre et le couvert aux Elohim",
+       "note": "Offerings = food supply for the Elohim (who preferred meat); purpose is gratitude/upkeep, not exiles proving loyalty to superiors."
+      },
+      "la-lune": {
+       "status": "mentioned",
+       "locator": "Part II (Glaciations) / line 3476",
+       "quote_fr": "et aussi avec la découverte de l’agriculture et de l’élevage par Abel et Caïn",
+       "note": "Cain/Abel = discovery of agriculture and herding at start of the 7th 'day' (~-8000); offerings not discussed."
+      },
+      "ces-dieux": {
+       "status": "similar",
+       "locator": "ch. 30 / PL32 / line 1102",
+       "quote_fr": "ils interdirent l’entrée d’Éden à tout bipède indigène, sauf pour leur apporter les viandes d’élevage (Abel) et les graminées, fruits et légumes (Caïn)",
+       "note": "Offerings = humans supplying the Celestials with food; no loyalty display to overseers; Cain/Abel also read as rival 'Gérant' kings (l. 1107)."
+      },
+      "nous-autres": {
+       "status": "absent",
+       "locator": null,
+       "quote_fr": null,
+       "note": "Not found after searching names, verse refs and synonyms; this book (a polemic on humanism vs 'pensée médiévale') discusses few biblical passages."
+      },
+      "ere-du-verseau": {
+       "status": "similar",
+       "locator": "ch. 17 (PL33) / line 1206",
+       "quote_fr": "les Élohim tellement adaptés à la vie terrestre qu’Abel et Caïn leur apportent le produit de l’élevage et de l’agriculture pratiqués hors d’Eden",
+       "note": "Offerings go to physical Elohim, but as a sign of the Elohim's adaptation/decline, not a loyalty test."
+      }
+     }
+    },
+    {
+     "id": "I036",
+     "tbwtt": "2:63–64",
+     "bible_ref": "Genesis 8:1–19",
+     "topic": "Elohim remembered Noah; waters abate; animals released",
+     "per_book": {
+      "cahiers": {
+       "status": "similar",
+       "locator": "Cahier 2, ch. VI / PL5 / line 1482",
+       "quote_fr": "Un an et dix jours de contamination",
+       "note": "Flood chronology read as a period of radioactive contamination; no raven/dove atmosphere test, no tithe."
+      },
+      "la-lune": {
+       "status": "absent",
+       "locator": null,
+       "quote_fr": null,
+       "note": "Raven/dove not discussed."
+      },
+      "ces-dieux": {
+       "status": "mentioned",
+       "locator": "ch. 32 / PL34 / line 1156",
+       "quote_fr": "La communication entre les Élohim et Noé n’a rien de plus « miraculeux » que les contacts radio et télé entre Cap Kennedy et Apollo",
+       "note": "Gen 8:13-15 read as radio instructions to Noah from departing Celestials; no raven/dove atmosphere test, no radioactivity, no tithe."
+      },
+      "nous-autres": {
+       "status": "absent",
+       "locator": null,
+       "quote_fr": null,
+       "note": "Not found after searching names, verse refs and synonyms; this book (a polemic on humanism vs 'pensée médiévale') discusses few biblical passages."
+      },
+      "ere-du-verseau": {
+       "status": "mentioned",
+       "locator": "ch. 20 (PL38) / line 1390",
+       "quote_fr": "Lorsque Noé et ses fils sortirent de leur « arche », ils constatèrent qu’il n’y avait personne.",
+       "note": "Exit from the ark discussed (nobody known left, Elohim gone); no raven/dove atmosphere test or radioactivity."
+      }
+     }
+    },
+    {
+     "id": "I064",
+     "tbwtt": "3:43–45",
+     "bible_ref": "Leviticus 1–7; 21:17–18",
+     "topic": "Offerings as food supply; blemished priests excluded",
+     "per_book": {
+      "cahiers": {
+       "status": "mentioned",
+       "locator": "Cahier 1, ch. IX / PL4 / line 672",
+       "quote_fr": "Chaque sacrifice du Pentateuque a un sens précis",
+       "note": "Sacrifices read as zodiacal/initiatic code (bull, ram, lamb); no food-supply or blemished-priest reading."
+      },
+      "la-lune": {
+       "status": "absent",
+       "locator": null,
+       "quote_fr": null,
+       "note": "Not discussed."
+      },
+      "ces-dieux": {
+       "status": "absent",
+       "locator": null,
+       "quote_fr": null,
+       "note": "Exodus–Deuteronomy passage not treated (Sendy denies direct Celestial help to Moses, l. 1306)."
+      },
+      "nous-autres": {
+       "status": "absent",
+       "locator": null,
+       "quote_fr": null,
+       "note": "Not found after searching names, verse refs and synonyms; this book (a polemic on humanism vs 'pensée médiévale') discusses few biblical passages."
+      },
+      "ere-du-verseau": {
+       "status": "absent",
+       "locator": null,
+       "quote_fr": null,
+       "note": "Not found after searching names, verse numbers and key terms."
+      }
+     }
+    }
+   ],
+   "verdict": "IN",
+   "summary": "First half (humans bring food to physical Elohim, on Gen 4): similar in Cahiers, Ces dieux, L'ère, with quotes. Second half (Noah's post-Flood pledge \"pour leur subsistance\"): recorded absent (\"no tithe\") in all five.",
+   "lookups": []
+  },
+  {
+   "id": "D10",
+   "detail": "The home world objects to the making of man and fears he will surpass his makers; man must be kept ignorant",
+   "ap_class": "shared-not-genesis",
+   "inventory_items": [
+    {
+     "id": "I004",
+     "tbwtt": "2:2",
+     "bible_ref": "non-biblical: origin of the creators — lab-created life on the home planet",
+     "topic": "Creators banned from genetic experiments at home",
+     "per_book": {
+      "cahiers": {
+       "status": "absent",
+       "locator": null,
+       "quote_fr": null,
+       "note": "No home-planet ban on genetic experiments or escaped lab animal."
+      },
+      "la-lune": {
+       "status": "absent",
+       "locator": null,
+       "quote_fr": null,
+       "note": "Not discussed; Sendy does not speculate on the Celestials' origin (l.80-82)."
+      },
+      "ces-dieux": {
+       "status": "similar",
+       "locator": "ch. 15 / PL17 / line 553",
+       "quote_fr": "Ces cosmonautes quittent une civilisation qui, ayant réalisé le dernier des rêves fous qui passionnent les scientifiques dignes de ce nom, ne trouve plus à s’employer",
+       "note": "Home-world motive differs: Sendy's Theos scientists leave out of boredom, on good terms (and a mature world is glad to export its 'mutant' geniuses, l. 764); no lab-life ban, no escaped creature."
+      },
+      "nous-autres": {
+       "status": "absent",
+       "locator": null,
+       "quote_fr": null,
+       "note": "Not found after searching names, verse refs and synonyms; this book (a polemic on humanism vs 'pensée médiévale') discusses few biblical passages."
+      },
+      "ere-du-verseau": {
+       "status": "absent",
+       "locator": null,
+       "quote_fr": null,
+       "note": "Nothing on lab life banned at home; Sendy's genetic engineering concerns breeding a 'race des dieux' in orbit for the voyage (lines 1183–1190)."
+      }
+     }
+    },
+    {
+     "id": "I018",
+     "tbwtt": "2:28",
+     "bible_ref": "Genesis 2:8–15",
+     "topic": "Garden of Eden = laboratory in Israel",
+     "per_book": {
+      "cahiers": {
+       "status": "similar",
+       "locator": "Cahier 2, ch. III / PL5 / line 1156",
+       "quote_fr": "L’Eden devait se trouver à Thèbes ou dans les environs",
+       "note": "Eden = colonial establishment with a genetics lab, but placed at Thebes (Egypt); Palestine is \"east of Eden\" (Jericho I)."
+      },
+      "la-lune": {
+       "status": "similar",
+       "locator": "Part III ch.deuxième (Gen 2) / line 4568",
+       "quote_fr": "comme on installe généralement les centres de recherches scientiﬁques (Saclay, par exemple) au milieu d’un jardin ﬂeuri",
+       "note": "Eden = a garden with its trees placed 'like research centres (Saclay)'; natives garden and guard it. No laboratory creation, not located in Israel."
+      },
+      "ces-dieux": {
+       "status": "similar",
+       "locator": "ch. 19 / PL21 / line 668",
+       "quote_fr": "Ils vivent dans un paradis du bassin méditerranéen, sous un micro-climat maintenu par le météorologue dont le laboratoire est Lilith",
+       "note": "Eden = walled laboratory park of the Celestials (l. 656, 963) in the Mediterranean basin / later Atlantis-like site (l. 1141); not located in Israel, single team only."
+      },
+      "nous-autres": {
+       "status": "similar",
+       "locator": "ch. \"Les inventeurs\" (PL3) / line 251",
+       "quote_fr": "Eden clos de murs qui le protègent de la faune terrestre, avec à l’intérieur « Adam », éponyme des échantillons d’humanité prélevés par les Célestes sur la population indigène",
+       "note": "Eden = walled compound of the Celestials; Adam = sampled natives. No laboratory synthesis, no location in Israel, no rival teams."
+      },
+      "ere-du-verseau": {
+       "status": "similar",
+       "locator": "ch. 17 (PL33) / lines 1157–1159; ch. 9 / line 597",
+       "quote_fr": "leur premier souci devrait être de se faire construire un Eden fortifié, et de le faire garder par des échantillons d’indigènes",
+       "note": "Eden = the Galaxians' fortified colony in the Middle East, guarded by selected natives; not a laboratory located in Israel on a single continent."
+      }
+     }
+    },
+    {
+     "id": "I019",
+     "tbwtt": "2:29–30",
+     "bible_ref": "Genesis 2:16–17",
+     "topic": "Tree of knowledge of good and evil",
+     "per_book": {
+      "cahiers": {
+       "status": "same",
+       "locator": "Cahier 2, ch. III / PL5 / line 1113",
+       "quote_fr": "l’Amphi de la Science-des-Sciences (« Arbre de la Connaissance »)",
+       "note": "Tree of knowledge = the colonists' science, taught in a lecture hall forbidden to the native servants (II, 17)."
+      },
+      "la-lune": {
+       "status": "mentioned",
+       "locator": "Part III ch.deuxième-suite / line 4738",
+       "quote_fr": "que nous ignorons la nature du « fruit » interdit",
+       "note": "Sendy declines to identify the forbidden fruit; rejects 'spiritual death' gloss; no 'scientific books' reading."
+      },
+      "ces-dieux": {
+       "status": "same",
+       "locator": "ch. 29 / PL31 / line 1047",
+       "quote_fr": "le Seigneur des Célestes leur a bien dit qu’ils mourraient s’ils entraient dans ce laboratoire, s’ils « mangeaient » les livres et gravures qui s’y trouvent",
+       "note": "Tree of knowledge = a laboratory of books and engravings forbidden on pain of death; 'eating' = learning (Ez 3, l. 1016). Within an experimental/control-group frame."
+      },
+      "nous-autres": {
+       "status": "similar",
+       "locator": "ch. \"Notre âge ingrat\" (PL2) / line 161",
+       "quote_fr": "Satan qui lui révéla la « connaissance du bien et du mal », lui fit comprendre que l’homme était non seulement supérieur aux autres mammifères mais aussi l’égal des dieux",
+       "note": "Forbidden knowledge = real knowledge withheld by the Celestials, but its content is equality with the gods (and linked to sex/paternity), not science books."
+      },
+      "ere-du-verseau": {
+       "status": "similar",
+       "locator": "ch. 18 (PL34) / lines 1302, 1350",
+       "quote_fr": "Le Bien et le Mal dont la connaissance était interdite à l’homme concernait donc bien une échelle de valeurs à l’usage exclusif des Élohim",
+       "note": "Forbidden knowledge = the Elohim's own value scale ('Bien' = efficiency) and the fact they were not divine; not 'scientific books'."
+      }
+     }
+    },
+    {
+     "id": "I025",
+     "tbwtt": "2:42–43",
+     "bible_ref": "Genesis 3:22",
+     "topic": "Man has become like one of us; tree of life",
+     "per_book": {
+      "cahiers": {
+       "status": "similar",
+       "locator": "Cahier 2, ch. III / PL5 / line 1113",
+       "quote_fr": "un Grand Labo de génétique-biologie (« Arbre de Vie »)",
+       "note": "Tree of life = the colonists' genetics/biology lab (incubators), not explicitly life-extension; \"comme l’un de nous\" = end of elementary schooling; no chosen-people contest."
+      },
+      "la-lune": {
+       "status": "mentioned",
+       "locator": "Part III ch.troisième (Gen 3) / line 4936",
+       "quote_fr": "Voici que l’homme est devenu COMME L’UN DE NOUS",
+       "note": "Gen 3:22 quoted only as plural evidence (Iahvé yielding to the serpent's reasoning); no immortality/chosen-people reading."
+      },
+      "ces-dieux": {
+       "status": "similar",
+       "locator": "ch. 24 / PL26 / line 924",
+       "quote_fr": "qu’un dieu humoriste a surnommé « le peuple élu », surnom qui leur est resté",
+       "note": "'Chosen people' = Eden's vivisected experimental stock, not winners of a creators' contest; tree of life = living forever, left technologically unexplained (l. 1063, 1346)."
+      },
+      "nous-autres": {
+       "status": "similar",
+       "locator": "ch. \"Notre âge ingrat\" (PL2) / line 161",
+       "quote_fr": "le primitif, jusque-là serviteur soumis, ivre d’orgueil de se savoir semblable aux « dieux », risquait évidemment à tout moment de jouer avec les manettes de n’importe quoi, de faire tout sauter",
+       "note": "Expulsion from fear of humans 'like the gods' tampering with technology; no tree-of-life longevity and no contest electing Israel."
+      },
+      "ere-du-verseau": {
+       "status": "similar",
+       "locator": "ch. 18 (PL34) / line 1309; ch. 19 / line 1345",
+       "quote_fr": "« L’homme est devenu comme l’un de nous, grâce à la science du Bien et du Mal », lui fait dire textuellement la Genèse, III, 22.",
+       "note": "Gen 3:22's 'us' read as physical Elohim whom man now equals; nothing on the tree of life, longevity or a chosen-people contest."
+      }
+     }
+    },
+    {
+     "id": "I136",
+     "tbwtt": "3:248–256",
+     "bible_ref": "Job 1:6–12; 2:6",
+     "topic": "Satan among the sons of Elohim; testing Job",
+     "per_book": {
+      "cahiers": {
+       "status": "absent",
+       "locator": null,
+       "quote_fr": null,
+       "note": "Job not discussed; Sendy's Satan is the pro-human serpent of Genesis (see I021), not a sceptical opposition leader."
+      },
+      "la-lune": {
+       "status": "similar",
+       "locator": "Part III ch.troisième (Gen 3) / line 4907",
+       "quote_fr": "Satan, « l’ange déchu », est présenté comme « ﬁls des Elohim » dans le Livre de Job",
+       "note": "Job 1:6 quoted: Satan is one of the sons of the Elohim; Job suggested as an 'incidente' explaining Gen 3. No opposition faction on a home planet."
+      },
+      "ces-dieux": {
+       "status": "similar",
+       "locator": "ch. 30 / PL32 / line 1113",
+       "quote_fr": "D’un commun accord, le Seigneur et Satan choisissent un sujet d’expérience, Job",
+       "note": "Satan among the bene ha-elohim = Lucifer (the fallen mutant) received in audience; Job an experiment; not a home-planet opposition leader."
+      },
+      "nous-autres": {
+       "status": "absent",
+       "locator": null,
+       "quote_fr": null,
+       "note": "Not found after searching names, verse refs and synonyms; this book (a polemic on humanism vs 'pensée médiévale') discusses few biblical passages."
+      },
+      "ere-du-verseau": {
+       "status": "absent",
+       "locator": null,
+       "quote_fr": null,
+       "note": "Job 1–2 not cited; Satan is treated as a dissident Théosite under Gen 3 (see I021)."
+      }
+     }
+    }
+   ],
+   "verdict": "PARTIAL",
+   "summary": "Knowledge withheld from the natives and fear of human parity: recorded (Cahiers, Ces dieux, Nous autres). An objection from a home world before man is made: recorded absent.",
+   "lookups": []
+  },
+  {
+   "id": "D11",
+   "detail": "Satan is one of the Elohim, head of the party that expects only evil from man; he is later licensed to test humans",
+   "ap_class": "shared-not-genesis",
+   "inventory_items": [
+    {
+     "id": "I136",
+     "tbwtt": "3:248–256",
+     "bible_ref": "Job 1:6–12; 2:6",
+     "topic": "Satan among the sons of Elohim; testing Job",
+     "per_book": {
+      "cahiers": {
+       "status": "absent",
+       "locator": null,
+       "quote_fr": null,
+       "note": "Job not discussed; Sendy's Satan is the pro-human serpent of Genesis (see I021), not a sceptical opposition leader."
+      },
+      "la-lune": {
+       "status": "similar",
+       "locator": "Part III ch.troisième (Gen 3) / line 4907",
+       "quote_fr": "Satan, « l’ange déchu », est présenté comme « ﬁls des Elohim » dans le Livre de Job",
+       "note": "Job 1:6 quoted: Satan is one of the sons of the Elohim; Job suggested as an 'incidente' explaining Gen 3. No opposition faction on a home planet."
+      },
+      "ces-dieux": {
+       "status": "similar",
+       "locator": "ch. 30 / PL32 / line 1113",
+       "quote_fr": "D’un commun accord, le Seigneur et Satan choisissent un sujet d’expérience, Job",
+       "note": "Satan among the bene ha-elohim = Lucifer (the fallen mutant) received in audience; Job an experiment; not a home-planet opposition leader."
+      },
+      "nous-autres": {
+       "status": "absent",
+       "locator": null,
+       "quote_fr": null,
+       "note": "Not found after searching names, verse refs and synonyms; this book (a polemic on humanism vs 'pensée médiévale') discusses few biblical passages."
+      },
+      "ere-du-verseau": {
+       "status": "absent",
+       "locator": null,
+       "quote_fr": null,
+       "note": "Job 1–2 not cited; Satan is treated as a dissident Théosite under Gen 3 (see I021)."
+      }
+     }
+    },
+    {
+     "id": "I021",
+     "tbwtt": "2:34–35",
+     "bible_ref": "Genesis 3:1–5",
+     "topic": "The serpent tempts the woman",
+     "per_book": {
+      "cahiers": {
+       "status": "same",
+       "locator": "Cahier 2, ch. III / PL5 / line 1116",
+       "quote_fr": "De son vrai nom ce Théosite anticonformiste s’appelait, comme chacun sait, M. Satan.",
+       "note": "Serpent = a dissident colonist (\"philanthrope ... estimant que les humains avaient droit à l’Initiation\"); one individual rather than a small group."
+      },
+      "la-lune": {
+       "status": "similar",
+       "locator": "Part III ch.troisième (Gen 3) / line 4895",
+       "quote_fr": "le serpent-qui-parle et connaît aussi bien que les autres ﬁls des Elohim l’eﬀet du « fruit »",
+       "note": "Serpent implied to be one of the sons of the Elohim (linked to Satan in Job), but Sendy withdrew his explanation of Gen 3; no dissident scientist faction."
+      },
+      "ces-dieux": {
+       "status": "similar",
+       "locator": "ch. 29 / PL31 / line 1043",
+       "quote_fr": "ce qui incite bien à voir en lui un indigène en cours de mutation",
+       "note": "Serpent = a mutant native (later Lucifer) who already knew the science, not a dissident faction of creators."
+      },
+      "nous-autres": {
+       "status": "similar",
+       "locator": "ch. \"Notre âge ingrat\" (PL2) / line 161",
+       "quote_fr": "C’est sur cette science rudimentaire que se greffe l’épisode de l’ « Ange Déchu », de Satan qui lui révéla la « connaissance du bien et du mal »",
+       "note": "Serpent = a fallen Angel (a Celestial) who told man he was equal to the gods. Message: a small faction of creating scientists offering full scientific education."
+      },
+      "ere-du-verseau": {
+       "status": "same",
+       "locator": "ch. 18 (PL34) / lines 1305–1306, 1353",
+       "quote_fr": "Lucifer veut porter la lumière aux hommes tout de suite. Satan veut que les hommes sachent tout, tout de suite.",
+       "note": "Serpent = a dissident creator (one Théosite, Satan-Lucifer, not a group) who prematurely reveals that the Elohim are not divine but of human nature."
+      }
+     }
+    },
+    {
+     "id": "I162",
+     "tbwtt": "4:17–20",
+     "bible_ref": "Matthew 3:16–4:1",
+     "topic": "Baptism (dove, voice) and temptation in the desert",
+     "per_book": {
+      "cahiers": {
+       "status": "mentioned",
+       "locator": "Cahier 2, ch. III / PL5 / line 1066",
+       "quote_fr": "dans l’eau des Poissons remplaçant l’ oing hébraïque à la graisse de Bélier",
+       "note": "Baptism read as Pisces symbolism replacing the Aries ram-fat anointing; temptation not discussed."
+      },
+      "la-lune": {
+       "status": "absent",
+       "locator": null,
+       "quote_fr": null,
+       "note": "Not discussed (no Gospel or Acts exegesis beyond John 10:35)."
+      },
+      "ces-dieux": {
+       "status": "absent",
+       "locator": null,
+       "quote_fr": null,
+       "note": "New Testament passage not treated (Gospels cited only at Jn 10:34-35 and Jn 13)."
+      },
+      "nous-autres": {
+       "status": "mentioned",
+       "locator": "ch. \"Le Moyen Age\" (PL5) / line 334",
+       "quote_fr": "Jean-Baptiste qui le baptisa, lui transmettant ainsi l’investiture des Esséniens",
+       "note": "Baptism = Essene investiture, not initiation by creators."
+      },
+      "ere-du-verseau": {
+       "status": "absent",
+       "locator": null,
+       "quote_fr": null,
+       "note": "Not found after searching names, verse numbers and key terms."
+      }
+     }
+    }
+   ],
+   "verdict": "PARTIAL",
+   "summary": "Satan as one of the sons of the Elohim (La lune, via Job) and as a Théosite (Cahiers, L'ère); Lord and Satan agree on Job as experimental subject (Ces dieux). But Sendy's Satan is the pro-human discloser; an anti-human opposition leader is recorded absent in all five.",
+   "lookups": [
+    "L07"
+   ]
+  },
+  {
+   "id": "D12",
+   "detail": "The makers teach the first man the names and properties of plants and animals",
+   "ap_class": "shared-not-genesis",
+   "inventory_items": [
+    {
+     "id": "I020",
+     "tbwtt": "2:31–33",
+     "bible_ref": "Genesis 2:19–20",
+     "topic": "Adam names the animals",
+     "per_book": {
+      "cahiers": {
+       "status": "absent",
+       "locator": null,
+       "quote_fr": null,
+       "note": "Naming of the animals (Gen 2:19-20) not discussed; Sendy only notes Adam receives a name at III, 20 (\"état civil\")."
+      },
+      "la-lune": {
+       "status": "similar",
+       "locator": "Part III ch.deuxième-suite / line 4759",
+       "quote_fr": "comment fut résolu le problème du langage, c’est-à-dire de la communication entre Célestes et indigènes",
+       "note": "Naming of animals = solving the language/communication problem (creation named in the natives' tongue); Message = zoology/botany lessons."
+      },
+      "ces-dieux": {
+       "status": "similar",
+       "locator": "ch. 18 / PL20 / line 653",
+       "quote_fr": "utilisant, à mesure, le procédé usuel des colonisateurs cherchant à apprendre la langue des indigènes",
+       "note": "Naming the animals = Elohim learning the native language (and adding native words to their own language, l. 528), not teaching botany/zoology."
+      },
+      "nous-autres": {
+       "status": "absent",
+       "locator": "ch. \"Notre âge ingrat\" (PL2) / line 160",
+       "quote_fr": null,
+       "note": "Naming of animals not discussed; Sendy instead has the Celestials teach Adam paternity/obstetrics."
+      },
+      "ere-du-verseau": {
+       "status": "similar",
+       "locator": "ch. 17 (PL33) / lines 1165–1166",
+       "quote_fr": "Le meilleur moyen de le savoir, c’était bien de consulter l’indigène, non ? Et d’apprendre quelques mots de sa langue, par la même occasion",
+       "note": "Naming = Elohim checking resurrected species with the native and learning his language, not zoology lessons for Adam."
+      }
+     }
+    }
+   ],
+   "verdict": "NOT",
+   "summary": "Direction reversed in three books: the Elohim learn the natives' names. Not discussed in the other two.",
+   "lookups": []
+  },
+  {
+   "id": "D13",
+   "detail": "The prohibition concerns scientific knowledge (books)",
+   "ap_class": "genesis-has-it",
+   "inventory_items": [
+    {
+     "id": "I019",
+     "tbwtt": "2:29–30",
+     "bible_ref": "Genesis 2:16–17",
+     "topic": "Tree of knowledge of good and evil",
+     "per_book": {
+      "cahiers": {
+       "status": "same",
+       "locator": "Cahier 2, ch. III / PL5 / line 1113",
+       "quote_fr": "l’Amphi de la Science-des-Sciences (« Arbre de la Connaissance »)",
+       "note": "Tree of knowledge = the colonists' science, taught in a lecture hall forbidden to the native servants (II, 17)."
+      },
+      "la-lune": {
+       "status": "mentioned",
+       "locator": "Part III ch.deuxième-suite / line 4738",
+       "quote_fr": "que nous ignorons la nature du « fruit » interdit",
+       "note": "Sendy declines to identify the forbidden fruit; rejects 'spiritual death' gloss; no 'scientific books' reading."
+      },
+      "ces-dieux": {
+       "status": "same",
+       "locator": "ch. 29 / PL31 / line 1047",
+       "quote_fr": "le Seigneur des Célestes leur a bien dit qu’ils mourraient s’ils entraient dans ce laboratoire, s’ils « mangeaient » les livres et gravures qui s’y trouvent",
+       "note": "Tree of knowledge = a laboratory of books and engravings forbidden on pain of death; 'eating' = learning (Ez 3, l. 1016). Within an experimental/control-group frame."
+      },
+      "nous-autres": {
+       "status": "similar",
+       "locator": "ch. \"Notre âge ingrat\" (PL2) / line 161",
+       "quote_fr": "Satan qui lui révéla la « connaissance du bien et du mal », lui fit comprendre que l’homme était non seulement supérieur aux autres mammifères mais aussi l’égal des dieux",
+       "note": "Forbidden knowledge = real knowledge withheld by the Celestials, but its content is equality with the gods (and linked to sex/paternity), not science books."
+      },
+      "ere-du-verseau": {
+       "status": "similar",
+       "locator": "ch. 18 (PL34) / lines 1302, 1350",
+       "quote_fr": "Le Bien et le Mal dont la connaissance était interdite à l’homme concernait donc bien une échelle de valeurs à l’usage exclusif des Élohim",
+       "note": "Forbidden knowledge = the Elohim's own value scale ('Bien' = efficiency) and the fact they were not divine; not 'scientific books'."
+      }
+     }
+    }
+   ],
+   "verdict": "IN",
+   "summary": "Forbidden knowledge as the colonists' science / a laboratory of \"livres et gravures\" forbidden on pain of death: same in Cahiers and Ces dieux.",
+   "lookups": []
+  },
+  {
+   "id": "D14",
+   "detail": "The 'serpent' is a small group of the makers themselves who, out of love for the humans, tell them the truth",
+   "ap_class": "shared-not-genesis",
+   "inventory_items": [
+    {
+     "id": "I021",
+     "tbwtt": "2:34–35",
+     "bible_ref": "Genesis 3:1–5",
+     "topic": "The serpent tempts the woman",
+     "per_book": {
+      "cahiers": {
+       "status": "same",
+       "locator": "Cahier 2, ch. III / PL5 / line 1116",
+       "quote_fr": "De son vrai nom ce Théosite anticonformiste s’appelait, comme chacun sait, M. Satan.",
+       "note": "Serpent = a dissident colonist (\"philanthrope ... estimant que les humains avaient droit à l’Initiation\"); one individual rather than a small group."
+      },
+      "la-lune": {
+       "status": "similar",
+       "locator": "Part III ch.troisième (Gen 3) / line 4895",
+       "quote_fr": "le serpent-qui-parle et connaît aussi bien que les autres ﬁls des Elohim l’eﬀet du « fruit »",
+       "note": "Serpent implied to be one of the sons of the Elohim (linked to Satan in Job), but Sendy withdrew his explanation of Gen 3; no dissident scientist faction."
+      },
+      "ces-dieux": {
+       "status": "similar",
+       "locator": "ch. 29 / PL31 / line 1043",
+       "quote_fr": "ce qui incite bien à voir en lui un indigène en cours de mutation",
+       "note": "Serpent = a mutant native (later Lucifer) who already knew the science, not a dissident faction of creators."
+      },
+      "nous-autres": {
+       "status": "similar",
+       "locator": "ch. \"Notre âge ingrat\" (PL2) / line 161",
+       "quote_fr": "C’est sur cette science rudimentaire que se greffe l’épisode de l’ « Ange Déchu », de Satan qui lui révéla la « connaissance du bien et du mal »",
+       "note": "Serpent = a fallen Angel (a Celestial) who told man he was equal to the gods. Message: a small faction of creating scientists offering full scientific education."
+      },
+      "ere-du-verseau": {
+       "status": "same",
+       "locator": "ch. 18 (PL34) / lines 1305–1306, 1353",
+       "quote_fr": "Lucifer veut porter la lumière aux hommes tout de suite. Satan veut que les hommes sachent tout, tout de suite.",
+       "note": "Serpent = a dissident creator (one Théosite, Satan-Lucifer, not a group) who prematurely reveals that the Elohim are not divine but of human nature."
+      }
+     }
+    },
+    {
+     "id": "I022",
+     "tbwtt": "2:36–37",
+     "bible_ref": "Genesis 3:7",
+     "topic": "Their eyes were opened; they knew they were naked",
+     "per_book": {
+      "cahiers": {
+       "status": "similar",
+       "locator": "Cahier 2, ch. III / PL5 / line 1129",
+       "quote_fr": "nos indigènes venaient de comprendre qu’ils étaient (malgré leur ressemblance purement physique avec les Elohim) semblables aux animaux",
+       "note": "Eyes opened = realising their animal status and that they must learn (\"se vêtir\") to equal the Elohim; no resentment at being lab animals."
+      },
+      "la-lune": {
+       "status": "absent",
+       "locator": null,
+       "quote_fr": null,
+       "note": "Gen 3:7 not discussed (only 3:5 and 3:22 quoted)."
+      },
+      "ces-dieux": {
+       "status": "similar",
+       "locator": "ch. 29 / PL31 / line 1046",
+       "quote_fr": "la révélation par exemple du fait que les Célestes sont de même nature que les hommes, du fait que l’expérience en cours a pour objet de faire du mutant, du « serpent », l’égal des dieux",
+       "note": "Eyes opened = learning Celestials and humans are of one nature and the experiment aims at equality with gods; close to Message, but no resentment at being lab animals."
+      },
+      "nous-autres": {
+       "status": "mentioned",
+       "locator": "ch. \"Notre âge ingrat\" (PL2) / line 157",
+       "quote_fr": "Eve « prend la pilule » comme elle avait « pris le fruit », et dans un cas comme dans l’autre ses yeux se dessillent",
+       "note": "Eyes opened used as an analogy for contraception (Humanae Vitae), no technological reading."
+      },
+      "ere-du-verseau": {
+       "status": "mentioned",
+       "locator": "ch. 19 (PL36) / line 1344",
+       "quote_fr": "chasser l’homme dès que celui-ci découvre le Bien et le Mal et prend honte de sa nudité",
+       "note": "Listed only among the 'incoherences' of the seventh day."
+      }
+     }
+    }
+   ],
+   "verdict": "IN",
+   "summary": "A dissident member of the visiting group, philanthropic, who tells the humans the truth: same in Cahiers (1963) and L'ère (1970); similar in Nous autres and La lune. One individual, not a group. Ces dieux differs (mutant native).",
+   "lookups": []
+  },
+  {
+   "id": "D15",
+   "detail": "The disclosing group is sentenced by the home government to live on Earth; the other makers must leave",
+   "ap_class": "shared-not-genesis",
+   "inventory_items": [
+    {
+     "id": "I023",
+     "tbwtt": "2:38–39",
+     "bible_ref": "Genesis 3:14",
+     "topic": "Curse of the serpent",
+     "per_book": {
+      "cahiers": {
+       "status": "similar",
+       "locator": "Cahier 2, ch. III / PL5 / line 1135",
+       "quote_fr": "M. Satan, traître par idéologie philanthropique, est donc condamné à être simple instituteur pour indigènes",
+       "note": "Punishment of the dissident colonist, but it is a teaching assignment, not exile on Earth; other colonists do not leave."
+      },
+      "la-lune": {
+       "status": "absent",
+       "locator": null,
+       "quote_fr": null,
+       "note": "Curse of the serpent not discussed."
+      },
+      "ces-dieux": {
+       "status": "similar",
+       "locator": "ch. 29 / PL31 / line 1053",
+       "quote_fr": "Un humain, mutant initialement destiné à devenir Céleste, maudit et désormais condamné à rester cloué au sol",
+       "note": "Curse = being kept on the ground like humans (no sky access); but the cursed one is a mutant human, not exiled creators; no home-planet tribunal."
+      },
+      "nous-autres": {
+       "status": "mentioned",
+       "locator": "ch. \"Notre âge ingrat\" (PL2) / line 161",
+       "quote_fr": "Les Célestes maudirent Satan, se résignèrent à faire le ménage eux-mêmes",
+       "note": "Curse noted, but no exile-on-Earth sentence by a home-planet government."
+      },
+      "ere-du-verseau": {
+       "status": "similar",
+       "locator": "ch. 17 (PL33) / line 1212",
+       "quote_fr": "à partir d’eux-mêmes amputés de Lucifer-Satan laissé sur Terre",
+       "note": "The dissident is left on Earth while the other Elohim prepare to leave; no sentence by a home-planet government."
+      }
+     }
+    }
+   ],
+   "verdict": "IN",
+   "summary": "Similar in three books: kept on the ground (Ces dieux, of a mutant human); \"laissé sur Terre\" while the others prepare to leave (L'ère); demoted to teacher of natives (Cahiers). No sentence by a home government in any.",
+   "lookups": []
+  },
+  {
+   "id": "D16",
+   "detail": "Longevity is a technique ('tree of life'); the exiles obtain it for the chiefs of the first humans, hence the patriarchs' ages; it is not hereditary",
+   "ap_class": "shared-not-genesis",
+   "inventory_items": [
+    {
+     "id": "I025",
+     "tbwtt": "2:42–43",
+     "bible_ref": "Genesis 3:22",
+     "topic": "Man has become like one of us; tree of life",
+     "per_book": {
+      "cahiers": {
+       "status": "similar",
+       "locator": "Cahier 2, ch. III / PL5 / line 1113",
+       "quote_fr": "un Grand Labo de génétique-biologie (« Arbre de Vie »)",
+       "note": "Tree of life = the colonists' genetics/biology lab (incubators), not explicitly life-extension; \"comme l’un de nous\" = end of elementary schooling; no chosen-people contest."
+      },
+      "la-lune": {
+       "status": "mentioned",
+       "locator": "Part III ch.troisième (Gen 3) / line 4936",
+       "quote_fr": "Voici que l’homme est devenu COMME L’UN DE NOUS",
+       "note": "Gen 3:22 quoted only as plural evidence (Iahvé yielding to the serpent's reasoning); no immortality/chosen-people reading."
+      },
+      "ces-dieux": {
+       "status": "similar",
+       "locator": "ch. 24 / PL26 / line 924",
+       "quote_fr": "qu’un dieu humoriste a surnommé « le peuple élu », surnom qui leur est resté",
+       "note": "'Chosen people' = Eden's vivisected experimental stock, not winners of a creators' contest; tree of life = living forever, left technologically unexplained (l. 1063, 1346)."
+      },
+      "nous-autres": {
+       "status": "similar",
+       "locator": "ch. \"Notre âge ingrat\" (PL2) / line 161",
+       "quote_fr": "le primitif, jusque-là serviteur soumis, ivre d’orgueil de se savoir semblable aux « dieux », risquait évidemment à tout moment de jouer avec les manettes de n’importe quoi, de faire tout sauter",
+       "note": "Expulsion from fear of humans 'like the gods' tampering with technology; no tree-of-life longevity and no contest electing Israel."
+      },
+      "ere-du-verseau": {
+       "status": "similar",
+       "locator": "ch. 18 (PL34) / line 1309; ch. 19 / line 1345",
+       "quote_fr": "« L’homme est devenu comme l’un de nous, grâce à la science du Bien et du Mal », lui fait dire textuellement la Genèse, III, 22.",
+       "note": "Gen 3:22's 'us' read as physical Elohim whom man now equals; nothing on the tree of life, longevity or a chosen-people contest."
+      }
+     }
+    },
+    {
+     "id": "I028",
+     "tbwtt": "2:49",
+     "bible_ref": "Genesis 5:1–11",
+     "topic": "Longevity of the antediluvian patriarchs",
+     "per_book": {
+      "cahiers": {
+       "status": "similar",
+       "locator": "Cahier 2, ch. V / PL5 / line 1455",
+       "quote_fr": "Ces Géants vivront 85o ans, en moyenne.",
+       "note": "Patriarchs' ages = real ages of Elohim-human hybrid \"Giants\", declining each generation by human mothers (l.1610); hereditary, not a treatment."
+      },
+      "la-lune": {
+       "status": "mentioned",
+       "locator": "Part I ch.1 (Anges) / line 224",
+       "quote_fr": "Les seuls « hommes en renom » du texte biblique ont leur arbre généalogique au chapitre V",
+       "note": "Gen 5 used as genealogy of the hybrid 'men of renown' (Noah a bastard of the Elohim, Enoch adoptive son); no longevity reading."
+      },
+      "ces-dieux": {
+       "status": "mentioned",
+       "locator": "ch. 30 / PL32 / line 1103",
+       "quote_fr": "les descendants d’Adam, malgré l’incident de parcours du 7e « jour », restent les gérants-concessionnaires légitimes, ainsi que l’expose la généalogie du chapitre V de la Genèse",
+       "note": "Gen 5 genealogy read as the line of legitimate 'Gérants' ('bourrée de symboles', l. 1109); no life-extension reading of patriarchal ages."
+      },
+      "nous-autres": {
+       "status": "absent",
+       "locator": null,
+       "quote_fr": null,
+       "note": "Not found after searching names, verse refs and synonyms; this book (a polemic on humanism vs 'pensée médiévale') discusses few biblical passages."
+      },
+      "ere-du-verseau": {
+       "status": "absent",
+       "locator": null,
+       "quote_fr": null,
+       "note": "Patriarchal longevity not discussed."
+      }
+     }
+    },
+    {
+     "id": "I030",
+     "tbwtt": "2:52–53",
+     "bible_ref": "Genesis 6:3",
+     "topic": "His days shall be 120 years",
+     "per_book": {
+      "cahiers": {
+       "status": "mentioned",
+       "locator": "Cahier 2, ch. V / PL5 / line 1454",
+       "quote_fr": "« les jours de l’homme » sont définitivement fixés à 120 ans",
+       "note": "Limit noted (humans 120 vs Théosites c. 1000 years) without the non-hereditary-treatment mechanism."
+      },
+      "la-lune": {
+       "status": "absent",
+       "locator": null,
+       "quote_fr": null,
+       "note": "120-year limit not discussed."
+      },
+      "ces-dieux": {
+       "status": "absent",
+       "locator": null,
+       "quote_fr": null,
+       "note": "Gen 6:3 (120 years) not discussed."
+      },
+      "nous-autres": {
+       "status": "absent",
+       "locator": null,
+       "quote_fr": null,
+       "note": "Not found after searching names, verse refs and synonyms; this book (a polemic on humanism vs 'pensée médiévale') discusses few biblical passages."
+      },
+      "ere-du-verseau": {
+       "status": "absent",
+       "locator": null,
+       "quote_fr": null,
+       "note": "Gen 6:3 not discussed."
+      }
+     }
+    },
+    {
+     "id": "I222",
+     "tbwtt": "7:13; 7:29–30",
+     "bible_ref": "Genesis 3:22; Genesis 5 (tree of life, patriarchal longevity)",
+     "topic": "Tree of life = small surgical operation",
+     "per_book": {
+      "cahiers": {
+       "status": "similar",
+       "locator": "Cahier 2, ch. III / PL5 / line 1115",
+       "quote_fr": "une opération sous anesthésie totale (II, 21 à 24) permit d’en obtenir une autre",
+       "note": "A surgical operation appears, but it is the rib \"mutation\" of woman; the Tree of Life is a genetics lab/incubator, not a longevity operation."
+      },
+      "la-lune": {
+       "status": "mentioned",
+       "locator": "Part III ch.deuxième (Gen 2) / line 4566",
+       "quote_fr": "mystérieux « arbres », l’un « de la science du bien et du mal » et l’autre « de vie »",
+       "note": "Tree of life left 'en suspens'; guarded by the manufactured cherubim weapon; no surgery/longevity reading."
+      },
+      "ces-dieux": {
+       "status": "mentioned",
+       "locator": "ch. 38 / PL40 / line 1346",
+       "quote_fr": "l’« arbre de vie » ou tout au moins ses épures nous attend dans l’« arc d’alliance », sur la Lune",
+       "note": "Tree of life = still-forbidden knowledge stored in the lunar 'arc'; no surgery, no 750-1,200-year lifespans or link to Gen 5 ages. Celestial 'immortality' = genetically identical twin lineages (l. 928)."
+      },
+      "nous-autres": {
+       "status": "absent",
+       "locator": null,
+       "quote_fr": null,
+       "note": "Not found after searching names, verse refs and synonyms; this book (a polemic on humanism vs 'pensée médiévale') discusses few biblical passages."
+      },
+      "ere-du-verseau": {
+       "status": "absent",
+       "locator": null,
+       "quote_fr": null,
+       "note": "Not found after searching names, verse numbers and key terms."
+      }
+     }
+    }
+   ],
+   "verdict": "PARTIAL",
+   "summary": "Cahiers: tree of life = genetics laboratory; patriarchal ages are real ages of hybrid Giant-kings; humans 120 vs Théosites c. 1000. Mechanism opposite to the canon (hereditary and declining, not a treatment granted to chiefs).",
+   "lookups": []
+  },
+  {
+   "id": "D17",
+   "detail": "The 'sons of Elohim' who take human daughters are the exiled makers; the children are exceptional",
+   "ap_class": "genesis-has-it",
+   "inventory_items": [
+    {
+     "id": "I029",
+     "tbwtt": "2:50–51",
+     "bible_ref": "Genesis 6:1–2",
+     "topic": "Sons of Elohim take the daughters of men",
+     "per_book": {
+      "cahiers": {
+       "status": "same",
+       "locator": "Cahier 2, ch. V / PL5 / line 1453",
+       "quote_fr": "« les fils des Elohim virent que les filles des hommes étaient belles et en prirent pour femmes » (GEN. VI, 2)",
+       "note": "Read literally as colonists interbreeding with human women (\"métissages entre les Elohim de Moïse et les humains\", l.1187)."
+      },
+      "la-lune": {
+       "status": "same",
+       "locator": "Part I ch.3 (Cosmonautes) / line 576",
+       "quote_fr": "des bâtards nés des amours entre ﬁls d’Elohim et ﬁlles d’hommes",
+       "note": "Sons of (the) Elohim = the Celestials themselves fathering children on human women (also l.343 'béné Ha-Elohim'). No exile motif."
+      },
+      "ces-dieux": {
+       "status": "similar",
+       "locator": "ch. 25 / PL27 / line 948",
+       "quote_fr": "pour lire dans la Genèse (VI, 1 à 4) que les fils des Élohim firent des enfants aux filles des hommes",
+       "note": "Literal Celestial-human offspring affirmed; elsewhere as artificial fecundation of mutated native females producing 'demi-dieux' (l. 915-917), not exiled creators taking wives."
+      },
+      "nous-autres": {
+       "status": "mentioned",
+       "locator": "ch. \"Les inventeurs\" (PL3) / line 208",
+       "quote_fr": "ce Dieu Immatériel a des fils qui, au chapitre VI, épousent les filles des hommes",
+       "note": "Cited as an incoherence that disappears if read literally; no exiled-creators reading (cf. sexed 'Anges mammifères', l.118)."
+      },
+      "ere-du-verseau": {
+       "status": "similar",
+       "locator": "ch. 19 (PL36) / lines 1371, 1375–1377; front matter PL46 / line 30",
+       "quote_fr": "en « fécondant les filles des hommes » qui leur auraient donné des bâtards capables de faire fonctionner les installations terrestres",
+       "note": "Sons of Elohim = the Elohim themselves (possibly via artificial insemination), breeding caretakers before departure; not exiled creators taking wives. Also cites Rashi: 'êtres célestes accomplissant une mission'."
+      }
+     }
+    },
+    {
+     "id": "I031",
+     "tbwtt": "2:54–55",
+     "bible_ref": "Genesis 6:4",
+     "topic": "Heroes, men of renown (Nephilim offspring)",
+     "per_book": {
+      "cahiers": {
+       "status": "similar",
+       "locator": "Cahier 2, ch. V / PL5 / line 1455",
+       "quote_fr": "Rois, Géants nés des Elohim et des « filles des hommes »",
+       "note": "Hybrid Giants become kings guiding humans; no home-planet alarm at their scientific progress (Flood follows a \"War of the Gods\")."
+      },
+      "la-lune": {
+       "status": "similar",
+       "locator": "Part I ch.1 (Anges) / line 227",
+       "quote_fr": "ce qui nous ramène à la « création » d’« hommes en renom » par les relations sexuelles entre ﬁls d’Elohim et anonymes ﬁlles d’hommes",
+       "note": "Heroes = hybrid offspring of sons of Elohim and women, but they are the heirs/priest-king dynasties (Noah a bastard of the Elohim), not a threat."
+      },
+      "ces-dieux": {
+       "status": "similar",
+       "locator": "ch. 30 / PL32 / line 1100",
+       "quote_fr": "le gouvernement a été exercé par les Nefilîm, mot qui signifie « les Tombés »",
+       "note": "Nefilim = 'Tombés' = fallen human 'Gérants' expelled from Eden (rois-prêtres, 'Géants' of legend); hybrid demigods appear separately (l. 917); no home-planet alarm at their science."
+      },
+      "nous-autres": {
+       "status": "absent",
+       "locator": null,
+       "quote_fr": null,
+       "note": "Not found after searching names, verse refs and synonyms; this book (a polemic on humanism vs 'pensée médiévale') discusses few biblical passages."
+      },
+      "ere-du-verseau": {
+       "status": "absent",
+       "locator": null,
+       "quote_fr": null,
+       "note": "Gen 6:4 heroes/Nephilim not discussed ('géant' hits are astronomical)."
+      }
+     }
+    }
+   ],
+   "verdict": "IN",
+   "summary": "Sons of the Elohim = the visitors themselves: same in Cahiers and La lune; similar in Ces dieux and L'ère. Not exiles. Offspring = kings, \"demi-dieux\".",
+   "lookups": []
+  },
+  {
+   "id": "D18",
+   "detail": "The exiles' sons hand weapons to human women; men slaughter each other with them; this bloodshed is the case for destruction",
+   "ap_class": "shared-not-genesis",
+   "inventory_items": [],
+   "verdict": "UNDECIDED",
+   "summary": "No inventory item (the detail is LWTE-only; the inventory was built on TBWTT). Neighbouring records only: arms factories implied by the cherubim's sword (La lune I026); \"guerres furieuses\" among the Gérants before the Flood (Ces dieux I032); a \"War of the Gods\" before the Flood (Cahiers sendy_only S12).",
+   "lookups": [
+    "L02",
+    "L03"
+   ]
+  },
+  {
+   "id": "D19",
+   "detail": "An accuser lays the evidence before the Council; the president decides",
+   "ap_class": "shared-not-genesis",
+   "inventory_items": [],
+   "verdict": "UNDECIDED",
+   "summary": "No inventory item for an accusation before a council leading to the Flood. Components recorded: Satan received among the sons of the Elohim (La lune, Ces dieux I136); Iahvé as possible \"président élu\" (La lune sendy_only S20); \"NOS DIRIGEANTS (qui vivent dans les cieux) ont décidé\" (Cahiers sendy_only S12).",
+   "lookups": [
+    "L04",
+    "L07"
+   ]
+  },
+  {
+   "id": "D20",
+   "detail": "Why the destruction: (TBWTT) human scientific progress, the wish to equal the makers; (LWTE) human violence",
+   "ap_class": "shared-not-genesis",
+   "inventory_items": [
+    {
+     "id": "I031",
+     "tbwtt": "2:54–55",
+     "bible_ref": "Genesis 6:4",
+     "topic": "Heroes, men of renown (Nephilim offspring)",
+     "per_book": {
+      "cahiers": {
+       "status": "similar",
+       "locator": "Cahier 2, ch. V / PL5 / line 1455",
+       "quote_fr": "Rois, Géants nés des Elohim et des « filles des hommes »",
+       "note": "Hybrid Giants become kings guiding humans; no home-planet alarm at their scientific progress (Flood follows a \"War of the Gods\")."
+      },
+      "la-lune": {
+       "status": "similar",
+       "locator": "Part I ch.1 (Anges) / line 227",
+       "quote_fr": "ce qui nous ramène à la « création » d’« hommes en renom » par les relations sexuelles entre ﬁls d’Elohim et anonymes ﬁlles d’hommes",
+       "note": "Heroes = hybrid offspring of sons of Elohim and women, but they are the heirs/priest-king dynasties (Noah a bastard of the Elohim), not a threat."
+      },
+      "ces-dieux": {
+       "status": "similar",
+       "locator": "ch. 30 / PL32 / line 1100",
+       "quote_fr": "le gouvernement a été exercé par les Nefilîm, mot qui signifie « les Tombés »",
+       "note": "Nefilim = 'Tombés' = fallen human 'Gérants' expelled from Eden (rois-prêtres, 'Géants' of legend); hybrid demigods appear separately (l. 917); no home-planet alarm at their science."
+      },
+      "nous-autres": {
+       "status": "absent",
+       "locator": null,
+       "quote_fr": null,
+       "note": "Not found after searching names, verse refs and synonyms; this book (a polemic on humanism vs 'pensée médiévale') discusses few biblical passages."
+      },
+      "ere-du-verseau": {
+       "status": "absent",
+       "locator": null,
+       "quote_fr": null,
+       "note": "Gen 6:4 heroes/Nephilim not discussed ('géant' hits are astronomical)."
+      }
+     }
+    },
+    {
+     "id": "I032",
+     "tbwtt": "2:56–57",
+     "bible_ref": "Genesis 6:5",
+     "topic": "Wickedness of man",
+     "per_book": {
+      "cahiers": {
+       "status": "mentioned",
+       "locator": "Cahier 2, ch. V / PL5 / line 1463",
+       "quote_fr": "Iahvé ait conclu que « la méchanceté des hommes était grande » (VI, 5)",
+       "note": "Wickedness = humans taking liberties with the letter of the Revelation and neglecting the Rite; not scientific ambition."
+      },
+      "la-lune": {
+       "status": "mentioned",
+       "locator": "Part I ch.4 (Tour de Babel) / line 733",
+       "quote_fr": "Les Célestes sont partis [Gen. VI, 5] écœurés « de la malice des hommes, dont l’objet des pensées est toujours le mal »",
+       "note": "Gen 6:5 quoted: Celestials leave disgusted with human malice; no 'evil = scientific ambition' reading."
+      },
+      "ces-dieux": {
+       "status": "similar",
+       "locator": "ch. 30 / PL32 / line 1124",
+       "quote_fr": "les thèses du « serpent » triomphaient : là où les Célestes avaient projeté d’instaurer un placide bonheur bovin s’instaurait un système de guerres furieuses",
+       "note": "Wickedness = Gérants' wars and the serpent's eye-opening defeating the plan of a contented humanity; related to but not identical with 'evil = wish to equal the creators'."
+      },
+      "nous-autres": {
+       "status": "absent",
+       "locator": null,
+       "quote_fr": null,
+       "note": "Not found after searching names, verse refs and synonyms; this book (a polemic on humanism vs 'pensée médiévale') discusses few biblical passages."
+      },
+      "ere-du-verseau": {
+       "status": "absent",
+       "locator": null,
+       "quote_fr": null,
+       "note": "Gen 6:5 not discussed; Sendy cites 6:7 for 'created' (named) men only (line 1392)."
+      }
+     }
+    },
+    {
+     "id": "I033",
+     "tbwtt": "2:58",
+     "bible_ref": "Genesis 6–7 (Flood; Noah's ark)",
+     "topic": "Flood by nuclear missiles; ark = spaceship",
+     "per_book": {
+      "cahiers": {
+       "status": "similar",
+       "locator": "Cahier 2, ch. VI / PL5 / line 1482",
+       "quote_fr": "les plus récentes bombes thermonucléaires sont de l’enfantillage à côté de ce que les Théosites surent déclencher, lorsqu’ils se résolurent à abandonner notre planète",
+       "note": "Flood = nuclear-scale destruction by the departing colonists, but the ark is a SUBMARINE carrying documents/plans, not a rocket carrying cells."
+      },
+      "la-lune": {
+       "status": "similar",
+       "locator": "Part I ch.4 (Tour de Babel) / line 756",
+       "quote_fr": "le Déluge n’a détruit que leurs bases, la Terre reste peuplée de communautés paléolithiques",
+       "note": "Flood = the Celestials destroying their own terrestrial bases on departure (cf. cargo-cult 'Déluge', l.911); ark preserved 'choses et enseignements'. No nuclear missiles, no spaceship ark, no cells."
+      },
+      "ces-dieux": {
+       "status": "similar",
+       "locator": "ch. 31 / PL33 / line 1137",
+       "quote_fr": "Noé n’a pas fait entrer dans son tebah un couple d’éléphants, deux puces et un raton laveur mâle et femelle ; il y a entassé ce que l’Épopée de Gilgamesh appelle « les semences de vie »",
+       "note": "Ark (tebah) = container/'capsule Apollo' holding seeds of life and knowledge, not animals; but it is a shelter on Earth, and the Flood is the departing Celestials destroying Eden and its nuclear plants (l. 1171, 1199), not home-planet missiles; Noah not in orbit."
+      },
+      "nous-autres": {
+       "status": "mentioned",
+       "locator": "ch. \"Notre âge ingrat\" (PL2) / line 191",
+       "quote_fr": "c’est dans un tebah que Noé s’est embarqué avec tout son fourbi, pour le temps du Déluge",
+       "note": "Lexical note (tebah vs aron) only; no nuclear flood, no spaceship-ark."
+      },
+      "ere-du-verseau": {
+       "status": "similar",
+       "locator": "ch. 19 (PL36) / lines 1374, 1380–1382; ch. 20 / line 1391",
+       "quote_fr": "Il en fallait de l’imagination, aux auteurs de la Tradition, pour inventer un vaisseau clos, chargé de matériel génétique",
+       "note": "Ark = a closed vessel ('La capsule Apollo est un tebah') carrying genetic material; but the Flood is the departing Elohim destroying their own installations, not nuclear missiles from the home planet."
+      }
+     }
+    }
+   ],
+   "verdict": "PARTIAL",
+   "summary": "TBWTT motive (human scientific progress): recorded not found (\"no home-planet alarm at their science\"). LWTE motive (violence): Ces dieux has \"guerres furieuses\" as what defeated the Celestials' plan; La lune quotes Gen 6:5. In Sendy the Flood is chiefly the departing visitors destroying their own installations.",
+   "lookups": [
+    "L03"
+   ]
+  },
+  {
+   "id": "D21",
+   "detail": "The decision is taken on the distant home planet",
+   "ap_class": "weak",
+   "inventory_items": [
+    {
+     "id": "I033",
+     "tbwtt": "2:58",
+     "bible_ref": "Genesis 6–7 (Flood; Noah's ark)",
+     "topic": "Flood by nuclear missiles; ark = spaceship",
+     "per_book": {
+      "cahiers": {
+       "status": "similar",
+       "locator": "Cahier 2, ch. VI / PL5 / line 1482",
+       "quote_fr": "les plus récentes bombes thermonucléaires sont de l’enfantillage à côté de ce que les Théosites surent déclencher, lorsqu’ils se résolurent à abandonner notre planète",
+       "note": "Flood = nuclear-scale destruction by the departing colonists, but the ark is a SUBMARINE carrying documents/plans, not a rocket carrying cells."
+      },
+      "la-lune": {
+       "status": "similar",
+       "locator": "Part I ch.4 (Tour de Babel) / line 756",
+       "quote_fr": "le Déluge n’a détruit que leurs bases, la Terre reste peuplée de communautés paléolithiques",
+       "note": "Flood = the Celestials destroying their own terrestrial bases on departure (cf. cargo-cult 'Déluge', l.911); ark preserved 'choses et enseignements'. No nuclear missiles, no spaceship ark, no cells."
+      },
+      "ces-dieux": {
+       "status": "similar",
+       "locator": "ch. 31 / PL33 / line 1137",
+       "quote_fr": "Noé n’a pas fait entrer dans son tebah un couple d’éléphants, deux puces et un raton laveur mâle et femelle ; il y a entassé ce que l’Épopée de Gilgamesh appelle « les semences de vie »",
+       "note": "Ark (tebah) = container/'capsule Apollo' holding seeds of life and knowledge, not animals; but it is a shelter on Earth, and the Flood is the departing Celestials destroying Eden and its nuclear plants (l. 1171, 1199), not home-planet missiles; Noah not in orbit."
+      },
+      "nous-autres": {
+       "status": "mentioned",
+       "locator": "ch. \"Notre âge ingrat\" (PL2) / line 191",
+       "quote_fr": "c’est dans un tebah que Noé s’est embarqué avec tout son fourbi, pour le temps du Déluge",
+       "note": "Lexical note (tebah vs aron) only; no nuclear flood, no spaceship-ark."
+      },
+      "ere-du-verseau": {
+       "status": "similar",
+       "locator": "ch. 19 (PL36) / lines 1374, 1380–1382; ch. 20 / line 1391",
+       "quote_fr": "Il en fallait de l’imagination, aux auteurs de la Tradition, pour inventer un vaisseau clos, chargé de matériel génétique",
+       "note": "Ark = a closed vessel ('La capsule Apollo est un tebah') carrying genetic material; but the Flood is the departing Elohim destroying their own installations, not nuclear missiles from the home planet."
+      }
+     }
+    }
+   ],
+   "verdict": "PARTIAL",
+   "summary": "Cahiers sendy_only S12 has leaders \"qui vivent dans les cieux\" deciding the destruction of the installations; elsewhere the departing visitors decide on the spot.",
+   "lookups": [
+    "L04"
+   ]
+  },
+  {
+   "id": "D22",
+   "detail": "The means: explosions; a tidal wave over the single continent; a sudden cataclysm, not prolonged rain; fallout afterwards",
+   "ap_class": "shared-not-genesis",
+   "inventory_items": [
+    {
+     "id": "I033",
+     "tbwtt": "2:58",
+     "bible_ref": "Genesis 6–7 (Flood; Noah's ark)",
+     "topic": "Flood by nuclear missiles; ark = spaceship",
+     "per_book": {
+      "cahiers": {
+       "status": "similar",
+       "locator": "Cahier 2, ch. VI / PL5 / line 1482",
+       "quote_fr": "les plus récentes bombes thermonucléaires sont de l’enfantillage à côté de ce que les Théosites surent déclencher, lorsqu’ils se résolurent à abandonner notre planète",
+       "note": "Flood = nuclear-scale destruction by the departing colonists, but the ark is a SUBMARINE carrying documents/plans, not a rocket carrying cells."
+      },
+      "la-lune": {
+       "status": "similar",
+       "locator": "Part I ch.4 (Tour de Babel) / line 756",
+       "quote_fr": "le Déluge n’a détruit que leurs bases, la Terre reste peuplée de communautés paléolithiques",
+       "note": "Flood = the Celestials destroying their own terrestrial bases on departure (cf. cargo-cult 'Déluge', l.911); ark preserved 'choses et enseignements'. No nuclear missiles, no spaceship ark, no cells."
+      },
+      "ces-dieux": {
+       "status": "similar",
+       "locator": "ch. 31 / PL33 / line 1137",
+       "quote_fr": "Noé n’a pas fait entrer dans son tebah un couple d’éléphants, deux puces et un raton laveur mâle et femelle ; il y a entassé ce que l’Épopée de Gilgamesh appelle « les semences de vie »",
+       "note": "Ark (tebah) = container/'capsule Apollo' holding seeds of life and knowledge, not animals; but it is a shelter on Earth, and the Flood is the departing Celestials destroying Eden and its nuclear plants (l. 1171, 1199), not home-planet missiles; Noah not in orbit."
+      },
+      "nous-autres": {
+       "status": "mentioned",
+       "locator": "ch. \"Notre âge ingrat\" (PL2) / line 191",
+       "quote_fr": "c’est dans un tebah que Noé s’est embarqué avec tout son fourbi, pour le temps du Déluge",
+       "note": "Lexical note (tebah vs aron) only; no nuclear flood, no spaceship-ark."
+      },
+      "ere-du-verseau": {
+       "status": "similar",
+       "locator": "ch. 19 (PL36) / lines 1374, 1380–1382; ch. 20 / line 1391",
+       "quote_fr": "Il en fallait de l’imagination, aux auteurs de la Tradition, pour inventer un vaisseau clos, chargé de matériel génétique",
+       "note": "Ark = a closed vessel ('La capsule Apollo est un tebah') carrying genetic material; but the Flood is the departing Elohim destroying their own installations, not nuclear missiles from the home planet."
+      }
+     }
+    },
+    {
+     "id": "I034",
+     "tbwtt": "2:59–60",
+     "bible_ref": "Genesis 7:17",
+     "topic": "The ark rose above the earth",
+     "per_book": {
+      "cahiers": {
+       "status": "similar",
+       "locator": "Cahier 2, ch. VI / PL5 / line 1481",
+       "quote_fr": "toute pollution radioactive ayant disparu, la terre pût être enfin tenue pour « sèche »",
+       "note": "Waiting for radioactive fallout to clear is shared; the \"above the earth, not on the waters\" lexical argument is absent (submarine reading)."
+      },
+      "la-lune": {
+       "status": "absent",
+       "locator": null,
+       "quote_fr": null,
+       "note": "Gen 7:17 not discussed."
+      },
+      "ces-dieux": {
+       "status": "absent",
+       "locator": null,
+       "quote_fr": null,
+       "note": "No 'rose above the earth' lexical argument."
+      },
+      "nous-autres": {
+       "status": "absent",
+       "locator": null,
+       "quote_fr": null,
+       "note": "Not found after searching names, verse refs and synonyms; this book (a polemic on humanism vs 'pensée médiévale') discusses few biblical passages."
+      },
+      "ere-du-verseau": {
+       "status": "similar",
+       "locator": "ch. 19 (PL36) / line 1380",
+       "quote_fr": "il précise que Noé ne les passa pas SUR un bateau, qu’il les passa DANS une construction close",
+       "note": "Same move of a lexical argument against a floating boat, but on tebah = closed container, not 'above the earth'."
+      }
+     }
+    },
+    {
+     "id": "I036",
+     "tbwtt": "2:63–64",
+     "bible_ref": "Genesis 8:1–19",
+     "topic": "Elohim remembered Noah; waters abate; animals released",
+     "per_book": {
+      "cahiers": {
+       "status": "similar",
+       "locator": "Cahier 2, ch. VI / PL5 / line 1482",
+       "quote_fr": "Un an et dix jours de contamination",
+       "note": "Flood chronology read as a period of radioactive contamination; no raven/dove atmosphere test, no tithe."
+      },
+      "la-lune": {
+       "status": "absent",
+       "locator": null,
+       "quote_fr": null,
+       "note": "Raven/dove not discussed."
+      },
+      "ces-dieux": {
+       "status": "mentioned",
+       "locator": "ch. 32 / PL34 / line 1156",
+       "quote_fr": "La communication entre les Élohim et Noé n’a rien de plus « miraculeux » que les contacts radio et télé entre Cap Kennedy et Apollo",
+       "note": "Gen 8:13-15 read as radio instructions to Noah from departing Celestials; no raven/dove atmosphere test, no radioactivity, no tithe."
+      },
+      "nous-autres": {
+       "status": "absent",
+       "locator": null,
+       "quote_fr": null,
+       "note": "Not found after searching names, verse refs and synonyms; this book (a polemic on humanism vs 'pensée médiévale') discusses few biblical passages."
+      },
+      "ere-du-verseau": {
+       "status": "mentioned",
+       "locator": "ch. 20 (PL38) / line 1390",
+       "quote_fr": "Lorsque Noé et ses fils sortirent de leur « arche », ils constatèrent qu’il n’y avait personne.",
+       "note": "Exit from the ark discussed (nobody known left, Elohim gone); no raven/dove atmosphere test or radioactivity."
+      }
+     }
+    }
+   ],
+   "verdict": "IN",
+   "summary": "Nuclear-scale destruction and a wait for radioactive contamination to clear: similar in Cahiers (1963). Ces dieux: Eden's destruction \"évoque un super-Hiroshima\". Home-planet missiles, the tidal wave over a single continent: recorded absent.",
+   "lookups": []
+  },
+  {
+   "id": "D23",
+   "detail": "The survivor is warned by the dissident (exiled) makers, against the intent of those who decided — not by the destroyer",
+   "ap_class": "shared-not-genesis",
+   "inventory_items": [
+    {
+     "id": "I033",
+     "tbwtt": "2:58",
+     "bible_ref": "Genesis 6–7 (Flood; Noah's ark)",
+     "topic": "Flood by nuclear missiles; ark = spaceship",
+     "per_book": {
+      "cahiers": {
+       "status": "similar",
+       "locator": "Cahier 2, ch. VI / PL5 / line 1482",
+       "quote_fr": "les plus récentes bombes thermonucléaires sont de l’enfantillage à côté de ce que les Théosites surent déclencher, lorsqu’ils se résolurent à abandonner notre planète",
+       "note": "Flood = nuclear-scale destruction by the departing colonists, but the ark is a SUBMARINE carrying documents/plans, not a rocket carrying cells."
+      },
+      "la-lune": {
+       "status": "similar",
+       "locator": "Part I ch.4 (Tour de Babel) / line 756",
+       "quote_fr": "le Déluge n’a détruit que leurs bases, la Terre reste peuplée de communautés paléolithiques",
+       "note": "Flood = the Celestials destroying their own terrestrial bases on departure (cf. cargo-cult 'Déluge', l.911); ark preserved 'choses et enseignements'. No nuclear missiles, no spaceship ark, no cells."
+      },
+      "ces-dieux": {
+       "status": "similar",
+       "locator": "ch. 31 / PL33 / line 1137",
+       "quote_fr": "Noé n’a pas fait entrer dans son tebah un couple d’éléphants, deux puces et un raton laveur mâle et femelle ; il y a entassé ce que l’Épopée de Gilgamesh appelle « les semences de vie »",
+       "note": "Ark (tebah) = container/'capsule Apollo' holding seeds of life and knowledge, not animals; but it is a shelter on Earth, and the Flood is the departing Celestials destroying Eden and its nuclear plants (l. 1171, 1199), not home-planet missiles; Noah not in orbit."
+      },
+      "nous-autres": {
+       "status": "mentioned",
+       "locator": "ch. \"Notre âge ingrat\" (PL2) / line 191",
+       "quote_fr": "c’est dans un tebah que Noé s’est embarqué avec tout son fourbi, pour le temps du Déluge",
+       "note": "Lexical note (tebah vs aron) only; no nuclear flood, no spaceship-ark."
+      },
+      "ere-du-verseau": {
+       "status": "similar",
+       "locator": "ch. 19 (PL36) / lines 1374, 1380–1382; ch. 20 / line 1391",
+       "quote_fr": "Il en fallait de l’imagination, aux auteurs de la Tradition, pour inventer un vaisseau clos, chargé de matériel génétique",
+       "note": "Ark = a closed vessel ('La capsule Apollo est un tebah') carrying genetic material; but the Flood is the departing Elohim destroying their own installations, not nuclear missiles from the home planet."
+      }
+     }
+    },
+    {
+     "id": "I036",
+     "tbwtt": "2:63–64",
+     "bible_ref": "Genesis 8:1–19",
+     "topic": "Elohim remembered Noah; waters abate; animals released",
+     "per_book": {
+      "cahiers": {
+       "status": "similar",
+       "locator": "Cahier 2, ch. VI / PL5 / line 1482",
+       "quote_fr": "Un an et dix jours de contamination",
+       "note": "Flood chronology read as a period of radioactive contamination; no raven/dove atmosphere test, no tithe."
+      },
+      "la-lune": {
+       "status": "absent",
+       "locator": null,
+       "quote_fr": null,
+       "note": "Raven/dove not discussed."
+      },
+      "ces-dieux": {
+       "status": "mentioned",
+       "locator": "ch. 32 / PL34 / line 1156",
+       "quote_fr": "La communication entre les Élohim et Noé n’a rien de plus « miraculeux » que les contacts radio et télé entre Cap Kennedy et Apollo",
+       "note": "Gen 8:13-15 read as radio instructions to Noah from departing Celestials; no raven/dove atmosphere test, no radioactivity, no tithe."
+      },
+      "nous-autres": {
+       "status": "absent",
+       "locator": null,
+       "quote_fr": null,
+       "note": "Not found after searching names, verse refs and synonyms; this book (a polemic on humanism vs 'pensée médiévale') discusses few biblical passages."
+      },
+      "ere-du-verseau": {
+       "status": "mentioned",
+       "locator": "ch. 20 (PL38) / line 1390",
+       "quote_fr": "Lorsque Noé et ses fils sortirent de leur « arche », ils constatèrent qu’il n’y avait personne.",
+       "note": "Exit from the ark discussed (nobody known left, Elohim gone); no raven/dove atmosphere test or radioactivity."
+      }
+     }
+    },
+    {
+     "id": "I038",
+     "tbwtt": "2:67–68",
+     "bible_ref": "Genesis 8:21",
+     "topic": "The heart of man is evil",
+     "per_book": {
+      "cahiers": {
+       "status": "similar",
+       "locator": "Cahier 2, ch. VII / PL5 / line 1577",
+       "quote_fr": "Noé n’eut pas trop de difficultés pour repeupler la Terre en animaux.",
+       "note": "Biotech repopulation by analogy with artificial insemination; no stored cells in the ark."
+      },
+      "la-lune": {
+       "status": "absent",
+       "locator": null,
+       "quote_fr": null,
+       "note": "Gen 8:21 not discussed."
+      },
+      "ces-dieux": {
+       "status": "similar",
+       "locator": "ch. 34 / PL36 / line 1199",
+       "quote_fr": "Ils l’aident à construire son tebah et à y entasser matériel, documentation et semences de vie",
+       "note": "Life preserved as 'semences de vie' in the tebah; species earlier recreated from genetic material in Eden labs (l. 913); no per-race return or explicit recreation-from-ark-cells step."
+      },
+      "nous-autres": {
+       "status": "absent",
+       "locator": null,
+       "quote_fr": null,
+       "note": "Not found after searching names, verse refs and synonyms; this book (a polemic on humanism vs 'pensée médiévale') discusses few biblical passages."
+      },
+      "ere-du-verseau": {
+       "status": "absent",
+       "locator": null,
+       "quote_fr": null,
+       "note": "Not discussed."
+      }
+     }
+    }
+   ],
+   "verdict": "UNDECIDED",
+   "summary": "Not probed as such. Ces dieux: the departing Celestials themselves help Noah (Genesis-type structure, no dissident). L'ère and La lune: Noah is the visitors' own heir. Cahiers: someone (\"il\") knows a submarine is Noah's only chance; the inventory does not say who, and the book has colonist factions and leaders in the heavens.",
+   "lookups": [
+    "L01"
+   ]
+  },
+  {
+   "id": "D24",
+   "detail": "The exiles help build the vessel",
+   "ap_class": "weak",
+   "inventory_items": [
+    {
+     "id": "I038",
+     "tbwtt": "2:67–68",
+     "bible_ref": "Genesis 8:21",
+     "topic": "The heart of man is evil",
+     "per_book": {
+      "cahiers": {
+       "status": "similar",
+       "locator": "Cahier 2, ch. VII / PL5 / line 1577",
+       "quote_fr": "Noé n’eut pas trop de difficultés pour repeupler la Terre en animaux.",
+       "note": "Biotech repopulation by analogy with artificial insemination; no stored cells in the ark."
+      },
+      "la-lune": {
+       "status": "absent",
+       "locator": null,
+       "quote_fr": null,
+       "note": "Gen 8:21 not discussed."
+      },
+      "ces-dieux": {
+       "status": "similar",
+       "locator": "ch. 34 / PL36 / line 1199",
+       "quote_fr": "Ils l’aident à construire son tebah et à y entasser matériel, documentation et semences de vie",
+       "note": "Life preserved as 'semences de vie' in the tebah; species earlier recreated from genetic material in Eden labs (l. 913); no per-race return or explicit recreation-from-ark-cells step."
+      },
+      "nous-autres": {
+       "status": "absent",
+       "locator": null,
+       "quote_fr": null,
+       "note": "Not found after searching names, verse refs and synonyms; this book (a polemic on humanism vs 'pensée médiévale') discusses few biblical passages."
+      },
+      "ere-du-verseau": {
+       "status": "absent",
+       "locator": null,
+       "quote_fr": null,
+       "note": "Not discussed."
+      }
+     }
+    }
+   ],
+   "verdict": "IN",
+   "summary": "Ces dieux ch. 34: \"Ils l'aident à construire son tebah\" (the helpers are the departing Celestials).",
+   "lookups": []
+  },
+  {
+   "id": "D25",
+   "detail": "The vessel is a rocket that orbits the Earth; life is kept some thousands of kilometres up; 'above the earth and not on the waters'",
+   "ap_class": "unique-and-contradicted",
+   "inventory_items": [
+    {
+     "id": "I033",
+     "tbwtt": "2:58",
+     "bible_ref": "Genesis 6–7 (Flood; Noah's ark)",
+     "topic": "Flood by nuclear missiles; ark = spaceship",
+     "per_book": {
+      "cahiers": {
+       "status": "similar",
+       "locator": "Cahier 2, ch. VI / PL5 / line 1482",
+       "quote_fr": "les plus récentes bombes thermonucléaires sont de l’enfantillage à côté de ce que les Théosites surent déclencher, lorsqu’ils se résolurent à abandonner notre planète",
+       "note": "Flood = nuclear-scale destruction by the departing colonists, but the ark is a SUBMARINE carrying documents/plans, not a rocket carrying cells."
+      },
+      "la-lune": {
+       "status": "similar",
+       "locator": "Part I ch.4 (Tour de Babel) / line 756",
+       "quote_fr": "le Déluge n’a détruit que leurs bases, la Terre reste peuplée de communautés paléolithiques",
+       "note": "Flood = the Celestials destroying their own terrestrial bases on departure (cf. cargo-cult 'Déluge', l.911); ark preserved 'choses et enseignements'. No nuclear missiles, no spaceship ark, no cells."
+      },
+      "ces-dieux": {
+       "status": "similar",
+       "locator": "ch. 31 / PL33 / line 1137",
+       "quote_fr": "Noé n’a pas fait entrer dans son tebah un couple d’éléphants, deux puces et un raton laveur mâle et femelle ; il y a entassé ce que l’Épopée de Gilgamesh appelle « les semences de vie »",
+       "note": "Ark (tebah) = container/'capsule Apollo' holding seeds of life and knowledge, not animals; but it is a shelter on Earth, and the Flood is the departing Celestials destroying Eden and its nuclear plants (l. 1171, 1199), not home-planet missiles; Noah not in orbit."
+      },
+      "nous-autres": {
+       "status": "mentioned",
+       "locator": "ch. \"Notre âge ingrat\" (PL2) / line 191",
+       "quote_fr": "c’est dans un tebah que Noé s’est embarqué avec tout son fourbi, pour le temps du Déluge",
+       "note": "Lexical note (tebah vs aron) only; no nuclear flood, no spaceship-ark."
+      },
+      "ere-du-verseau": {
+       "status": "similar",
+       "locator": "ch. 19 (PL36) / lines 1374, 1380–1382; ch. 20 / line 1391",
+       "quote_fr": "Il en fallait de l’imagination, aux auteurs de la Tradition, pour inventer un vaisseau clos, chargé de matériel génétique",
+       "note": "Ark = a closed vessel ('La capsule Apollo est un tebah') carrying genetic material; but the Flood is the departing Elohim destroying their own installations, not nuclear missiles from the home planet."
+      }
+     }
+    },
+    {
+     "id": "I034",
+     "tbwtt": "2:59–60",
+     "bible_ref": "Genesis 7:17",
+     "topic": "The ark rose above the earth",
+     "per_book": {
+      "cahiers": {
+       "status": "similar",
+       "locator": "Cahier 2, ch. VI / PL5 / line 1481",
+       "quote_fr": "toute pollution radioactive ayant disparu, la terre pût être enfin tenue pour « sèche »",
+       "note": "Waiting for radioactive fallout to clear is shared; the \"above the earth, not on the waters\" lexical argument is absent (submarine reading)."
+      },
+      "la-lune": {
+       "status": "absent",
+       "locator": null,
+       "quote_fr": null,
+       "note": "Gen 7:17 not discussed."
+      },
+      "ces-dieux": {
+       "status": "absent",
+       "locator": null,
+       "quote_fr": null,
+       "note": "No 'rose above the earth' lexical argument."
+      },
+      "nous-autres": {
+       "status": "absent",
+       "locator": null,
+       "quote_fr": null,
+       "note": "Not found after searching names, verse refs and synonyms; this book (a polemic on humanism vs 'pensée médiévale') discusses few biblical passages."
+      },
+      "ere-du-verseau": {
+       "status": "similar",
+       "locator": "ch. 19 (PL36) / line 1380",
+       "quote_fr": "il précise que Noé ne les passa pas SUR un bateau, qu’il les passa DANS une construction close",
+       "note": "Same move of a lexical argument against a floating boat, but on tebah = closed container, not 'above the earth'."
+      }
+     }
+    },
+    {
+     "id": "I035",
+     "tbwtt": "2:61–62",
+     "bible_ref": "Genesis 7:24; 6:16",
+     "topic": "150 days; ark in three stages",
+     "per_book": {
+      "cahiers": {
+       "status": "absent",
+       "locator": null,
+       "quote_fr": null,
+       "note": "Neither the 150 days nor the three-storey ark/three-stage rocket is discussed."
+      },
+      "la-lune": {
+       "status": "absent",
+       "locator": null,
+       "quote_fr": null,
+       "note": "150 days / three decks not discussed."
+      },
+      "ces-dieux": {
+       "status": "absent",
+       "locator": null,
+       "quote_fr": null,
+       "note": "150 days / three decks not discussed; tebah is a container, not a rocket."
+      },
+      "nous-autres": {
+       "status": "absent",
+       "locator": null,
+       "quote_fr": null,
+       "note": "Not found after searching names, verse refs and synonyms; this book (a polemic on humanism vs 'pensée médiévale') discusses few biblical passages."
+      },
+      "ere-du-verseau": {
+       "status": "mentioned",
+       "locator": "ch. 19 (PL36) / line 1380",
+       "quote_fr": "Ce texte dit que le « Déluge » dura cent cinquante jours.",
+       "note": "150 days noted; no three-stage rocket."
+      }
+     }
+    }
+   ],
+   "verdict": "PARTIAL",
+   "summary": "Closed vessel compared to an Apollo capsule (Ces dieux, L'ère) and a lexical argument against a floating boat (L'ère: DANS, not SUR). Orbit, rocket stages, \"above the earth and not on the waters\": recorded absent. Cahiers: a submarine.",
+   "lookups": [
+    "L10"
+   ]
+  },
+  {
+   "id": "D26",
+   "detail": "What is preserved is a living cell, male and female, of each species; the animals are re-created from them afterwards",
+   "ap_class": "shared-not-genesis",
+   "inventory_items": [
+    {
+     "id": "I033",
+     "tbwtt": "2:58",
+     "bible_ref": "Genesis 6–7 (Flood; Noah's ark)",
+     "topic": "Flood by nuclear missiles; ark = spaceship",
+     "per_book": {
+      "cahiers": {
+       "status": "similar",
+       "locator": "Cahier 2, ch. VI / PL5 / line 1482",
+       "quote_fr": "les plus récentes bombes thermonucléaires sont de l’enfantillage à côté de ce que les Théosites surent déclencher, lorsqu’ils se résolurent à abandonner notre planète",
+       "note": "Flood = nuclear-scale destruction by the departing colonists, but the ark is a SUBMARINE carrying documents/plans, not a rocket carrying cells."
+      },
+      "la-lune": {
+       "status": "similar",
+       "locator": "Part I ch.4 (Tour de Babel) / line 756",
+       "quote_fr": "le Déluge n’a détruit que leurs bases, la Terre reste peuplée de communautés paléolithiques",
+       "note": "Flood = the Celestials destroying their own terrestrial bases on departure (cf. cargo-cult 'Déluge', l.911); ark preserved 'choses et enseignements'. No nuclear missiles, no spaceship ark, no cells."
+      },
+      "ces-dieux": {
+       "status": "similar",
+       "locator": "ch. 31 / PL33 / line 1137",
+       "quote_fr": "Noé n’a pas fait entrer dans son tebah un couple d’éléphants, deux puces et un raton laveur mâle et femelle ; il y a entassé ce que l’Épopée de Gilgamesh appelle « les semences de vie »",
+       "note": "Ark (tebah) = container/'capsule Apollo' holding seeds of life and knowledge, not animals; but it is a shelter on Earth, and the Flood is the departing Celestials destroying Eden and its nuclear plants (l. 1171, 1199), not home-planet missiles; Noah not in orbit."
+      },
+      "nous-autres": {
+       "status": "mentioned",
+       "locator": "ch. \"Notre âge ingrat\" (PL2) / line 191",
+       "quote_fr": "c’est dans un tebah que Noé s’est embarqué avec tout son fourbi, pour le temps du Déluge",
+       "note": "Lexical note (tebah vs aron) only; no nuclear flood, no spaceship-ark."
+      },
+      "ere-du-verseau": {
+       "status": "similar",
+       "locator": "ch. 19 (PL36) / lines 1374, 1380–1382; ch. 20 / line 1391",
+       "quote_fr": "Il en fallait de l’imagination, aux auteurs de la Tradition, pour inventer un vaisseau clos, chargé de matériel génétique",
+       "note": "Ark = a closed vessel ('La capsule Apollo est un tebah') carrying genetic material; but the Flood is the departing Elohim destroying their own installations, not nuclear missiles from the home planet."
+      }
+     }
+    },
+    {
+     "id": "I038",
+     "tbwtt": "2:67–68",
+     "bible_ref": "Genesis 8:21",
+     "topic": "The heart of man is evil",
+     "per_book": {
+      "cahiers": {
+       "status": "similar",
+       "locator": "Cahier 2, ch. VII / PL5 / line 1577",
+       "quote_fr": "Noé n’eut pas trop de difficultés pour repeupler la Terre en animaux.",
+       "note": "Biotech repopulation by analogy with artificial insemination; no stored cells in the ark."
+      },
+      "la-lune": {
+       "status": "absent",
+       "locator": null,
+       "quote_fr": null,
+       "note": "Gen 8:21 not discussed."
+      },
+      "ces-dieux": {
+       "status": "similar",
+       "locator": "ch. 34 / PL36 / line 1199",
+       "quote_fr": "Ils l’aident à construire son tebah et à y entasser matériel, documentation et semences de vie",
+       "note": "Life preserved as 'semences de vie' in the tebah; species earlier recreated from genetic material in Eden labs (l. 913); no per-race return or explicit recreation-from-ark-cells step."
+      },
+      "nous-autres": {
+       "status": "absent",
+       "locator": null,
+       "quote_fr": null,
+       "note": "Not found after searching names, verse refs and synonyms; this book (a polemic on humanism vs 'pensée médiévale') discusses few biblical passages."
+      },
+      "ere-du-verseau": {
+       "status": "absent",
+       "locator": null,
+       "quote_fr": null,
+       "note": "Not discussed."
+      }
+     }
+    }
+   ],
+   "verdict": "IN",
+   "summary": "Cargo is \"semences de vie\" (Ces dieux, citing the Epic of Gilgamesh by name) / \"matériel génétique\" (L'ère), not animals. Re-creation of animals from ark-cells: not recorded as such.",
+   "lookups": [
+    "L08"
+   ]
+  },
+  {
+   "id": "D27",
+   "detail": "Aboard: Noah and one couple of each human race; each race is put back at its place of creation",
+   "ap_class": "unique-and-contradicted",
+   "inventory_items": [
+    {
+     "id": "I035",
+     "tbwtt": "2:61–62",
+     "bible_ref": "Genesis 7:24; 6:16",
+     "topic": "150 days; ark in three stages",
+     "per_book": {
+      "cahiers": {
+       "status": "absent",
+       "locator": null,
+       "quote_fr": null,
+       "note": "Neither the 150 days nor the three-storey ark/three-stage rocket is discussed."
+      },
+      "la-lune": {
+       "status": "absent",
+       "locator": null,
+       "quote_fr": null,
+       "note": "150 days / three decks not discussed."
+      },
+      "ces-dieux": {
+       "status": "absent",
+       "locator": null,
+       "quote_fr": null,
+       "note": "150 days / three decks not discussed; tebah is a container, not a rocket."
+      },
+      "nous-autres": {
+       "status": "absent",
+       "locator": null,
+       "quote_fr": null,
+       "note": "Not found after searching names, verse refs and synonyms; this book (a polemic on humanism vs 'pensée médiévale') discusses few biblical passages."
+      },
+      "ere-du-verseau": {
+       "status": "mentioned",
+       "locator": "ch. 19 (PL36) / line 1380",
+       "quote_fr": "Ce texte dit que le « Déluge » dura cent cinquante jours.",
+       "note": "150 days noted; no three-stage rocket."
+      }
+     }
+    },
+    {
+     "id": "I038",
+     "tbwtt": "2:67–68",
+     "bible_ref": "Genesis 8:21",
+     "topic": "The heart of man is evil",
+     "per_book": {
+      "cahiers": {
+       "status": "similar",
+       "locator": "Cahier 2, ch. VII / PL5 / line 1577",
+       "quote_fr": "Noé n’eut pas trop de difficultés pour repeupler la Terre en animaux.",
+       "note": "Biotech repopulation by analogy with artificial insemination; no stored cells in the ark."
+      },
+      "la-lune": {
+       "status": "absent",
+       "locator": null,
+       "quote_fr": null,
+       "note": "Gen 8:21 not discussed."
+      },
+      "ces-dieux": {
+       "status": "similar",
+       "locator": "ch. 34 / PL36 / line 1199",
+       "quote_fr": "Ils l’aident à construire son tebah et à y entasser matériel, documentation et semences de vie",
+       "note": "Life preserved as 'semences de vie' in the tebah; species earlier recreated from genetic material in Eden labs (l. 913); no per-race return or explicit recreation-from-ark-cells step."
+      },
+      "nous-autres": {
+       "status": "absent",
+       "locator": null,
+       "quote_fr": null,
+       "note": "Not found after searching names, verse refs and synonyms; this book (a polemic on humanism vs 'pensée médiévale') discusses few biblical passages."
+      },
+      "ere-du-verseau": {
+       "status": "absent",
+       "locator": null,
+       "quote_fr": null,
+       "note": "Not discussed."
+      }
+     }
+    },
+    {
+     "id": "I016",
+     "tbwtt": "2:25",
+     "bible_ref": "non-biblical: origin of human races",
+     "topic": "Each human race = one team of creators",
+     "per_book": {
+      "cahiers": {
+       "status": "similar",
+       "locator": "Cahier 2, ch. IV / PL5 / line 1296",
+       "quote_fr": "chacune de celles-ci porte en effet la marque de fabrique du biologiste théosite qui « créa » son lointain ancêtre",
+       "note": "Variety of ANIMAL species = different creator-biologists' \"trademark\"; human groups differ by which Théosite seat guided them, not one team per race."
+      },
+      "la-lune": {
+       "status": "absent",
+       "locator": null,
+       "quote_fr": null,
+       "note": "Not discussed."
+      },
+      "ces-dieux": {
+       "status": "absent",
+       "locator": null,
+       "quote_fr": null,
+       "note": "Single team of ~30 Celestials; no races-per-team."
+      },
+      "nous-autres": {
+       "status": "mentioned",
+       "locator": "ch. \"Notre âge ingrat\" (PL2) / line 108",
+       "quote_fr": "Il est, dans une certaine mesure, rassurant de constater que les « races » n’expliquent rien",
+       "note": "Races discussed but held to explain nothing (cultural conditioning); opposite of one creator team per race."
+      },
+      "ere-du-verseau": {
+       "status": "absent",
+       "locator": null,
+       "quote_fr": null,
+       "note": "No team-per-race claim; 'fifteen couples' arrive together (line 1150)."
+      }
+     }
+    }
+   ],
+   "verdict": "NOT",
+   "summary": "Couple of each race aboard, each race returned to its place of creation: recorded absent.",
+   "lookups": []
+  },
+  {
+   "id": "D28",
+   "detail": "Noah was not believed and was mocked",
+   "ap_class": "shared-not-genesis",
+   "inventory_items": [],
+   "verdict": "UNDECIDED",
+   "summary": "No inventory item (ETTMTTP-3:234 is outside the inventory). L'ère quotes Matt 24:37 on the days of Noah (I194) without the mockery.",
+   "lookups": [
+    "L09"
+   ]
+  },
+  {
+   "id": "D29",
+   "detail": "Those who ordered the destruction learn only afterwards that life survived, and are alarmed",
+   "ap_class": "shared-not-genesis",
+   "inventory_items": [
+    {
+     "id": "I040",
+     "tbwtt": "2:72–74",
+     "bible_ref": "Genesis 11:1–6",
+     "topic": "Tower of Babel = rocket",
+     "per_book": {
+      "cahiers": {
+       "status": "same",
+       "locator": "Cahier 2, ch. VII / PL5 / line 1597",
+       "quote_fr": "les hommes se mettent à édifier la tour de lancement d’un astronef prématuré, dite Tour de Babel",
+       "note": "Babel = launch tower for a spacecraft built from Noah's documents; colonists stop a premature space attempt (no goal of reaching the creators' planet)."
+      },
+      "la-lune": {
+       "status": "same",
+       "locator": "Part I ch.4 (Tour de Babel) / line 936",
+       "quote_fr": "une tour édiﬁée dans une plaine ne peut prétendre « atteindre les cieux » que par un lancement",
+       "note": "Babel = launch tower to reach the heavens (the Moon); 'rien ne leur sera impossible' quoted. Builders = Noah's hybrid heirs with inherited knowledge, not Israelites aided by exiled creators."
+      },
+      "ces-dieux": {
+       "status": "similar",
+       "locator": "ch. 35 / PL37 / line 1239",
+       "quote_fr": "L’intention de couronner la tour d’un mécanisme propulseur ne saurait être indiquée de façon plus évidente.",
+       "note": "Babel = launch tower crowned with a bow-like propulsion device to reach the Moon/'arc d'alliance' (l. 1221); builders are Noah's doubting heirs, without Celestial help, not Israel aiming at the creators' planet."
+      },
+      "nous-autres": {
+       "status": "absent",
+       "locator": null,
+       "quote_fr": null,
+       "note": "Not found after searching names, verse refs and synonyms; this book (a polemic on humanism vs 'pensée médiévale') discusses few biblical passages."
+      },
+      "ere-du-verseau": {
+       "status": "similar",
+       "locator": "ch. 20 (PL38) / line 1424",
+       "quote_fr": "à tenter dès les Gémeaux d’atteindre l’ « arc d’alliance » dans ces « cieux » où l’objet proclamé de la Tour de Babel était de « placer sa tête »… comme les tours de lancement du Cap Kennedy y placent les leurs",
+       "note": "Babel = a launch tower, but built by heretical holders of the Tradition (sons of Ham?) to reach the lunar 'arc d'alliance' early, not Israel with exiled creators reaching the home planet."
+      }
+     }
+    }
+   ],
+   "verdict": "UNDECIDED",
+   "summary": "The inventory folds the detail into I040's summary but no check note addresses it. Structural indications only: in Ces dieux, L'ère and La lune Noah's survival is arranged by the visitors, and in Ces dieux nobody intervenes at Babel; in Cahiers the colonists do stop the Babel launch, and how they come to know of it is not recorded.",
+   "lookups": [
+    "L01",
+    "L05"
+   ]
+  },
+  {
+   "id": "D30",
+   "detail": "The makers promise never again to destroy mankind; the reason",
+   "ap_class": "genesis-has-it",
+   "inventory_items": [
+    {
+     "id": "I037",
+     "tbwtt": "2:65–66",
+     "bible_ref": "Genesis 8:20–22; 9:11",
+     "topic": "Noah's altar and the covenant",
+     "per_book": {
+      "cahiers": {
+       "status": "similar",
+       "locator": "Cahier 2, ch. VII / PL5 / line 1594",
+       "quote_fr": "Je pense que cela consistait à lui confier toute la documentation scientifique de l’Eden sauvée dans l’Arche",
+       "note": "Covenant = handover of Eden's scientific documentation for gradual disclosure; altar = re-installed laboratories; not a promise not to destroy."
+      },
+      "la-lune": {
+       "status": "similar",
+       "locator": "Part I ch.4 (Tour de Babel) / line 1040",
+       "quote_fr": "le texte biblique fait état d’un « arc d’alliance laissé dans la nue »",
+       "note": "Covenant bow = installations/message left on the Moon for Noah's heirs (the book's thesis); Message = promise not to destroy again."
+      },
+      "ces-dieux": {
+       "status": "mentioned",
+       "locator": "ch. 32 / PL34 / line 1158",
+       "quote_fr": "la première chose que j’ai dû faire en sortant du tebah a été de monter un récepteur-émetteur puissant",
+       "note": "Noah's altar = radio transmitter-receiver; covenant = 'arc d'alliance' (késheth, a launching device on the Moon, l. 1159-1161); no promise-not-to-destroy reading."
+      },
+      "nous-autres": {
+       "status": "mentioned",
+       "locator": "ch. \"Notre âge d’or\" (PL7) / line 470",
+       "quote_fr": "une « preuve d’alliance », telle que la promet le chapitre IX de la Genèse, n’est pas cachée, mais balisée",
+       "note": "Gen 9 covenant read as a physical 'bow' artifact left on the Moon, not as a promise not to destroy again; see sendy_only."
+      },
+      "ere-du-verseau": {
+       "status": "similar",
+       "locator": "ch. 21 (PL39) / line 1497; ch. 10 / line 670; ch. 16 / line 1075",
+       "quote_fr": "ce sont les traducteurs volontiers poètes qui ont appelé « arc-en-ciel » ce qui en hébreu est un késheth, c’est-à-dire très expressément un arc lanceur de flèches",
+       "note": "Covenant sign read technologically as an 'arc d'alliance' (archive) left on the Moon and as Sagittarius; not a promise not to destroy."
+      }
+     }
+    }
+   ],
+   "verdict": "NOT",
+   "summary": "Covenant read as a physical bow/archive on the Moon or a handover of documents, not as a promise not to destroy, in all five. (The promise itself is Genesis'.) LWTE reason not covered.",
+   "lookups": []
+  },
+  {
+   "id": "D31",
+   "detail": "The Elohim are themselves created beings (message in an automatic vessel from their own makers)",
+   "ap_class": "unique",
+   "inventory_items": [],
+   "verdict": "UNDECIDED",
+   "summary": "No inventory item (LWTE-only). Neighbours: \"Le Commencement fit les Élohim\" (L'ère sendy_only S03); a galactic chain of civilisations from Sagittarius (Ces dieux sendy_only S22).",
+   "lookups": [
+    "L06"
+   ]
+  },
+  {
+   "id": "D32",
+   "detail": "Not every species is re-established after the Flood (the great reptiles are left out); geology and coastlines are rewritten",
+   "ap_class": "unique",
+   "inventory_items": [],
+   "verdict": "UNDECIDED",
+   "summary": "No inventory item (LWTE ch. 4, Terrusse). Neighbours: \"diplodocus raté\" (Ces dieux I014); Eden remembered as Atlantis, destroyed in a \"super-Hiroshima\" (Ces dieux sendy_only S29).",
+   "lookups": [
+    "L11"
+   ]
+  },
+  {
+   "id": "D33",
+   "detail": "The tower is a vehicle for reaching the makers' world, built by the most advanced people with the exiles' help",
+   "ap_class": "shared-not-genesis",
+   "inventory_items": [
+    {
+     "id": "I040",
+     "tbwtt": "2:72–74",
+     "bible_ref": "Genesis 11:1–6",
+     "topic": "Tower of Babel = rocket",
+     "per_book": {
+      "cahiers": {
+       "status": "same",
+       "locator": "Cahier 2, ch. VII / PL5 / line 1597",
+       "quote_fr": "les hommes se mettent à édifier la tour de lancement d’un astronef prématuré, dite Tour de Babel",
+       "note": "Babel = launch tower for a spacecraft built from Noah's documents; colonists stop a premature space attempt (no goal of reaching the creators' planet)."
+      },
+      "la-lune": {
+       "status": "same",
+       "locator": "Part I ch.4 (Tour de Babel) / line 936",
+       "quote_fr": "une tour édiﬁée dans une plaine ne peut prétendre « atteindre les cieux » que par un lancement",
+       "note": "Babel = launch tower to reach the heavens (the Moon); 'rien ne leur sera impossible' quoted. Builders = Noah's hybrid heirs with inherited knowledge, not Israelites aided by exiled creators."
+      },
+      "ces-dieux": {
+       "status": "similar",
+       "locator": "ch. 35 / PL37 / line 1239",
+       "quote_fr": "L’intention de couronner la tour d’un mécanisme propulseur ne saurait être indiquée de façon plus évidente.",
+       "note": "Babel = launch tower crowned with a bow-like propulsion device to reach the Moon/'arc d'alliance' (l. 1221); builders are Noah's doubting heirs, without Celestial help, not Israel aiming at the creators' planet."
+      },
+      "nous-autres": {
+       "status": "absent",
+       "locator": null,
+       "quote_fr": null,
+       "note": "Not found after searching names, verse refs and synonyms; this book (a polemic on humanism vs 'pensée médiévale') discusses few biblical passages."
+      },
+      "ere-du-verseau": {
+       "status": "similar",
+       "locator": "ch. 20 (PL38) / line 1424",
+       "quote_fr": "à tenter dès les Gémeaux d’atteindre l’ « arc d’alliance » dans ces « cieux » où l’objet proclamé de la Tour de Babel était de « placer sa tête »… comme les tours de lancement du Cap Kennedy y placent les leurs",
+       "note": "Babel = a launch tower, but built by heretical holders of the Tradition (sons of Ham?) to reach the lunar 'arc d'alliance' early, not Israel with exiled creators reaching the home planet."
+      }
+     }
+    }
+   ],
+   "verdict": "IN",
+   "summary": "Babel as launch tower: same in Cahiers (1963) and La lune (1968); similar in Ces dieux and L'ère. Destination the Moon, not the makers' planet; no helpers from an exiled group (Ces dieux: without Celestial help).",
+   "lookups": []
+  },
+  {
+   "id": "D34",
+   "detail": "The purpose is to obtain the exiles' pardon by showing mankind grateful and peaceful",
+   "ap_class": "shared-not-genesis",
+   "inventory_items": [
+    {
+     "id": "I040",
+     "tbwtt": "2:72–74",
+     "bible_ref": "Genesis 11:1–6",
+     "topic": "Tower of Babel = rocket",
+     "per_book": {
+      "cahiers": {
+       "status": "same",
+       "locator": "Cahier 2, ch. VII / PL5 / line 1597",
+       "quote_fr": "les hommes se mettent à édifier la tour de lancement d’un astronef prématuré, dite Tour de Babel",
+       "note": "Babel = launch tower for a spacecraft built from Noah's documents; colonists stop a premature space attempt (no goal of reaching the creators' planet)."
+      },
+      "la-lune": {
+       "status": "same",
+       "locator": "Part I ch.4 (Tour de Babel) / line 936",
+       "quote_fr": "une tour édiﬁée dans une plaine ne peut prétendre « atteindre les cieux » que par un lancement",
+       "note": "Babel = launch tower to reach the heavens (the Moon); 'rien ne leur sera impossible' quoted. Builders = Noah's hybrid heirs with inherited knowledge, not Israelites aided by exiled creators."
+      },
+      "ces-dieux": {
+       "status": "similar",
+       "locator": "ch. 35 / PL37 / line 1239",
+       "quote_fr": "L’intention de couronner la tour d’un mécanisme propulseur ne saurait être indiquée de façon plus évidente.",
+       "note": "Babel = launch tower crowned with a bow-like propulsion device to reach the Moon/'arc d'alliance' (l. 1221); builders are Noah's doubting heirs, without Celestial help, not Israel aiming at the creators' planet."
+      },
+      "nous-autres": {
+       "status": "absent",
+       "locator": null,
+       "quote_fr": null,
+       "note": "Not found after searching names, verse refs and synonyms; this book (a polemic on humanism vs 'pensée médiévale') discusses few biblical passages."
+      },
+      "ere-du-verseau": {
+       "status": "similar",
+       "locator": "ch. 20 (PL38) / line 1424",
+       "quote_fr": "à tenter dès les Gémeaux d’atteindre l’ « arc d’alliance » dans ces « cieux » où l’objet proclamé de la Tour de Babel était de « placer sa tête »… comme les tours de lancement du Cap Kennedy y placent les leurs",
+       "note": "Babel = a launch tower, but built by heretical holders of the Tradition (sons of Ham?) to reach the lunar 'arc d'alliance' early, not Israel with exiled creators reaching the home planet."
+      }
+     }
+    },
+    {
+     "id": "I042",
+     "tbwtt": "2:78",
+     "bible_ref": "Genesis 18–19 (background to Sodom)",
+     "topic": "Exiles pardoned; avengers in Sodom and Gomorrah",
+     "per_book": {
+      "cahiers": {
+       "status": "mentioned",
+       "locator": "Cahier 1, ch. XI / PL4 / line 748",
+       "quote_fr": "Le récit nous donne-t-il aussi les raisons véritables de la destruction ? Certainement. Mais elles importent peu ici",
+       "note": "No Sodom-as-base-of-avengers background; reasons explicitly left aside."
+      },
+      "la-lune": {
+       "status": "absent",
+       "locator": null,
+       "quote_fr": null,
+       "note": "Sodom and Gomorrah not discussed (Lot appears only in Gen 14)."
+      },
+      "ces-dieux": {
+       "status": "similar",
+       "locator": "ch. 36 / PL38 / line 1274",
+       "quote_fr": "Les Célestes avaient-ils laissé, par fausse manœuvre ou volontairement, du combustible nucléaire dans un Éden annexe ?",
+       "note": "Sodom region = annex Eden with leftover nuclear fuel ('jardin du Seigneur'); no pardoned exiles, no avengers preparing an attack."
+      },
+      "nous-autres": {
+       "status": "absent",
+       "locator": null,
+       "quote_fr": null,
+       "note": "Not found after searching names, verse refs and synonyms; this book (a polemic on humanism vs 'pensée médiévale') discusses few biblical passages."
+      },
+      "ere-du-verseau": {
+       "status": "absent",
+       "locator": null,
+       "quote_fr": null,
+       "note": "Not found after searching names, verse numbers and key terms."
+      }
+     }
+    }
+   ],
+   "verdict": "NOT",
+   "summary": "No pardon motive recorded; the stated aims are a premature spacecraft (Cahiers) or the lunar \"arc d'alliance\" (La lune, Ces dieux, L'ère).",
+   "lookups": []
+  },
+  {
+   "id": "D35",
+   "detail": "The home world is alarmed, comes, removes the most learned and scatters them among peoples whose languages already differ, and destroys the equipment",
+   "ap_class": "shared-not-genesis",
+   "inventory_items": [
+    {
+     "id": "I041",
+     "tbwtt": "2:75–76",
+     "bible_ref": "Genesis 11:7–9",
+     "topic": "Confusion of languages and dispersion",
+     "per_book": {
+      "cahiers": {
+       "status": "similar",
+       "locator": "Cahier 2, ch. VII / PL5 / line 1607",
+       "quote_fr": "leur Tour s’effondre, entraînant dans sa chute la destruction de tout l’appareillage",
+       "note": "\"Confusion\" = discord sown among the scientists, collapse destroys all equipment; no deliberate scattering of Jewish scientists among primitives."
+      },
+      "la-lune": {
+       "status": "similar",
+       "locator": "Part I ch.4 (Tour de Babel) / line 1037",
+       "quote_fr": "ils préfèrent compromettre le succès de la civilisation projetée",
+       "note": "Elohim sabotage the project; 'one language' = a shared sacred priestly language whose confusion follows the failure. Message = physical dispersal of Jewish scientists and destruction of equipment."
+      },
+      "ces-dieux": {
+       "status": "similar",
+       "locator": "ch. 35 / PL37 / line 1243",
+       "quote_fr": "aucun Céleste n’avait besoin de se déranger",
+       "note": "Confusion of languages arises naturally from failure and quarrels over sacred books; Sendy denies any Celestial intervention; no deliberate scattering of scientists."
+      },
+      "nous-autres": {
+       "status": "absent",
+       "locator": null,
+       "quote_fr": null,
+       "note": "Not found after searching names, verse refs and synonyms; this book (a polemic on humanism vs 'pensée médiévale') discusses few biblical passages."
+      },
+      "ere-du-verseau": {
+       "status": "mentioned",
+       "locator": "ch. 20 (PL38) / lines 1416, 1424, 1427",
+       "quote_fr": "ils ont réussi à imposer ce « seul langage » que Santillana appelle « le langage initiatique international » des temps archaïques",
+       "note": "One language = an imposed initiatic language whose loss ends the Golden Age; no dispersal of scientists."
+      }
+     }
+    },
+    {
+     "id": "I039",
+     "tbwtt": "2:69–70",
+     "bible_ref": "Genesis 10:32",
+     "topic": "Nations spread after the Flood",
+     "per_book": {
+      "cahiers": {
+       "status": "mentioned",
+       "locator": "Cahier 2, ch. VII / PL5 / line 1580",
+       "quote_fr": "ont « peuplé les îles des nations », « selon la langue de chacune »",
+       "note": "Gen 10 read as Noah's sons rounding up survivors towards Giza; no technological reading."
+      },
+      "la-lune": {
+       "status": "mentioned",
+       "locator": "Part I ch.4 (Tour de Babel) / line 767",
+       "quote_fr": "Le chapitre X se termine par l’indication que les ﬁls des trois ﬁls de Noé sont allés « essaimer les nations »",
+       "note": "Gen 10 read as Noah's descendants organising paleolithic peoples into nations as priest-kings (Message gives no specific reading)."
+      },
+      "ces-dieux": {
+       "status": "mentioned",
+       "locator": "ch. 34 / PL36 / line 1210",
+       "quote_fr": "Quand les fils et petits-fils de Noé se dispersent, dans le bassin méditerranéen et en Mésopotamie",
+       "note": "Post-Flood dispersal of Noah's sons as priest-kings; Gen 10:32 not cited."
+      },
+      "nous-autres": {
+       "status": "absent",
+       "locator": null,
+       "quote_fr": null,
+       "note": "Not found after searching names, verse refs and synonyms; this book (a polemic on humanism vs 'pensée médiévale') discusses few biblical passages."
+      },
+      "ere-du-verseau": {
+       "status": "mentioned",
+       "locator": "ch. 20 (PL38) / line 1415",
+       "quote_fr": "Noé a une nombreuse progéniture, qui part « essaimer les nations », chacune selon sa langue, précise le chapitre X de la Genèse.",
+       "note": "Table of nations = spread of Noah's line carrying the Tradition."
+      }
+     }
+    }
+   ],
+   "verdict": "IN",
+   "summary": "Intervention and loss of the equipment: similar in Cahiers (\"destruction de tout l'appareillage\") and La lune (Elohim sabotage). Ces dieux denies any intervention. No scattering of the learned among primitive peoples. L'ère notes Gen 10's nations \"chacune selon sa langue\" and reads the \"one language\" as an imposed initiatic language.",
+   "lookups": []
+  },
+  {
+   "id": "D36",
+   "detail": "The exiles are then pardoned, return home and plead for mankind",
+   "ap_class": "canon-contradicts-older",
+   "inventory_items": [
+    {
+     "id": "I042",
+     "tbwtt": "2:78",
+     "bible_ref": "Genesis 18–19 (background to Sodom)",
+     "topic": "Exiles pardoned; avengers in Sodom and Gomorrah",
+     "per_book": {
+      "cahiers": {
+       "status": "mentioned",
+       "locator": "Cahier 1, ch. XI / PL4 / line 748",
+       "quote_fr": "Le récit nous donne-t-il aussi les raisons véritables de la destruction ? Certainement. Mais elles importent peu ici",
+       "note": "No Sodom-as-base-of-avengers background; reasons explicitly left aside."
+      },
+      "la-lune": {
+       "status": "absent",
+       "locator": null,
+       "quote_fr": null,
+       "note": "Sodom and Gomorrah not discussed (Lot appears only in Gen 14)."
+      },
+      "ces-dieux": {
+       "status": "similar",
+       "locator": "ch. 36 / PL38 / line 1274",
+       "quote_fr": "Les Célestes avaient-ils laissé, par fausse manœuvre ou volontairement, du combustible nucléaire dans un Éden annexe ?",
+       "note": "Sodom region = annex Eden with leftover nuclear fuel ('jardin du Seigneur'); no pardoned exiles, no avengers preparing an attack."
+      },
+      "nous-autres": {
+       "status": "absent",
+       "locator": null,
+       "quote_fr": null,
+       "note": "Not found after searching names, verse refs and synonyms; this book (a polemic on humanism vs 'pensée médiévale') discusses few biblical passages."
+      },
+      "ere-du-verseau": {
+       "status": "absent",
+       "locator": null,
+       "quote_fr": null,
+       "note": "Not found after searching names, verse numbers and key terms."
+      }
+     }
+    }
+   ],
+   "verdict": "NOT",
+   "summary": "No pardoned exiles returning home in any book.",
+   "lookups": []
+  },
+  {
+   "id": "D37",
+   "detail": "Three roles: the one who presses for destruction (Satan), the president who decides (Yahweh), the faction that saves (Lucifer's group); Yahweh is also one of the makers",
+   "ap_class": "shared-not-genesis",
+   "inventory_items": [
+    {
+     "id": "I136",
+     "tbwtt": "3:248–256",
+     "bible_ref": "Job 1:6–12; 2:6",
+     "topic": "Satan among the sons of Elohim; testing Job",
+     "per_book": {
+      "cahiers": {
+       "status": "absent",
+       "locator": null,
+       "quote_fr": null,
+       "note": "Job not discussed; Sendy's Satan is the pro-human serpent of Genesis (see I021), not a sceptical opposition leader."
+      },
+      "la-lune": {
+       "status": "similar",
+       "locator": "Part III ch.troisième (Gen 3) / line 4907",
+       "quote_fr": "Satan, « l’ange déchu », est présenté comme « ﬁls des Elohim » dans le Livre de Job",
+       "note": "Job 1:6 quoted: Satan is one of the sons of the Elohim; Job suggested as an 'incidente' explaining Gen 3. No opposition faction on a home planet."
+      },
+      "ces-dieux": {
+       "status": "similar",
+       "locator": "ch. 30 / PL32 / line 1113",
+       "quote_fr": "D’un commun accord, le Seigneur et Satan choisissent un sujet d’expérience, Job",
+       "note": "Satan among the bene ha-elohim = Lucifer (the fallen mutant) received in audience; Job an experiment; not a home-planet opposition leader."
+      },
+      "nous-autres": {
+       "status": "absent",
+       "locator": null,
+       "quote_fr": null,
+       "note": "Not found after searching names, verse refs and synonyms; this book (a polemic on humanism vs 'pensée médiévale') discusses few biblical passages."
+      },
+      "ere-du-verseau": {
+       "status": "absent",
+       "locator": null,
+       "quote_fr": null,
+       "note": "Job 1–2 not cited; Satan is treated as a dissident Théosite under Gen 3 (see I021)."
+      }
+     }
+    },
+    {
+     "id": "I021",
+     "tbwtt": "2:34–35",
+     "bible_ref": "Genesis 3:1–5",
+     "topic": "The serpent tempts the woman",
+     "per_book": {
+      "cahiers": {
+       "status": "same",
+       "locator": "Cahier 2, ch. III / PL5 / line 1116",
+       "quote_fr": "De son vrai nom ce Théosite anticonformiste s’appelait, comme chacun sait, M. Satan.",
+       "note": "Serpent = a dissident colonist (\"philanthrope ... estimant que les humains avaient droit à l’Initiation\"); one individual rather than a small group."
+      },
+      "la-lune": {
+       "status": "similar",
+       "locator": "Part III ch.troisième (Gen 3) / line 4895",
+       "quote_fr": "le serpent-qui-parle et connaît aussi bien que les autres ﬁls des Elohim l’eﬀet du « fruit »",
+       "note": "Serpent implied to be one of the sons of the Elohim (linked to Satan in Job), but Sendy withdrew his explanation of Gen 3; no dissident scientist faction."
+      },
+      "ces-dieux": {
+       "status": "similar",
+       "locator": "ch. 29 / PL31 / line 1043",
+       "quote_fr": "ce qui incite bien à voir en lui un indigène en cours de mutation",
+       "note": "Serpent = a mutant native (later Lucifer) who already knew the science, not a dissident faction of creators."
+      },
+      "nous-autres": {
+       "status": "similar",
+       "locator": "ch. \"Notre âge ingrat\" (PL2) / line 161",
+       "quote_fr": "C’est sur cette science rudimentaire que se greffe l’épisode de l’ « Ange Déchu », de Satan qui lui révéla la « connaissance du bien et du mal »",
+       "note": "Serpent = a fallen Angel (a Celestial) who told man he was equal to the gods. Message: a small faction of creating scientists offering full scientific education."
+      },
+      "ere-du-verseau": {
+       "status": "same",
+       "locator": "ch. 18 (PL34) / lines 1305–1306, 1353",
+       "quote_fr": "Lucifer veut porter la lumière aux hommes tout de suite. Satan veut que les hommes sachent tout, tout de suite.",
+       "note": "Serpent = a dissident creator (one Théosite, Satan-Lucifer, not a group) who prematurely reveals that the Elohim are not divine but of human nature."
+      }
+     }
+    }
+   ],
+   "verdict": "PARTIAL",
+   "summary": "Iahvé as possible \"président élu\" of the Elohim (La lune 1968). Satan and Lucifer are one pro-human figure in Sendy (\"Lucifer-Satan\"); the canon's split into an accuser (Satan) and a saving faction (Lucifer) is not recorded.",
+   "lookups": [
+    "L07"
+   ]
+  }
+ ],
+ "lookups": {
+  "L01": {
+   "book": "Les cahiers de cours de Moïse (1963)",
+   "where": "Cahier 2, ch. V–VII (PL5), around extraction lines 1455–1610; anchors: line 1472 (« NOS DIRIGEANTS (qui vivent dans les cieux) ont décidé… »), line 1510 (« il savait que la seule chance de survie de Noé… »), line 1597–1607 (Babel)",
+   "question": "Who is the \"il\" who knows Noah must build a submarine — a member of the deciding leadership, a dissenting colonist, or Iahvé? Who speaks the line \"NOS DIRIGEANTS…\" and to whom? After the Flood, do the departed Théosites learn that Noah/the documents survived, and is that how they come to stop Babel?",
+   "closes": [
+    "D23",
+    "D29",
+    "D21"
+   ]
+  },
+  "L02": {
+   "book": "all five; first Les cahiers (Cahier 2 ch. V, lines 1453–1475) and Ces dieux (ch. 24–25, PL26–27; ch. 30, PL32)",
+   "where": "the Gen 6:1–4 passages",
+   "question": "Full-text search for arme(s), épée, glaive, arsenal, chasse, « en échange », charmes, near « filles des hommes ». Does any passage have the Elohim's sons give weapons (or any technique) to or through the women?",
+   "closes": [
+    "D18"
+   ]
+  },
+  "L03": {
+   "book": "Ces dieux (ch. 30, PL32, lines 1095–1124) and Les cahiers (Cahier 2 ch. V, line 1472)",
+   "where": "« système de guerres furieuses »; the \"War of the Gods\"",
+   "question": "Who fights (Gérants, hybrids, colonist factions), with whose weapons, and is the fighting given as a reason for the Flood or only as its setting?",
+   "closes": [
+    "D18",
+    "D20"
+   ]
+  },
+  "L04": {
+   "book": "Les cahiers (line 1472); La lune (Part I ch. 9, line 2085; Part III Gen 3, line 4907); Ces dieux (ch. 30, line 1113)",
+   "where": "council / leadership passages",
+   "question": "Is there any scene of deliberation — accusation, evidence, vote, decision by a president — before the Flood? Is the \"président élu\" ever shown deciding the Flood?",
+   "closes": [
+    "D19",
+    "D37"
+   ]
+  },
+  "L05": {
+   "book": "La lune (Part I ch. 4, lines 733–1040) and L'ère (ch. 20, PL38, lines 1390–1427)",
+   "where": "the Babel chapters",
+   "question": "La lune has the Elohim sabotage Babel after having left: how do they learn of the tower, and is any surprise at human survival or progress expressed? L'ère: confirm that no one intervenes.",
+   "closes": [
+    "D29"
+   ]
+  },
+  "L06": {
+   "book": "L'ère (ch. 16, PL31, line 1061; ch. 17) and Ces dieux (ch. 14, PL16, line 508; ch. 39, lines 1385–1386)",
+   "where": "« Le Commencement fit les Élohim »; the galactic chain",
+   "question": "Does Sendy say the Elohim were themselves made or seeded by an earlier civilisation, and is any message, probe or automatic vessel from such predecessors mentioned?",
+   "closes": [
+    "D31"
+   ]
+  },
+  "L07": {
+   "book": "Ces dieux (ch. 30, PL32, lines 1111–1113); La lune (line 4907); L'ère (ch. 17–18)",
+   "where": "Satan / Lucifer / Job",
+   "question": "Is Satan ever hostile to mankind or an advocate of its destruction? Are Satan and Lucifer ever distinguished as two persons or parties?",
+   "closes": [
+    "D11",
+    "D19",
+    "D37"
+   ]
+  },
+  "L08": {
+   "book": "all five (full-text)",
+   "where": "every occurrence of Gilgamesh, Outa-Napishtim/Utnapishtim, Sumer, Chaldée, Bérose, Oannès, Hénoch/Enoch (book), Veilleurs, apocryphes, Jubilés",
+   "question": "Record each occurrence with context and the edition or translation Sendy cites. In particular the full passage round « ce que l'Épopée de Gilgamesh appelle \"les semences de vie\" » (Ces dieux ch. 31, PL33, line 1137): does Sendy retell Tablet XI (Ea's warning, Enlil's anger at the survivor)?",
+   "closes": [
+    "D23",
+    "D29",
+    "D26",
+    "D18"
+   ]
+  },
+  "L09": {
+   "book": "all five (full-text)",
+   "where": "moqu-, railler, risée, incrédul- near Noé",
+   "question": "Is Noah mocked or disbelieved anywhere?",
+   "closes": [
+    "D28"
+   ]
+  },
+  "L10": {
+   "book": "L'ère (ch. 19, PL36, lines 1374–1382) and Ces dieux (ch. 31, PL33, lines 1136–1141)",
+   "where": "the tebah passages",
+   "question": "Is the closed vessel ever said to leave the ground or orbit? Is Gen 7:17 (\"above the earth\") cited?",
+   "closes": [
+    "D25"
+   ]
+  },
+  "L11": {
+   "book": "Les cahiers (Cahier 2 ch. III, line 1176) and Ces dieux (ch. 2, PL4; ch. 31, line 1141)",
+   "where": "continental fit; Atlantis; diplodocus",
+   "question": "Does Sendy link the Flood/departure to a break-up of continents or to the disappearance of the great reptiles?",
+   "closes": [
+    "D03",
+    "D32"
+   ]
+  },
+  "L12": {
+   "book": "Les cahiers (Cahier 2 ch. III, lines 1079–1084)",
+   "where": "the earlier Golden Age destroyed by megatons",
+   "question": "Is the earlier destroyed cycle ever presented as a failed creation, or as occurring on another planet?",
+   "closes": [
+    "D06"
+   ]
+  }
+ }
+}

@@ -8,7 +8,7 @@ last_reviewed: 2026-11-12
 # Canon close reading (November 2026)
 
 A set of research notes produced by reading Raël's three books in the original
-French, paragraph by paragraph, against six questions. Everything here is a
+French, paragraph by paragraph, against eleven questions, in two waves. Everything here is a
 **draft research record**. Nothing in this directory promotes, revises or
 retires a claim; each note ends with proposals labelled as proposals for
 founder review.
@@ -26,8 +26,13 @@ founder review.
 **Textual basis and its limit.** The digitization reflects later editions (it
 carries footnotes dated after 1998 and editorial captions). Every statement
 about what the 1974, 1975 and 1979 printings said is provisional until collated
-with first printings. No outside source was consulted in these six notes;
-remarks that rely on outside knowledge are marked as unverified in the text.
+with first printings. No outside source was consulted in the first nine notes; remarks there that
+rely on outside knowledge are marked as unverified. `science-dated.md` and
+`checkpoints.md` do use outside sources: each records the URL opened and a
+verbatim excerpt. Those excerpts came through a fetch tool and have not been
+re-read on the page by a second reader; library catalogues (BnF, SUDOC) and
+several publisher sites were unreachable, so parts of that record rest on
+abstracts, encyclopaedia pages and secondary reports, as each note states.
 
 ## The notes
 
@@ -39,6 +44,11 @@ remarks that rely on outside knowledge are marked as unverified in the text.
 | [ancient-parallels.md](ancient-parallels.md) | Which primeval-history details are absent from Genesis but present in older texts? | 37 details |
 | [epistemics.md](epistemics.md) | What does the canon say about proof, belief, and its own reliability? | 717 items |
 | [science.md](science.md) | What scientific and technological statements does the canon make, and in whose voice? | 676 statements |
+| [voices.md](voices.md) | Who speaks in each paragraph, and where do the library's speaker tags disagree with the text? | every paragraph |
+| [society.md](society.md) | What do the books say about the Elohim's world and the programme prescribed for Earth? | 87 items |
+| [sendy-crosscheck.md](sendy-crosscheck.md) | Which non-Genesis details are already in Sendy's books, per the existing inventory? | 37 details |
+| [science-dated.md](science-dated.md) | What did published science say, and when, on the points where the canon leans on recent discoveries? (outside sources) | 30 comparisons |
+| [checkpoints.md](checkpoints.md) | Which public facts in the narrative can be compared with the public record? (outside sources) | 60 checkpoints |
 
 Structured registers are in [`registers/`](registers/). Quotations in the notes
 are written `QUOTE[REF]: … ENDQUOTE` so that they can be machine-checked:
@@ -48,7 +58,7 @@ python3 tools/dump_canon.py <data-library> /tmp/canon
 python3 tools/verify_quotes.py /tmp/canon *.md
 ```
 
-At the time of writing all 756 quotations in the six notes verify as verbatim.
+At the time of writing all 1,210 canon quotations in the eleven notes verify as verbatim.
 
 ## Method and its limits
 
@@ -120,6 +130,30 @@ observations about the source, not framework claims.
     adjective (1SA-WOH-17:26). The "three stages" of TBWTT-2:62 have no noun
     in GEN-WOH-6:16 (three plural adjectives).
 
+12. **"Les Clés" speaks as a created human.** ETTMTTP chapter 3 is framed by
+    2:132 ("je me mis à écrire en observant tout ce que j'écrivais et en le
+    découvrant comme un lecteur"), speaks of "Elohim nos pères, nos
+    créateurs" (3:5), has Raël as "je" (3:174) and the Elohim as "nous" in
+    3:241. The library tags the chapter as Yahweh's speech.
+13. **TBWTT narrates four "Le lendemain" frames** (2:1, 3:2, 5:2, 6:1), so five
+    sessions are narrated, while the text says "six jours de suite" (7:16,
+    7:76). No frame stands at the joins of chapters 3/4 and 6/7.
+14. **A post-mortem regime with punitive re-creation is stated** (ETTMTTP-2:99;
+    the class includes those who "n'ont pas su reconnaître la vérité", 2:82).
+    Humanitarianism is called "une règle provisoire" (ETTMTTP-3:96); the
+    estate beyond the family home is to be willed "au Guide des guides"
+    (ETTMTTP-3:71). The conditional destruction of the State of Israel stands
+    at ETTMTTP-2:125. LWTE-3:59 forbids killing even at an Eloha's request;
+    LWTE-3:70 allows execution as a last resort against a military threat to
+    humanity.
+15. **Sendy inventory.** *Ces dieux* names the Epic of Gilgamesh for the ark's
+    cargo ("les semences de vie", `check-ces-dieux.json#I033`); *Les cahiers*
+    records leaders "qui vivent dans les cieux" deciding the destruction
+    (`check-cahiers.json`, sendy_only, line 1472); Sendy's Satan is the
+    pro-human discloser (`check-cahiers.json#I021`).
+16. **The digitized TBWTT already reads "Puy-de-Lassolas"** (TBWTT-1:3) and
+    carries the heading "Mouvement Raélien" (7:73).
+
 ## Findings reported by the notes and not yet re-checked
 
 Counts and patterns that rest on the agents' registers: the classification
@@ -129,7 +163,16 @@ non-Genesis details; term frequencies by book (for example *Satan* 13 / 0 /
 43, *Lucifer* 0 / 0 / 9); the home-planet demographic arithmetic; the
 Enochic cluster of LWTE-2:25–27; the Qur'anic cluster; the claim that the
 New Testament quotations follow a translation other than Dhorme's. Treat
-these as leads until each has been re-read.
+these as leads until each has been re-read. From the second wave: the voice
+shares by book (Yahweh's speech 67 % of TBWTT, 22 % of ETTMTTP, 8 % of LWTE);
+the data-fix list for speaker tags; the 14-of-21 Sendy coverage count; zero
+occurrences of *paradisme*, *troisième temple* and *eugén-*; and every
+outside-source comparison in `science-dated.md` and `checkpoints.md` (memory
+transfer 1965–72 and its later abandonment; the nearest-star and parasang
+comparisons; the Ararat radiocarbon ages; the tentative identification of
+*Évolution ou création ?* as Flori and Rasolofomasoandro, 1974; INA dates
+for the 1974 television appearances; station weather for 13 December 1973
+and 7 October 1975).
 
 ## Housekeeping found on the way (other repositories)
 
@@ -160,3 +203,16 @@ accepted records most directly:
   canon's self-corrections; the canon's proof policy; selective quotation.
 - Research question: collate the passages named in `development.md` with the
   1974 first printing.
+- 0029 / 0032 / 0033 / 0049: bring the scope notes into line with the wording
+  recorded in `society.md` (punitive re-creation; council recruitment versus
+  the electorate prescribed for Earth; which planet book 2 describes;
+  inheritance and the provisional status of humanitarianism).
+- 0035 / 0020: the session count and the four modes of transmission
+  (`voices.md`).
+- 0072: six resemblance rows and two difference rows from
+  `sendy-crosscheck.md`; twelve look-ups to run when the Sendy texts are in
+  hand.
+- 0021: record the historical parasang beside the canon's gloss, once the
+  source is opened.
+- `data-library`: the speaker-tag fix list in `voices.md` (maintainers'
+  decision; "Les Clés" needs a ruling).

@@ -1,0 +1,2139 @@
+{
+ "key": "society",
+ "source_of_record": "texts/{TBWTT,ETTMTTP,LWTE}.fr.txt",
+ "schema": {
+  "items": "id, register, topic, year, voice, refs[], statement (English summary of what the text says), quotes[{ref, fr verbatim}]",
+  "findings": "id, title, quotes[]"
+ },
+ "findings": [
+  {
+   "id": "F1",
+   "title": "The text says the Earth programme IS the home world's politics, but describes two different mechanisms",
+   "quotes": [
+    {
+     "ref": "TBWTT-5:65",
+     "fr": "nous pensons que nous pouvons vous donner sans danger notre bagage politique et humanitaire"
+    },
+    {
+     "ref": "LWTE-1:84",
+     "fr": "le chapitre du premier message qui expliquait quelle était l'organisation politique de la planète des Elohim"
+    },
+    {
+     "ref": "TBWTT-7:54",
+     "fr": "ils vivent à part, dans des villes qui leur sont réservées et siègent régulièrement pour prendre des décisions"
+    },
+    {
+     "ref": "TBWTT-7:51",
+     "fr": "un concours a lieu dans chaque province avec vote des éternels de la province"
+    },
+    {
+     "ref": "TBWTT-7:56",
+     "fr": "je suis le premier sur qui cette expérience ait été réalisée, c'est pourquoi je suis le président des éternels"
+    },
+    {
+     "ref": "LWTE-2:22",
+     "fr": "le président du conseil des Eternels gouvernant la planète des Elohim"
+    }
+   ]
+  },
+  {
+   "id": "F2",
+   "title": "Humanitarianism is explicitly provisional (1975); the home world has neither property nor money",
+   "quotes": [
+    {
+     "ref": "TBWTT-7:43",
+     "fr": "La jalousie n'existe pas puisque tout le monde peut tout avoir et que la propriété n'existe pas"
+    },
+    {
+     "ref": "TBWTT-7:45",
+     "fr": "étant donné qu'il n'y a pas d'argent chez nous"
+    },
+    {
+     "ref": "ETTMTTP-3:96",
+     "fr": "Ceci est une règle provisoire évidemment, en attendant que l'homme soit capable de faire accomplir toutes les besognes par des robots pour se consacrer uniquement à son épanouissement, après avoir supprimé totalement l'argent"
+    },
+    {
+     "ref": "ETTMTTP-2:38",
+     "fr": "Aucun homme ne doit être au service d'un autre ni travailler pour un autre contre un salaire"
+    },
+    {
+     "ref": "ETTMTTP-2:38",
+     "fr": "C'est ce qui existe chez nous"
+    }
+   ]
+  },
+  {
+   "id": "F3",
+   "title": "The \"home world\" is two different places with different populations, and the detailed ethnography of 1975 concerns only ~9,100 people",
+   "quotes": [
+    {
+     "ref": "ETTMTTP-2:50",
+     "fr": "il s'agit d'une planète tout entière où vivent également les membres du conseil des éternels"
+    },
+    {
+     "ref": "ETTMTTP-2:54",
+     "fr": "il y en a environ quatre-vingt-dix mille en permanence"
+    },
+    {
+     "ref": "ETTMTTP-3:193",
+     "fr": "la planète de nos créateurs, les Elohim, et la planète des éternels"
+    }
+   ]
+  },
+  {
+   "id": "F4",
+   "title": "A graded post-mortem regime with punitive re-creation is stated in all three books; core 0029 excludes it from scope",
+   "quotes": [
+    {
+     "ref": "ETTMTTP-2:98",
+     "fr": "D'immenses ordinateurs assurent une surveillance permanente de tous les hommes vivant sur la Terre. Une note est attribuée à chacun en fonction de ses actions durant sa vie"
+    },
+    {
+     "ref": "ETTMTTP-2:99",
+     "fr": "ceux qui, sans être méchants, n'ont rien fait de positif ne sont pas recréés; et quant à ceux qui ont été particulièrement négatifs, une cellule de leur corps est conservée qui nous permettra de les recréer, quand le temps sera venu, pour qu'ils soient jugés et subissent le châtiment qu'ils méritent"
+    },
+    {
+     "ref": "ETTMTTP-2:82",
+     "fr": "Tous les êtres qui, sur Terre, ont prôné la violence, la méchanceté, l'agressivité, l'obscurantisme, ceux qui, bien qu'ayant tous les éléments en main pour comprendre d'où ils venaient, n'ont pas su reconnaître la vérité, seront recréés pour subir le châtiment qu'ils méritent après avoir été jugés par ceux qu'ils ont fait souffrir ou par leurs ascendants et descendants"
+    },
+    {
+     "ref": "ETTMTTP-3:217",
+     "fr": "Quant à ceux qui font souffrir les autres, ils seront recréés et leurs souffrances seront égales au plaisir des éternels"
+    },
+    {
+     "ref": "ETTMTTP-2:112",
+     "fr": "tandis que ceux qui les ont critiqués seront recréés pour leur châtiment"
+    },
+    {
+     "ref": "TBWTT-3:219",
+     "fr": "tous les mauvais hommes auront honte devant leurs juges, mais vivront dans le regret éternel en exemple pour l'humanité"
+    },
+    {
+     "ref": "LWTE-1:198",
+     "fr": "S'il a eu une majorité d'actes négatifs, il pourra être éventuellement recréé pour être jugé par ceux qu'il a fait souffrir"
+    }
+   ]
+  },
+  {
+   "id": "F5",
+   "title": "The home world has no prison or police, but compulsory mental check-ups and treatment; it has organised political opposition, and its history includes bans, exile, military surveillance and decisions to destroy",
+   "quotes": [
+    {
+     "ref": "TBWTT-7:43",
+     "fr": "Il n'y a pas de criminalité chez nous, donc pas de prison ni de police. Il y a par contre beaucoup de médecins et des visites médicales de l'esprit, régulières. Ceux chez qui on décèle le moindre déséquilibre moral pouvant entraîner des actes contraires à la liberté de chacun ou à la vie des autres sont tout de suite soumis à un traitement qui les ramène dans le droit chemin"
+    },
+    {
+     "ref": "TBWTT-7:46",
+     "fr": "il n'y a environ qu'un million d'inactifs presque tous en traitement, car ce sont généralement des désaxés moraux qui sont soignés par nos médecins durant environ six mois"
+    },
+    {
+     "ref": "LWTE-2:20",
+     "fr": "dirigeant en quelque sorte un parti politique de leur planète"
+    },
+    {
+     "ref": "LWTE-2:51",
+     "fr": "qu'il l'autorise à exercer son activité, «d'opposant politique » en quelque sorte"
+    },
+    {
+     "ref": "TBWTT-2:39",
+     "fr": "était condamné par le gouvernement de la planète originelle à vivre sur Terre en exil"
+    },
+    {
+     "ref": "TBWTT-2:48",
+     "fr": "Les créateurs exilés, qui restaient sous surveillance militaire"
+    },
+    {
+     "ref": "LWTE-2:26",
+     "fr": "Yahvé décide de faire ce que demande Satan, c'est-à-dire détruire totalement la vie qui a été créée sur la Terre"
+    }
+   ]
+  },
+  {
+   "id": "F6",
+   "title": "Prescriptions move in different directions across the three books (hardened, softened, dropped, added)",
+   "quotes": []
+  },
+  {
+   "id": "F7",
+   "title": "Crime is treated as illness on both worlds; the Earth version adds removal from society, including for threats",
+   "quotes": [
+    {
+     "ref": "ETTMTTP-3:151",
+     "fr": "La peine de mort doit être abolie car aucun homme n'a le droit de tuer un autre homme froidement et d'une manière réfléchie et organisée"
+    },
+    {
+     "ref": "ETTMTTP-3:153",
+     "fr": "N'oublie jamais que tout criminel est malade et considère-le comme tel"
+    },
+    {
+     "ref": "ETTMTTP-3:157",
+     "fr": "Toute menace de violence doit être considérée aussi sévèrement qu'une action violente réalisée"
+    },
+    {
+     "ref": "ETTMTTP-3:157",
+     "fr": "il faut les mettre hors de la société"
+    },
+    {
+     "ref": "ETTMTTP-3:89",
+     "fr": "La police est indispensable aussi longtemps que l'homme n'a pas découvert le moyen médical qui permet de supprimer la violence"
+    }
+   ]
+  },
+  {
+   "id": "F8",
+   "title": "Biological robots: status as described, and their place in the promised reward and in the Earth programme",
+   "quotes": [
+    {
+     "ref": "ETTMTTP-2:53",
+     "fr": "ils sont volontairement limités et absolument soumis à nous"
+    },
+    {
+     "ref": "ETTMTTP-2:53",
+     "fr": "Ils n'ont aucune aspiration propre et aucun plaisir sauf certains dont la spécialisation l'exige"
+    },
+    {
+     "ref": "ETTMTTP-2:53",
+     "fr": "Ils sont d'autre part incapables de souffrance, de sentiments, et ne peuvent se reproduire d'eux-mêmes"
+    },
+    {
+     "ref": "ETTMTTP-2:54",
+     "fr": "Lorsque l'un d'entre eux doit être détruit car trop vieux, la machine créatrice en produit un ou plusieurs autres selon nos besoins"
+    },
+    {
+     "ref": "ETTMTTP-2:55",
+     "fr": "les hommes qui désirent avoir une ou plusieurs compagnes en dehors des rapports d'égalité qui existent entre hommes et femmes éternels ou qui ne veulent pas vivre avec une femme sur un plan d'égalité, peuvent avoir une ou plusieurs femmes \"robots biologiques\" absolument soumises"
+    },
+    {
+     "ref": "ETTMTTP-3:100",
+     "fr": "Mettez tout en oeuvre pour créer le robot biologique qui vous dégagera des basses besognes"
+    },
+    {
+     "ref": "ETTMTTP-3:216",
+     "fr": "des compagnes ou des compagnons merveilleusement beaux et fabriqués scientifiquement dans ce but ne chercheront qu'à satisfaire leurs plaisirs"
+    }
+   ]
+  },
+  {
+   "id": "F9",
+   "title": "\"Les nouveaux commandements\" names two different sets of rules",
+   "quotes": [
+    {
+     "ref": "LWTE-3:26",
+     "fr": "l'obligation de penser au moins une fois par jour aux Elohim (deuxième message, les nouveaux commandements, page 87)"
+    }
+   ]
+  },
+  {
+   "id": "F10",
+   "title": "Smaller new items",
+   "quotes": []
+  }
+ ],
+ "items": [
+  {
+   "id": "A01",
+   "register": "home_world",
+   "topic": "governance",
+   "year": "1974",
+   "voice": "Yahweh",
+   "refs": [
+    "TBWTT-7:15",
+    "7:19",
+    "7:66"
+   ],
+   "statement": "About 7 billion inhabitants; seven provinces drawn by \"races\" and cultures, each free and independent; one representative per province aboard the ship near Earth.",
+   "quotes": [
+    {
+     "ref": "TBWTT-7:19",
+     "fr": "sur notre planète il y a sept provinces. Un représentant de chacune d'elles est dans ce vaisseau"
+    },
+    {
+     "ref": "TBWTT-7:66",
+     "fr": "Ces provinces ont été créées en fonction de ces races, de ces cultures, en respectant la liberté et l'indépendance de chacune"
+    }
+   ]
+  },
+  {
+   "id": "A02",
+   "register": "home_world",
+   "topic": "governance",
+   "year": "1974",
+   "voice": "Yahweh",
+   "refs": [
+    "TBWTT-7:45",
+    "7:54"
+   ],
+   "statement": "700 eternals live apart in reserved cities, sit regularly to take decisions, and supervise the computers that run energy, food and organisation.",
+   "quotes": [
+    {
+     "ref": "TBWTT-7:45",
+     "fr": "Sur 7 milliards d'habitants il n'y a que sept cents éternels qui vivent complètement en marge des autres hommes. Ils ont le privilège d'être éternels, mais le devoir de s'occuper de tout pour les autres qui ne sont pas obligés de travailler"
+    }
+   ]
+  },
+  {
+   "id": "A03",
+   "register": "home_world",
+   "topic": "governance",
+   "year": "1979",
+   "voice": "Yahweh",
+   "refs": [
+    "LWTE-2:22",
+    "2:128"
+   ],
+   "statement": "The council of the eternals governs the planet; Yahweh presides; 24 other eternals \"represent\" the council before John.",
+   "quotes": [
+    {
+     "ref": "LWTE-2:128",
+     "fr": "vingt-quatre autres éternels représentant le conseil des Eternels gouvernant notre Planète"
+    },
+    {
+     "ref": "LWTE-2:22",
+     "fr": "le gouvernement de leur planète originelle, présidé par Yahvé"
+    }
+   ]
+  },
+  {
+   "id": "A04",
+   "register": "home_world",
+   "topic": "governance",
+   "year": "1974",
+   "voice": "Yahweh",
+   "refs": [
+    "TBWTT-7:56"
+   ],
+   "statement": "The president is the oldest eternal (25,000 years, 25 bodies), president because first to undergo re-creation; he directed the creation of life on Earth.",
+   "quotes": []
+  },
+  {
+   "id": "A05",
+   "register": "home_world",
+   "topic": "governance-history",
+   "year": "1974",
+   "voice": "Yahweh",
+   "refs": [
+    "TBWTT-2:2"
+   ],
+   "statement": "Public opinion and the government banned the creation experiments after an escaped animal killed people.",
+   "quotes": [
+    {
+     "ref": "TBWTT-2:2",
+     "fr": "l'opinion publique de notre planète et le gouvernement interdirent à ces savants de poursuivre leurs expériences"
+    }
+   ]
+  },
+  {
+   "id": "A06",
+   "register": "home_world",
+   "topic": "governance-history",
+   "year": "1979",
+   "voice": "Raël",
+   "refs": [
+    "LWTE-2:6",
+    "2:10",
+    "2:18"
+   ],
+   "statement": "A part of the population protested; the movement led by Satan won; the government banned the work and had it destroyed; later authorised destruction of a first off-world creation; allowed the Earth work on condition that no beings in their image be made.",
+   "quotes": [
+    {
+     "ref": "LWTE-2:6",
+     "fr": "une partie de la population de leur monde a protesté contre ces manipulations génétiques"
+    },
+    {
+     "ref": "LWTE-2:6",
+     "fr": "le gouvernement de la planète des Elohim interdit aux scientifiques de poursuivre leurs expériences et les obligea à détruire tous leurs travaux"
+    },
+    {
+     "ref": "LWTE-2:10",
+     "fr": "Le gouvernement leur accorda l'autorisation de détruire une nouvelle fois le travail des scientifiques"
+    },
+    {
+     "ref": "LWTE-2:18",
+     "fr": "à la condition qu'ils ne créent pas d'êtres à leur image"
+    }
+   ]
+  },
+  {
+   "id": "A07",
+   "register": "home_world",
+   "topic": "dissent",
+   "year": "1974",
+   "voice": "Yahweh",
+   "refs": [
+    "TBWTT-4:20",
+    "4:49",
+    "5:64",
+    "7:58"
+   ],
+   "statement": "There are \"opposants\" to the government / to the council; Satan is one of the creators who fears Earth humans; opponents destroyed an earlier creation.",
+   "quotes": [
+    {
+     "ref": "TBWTT-4:20",
+     "fr": "soutenu par les opposants au gouvernement de notre lointaine planète"
+    },
+    {
+     "ref": "TBWTT-4:49",
+     "fr": "Les opposants à cette création d'hommes semblables à eux, et qui y voyaient une menace possible, sont venus détruire la création"
+    },
+    {
+     "ref": "TBWTT-7:58",
+     "fr": "C'est bien ce qui fait peur aux opposants du Conseil des Éternels"
+    }
+   ]
+  },
+  {
+   "id": "A08",
+   "register": "home_world",
+   "topic": "dissent",
+   "year": "1979",
+   "voice": "Raël / Satan",
+   "refs": [
+    "LWTE-2:20",
+    "2:28",
+    "2:51",
+    "2:59",
+    "2:76–77"
+   ],
+   "statement": "Satan heads \"a sort of political party\"; he reports to the council, yields to the majority behind Yahweh, is allowed to act as \"political opponent\", says his supporters are numerous, and is called \"notre frère\".",
+   "quotes": [
+    {
+     "ref": "LWTE-2:28",
+     "fr": "qui s'incline devant la majorité de ceux qui, derrière Yahvé, pensent le contraire au sein du conseil des Eternels"
+    },
+    {
+     "ref": "LWTE-2:59",
+     "fr": "il n'existe pas chez nous les Elohim qu'une tendance en ce qui concerne l'avenir de l'humanité"
+    },
+    {
+     "ref": "LWTE-2:59",
+     "fr": "Moi et ceux qui me soutiennent et qui sont nombreux, nous pensons que les hommes sont mauvais et nous souhaitons hâter leur autodestruction"
+    }
+   ]
+  },
+  {
+   "id": "A09",
+   "register": "home_world",
+   "topic": "law-sanctions",
+   "year": "1974",
+   "voice": "Yahweh",
+   "refs": [
+    "TBWTT-2:39",
+    "2:48",
+    "2:78"
+   ],
+   "statement": "The government condemned the disobedient creators to exile on Earth, under military surveillance; they were later pardoned.",
+   "quotes": []
+  },
+  {
+   "id": "A10",
+   "register": "home_world",
+   "topic": "law-sanctions",
+   "year": "1979",
+   "voice": "Raël",
+   "refs": [
+    "LWTE-2:22",
+    "2:24",
+    "2:26"
+   ],
+   "statement": "Yahweh forbade telling humans the truth, condemned Lucifer's group to exile, later amnestied them when deciding to destroy life on Earth at Satan's request.",
+   "quotes": []
+  },
+  {
+   "id": "A11",
+   "register": "home_world",
+   "topic": "military",
+   "year": "1974",
+   "voice": "Yahweh",
+   "refs": [
+    "TBWTT-2:48",
+    "3:61",
+    "3:146–149",
+    "2:58",
+    "2:83–85"
+   ],
+   "statement": "Home-world agents include a \"militaire-créateur\" and an \"armée des cieux\"; nuclear missiles destroyed life on Earth (the Flood); an atomic explosion destroyed Sodom and Gomorrah.",
+   "quotes": []
+  },
+  {
+   "id": "A12",
+   "register": "home_world",
+   "topic": "crime-deviance",
+   "year": "1974",
+   "voice": "Yahweh",
+   "refs": [
+    "TBWTT-7:43",
+    "7:46"
+   ],
+   "statement": "No crime, prison or police; many doctors; regular medical visits \"de l'esprit\"; immediate treatment at the least moral imbalance; about one million inactive, almost all in treatment for about six months. (Quotes in F5.)",
+   "quotes": []
+  },
+  {
+   "id": "A13",
+   "register": "home_world",
+   "topic": "war",
+   "year": "1974",
+   "voice": "Yahweh",
+   "refs": [
+    "TBWTT-7:63–64"
+   ],
+   "statement": "Never war between provinces; sport and deadly games absorb the \"instinct guerrier\".",
+   "quotes": [
+    {
+     "ref": "TBWTT-7:64",
+     "fr": "des jeux où il y a systématiquement, à chaque manifestation, plusieurs morts"
+    }
+   ]
+  },
+  {
+   "id": "A14",
+   "register": "home_world",
+   "topic": "economy",
+   "year": "1974",
+   "voice": "Yahweh",
+   "refs": [
+    "TBWTT-7:39",
+    "7:43",
+    "7:45"
+   ],
+   "statement": "No money, no property; work only by choice and only intellectual; robots for everything; atomic and solar energy.",
+   "quotes": [
+    {
+     "ref": "TBWTT-7:39",
+     "fr": "Nous ne travaillons que quand nous en avons envie et seulement avec notre cerveau"
+    }
+   ]
+  },
+  {
+   "id": "A15",
+   "register": "home_world",
+   "topic": "economy",
+   "year": "1974",
+   "voice": "Yahweh",
+   "refs": [
+    "TBWTT-7:23",
+    "3:34"
+   ],
+   "statement": "\"Economic relations\" with many other planets; in the Exodus period a team asked Israel for fresh food and riches to take home.",
+   "quotes": [
+    {
+     "ref": "TBWTT-7:23",
+     "fr": "Nous entretenons des rapports économiques avec beaucoup d'autres planètes"
+    },
+    {
+     "ref": "TBWTT-3:34",
+     "fr": "ainsi que des richesses à ramener ensuite sur sa planète. C'était un peu de la colonisation si vous voulez"
+    }
+   ]
+  },
+  {
+   "id": "A16",
+   "register": "home_world",
+   "topic": "family-sexuality",
+   "year": "1974",
+   "voice": "Yahweh",
+   "refs": [
+    "TBWTT-7:41",
+    "7:43"
+   ],
+   "statement": "No marriage; couples optional and dissoluble at will; no jealousy; \"we all love one another\".",
+   "quotes": [
+    {
+     "ref": "TBWTT-7:43",
+     "fr": "Non, les femmes sont libres et les hommes aussi"
+    },
+    {
+     "ref": "TBWTT-7:41",
+     "fr": "Nous trouvons nos femmes très belles et nous en profitons"
+    }
+   ]
+  },
+  {
+   "id": "A17",
+   "register": "home_world",
+   "topic": "population",
+   "year": "1974",
+   "voice": "Yahweh",
+   "refs": [
+    "TBWTT-7:13",
+    "7:46",
+    "7:31"
+   ],
+   "statement": "Two parents, two children; constant population; about 40 million children among 7 billion; children may be had only after the longevity operation at majority (18–21); anyone seeking a new life may no longer have children.",
+   "quotes": [
+    {
+     "ref": "TBWTT-7:13",
+     "fr": "nous appliquons la règle dont je viens de vous parler 2 parents, 2 enfants"
+    },
+    {
+     "ref": "TBWTT-7:31",
+     "fr": "A partir du moment où l'on souhaite une nouvelle vie, on n'a plus le droit d'avoir d'enfants"
+    }
+   ]
+  },
+  {
+   "id": "A18",
+   "register": "home_world",
+   "topic": "education",
+   "year": "1974",
+   "voice": "Yahweh",
+   "refs": [
+    "TBWTT-7:61–62"
+   ],
+   "statement": "\"Chemical education\": children receive injections of memory matter taken from informed subjects and otherwise occupy themselves with self-programmed interests, sport and the arts.",
+   "quotes": [
+    {
+     "ref": "TBWTT-7:62",
+     "fr": "Régulièrement, ils subissent des injections de matière cervicale prélevées sur des sujets possédant les informations nécessaires à l'instruction"
+    }
+   ]
+  },
+  {
+   "id": "A19",
+   "register": "home_world",
+   "topic": "daily-life",
+   "year": "1974",
+   "voice": "Yahweh",
+   "refs": [
+    "TBWTT-7:45–50"
+   ],
+   "statement": "Pools everywhere; arts and sports; house-cities of about 500,000, one kilometre on a side, each by one architect; dangerous sports under a written waiver of medical rescue; a nude rugby where all blows are allowed.",
+   "quotes": [
+    {
+     "ref": "TBWTT-7:50",
+     "fr": "Une civilisation extrêmement sophistiquée doit avoir des contrepoids primitifs"
+    }
+   ]
+  },
+  {
+   "id": "A20",
+   "register": "home_world",
+   "topic": "eternals-selection",
+   "year": "1974",
+   "voice": "Yahweh",
+   "refs": [
+    "TBWTT-7:30–31",
+    "7:46",
+    "7:49",
+    "7:51–52"
+   ],
+   "statement": "Everyone has a cell sample taken and hopes to be chosen; eternity is reserved to \"génies\" to limit population; yearly competitions in every field, provincial vote of eternals, a jury of eternals in the capital, then the grand council; about 70 trainees a year (10 per province); three probationary lives, then perpetual membership.",
+   "quotes": [
+    {
+     "ref": "TBWTT-7:30",
+     "fr": "afin de limiter l'accroissement de la population, seuls les génies ont droit à cette éternité"
+    },
+    {
+     "ref": "TBWTT-7:31",
+     "fr": "un grand conseil des éternels se réunit pour juger, en un «jugement dernier», quels sont ceux qui, morts durant l'année, méritent de vivre une autre vie"
+    },
+    {
+     "ref": "TBWTT-7:46",
+     "fr": "deux cent dix stagiaires (environ soixante-dix par an soit dix par province)"
+    },
+    {
+     "ref": "TBWTT-7:51",
+     "fr": "Tout le monde ne vit que pour cela"
+    }
+   ]
+  },
+  {
+   "id": "A21",
+   "register": "home_world",
+   "topic": "religion",
+   "year": "1974",
+   "voice": "Yahweh",
+   "refs": [
+    "TBWTT-7:25"
+   ],
+   "statement": "Only religion: \"le génie humain\"; love for the memory of their own creators.",
+   "quotes": [
+    {
+     "ref": "TBWTT-7:25",
+     "fr": "Notre seule religion c'est le génie humain"
+    }
+   ]
+  },
+  {
+   "id": "A22",
+   "register": "home_world",
+   "topic": "religion",
+   "year": "1979",
+   "voice": "Raël",
+   "refs": [
+    "LWTE-1:72–73"
+   ],
+   "statement": "The Elohim's religion is \"l'infini\", called absolute and eternal; it would become humanity's religion after the return.",
+   "quotes": [
+    {
+     "ref": "LWTE-1:72",
+     "fr": "la religion des hommes deviendra la même que celle des Elohim: l'infini"
+    }
+   ]
+  },
+  {
+   "id": "A23",
+   "register": "home_world",
+   "topic": "history-creators",
+   "year": "1974",
+   "voice": "Yahweh",
+   "refs": [
+    "TBWTT-5:58",
+    "7:23",
+    "7:25",
+    "7:27"
+   ],
+   "statement": "They were created by others, now vanished; an orbiting craft with all their creators' knowledge landed automatically when that world was destroyed; the same is arranged for Earth; they fear disappearing.",
+   "quotes": [
+    {
+     "ref": "TBWTT-7:25",
+     "fr": "Ils avaient pris la précaution de mettre en orbite autour de notre planète un engin immense contenant tout leur savoir"
+    }
+   ]
+  },
+  {
+   "id": "A24",
+   "register": "home_world",
+   "topic": "history-creators",
+   "year": "1975/1979",
+   "voice": "Raël-keys / Raël",
+   "refs": [
+    "ETTMTTP-3:219",
+    "LWTE-2:28"
+   ],
+   "statement": "They learned of their own creation only after the Flood and then swore not to destroy humanity again.",
+   "quotes": [
+    {
+     "ref": "LWTE-2:28",
+     "fr": "les Elohim s'aperçoivent qu'ils ont été eux-mêmes créés de la même manière qu'ils ont créé les hommes"
+    }
+   ]
+  },
+  {
+   "id": "A25",
+   "register": "home_world",
+   "topic": "language",
+   "year": "1974/1975",
+   "voice": "Yahweh / Raël",
+   "refs": [
+    "TBWTT-7:33",
+    "7:35",
+    "ETTMTTP-2:47"
+   ],
+   "statement": "They call themselves \"des hommes\"; official language close to ancient Hebrew.",
+   "quotes": []
+  },
+  {
+   "id": "A26",
+   "register": "home_world",
+   "topic": "eternals-planet",
+   "year": "1975",
+   "voice": "Yahweh",
+   "refs": [
+    "ETTMTTP-2:50–52",
+    "2:58–59"
+   ],
+   "statement": "A separate planet: 8,400 re-created Terrans and the 700 Elohim of the council; no obligations; weather controlled; nudity usual.",
+   "quotes": [
+    {
+     "ref": "ETTMTTP-2:50",
+     "fr": "huit mille quatre cents Terriens"
+    },
+    {
+     "ref": "ETTMTTP-2:59",
+     "fr": "Ici, chacun est libre et peut l'être sans danger car tous méritent cette liberté"
+    }
+   ]
+  },
+  {
+   "id": "A27",
+   "register": "home_world",
+   "topic": "robots",
+   "year": "1975",
+   "voice": "Yahweh",
+   "refs": [
+    "ETTMTTP-2:53–54"
+   ],
+   "statement": "Biological robots: made on the principle used for Earth humans; limited, submissive, specialised; no aspiration; no suffering or feelings; cannot reproduce; lifespan about 700 years; destroyed when too old; marked by a blue stone between the eyes; about ten per resident, about 90,000 in all. (Quotes in F8.)",
+   "quotes": [
+    {
+     "ref": "ETTMTTP-2:54",
+     "fr": "Ils sont tous reconnaissables à la petite pierre bleue qu'ils portent, hommes et femmes, entre les yeux"
+    }
+   ]
+  },
+  {
+   "id": "A28",
+   "register": "home_world",
+   "topic": "robots-sexuality",
+   "year": "1975",
+   "voice": "Yahweh / Raël",
+   "refs": [
+    "ETTMTTP-2:55–57",
+    "2:86–94"
+   ],
+   "statement": "Eternals may have one or more submissive robot partners of either sex, built to order, including an exact replica from a photograph; Raël reports choosing six and spending the night with them.",
+   "quotes": [
+    {
+     "ref": "ETTMTTP-2:56",
+     "fr": "L'on peut même fournir la photo d'un être que l'on a, par exemple, admiré ou aimé sur terre, et la machine vous en produit la réplique exacte"
+    }
+   ]
+  },
+  {
+   "id": "A29",
+   "register": "home_world",
+   "topic": "eternals-reproduction",
+   "year": "1975",
+   "voice": "Yahweh",
+   "refs": [
+    "ETTMTTP-2:55"
+   ],
+   "statement": "Eternals, Elohim and Terran, may not have children and accept a reversible sterilising operation.",
+   "quotes": [
+    {
+     "ref": "ETTMTTP-2:55",
+     "fr": "acceptent de subir une petite intervention qui les rend stériles"
+    },
+    {
+     "ref": "ETTMTTP-2:55",
+     "fr": "Cette disposition a pour but d'éviter que des êtres ne le méritant pas viennent se mêler à ce merveilleux univers"
+    }
+   ]
+  },
+  {
+   "id": "A30",
+   "register": "home_world",
+   "topic": "recreation",
+   "year": "1975",
+   "voice": "Yahweh",
+   "refs": [
+    "ETTMTTP-2:79–80"
+   ],
+   "statement": "A full replica of Raël is produced from a cell taken at the forehead and then destroyed.",
+   "quotes": [
+    {
+     "ref": "ETTMTTP-2:80",
+     "fr": "à partir d'une cellule comme celle que nous vous avons prélevée entre les yeux, nous pouvons réaliser une réplique totale de l'individu à qui nous avons prélevé cette cellule, avec ses souvenirs, sa personnalité, son caractère"
+    },
+    {
+     "ref": "ETTMTTP-2:80",
+     "fr": "Nous allons immédiatement détruire cette réplique car elle ne nous est d'aucune utilité"
+    }
+   ]
+  },
+  {
+   "id": "A31",
+   "register": "home_world",
+   "topic": "education",
+   "year": "1975",
+   "voice": "Yahweh",
+   "refs": [
+    "ETTMTTP-2:60"
+   ],
+   "statement": "A Terran admitted among the eternals first undergoes a course of chemical education.",
+   "quotes": [
+    {
+     "ref": "ETTMTTP-2:60",
+     "fr": "il subit d'abord un stage d'éducation chimique"
+    }
+   ]
+  },
+  {
+   "id": "A32",
+   "register": "home_world",
+   "topic": "conduct-toward-others",
+   "year": "1975",
+   "voice": "Yahweh",
+   "refs": [
+    "ETTMTTP-2:29"
+   ],
+   "statement": "Visitors to \"primitive\" worlds pass for gods, which Yahweh calls amusing; apparitions on Earth continue in order to watch reactions.",
+   "quotes": [
+    {
+     "ref": "ETTMTTP-2:29",
+     "fr": "qui consiste à se faire passer pour des dieux à leurs yeux"
+    }
+   ]
+  },
+  {
+   "id": "A33",
+   "register": "home_world",
+   "topic": "conduct-toward-others",
+   "year": "1979",
+   "voice": "Yahweh",
+   "refs": [
+    "LWTE-2:85–87"
+   ],
+   "statement": "Raël's mother was taken aboard, inseminated, and her memory erased, \"as for the mother of Jesus\"; a husband of another religion was arranged.",
+   "quotes": [
+    {
+     "ref": "LWTE-2:85",
+     "fr": "Cette femme nous l'avons enlevée à bord d'un de nos engins et elle fut inséminée tout comme nous l'avions fait pour la mère de Jésus. Puis elle fut libérée après que nous eûmes totalement effacé de sa mémoire toute trace de ce qui venait de se passer"
+    }
+   ]
+  },
+  {
+   "id": "A40",
+   "register": "home_world",
+   "topic": "judgment-of-humans",
+   "year": "1974",
+   "voice": "Yahweh",
+   "refs": [
+    "TBWTT-3:219",
+    "3:221",
+    "6:27"
+   ],
+   "statement": "\"Great men\" will live again; geniuses most rewarded; the bad live in eternal regret as an example; Raël and those who led humanity on the path of genius can be revived if their remains are kept in tombs.",
+   "quotes": []
+  },
+  {
+   "id": "A41",
+   "register": "home_world",
+   "topic": "judgment-of-humans",
+   "year": "1975",
+   "voice": "Yahweh",
+   "refs": [
+    "ETTMTTP-2:98–99",
+    "2:113"
+   ],
+   "statement": "Computers watch every human and assign a mark; three outcomes; automatic remote cell sampling at death for those who have not read the message. (Quotes in F4.)",
+   "quotes": []
+  },
+  {
+   "id": "A42",
+   "register": "home_world",
+   "topic": "judgment-of-humans",
+   "year": "1975",
+   "voice": "Yahweh",
+   "refs": [
+    "ETTMTTP-2:82",
+    "2:112"
+   ],
+   "statement": "A machine holds the cells of \"êtres malfaisants\" to be re-created, judged by their victims or their ascendants and descendants, and punished. (Quotes in F4.)",
+   "quotes": []
+  },
+  {
+   "id": "A43",
+   "register": "home_world",
+   "topic": "judgment-of-humans",
+   "year": "1975",
+   "voice": "Raël-keys",
+   "refs": [
+    "ETTMTTP-3:25–26",
+    "3:73",
+    "3:212–217"
+   ],
+   "statement": "Deathbed repentance does not count; a neutral life earns \"neutralité\" (no re-creation); a clearly positive balance is required; more is required of the very intelligent or wealthy; those who made others suffer are re-created to suffer.",
+   "quotes": [
+    {
+     "ref": "ETTMTTP-3:215",
+     "fr": "cela n'est pas assez pour quelqu'un de très intelligent ou ayant beaucoup de moyens"
+    }
+   ]
+  },
+  {
+   "id": "A44",
+   "register": "home_world",
+   "topic": "judgment-of-humans",
+   "year": "1975",
+   "voice": "Raël-keys",
+   "refs": [
+    "ETTMTTP-3:220–221"
+   ],
+   "statement": "The Elohim act on individuals: false contactees and those who act against the Guide of guides will see their lives \"devenir un enfer\".",
+   "quotes": [
+    {
+     "ref": "ETTMTTP-3:220",
+     "fr": "Malheur à ceux qui prétendent les avoir rencontrés ou avoir reçu d'eux un message alors que ce n'est pas vrai, leur vie deviendra un enfer"
+    },
+    {
+     "ref": "ETTMTTP-3:221",
+     "fr": "maladies, ennuis familiaux, professionnels, sentimentaux et autres envahiront leur existence terrestre en attendant la punition éternelle"
+    }
+   ]
+  },
+  {
+   "id": "A45",
+   "register": "home_world",
+   "topic": "judgment-of-humans",
+   "year": "1979",
+   "voice": "Raël",
+   "refs": [
+    "LWTE-1:34",
+    "1:40",
+    "1:198"
+   ],
+   "statement": "The computer follows each person from conception; the just who never heard the messages are saved; the negative \"may possibly\" be re-created to be judged.",
+   "quotes": [
+    {
+     "ref": "LWTE-1:40",
+     "fr": "Il sera plus pardonné à celui qui ne connaît pas les messages et qui agit positivement qu'à celui qui les connaît"
+    }
+   ]
+  },
+  {
+   "id": "A46",
+   "register": "home_world",
+   "topic": "judgment-of-humans",
+   "year": "1979",
+   "voice": "Yahweh",
+   "refs": [
+    "LWTE-2:147",
+    "2:154",
+    "2:158–159",
+    "2:228"
+   ],
+   "statement": "A few thousand Terrans were re-created early at the prophets' request; about 144,000 will be \"sealed\"; the final cataclysm is delayed until that number is reached; the saved will later be re-implanted on Earth.",
+   "quotes": [
+    {
+     "ref": "LWTE-2:158",
+     "fr": "Le total de ceux qui seront «scellés au front» sera d'à peu près cent quarante-quatre mille"
+    },
+    {
+     "ref": "LWTE-2:159",
+     "fr": "nous ferons en sorte que le cataclysme final soit retardé"
+    },
+    {
+     "ref": "LWTE-2:154",
+     "fr": "Ceux-là auront été sélectionnés par le grand ordinateur qui surveille tous les hommes de leur conception à leur mort"
+    }
+   ]
+  },
+  {
+   "id": "B01",
+   "register": "earth_programme",
+   "topic": "geniocracy",
+   "year": "1974",
+   "voice": "Yahweh",
+   "refs": [
+    "TBWTT-6:3–6"
+   ],
+   "statement": "Put geniuses in power; abolish elections and votes in their present form; test intelligence from childhood; record the coefficient on the identity or voter card; eligibility above +50 %, franchise above +10 %; called \"tout à fait démocratique\".",
+   "quotes": [
+    {
+     "ref": "TBWTT-6:4",
+     "fr": "il faut supprimer les élections et les votes qui sont complètement inadaptés dans leur forme actuelle à l'évolution de l'humanité"
+    },
+    {
+     "ref": "TBWTT-6:4",
+     "fr": "La cellule du pied n'a pas à dire si la main doit ou non prendre un objet"
+    },
+    {
+     "ref": "TBWTT-6:4",
+     "fr": "Les votes ne sont positifs que quand il y a égalité de connaissances et de niveaux intellectuels"
+    },
+    {
+     "ref": "TBWTT-6:5",
+     "fr": "on délimite finalement son coefficient intellectuel qui sera marqué sur sa carte d'identité ou d'électeur. Ne seront éligibles à quelque poste public que ce soit, que les individus ayant un coefficient intellectuel supérieur de 50% à la moyenne et ne pourront être électeurs que ceux ayant un coefficient intellectuel supérieur de 10% à la moyenne"
+    },
+    {
+     "ref": "TBWTT-6:5",
+     "fr": "C'est un système tout à fait démocratique"
+    },
+    {
+     "ref": "TBWTT-6:6",
+     "fr": "c'est que la voix de ce que vous appelez vulgairement un «con» vaille autant que celle d'un génie"
+    },
+    {
+     "ref": "TBWTT-6:6",
+     "fr": "droit de vote réservé à l'élite intellectuelle"
+    }
+   ]
+  },
+  {
+   "id": "B02",
+   "register": "earth_programme",
+   "topic": "geniocracy",
+   "year": "1975",
+   "voice": "Yahweh",
+   "refs": [
+    "ETTMTTP-2:23"
+   ],
+   "statement": "Geniocracy is tied to avoiding cataclysm.",
+   "quotes": [
+    {
+     "ref": "ETTMTTP-2:23",
+     "fr": "Un être au cerveau déficient peut menacer la paix mondiale comme un être génial peut lui apporter le bonheur. Plus vite vous mettrez en place la géniocratie, plus vite vous supprimerez les risques de cataclysme dus à des êtres au cerveau peu évolué"
+    }
+   ]
+  },
+  {
+   "id": "B03",
+   "register": "earth_programme",
+   "topic": "geniocracy",
+   "year": "1975",
+   "voice": "Raël-keys",
+   "refs": [
+    "ETTMTTP-3:78–86",
+    "3:93"
+   ],
+   "statement": "A government is indispensable; work for geniocracy; join a world humanitarian party; refuse to vote otherwise; \"démocratie sélective\"; \"intelligence à l'état brut\"; special education for gifted children.",
+   "quotes": [
+    {
+     "ref": "ETTMTTP-3:82",
+     "fr": "La démocratie totale n'est pas bonne"
+    },
+    {
+     "ref": "ETTMTTP-3:82",
+     "fr": "Tu refuseras donc de voter, sauf si un candidat prônant la géniocratie et l'humanitarisme se présente"
+    },
+    {
+     "ref": "ETTMTTP-3:83",
+     "fr": "un peuple moutonnier dont une très petite partie est suffisamment éveillée pour guider l'humanité"
+    },
+    {
+     "ref": "ETTMTTP-3:84",
+     "fr": "Seule est valable la géniocratie, qui est une démocratie sélective"
+    },
+    {
+     "ref": "ETTMTTP-3:84",
+     "fr": "les enfants surdoués, le minerai le plus précieux de l'humanité"
+    },
+    {
+     "ref": "ETTMTTP-3:86",
+     "fr": "Il faut remplacer la démocratie sauvage par une démocratie sélective"
+    },
+    {
+     "ref": "ETTMTTP-3:80",
+     "fr": "Tu participeras à la création d'un parti humanitariste mondial"
+    }
+   ]
+  },
+  {
+   "id": "B04",
+   "register": "earth_programme",
+   "topic": "geniocracy-in-movement",
+   "year": "1975",
+   "voice": "Raël",
+   "refs": [
+    "ETTMTTP-2:1"
+   ],
+   "statement": "Raël left the MADECH presidency because a 1901-law association with a vote of all members contradicted geniocracy.",
+   "quotes": [
+    {
+     "ref": "ETTMTTP-2:1",
+     "fr": "puisqu'il y avait vote de tous les membres et donc non respect de la géniocratie qui aurait voulu que seuls les membres les plus intelligents puissent prendre part aux décisions"
+    }
+   ]
+  },
+  {
+   "id": "B05",
+   "register": "earth_programme",
+   "topic": "geniocracy",
+   "year": "1979",
+   "voice": "Raël",
+   "refs": [
+    "LWTE-1:83–87"
+   ],
+   "statement": "A manifesto and a party exist; the Elohim wish geniocracy favoured while leaving men free to find better; Raël says he is not concerned by the party's problems, asks guides to hand it to non-Raëlians, but will always advise voting for geniocrat candidates.",
+   "quotes": [
+    {
+     "ref": "LWTE-1:84",
+     "fr": "les Elohim souhaitent que nous favorisions l'implantation sur terre de la géniocratie tout en laissant les hommes libres de trouver mieux s'ils le peuvent"
+    },
+    {
+     "ref": "LWTE-1:85",
+     "fr": "je ne me sens pas concerné par leur problème"
+    },
+    {
+     "ref": "LWTE-1:86",
+     "fr": "l'on n'est pas obligé de militer pour le parti géniocrate lorsqu'on est raëlien"
+    },
+    {
+     "ref": "LWTE-1:87",
+     "fr": "peut-être les hommes se sauveront-ils sans la géniocratie même s'ils y viennent plus tard"
+    }
+   ]
+  },
+  {
+   "id": "B06",
+   "register": "earth_programme",
+   "topic": "humanitarianism",
+   "year": "1974",
+   "voice": "Yahweh",
+   "refs": [
+    "TBWTT-6:7–13"
+   ],
+   "statement": "Abolish property without communism; all goods leased for 49 years; inheritance abolished except the family home; businesses belong to their founder for life; a man may make a fortune for himself but not for his children; Leviticus 25 cited.",
+   "quotes": [
+    {
+     "ref": "TBWTT-6:7",
+     "fr": "il faut supprimer la propriété sans instaurer pour autant le communisme"
+    },
+    {
+     "ref": "TBWTT-6:7",
+     "fr": "Le pouvoir doit vous faire naître à peu près égaux en fortune"
+    },
+    {
+     "ref": "TBWTT-6:7",
+     "fr": "Il est inadmissible que des enfants peu intelligents puissent vivre dans l'opulence grâce à la fortune qu'ont amassée leurs pères pendant que des génies crèvent de faim"
+    },
+    {
+     "ref": "TBWTT-6:8",
+     "fr": "L'héritage doit être complètement aboli, sauf pour la maison familiale"
+    },
+    {
+     "ref": "TBWTT-6:9",
+     "fr": "un homme peut faire fortune pour lui, selon son mérite, mais pas pour ses enfants"
+    },
+    {
+     "ref": "TBWTT-6:10",
+     "fr": "tout appartient à la communauté mais peut être loué pour quarante-neuf ans par ceux qui en ont acquis les moyens par leur mérite et leur travail"
+    }
+   ]
+  },
+  {
+   "id": "B07",
+   "register": "earth_programme",
+   "topic": "humanitarianism",
+   "year": "1975",
+   "voice": "Raël-keys",
+   "refs": [
+    "ETTMTTP-3:93–99"
+   ],
+   "statement": "Capitalism bad, communism bad; equality at birth, not after; a provisional rule until robots and the abolition of money; a right to subsistence without work; surplus food to be distributed.",
+   "quotes": [
+    {
+     "ref": "ETTMTTP-3:95",
+     "fr": "Il doit y avoir égalité des hommes entre eux au départ, à la naissance, mais pas après"
+    },
+    {
+     "ref": "ETTMTTP-3:98",
+     "fr": "Chaque être a droit à avoir de quoi vivre même s'il ne travaille pas"
+    }
+   ]
+  },
+  {
+   "id": "B08",
+   "register": "earth_programme",
+   "topic": "work-family-nation",
+   "year": "1975",
+   "voice": "Yahweh",
+   "refs": [
+    "ETTMTTP-2:37–40"
+   ],
+   "statement": "Machines should free everyone from work; replace \"travail-famille-patrie\" with \"épanouissement-liberté-fraternité universelle\"; no country deserves to be fought for.",
+   "quotes": [
+    {
+     "ref": "ETTMTTP-2:38",
+     "fr": "La famille n'a toujours été qu'un moyen, pour les esclavagistes anciens et modernes, d'obliger les gens à travailler plus dur pour un chimérique idéal familial"
+    }
+   ]
+  },
+  {
+   "id": "B09",
+   "register": "earth_programme",
+   "topic": "robots",
+   "year": "1975/1979",
+   "voice": "Raël-keys / Raël",
+   "refs": [
+    "ETTMTTP-3:100",
+    "LWTE-1:24"
+   ],
+   "statement": "Create the biological robot; surplus Movement funds would pay for a research centre for laboratory creation of life and biological robots, and a school reserved for geniuses and the gifted.",
+   "quotes": [
+    {
+     "ref": "LWTE-1:24",
+     "fr": "à la création de robots biologiques permettant la suppression du travail et donc de l'argent; nous construirions aussi une école réservée aux génies et aux surdoués"
+    }
+   ]
+  },
+  {
+   "id": "B10",
+   "register": "earth_programme",
+   "topic": "world-government",
+   "year": "1974",
+   "voice": "Yahweh",
+   "refs": [
+    "TBWTT-6:14–17"
+   ],
+   "statement": "One government for all nations; a new world currency; a new language compulsory in all schools as second language; abolish military service everywhere at once; career soldiers to public order.",
+   "quotes": [
+    {
+     "ref": "TBWTT-6:14",
+     "fr": "Vous devez également faire en sorte que toutes les nations de la Terre s'allient pour ne plus avoir qu'un seul gouvernement"
+    },
+    {
+     "ref": "TBWTT-6:16",
+     "fr": "rendue obligatoire dans les écoles du monde entier comme deuxième langue"
+    },
+    {
+     "ref": "TBWTT-6:17",
+     "fr": "Cela doit intervenir dans tous les pays en même temps, gage indispensable de sécurité"
+    }
+   ]
+  },
+  {
+   "id": "B11",
+   "register": "earth_programme",
+   "topic": "world-government",
+   "year": "1975",
+   "voice": "Yahweh",
+   "refs": [
+    "ETTMTTP-2:26–27"
+   ],
+   "statement": "France should be the first country without an army; a European then a world peace-keeping army; a single European currency; a compulsory world language.",
+   "quotes": [
+    {
+     "ref": "ETTMTTP-2:26",
+     "fr": "devrait être le premier pays sans armée"
+    }
+   ]
+  },
+  {
+   "id": "B12",
+   "register": "earth_programme",
+   "topic": "world-government",
+   "year": "1975",
+   "voice": "Raël-keys",
+   "refs": [
+    "ETTMTTP-3:160–164"
+   ],
+   "statement": "World government; impose a new world language on schoolchildren (Esperanto unless better); a world currency pending the abolition of money; a federation; regions keep their independence.",
+   "quotes": [
+    {
+     "ref": "ETTMTTP-3:161",
+     "fr": "Imposez aux enfants des écoles du monde entier une langue nouvelle mondiale"
+    },
+    {
+     "ref": "ETTMTTP-3:162",
+     "fr": "En attendant de pouvoir supprimer l'argent, créez une nouvelle monnaie mondiale remplaçant les monnaies nationales"
+    },
+    {
+     "ref": "ETTMTTP-3:163",
+     "fr": "Créez une fédération des états du monde"
+    },
+    {
+     "ref": "ETTMTTP-3:164",
+     "fr": "Laissez leur indépendance aux régions"
+    }
+   ]
+  },
+  {
+   "id": "B13",
+   "register": "earth_programme",
+   "topic": "military",
+   "year": "1975",
+   "voice": "Raël-keys",
+   "refs": [
+    "ETTMTTP-3:91–92"
+   ],
+   "statement": "Refuse military service as conscientious objector; abolish conscription urgently everywhere; career soldiers become guardians of world peace.",
+   "quotes": [
+    {
+     "ref": "ETTMTTP-3:91",
+     "fr": "Tu refuseras de faire ton service militaire en demandant à bénéficier du statut d'objecteur de conscience"
+    }
+   ]
+  },
+  {
+   "id": "B14",
+   "register": "earth_programme",
+   "topic": "military",
+   "year": "1979",
+   "voice": "Raël",
+   "refs": [
+    "LWTE-3:56–73"
+   ],
+   "statement": "Refuse any hierarchy that removes responsibility; the executor of monstrous orders is more responsible than the giver; lists of those holding nuclear launch power; neutral observers imposed by the UN; a time to punish those who gave such orders.",
+   "quotes": [
+    {
+     "ref": "LWTE-3:56",
+     "fr": "Refusez toute hiérarchie sous-entendant une suppression de votre responsabilité pour les actes que vous accomplissez"
+    },
+    {
+     "ref": "LWTE-3:73",
+     "fr": "le temps sera venu de punir ceux qui ont osé donner de tels ordres"
+    }
+   ]
+  },
+  {
+   "id": "B15",
+   "register": "earth_programme",
+   "topic": "population",
+   "year": "1974",
+   "voice": "Yahweh",
+   "refs": [
+    "TBWTT-7:13"
+   ],
+   "statement": "Develop contraception and pass very strict laws allowing women only two children; called a test of intelligence.",
+   "quotes": [
+    {
+     "ref": "TBWTT-7:13",
+     "fr": "que vous fassiez des lois très strictes n'autorisant les femmes à avoir que deux enfants"
+    }
+   ]
+  },
+  {
+   "id": "B16",
+   "register": "earth_programme",
+   "topic": "justice",
+   "year": "1975",
+   "voice": "Raël-keys",
+   "refs": [
+    "ETTMTTP-3:87–90",
+    "3:149–158"
+   ],
+   "statement": "Human laws indispensable and to be respected and improved; creators' laws prevail; police provisionally indispensable; abolish the death penalty; criminals are ill, to be set apart and given love; separate serious from petty offenders; threats treated like acts; never give hostage-takers what they ask. (Quotes in F7.)",
+   "quotes": [
+    {
+     "ref": "ETTMTTP-3:87",
+     "fr": "Les lois humaines sont indispensables et tu les respecteras"
+    },
+    {
+     "ref": "ETTMTTP-3:88",
+     "fr": "Entre les lois humaines et celles de nos créateurs tu n'hésiteras pas un instant"
+    },
+    {
+     "ref": "ETTMTTP-3:151",
+     "fr": "tu mettras les criminels à l'écart de la société en leur donnant l'amour qui leur a manqué"
+    },
+    {
+     "ref": "ETTMTTP-3:152",
+     "fr": "Ne mélange pas les grands criminels, qui sont malades d'une maladie qui peut être contagieuse"
+    }
+   ]
+  },
+  {
+   "id": "B17",
+   "register": "earth_programme",
+   "topic": "self-defence",
+   "year": "1975",
+   "voice": "Raël-keys",
+   "refs": [
+    "ETTMTTP-3:155–156"
+   ],
+   "statement": "Restrain the violent, by force if necessary, never intending to kill; an unintended death in self-defence is not to be reproached.",
+   "quotes": [
+    {
+     "ref": "ETTMTTP-3:155",
+     "fr": "ne frappe jamais, même en état de légitime défense, dans l'intention de tuer"
+    },
+    {
+     "ref": "ETTMTTP-3:156",
+     "fr": "même si tu dois réduire à l'impuissance les violents par la force, mais par une force non violente"
+    }
+   ]
+  },
+  {
+   "id": "B18",
+   "register": "earth_programme",
+   "topic": "self-defence",
+   "year": "1979",
+   "voice": "Raël",
+   "refs": [
+    "LWTE-3:59",
+    "3:66",
+    "3:69–70"
+   ],
+   "statement": "Do not kill even if Raël or an Eloha asks; no cause justifies the suffering of a non-violent person; legitimate defence stands, up to executing a military person threatening humanity if no other means.",
+   "quotes": [
+    {
+     "ref": "LWTE-3:59",
+     "fr": "si un Eloha lui-même vous demandait de tuer un homme vous ne devriez pas le faire"
+    },
+    {
+     "ref": "LWTE-3:66",
+     "fr": "Aucune cause ne justifie la souffrance d'autrui, quelle qu'elle soit"
+    },
+    {
+     "ref": "LWTE-3:70",
+     "fr": "il serait tout à fait justifié de chercher à le réduire à l'impuissance éventuellement par la force et même en l'exécutant s'il n'y avait pas d'autres moyens"
+    }
+   ]
+  },
+  {
+   "id": "B19",
+   "register": "earth_programme",
+   "topic": "sport",
+   "year": "1974/1975",
+   "voice": "Yahweh / Raël-keys",
+   "refs": [
+    "TBWTT-7:64",
+    "ETTMTTP-3:169–170"
+   ],
+   "statement": "More dangerous organised sports on Earth would reduce international conflict; society must allow violent and very violent sports as safety valves.",
+   "quotes": []
+  },
+  {
+   "id": "B20",
+   "register": "earth_programme",
+   "topic": "education-children",
+   "year": "1975",
+   "voice": "Raël-keys",
+   "refs": [
+    "ETTMTTP-3:10–27"
+   ],
+   "statement": "No religion imposed on a child, no baptism or circumcision; teach religions without bias; do not come when the infant cries; corporal punishment for small children, exceptional from seven, never from fourteen; let the child choose its orientation.",
+   "quotes": [
+    {
+     "ref": "ETTMTTP-3:10",
+     "fr": "Tu n'imposeras jamais à un enfant, qui n'est encore qu'une larve incapable de comprendre ce qui lui arrive, la moindre religion"
+    },
+    {
+     "ref": "ETTMTTP-3:16",
+     "fr": "le châtiment corporel doit être appliqué avec rigueur par la personne qui élève un enfant, afin qu'il souffre lorsqu'il fait souffrir les autres"
+    },
+    {
+     "ref": "ETTMTTP-3:16",
+     "fr": "à partir de quatorze ans il ne doit plus jamais être appliqué"
+    }
+   ]
+  },
+  {
+   "id": "B21",
+   "register": "earth_programme",
+   "topic": "education-children",
+   "year": "1975/1979",
+   "voice": "Raël-keys / Raël",
+   "refs": [
+    "ETTMTTP-3:28–37",
+    "3:173",
+    "3:203–205",
+    "LWTE-1:137–138"
+   ],
+   "statement": "\"Éducation sensuelle\" for children in place of sex education alone; develop telepathy in young children.",
+   "quotes": [
+    {
+     "ref": "LWTE-1:138",
+     "fr": "Il faut remplacer l'éducation sexuelle par une éducation sensuelle"
+    }
+   ]
+  },
+  {
+   "id": "B22",
+   "register": "earth_programme",
+   "topic": "family",
+   "year": "1975",
+   "voice": "Raël-keys",
+   "refs": [
+    "ETTMTTP-3:46–64"
+   ],
+   "statement": "Conceive only by choice; contraception; abortion if conception was not desired; a child need not be raised by its parents; society must provide establishments to which a child may be entrusted wholly; refuse marriage, civil or religious; separate when harmony ends.",
+   "quotes": [
+    {
+     "ref": "ETTMTTP-3:51",
+     "fr": "Si par malheur tu as conçu un être sans le désirer, utilise les moyens que la science met à ton service : utilise l'avortement"
+    },
+    {
+     "ref": "ETTMTTP-3:52",
+     "fr": "Il serait même souvent préférable que cette éducation soit faite par des personnes spécialisées"
+    },
+    {
+     "ref": "ETTMTTP-3:57",
+     "fr": "Sinon, il faut le placer dans les établissements que la société se doit de mettre en place pour les faire s'épanouir, sans le moindre regret"
+    },
+    {
+     "ref": "ETTMTTP-3:60",
+     "fr": "Tu refuseras donc le mariage qui n'est qu'un affichage de la propriété d'un être"
+    }
+   ]
+  },
+  {
+   "id": "B23",
+   "register": "earth_programme",
+   "topic": "sexuality",
+   "year": "1975",
+   "voice": "Raël-keys",
+   "refs": [
+    "ETTMTTP-3:41–45",
+    "3:141–147"
+   ],
+   "statement": "Any sensual or sexual experience with one or several consenting individuals of either sex; never be jealous; a room for \"méditation sensuelle\".",
+   "quotes": [
+    {
+     "ref": "ETTMTTP-3:43",
+     "fr": "Si tu as envie d'avoir une expérience sensuelle ou sexuelle avec un ou plusieurs autres individus quel que soit leur sexe, dans le mesure où ce ou ces individus sont d'accord, tu peux agir suivant tes envies"
+    },
+    {
+     "ref": "ETTMTTP-3:144",
+     "fr": "Tu ne seras jamais jaloux"
+    }
+   ]
+  },
+  {
+   "id": "B24",
+   "register": "earth_programme",
+   "topic": "sexuality",
+   "year": "1979",
+   "voice": "Raël",
+   "refs": [
+    "LWTE-1:184–193"
+   ],
+   "statement": "Sexual freedom is permitted, not obligatory; three rules (respect of others' choices, nobody owns anybody, seek the other's happiness); homosexuality neither normal nor abnormal, genetic; rape \"un crime abominable\".",
+   "quotes": [
+    {
+     "ref": "LWTE-1:185",
+     "fr": "Permis, j'insiste, et non obligatoire"
+    },
+    {
+     "ref": "LWTE-1:190",
+     "fr": "L'homosexualité n'est pas un comportement normal ou anormal"
+    }
+   ]
+  },
+  {
+   "id": "B25",
+   "register": "earth_programme",
+   "topic": "old-age-death",
+   "year": "1975",
+   "voice": "Raël-keys",
+   "refs": [
+    "ETTMTTP-3:65–77"
+   ],
+   "statement": "Society must give the old a comfortable life; do not listen to elders as such; death a festival; no religious burial; right to suicide for one who suffers too much; help a loved one who asks.",
+   "quotes": [
+    {
+     "ref": "ETTMTTP-3:66",
+     "fr": "un être stupide, même s'il est centenaire, ne mérite pas une seconde d'être écouté"
+    },
+    {
+     "ref": "ETTMTTP-3:75",
+     "fr": "Un être qui souffre trop a le droit de se suicider"
+    },
+    {
+     "ref": "ETTMTTP-3:76",
+     "fr": "aide-la à se supprimer"
+    }
+   ]
+  },
+  {
+   "id": "B26",
+   "register": "earth_programme",
+   "topic": "suicide",
+   "year": "1979",
+   "voice": "Raël",
+   "refs": [
+    "LWTE-1:197–200"
+   ],
+   "statement": "Only untreatable physical suffering or diminished faculties justify suicide; otherwise, for Raëlians especially, it is treason.",
+   "quotes": [
+    {
+     "ref": "LWTE-1:198",
+     "fr": "Mettre un terme à son existence, c'est une trahison, c'est abandonner son poste en plein combat"
+    }
+   ]
+  },
+  {
+   "id": "B27",
+   "register": "earth_programme",
+   "topic": "conduct",
+   "year": "1975",
+   "voice": "Raël-keys",
+   "refs": [
+    "ETTMTTP-3:101–109"
+   ],
+   "statement": "Tall communal house-cities of about 50,000; respect nature; do not make animals or plants suffer; no drunkenness, no smoking, no drugs.",
+   "quotes": [
+    {
+     "ref": "ETTMTTP-3:101",
+     "fr": "pouvant accueillir environ cinquante mille habitants"
+    },
+    {
+     "ref": "ETTMTTP-3:109",
+     "fr": "L'homme n'a pas besoin de s'améliorer car il est parfait"
+    }
+   ]
+  },
+  {
+   "id": "B28",
+   "register": "earth_programme",
+   "topic": "equality-race",
+   "year": "1975",
+   "voice": "Raël-keys",
+   "refs": [
+    "ETTMTTP-3:159",
+    "3:182–183"
+   ],
+   "statement": "Equal rights and powers at birth whatever the race; \"be racist toward imbeciles\"; the Orient has nothing to teach the Occident.",
+   "quotes": [
+    {
+     "ref": "ETTMTTP-3:159",
+     "fr": "Tous les hommes doivent être égaux en droits et en pouvoirs à la naissance, quelle que soit leur race. Sois raciste envers les imbéciles quelle que soit leur couleur de peau"
+    },
+    {
+     "ref": "ETTMTTP-3:182",
+     "fr": "L'Orient n'a rien à apprendre à l'Occident sur le plan de la sagesse et de l'ouverture d'esprit"
+    },
+    {
+     "ref": "ETTMTTP-3:183",
+     "fr": "les peuples de l'Orient n'ont pas fait le dixième du chemin qu'ont fait les peuples occidentaux"
+    }
+   ]
+  },
+  {
+   "id": "B29",
+   "register": "earth_programme",
+   "topic": "ancestors",
+   "year": "1975",
+   "voice": "Yahweh",
+   "refs": [
+    "ETTMTTP-2:28"
+   ],
+   "statement": "No cult of the ancients; a cult of intelligence; the old to be made comfortable.",
+   "quotes": [
+    {
+     "ref": "ETTMTTP-2:28",
+     "fr": "Nos ancêtres lointains non seulement ne doivent pas être respectés, mais doivent être montrés en exemple de pauvres primitifs bornés"
+    }
+   ]
+  },
+  {
+   "id": "B30",
+   "register": "earth_programme",
+   "topic": "science",
+   "year": "1975",
+   "voice": "Raël-keys",
+   "refs": [
+    "ETTMTTP-3:165–168"
+   ],
+   "statement": "Science is the most important thing and \"doit être ta religion\"; keep discoveries from profiteers and the military; trust only scientists not manipulated by financial interests.",
+   "quotes": [
+    {
+     "ref": "ETTMTTP-3:165",
+     "fr": "Ne laisse pas les découvertes scientifiques tomber entre les mains de ceux qui ne pensent qu'à en retirer du profit ni entre les mains des militaires"
+    },
+    {
+     "ref": "ETTMTTP-3:168",
+     "fr": "Fais confiance aux scientifiques qui ne sont pas manipulés par des intérêts financiers et seulement à ceux-là"
+    }
+   ]
+  },
+  {
+   "id": "B31",
+   "register": "earth_programme",
+   "topic": "four-levels",
+   "year": "1975",
+   "voice": "Raël-keys",
+   "refs": [
+    "ETTMTTP-3:4–9",
+    "3:19",
+    "3:110"
+   ],
+   "statement": "Judge everything on four planes; infinity is the most important; take society into account but do not follow it.",
+   "quotes": [
+    {
+     "ref": "ETTMTTP-3:6",
+     "fr": "Le plan le plus important est celui par rapport à l'infini"
+    },
+    {
+     "ref": "ETTMTTP-3:8",
+     "fr": "Il faut en tenir compte mais ne pas la suivre"
+    }
+   ]
+  },
+  {
+   "id": "B40",
+   "register": "earth_programme",
+   "topic": "movement",
+   "year": "1974",
+   "voice": "Yahweh",
+   "refs": [
+    "TBWTT-6:20–29",
+    "7:81"
+   ],
+   "statement": "Spread the message; build the residence; keep a file of financial contributors, who will be rewarded; one person responsible per nation; a yearly gathering; name: Mouvement Raélien.",
+   "quotes": [
+    {
+     "ref": "TBWTT-6:23",
+     "fr": "Tenez un fichier de ceux qui contribueront financièrement"
+    },
+    {
+     "ref": "TBWTT-6:27",
+     "fr": "à la condition que leurs restes soient conservés dans des tombeaux"
+    }
+   ]
+  },
+  {
+   "id": "B41",
+   "register": "earth_programme",
+   "topic": "movement",
+   "year": "1975",
+   "voice": "Yahweh",
+   "refs": [
+    "ETTMTTP-2:100",
+    "2:105",
+    "2:114–121"
+   ],
+   "statement": "Be severe in selecting guides; the Movement is an atheist religion; a monastery of guides; six rules for followers: transmission of the cell plan, daily thought of the Elohim, spreading the message, at least 1 % of annual income to the Guide of guides, inviting the regional guide yearly, succession by designation.",
+   "quotes": [
+    {
+     "ref": "ETTMTTP-2:100",
+     "fr": "soyez sévères quant à leur sélection pour que notre message ne soit jamais déformé ou trahi"
+    },
+    {
+     "ref": "ETTMTTP-2:105",
+     "fr": "c'est bel et bien une religion, mais une religion athée"
+    },
+    {
+     "ref": "ETTMTTP-2:105",
+     "fr": "ceux qui vous feront des ennuis nous ne les oublierons pas non plus"
+    },
+    {
+     "ref": "ETTMTTP-2:116",
+     "fr": "ton plan cellulaire à l'ordinateur qui en tiendra compte à l'heure du jugement du bilan de ta vie"
+    },
+    {
+     "ref": "ETTMTTP-2:118",
+     "fr": "égal au moins à un centième de tes revenus annuels"
+    },
+    {
+     "ref": "ETTMTTP-2:120",
+     "fr": "le nouveau Guide des guides sera celui qui sera désigné par le Guide des guides précédent"
+    }
+   ]
+  },
+  {
+   "id": "B42",
+   "register": "earth_programme",
+   "topic": "movement-death-rules",
+   "year": "1975",
+   "voice": "Raël-keys",
+   "refs": [
+    "ETTMTTP-3:69–71"
+   ],
+   "statement": "No religious burial; frontal bone (33 mm above the mid-point between the pupils) to the Guide of guides; for those who know the message, automatic sampling is disconnected and re-creation depends on doing exactly what is asked; no inheritance beyond the family home, the rest willed or given in life to the Guide of guides.",
+   "quotes": [
+    {
+     "ref": "ETTMTTP-3:69",
+     "fr": "le système qui permet un prélèvement automatique d'une cellule au moment de la mort est déconnecté"
+    },
+    {
+     "ref": "ETTMTTP-3:69",
+     "fr": "seuls ceux qui, ayant pris connaissance du message, appliqueront exactement ce qu'il demande, seront ainsi recréés"
+    },
+    {
+     "ref": "ETTMTTP-3:71",
+     "fr": "Le reste, tu le lègueras au Guide des guides et si tu as peur que tes descendants ne respectent pas tes dernières volontés en voulant, par la justice humaine, récupérer tes biens, tu en feras don de ton vivant au Guide des guides"
+    }
+   ]
+  },
+  {
+   "id": "B43",
+   "register": "earth_programme",
+   "topic": "movement-obedience",
+   "year": "1975",
+   "voice": "Raël-keys",
+   "refs": [
+    "ETTMTTP-3:201",
+    "3:240–241",
+    "3:258–259"
+   ],
+   "statement": "Be ready to do exactly what the Elohim might ask without understanding why; drop everything when the Guide of guides summons; do not judge the Elohim or the prophet; follow the Guide of guides and all the book's counsels.",
+   "quotes": [
+    {
+     "ref": "ETTMTTP-3:201",
+     "fr": "prêt à faire exactement ce qu'ils pourraient te demander, même si tu ne comprenais pas très bien pourquoi ils te le demandaient"
+    },
+    {
+     "ref": "ETTMTTP-3:241",
+     "fr": "Le créé n'a pas le droit de juger son créateur"
+    },
+    {
+     "ref": "ETTMTTP-3:241",
+     "fr": "Respectez notre prophète et ne portez pas de jugement sur ses actions et sur ses paroles"
+    },
+    {
+     "ref": "ETTMTTP-3:240",
+     "fr": "laissez tomber toutes vos préoccupations"
+    }
+   ]
+  },
+  {
+   "id": "B44",
+   "register": "earth_programme",
+   "topic": "movement-proselytism",
+   "year": "1975/1979",
+   "voice": "Raël-keys / Raël",
+   "refs": [
+    "ETTMTTP-3:210",
+    "3:261",
+    "LWTE-1:128–130"
+   ],
+   "statement": "Make the message known without ever trying to convince; do not address the \"endormis\"; do not fear influencing others.",
+   "quotes": [
+    {
+     "ref": "ETTMTTP-3:261",
+     "fr": "sans jamais chercher à convaincre ceux à qui tu en parles"
+    }
+   ]
+  },
+  {
+   "id": "B45",
+   "register": "earth_programme",
+   "topic": "movement",
+   "year": "1979",
+   "voice": "Raël",
+   "refs": [
+    "LWTE-1:19–25",
+    "1:33–36",
+    "3:26",
+    "3:83"
+   ],
+   "statement": "No paid clergy; money for translation and the embassy; cell-plan transmission and a will for the frontal bone as recognition \"à la vie, à la mort\"; Raëlism will be the dominant religion of the third millennium; daily thought and yearly invitation described as \"obligation\".",
+   "quotes": [
+    {
+     "ref": "LWTE-1:22",
+     "fr": "un mouvement qui n'a pas et qui n'aura jamais de clergé payé"
+    },
+    {
+     "ref": "LWTE-1:36",
+     "fr": "Le raëlisme sera la religion dominante dans le monde du troisième millénaire"
+    },
+    {
+     "ref": "LWTE-1:36",
+     "fr": "les gouvernements seront bien obligés de faire en sorte que leurs dernières volontés soient respectées"
+    }
+   ]
+  },
+  {
+   "id": "B50",
+   "register": "earth_programme",
+   "topic": "israel-jews",
+   "year": "1974",
+   "voice": "Yahweh",
+   "refs": [
+    "TBWTT-2:28",
+    "2:43",
+    "2:72",
+    "3:9"
+   ],
+   "statement": "The man created in the Israel laboratory was the most intelligent; Israel was elected by the scientific jury; \"this race\" has produced many geniuses.",
+   "quotes": [
+    {
+     "ref": "TBWTT-2:43",
+     "fr": "Vous avez d'ailleurs pu constater le nombre de génies que cette race a enfanté"
+    },
+    {
+     "ref": "TBWTT-3:9",
+     "fr": "Le peuple élu comme le peuple le plus intelligent avait été décapité de ses esprits les plus brillants"
+    }
+   ]
+  },
+  {
+   "id": "B51",
+   "register": "earth_programme",
+   "topic": "israel-jews",
+   "year": "1975",
+   "voice": "Yahweh",
+   "refs": [
+    "ETTMTTP-2:104",
+    "2:122–128",
+    "3:227"
+   ],
+   "statement": "Jews are direct descendants; their \"faute originelle\" explains long suffering; the time of pardon has come unless they fail to recognise Raël; the State of Israel must give land near Jerusalem; if not, the embassy goes elsewhere, Israel is punished, destroyed again, dispersed; Jews not yet returned should wait.",
+   "quotes": [
+    {
+     "ref": "ETTMTTP-2:104",
+     "fr": "Leur faute originelle fut de s'être unis à leur création scientifique ; c'est pour cela qu'ils ont souffert si longtemps"
+    },
+    {
+     "ref": "ETTMTTP-2:104",
+     "fr": "S'ils refusent, vous pourrez la construire ailleurs et Israël subira un nouveau châtiment pour n'avoir pas reconnu notre envoyé"
+    },
+    {
+     "ref": "ETTMTTP-2:125",
+     "fr": "et l'Etat d'Israël sera détruit une nouvelle fois"
+    },
+    {
+     "ref": "ETTMTTP-2:126",
+     "fr": "Si cela est refusé, n'y retourne pas"
+    },
+    {
+     "ref": "ETTMTTP-2:128",
+     "fr": "tous les chrétiens du monde ne seraient pas chrétiens mais seraient juifs"
+    }
+   ]
+  },
+  {
+   "id": "B52",
+   "register": "earth_programme",
+   "topic": "israel-jews",
+   "year": "1979",
+   "voice": "Raël",
+   "refs": [
+    "LWTE-1:16–18",
+    "1:77",
+    "3:62"
+   ],
+   "statement": "Tentative harmonisation (\"peut-être\"); an anecdote about a Montreal Jewish community leader; the crucifixion described as carried out by \"fanatics conditioned by the rabbins like S.S.\", with a whole population guilty of not intervening.",
+   "quotes": [
+    {
+     "ref": "LWTE-3:62",
+     "fr": "Et il laissa les fanatiques conditionnés par les rabbins comme des S.S. le crucifier"
+    }
+   ]
+  },
+  {
+   "id": "B53",
+   "register": "earth_programme",
+   "topic": "churches",
+   "year": "1974",
+   "voice": "Yahweh",
+   "refs": [
+    "TBWTT-5:3–21",
+    "5:36–49",
+    "7:82"
+   ],
+   "statement": "The Church has done its work and will die out unless it serves the truth; the Vatican should sell its riches for underdeveloped nations; believers were right to believe but wrong to support the Church.",
+   "quotes": [
+    {
+     "ref": "TBWTT-5:48",
+     "fr": "Il faut pour cela que le Vatican donne l'exemple en vendant toutes ses richesses au profit des nations sous développées"
+    }
+   ]
+  },
+  {
+   "id": "B54",
+   "register": "earth_programme",
+   "topic": "churches-religions",
+   "year": "1975",
+   "voice": "Raël-keys",
+   "refs": [
+    "ETTMTTP-3:225–229",
+    "3:242–255",
+    "3:260"
+   ],
+   "statement": "Man \"no longer has the right\" to believe in the ancestors' god; clergy invited to become guides; the pope excluded from the eternals unless Vatican goods are sold; those still wearing the Church's garments \"du côté des coupables\"; repentant members pardoned; Jew, Christian, Muslim, Buddhist each addressed.",
+   "quotes": [
+    {
+     "ref": "ETTMTTP-3:225",
+     "fr": "il n'a plus le droit de continuer à croire au dieu auquel croyaient ses ancêtres primitifs"
+    },
+    {
+     "ref": "ETTMTTP-3:252",
+     "fr": "Le pape, s'il ne fait pas vendre tous les biens du Vatican pour aider les malheureux, ne sera pas admis parmi les justes sur la planète des éternels"
+    },
+    {
+     "ref": "ETTMTTP-3:255",
+     "fr": "ceux qui revêtent encore ses vêtements pleins de sang seront du côté des coupables"
+    },
+    {
+     "ref": "ETTMTTP-3:247",
+     "fr": "venez avec nous et devenez des guides pour l'humanité"
+    }
+   ]
+  },
+  {
+   "id": "B55",
+   "register": "earth_programme",
+   "topic": "churches-religions",
+   "year": "1979",
+   "voice": "Raël",
+   "refs": [
+    "LWTE-1:75–82"
+   ],
+   "statement": "Most religions will rally to the Movement after the return; a core of \"fanatiques bornés\" will die out.",
+   "quotes": [
+    {
+     "ref": "LWTE-1:76",
+     "fr": "La plupart se rallieront au Mouvement Raëlien"
+    }
+   ]
+  },
+  {
+   "id": "B60",
+   "register": "earth_programme",
+   "topic": "return-conditions",
+   "year": "1974",
+   "voice": "Yahweh",
+   "refs": [
+    "TBWTT-5:56",
+    "6:19–26",
+    "7:21"
+   ],
+   "statement": "They wait until humans want them, love and respect them, and their craft are not threatened; enough of the wise must follow; the residence must exist; warlike temperaments reduced to total impotence; then official representatives of the most important countries are convened to obtain total union, and science is shared progressively; belief without material proof is itself the test.",
+   "quotes": [
+    {
+     "ref": "TBWTT-6:19",
+     "fr": "Mais nous attendrons pour cela de voir que les hommes ont vraiment envie de nous voir venir"
+    },
+    {
+     "ref": "TBWTT-6:25",
+     "fr": "Si les tempéraments guerriers sont réduits à une totale impuissance dans le monde entier, cela se produira"
+    },
+    {
+     "ref": "TBWTT-7:21",
+     "fr": "nous vous demanderons d'y faire venir les représentants officiels des pays les plus importants de l'humanité afin d'obtenir l'union totale des peuples de la Terre"
+    },
+    {
+     "ref": "TBWTT-6:26",
+     "fr": "que l'on vous croie sans preuve matérielle nous prouve plus que tout autre chose que l'on est intelligent et donc digne de recevoir de nous l'héritage scientifique"
+    }
+   ]
+  },
+  {
+   "id": "B61",
+   "register": "earth_programme",
+   "topic": "sanction-by-elohim",
+   "year": "1974",
+   "voice": "Yahweh",
+   "refs": [
+    "TBWTT-5:65",
+    "6:25",
+    "7:6"
+   ],
+   "statement": "If humans stay aggressive and dangerous to other worlds, the Elohim will destroy this civilisation — \"new Sodom and Gomorrah\" — by exploding stockpiles with rays or by telepathically making a great power the \"aggressor\".",
+   "quotes": [
+    {
+     "ref": "TBWTT-6:25",
+     "fr": "nous anéantirons cette civilisation et les points où elle conserve ses richesses scientifiques"
+    },
+    {
+     "ref": "TBWTT-7:6",
+     "fr": "nous suffira de faire exploser leurs stocks de bombes sans envoyer d'armes offensives contre eux"
+    }
+   ]
+  },
+  {
+   "id": "B62",
+   "register": "earth_programme",
+   "topic": "sanction-by-elohim",
+   "year": "1975",
+   "voice": "Yahweh",
+   "refs": [
+    "ETTMTTP-2:23",
+    "2:25"
+   ],
+   "statement": "Correction: the Elohim will not intervene; humanity destroys or saves itself; \"cosmic natural selection\"; only followers are saved in a cataclysm.",
+   "quotes": [
+    {
+     "ref": "ETTMTTP-2:23",
+     "fr": "Il faut bien préciser que nous n'interviendrons pas"
+    },
+    {
+     "ref": "ETTMTTP-2:23",
+     "fr": "seuls les gens qui vous suivent seront sauvés"
+    },
+    {
+     "ref": "ETTMTTP-2:25",
+     "fr": "Ceci est, en quelque sorte, une sélection naturelle, à l'échelon cosmique"
+    }
+   ]
+  },
+  {
+   "id": "B63",
+   "register": "earth_programme",
+   "topic": "sanction-by-elohim",
+   "year": "1979",
+   "voice": "Yahweh / Satan",
+   "refs": [
+    "LWTE-2:59–77",
+    "2:96",
+    "2:205",
+    "2:231"
+   ],
+   "statement": "One chance in a hundred; disarmament is the final test; Satan will be convinced only when humans are united and have abolished money and arms; Satan's offer of a racial world war is presented as a test, which Raël refuses.",
+   "quotes": [
+    {
+     "ref": "LWTE-2:76",
+     "fr": "ne sera convaincu que lorsque les hommes seront unis, qu'ils auront supprimé l'argent et les armes"
+    },
+    {
+     "ref": "LWTE-2:61",
+     "fr": "prônant la destruction des races arabes, jaunes et noires"
+    }
+   ]
+  }
+ ]
+}

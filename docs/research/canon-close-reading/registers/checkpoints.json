@@ -1,0 +1,831 @@
+{
+ "key": "checkpoints",
+ "accessed": "2026-11-12",
+ "classes": {
+  "A": "corroborated by independent source",
+  "B": "corroborated only by sources deriving from Raël's account",
+  "C": "contradicted/divergent",
+  "N": "no independent source found",
+  "P": "partly corroborated"
+ },
+ "note": "Source IDs S1-S36 are defined in checkpoints.md ('Outside sources'). Weekdays, day counts, moon age are computed.",
+ "items": [
+  {
+   "id": 1,
+   "topic": "birth",
+   "canon_statement": "Born 30 Sept 1946 in a clinic in Vichy",
+   "refs": [
+    "ETTMTTP-1:7"
+   ],
+   "classification": "date A/B; place C/B",
+   "sources": [
+    "S8",
+    "S2",
+    "S22",
+    "S16"
+   ],
+   "outside_record": "Discographic DB carries 30/09/1946; two WRSP profiles print 'born in Ambert'; Cherblanc follows the canon (Vichy)"
+  },
+  {
+   "id": 2,
+   "topic": "place",
+   "canon_statement": "Ambert, 'capitale mondiale du chapelet'",
+   "refs": [
+    "ETTMTTP-1:7"
+   ],
+   "classification": "P",
+   "sources": [
+    "S24"
+   ],
+   "outside_record": "Rosary-making at Ambert from 2nd half of 19th c.; slogan not found"
+  },
+  {
+   "id": 3,
+   "topic": "childhood",
+   "canon_statement": "Raised in Ambert by grandmother and aunt",
+   "refs": [
+    "ETTMTTP-1:9"
+   ],
+   "classification": "B",
+   "sources": [
+    "S2",
+    "S16"
+   ],
+   "outside_record": ""
+  },
+  {
+   "id": 4,
+   "topic": "childhood",
+   "canon_statement": "Grandmother's 1947 sighting",
+   "refs": [
+    "ETTMTTP-1:10"
+   ],
+   "classification": "N",
+   "sources": [
+    "S16"
+   ],
+   "outside_record": "repeated from Raël only"
+  },
+  {
+   "id": 5,
+   "topic": "person",
+   "canon_statement": "Père Dissard, last 'pope' of the druids; book on l'Auvergne mystérieuse (summer 1974)",
+   "refs": [
+    "ETTMTTP-1:13"
+   ],
+   "classification": "N",
+   "sources": [],
+   "outside_record": "no source found; unopened lead: Dissard tumulus, Fayet-Ronaye"
+  },
+  {
+   "id": 6,
+   "topic": "event",
+   "canon_statement": "Saw the Tour de France automobile at nine",
+   "refs": [
+    "ETTMTTP-1:15",
+    "ETTMTTP-1:17",
+    "ETTMTTP-1:19",
+    "ETTMTTP-1:23"
+   ],
+   "classification": "C (chronology)",
+   "sources": [
+    "S11"
+   ],
+   "outside_record": "1955 edition cancelled; 1956 edition ended 23 Sept 1956, last week of age nine"
+  },
+  {
+   "id": 7,
+   "topic": "school",
+   "canon_statement": "Pensionnat Notre-Dame-de-France, Le Puy-en-Velay",
+   "refs": [
+    "ETTMTTP-1:19",
+    "ETTMTTP-1:21"
+   ],
+   "classification": "N",
+   "sources": [],
+   "outside_record": "Palmer p.32 via Wikipedia = secondary citation, not opened"
+  },
+  {
+   "id": 8,
+   "topic": "school",
+   "canon_statement": "Collège municipal d'Ambert",
+   "refs": [
+    "ETTMTTP-1:23",
+    "ETTMTTP-1:25"
+   ],
+   "classification": "N",
+   "sources": [
+    "S24"
+   ],
+   "outside_record": ""
+  },
+  {
+   "id": 9,
+   "topic": "school",
+   "canon_statement": "Boarding at Cunlhat, c. 30 km from Ambert",
+   "refs": [
+    "ETTMTTP-1:26"
+   ],
+   "classification": "P",
+   "sources": [
+    "S25"
+   ],
+   "outside_record": "commune of arrondissement d'Ambert; distance not on page"
+  },
+  {
+   "id": 10,
+   "topic": "school",
+   "canon_statement": "Externe chez les frères à Ambert",
+   "refs": [
+    "ETTMTTP-1:28"
+   ],
+   "classification": "N",
+   "sources": [],
+   "outside_record": ""
+  },
+  {
+   "id": 11,
+   "topic": "school",
+   "canon_statement": "Boarding at Le Mont-Dore at fourteen",
+   "refs": [
+    "ETTMTTP-1:31"
+   ],
+   "classification": "N",
+   "sources": [],
+   "outside_record": ""
+  },
+  {
+   "id": 12,
+   "topic": "singing",
+   "canon_statement": "Paris at fifteen, street singing, left-bank cabaret",
+   "refs": [
+    "ETTMTTP-1:33",
+    "ETTMTTP-1:36",
+    "ETTMTTP-1:37"
+   ],
+   "classification": "B",
+   "sources": [
+    "S2"
+   ],
+   "outside_record": ""
+  },
+  {
+   "id": 13,
+   "topic": "person",
+   "canon_statement": "Jean-Pierre Darras; TNP; cours Dullin",
+   "refs": [
+    "ETTMTTP-1:37"
+   ],
+   "classification": "P",
+   "sources": [
+    "S26"
+   ],
+   "outside_record": "Darras in TNP troupe from 1953; episode N"
+  },
+  {
+   "id": 14,
+   "topic": "singing",
+   "canon_statement": "Stage name Claude Celler after Tony Sailer, 'skieur et champion automobile'",
+   "refs": [
+    "ETTMTTP-1:38"
+   ],
+   "classification": "name A; 'champion automobile' N",
+   "sources": [
+    "S8",
+    "S27"
+   ],
+   "outside_record": ""
+  },
+  {
+   "id": 15,
+   "topic": "singing",
+   "canon_statement": "Record company headed by Lucien Morisse of Europe n°1; three-year contract",
+   "refs": [
+    "ETTMTTP-1:40"
+   ],
+   "classification": "A (label, roles); contract N",
+   "sources": [
+    "S8",
+    "S9"
+   ],
+   "outside_record": "Disc'AZ; Morisse programme director then DG of Europe n°1, DG of Disc'AZ, d. 11 Sept 1970"
+  },
+  {
+   "id": 16,
+   "topic": "singing",
+   "canon_statement": "Second record: 'Le miel et la cannelle'",
+   "refs": [
+    "ETTMTTP-1:40",
+    "ETTMTTP-1:41"
+   ],
+   "classification": "A",
+   "sources": [
+    "S8"
+   ],
+   "outside_record": "Disc'AZ EP 1096, May 1967; first record EP 1026, 1966"
+  },
+  {
+   "id": 17,
+   "topic": "singing",
+   "canon_statement": "Selected for Rose d'or d'Antibes, withdrawn by Morisse",
+   "refs": [
+    "ETTMTTP-1:46",
+    "ETTMTTP-1:48"
+   ],
+   "classification": "N (event exists A)",
+   "sources": [
+    "S10"
+   ],
+   "outside_record": "competition 1962-1979, none in 1968"
+  },
+  {
+   "id": 18,
+   "topic": "singing",
+   "canon_statement": "Year as sales agent in Bordeaux",
+   "refs": [
+    "ETTMTTP-1:49",
+    "ETTMTTP-1:50"
+   ],
+   "classification": "N",
+   "sources": [],
+   "outside_record": ""
+  },
+  {
+   "id": 19,
+   "topic": "singing",
+   "canon_statement": "New record financed by a friend",
+   "refs": [
+    "ETTMTTP-1:51"
+   ],
+   "classification": "P",
+   "sources": [
+    "S8"
+   ],
+   "outside_record": "1969 record on Del Sol label; also Dec 1967 and Dec 1970 Disc'AZ records not in canon"
+  },
+  {
+   "id": 20,
+   "topic": "event",
+   "canon_statement": "Car accident; not yet raced at twenty-two",
+   "refs": [
+    "ETTMTTP-1:52",
+    "ETTMTTP-1:53"
+   ],
+   "classification": "N",
+   "sources": [],
+   "outside_record": ""
+  },
+  {
+   "id": 21,
+   "topic": "journalism",
+   "canon_statement": "L'Équipe advert; fraudulent Dijon publisher",
+   "refs": [
+    "ETTMTTP-1:55",
+    "ETTMTTP-1:56",
+    "ETTMTTP-1:58"
+   ],
+   "classification": "N",
+   "sources": [
+    "S16"
+   ],
+   "outside_record": "Cherblanc retells and misreads"
+  },
+  {
+   "id": 22,
+   "topic": "magazine",
+   "canon_statement": "Founded motor-sport magazine at Clermont-Ferrand c. 1971",
+   "refs": [
+    "ETTMTTP-1:59",
+    "TBWTT-1:1"
+   ],
+   "classification": "A-/B",
+   "sources": [
+    "S2",
+    "S18",
+    "S19"
+   ],
+   "outside_record": "Autopop 1971-1974; name absent from canon; no library record opened"
+  },
+  {
+   "id": 23,
+   "topic": "place",
+   "canon_statement": "Circuit du Mas-du-Clos, Creuse",
+   "refs": [
+    "ETTMTTP-1:60"
+   ],
+   "classification": "place A; use N",
+   "sources": [
+    "S21"
+   ],
+   "outside_record": "Saint-Avit-de-Tardes, created 1963"
+  },
+  {
+   "id": 24,
+   "topic": "racing",
+   "canon_statement": "Many victories; about ten cups",
+   "refs": [
+    "ETTMTTP-1:60",
+    "TBWTT-1:1"
+   ],
+   "classification": "N",
+   "sources": [
+    "S18"
+   ],
+   "outside_record": "'low level national and regional'; Winfield school 1968 not in canon"
+  },
+  {
+   "id": 25,
+   "topic": "magazine",
+   "canon_statement": "Stopped the magazine in 1974 for the mission",
+   "refs": [
+    "ETTMTTP-1:70"
+   ],
+   "classification": "A-/B; reason divergent",
+   "sources": [
+    "S2",
+    "S17"
+   ],
+   "outside_record": "UNADFI: finances after 1973 oil shock (unreferenced)"
+  },
+  {
+   "id": 26,
+   "topic": "encounter-1",
+   "canon_statement": "13 December 1973, morning",
+   "refs": [
+    "TBWTT-1:2",
+    "ETTMTTP-1:62",
+    "ETTMTTP-1:63"
+   ],
+   "classification": "B; weekday Thursday (computed)",
+   "sources": [
+    "S2",
+    "S16",
+    "S28",
+    "S4"
+   ],
+   "outside_record": "one encyclopaedia prints December 1, 1973"
+  },
+  {
+   "id": 27,
+   "topic": "place",
+   "canon_statement": "Puy de Lassolas, volcanoes above Clermont-Ferrand",
+   "refs": [
+    "TBWTT-1:2",
+    "TBWTT-1:3",
+    "ETTMTTP-1:63"
+   ],
+   "classification": "A (geography)",
+   "sources": [
+    "S3"
+   ],
+   "outside_record": "1183 m, Saint-Genès-Champanelle, twin of Puy de la Vache, 8400 yr"
+  },
+  {
+   "id": 28,
+   "topic": "edition",
+   "canon_statement": "Book 1 originally said Puy-de-la-Vache",
+   "refs": [
+    "ETTMTTP-1:63",
+    "TBWTT-1:3"
+   ],
+   "classification": "neighbours A; original wording N",
+   "sources": [
+    "S3"
+   ],
+   "outside_record": "dump already reads Lassolas: revised text"
+  },
+  {
+   "id": 29,
+   "topic": "edition",
+   "canon_statement": "TBWTT dump uses 'Mouvement Raélien'",
+   "refs": [
+    "TBWTT-7:73",
+    "TBWTT-7:81",
+    "TBWTT-7:83",
+    "ETTMTTP-1:4"
+   ],
+   "classification": "analysis",
+   "sources": [
+    "S2"
+   ],
+   "outside_record": "MADECH 1974; Raelian Movement 1976 per Palmer profile"
+  },
+  {
+   "id": 30,
+   "topic": "weather",
+   "canon_statement": "Grey sky, mist, cold on 13 Dec 1973",
+   "refs": [
+    "TBWTT-1:3",
+    "TBWTT-1:26",
+    "TBWTT-1:64"
+   ],
+   "classification": "grey A; cold A (plain); mist N",
+   "sources": [
+    "S4"
+   ],
+   "outside_record": "Aulnat 331 m: 06h 3.0C 8/8 light rain; 09h 5.4C 8/8 rain; vis 10-12 km; Tn -3.4 Tx 9"
+  },
+  {
+   "id": 31,
+   "topic": "encounter-1",
+   "canon_statement": "Six consecutive mornings",
+   "refs": [
+    "TBWTT-2:1",
+    "TBWTT-7:72",
+    "TBWTT-7:76",
+    "ETTMTTP-1:63"
+   ],
+   "classification": "N",
+   "sources": [
+    "S5"
+   ],
+   "outside_record": "Thu 13 - Tue 18 Dec 1973 (computed)"
+  },
+  {
+   "id": 32,
+   "topic": "world-event",
+   "canon_statement": "First atomic explosion 1945",
+   "refs": [
+    "TBWTT-1:47"
+   ],
+   "classification": "A",
+   "sources": [
+    "S29"
+   ],
+   "outside_record": "Trinity 16 July 1945"
+  },
+  {
+   "id": 33,
+   "topic": "world-event",
+   "canon_statement": "Restated as Hiroshima 6 Aug 1945",
+   "refs": [
+    "LWTE-2:79",
+    "LWTE-2:209"
+   ],
+   "classification": "date A; restatement shifts event",
+   "sources": [
+    "S30"
+   ],
+   "outside_record": ""
+  },
+  {
+   "id": 34,
+   "topic": "publishing",
+   "canon_statement": "Manuscript sent to house directed by Marcel Jullian",
+   "refs": [
+    "ETTMTTP-1:64",
+    "ETTMTTP-1:66"
+   ],
+   "classification": "roles A; episode N",
+   "sources": [
+    "S12",
+    "S13"
+   ],
+   "outside_record": "Jullian directeur littéraire Julliard 1971-74"
+  },
+  {
+   "id": 35,
+   "topic": "media",
+   "canon_statement": "Le Grand Échiquier (Chancel), collection director at same house",
+   "refs": [
+    "ETTMTTP-1:67"
+   ],
+   "classification": "A",
+   "sources": [
+    "S1",
+    "S13",
+    "S31"
+   ],
+   "outside_record": "INA: 13 March 1974 (alt-text 7 March); Chancel directed 'Idée fixe' at Julliard"
+  },
+  {
+   "id": 36,
+   "topic": "person",
+   "canon_statement": "Courrèges recovered the manuscript",
+   "refs": [
+    "ETTMTTP-1:68"
+   ],
+   "classification": "N",
+   "sources": [],
+   "outside_record": ""
+  },
+  {
+   "id": 37,
+   "topic": "publishing",
+   "canon_statement": "Book printed autumn 1974, self-published",
+   "refs": [
+    "ETTMTTP-1:69",
+    "ETTMTTP-1:70"
+   ],
+   "classification": "A (year, publisher)",
+   "sources": [
+    "S14",
+    "S15"
+   ],
+   "outside_record": "LoC via Open Library: Édition du Message, Clermont-Ferrand, 1974, 160 p., subtitle 'j'ai rencontré un extra terrestre', errata slip"
+  },
+  {
+   "id": 38,
+   "topic": "media",
+   "canon_statement": "Samedi-Soir (Bouvard) in June",
+   "refs": [
+    "ETTMTTP-1:72",
+    "ETTMTTP-1:73"
+   ],
+   "classification": "broadcast A; month C",
+   "sources": [
+    "S1"
+   ],
+   "outside_record": "INA: 25 May 1974"
+  },
+  {
+   "id": 39,
+   "topic": "event",
+   "canon_statement": "Salle Pleyel lectures, 3000 then 2000",
+   "refs": [
+    "ETTMTTP-1:74",
+    "ETTMTTP-1:75"
+   ],
+   "classification": "N/B",
+   "sources": [
+    "S20"
+   ],
+   "outside_record": "19 Sept 1974 from movement's own site via Wikipedia"
+  },
+  {
+   "id": 40,
+   "topic": "media",
+   "canon_statement": "France-Soir notice",
+   "refs": [
+    "ETTMTTP-1:75"
+   ],
+   "classification": "N",
+   "sources": [],
+   "outside_record": ""
+  },
+  {
+   "id": 41,
+   "topic": "event",
+   "canon_statement": "About forty lectures; regional offices",
+   "refs": [
+    "ETTMTTP-1:5",
+    "ETTMTTP-1:76"
+   ],
+   "classification": "P",
+   "sources": [
+    "S23"
+   ],
+   "outside_record": "FR3 Le Mans news item 9 Jan 1975"
+  },
+  {
+   "id": 42,
+   "topic": "media",
+   "canon_statement": "Le Point article and right of reply",
+   "refs": [
+    "ETTMTTP-1:76",
+    "ETTMTTP-1:77"
+   ],
+   "classification": "N",
+   "sources": [],
+   "outside_record": ""
+  },
+  {
+   "id": 43,
+   "topic": "media",
+   "canon_statement": "La Montagne refusal; only daily of the region",
+   "refs": [
+    "ETTMTTP-1:76",
+    "ETTMTTP-1:77"
+   ],
+   "classification": "N",
+   "sources": [
+    "S32"
+   ],
+   "outside_record": ""
+  },
+  {
+   "id": 44,
+   "topic": "media",
+   "canon_statement": "First broadcast on the ORTF",
+   "refs": [
+    "ETTMTTP-1:77"
+   ],
+   "classification": "A",
+   "sources": [
+    "S31"
+   ],
+   "outside_record": "2e chaîne couleur de l'ORTF to Dec 1974"
+  },
+  {
+   "id": 45,
+   "topic": "world-fact",
+   "canon_statement": "Four billion people (1975)",
+   "refs": [
+    "ETTMTTP-1:3"
+   ],
+   "classification": "A",
+   "sources": [
+    "S33"
+   ],
+   "outside_record": "4,079,480 thousand in 1975"
+  },
+  {
+   "id": 46,
+   "topic": "movement",
+   "canon_statement": "MADECH under 1901 law; resignation June 1975; 700 members",
+   "refs": [
+    "ETTMTTP-2:1",
+    "ETTMTTP-2:3",
+    "ETTMTTP-1:3"
+   ],
+   "classification": "N (founding year A-/B)",
+   "sources": [
+    "S2",
+    "S20"
+   ],
+   "outside_record": "canon gives no founding date; 13 Dec 1974 / 170 members = secondary citation of Palmer p.37"
+  },
+  {
+   "id": 47,
+   "topic": "place",
+   "canon_statement": "Move to the Périgord, summer 1975",
+   "refs": [
+    "ETTMTTP-2:4",
+    "ETTMTTP-2:8"
+   ],
+   "classification": "A (indirect)",
+   "sources": [
+    "S14"
+   ],
+   "outside_record": "publisher place Brantôme 1975; La Nègrerie 24310 in 1977"
+  },
+  {
+   "id": 48,
+   "topic": "event",
+   "canon_statement": "31 July 1975 sighting",
+   "refs": [
+    "ETTMTTP-2:5"
+   ],
+   "classification": "N",
+   "sources": [],
+   "outside_record": "Thursday (computed)"
+  },
+  {
+   "id": 49,
+   "topic": "event",
+   "canon_statement": "6 Aug 1975 meeting; Hiroshima 30th anniversary; Transfiguration",
+   "refs": [
+    "ETTMTTP-2:7"
+   ],
+   "classification": "calendar A; meeting N",
+   "sources": [
+    "S30",
+    "S34"
+   ],
+   "outside_record": ""
+  },
+  {
+   "id": 50,
+   "topic": "encounter-2",
+   "canon_statement": "7 Oct 1975, 23h, Roc Plat",
+   "refs": [
+    "ETTMTTP-2:9",
+    "ETTMTTP-2:131",
+    "LWTE-1:2"
+   ],
+   "classification": "date B; place N",
+   "sources": [
+    "S16",
+    "S1"
+   ],
+   "outside_record": "'près de Brantôme'; Tuesday (computed)"
+  },
+  {
+   "id": 51,
+   "topic": "weather",
+   "canon_statement": "Cloudless, cool, shooting stars on 7 Oct 1975",
+   "refs": [
+    "ETTMTTP-2:9"
+   ],
+   "classification": "A (regional)",
+   "sources": [
+    "S6",
+    "S7"
+   ],
+   "outside_record": "Limoges 21h 12.6C 0/8; 00h 12.0C 0/8; Draconid window 6-10 Oct; moon age ~2.4 d (computed)"
+  },
+  {
+   "id": 52,
+   "topic": "publishing",
+   "canon_statement": "Book 2 (1975)",
+   "refs": [
+    "ETTMTTP-1:2",
+    "ETTMTTP-2:132"
+   ],
+   "classification": "A",
+   "sources": [
+    "S14",
+    "S2",
+    "S16"
+   ],
+   "outside_record": "LoC-derived: Brantôme 1975; Palmer profile says 1976; Cherblanc cites 1977 ed."
+  },
+  {
+   "id": 53,
+   "topic": "calendar",
+   "canon_statement": "Year-count: 1976 = 31; 1979 = 34 and 33",
+   "refs": [
+    "ETTMTTP-3:172",
+    "LWTE-2:2",
+    "LWTE-4:219"
+   ],
+   "classification": "internal",
+   "sources": [],
+   "outside_record": ""
+  },
+  {
+   "id": 54,
+   "topic": "event",
+   "canon_statement": "Montréal lecture 9 Nov 1976, auditorium le Plateau",
+   "refs": [
+    "LWTE-4:159"
+   ],
+   "classification": "N",
+   "sources": [],
+   "outside_record": "Tuesday (computed)"
+  },
+  {
+   "id": 55,
+   "topic": "media",
+   "canon_statement": "Radio-Canada International interview 1975-76",
+   "refs": [
+    "LWTE-4:85"
+   ],
+   "classification": "N",
+   "sources": [],
+   "outside_record": ""
+  },
+  {
+   "id": 56,
+   "topic": "citation",
+   "canon_statement": "Milgram, Soumission à l'autorité, Paris 1974",
+   "refs": [
+    "LWTE-3:53"
+   ],
+   "classification": "A (year)",
+   "sources": [
+    "S35"
+   ],
+   "outside_record": ""
+  },
+  {
+   "id": 57,
+   "topic": "citation",
+   "canon_statement": "Muller, Nobel 1946",
+   "refs": [
+    "LWTE-4:10"
+   ],
+   "classification": "A",
+   "sources": [
+    "S36"
+   ],
+   "outside_record": ""
+  },
+  {
+   "id": 58,
+   "topic": "citation",
+   "canon_statement": "Hertz in the 1920s",
+   "refs": [
+    "LWTE-4:73"
+   ],
+   "classification": "not checked",
+   "sources": [],
+   "outside_record": "left to science study"
+  },
+  {
+   "id": 59,
+   "topic": "address",
+   "canon_statement": "C.P. 225, 1211 Genève 8",
+   "refs": [
+    "ETTMTTP-3:265",
+    "LWTE-3:88"
+   ],
+   "classification": "not checked",
+   "sources": [],
+   "outside_record": "later-edition matter"
+  },
+  {
+   "id": 60,
+   "topic": "movement",
+   "canon_statement": "Fixed gatherings: first Sunday of April, 6 Aug, 7 Oct, 13 Dec",
+   "refs": [
+    "ETTMTTP-3:266"
+   ],
+   "classification": "B",
+   "sources": [
+    "S2"
+   ],
+   "outside_record": ""
+  }
+ ]
+}

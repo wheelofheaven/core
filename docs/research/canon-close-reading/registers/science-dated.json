@@ -1,0 +1,1320 @@
+{
+ "key": "science-dated",
+ "accessed": "2026-11-12",
+ "classification_vocabulary": [
+  "matches",
+  "goes_beyond",
+  "lags",
+  "later_abandoned / never_accepted",
+  "conflicts",
+  "not_determinable",
+  "no_match_found"
+ ],
+ "items": [
+  {
+   "id": "1a",
+   "refs": [
+    "TBWTT-7:61",
+    "TBWTT-7:62"
+   ],
+   "voice": "Yahweh",
+   "canon_year": 1973,
+   "topic": "rat memory transfer reported as a recent finding",
+   "canon_fr": [
+    "grâce à une découverte scientifique importante que vos savants commencent à entrevoir on peut apprendre à un sujet ses leçons chirurgicalement",
+    "Vos savants viennent de découvrir que l’on peut en injectant dans le cerveau d’un rat le liquide de la mémoire d’un rat éduqué, faire en sorte que le rat qui n’a rien appris, sache ce que l’autre savait"
+   ],
+   "classification": [
+    "matches",
+    "later_abandoned"
+   ],
+   "basis": "Babich 1965; Ungar 1968, 1972; Malin & Guttman Dec 1972; non-reproducibility 1977-78; discredited per 2021 retrospective",
+   "sources": [
+    "S01",
+    "S02",
+    "S06",
+    "S07",
+    "S10",
+    "S12",
+    "S13",
+    "S14",
+    "S15",
+    "S16"
+   ],
+   "finding": 1,
+   "notes": ""
+  },
+  {
+   "id": "1b",
+   "refs": [
+    "TBWTT-7:62"
+   ],
+   "voice": "Yahweh",
+   "canon_year": 1973,
+   "topic": "transfer of what the trained rat knew; presented as established",
+   "canon_fr": [
+    "Vos savants viennent de découvrir que l’on peut en injectant dans le cerveau d’un rat le liquide de la mémoire d’un rat éduqué, faire en sorte que le rat qui n’a rien appris, sache ce que l’autre savait"
+   ],
+   "classification": [
+    "goes_beyond"
+   ],
+   "basis": "published positive claim = \"significant tendency\" in one response; failures to replicate printed from Dec 1965",
+   "sources": [
+    "S01",
+    "S03",
+    "S04",
+    "S05",
+    "S08",
+    "S09",
+    "S11"
+   ],
+   "finding": 1,
+   "notes": "S05 negative character seen only in a search summary (unverified)"
+  },
+  {
+   "id": "1c",
+   "refs": [
+    "TBWTT-7:62"
+   ],
+   "voice": "Yahweh",
+   "canon_year": 1973,
+   "topic": "injection \"dans le cerveau\"",
+   "canon_fr": [
+    "Vos savants viennent de découvrir que l’on peut en injectant dans le cerveau d’un rat le liquide de la mémoire d’un rat éduqué, faire en sorte que le rat qui n’a rien appris, sache ce que l’autre savait"
+   ],
+   "classification": [
+    "not_determinable"
+   ],
+   "basis": "abstracts silent on route; Luttges 1966 names intraperitoneal and intraventricular in a negative report; Wikipedia: rat extract injected into mice",
+   "sources": [
+    "S01",
+    "S04",
+    "S16"
+   ],
+   "finding": 1,
+   "notes": ""
+  },
+  {
+   "id": "1d",
+   "refs": [
+    "LWTE-4:132"
+   ],
+   "voice": "Terrusse",
+   "canon_year": 1979,
+   "topic": "RNA memory substances transferable between individuals (forecast)",
+   "canon_fr": [
+    "L'étude du mécanisme du codage de l'information dans les molécules d'A.R.N. nous amènera à comprendre, puis à utiliser les substances mémorielles contenues dans notre cerveau... Substances qui pourront être transférées d'un individu à un autre."
+   ],
+   "classification": [
+    "goes_beyond",
+    "later_abandoned"
+   ],
+   "basis": "written after 1977-78 non-reproducibility reports; 2018 Aplysia RNA sensitization is the only retrieved item in its direction",
+   "sources": [
+    "S12",
+    "S13",
+    "S17"
+   ],
+   "finding": 1,
+   "notes": ""
+  },
+  {
+   "id": "2",
+   "refs": [
+    "TBWTT-3:111"
+   ],
+   "voice": "Yahweh",
+   "canon_year": 1973,
+   "topic": "animals guided by implanted electrodes",
+   "canon_fr": [
+    "Un exemple de téléguidage des animaux par électrode, comme vous commencez à le découvrir"
+   ],
+   "classification": [
+    "matches",
+    "goes_beyond(steering)"
+   ],
+   "basis": "Delgado bull 1963, radio stimulation papers to 1969; steered rat navigation 2002",
+   "sources": [
+    "S20",
+    "S21",
+    "S22",
+    "S23"
+   ],
+   "finding": 10,
+   "notes": ""
+  },
+  {
+   "id": "3a",
+   "refs": [
+    "TBWTT-2:14"
+   ],
+   "voice": "Yahweh",
+   "canon_year": 1973,
+   "topic": "continents fit into a single one, \"viennent de s'apercevoir\"",
+   "canon_fr": [
+    "À l’origine, il n’y avait qu’un continent sur la Terre et vos savants viennent d’ailleurs de s’apercevoir que tous les continents qui ont dérivé s’emboîtent parfaitement pour n’en former qu’un seul."
+   ],
+   "classification": [
+    "matches(acceptance)",
+    "lags(idea)"
+   ],
+   "basis": "Wegener 1912-15; Bullard computer fit 1965; plate tectonics accepted 1965-68",
+   "sources": [
+    "S30",
+    "S31",
+    "S32",
+    "S33",
+    "S34"
+   ],
+   "finding": 6,
+   "notes": ""
+  },
+  {
+   "id": "3b",
+   "refs": [
+    "LWTE-1:30"
+   ],
+   "voice": "questioner in LWTE",
+   "canon_year": 1979,
+   "topic": "drift of a few centimetres a year",
+   "canon_fr": [
+    "le continent américain continuant de s'écarter de l'Europe de quelques centimètres par an selon certains scientifiques, d'un mètre selon d'autres"
+   ],
+   "classification": [
+    "matches"
+   ],
+   "basis": "Mid-Atlantic Ridge about 2.5 cm/yr",
+   "sources": [
+    "S35"
+   ],
+   "finding": 6,
+   "notes": ""
+  },
+  {
+   "id": "3c",
+   "refs": [
+    "LWTE-1:30"
+   ],
+   "voice": "questioner in LWTE",
+   "canon_year": 1979,
+   "topic": "drift of one metre a year \"selon d'autres\"",
+   "canon_fr": [
+    "le continent américain continuant de s'écarter de l'Europe de quelques centimètres par an selon certains scientifiques, d'un mètre selon d'autres"
+   ],
+   "classification": [
+    "not_determinable"
+   ],
+   "basis": "no source found",
+   "sources": [],
+   "finding": 6,
+   "notes": ""
+  },
+  {
+   "id": "3d",
+   "refs": [
+    "LWTE-1:31"
+   ],
+   "voice": "Raël",
+   "canon_year": 1979,
+   "topic": "recent earthquake near Arabia opening a rift of more than a metre",
+   "canon_fr": [
+    "Il y a eu récemment un tremblement de terre près de la péninsule arabique, et l'on a eu la surprise de constater qu'une faille s'était créée, écartant deux régions de plus d'un mètre en une seule nuit!"
+   ],
+   "classification": [
+    "matches(probable)"
+   ],
+   "basis": "Asal-Ghoubbet crisis Nov 1978: about 2 m horizontal extension (Ruegg et al. 1979); identification is an inference; \"one night\" unconfirmed",
+   "sources": [
+    "S36",
+    "S37"
+   ],
+   "finding": 6,
+   "notes": ""
+  },
+  {
+   "id": "4a",
+   "refs": [
+    "LWTE-4:129"
+   ],
+   "voice": "Terrusse",
+   "canon_year": 1979,
+   "topic": "genes synthesised from nucleotides; DNA implanted in bacteria; gene transfer familiar",
+   "canon_fr": [
+    "Prenez conscience que l'on a synthétisé des gènes par assemblage de nucléotides; que des segments de molécules d'A.D.N. ont été implantés à l'intérieur de chromosomes bactériens; que le transfert de matériel génétique d'un organisme à un autre nous devient familier..."
+   ],
+   "classification": [
+    "matches"
+   ],
+   "basis": "Khorana 1970, 1979; Jackson/Berg 1972; Cohen/Boyer 1973; Itakura 1977; Ryan 1979",
+   "sources": [
+    "S40",
+    "S41",
+    "S42",
+    "S43",
+    "S44",
+    "S45"
+   ],
+   "finding": 7,
+   "notes": ""
+  },
+  {
+   "id": "4b",
+   "refs": [
+    "LWTE-1:152"
+   ],
+   "voice": "Raël",
+   "canon_year": 1979,
+   "topic": "man will \"bientôt\" create synthetic genetic codes from inanimate matter",
+   "canon_fr": [
+    "l'homme, qui sera bientôt capable de créer synthétiquement de nouveaux codes génétiques, de nouveaux plans, à partir de matière inanimée"
+   ],
+   "classification": [
+    "lags(weak sense)",
+    "goes_beyond(strong sense; realised 2010-2016)"
+   ],
+   "basis": "synthetic genes published 1970-79; designed synthetic genomes 2010, 2016",
+   "sources": [
+    "S40",
+    "S44",
+    "S51",
+    "S52"
+   ],
+   "finding": 7,
+   "notes": ""
+  },
+  {
+   "id": "4c",
+   "refs": [
+    "LWTE-4:131"
+   ],
+   "voice": "Terrusse",
+   "canon_year": 1979,
+   "topic": "new animal species; synthesis of humanoids",
+   "canon_fr": [
+    "sur la création d'espèces animales nouvelles, et à terme sur la synthèse d'humanoïdes à notre image"
+   ],
+   "classification": [
+    "goes_beyond"
+   ],
+   "basis": "forecast; no counterpart retrieved for humanoids",
+   "sources": [],
+   "finding": 7,
+   "notes": ""
+  },
+  {
+   "id": "5",
+   "refs": [
+    "TBWTT-2:2",
+    "TBWTT-2:16",
+    "LWTE-2:102"
+   ],
+   "voice": "Yahweh",
+   "canon_year": 1973,
+   "topic": "living cells made from chemicals \"bientôt\"; synthetic beings as a marker (1979)",
+   "canon_fr": [
+    "les hommes étaient arrivés à un niveau technique et scientifique comparable à celui que vous aurez bientôt. Ils commencèrent à créer des formes primitives et embryonnaires de vie, des cellules vivantes en éprouvettes.",
+    "des cellules végétales à partir de rien d’autre que des produits chimiques",
+    "lorsqu'ils seraient capables de s'égaler à ce qu'ils prenaient pour «dieu » en créant des êtres synthétiques en laboratoire",
+    "faire porter leur voix par-delà les océans en fabriquant des satellites de télécommunication",
+    "faire voir les aveugles en fabriquant des prothèses électroniques"
+   ],
+   "classification": [
+    "goes_beyond"
+   ],
+   "basis": "1967 infectious viral DNA in vitro; 2010 cell controlled by synthesised genome in a recipient cell; strict bottom-up living cell \"has not yet been made\" (Wikipedia)",
+   "sources": [
+    "S50",
+    "S51",
+    "S52",
+    "S53"
+   ],
+   "finding": 8,
+   "notes": ""
+  },
+  {
+   "id": "6a",
+   "refs": [
+    "TBWTT-2:58"
+   ],
+   "voice": "Yahweh",
+   "canon_year": 1973,
+   "topic": "one cell suffices to reconstitute the whole being - \"bientôt le comprendre\"",
+   "canon_fr": [
+    "En réalité, et vos connaissances scientifiques vous permettront bientôt de le comprendre, il suffit d’avoir une cellule vivante de chaque espèce, mâle et femelle, pour reconstituer ensuite l’être tout entier."
+   ],
+   "classification": [
+    "lags(principle)",
+    "goes_beyond(adult mammal; realised 1996-97)"
+   ],
+   "basis": "Briggs & King 1952; Steward 1958 (plants); Gurdon 1962; Wilmut 1997",
+   "sources": [
+    "S60",
+    "S61",
+    "S65",
+    "S67"
+   ],
+   "finding": 9,
+   "notes": ""
+  },
+  {
+   "id": "6b",
+   "refs": [
+    "TBWTT-7:30",
+    "TBWTT-2:58",
+    "TBWTT-3:186"
+   ],
+   "voice": "Yahweh",
+   "canon_year": 1973,
+   "topic": "any cell of the body; \"très facile\"",
+   "canon_fr": [
+    "à partir de n’importe quelle cellule d’un corps on peut recréer l’être tout entier avec de la matière vivante neuve",
+    "En réalité, et vos connaissances scientifiques vous permettront bientôt de le comprendre, il suffit d’avoir une cellule vivante de chaque espèce, mâle et femelle, pour reconstituer ensuite l’être tout entier.",
+    "Tout cela est très facile à réaliser et vous le ferez un jour."
+   ],
+   "classification": [
+    "goes_beyond"
+   ],
+   "basis": "all retrieved methods use an enucleated egg; adult frog skin nuclei 1975 reached tadpoles only via serial transfer; mouse failure 1984",
+   "sources": [
+    "S62",
+    "S63",
+    "S64",
+    "S65"
+   ],
+   "finding": 9,
+   "notes": ""
+  },
+  {
+   "id": "6c",
+   "refs": [
+    "TBWTT-3:283"
+   ],
+   "voice": "Yahweh",
+   "canon_year": 1973,
+   "topic": "extinct species recreated",
+   "canon_fr": [
+    "Les espèces qui disparaissent pourront revivre quand vous saurez les recréer."
+   ],
+   "classification": [
+    "goes_beyond(partially realised 2003)"
+   ],
+   "basis": "bucardo clone born 2003, died within minutes (Folch 2009)",
+   "sources": [
+    "S66"
+   ],
+   "finding": 9,
+   "notes": ""
+  },
+  {
+   "id": "7a",
+   "refs": [
+    "LWTE-1:26"
+   ],
+   "voice": "questioner in LWTE",
+   "canon_year": 1979,
+   "topic": "nearest star about four light-years",
+   "canon_fr": [
+    "Les scientifiques terrestres actuels disent que la plus proche étoile en dehors de notre soleil est située à environ quatre années-lumière"
+   ],
+   "classification": [
+    "matches"
+   ],
+   "basis": "Proxima 4.25 ly; Alpha Centauri parallax published 1839",
+   "sources": [
+    "S70",
+    "S71"
+   ],
+   "finding": 2,
+   "notes": ""
+  },
+  {
+   "id": "7b",
+   "refs": [
+    "TBWTT-5:52",
+    "TBWTT-5:53"
+   ],
+   "voice": "Yahweh",
+   "canon_year": 1973,
+   "topic": "home planet under one light-year away, orbiting a large star",
+   "canon_fr": [
+    "Notre planète est à 30 millions de parasanges soit neuf mille milliards de kilomètres environ ou un peu moins d’une année lumière",
+    "Avec vos fusées actuelles qui ne se déplacent qu’à 40 000 km/h",
+    "Le parasange qui, comme le parsec, est une unité de mesure, équivaut à la distance que parcourt la lumière en une seconde soit environ 300 000 kilomètres.",
+    "La planète des créateurs est éloignée de son soleil de 236 000 parasanges, soit 70 milliards huit cent millions de kilomètres, c’est la «hauteur du créateur», par rapport à son soleil, un grosse étoile."
+   ],
+   "classification": [
+    "conflicts"
+   ],
+   "basis": "stellar parallaxes since 1839/1915; WISE 2014 limits; in-canon reply: location withheld (LWTE-1:27)",
+   "sources": [
+    "S70",
+    "S71",
+    "S72",
+    "S73",
+    "S74"
+   ],
+   "finding": 2,
+   "notes": ""
+  },
+  {
+   "id": "7c",
+   "refs": [
+    "LWTE-1:27",
+    "LWTE-4:121"
+   ],
+   "voice": "Raël; Terrusse",
+   "canon_year": 1979,
+   "topic": "light speed varies; light-year distances overestimated",
+   "canon_fr": [
+    "J'y ajouterai que la lumière ne se déplace pas à la même vitesse dans toutes les couches de l'univers, car rien n'est constant ni dans l'espace ni dans le temps",
+    "Toutes les distances en années-lumière calculées par les méthodes traditionnelles sont surévaluées."
+   ],
+   "classification": [
+    "goes_beyond"
+   ],
+   "basis": "no published support retrieved; c fixed by definition since 1983",
+   "sources": [
+    "S75"
+   ],
+   "finding": 2,
+   "notes": ""
+  },
+  {
+   "id": "7d",
+   "refs": [
+    "TBWTT-5:52"
+   ],
+   "voice": "Yahweh",
+   "canon_year": 1973,
+   "topic": "current rockets at 40,000 km/h",
+   "canon_fr": [
+    "Notre planète est à 30 millions de parasanges soit neuf mille milliards de kilomètres environ ou un peu moins d’une année lumière",
+    "Avec vos fusées actuelles qui ne se déplacent qu’à 40 000 km/h",
+    "Le parasange qui, comme le parsec, est une unité de mesure, équivaut à la distance que parcourt la lumière en une seconde soit environ 300 000 kilomètres."
+   ],
+   "classification": [
+    "matches"
+   ],
+   "basis": "Apollo 10: 39,897 km/h (1969)",
+   "sources": [
+    "S76"
+   ],
+   "finding": 2,
+   "notes": ""
+  },
+  {
+   "id": "8a",
+   "refs": [
+    "TBWTT-5:52"
+   ],
+   "voice": "Yahweh",
+   "canon_year": 1973,
+   "topic": "parasang and parsec are units of measure",
+   "canon_fr": [
+    "Notre planète est à 30 millions de parasanges soit neuf mille milliards de kilomètres environ ou un peu moins d’une année lumière",
+    "Avec vos fusées actuelles qui ne se déplacent qu’à 40 000 km/h",
+    "Le parasange qui, comme le parsec, est une unité de mesure, équivaut à la distance que parcourt la lumière en une seconde soit environ 300 000 kilomètres."
+   ],
+   "classification": [
+    "matches"
+   ],
+   "basis": "parasang: historical Iranian unit; parsec coined 1913",
+   "sources": [
+    "S80",
+    "S81"
+   ],
+   "finding": 3,
+   "notes": ""
+  },
+  {
+   "id": "8b",
+   "refs": [
+    "TBWTT-5:52",
+    "TBWTT-5:51"
+   ],
+   "voice": "Yahweh",
+   "canon_year": 1973,
+   "topic": "parasang = distance light travels in one second (about 300,000 km)",
+   "canon_fr": [
+    "Notre planète est à 30 millions de parasanges soit neuf mille milliards de kilomètres environ ou un peu moins d’une année lumière",
+    "Avec vos fusées actuelles qui ne se déplacent qu’à 40 000 km/h",
+    "Le parasange qui, comme le parsec, est une unité de mesure, équivaut à la distance que parcourt la lumière en une seconde soit environ 300 000 kilomètres.",
+    "En particulier une description dans le Cantique des Cantiques (V) de la planète des créateurs ainsi que la distance qui la sépare de la Terre."
+   ],
+   "classification": [
+    "conflicts(with historical unit)"
+   ],
+   "basis": "historical parasang about 5.3-5.7 km (Herodotus 30 stadia); factor about 5e4; Song of Songs 5 pointer agrees with description of Shi'ur Qomah",
+   "sources": [
+    "S80",
+    "S82"
+   ],
+   "finding": 3,
+   "notes": ""
+  },
+  {
+   "id": "9a",
+   "refs": [
+    "LWTE-1:28"
+   ],
+   "voice": "Raël",
+   "canon_year": 1979,
+   "topic": "the book \"Evolution ou Création\"",
+   "canon_fr": [
+    "Il existe d'ailleurs un ouvrage très intéressant qui développe tout cela très sérieusement pour les scientifiques que cela intéresse, je veux parler de Evolution ou Création (voir bibliographie en fin d'ouvrage).",
+    "l'erreur de ces méthodes de datation est de partir du principe que le comportement atomique actuel a toujours été le même"
+   ],
+   "classification": [
+    "matches(probable identification)"
+   ],
+   "basis": "Flori & Rasolofomasoandro, Évolution ou création?, Dammarie-les-Lys: Éditions SDT, 1974, 381 p., LCCN 75510211; alternative: Dubois & Fribault 1957",
+   "sources": [
+    "S90",
+    "S91"
+   ],
+   "finding": 5,
+   "notes": "national catalogues unreachable; LWTE bibliography not in dump"
+  },
+  {
+   "id": "9b",
+   "refs": [
+    "LWTE-1:28"
+   ],
+   "voice": "Raël",
+   "canon_year": 1979,
+   "topic": "dating methods wrong because atomic behaviour was not constant",
+   "canon_fr": [
+    "Il existe d'ailleurs un ouvrage très intéressant qui développe tout cela très sérieusement pour les scientifiques que cela intéresse, je veux parler de Evolution ou Création (voir bibliographie en fin d'ouvrage).",
+    "l'erreur de ces méthodes de datation est de partir du principe que le comportement atomique actuel a toujours été le même"
+   ],
+   "classification": [
+    "conflicts"
+   ],
+   "basis": "decay constancy stated as measured and cross-checked (tertiary source)",
+   "sources": [
+    "S92"
+   ],
+   "finding": 5,
+   "notes": ""
+  },
+  {
+   "id": "9c",
+   "refs": [
+    "LWTE-1:28"
+   ],
+   "voice": "Raël",
+   "canon_year": 1979,
+   "topic": "the book develops this argument",
+   "canon_fr": [
+    "Il existe d'ailleurs un ouvrage très intéressant qui développe tout cela très sérieusement pour les scientifiques que cela intéresse, je veux parler de Evolution ou Création (voir bibliographie en fin d'ouvrage).",
+    "l'erreur de ces méthodes de datation est de partir du principe que le comportement atomique actuel a toujours été le même"
+   ],
+   "classification": [
+    "not_determinable"
+   ],
+   "basis": "book not opened; critical dossier shows it is a literal-Flood creationist work",
+   "sources": [
+    "S91"
+   ],
+   "finding": 5,
+   "notes": ""
+  },
+  {
+   "id": "10a",
+   "refs": [
+    "LWTE-1:45",
+    "LWTE-1:46"
+   ],
+   "voice": "Raël",
+   "canon_year": 1979,
+   "topic": "wood found in an Ararat glacier, analysed, far too young",
+   "canon_fr": [
+    "l'on a trouvé voici quelques années dans un glacier du mont Ararat les restes d'un bateau",
+    "Les morceaux de bois qui ont été retrouvés ont été récemment analysés, et l'on s'est aperçu qu'ils n'étaient vieux que de sept cents ans, ce qui placerait cette arche de Noé aux environs de l'an mille deux cents."
+   ],
+   "classification": [
+    "matches"
+   ],
+   "basis": "Navarra 1955; SEARCH 1969; radiocarbon about 1,200-1,700 years",
+   "sources": [
+    "S100",
+    "S101",
+    "S102",
+    "S103",
+    "S105"
+   ],
+   "finding": 4,
+   "notes": ""
+  },
+  {
+   "id": "10b",
+   "refs": [
+    "LWTE-1:46"
+   ],
+   "voice": "Raël",
+   "canon_year": 1979,
+   "topic": "wood 700 years old, i.e. about A.D. 1200",
+   "canon_fr": [
+    "Les morceaux de bois qui ont été retrouvés ont été récemment analysés, et l'on s'est aperçu qu'ils n'étaient vieux que de sept cents ans, ce qui placerait cette arche de Noé aux environs de l'an mille deux cents."
+   ],
+   "classification": [
+    "no_match_found"
+   ],
+   "basis": "published: about 1,190-1,210 yr BP / \"around A.D. 700\"; five labs 1,200-1,700 yr; no 700-year report found; numbers coincide with roles exchanged (observation)",
+   "sources": [
+    "S100",
+    "S101",
+    "S102",
+    "S104"
+   ],
+   "finding": 4,
+   "notes": ""
+  },
+  {
+   "id": "11",
+   "refs": [
+    "LWTE-4:73"
+   ],
+   "voice": "Terrusse",
+   "canon_year": 1979,
+   "topic": "Hertz discovered his waves in the 1920s",
+   "canon_fr": [
+    "Rappelez-vous que Hertz n'a découvert les ondes qui portent son nom que dans les années 1920",
+    "la résonance magnétique nucléaire n'est connue que depuis 1946"
+   ],
+   "classification": [
+    "no_match(slip)"
+   ],
+   "basis": "Hertz experiments 1886-89; died 1894",
+   "sources": [
+    "S110"
+   ],
+   "finding": 10,
+   "notes": ""
+  },
+  {
+   "id": "12",
+   "refs": [
+    "LWTE-4:73",
+    "LWTE-4:10"
+   ],
+   "voice": "Terrusse",
+   "canon_year": 1979,
+   "topic": "NMR known since 1946; Muller Nobel 1946",
+   "canon_fr": [
+    "Rappelez-vous que Hertz n'a découvert les ondes qui portent son nom que dans les années 1920",
+    "la résonance magnétique nucléaire n'est connue que depuis 1946",
+    "H.-J. Muller, prix Nobel 1946"
+   ],
+   "classification": [
+    "matches"
+   ],
+   "basis": "Bloch & Purcell 1946; Muller Nobel 1946",
+   "sources": [
+    "S111",
+    "S112"
+   ],
+   "finding": 10,
+   "notes": ""
+  },
+  {
+   "id": "13",
+   "refs": [
+    "LWTE-2:102"
+   ],
+   "voice": "Yahweh",
+   "canon_year": 1979,
+   "topic": "telecommunication satellites carry voices across oceans",
+   "canon_fr": [
+    "lorsqu'ils seraient capables de s'égaler à ce qu'ils prenaient pour «dieu » en créant des êtres synthétiques en laboratoire",
+    "faire porter leur voix par-delà les océans en fabriquant des satellites de télécommunication",
+    "faire voir les aveugles en fabriquant des prothèses électroniques"
+   ],
+   "classification": [
+    "matches"
+   ],
+   "basis": "Telstar 1, 10 July 1962",
+   "sources": [
+    "S113"
+   ],
+   "finding": 10,
+   "notes": ""
+  },
+  {
+   "id": "14",
+   "refs": [
+    "LWTE-2:102"
+   ],
+   "voice": "Yahweh",
+   "canon_year": 1979,
+   "topic": "electronic prostheses make the blind see",
+   "canon_fr": [
+    "lorsqu'ils seraient capables de s'égaler à ce qu'ils prenaient pour «dieu » en créant des êtres synthétiques en laboratoire",
+    "faire porter leur voix par-delà les océans en fabriquant des satellites de télécommunication",
+    "faire voir les aveugles en fabriquant des prothèses électroniques"
+   ],
+   "classification": [
+    "matches(experiments)",
+    "goes_beyond(function)"
+   ],
+   "basis": "Brindley & Lewin 1968; Dobelle 1974: \"hope that a functional visual prosthesis can be developed\"",
+   "sources": [
+    "S114"
+   ],
+   "finding": 10,
+   "notes": ""
+  },
+  {
+   "id": "15",
+   "refs": [
+    "LWTE-2:102"
+   ],
+   "voice": "Yahweh",
+   "canon_year": 1979,
+   "topic": "synthetic beings created in the laboratory",
+   "canon_fr": [
+    "lorsqu'ils seraient capables de s'égaler à ce qu'ils prenaient pour «dieu » en créant des êtres synthétiques en laboratoire",
+    "faire porter leur voix par-delà les océans en fabriquant des satellites de télécommunication",
+    "faire voir les aveugles en fabriquant des prothèses électroniques"
+   ],
+   "classification": [
+    "goes_beyond"
+   ],
+   "basis": "see item 5",
+   "sources": [
+    "S53"
+   ],
+   "finding": 8,
+   "notes": ""
+  },
+  {
+   "id": "16",
+   "refs": [
+    "LWTE-1:169"
+   ],
+   "voice": "Raël",
+   "canon_year": 1979,
+   "topic": "self-recharging mobile computer \"viennent de mettre au point\"",
+   "canon_fr": [
+    "Des scientifiques viennent de mettre au point un ordinateur équipé de batteries électriques.",
+    "Aussitôt, il roule vers la prise de courant, se branche tout seul"
+   ],
+   "classification": [
+    "lags(feature)",
+    "not_determinable(machine)"
+   ],
+   "basis": "Johns Hopkins Beast, 1960s, plugged itself in; 1979 machine not identified",
+   "sources": [
+    "S115"
+   ],
+   "finding": 10,
+   "notes": ""
+  },
+  {
+   "id": "17",
+   "refs": [
+    "ETTMTTP-2:37"
+   ],
+   "voice": "Yahweh",
+   "canon_year": 1975,
+   "topic": "one person plus a computer already builds a car",
+   "canon_fr": [
+    "Déjà, dans vos usines les plus modernes",
+    "une personne suffit qui surveille simplement un ordinateur qui commande et réalise toutes les opérations de fabrication de la voiture"
+   ],
+   "classification": [
+    "goes_beyond(weakly sourced)"
+   ],
+   "basis": "Unimate on GM line 1961; lights-out FANUC 2001; no 1975 one-person car plant found",
+   "sources": [
+    "S116"
+   ],
+   "finding": 10,
+   "notes": ""
+  },
+  {
+   "id": "18",
+   "refs": [
+    "ETTMTTP-2:30"
+   ],
+   "voice": "Yahweh",
+   "canon_year": 1975,
+   "topic": "a being loses a few grams at death",
+   "canon_fr": [
+    "On a pu constater qu'un être perd quelques grammes au moment de sa mort"
+   ],
+   "classification": [
+    "matches",
+    "never_accepted"
+   ],
+   "basis": "MacDougall 1907; \"widely regarded as flawed and unscientific\"",
+   "sources": [
+    "S117"
+   ],
+   "finding": 10,
+   "notes": ""
+  }
+ ],
+ "sources": {
+  "S01": {
+   "kind": "PubMed record [direct]",
+   "title": "Babich et al., Science 1965 Aug 6;149(3684):656-7",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/14331194/",
+   "accessed": "2026-11-12"
+  },
+  "S02": {
+   "kind": "PubMed [direct]",
+   "title": "Jacobson et al., Science 1965 Oct 29;150(3696):636-7",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/5837108/",
+   "accessed": "2026-11-12"
+  },
+  "S03": {
+   "kind": "PubMed [direct], title only",
+   "title": "Gross & Carey, Science 1965 Dec 24;150(3704):1749",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/5858035/",
+   "accessed": "2026-11-12"
+  },
+  "S04": {
+   "kind": "PubMed [direct]",
+   "title": "Luttges et al., Science 1966 Feb 18;151(3712):834-7",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/17746734/",
+   "accessed": "2026-11-12"
+  },
+  "S05": {
+   "kind": "PubMed [direct], title only",
+   "title": "Byrne et al., \"Memory transfer\", Science 1966 Aug 5;153(3736):658-9",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/5939939/",
+   "accessed": "2026-11-12"
+  },
+  "S06": {
+   "kind": "PubMed [direct], title only",
+   "title": "Ungar, Galvan, Clark, Nature 1968 Mar 30;217(5135):1259-61",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/5643106/",
+   "accessed": "2026-11-12"
+  },
+  "S07": {
+   "kind": "PubMed [direct], title only",
+   "title": "Ungar, Desiderio, Parr, Nature 1972 Jul 28;238(5361):198-202",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/4558348/",
+   "accessed": "2026-11-12"
+  },
+  "S08": {
+   "kind": "PubMed [direct], title only",
+   "title": "Stewart, Nature 1972 Jul 28;238(5361):202-10",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/4558349/",
+   "accessed": "2026-11-12"
+  },
+  "S09": {
+   "kind": "PubMed [direct], title only",
+   "title": "Goldstein et al., Nature 1971 Sep 10;233(5315):126-9",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/12058754/",
+   "accessed": "2026-11-12"
+  },
+  "S10": {
+   "kind": "PubMed [direct]",
+   "title": "Malin & Guttman, Science 1972 Dec 15;178(4066):1219-20",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/4637811/",
+   "accessed": "2026-11-12"
+  },
+  "S11": {
+   "kind": "PubMed [direct]",
+   "title": "Frank, Stein, Rosen, Science 1970 Jul 24;169(3943):399-402",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/5465368/",
+   "accessed": "2026-11-12"
+  },
+  "S12": {
+   "kind": "PubMed [direct]",
+   "title": "Misslin et al., Behav Processes 1978 May;3(1):45-56",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/24924376/",
+   "accessed": "2026-11-12"
+  },
+  "S13": {
+   "kind": "PubMed [direct]",
+   "title": "Wójcik & Niemierko, Acta Neurobiol Exp 1978;38(1):25-30",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/566023/",
+   "accessed": "2026-11-12"
+  },
+  "S14": {
+   "kind": "PubMed [direct] (review abstract)",
+   "title": "Setlow, \"Georges Ungar and memory transfer\", J Hist Neurosci 1997 Aug;6(2):181-92",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/11619520/",
+   "accessed": "2026-11-12"
+  },
+  "S15": {
+   "kind": "Magazine [fetch]",
+   "title": "A. Abell, \"50 years ago, scientists were on the trail of 'memory molecules'\", Science News, 5 Nov 2021",
+   "url": "https://www.sciencenews.org/article/50-years-ago-scientists-memory-molecules-storage",
+   "accessed": "2026-11-12"
+  },
+  "S16": {
+   "kind": "Wikipedia [direct]",
+   "title": "\"Scotophobin\"",
+   "url": "https://en.wikipedia.org/wiki/Scotophobin",
+   "accessed": "2026-11-12"
+  },
+  "S17": {
+   "kind": "PubMed [direct]",
+   "title": "Bédécarrats et al., eNeuro 2018 May 21;5(3)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/29789810/",
+   "accessed": "2026-11-12"
+  },
+  "S20": {
+   "kind": "Wikipedia [direct]",
+   "title": "\"José Manuel Rodríguez Delgado\"",
+   "url": "https://en.wikipedia.org/wiki/Jos%C3%A9_Manuel_Rodr%C3%ADguez_Delgado",
+   "accessed": "2026-11-12"
+  },
+  "S21": {
+   "kind": "Magazine [fetch]",
+   "title": "J. El-Hai, \"The Man Who Fought a Bull With Mind Control\", Discover, 21 Mar 2016",
+   "url": "https://www.discovermagazine.com/the-man-who-fought-a-bull-with-mind-control-803",
+   "accessed": "2026-11-12"
+  },
+  "S22": {
+   "kind": "PubMed [direct], title only",
+   "title": "Delgado, \"Radio-controlled behavior\", N Y State J Med 1969 Feb 1;69(3):413-7",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/4976614/",
+   "accessed": "2026-11-12"
+  },
+  "S23": {
+   "kind": "PubMed [direct]",
+   "title": "Talwar et al., Nature 2002 May 2;417(6884):37-8",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/11986657/",
+   "accessed": "2026-11-12"
+  },
+  "S30": {
+   "kind": "Wikipedia [direct]",
+   "title": "\"Pangaea\"",
+   "url": "https://en.wikipedia.org/wiki/Pangaea",
+   "accessed": "2026-11-12"
+  },
+  "S31": {
+   "kind": "Wikipedia [direct]",
+   "title": "\"Plate tectonics\"",
+   "url": "https://en.wikipedia.org/wiki/Plate_tectonics",
+   "accessed": "2026-11-12"
+  },
+  "S32": {
+   "kind": "Wikipedia [direct]",
+   "title": "\"Edward Bullard\"",
+   "url": "https://en.wikipedia.org/wiki/Edward_Bullard",
+   "accessed": "2026-11-12"
+  },
+  "S33": {
+   "kind": "Wikipedia [fetch]",
+   "title": "\"Continental drift\"",
+   "url": "https://en.wikipedia.org/wiki/Continental_drift",
+   "accessed": "2026-11-12"
+  },
+  "S34": {
+   "kind": "Wikipedia fr [direct]",
+   "title": "\"Tectonique des plaques\"",
+   "url": "https://fr.wikipedia.org/wiki/Tectonique_des_plaques",
+   "accessed": "2026-11-12"
+  },
+  "S35": {
+   "kind": "Wikipedia [direct]",
+   "title": "\"Mid-Atlantic Ridge\"",
+   "url": "https://en.wikipedia.org/wiki/Mid-Atlantic_Ridge",
+   "accessed": "2026-11-12"
+  },
+  "S36": {
+   "kind": "Reference database, abstract [fetch]",
+   "title": "Ruegg, Kasser, Lépine, Tarantola (1979), Geophys. Res. Lett. 6, doi 10.1029/GL006i011p00817",
+   "url": "http://earthref.org/ERR/7882/",
+   "accessed": "2026-11-12"
+  },
+  "S37": {
+   "kind": "Wikipedia [direct]",
+   "title": "\"Ardoukoba\"",
+   "url": "https://en.wikipedia.org/wiki/Ardoukoba",
+   "accessed": "2026-11-12"
+  },
+  "S40": {
+   "kind": "PubMed [direct], title only",
+   "title": "Agarwal et al., Nature 1970 Jul 4;227(5253):27-34",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/5422620/",
+   "accessed": "2026-11-12"
+  },
+  "S41": {
+   "kind": "PubMed [direct]",
+   "title": "Jackson, Symons, Berg, PNAS 1972 Oct;69(10):2904-9",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/4342968/",
+   "accessed": "2026-11-12"
+  },
+  "S42": {
+   "kind": "PubMed [direct]",
+   "title": "Cohen, Chang, Boyer, Helling, PNAS 1973 Nov;70(11):3240-4",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/4594039/",
+   "accessed": "2026-11-12"
+  },
+  "S43": {
+   "kind": "PubMed [direct]",
+   "title": "Itakura et al., Science 1977 Dec 9;198(4321):1056-63",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/412251/",
+   "accessed": "2026-11-12"
+  },
+  "S44": {
+   "kind": "PubMed [direct]",
+   "title": "Khorana, Science 1979 Feb 16;203(4381):614-25",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/366749/",
+   "accessed": "2026-11-12"
+  },
+  "S45": {
+   "kind": "PubMed [direct]",
+   "title": "Ryan et al., J Biol Chem 1979 Jul 10;254(13):5817-26",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/376520/",
+   "accessed": "2026-11-12"
+  },
+  "S46": {
+   "kind": "Wikipedia [direct]",
+   "title": "\"Artificial gene synthesis\"",
+   "url": "https://en.wikipedia.org/wiki/Artificial_gene_synthesis",
+   "accessed": "2026-11-12"
+  },
+  "S50": {
+   "kind": "PubMed [direct], title only",
+   "title": "Goulian, Kornberg, Sinsheimer, PNAS 1967 Dec;58(6):2321-8",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/4873588/",
+   "accessed": "2026-11-12"
+  },
+  "S51": {
+   "kind": "PubMed [direct]",
+   "title": "Gibson et al., Science 2010 Jul 2;329(5987):52-6",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/20488990/",
+   "accessed": "2026-11-12"
+  },
+  "S52": {
+   "kind": "PubMed [direct]",
+   "title": "Hutchison et al., Science 2016 Mar 25;351(6280):aad6253",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/27013737/",
+   "accessed": "2026-11-12"
+  },
+  "S53": {
+   "kind": "Wikipedia [direct]",
+   "title": "\"Artificial cell\"",
+   "url": "https://en.wikipedia.org/wiki/Artificial_cell",
+   "accessed": "2026-11-12"
+  },
+  "S60": {
+   "kind": "PubMed [direct], title only",
+   "title": "Briggs & King, PNAS 1952 May;38(5):455-63",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/16589125/",
+   "accessed": "2026-11-12"
+  },
+  "S61": {
+   "kind": "PubMed [direct], title only",
+   "title": "Gurdon, J Embryol Exp Morphol 1962 Dec;10:622-40",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/13951335/",
+   "accessed": "2026-11-12"
+  },
+  "S62": {
+   "kind": "PubMed [direct]",
+   "title": "Gurdon, Laskey, Reeves, J Embryol Exp Morphol 1975 Aug;34(1):93-112",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/1102625/",
+   "accessed": "2026-11-12"
+  },
+  "S63": {
+   "kind": "PubMed [direct]",
+   "title": "McGrath & Solter, Science 1984 Dec 14;226(4680):1317-9",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/6542249/",
+   "accessed": "2026-11-12"
+  },
+  "S64": {
+   "kind": "PubMed [direct]",
+   "title": "Willadsen, Nature 1986 Mar 6-12;320(6057):63-5",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/3951549/",
+   "accessed": "2026-11-12"
+  },
+  "S65": {
+   "kind": "PubMed [direct]",
+   "title": "Wilmut et al., Nature 1997 Feb 27;385(6619):810-3",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/9039911/",
+   "accessed": "2026-11-12"
+  },
+  "S66": {
+   "kind": "PubMed [direct]",
+   "title": "Folch et al., Theriogenology 2009 Apr 1;71(6):1026-34",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/19167744/",
+   "accessed": "2026-11-12"
+  },
+  "S67": {
+   "kind": "Wikipedia [direct]",
+   "title": "\"Frederick Campion Steward\"",
+   "url": "https://en.wikipedia.org/wiki/Frederick_Campion_Steward",
+   "accessed": "2026-11-12"
+  },
+  "S70": {
+   "kind": "Wikipedia [direct]",
+   "title": "\"Proxima Centauri\"",
+   "url": "https://en.wikipedia.org/wiki/Proxima_Centauri",
+   "accessed": "2026-11-12"
+  },
+  "S71": {
+   "kind": "Wikipedia [direct]",
+   "title": "\"Alpha Centauri\"",
+   "url": "https://en.wikipedia.org/wiki/Alpha_Centauri",
+   "accessed": "2026-11-12"
+  },
+  "S72": {
+   "kind": "Magazine [fetch]",
+   "title": "\"WISE survey finds thousands of new stars, but no 'planet X'\", Astronomy, 13 Mar 2014",
+   "url": "https://www.astronomy.com/science/wise-survey-finds-thousands-of-new-stars-but-no-planet-x/",
+   "accessed": "2026-11-12"
+  },
+  "S73": {
+   "kind": "Wikipedia [direct]",
+   "title": "\"Nemesis (hypothetical star)\"",
+   "url": "https://en.wikipedia.org/wiki/Nemesis_(hypothetical_star)",
+   "accessed": "2026-11-12"
+  },
+  "S74": {
+   "kind": "Wikipedia [direct]",
+   "title": "\"Light-year\"",
+   "url": "https://en.wikipedia.org/wiki/Light-year",
+   "accessed": "2026-11-12"
+  },
+  "S75": {
+   "kind": "Wikipedia [direct]",
+   "title": "\"Speed of light\"",
+   "url": "https://en.wikipedia.org/wiki/Speed_of_light",
+   "accessed": "2026-11-12"
+  },
+  "S76": {
+   "kind": "Wikipedia [direct]",
+   "title": "\"Apollo 10\"",
+   "url": "https://en.wikipedia.org/wiki/Apollo_10",
+   "accessed": "2026-11-12"
+  },
+  "S80": {
+   "kind": "Wikipedia [fetch]",
+   "title": "\"Parasang\"",
+   "url": "https://en.wikipedia.org/wiki/Parasang",
+   "accessed": "2026-11-12"
+  },
+  "S81": {
+   "kind": "Wikipedia [direct]",
+   "title": "\"Parsec\"",
+   "url": "https://en.wikipedia.org/wiki/Parsec",
+   "accessed": "2026-11-12"
+  },
+  "S82": {
+   "kind": "Wikipedia [fetch]",
+   "title": "\"Shi'ur Qomah\"",
+   "url": "https://en.wikipedia.org/wiki/Shi%27ur_Qomah",
+   "accessed": "2026-11-12"
+  },
+  "S90": {
+   "kind": "Bibliographic feed [fetch]",
+   "title": "Google Books volumes feed, queries intitle:\"Evolution ou création\" (+ inauthor:Flori)",
+   "url": "https://www.google.com/books/feeds/volumes?q=intitle:%22Evolution+ou+cr%C3%A9ation%22+inauthor:Flori",
+   "accessed": "2026-11-12"
+  },
+  "S91": {
+   "kind": "Critical dossier, PDF [direct]",
+   "title": "Nitschelm, Geney, Plateaux, Roux, \"Le créationnisme est-il scientifiquement recevable ?\" (1987–88)",
+   "url": "https://www.lecerveau.ca/flash/capsules/articles_pdf/creationnisme.pdf",
+   "accessed": "2026-11-12"
+  },
+  "S92": {
+   "kind": "Wikipedia [direct]",
+   "title": "\"Radiometric dating\"",
+   "url": "https://en.wikipedia.org/wiki/Radiometric_dating",
+   "accessed": "2026-11-12"
+  },
+  "S100": {
+   "kind": "Periodical abstract page [fetch] (secondary)",
+   "title": "\"From USA: Ararat 'Ark' Wood Dated At A.D. 700\", Bible and Spade 6:3 (Summer 1977) 95–96",
+   "url": "https://www.galaxie.com/article/bsp06-3-04",
+   "accessed": "2026-11-12"
+  },
+  "S101": {
+   "kind": "Critical web archive [fetch] (secondary)",
+   "title": "TalkOrigins Index to Creationist Claims, CH504.2",
+   "url": "https://talkorigins.org/indexcc/CH/CH504_2.html",
+   "accessed": "2026-11-12"
+  },
+  "S102": {
+   "kind": "Wikipedia [direct]",
+   "title": "\"Searches for Noah's Ark\"",
+   "url": "https://en.wikipedia.org/wiki/Searches_for_Noah%27s_Ark",
+   "accessed": "2026-11-12"
+  },
+  "S103": {
+   "kind": "Magazine [fetch]",
+   "title": "\"Wood on Mount Ararat Intrigues Explorers\", Christianity Today, 12 Sep 1969",
+   "url": "https://www.christianitytoday.com/1969/09/wood-on-mount-ararat-intrigues-explorers/",
+   "accessed": "2026-11-12"
+  },
+  "S104": {
+   "kind": "Journal landing page [fetch], citation only",
+   "title": "Taylor & Berger, \"The date of 'Noah's Ark'\", Antiquity 54(210):34–36 (1980)",
+   "url": "https://www.cambridge.org/core/journals/antiquity/article/date-of-noahs-ark/2D0BA47C12949A055DD314EE975A02DD",
+   "accessed": "2026-11-12"
+  },
+  "S105": {
+   "kind": "Wikipedia fr [fetch]",
+   "title": "\"Fernand Navarra\"",
+   "url": "https://fr.wikipedia.org/wiki/Fernand_Navarra",
+   "accessed": "2026-11-12"
+  },
+  "S110": {
+   "kind": "Wikipedia [direct]",
+   "title": "\"Heinrich Hertz\"",
+   "url": "https://en.wikipedia.org/wiki/Heinrich_Hertz",
+   "accessed": "2026-11-12"
+  },
+  "S111": {
+   "kind": "Wikipedia [direct]",
+   "title": "\"Nuclear magnetic resonance\"",
+   "url": "https://en.wikipedia.org/wiki/Nuclear_magnetic_resonance",
+   "accessed": "2026-11-12"
+  },
+  "S112": {
+   "kind": "Wikipedia [direct]",
+   "title": "\"Hermann Joseph Muller\"",
+   "url": "https://en.wikipedia.org/wiki/Hermann_Joseph_Muller",
+   "accessed": "2026-11-12"
+  },
+  "S113": {
+   "kind": "Wikipedia [direct]",
+   "title": "\"Telstar\"",
+   "url": "https://en.wikipedia.org/wiki/Telstar",
+   "accessed": "2026-11-12"
+  },
+  "S114": {
+   "kind": "PubMed [direct]",
+   "title": "Brindley & Lewin, J Physiol 1968 May;196(2):479-93; Dobelle, Mladejovsky, Girvin, Science 1974 Feb 1;183(4123):440-4",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/4871047/ ; https://pubmed.ncbi.nlm.nih.gov/4808973/",
+   "accessed": "2026-11-12"
+  },
+  "S115": {
+   "kind": "Wikipedia [direct]",
+   "title": "\"Johns Hopkins Beast\"",
+   "url": "https://en.wikipedia.org/wiki/Johns_Hopkins_Beast",
+   "accessed": "2026-11-12"
+  },
+  "S116": {
+   "kind": "Wikipedia [direct]",
+   "title": "\"Unimate\"; \"Lights out (manufacturing)\"",
+   "url": "https://en.wikipedia.org/wiki/Unimate ; https://en.wikipedia.org/wiki/Lights_out_(manufacturing)",
+   "accessed": "2026-11-12"
+  },
+  "S117": {
+   "kind": "Wikipedia [direct]",
+   "title": "\"21 grams experiment\"",
+   "url": "https://en.wikipedia.org/wiki/21_grams_experiment",
+   "accessed": "2026-11-12"
+  }
+ },
+ "null_results": [
+  "No report dating Ararat wood to 700 years / c. A.D. 1200 found",
+  "No French press coverage of scotophobin c. 1972-73 found (one query)",
+  "BnF SRU, SUDOC unreachable; WorldCat list did not render; archive.org title search 0 hits",
+  "LWTE bibliography not in the dump",
+  "No source for continental drift of one metre per year",
+  "NYT Delgado article date not confirmed (secondary sources give 1963 and 1965)",
+  "c. 1979 self-recharging robot not identified",
+  "No positive memory-transfer paper found stating intracerebral injection in rats"
+ ]
+}
