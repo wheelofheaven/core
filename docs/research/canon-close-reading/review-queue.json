@@ -785,7 +785,7 @@
    "id": "D05",
    "kind": "decision",
    "title": "Website check for sentences that attribute \"Third Temple\" or a return date to the Messages themselves",
-   "summary": "Pages: third-temple, embassy, new-jerusalem, great-return. Not a core change.",
+   "summary": "/wiki/third-temple/ says the source material itself identifies the embassy of book 1 with the Third Temple (frontmatter and body, under the 0016 label). The 2035 deadline in *The Religion of Religions* is attributed to Palmer; the 1997 postscript is a primary source. Not a core change.",
    "refs": [],
    "claims": [
     "woh-claim-0016"
