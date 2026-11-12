@@ -113,6 +113,14 @@ Checked by locating each passage in the 2005 PDF. All of the following are prese
 
 Not checked in the 2005 English: the remaining lead findings, and any passage-by-passage collation of books 1 and 2.
 
+### 6.1 Coarse collation of books 1 and 2 (added 2026-11-12)
+
+Method: each library paragraph of books 1 and 2 (English column) was matched to the best window anywhere in the 2005 English by shared words of five letters or more; a paragraph counts as found at half its distinct words. The reverse pass looks for stretches of the 2005 text of 70 words or more that no paragraph claims.
+
+**TEXT (measured).** Book 1: 455 paragraphs found, 36 not found, 268 too short to test. Book 2: 406 found, 25 not found, 44 too short. Every paragraph not found scores between 0.25 and 0.49; those inspected are Bible quotations (which the 2005 edition takes from English Bibles) or reworded narrative. The reverse pass leaves five stretches in each book, each of 80 to 125 words.
+
+**ANALYSIS.** At this resolution no passage of books 1 and 2 is missing from the 2005 English and no long passage is added to it. A changed sentence inside a matched paragraph would not be seen. One paragraph of the French is itself editorial: TBWTT-3:305 describes the symbol "que Raël a vu représenté sur la soucoupe volante en 1973" in the third person inside Yahweh's chapter.
+
 ## 7. Limits
 
 - No first printing was seen. Nothing here says what 1974, 1975 or 1979 printed.
