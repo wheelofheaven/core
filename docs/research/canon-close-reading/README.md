@@ -50,6 +50,7 @@ abstracts, encyclopaedia pages and secondary reports, as each note states.
 | [science-dated.md](science-dated.md) | What did published science say, and when, on the points where the canon leans on recent discoveries? (outside sources) | 30 comparisons |
 | [checkpoints.md](checkpoints.md) | Which public facts in the narrative can be compared with the public record? (outside sources) | 60 checkpoints |
 | [editions.md](editions.md) | Which editions does the project hold, and how do the French and the 2005 English differ? (held PDFs) | 3 copies collated |
+| [paratexts.md](paratexts.md) | What do the 1997 message and author's postscript add, and which familiar statements come from them and not from the three books? (held PDFs) | 3 pieces |
 
 Structured registers are in [`registers/`](registers/). Quotations in the notes
 are written `QUOTE[REF]: … ENDQUOTE` so that they can be machine-checked:
@@ -195,6 +196,32 @@ each point below against them.
   1977 or 1978).
 - The lead findings checked in the 2005 English of books 1 and 2 are all
   present there (list in the note).
+
+## Fourth wave: the 1997 paratexts (2026-11-12)
+
+[paratexts.md](paratexts.md); each point re-read by me in the extracted text.
+
+- **"Third Temple" is not in the three books.** The word *temple* never
+  refers to the embassy there. Book 1 calls Solomon's house "la première
+  résidence pour l'accueil des Elohim" (TBWTT-3:102–103). "La nouvelle
+  ambassade – le Troisième Temple" is Raël's wording in the 1997 postscript
+  (1998 volume, p. 212). woh-claim-0016 records the identification as
+  canon-explicit and cites only books 1 and 2.
+- **The latest date for the return (2035) is a sum from the postscripts**:
+  "Dans 38 ans, peut-être même avant" (1997) and "no later than thirty years
+  from now" (2005). The numeral is in neither the books nor the held volumes.
+- **The two 1997 texts differ on where the embassy may go**: any nation (the
+  message, Elohim's voice) or a neighbouring territory such as the Sinai coast
+  (the postscript, Raël's voice).
+- In 1997 the author writes that he has added nothing to the two original
+  texts; the 2005 English calls itself an updated edition.
+- The postscript dates the first approach to Israel "8 novembre 1991, le jour
+  du Nouvel An Juif"; that day was 1 Kislev 5752, and the New Year fell on
+  9 September 1991.
+- The library's English of books 1 and 2 is not a copy of the 2005 text.
+
+The canon boundary (are the 1997 message and postscript Tier 0?) needs a
+ruling; several labels depend on it.
 
 ## Housekeeping found on the way (other repositories)
 

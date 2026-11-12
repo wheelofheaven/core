@@ -1,0 +1,798 @@
+{
+ "schema": "review-queue/0.1",
+ "updated": "2026-11-12",
+ "note": "Items awaiting founder review. Agents draft; only the founder decides. Decisions are recorded in review-decisions.json beside this file.",
+ "items": [
+  {
+   "id": "F01",
+   "kind": "finding",
+   "title": "The creation \"day\" is defined by the equinox sign and lasts about 2,000 years",
+   "summary": "The canon defines the day precessionally but gives no lattice: no word *précession* or *zodiaque*, no 2,160 or 25,920, no count of twelve signs, no BCE date. Landing 25,000 years ago minus six such days gives 13,000 years, the figure book 3 states for the first humans; the canon never states the sum.",
+   "refs": [
+    "TBWTT-2:10",
+    "ETTMTTP-2:43",
+    "LWTE-2:208",
+    "TBWTT-5:4",
+    "TBWTT-5:7"
+   ],
+   "claims": [
+    "woh-claim-0003",
+    "woh-claim-0059",
+    "woh-claim-0050"
+   ],
+   "note": "docs/research/canon-close-reading/numerics.md",
+   "rechecked": true,
+   "wave": 1
+  },
+  {
+   "id": "F02",
+   "kind": "finding",
+   "title": "Book 3 prints 666 × 20 = 13,320 years and dates the Flood about 5,000 years ago",
+   "summary": "The multiplication is printed and counted to 1945. The \"déluge réel\" is placed about five thousand years ago.",
+   "refs": [
+    "LWTE-2:208",
+    "LWTE-1:47"
+   ],
+   "claims": [
+    "woh-claim-0003",
+    "woh-claim-0050"
+   ],
+   "note": "docs/research/canon-close-reading/numerics.md",
+   "rechecked": true,
+   "wave": 1
+  },
+  {
+   "id": "F03",
+   "kind": "finding",
+   "title": "Book 2 corrects book 1 and blames the transcription",
+   "summary": "\"il faut rectifier un passage du message que vous avez mal retranscrit\": the Elohim will not intervene to destroy humanity. Book 1 still describes the means of such an intervention.",
+   "refs": [
+    "ETTMTTP-2:23",
+    "TBWTT-7:6"
+   ],
+   "claims": [
+    "woh-claim-0035",
+    "woh-claim-0020"
+   ],
+   "note": "docs/research/canon-close-reading/development.md",
+   "rechecked": true,
+   "wave": 1
+  },
+  {
+   "id": "F04",
+   "kind": "finding",
+   "title": "The Flood's motive and the Elohim's self-discovery differ by book",
+   "summary": "Motive: human progress (book 1); an experiment of little interest (book 2); violence proven by Satan before the council (book 3). The moment the Elohim learn they were themselves created moves likewise. The exiles are pardoned after Babel in book 1 and amnestied before the Flood in book 3.",
+   "refs": [
+    "TBWTT-2:57",
+    "ETTMTTP-3:219",
+    "LWTE-2:26",
+    "TBWTT-3:302",
+    "LWTE-2:28",
+    "TBWTT-2:78"
+   ],
+   "claims": [
+    "woh-claim-0017"
+   ],
+   "note": "docs/research/canon-close-reading/development.md",
+   "rechecked": true,
+   "wave": 1
+  },
+  {
+   "id": "F05",
+   "kind": "finding",
+   "title": "The account of Raël's father changes across the books",
+   "summary": "\"Étant de père juif\" (book 1, Yahweh); \"né de père inconnu … paraît-il, un réfugié juif\" (book 2); \"Celui que tu prenais pour ton père n'était pas ton père\" (book 3), with a three-year embargo.",
+   "refs": [
+    "TBWTT-1:46",
+    "ETTMTTP-1:7",
+    "LWTE-2:85",
+    "LWTE-2:87",
+    "LWTE-2:90"
+   ],
+   "claims": [
+    "woh-claim-0035"
+   ],
+   "note": "docs/research/canon-close-reading/development.md",
+   "rechecked": true,
+   "wave": 1
+  },
+  {
+   "id": "F06",
+   "kind": "finding",
+   "title": "Proof is promised, refused, then offered by the tempter",
+   "summary": "\"preuves incontestables\" promised; later \"Nous ne vous aiderons jamais ouvertement\"; in book 3 proofs are offered in the temptation scene and the mission is described as given without proofs.",
+   "refs": [
+    "TBWTT-1:44",
+    "TBWTT-6:26",
+    "LWTE-2:65",
+    "LWTE-2:66"
+   ],
+   "claims": [],
+   "note": "docs/research/canon-close-reading/epistemics.md",
+   "rechecked": true,
+   "wave": 1
+  },
+  {
+   "id": "F07",
+   "kind": "finding",
+   "title": "Book 1 ends saying the visitor would not return until the mission was done",
+   "summary": "Book 2 then reports a further encounter in 1975.",
+   "refs": [
+    "TBWTT-7:72"
+   ],
+   "claims": [
+    "woh-claim-0035"
+   ],
+   "note": "docs/research/canon-close-reading/development.md",
+   "rechecked": true,
+   "wave": 1
+  },
+  {
+   "id": "F08",
+   "kind": "finding",
+   "title": "One continent still exists after Babel; the dating argument cites a terrestrial book",
+   "summary": "The scientists are dispersed \"sur tout le continent\". Book 3's argument against radiometric dating points to *Evolution ou Création*.",
+   "refs": [
+    "TBWTT-2:76",
+    "LWTE-1:28",
+    "LWTE-1:31"
+   ],
+   "claims": [
+    "woh-claim-0071"
+   ],
+   "note": "docs/research/canon-close-reading/numerics.md",
+   "rechecked": true,
+   "wave": 1
+  },
+  {
+   "id": "F09",
+   "kind": "finding",
+   "title": "The Babel pardon motive and a non-labour motive for creating man are explicit",
+   "summary": "\"afin d'obtenir leur pardon\" is stated outright; the evidence map for 0017 grades it as inferred. The canon gives a motive for creating man that is not labour.",
+   "refs": [
+    "TBWTT-2:72",
+    "TBWTT-2:25"
+   ],
+   "claims": [
+    "woh-claim-0017",
+    "woh-claim-0034"
+   ],
+   "note": "docs/research/canon-close-reading/ancient-parallels.md",
+   "rechecked": true,
+   "wave": 1
+  },
+  {
+   "id": "F10",
+   "kind": "finding",
+   "title": "Ellipses inside Bible quotations carry several readings",
+   "summary": "Exodus 14:21 is quoted without the east wind for the \"rayon répulseur\"; Daniel 10:13 is cut so that Michael helps the Persians; Genesis 7:17 is read against 7:18.",
+   "refs": [
+    "TBWTT-3:15",
+    "TBWTT-3:16",
+    "TBWTT-3:215",
+    "TBWTT-3:216",
+    "TBWTT-2:60"
+   ],
+   "claims": [
+    "woh-claim-0066"
+   ],
+   "note": "docs/research/canon-close-reading/hebrew-audit.md",
+   "rechecked": true,
+   "wave": 1
+  },
+  {
+   "id": "F11",
+   "kind": "finding",
+   "title": "The Hebrew is sometimes more favourable than the French the canon prints",
+   "summary": "1 Samuel 17:26 has *elohim ḥayyim* with a plural adjective where the French has \"Dieu vivant\". The \"three stages\" of the ark have no noun in Genesis 6:16.",
+   "refs": [
+    "TBWTT-3:93",
+    "TBWTT-2:62"
+   ],
+   "claims": [
+    "woh-claim-0009"
+   ],
+   "note": "docs/research/canon-close-reading/hebrew-audit.md",
+   "rechecked": true,
+   "wave": 1
+  },
+  {
+   "id": "F12",
+   "kind": "finding",
+   "title": "\"Les Clés\" (book 2, chapter 3) speaks as a created human",
+   "summary": "The chapter is framed as automatic writing, speaks of \"Elohim nos pères, nos créateurs\", and has Raël as \"je\". The library tags it as Yahweh's speech.",
+   "refs": [
+    "ETTMTTP-2:132",
+    "ETTMTTP-3:5",
+    "ETTMTTP-3:174",
+    "ETTMTTP-3:241"
+   ],
+   "claims": [
+    "woh-claim-0035",
+    "woh-claim-0020"
+   ],
+   "note": "docs/research/canon-close-reading/voices.md",
+   "rechecked": true,
+   "wave": 1
+  },
+  {
+   "id": "F13",
+   "kind": "finding",
+   "title": "Book 1 narrates five sessions but says six days",
+   "summary": "Four \"Le lendemain\" frames stand in the text; none at the joins of chapters 3/4 and 6/7.",
+   "refs": [
+    "TBWTT-2:1",
+    "TBWTT-3:2",
+    "TBWTT-5:2",
+    "TBWTT-6:1",
+    "TBWTT-7:16",
+    "TBWTT-7:76"
+   ],
+   "claims": [
+    "woh-claim-0035",
+    "woh-claim-0020"
+   ],
+   "note": "docs/research/canon-close-reading/voices.md",
+   "rechecked": true,
+   "wave": 1
+  },
+  {
+   "id": "F14",
+   "kind": "finding",
+   "title": "Hard prescriptions that the site rarely states",
+   "summary": "Punitive re-creation after death; humanitarianism as \"une règle provisoire\"; the estate willed to the Guide of Guides; conditional destruction of the State of Israel; killing forbidden even at an Eloha's request, yet execution allowed against a military threat.",
+   "refs": [
+    "ETTMTTP-2:99",
+    "ETTMTTP-2:82",
+    "ETTMTTP-3:96",
+    "ETTMTTP-3:71",
+    "ETTMTTP-2:125",
+    "LWTE-3:59",
+    "LWTE-3:70"
+   ],
+   "claims": [
+    "woh-claim-0029",
+    "woh-claim-0032",
+    "woh-claim-0033",
+    "woh-claim-0049"
+   ],
+   "note": "docs/research/canon-close-reading/society.md",
+   "rechecked": true,
+   "wave": 1
+  },
+  {
+   "id": "F15",
+   "kind": "finding",
+   "title": "Sendy's books already hold several non-Genesis details",
+   "summary": "Gilgamesh for the ark's cargo (\"les semences de vie\"); leaders \"qui vivent dans les cieux\" deciding the destruction; a pro-human Satan.",
+   "refs": [],
+   "claims": [
+    "woh-claim-0072"
+   ],
+   "note": "docs/research/canon-close-reading/sendy-crosscheck.md",
+   "rechecked": true,
+   "wave": 1
+  },
+  {
+   "id": "F16",
+   "kind": "finding",
+   "title": "The digitised book 1 already reads \"Puy-de-Lassolas\" and \"Mouvement Raélien\"",
+   "summary": "Both are points where a first printing may differ.",
+   "refs": [
+    "TBWTT-1:3",
+    "TBWTT-7:73"
+   ],
+   "claims": [],
+   "note": "docs/research/canon-close-reading/development.md",
+   "rechecked": true,
+   "wave": 1
+  },
+  {
+   "id": "E01",
+   "kind": "finding",
+   "title": "No first printing is held: French = 1998 and 2001, English = 2005",
+   "summary": "The library's French matches the held PDFs paragraph for paragraph. Every statement about what 1974, 1975 or 1979 printed is provisional.",
+   "refs": [],
+   "claims": [],
+   "note": "docs/research/canon-close-reading/editions.md",
+   "rechecked": true,
+   "wave": 3
+  },
+  {
+   "id": "E02",
+   "kind": "finding",
+   "title": "The library's English for book 3 is the 2005 official translation",
+   "summary": "630 of 631 paragraphs share an eight-word run with the 2005 PDF. For books 1 and 2 about half do; unresolved.",
+   "refs": [],
+   "claims": [],
+   "note": "docs/research/canon-close-reading/editions.md",
+   "rechecked": true,
+   "wave": 3
+  },
+  {
+   "id": "E03",
+   "kind": "finding",
+   "title": "*Évolution ou Création* is identified by the printed bibliography",
+   "summary": "Flori (misprinted \"Fiori\") and Rasolofomasoandro, Éditions S.D.T., Dammarie-les-Lys.",
+   "refs": [
+    "LWTE-1:28"
+   ],
+   "claims": [
+    "woh-claim-0071"
+   ],
+   "note": "docs/research/canon-close-reading/editions.md",
+   "rechecked": true,
+   "wave": 3
+  },
+  {
+   "id": "E04",
+   "kind": "finding",
+   "title": "Both editions name Dhorme's translation as the Bible used",
+   "summary": "The 2005 editor's note calls it \"the one that Rael had with him during his encounter\".",
+   "refs": [],
+   "claims": [
+    "woh-claim-0066"
+   ],
+   "note": "docs/research/canon-close-reading/editions.md",
+   "rechecked": true,
+   "wave": 3
+  },
+  {
+   "id": "E05",
+   "kind": "finding",
+   "title": "The French text of the 13 December 1997 message is in the held 1998 volume",
+   "summary": "Pages 207–210: the preference for Jerusalem was \"purement sentimentale\"; the request goes to all nations; Israel keeps a short priority.",
+   "refs": [
+    "ETTMTTP-2:125"
+   ],
+   "claims": [],
+   "note": "docs/research/canon-close-reading/editions.md",
+   "rechecked": true,
+   "wave": 3
+  },
+  {
+   "id": "E06",
+   "kind": "finding",
+   "title": "Book 3, French 2001 against English 2005: no change of doctrine or figure found",
+   "summary": "Two dates differ: October 1975 is year 30 in French and 31 in English; a witness's 1977 becomes 1978.",
+   "refs": [
+    "LWTE-1:2",
+    "LWTE-4:191"
+   ],
+   "claims": [],
+   "note": "docs/research/canon-close-reading/editions.md",
+   "rechecked": true,
+   "wave": 3
+  },
+  {
+   "id": "U01",
+   "kind": "finding",
+   "title": "Counts and outside-source comparisons not yet re-read",
+   "summary": "Hebrew-audit totals (138 / 116 / 30 / 20), the 21-of-37 distribution of non-Genesis details, term counts by book, voice shares, the Sendy 14-of-21 count, and every outside-source comparison in the dated-science and checkpoints notes. Treat as leads.",
+   "refs": [],
+   "claims": [],
+   "note": "docs/research/canon-close-reading/README.md",
+   "rechecked": false,
+   "wave": 2
+  },
+  {
+   "id": "P01",
+   "kind": "proposal",
+   "title": "0021: grade the parasang conversions as canon-explicit",
+   "summary": "",
+   "refs": [
+    "TBWTT-5:52",
+    "TBWTT-5:53"
+   ],
+   "claims": [
+    "woh-claim-0021"
+   ],
+   "note": "docs/research/canon-close-reading/numerics.md",
+   "rechecked": true,
+   "wave": 1
+  },
+  {
+   "id": "P02",
+   "kind": "proposal",
+   "title": "0003 / 0059 / 0050: add the canon's own figures; label the 2,160-year lattice and \"11,375 BCE\" as project refinements",
+   "summary": "Day about 2,000 years; Pisces from the time of Jesus; Aquarius from 1946; no cycle length; 22,000 and 25,000 as the only deep anchors.",
+   "refs": [
+    "TBWTT-2:10",
+    "TBWTT-5:4",
+    "ETTMTTP-2:43"
+   ],
+   "claims": [
+    "woh-claim-0003",
+    "woh-claim-0059",
+    "woh-claim-0050"
+   ],
+   "note": "docs/research/canon-close-reading/numerics.md",
+   "rechecked": true,
+   "wave": 1
+  },
+  {
+   "id": "P03",
+   "kind": "proposal",
+   "title": "0017: regrade the Babel pardon motive as canon-explicit",
+   "summary": "",
+   "refs": [
+    "TBWTT-2:72"
+   ],
+   "claims": [
+    "woh-claim-0017"
+   ],
+   "note": "docs/research/canon-close-reading/ancient-parallels.md",
+   "rechecked": true,
+   "wave": 1
+  },
+  {
+   "id": "P04",
+   "kind": "proposal",
+   "title": "0034: record that the canon states no labour motive for creating man",
+   "summary": "",
+   "refs": [
+    "TBWTT-2:25"
+   ],
+   "claims": [
+    "woh-claim-0034"
+   ],
+   "note": "docs/research/canon-close-reading/ancient-parallels.md",
+   "rechecked": true,
+   "wave": 1
+  },
+  {
+   "id": "P05",
+   "kind": "proposal",
+   "title": "0035 / 0020: qualify \"consistent principal speaker\"; record the session count and four modes of transmission",
+   "summary": "",
+   "refs": [
+    "ETTMTTP-2:132",
+    "TBWTT-7:16"
+   ],
+   "claims": [
+    "woh-claim-0035",
+    "woh-claim-0020"
+   ],
+   "note": "docs/research/canon-close-reading/voices.md",
+   "rechecked": true,
+   "wave": 1
+  },
+  {
+   "id": "P06",
+   "kind": "proposal",
+   "title": "0066: scope the Dhorme finding to the Old Testament and cite the edition statements",
+   "summary": "",
+   "refs": [],
+   "claims": [
+    "woh-claim-0066"
+   ],
+   "note": "docs/research/canon-close-reading/hebrew-audit.md",
+   "rechecked": true,
+   "wave": 1
+  },
+  {
+   "id": "P07",
+   "kind": "proposal",
+   "title": "0009: add 1 Samuel 17:26 to the evidence map",
+   "summary": "",
+   "refs": [
+    "TBWTT-3:93"
+   ],
+   "claims": [
+    "woh-claim-0009"
+   ],
+   "note": "docs/research/canon-close-reading/hebrew-audit.md",
+   "rechecked": true,
+   "wave": 1
+  },
+  {
+   "id": "P08",
+   "kind": "proposal",
+   "title": "0071: add TBWTT-2:76, LWTE-1:31 and LWTE-2:216; mark *Évolution ou Création* as identified",
+   "summary": "",
+   "refs": [
+    "TBWTT-2:76",
+    "LWTE-1:31",
+    "LWTE-2:216",
+    "LWTE-1:28"
+   ],
+   "claims": [
+    "woh-claim-0071"
+   ],
+   "note": "docs/research/canon-close-reading/science-dated.md",
+   "rechecked": true,
+   "wave": 1
+  },
+  {
+   "id": "P09",
+   "kind": "proposal",
+   "title": "0029 / 0032 / 0033 / 0049: bring scope notes into line with the canon's wording",
+   "summary": "Punitive re-creation; council recruitment versus the electorate prescribed for Earth; which planet book 2 describes; inheritance and the provisional status of humanitarianism.",
+   "refs": [
+    "ETTMTTP-2:99",
+    "ETTMTTP-3:96",
+    "ETTMTTP-3:71"
+   ],
+   "claims": [
+    "woh-claim-0029",
+    "woh-claim-0032",
+    "woh-claim-0033",
+    "woh-claim-0049"
+   ],
+   "note": "docs/research/canon-close-reading/society.md",
+   "rechecked": true,
+   "wave": 1
+  },
+  {
+   "id": "P10",
+   "kind": "proposal",
+   "title": "0072: add six resemblance rows and two difference rows from the Sendy cross-check",
+   "summary": "Twelve look-ups remain to run when the Sendy texts are in hand.",
+   "refs": [],
+   "claims": [
+    "woh-claim-0072"
+   ],
+   "note": "docs/research/canon-close-reading/sendy-crosscheck.md",
+   "rechecked": false,
+   "wave": 1
+  },
+  {
+   "id": "P11",
+   "kind": "proposal",
+   "title": "New descriptive record: the canon's numerical chronology",
+   "summary": "25,000 / 22,000 / 13,000 / 5,000 / 2,000 / 1945–46 with voices, as the auditable base under the timeline.",
+   "refs": [],
+   "claims": [],
+   "note": "docs/research/canon-close-reading/numerics.md",
+   "rechecked": true,
+   "wave": 1
+  },
+  {
+   "id": "P12",
+   "kind": "proposal",
+   "title": "New descriptive record: the canon's self-corrections",
+   "summary": "",
+   "refs": [
+    "ETTMTTP-2:23"
+   ],
+   "claims": [],
+   "note": "docs/research/canon-close-reading/development.md",
+   "rechecked": true,
+   "wave": 1
+  },
+  {
+   "id": "P13",
+   "kind": "proposal",
+   "title": "New descriptive record: the canon's proof policy",
+   "summary": "",
+   "refs": [
+    "TBWTT-1:44",
+    "TBWTT-6:26",
+    "LWTE-2:65"
+   ],
+   "claims": [],
+   "note": "docs/research/canon-close-reading/epistemics.md",
+   "rechecked": true,
+   "wave": 1
+  },
+  {
+   "id": "P14",
+   "kind": "proposal",
+   "title": "New descriptive record: selective quotation",
+   "summary": "",
+   "refs": [
+    "TBWTT-3:16",
+    "TBWTT-3:216"
+   ],
+   "claims": [],
+   "note": "docs/research/canon-close-reading/hebrew-audit.md",
+   "rechecked": true,
+   "wave": 1
+  },
+  {
+   "id": "P15",
+   "kind": "proposal",
+   "title": "Source notes: add edition statements to the three canon notes",
+   "summary": "French = 1998 and 2001; English book 3 = 2005. Correct the data-sources sidecar year for the combined French volume (2005 → 1998). Register the PDFs as holdings.",
+   "refs": [],
+   "claims": [],
+   "note": "docs/research/canon-close-reading/editions.md",
+   "rechecked": true,
+   "wave": 3
+  },
+  {
+   "id": "P16",
+   "kind": "proposal",
+   "title": "New source note: the message of 13 December 1997",
+   "summary": "French text, 1998 volume pp. 207–210.",
+   "refs": [],
+   "claims": [],
+   "note": "docs/research/canon-close-reading/editions.md",
+   "rechecked": true,
+   "wave": 3
+  },
+  {
+   "id": "D01",
+   "kind": "decision",
+   "title": "Licence status of the 2005 English of book 3 in the published library",
+   "summary": "The PDF marks it copyright The Raelian Foundation. I do not know what permission covers it.",
+   "refs": [],
+   "claims": [],
+   "note": "docs/research/canon-close-reading/editions.md",
+   "rechecked": true,
+   "wave": 3
+  },
+  {
+   "id": "D02",
+   "kind": "decision",
+   "title": "Speaker tag for \"Les Clés\" and the speaker-tag fix list in the library",
+   "summary": "The fix list is in the voices note; chapter 3 of book 2 needs a ruling.",
+   "refs": [
+    "ETTMTTP-3:5"
+   ],
+   "claims": [],
+   "note": "docs/research/canon-close-reading/voices.md",
+   "rechecked": true,
+   "wave": 1
+  },
+  {
+   "id": "D03",
+   "kind": "decision",
+   "title": "Obtain first printings (1974, 1975, 1979) and restore the Sendy texts",
+   "summary": "Needed for collation and for twelve queued Sendy look-ups.",
+   "refs": [],
+   "claims": [
+    "woh-claim-0072"
+   ],
+   "note": "docs/research/canon-close-reading/editions.md",
+   "rechecked": true,
+   "wave": 3
+  },
+  {
+   "id": "G01",
+   "kind": "finding",
+   "title": "\"Third Temple\" is not in the three books; it is Raël's wording in the 1997 postscript",
+   "summary": "The word *temple* never refers to the embassy in the books. Book 1 calls Solomon's house \"la première résidence pour l'accueil des Elohim\". Claim 0016 records the identification as canon-explicit and cites only books 1 and 2.",
+   "refs": [
+    "TBWTT-3:102",
+    "TBWTT-3:103",
+    "TBWTT-3:190",
+    "ETTMTTP-3:248"
+   ],
+   "claims": [
+    "woh-claim-0016"
+   ],
+   "note": "docs/research/canon-close-reading/paratexts.md",
+   "rechecked": true,
+   "wave": 4
+  },
+  {
+   "id": "G02",
+   "kind": "finding",
+   "title": "The 2035 horizon is a sum from the 1997 and 2005 postscripts",
+   "summary": "\"Dans 38 ans, peut-être même avant\" (1997); \"no later than thirty years from now\" (2005). The numeral occurs in neither the books nor the held volumes; the statement is unconditional where the books make the return depend on the embassy.",
+   "refs": [],
+   "claims": [
+    "woh-claim-0015"
+   ],
+   "note": "docs/research/canon-close-reading/paratexts.md",
+   "rechecked": true,
+   "wave": 4
+  },
+  {
+   "id": "G03",
+   "kind": "finding",
+   "title": "The two 1997 texts differ on where the embassy may go",
+   "summary": "Any nation, and the radius may be water (the message, Elohim's voice); a Palestinian, Egyptian or neighbouring territory, such as the Sinai coast (the postscript, Raël's voice). Book 2 said the alternative country would be near Israel.",
+   "refs": [
+    "ETTMTTP-2:125"
+   ],
+   "claims": [
+    "woh-claim-0016"
+   ],
+   "note": "docs/research/canon-close-reading/paratexts.md",
+   "rechecked": true,
+   "wave": 4
+  },
+  {
+   "id": "G04",
+   "kind": "finding",
+   "title": "In 1997 the author says he added nothing to the two original texts",
+   "summary": "\"Jusqu'à maintenant je n'ai rien ajouté à ces deux textes d'origine.\" The 2005 English calls itself an updated edition. Only a first printing can test either statement.",
+   "refs": [],
+   "claims": [],
+   "note": "docs/research/canon-close-reading/paratexts.md",
+   "rechecked": true,
+   "wave": 4
+  },
+  {
+   "id": "G05",
+   "kind": "finding",
+   "title": "\"8 novembre 1991, le jour du Nouvel An Juif\" does not match the calendar",
+   "summary": "That day was 1 Kislev 5752; the New Year (1 Tishri 5752) fell on 9 September 1991. Both held editions print the statement.",
+   "refs": [],
+   "claims": [],
+   "note": "docs/research/canon-close-reading/paratexts.md",
+   "rechecked": true,
+   "wave": 4
+  },
+  {
+   "id": "G06",
+   "kind": "finding",
+   "title": "The library's English of books 1 and 2 is not a copy of the 2005 text",
+   "summary": "Prose paragraphs share only scattered eight-word runs with the 2005 English (155 of 351 and 269 of 451 share at least one), against near-total overlap for book 3.",
+   "refs": [],
+   "claims": [],
+   "note": "docs/research/canon-close-reading/paratexts.md",
+   "rechecked": true,
+   "wave": 4
+  },
+  {
+   "id": "P17",
+   "kind": "proposal",
+   "title": "0016: say what is printed where about the Third Temple",
+   "summary": "First residence in book 1; \"Third Temple\" in the author's 1997 postscript and the 2005 edition. Add the postscript as a source reference.",
+   "refs": [
+    "TBWTT-3:103"
+   ],
+   "claims": [
+    "woh-claim-0016"
+   ],
+   "note": "docs/research/canon-close-reading/paratexts.md",
+   "rechecked": true,
+   "wave": 4
+  },
+  {
+   "id": "P18",
+   "kind": "proposal",
+   "title": "0015: record the 1997 and 2005 latest-date statements as author's paratext",
+   "summary": "",
+   "refs": [],
+   "claims": [
+    "woh-claim-0015"
+   ],
+   "note": "docs/research/canon-close-reading/paratexts.md",
+   "rechecked": true,
+   "wave": 4
+  },
+  {
+   "id": "P19",
+   "kind": "proposal",
+   "title": "New source notes: the 1997 postscript (and the 1997 message, P16)",
+   "summary": "Access direct from the held 1998 volume, pp. 207–215.",
+   "refs": [],
+   "claims": [],
+   "note": "docs/research/canon-close-reading/paratexts.md",
+   "rechecked": true,
+   "wave": 4
+  },
+  {
+   "id": "D04",
+   "kind": "decision",
+   "title": "Canon boundary: are the 1997 message and the 1997 postscript Tier 0?",
+   "summary": "The answer decides the label of the Third Temple identification, the relocation and the 2035 horizon. The message is in the Elohim's voice; the postscript is the author's.",
+   "refs": [],
+   "claims": [
+    "woh-claim-0016",
+    "woh-claim-0015"
+   ],
+   "note": "docs/research/canon-close-reading/paratexts.md",
+   "rechecked": true,
+   "wave": 4
+  },
+  {
+   "id": "D05",
+   "kind": "decision",
+   "title": "Website check for sentences that attribute \"Third Temple\" or a return date to the Messages themselves",
+   "summary": "Pages: third-temple, embassy, new-jerusalem, great-return. Not a core change.",
+   "refs": [],
+   "claims": [
+    "woh-claim-0016"
+   ],
+   "note": "docs/research/canon-close-reading/paratexts.md",
+   "rechecked": true,
+   "wave": 4
+  }
+ ]
+}

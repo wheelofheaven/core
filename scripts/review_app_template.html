@@ -1,0 +1,359 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Core Review Desk</title>
+<style>
+:root{
+  --bg:#f6f3ec; --surface:#fffdf8; --sunk:#eee9de; --ink:#1d1b16; --muted:#6b655a; --line:#d9d2c3;
+  --accent:#1f5f5b; --accent-ink:#fff; --hit:#fff1b8;
+  --direct:#0e7490; --framework:#86198f; --inferred:#a16207; --speculative:#5b4bb5;
+  --ok:#2f6f3e; --no:#a23b2a; --rev:#a16207; --later:#6b655a;
+  --serif:"Iowan Old Style","Charter","Palatino Linotype",Georgia,serif;
+  --sans:-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif;
+  --mono:ui-monospace,"SF Mono",Menlo,Consolas,monospace;
+}
+@media (prefers-color-scheme: dark){ :root:not([data-theme="light"]){
+  --bg:#15171a; --surface:#1c1f23; --sunk:#111315; --ink:#e7e3da; --muted:#9a958a; --line:#30343a;
+  --accent:#6fc7bf; --accent-ink:#0e1513; --hit:#4a4215;
+  --direct:#5cc8dd; --framework:#d58be0; --inferred:#e0b84e; --speculative:#a79cf0;
+  --ok:#7cc48c; --no:#e58a78; --rev:#e0b84e; --later:#9a958a; } }
+:root[data-theme="dark"]{
+  --bg:#15171a; --surface:#1c1f23; --sunk:#111315; --ink:#e7e3da; --muted:#9a958a; --line:#30343a;
+  --accent:#6fc7bf; --accent-ink:#0e1513; --hit:#4a4215;
+  --direct:#5cc8dd; --framework:#d58be0; --inferred:#e0b84e; --speculative:#a79cf0;
+  --ok:#7cc48c; --no:#e58a78; --rev:#e0b84e; --later:#9a958a; }
+*{box-sizing:border-box}
+html,body{margin:0;height:100%}
+body{background:var(--bg);color:var(--ink);font:15px/1.5 var(--sans)}
+a{color:var(--accent);text-decoration:none} a:hover{text-decoration:underline}
+button,input,select,textarea{font:inherit;color:inherit}
+.app{display:grid;grid-template-columns:248px minmax(0,1fr);min-height:100%}
+nav{background:var(--sunk);border-right:1px solid var(--line);padding:18px 14px;position:sticky;top:0;height:100vh;overflow:auto}
+nav h1{font:600 15px var(--sans);letter-spacing:.02em;margin:0 0 2px}
+nav .meta{color:var(--muted);font-size:12px;margin-bottom:14px}
+nav a.n{display:flex;justify-content:space-between;gap:8px;padding:6px 8px;border-radius:6px;color:var(--ink)}
+nav a.n:hover{background:var(--surface);text-decoration:none}
+nav a.n.on{background:var(--accent);color:var(--accent-ink)}
+nav a.n small{opacity:.75;font-variant-numeric:tabular-nums}
+nav .sec{font-size:11px;text-transform:uppercase;letter-spacing:.08em;color:var(--muted);margin:16px 8px 4px}
+nav input{width:100%;padding:7px 9px;border:1px solid var(--line);border-radius:6px;background:var(--surface);margin-bottom:10px}
+nav .tools{margin-top:18px;display:flex;gap:6px;flex-wrap:wrap}
+main{padding:28px clamp(16px,4vw,48px) 80px;min-width:0}
+.wrap{max-width:980px}
+h2.page{font:600 26px/1.2 var(--serif);margin:0 0 6px}
+.lede{color:var(--muted);margin:0 0 20px;max-width:70ch}
+.btn{border:1px solid var(--line);background:var(--surface);border-radius:6px;padding:5px 10px;cursor:pointer}
+.btn:hover{border-color:var(--accent)} .btn.primary{background:var(--accent);color:var(--accent-ink);border-color:var(--accent)}
+.chip{display:inline-block;font-size:12px;line-height:1;padding:4px 7px;border-radius:999px;border:1px solid var(--line);color:var(--muted);white-space:nowrap}
+.chip.direct{color:var(--direct);border-color:var(--direct)} .chip.framework{color:var(--framework);border-color:var(--framework)}
+.chip.inferred{color:var(--inferred);border-color:var(--inferred)} .chip.speculative{color:var(--speculative);border-color:var(--speculative)}
+.chip.draft{color:var(--rev);border-color:var(--rev)} .chip.warn{color:var(--no);border-color:var(--no)}
+.stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:12px;margin:0 0 26px}
+.stat{background:var(--surface);border:1px solid var(--line);border-radius:10px;padding:14px}
+.stat b{display:block;font:600 28px/1 var(--serif);font-variant-numeric:tabular-nums}
+.stat span{color:var(--muted);font-size:13px}
+.bar{height:8px;border-radius:4px;background:var(--sunk);overflow:hidden;display:flex;margin-top:10px}
+.bar i{display:block;height:100%}
+.filters{display:flex;flex-wrap:wrap;gap:8px;margin:0 0 16px;align-items:center}
+.filters select,.filters input{padding:6px 8px;border:1px solid var(--line);border-radius:6px;background:var(--surface)}
+.card{background:var(--surface);border:1px solid var(--line);border-radius:10px;padding:16px 18px;margin:0 0 12px}
+.card h3{font:600 17px/1.3 var(--serif);margin:0 0 6px}
+.card .row{display:flex;gap:6px;flex-wrap:wrap;align-items:center;margin-bottom:8px}
+.card .id{font:12px var(--mono);color:var(--muted)}
+.card p{margin:0 0 10px;max-width:75ch}
+.dec{display:flex;gap:6px;flex-wrap:wrap;align-items:center;margin-top:10px;padding-top:10px;border-top:1px dashed var(--line)}
+.dec button{border:1px solid var(--line);background:transparent;border-radius:6px;padding:4px 10px;cursor:pointer}
+.dec button.on.accept{background:var(--ok);border-color:var(--ok);color:var(--surface)}
+.dec button.on.revise{background:var(--rev);border-color:var(--rev);color:var(--surface)}
+.dec button.on.reject{background:var(--no);border-color:var(--no);color:var(--surface)}
+.dec button.on.later{background:var(--later);border-color:var(--later);color:var(--surface)}
+.dec textarea{flex:1 1 100%;min-height:38px;padding:6px 8px;border:1px solid var(--line);border-radius:6px;background:var(--bg);resize:vertical}
+.card.k-finding{border-left:4px solid var(--direct)} .card.k-proposal{border-left:4px solid var(--inferred)} .card.k-decision{border-left:4px solid var(--no)}
+table.list{width:100%;border-collapse:collapse;background:var(--surface);border:1px solid var(--line);border-radius:10px;overflow:hidden}
+table.list th,table.list td{text-align:left;padding:8px 10px;border-bottom:1px solid var(--line);vertical-align:top}
+table.list th{font-size:12px;text-transform:uppercase;letter-spacing:.06em;color:var(--muted);background:var(--sunk)}
+table.list tr:last-child td{border-bottom:0}
+table.list td.id{font:12px var(--mono);white-space:nowrap}
+.kv{display:grid;grid-template-columns:150px minmax(0,1fr);gap:6px 16px;margin:0 0 18px}
+.kv dt{color:var(--muted)} .kv dd{margin:0}
+.statement{font:19px/1.5 var(--serif);border-left:3px solid var(--accent);padding:4px 0 4px 16px;margin:14px 0 20px;max-width:72ch}
+.tabs{display:flex;gap:4px;border-bottom:1px solid var(--line);margin:22px 0 16px;flex-wrap:wrap}
+.tabs button{border:0;background:none;padding:8px 12px;cursor:pointer;border-bottom:2px solid transparent;color:var(--muted)}
+.tabs button.on{color:var(--ink);border-color:var(--accent)}
+.prose{font:16px/1.65 var(--serif);max-width:76ch;overflow-wrap:anywhere}
+.prose h1{font-size:26px;line-height:1.2} .prose h2{font-size:21px;margin-top:1.8em} .prose h3{font-size:18px;margin-top:1.5em} .prose h4{font-size:16px}
+.prose code,.prose pre{font:13px/1.5 var(--mono);background:var(--sunk);border-radius:4px}
+.prose code{padding:1px 4px} .prose pre{padding:12px;overflow:auto} .prose pre code{padding:0;background:none}
+.prose blockquote{margin:1em 0;padding:0 0 0 14px;border-left:3px solid var(--line);color:var(--muted)}
+.prose .tw{overflow-x:auto;margin:1em 0;max-width:100%}
+.prose table{border-collapse:collapse;font:13.5px/1.45 var(--sans)}
+.prose th,.prose td{border:1px solid var(--line);padding:6px 8px;vertical-align:top;text-align:left}
+.prose th{background:var(--sunk)}
+q.cq{quotes:"«\00a0" "\00a0»";font-style:italic;background:color-mix(in srgb,var(--accent) 9%,transparent);padding:1px 3px;border-radius:3px}
+a.ref,a.cid{font:12px var(--mono);border:1px solid var(--line);border-radius:4px;padding:0 4px;white-space:nowrap;background:var(--surface)}
+a.ref:hover,a.cid:hover{border-color:var(--accent);text-decoration:none}
+mark{background:var(--hit);color:inherit}
+.drawer{position:fixed;top:0;right:0;bottom:0;width:min(520px,100vw);background:var(--surface);border-left:1px solid var(--line);box-shadow:-12px 0 30px rgba(0,0,0,.18);padding:22px;overflow:auto;transform:translateX(105%);visibility:hidden;transition:transform .18s,visibility .18s;z-index:20}
+.drawer.open{transform:none;visibility:visible}
+.drawer h3{font:600 18px var(--serif);margin:0 0 2px}
+.drawer .x{position:absolute;top:14px;right:14px}
+.drawer .t{font:16px/1.6 var(--serif);margin:10px 0 16px}
+.drawer .lab{font-size:11px;text-transform:uppercase;letter-spacing:.08em;color:var(--muted)}
+.empty{color:var(--muted);padding:30px 0}
+ul.plain{list-style:none;padding:0;margin:0} ul.plain li{padding:5px 0;border-bottom:1px solid var(--line)}
+.snip{color:var(--muted);font-size:13px}
+@media (max-width:820px){ .app{grid-template-columns:1fr} nav{position:static;height:auto;border-right:0;border-bottom:1px solid var(--line)} .kv{grid-template-columns:1fr} }
+@media print{ nav,.drawer,.dec textarea{display:none} .app{display:block} }
+</style>
+</head>
+<body>
+<div class="app">
+<nav id="nav"></nav>
+<main><div class="wrap" id="view"></div></main>
+</div>
+<aside class="drawer" id="drawer" aria-live="polite"></aside>
+<script>
+const D = /*__DATA__*/null;
+const KEY = 'woh-core-review-v1';
+const $ = (s, r=document) => r.querySelector(s);
+const e = s => String(s ?? '').replace(/[&<>"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+let local = {};
+try { local = JSON.parse(localStorage.getItem(KEY) || '{}'); } catch (_) {}
+const save = () => { try { localStorage.setItem(KEY, JSON.stringify(local)); } catch (_) {} };
+try { const t = localStorage.getItem(KEY + ':theme'); if (t) document.documentElement.dataset.theme = t; } catch (_) {}
+
+const ITEMS = D.queues.flatMap(q => q.items.map(it => ({...it, key: q.path + '#' + it.id})));
+const CLAIMS = Object.fromEntries(D.claims.map(c => [c.id, c]));
+const dec = k => local[k] || D.recorded[k] || null;
+const DEC = ['accept', 'revise', 'reject', 'later'];
+const textCache = {};
+const docText = p => textCache[p] ??= D.docs[p].html.replace(/<[^>]+>/g, ' ').replace(/&[a-z]+;/g, ' ');
+const short = id => id.replace('woh-claim-', '');
+const chip = (t, cls='') => `<span class="chip ${cls}">${e(t)}</span>`;
+const claimLink = id => CLAIMS[id] ? `<a class="cid" href="#/claim/${id}" title="${e(CLAIMS[id].title)}">${short(id)}</a>` : `<span class="cid">${e(short(id))}</span>`;
+const refLink = r => `<a class="ref" href="#/passage/${r}">${r}</a>`;
+
+function nav(route) {
+  const open = ITEMS.filter(i => !dec(i.key)).length;
+  const groups = {};
+  for (const [p, d] of Object.entries(D.docs)) (groups[d.group] ??= []).push(p);
+  const L = (h, label, n) => `<a class="n ${route === h ? 'on' : ''}" href="#/${h}"><span>${label}</span>${n != null ? `<small>${n}</small>` : ''}</a>`;
+  $('#nav').innerHTML = `<h1>Core Review Desk</h1>
+    <div class="meta">${e(D.branch)} · ${e(D.commit)} · ${e(D.built)}</div>
+    <input id="q" type="search" placeholder="Search everything" aria-label="Search">
+    ${L('', 'Overview')}${L('review', 'Review queue', open + ' open')}${L('claims', 'Claims', D.claims.length)}${L('passages', 'Canon passages', Object.keys(D.passages).length)}
+    <div class="sec">Documents</div>
+    ${Object.keys(groups).sort().map(g => L('docs/' + encodeURIComponent(g), e(g), groups[g].length)).join('')}
+    <div class="tools"><button class="btn" id="theme">Light / dark</button></div>`;
+  $('#q').onkeydown = ev => { if (ev.key === 'Enter') location.hash = '#/search/' + encodeURIComponent(ev.target.value); };
+  $('#theme').onclick = () => {
+    const cur = document.documentElement.dataset.theme || (matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+    const nx = cur === 'dark' ? 'light' : 'dark';
+    document.documentElement.dataset.theme = nx; try { localStorage.setItem(KEY + ':theme', nx); } catch (_) {}
+  };
+}
+
+function itemCard(it) {
+  const d = dec(it.key), rec = D.recorded[it.key], mine = local[it.key];
+  return `<div class="card k-${it.kind}" data-key="${e(it.key)}">
+    <div class="row"><span class="id">${e(it.id)}</span>${chip(it.kind)}${chip('wave ' + it.wave)}
+      ${it.rechecked ? '' : chip('not re-read', 'warn')}${rec && !mine ? chip('recorded: ' + rec.decision, 'draft') : ''}</div>
+    <h3>${it.title_html}</h3>
+    ${it.html ? `<p>${it.html}</p>` : ''}
+    <div class="row">${it.claims.map(claimLink).join('')}${it.refs.map(refLink).join('')}
+      <a href="#/doc/${it.note}">Read the note →</a></div>
+    <div class="dec">${DEC.map(x => `<button class="${x} ${d && d.decision === x ? 'on' : ''}" data-d="${x}">${x[0].toUpperCase() + x.slice(1)}</button>`).join('')}
+      <textarea placeholder="Note for the record (optional)">${e(d ? d.note : '')}</textarea></div>
+  </div>`;
+}
+function bindCards(root) {
+  root.querySelectorAll('.card[data-key]').forEach(c => {
+    const k = c.dataset.key;
+    c.querySelectorAll('.dec button').forEach(b => b.onclick = () => {
+      const cur = local[k];
+      if (cur && cur.decision === b.dataset.d) delete local[k];
+      else local[k] = {decision: b.dataset.d, note: $('textarea', c).value, at: new Date().toISOString().slice(0, 10)};
+      save(); render();
+    });
+    $('textarea', c).onchange = ev => {
+      if (!local[k]) local[k] = {decision: 'later', note: '', at: new Date().toISOString().slice(0, 10)};
+      local[k].note = ev.target.value; save();
+    };
+  });
+}
+function exportDecisions() {
+  const all = {...D.recorded, ...local};
+  const blob = new Blob([JSON.stringify({schema: 'review-decisions/0.1', exported: new Date().toISOString(), commit: D.commit, decisions: all}, null, 1)], {type: 'application/json'});
+  const a = document.createElement('a'); a.href = URL.createObjectURL(blob); a.download = 'review-decisions.json'; a.click();
+}
+function summaryText() {
+  return ITEMS.filter(i => dec(i.key)).map(i => { const d = dec(i.key); return `- ${i.id} [${d.decision}] ${i.title}${d.note ? ' — ' + d.note : ''}`; }).join('\n');
+}
+
+const V = {};
+V[''] = () => {
+  const by = (arr, f) => arr.reduce((m, x) => (m[f(x)] = (m[f(x)] || 0) + 1, m), {});
+  const life = by(D.claims, c => c.lifecycle), lab = by(D.claims, c => c.public_label);
+  const done = ITEMS.filter(i => dec(i.key));
+  const dd = by(done, i => dec(i.key).decision);
+  const col = {accept: 'var(--ok)', revise: 'var(--rev)', reject: 'var(--no)', later: 'var(--later)'};
+  const research = Object.entries(D.docs).filter(([p]) => p.startsWith('docs/research/canon-close-reading/'));
+  return `<h2 class="page">Overview</h2>
+  <p class="lede">A read-only desk over the research core. Claims are the durable records; the review queue lists findings and proposals waiting for the founder. Nothing here changes the repository: decisions are kept in this browser until exported.</p>
+  <div class="stats">
+    <div class="stat"><b>${D.claims.length}</b><span>claim records · ${Object.entries(life).map(([k, v]) => v + ' ' + k).join(', ')}</span></div>
+    <div class="stat"><b>${ITEMS.length - done.length}</b><span>review items open of ${ITEMS.length}</span>
+      <div class="bar">${DEC.map(k => `<i style="width:${100 * (dd[k] || 0) / ITEMS.length}%;background:${col[k]}"></i>`).join('')}</div></div>
+    <div class="stat"><b>${Object.keys(D.docs).length}</b><span>documents</span></div>
+    <div class="stat"><b>${Object.keys(D.passages).length}</b><span>canon passages cited</span></div>
+  </div>
+  <div class="card"><h3>Public labels</h3><div class="row">${Object.entries(lab).map(([k, v]) => `<a href="#/claims/${k}">${chip(k + ' · ' + v, k)}</a>`).join('')}</div></div>
+  <div class="card"><h3>Start here</h3><ul class="plain">
+    <li><a href="#/review">Review queue</a> <span class="snip">— findings re-read against the text first, then proposals and decisions</span></li>
+    <li><a href="#/doc/docs/research/canon-close-reading/README.md">Canon close reading: cover page</a></li>
+    ${research.filter(([p]) => !p.endsWith('README.md')).map(([p, d]) => `<li><a href="#/doc/${p}">${e(d.title)}</a></li>`).join('')}
+  </ul></div>`;
+};
+V.review = (arg) => {
+  const f = Object.fromEntries(new URLSearchParams(arg || ''));
+  const claimsUsed = [...new Set(ITEMS.flatMap(i => i.claims))].sort();
+  const sel = (name, opts, labelAll) => `<select data-f="${name}"><option value="">${labelAll}</option>${opts.map(o => `<option ${f[name] === o ? 'selected' : ''} value="${o}">${o.replace('woh-claim-', '')}</option>`).join('')}</select>`;
+  const list = ITEMS.filter(i => (!f.kind || i.kind === f.kind) && (!f.wave || String(i.wave) === f.wave) && (!f.claim || i.claims.includes(f.claim))
+    && (!f.status || (f.status === 'open' ? !dec(i.key) : dec(i.key) && dec(i.key).decision === f.status)));
+  return `<h2 class="page">Review queue</h2>
+  <p class="lede">${e(D.queues.map(q => q.note).join(' '))}</p>
+  <div class="filters">${sel('kind', ['finding', 'proposal', 'decision'], 'All kinds')}${sel('status', ['open', ...DEC], 'Any status')}
+    ${sel('wave', ['1', '2', '3', '4'], 'All waves')}${sel('claim', claimsUsed, 'Any claim')}
+    <span style="flex:1"></span><button class="btn" id="copy">Copy summary</button><button class="btn primary" id="exp">Export decisions</button>
+    <label class="btn">Import<input type="file" id="imp" accept="application/json" hidden></label></div>
+  ${list.map(itemCard).join('') || '<div class="empty">Nothing matches these filters.</div>'}`;
+};
+V.review.after = () => {
+  bindCards($('#view'));
+  document.querySelectorAll('[data-f]').forEach(s => s.onchange = () => {
+    const p = new URLSearchParams(); document.querySelectorAll('[data-f]').forEach(x => x.value && p.set(x.dataset.f, x.value));
+    location.hash = '#/review/' + p.toString();
+  });
+  $('#exp').onclick = exportDecisions;
+  $('#copy').onclick = () => navigator.clipboard && navigator.clipboard.writeText(summaryText());
+  $('#imp').onchange = ev => { const r = new FileReader(); r.onload = () => { try { Object.assign(local, JSON.parse(r.result).decisions || {}); save(); render(); } catch (_) {} }; r.readAsText(ev.target.files[0]); };
+};
+V.claims = (arg) => {
+  const rows = D.claims.filter(c => !arg || c.public_label === arg || c.lifecycle === arg || c.claim_kind === arg);
+  const n = id => ITEMS.filter(i => i.claims.includes(id) && !dec(i.key)).length;
+  const opts = [...new Set(D.claims.flatMap(c => [c.public_label, c.lifecycle, c.claim_kind]))].sort();
+  return `<h2 class="page">Claims</h2><p class="lede">Catalog ${e(D.catalog.catalog_version)} (${e(D.catalog.status)}), last reviewed ${e(D.catalog.last_reviewed)}.</p>
+  <div class="filters"><select id="cf"><option value="">All claims</option>${opts.map(o => `<option ${arg === o ? 'selected' : ''}>${o}</option>`).join('')}</select><span>${rows.length} shown</span></div>
+  <table class="list"><thead><tr><th>Id</th><th>Title</th><th>Label</th><th>Kind</th><th>Version</th><th>Open items</th></tr></thead><tbody>
+  ${rows.map(c => `<tr><td class="id"><a href="#/claim/${c.id}">${short(c.id)}</a></td><td><a href="#/claim/${c.id}">${e(c.title)}</a></td>
+    <td>${chip(c.public_label, c.public_label)}</td><td>${e(c.claim_kind)}</td><td>${e(c.version)}${c.lifecycle !== 'accepted' ? ' ' + chip(c.lifecycle, 'draft') : ''}</td><td>${n(c.id) || ''}</td></tr>`).join('')}
+  </tbody></table>`;
+};
+V.claims.after = () => { $('#cf').onchange = ev => location.hash = '#/claims/' + ev.target.value; };
+V.claim = (id) => {
+  const c = CLAIMS[id]; if (!c) return `<div class="empty">No such claim.</div>`;
+  const items = ITEMS.filter(i => i.claims.includes(id));
+  const mentions = Object.entries(D.docs).filter(([p, d]) => d.claims.includes(id) && p !== c._spec && p !== c._evidence);
+  const dependents = D.claims.filter(x => (x.dependencies || []).includes(id));
+  const deriv = s => { const m = s.match(/data-content:(.+?)\.md$/); return m ? `<a target="_blank" rel="noopener" href="https://www.wheelofheaven.world/${m[1].replace(/_index$/, '')}/">${e(m[1])}</a>` : e(s); };
+  const tabs = [['record', 'Record'], ['spec', 'Specification'], ['evidence', 'Evidence map'], ['review', `Review items (${items.length})`], ['mentions', `Mentioned in (${mentions.length})`]];
+  const body = {
+    record: `<h3>Scope</h3><div class="kv"><dt>Includes</dt><dd><ul>${(c.scope.includes || []).map(x => `<li>${e(x)}</li>`).join('')}</ul></dd>
+        <dt>Excludes</dt><dd><ul>${(c.scope.excludes || []).map(x => `<li>${e(x)}</li>`).join('')}</ul></dd></div>
+      <h3>Sources</h3><table class="list"><thead><tr><th>Source</th><th>Role</th><th>Access</th><th>Locator</th></tr></thead><tbody>
+      ${c.source_references.map(s => `<tr><td>${s.note_doc ? `<a href="#/doc/${s.note_doc}">${e(s.source_id)}</a>` : e(s.source_id)}</td><td>${e(s.role)}</td>
+        <td>${chip(s.access, s.access === 'metadata_only' ? 'warn' : '')}</td><td>${e(s.locator).replace(/\b((?:TBWTT|ETTMTTP|LWTE)-\d+:\d+)\b/g, (m) => refLink(m))}</td></tr>`).join('')}</tbody></table>
+      <h3>Alternatives</h3><ul>${c.alternatives.map(a => `<li>${e(a.statement)} <span class="snip">${e(a.id)}</span></li>`).join('') || '<li class="snip">none recorded</li>'}</ul>
+      <h3>Revision triggers</h3><ul>${(c.revision_triggers || []).map(x => `<li>${e(x)}</li>`).join('')}</ul>
+      <h3>Depends on</h3><p>${(c.dependencies || []).map(claimLink).join(' ') || '<span class="snip">nothing</span>'}</p>
+      <h3>Depended on by</h3><p>${dependents.map(x => claimLink(x.id)).join(' ') || '<span class="snip">nothing</span>'}</p>
+      <h3>Public derivatives (${(c.public_derivatives || []).length})</h3><ul>${(c.public_derivatives || []).map(x => `<li>${deriv(x)}</li>`).join('')}</ul>`,
+    spec: c._spec ? `<div class="prose">${D.docs[c._spec].html}</div>` : '<div class="empty">No specification found.</div>',
+    evidence: c._evidence ? `<div class="prose">${D.docs[c._evidence].html}</div>` : '<div class="empty">No evidence map found.</div>',
+    review: items.map(itemCard).join('') || '<div class="empty">No review item touches this claim.</div>',
+    mentions: `<ul class="plain">${mentions.map(([p, d]) => `<li><a href="#/doc/${p}">${e(d.title)}</a> <span class="snip">${e(d.group)}</span></li>`).join('')}</ul>`
+  };
+  return `<p class="snip"><a href="#/claims">Claims</a> / ${e(id)}</p><h2 class="page">${e(c.title)}</h2>
+  <div class="row" style="display:flex;gap:6px;flex-wrap:wrap">${chip(c.public_label, c.public_label)}${chip(c.lifecycle, c.lifecycle === 'accepted' ? '' : 'draft')}${chip('v' + c.version)}${chip(c.claim_kind)}${chip(c.framework_relation)}${c.evidence_status.map(s => chip(s)).join('')}${chip('reviewed ' + c.last_reviewed)}</div>
+  <div class="statement">${e(c.statement)}</div>
+  <div class="tabs">${tabs.map(([k, l], i) => `<button data-t="${k}" class="${i ? '' : 'on'}">${l}</button>`).join('')}</div>
+  ${tabs.map(([k], i) => `<section data-s="${k}" ${i ? 'hidden' : ''}>${body[k]}</section>`).join('')}`;
+};
+V.claim.after = () => {
+  document.querySelectorAll('.tabs button').forEach(b => b.onclick = () => {
+    document.querySelectorAll('.tabs button').forEach(x => x.classList.toggle('on', x === b));
+    document.querySelectorAll('section[data-s]').forEach(s => s.hidden = s.dataset.s !== b.dataset.t);
+  });
+  bindCards($('#view'));
+};
+V.docs = (g) => {
+  const list = Object.entries(D.docs).filter(([, d]) => d.group === g);
+  return `<h2 class="page">${e(g)}</h2><ul class="plain">${list.map(([p, d]) => `<li><a href="#/doc/${p}">${e(d.title)}</a> <span class="snip">${e(p)}</span></li>`).join('')}</ul>`;
+};
+V.doc = (p) => {
+  const d = D.docs[p]; if (!d) return `<div class="empty">No such document.</div>`;
+  const items = ITEMS.filter(i => i.note === p);
+  return `<p class="snip"><a href="#/docs/${encodeURIComponent(d.group)}">${e(d.group)}</a> / ${e(p)}</p>
+  ${items.length ? `<div class="card"><h3>${items.length} review item${items.length > 1 ? 's' : ''} from this note</h3><div class="row">${items.map(i => `<a href="#/review">${chip(i.id + (dec(i.key) ? ' · ' + dec(i.key).decision : ''))}</a>`).join('')}</div></div>` : ''}
+  <div class="prose">${d.html}</div>`;
+};
+V.passages = () => {
+  const refs = Object.keys(D.passages).sort((a, b) => a.localeCompare(b, undefined, {numeric: true}));
+  return `<h2 class="page">Canon passages cited</h2><p class="lede">French is the source of record. Editions: 1998 (books 1 and 2) and 2001 (book 3); see the editions note.</p>
+  <table class="list"><tbody>${refs.map(r => `<tr><td class="id">${refLink(r)}</td><td>${e(D.passages[r].speaker || '')}</td><td>${e(D.passages[r].fr.slice(0, 160))}${D.passages[r].fr.length > 160 ? '…' : ''}</td></tr>`).join('')}</tbody></table>`;
+};
+V.passage = (r) => { setTimeout(() => drawer(r), 0); return V.passages(); };
+V.search = (q) => {
+  q = (q || '').trim(); if (!q) return `<div class="empty">Type a query in the search box.</div>`;
+  const rx = new RegExp(q.replace(/[.*+?^${}()|[\]\\]/g, '\\$&'), 'i');
+  const hl = s => e(s).replace(new RegExp(e(q).replace(/[.*+?^${}()|[\]\\]/g, '\\$&'), 'ig'), m => `<mark>${m}</mark>`);
+  const cl = D.claims.filter(c => rx.test(c.title + ' ' + c.statement + ' ' + c.id));
+  const it = ITEMS.filter(i => rx.test(i.title + ' ' + i.summary + ' ' + i.id));
+  const ps = Object.entries(D.passages).filter(([r, p]) => rx.test(p.fr + ' ' + p.en));
+  const ds = Object.keys(D.docs).map(p => { const t = docText(p), m = rx.exec(t); return m ? [p, t.slice(Math.max(0, m.index - 80), m.index + 160)] : null; }).filter(Boolean);
+  return `<h2 class="page">Search: ${e(q)}</h2>
+  <h3>Claims (${cl.length})</h3><ul class="plain">${cl.map(c => `<li>${claimLink(c.id)} <a href="#/claim/${c.id}">${hl(c.title)}</a><div class="snip">${hl(c.statement.slice(0, 220))}</div></li>`).join('')}</ul>
+  <h3>Review items (${it.length})</h3>${it.map(itemCard).join('')}
+  <h3>Canon passages (${ps.length})</h3><ul class="plain">${ps.slice(0, 60).map(([r, p]) => `<li>${refLink(r)} <span class="snip">${hl((rx.test(p.fr) ? p.fr : p.en).slice(0, 240))}</span></li>`).join('')}</ul>
+  <h3>Documents (${ds.length})</h3><ul class="plain">${ds.map(([p, s]) => `<li><a href="#/doc/${p}">${e(D.docs[p].title)}</a> <span class="snip">${e(D.docs[p].group)}</span><div class="snip">…${hl(s)}…</div></li>`).join('')}</ul>`;
+};
+V.search.after = () => bindCards($('#view'));
+
+function drawer(r) {
+  const p = D.passages[r], el = $('#drawer');
+  const cited = Object.keys(D.docs).filter(d => D.docs[d].html.includes('>' + r + '<'));
+  const items = ITEMS.filter(i => i.refs.includes(r));
+  el.innerHTML = `<button class="btn x" aria-label="Close">Close</button><h3>${e(r)}</h3>
+    ${p ? `<div class="snip">${e(p.chapter || '')} · tagged speaker: ${e(p.speaker || 'none')}</div>
+      <div class="lab" style="margin-top:14px">French</div><div class="t" lang="fr">${e(p.fr)}</div>
+      <div class="lab">English (library)</div><div class="t">${e(p.en) || '<span class="snip">none</span>'}</div>`
+      : `<p class="snip">This passage is not embedded. Rebuild with <code>--library</code> to include canon text.</p>`}
+    ${items.length ? `<div class="lab">Review items</div><ul class="plain">${items.map(i => `<li>${e(i.id)} ${i.title_html}</li>`).join('')}</ul>` : ''}
+    <div class="lab" style="margin-top:14px">Cited in</div><ul class="plain">${cited.map(d => `<li><a href="#/doc/${d}">${e(D.docs[d].title)}</a></li>`).join('') || '<li class="snip">claim records or the queue only</li>'}</ul>`;
+  el.classList.add('open');
+  $('.x', el).onclick = () => el.classList.remove('open');
+}
+document.addEventListener('click', ev => {
+  const a = ev.target.closest('a.ref');
+  if (a) { ev.preventDefault(); drawer(a.textContent.trim()); return; }
+  if (!ev.target.closest('#drawer')) $('#drawer').classList.remove('open');
+});
+document.addEventListener('keydown', ev => { if (ev.key === 'Escape') $('#drawer').classList.remove('open'); });
+
+function render() {
+  const h = decodeURIComponent(location.hash.replace(/^#\/?/, ''));
+  const i = h.indexOf('/'), name = i < 0 ? h : h.slice(0, i), arg = i < 0 ? '' : h.slice(i + 1);
+  const view = V[name] || V[''];
+  nav(name === 'docs' ? 'docs/' + encodeURIComponent(arg) : ['review', 'claims', 'passages', ''].includes(name) ? name : name === 'claim' ? 'claims' : name === 'doc' && D.docs[arg] ? 'docs/' + encodeURIComponent(D.docs[arg].group) : name);
+  $('#view').innerHTML = view(arg);
+  if (view.after) view.after();
+  if (render.last !== h) scrollTo(0, 0);
+  render.last = h;
+}
+addEventListener('hashchange', render);
+render();
+</script>
+</body>
+</html>
