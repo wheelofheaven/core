@@ -27,6 +27,10 @@ It is a review draft, not a replacement production release.
   for comparison; its SHA-256 is recorded in the concordance.
 - [Independent review](review.md): source verification and the corrections
   arising from each review stage, with explicit coverage and limitations.
+- [Procedural comparison](procedural-comparison.md): a separate follow-up
+  comparing the five texts named in claim 0010 by decision, oath, warning,
+  opposition, instructions and preservation. Its observations do not alter
+  the concordance exports or the accepted claim record.
 
 The unit is a textual account in a particular inspected representation.
 It is not an entire culture, an independent historical event, or an assertion
