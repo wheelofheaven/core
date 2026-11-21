@@ -1,0 +1,127 @@
+{
+  "format_version": "0.1.0",
+  "release": "1.2",
+  "decided_on": "2026-11-21",
+  "decided_by": "project founder (\"Do all 4\", 2026-11-21), on the reviewed audit",
+  "inclusion_rule": "A row is a passage in a primary text, at an inspected edition, that shows divine beings gathered with a ruler as an assembly, a court, a throne attendance or an allotment. The scene_type column says which; the deliberation column says whether the passage itself shows the gathered beings deliberating.",
+  "scene_types": {
+    "assembly": "Divine beings gathered to decide or be addressed on a matter",
+    "court": "Divine beings gathered to hear or judge a case, or presented before a ruler",
+    "throne_vision": "Beings attending a throne in a vision, without a stated assembly",
+    "allotment": "A distribution among divine beings stated without a narrated gathering"
+  },
+  "deliberation_states": {
+    "attested": "the passage shows members proposing, arguing or deciding",
+    "qualified": "deliberation is partial, implied or depends on restoration; see note",
+    "not_stated": "the passage does not show deliberation",
+    "explicitly_absent": "the passage denies counsel; locator required",
+    "not_checked": "the deliberative passage was not inspected"
+  },
+  "withdrawn": [
+    {
+      "row_id": "anatolian-song-of-emergence",
+      "reason": "The inspected edition (Rieken et al., Hethitologie Portal Mainz, CTH 344) shows a proem addressing the primeval gods and kingship passing by combat; there is no assembly, court, throne attendance or allotment. The row is withdrawn from this index; it belongs with succession myths (see the theomachy cross-references dataset)."
+    }
+  ],
+  "rows": {
+    "ugaritic-baal-cycle": {
+      "scene_type": "assembly",
+      "deliberation": "not_checked",
+      "deliberation_locator": "KTU 1.2 I (not inspected)",
+      "values": {
+        "reference": "KTU 1.1 IV 1–32 (inspected); KTU 1.2 I and 1.4 VI (cited, not inspected)",
+        "council_term": "pḫr mʿd (cited for KTU 1.2 I, not inspected); bn ilm (attested here only in a reconstruction, KTU 1.3 V 18)",
+        "presiding_figure": "El (lṭpn il dpid), who speaks and names Yam in KTU 1.1 IV; his presiding over the 1.2 I assembly not inspected",
+        "members": "The gods / the sons of Athirat (bn aṯrt, KTU 1.3 V 4); the seventy sons (1.4 VI) not inspected",
+        "function": "El names his son Yam at a divine feast (KTU 1.1 IV 13–15); the assembly scene of 1.2 I was not inspected"
+      }
+    },
+    "hebrew-psalm-82": {
+      "scene_type": "court",
+      "deliberation": "not_stated",
+      "deliberation_locator": "Ps 82:1–8 (God alone speaks the judgment)"
+    },
+    "hebrew-1kings-22": {
+      "scene_type": "assembly",
+      "deliberation": "attested",
+      "deliberation_locator": "1 Kgs 22:20 (\"one said … another said\")"
+    },
+    "hebrew-job-court": {
+      "scene_type": "court",
+      "deliberation": "not_stated",
+      "deliberation_locator": "Job 1:6–12; 2:1–7 (dialogue between Yahweh and the satan only)",
+      "values": {
+        "members": "The sons of God, with ha-śāṭān (\"the satan\", often glossed \"the Accuser\") among them"
+      }
+    },
+    "hebrew-deut-32": {
+      "scene_type": "allotment",
+      "deliberation": "not_stated",
+      "deliberation_locator": "Deut 32:8–9",
+      "values": {
+        "council_term": "bənê ʾĕlōhîm (\"sons of God\"), the reading of 4QDeut^j as reported (DJD XIV not inspected); LXX ἀγγέλων θεοῦ (common text), υἱῶν θεοῦ (Göttingen, reported); the Masoretic text reads bənê yiśrāʾēl, \"children of Israel\""
+      }
+    },
+    "hebrew-isaiah-6": {
+      "scene_type": "throne_vision",
+      "deliberation": "not_stated",
+      "deliberation_locator": "Isa 6:8 (\"for us\" is attested; a council reading is interpretation)"
+    },
+    "babylonian-enuma-elish": {
+      "scene_type": "assembly",
+      "deliberation": "attested",
+      "deliberation_locator": "King 1902, III 129–138; IV 1–34",
+      "values": {
+        "reference": "Tablet III 1–66, 109–138; IV 1–34 (King 1902 numbering); Tablet VI assemblies not located in an inspected edition"
+      }
+    },
+    "babylonian-atrahasis": {
+      "scene_type": "assembly",
+      "deliberation": "attested",
+      "deliberation_locator": "SEAL I 101–144, 172–226; II H 9–16 (restored); III C1 vi 18–27"
+    },
+    "second-temple-watchers": {
+      "scene_type": "court",
+      "deliberation": "explicitly_absent",
+      "deliberation_locator": "1 Enoch 14:22 (\"He needed no counsellor\", Charles 1912 pp. 34–35)"
+    },
+    "mormon-council-in-heaven": {
+      "scene_type": "assembly",
+      "deliberation": "qualified",
+      "deliberation_locator": "Abr 3:27 (offer and choice); Abr 4:26 (\"the Gods took counsel among themselves\", of the creation)"
+    },
+    "greek-olympian-agora": {
+      "scene_type": "assembly",
+      "deliberation": "attested",
+      "deliberation_locator": "Il. 4.14–67 (Zeus proposes, Hera objects)"
+    },
+    "egyptian-ennead-tribunal": {
+      "scene_type": "court",
+      "deliberation": "attested",
+      "deliberation_locator": "Gardiner 1931 (the tribunal hears and decides the case; before it for eighty years, 2, 13; 13, 12)",
+      "values": {
+        "reference": "P. Chester Beatty I, recto (Gardiner 1931); papyrus dated by Gardiner to the reign of Ramesses V, roughly 1160 BC"
+      }
+    },
+    "roman-concilium-deorum": {
+      "scene_type": "assembly",
+      "deliberation": "qualified",
+      "deliberation_locator": "Met. 1.244–249 (assent and questions; Jupiter's sentence already sworn)"
+    },
+    "norse-rokstolar": {
+      "scene_type": "assembly",
+      "deliberation": "attested",
+      "deliberation_locator": "Vsp 6, 9, 23, 25 (the gods take their seats of counsel and decide; st. 23 a debate over tribute)"
+    },
+    "sumerian-enlil-ninlil-assembly": {
+      "scene_type": "court",
+      "deliberation": "not_stated",
+      "deliberation_locator": "ETCSL 1.2.1 59–62 (decision reported impersonally)"
+    },
+    "hindu-devasabha": {
+      "scene_type": "assembly",
+      "deliberation": "attested",
+      "deliberation_locator": "CE 1.15.10 (mantrayitum ārabdhāḥ, \"began to deliberate\")"
+    }
+  }
+}
