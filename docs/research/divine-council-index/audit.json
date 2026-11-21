@@ -59,12 +59,12 @@
       "key": "hendel-bar",
       "title": "Sidebar 'Deuteronomy 32:8' to R. Hendel, 'Combine the Best from Each Tradition' (Biblical Archaeology Review)",
       "edition": "BAS Library web sidebar",
-      "translator_or_editor": "Ronald Hendel",
+      "translator_or_editor": "BAR editors, reporting R. Hendel's view",
       "year": "n.d. (issue not shown)",
       "url": "https://library.biblicalarchaeology.org/sidebar/deuteronomy-328/",
       "inspected_scope": "Sidebar text on Deut 32:8",
       "access": "secondary",
-      "limitations": "Secondary; states 4QDeutj reads 'sons of God' (Hebrew given in transliteration-font garble 'µyhwla ynb' = בני אלוהים) and LXX 'sons of God'. DJD XIV (Ulrich, Cross et al. 1995) not opened; fragment photo not inspected.",
+      "limitations": "Secondary; states 4QDeutj reads 'sons of God' (Hebrew given in transliteration-font garble 'µyhwla ynb' = בני אלוהים) and LXX 'sons of God'. DJD XIV (Ulrich, Cross et al. 1995) not opened; fragment photo not inspected. The sidebar is written by the editors about Hendel, not by Hendel.",
       "audit_group": "A"
     },
     {
@@ -256,7 +256,7 @@
       "url": "https://github.com/PerseusDL/canonical-latinLit/blob/master/data/phi0959/phi006/phi0959.phi006.perseus-lat2.xml",
       "inspected_scope": "Met. 1.163-262",
       "access": "full_text",
-      "limitations": "Digital transcription; no apparatus inspected. Year from the standard Magnus (Gotha 1892) edition; TEI header not checked for date.",
+      "limitations": "Digital transcription; no apparatus inspected. Year from the standard Magnus (Gotha 1892) edition; TEI header not checked for date. Year from the Perseus TEI header (marked low certainty there).",
       "audit_group": "C"
     },
     {
@@ -354,6 +354,30 @@
       "access": "full_text",
       "limitations": "Constituted text plus some starred passages; vulgate (Nīlakaṇṭha) text not inspected.",
       "audit_group": "C"
+    },
+    {
+      "key": "gardiner1931",
+      "title": "The Library of A. Chester Beatty: Description of a Hieratic Papyrus with a Mythological Story, Love-Songs, and Other Miscellaneous Texts",
+      "edition": "A. H. Gardiner, The Chester Beatty Papyri, No. I (London, 1931)",
+      "translator_or_editor": "Alan H. Gardiner",
+      "year": "1931",
+      "url": "https://chesterbeatty.ie/assets/uploads/2018/11/The-Library-of-A.-Chestera-Beatty-Description-of-a-Hieratic-Papyrus-with-a-Mythological-Story-Love-Songs-and-Other-Miscellaneous-Texts.pdf",
+      "inspected_scope": "Ch. I §1 (dating); p. 12 n. 1; p. 14 n. 3; translation passages cited",
+      "access": "full_text",
+      "limitations": "Inspected by the independent reviewer (2026-11-21), not by the original audit group; locators are papyrus page, line as Gardiner prints them.",
+      "audit_group": "review"
+    },
+    {
+      "key": "tov-thetorah",
+      "title": "The Sons of Israel or God? Deuteronomy 32:8",
+      "edition": "TheTorah.com article",
+      "translator_or_editor": "Emanuel Tov",
+      "year": "2023",
+      "url": "https://www.thetorah.com/article/the-sons-of-israel-or-god-deuteronomy-32-8",
+      "inspected_scope": "Report of the Göttingen LXX reading and Papyrus 848",
+      "access": "secondary",
+      "limitations": "Secondary report; the Göttingen edition itself was not inspected. Added by the independent reviewer.",
+      "audit_group": "review"
     }
   ],
   "row_summaries": [
@@ -451,7 +475,7 @@
       "proposed_value": "KTU 1.1 IV 1–32 (El's feast and naming of Yam; fragmentary); KTU 1.2 I (Yam's envoys before the gods' assembly) and KTU 1.4 VI (seventy sons of Athirat) still to be checked in a named edition",
       "state": "qualified",
       "locator": "KTU 1.1 IV 1–32; KTU 1.3 V 3–4",
-      "note": "Whole-cycle reference is too broad. Only KTU 1.1 and 1.3 could be opened in a line-numbered edition. In 1.1 IV the scene is fragmentary: in l. 2–3 Steinberger notes Smith's restoration lp[ḫr.il] as 'only a guess' (n. 9). The key assembly passage (1.2 I) was not inspected.",
+      "note": "Whole-cycle reference is too broad. Only KTU 1.1 and 1.3 could be opened in a line-numbered edition. In 1.1 IV the scene is fragmentary: Smith restores lp[ḫr.il] at l. 3 with a question mark; the words 'only a guess' in Steinberger's n. 9 are Smith's, about qb[ṣ] in l. 2. The key assembly passage (1.2 I) was not inspected.",
       "source_keys": [
         "ugt-ktu11"
       ]
@@ -777,12 +801,13 @@
       "proposed_value": "bənê ʾĕlōhîm (“sons of God”) in 4QDeutj as reported by Hendel; LXX: υἱῶν θεοῦ adopted by the Göttingen edition (reported), majority text ἀγγέλων θεοῦ; MT reads bənê yiśrāʾēl (בְּנֵי יִשְׂרָאֵל)",
       "state": "qualified",
       "locator": "Deut 32:8",
-      "note": "MT inspected: בני ישראל, JPS 1917 \"children of Israel\". 4QDeutj reading and Göttingen υἱῶν θεοῦ known only from secondary discussion; DJD XIV not opened. The common LXX text inspected prints ἀγγέλων Θεοῦ. \"bənê ʾēl\" not supported by any inspected source - it is a scholarly reconstruction; drop it or label as conjecture.",
+      "note": "MT inspected: בני ישראל, JPS 1917 \"children of Israel\". 4QDeutj reading and Göttingen υἱῶν θεοῦ known only from secondary discussion; DJD XIV not opened. The common LXX text inspected prints ἀγγέλων Θεοῦ. \"bənê ʾēl\" not supported by any inspected source - it is a scholarly reconstruction; drop it or label as conjecture. Tov (TheTorah.com) independently reports that Wevers adopts 'sons of God', citing Papyrus 848.",
       "source_keys": [
         "mam",
         "hendel-bar",
         "lxx-ellopos",
-        "wevers-via-search"
+        "wevers-via-search",
+        "tov-thetorah"
       ]
     },
     {
@@ -802,10 +827,10 @@
       "row_id": "hebrew-deut-32",
       "field": "members",
       "old_value": "The sons of God — one set over each nation; Yahweh's allotment is Israel",
-      "proposed_value": "In the 4QDeutj / Göttingen-LXX reading, the sons of God, by whose number the peoples' borders are fixed; Yahweh's portion is his people, Jacob (MT) / Israel (LXX v.9)",
+      "proposed_value": "In the 4QDeutj / Göttingen-LXX reading, the sons of God, by whose number the peoples' borders are fixed; Yahweh's portion is his people, Jacob (MT); Jacob and Israel (LXX v.9)",
       "state": "qualified",
       "locator": "Deut 32:8-9",
-      "note": "Under MT there are no divine members (\"children of Israel\"). \"One set over each nation\" is not stated in any inspected text; it is an inference from \"according to the number of\". MT v.9 names Jacob; LXX names Ἰσραήλ.",
+      "note": "Under MT there are no divine members (\"children of Israel\"). \"One set over each nation\" is not stated in any inspected text; it is an inference from \"according to the number of\". MT v.9 names Jacob; the LXX names both Ἰακώβ and Ἰσραήλ.",
       "source_keys": [
         "mam",
         "jps1917",
@@ -871,7 +896,7 @@
       "proposed_value": "ʾĂdōnāy sitting on a throne “high and lifted up” (6:1); “the King, YHWH of hosts” (6:5)",
       "state": "qualified",
       "locator": "Isa 6:1, 5",
-      "note": "Text names ʾĂdōnāy in v.1 (Yahweh in v.3, 5). \"High and lifted up\" (rām wənissāʾ) qualifies the throne in JPS 1917 and the accents; the row attaches it to Yahweh.",
+      "note": "Text names ʾĂdōnāy in v.1 (Yahweh in v.3, 5). \"High and lifted up\" (rām wənissāʾ) qualifies the throne in JPS 1917 and by agreement (the indefinite adjectives follow the indefinite kissēʾ; ʾĂdōnāy is definite); the row attaches it to Yahweh.",
       "source_keys": [
         "mam",
         "jps1917"
@@ -1004,7 +1029,7 @@
       "proposed_value": "Anu is king (šarru); Enlil, their counsellor (mālikšunu), convenes and addresses the assembly; Anu swears first in the flood oath",
       "state": "qualified",
       "locator": "SEAL I 7–8 (A i 7–8: a-nu a-bu-šu-nu šarru / māliksunu qurādu Enlil); I 101–104; II A 5–6, E 67–68, G 49q–u",
-      "note": "The text does not give Enlil the office of presiding. Anu sits as king of heaven, and 'Enlil arose and the case was presented' (I 101–104). Enlil summons the assembly (II A 5 var., E 67) and calls for the oath (G 49q–s), and 'Anu had sworn first; then Enlil swore, his sons with him' (G 49t–u, X-MB). In III Nintu blames both Anu ('who calls the shots', C1 iii 51′, v 39″) and Enlil.",
+      "note": "The text does not give Enlil the office of presiding. Anu sits as king of heaven, and 'Enlil arose and the case was presented' (I 101–104). Enlil summons the assembly (II A 5 var., E 67) and calls for the oath (G 49q–s), and 'Anu had sworn first; then Enlil swore, his sons with him' (G 49t–u, X-MB). In III Nintu blames both Anu ('who calls the shots', C1 iii 51′, v 39″) and Enlil. SEAL's commentary to I 8 notes that, Enlil usually being king of the gods, the scribe may play on malku 'ruler' in his counsellor title.",
       "source_keys": [
         "seal-atra-i"
       ]
@@ -1016,7 +1041,7 @@
       "proposed_value": "The great gods / the great Anunnaki (Anu, Enlil, Enki/Ea, Ninurta, Ennugi named in office; Enlil's sons swear); Nintu/Mami speaks in the assembly; Enki (Ea) objects to the oath",
       "state": "qualified",
       "locator": "SEAL I 5–10, 101–103, 198–220; II G 49u, H 9–16; III C1 iii 36′–41′",
-      "note": "'Enki dissents' is attested only in part. Someone, apparently Enlil since G 94 introduces his speech before the H 1–8 gap, proposes to bind 'prince Enki' by oath (H 9–10). Enki asks 'Why will you bind me with an oath? … Can I lay my hands on my own people?' (H 13–14). The lines are restored in B vii and D vii.",
+      "note": "'Enki dissents' is attested only in part. A speaker proposes to bind 'prince Enki' by oath (H 9–10); SEAL's commentary presumes Mama is the speaker, as these lines repeat part of her speech in I 240–243a, and notes that Enki's answer (H 11ff.) is addressed to the assembly. Enki asks 'Why will you bind me with an oath? … Can I lay my hands on my own people?' (H 13–14). H 9–10 are heavily restored (B vii, D vii).",
       "source_keys": [
         "seal-atra-ii"
       ]
@@ -1028,7 +1053,7 @@
       "proposed_value": "The assembly decides the human-creation plan (I 218 'Yes!'), then a series of plagues (II), and then the flood under oath (II G 49q–u, X-MB). Enki contests the oath before the flood (II H 9–16, restored) and criticizes the unconsidered flood afterwards (III C1 vi 18–26)",
       "state": "qualified",
       "locator": "SEAL I 218–224; II E 11–14, G 49q–u, H 9–16; III C1 vi 7–8, 18–26",
-      "note": "The baseline compresses the timing. The pre-flood oath is in the MB witness, and III C1 vi 7–8 recalls 'All we great Anunnaki decided together on oath'. Enki's objection is restoration-dependent. His later protest comes after the flood.",
+      "note": "The baseline compresses the timing. The pre-flood oath is in the MB witness, and III C1 vi 7–8 recalls 'All we great Anunnaki decided together on oath'. Enki's objection is restoration-dependent. His later protest comes after the flood. The gods already decide on oath in the plague section (II E 11–12 // E 29–30; Enlil at G 28–29), so deciding by oath is attested outside the MB witness; the flood-specific oath is MB only. In III C1 vi 20–22 the phrase 'without deliberation' is restored.",
       "source_keys": [
         "seal-atra-iii"
       ]
@@ -1215,9 +1240,9 @@
       "row_id": "mormon-council-in-heaven",
       "field": "council_term",
       "old_value": "The “council in heaven”; the “noble and great ones”",
-      "proposed_value": "No council term in Moses 4 or Abraham 3; “the noble and great ones” (Abr 3:22); scripture elsewhere: “the Council of the Eternal God of all other gods before this world was” (D&C 121:32); “council in heaven” is a later teaching / study-aid label",
+      "proposed_value": "No council term in Moses 4 or Abraham 3; “the noble and great ones” (Abr 3:22); scripture elsewhere: “the Council of the Eternal God of all other gods before this world was” (D&C 121:32); “council in heaven” is a later teaching / study-aid label; deliberation wording: “the Gods took counsel among themselves” (Abr 4:26)",
       "state": "qualified",
-      "locator": "Abr 3:22; D&C 121:32",
+      "locator": "Abr 3:22; D&C 121:32; Abr 4:26",
       "note": "\"Council\" does not occur in the scripture text of Moses 4 or Abraham 3; \"Council in Heaven\" appears only as a Topical Guide cross-reference in footnotes. Joseph Smith's sermons not inspected.",
       "source_keys": [
         "lds-scriptures"
@@ -1314,7 +1339,7 @@
       "proposed_value": "Book 4: Zeus asks whether to renew the war or make peace (4.14–19). Hera objects while Athena stays silent (4.22–24). Zeus concedes Troy's sack to Hera (4.37). On her proposal he sends Athena to make the Trojans break the oaths (4.62–72). Book 20: Zeus releases the gods to join either side (20.22–25)",
       "state": "qualified",
       "locator": "Il. 4.14–72; 20.20–30",
-      "note": "Only Hera argues; Athena 'held her peace' (Murray). The immediate outcome is breaking the truce, with the sack conceded in principle. The Book 20 assembly is not covered by the old value.",
+      "note": "Only Hera argues; Athena 'held her peace' (Murray). The 4.1–72 assembly ends with Athena sent to provoke the breach of the truce (the breach itself follows later in Book 4), with the sack conceded in principle. The Book 20 assembly is not covered by the old value.",
       "source_keys": [
         "monro-iliad"
       ]
@@ -1323,11 +1348,12 @@
       "row_id": "egyptian-ennead-tribunal",
       "field": "reference",
       "old_value": "Chester Beatty I (20th Dynasty, c. 1147 BCE)",
-      "proposed_value": "P. Chester Beatty I, recto (Contendings); date: 20th Dynasty, reign of Ramesses V per secondary report; specific page/line locators still to be supplied from Gardiner 1931",
+      "proposed_value": "P. Chester Beatty I, recto (the Contendings), per Gardiner 1931; dated by Gardiner to the reign of Ramesses V, 'roughly … 1160 B.C.'",
       "state": "qualified",
-      "locator": "",
-      "note": "'c. 1147 BCE' matches the uncited Wikipedia infobox ('c. 1147 BC'; text: reign of Ramesses V, 1149–1145 BCE, no citation). The hr-st transcription project README gives 'around 1160 BCE'. No named edition was opened to confirm the reign attribution. The whole-papyrus reference also needs page/line locators.",
+      "locator": "Gardiner 1931, ch. I §1",
+      "note": "Gardiner places the papyrus in Ramesses V's reign, 'roughly dated to 1160 B.C.' The baseline's 'c. 1147 BCE' traces to an uncited Wikipedia infobox and is not supported by the inspected edition. Absolute Egyptian dates depend on the chronology used; Gardiner's is reported as his.",
       "source_keys": [
+        "gardiner1931",
         "wikipedia-contendings"
       ]
     },
@@ -1336,20 +1362,23 @@
       "field": "source_text",
       "old_value": "The Contendings of Horus and Seth (Papyrus Chester Beatty I)",
       "proposed_value": "The Contendings of Horus and Seth (Papyrus Chester Beatty I)",
-      "state": "not_checked",
-      "locator": "",
-      "note": "Identification is standard but no edition was opened: Gardiner 1931, Lichtheim AEL II and Simpson/Wente were not accessible.",
-      "source_keys": []
+      "state": "attested",
+      "locator": "Gardiner 1931, title page and ch. I",
+      "note": "Identification confirmed in Gardiner's edition.",
+      "source_keys": [
+        "gardiner1931"
+      ]
     },
     {
       "row_id": "egyptian-ennead-tribunal",
       "field": "council_term",
       "old_value": "the Great Ennead — psḏt (‘the Nine’)",
-      "proposed_value": "the Ennead / the Great Ennead (translation); psḏt not confirmed at the passage",
+      "proposed_value": "the Ennead (psḏt); a few times 'the great Ennead'",
       "state": "qualified",
-      "locator": "",
-      "note": "The translation uses 'the Ennead' (47 times) and 'the Great Ennead' (5 times). The Egyptian psḏt was not seen in any edition printing the text, so it is unconfirmed.",
+      "locator": "Gardiner 1931 p. 14 n. 3",
+      "note": "Gardiner: \"'Ennead' is the accepted English equivalent of the Egyptian psḏt\" and \"in our tale the Ennead is a few times named 'the great Ennead'\". The term is confirmed through Gardiner's note, not through a hieroglyphic transcription inspected here.",
       "source_keys": [
+        "gardiner1931",
         "reshafim-contendings"
       ]
     },
@@ -1357,11 +1386,12 @@
       "row_id": "egyptian-ennead-tribunal",
       "field": "presiding_figure",
       "old_value": "Re-Horakhty (the Lord of All)",
-      "proposed_value": "The Universal Lord (sun-god), also addressed as Pre-Harakhti and Atum",
+      "proposed_value": "The sun-god, rendered 'the Master of the Universe' by Gardiner ('Universal Lord' in the web translation), also named Pre-Harakhti and Atum; he stands outside the Ennead",
       "state": "qualified",
-      "locator": "",
-      "note": "The inspected translation says 'Universal Lord', not 'Lord of All' (Lichtheim's wording could not be checked). The same presiding god is called Pre-Harakhti and Atum. The Ennead sometimes acts against him (he asks why they exercise 'authority alone').",
+      "locator": "Gardiner 1931 p. 14 n. 3",
+      "note": "Gardiner: 'The sun-god is conceived of as standing outside [the Ennead]'. 'Lord of All' (baseline) matches neither inspected rendering.",
       "source_keys": [
+        "gardiner1931",
         "reshafim-contendings"
       ]
     },
@@ -1372,9 +1402,10 @@
       "proposed_value": "Shu, Thoth, Onuris, Banebdjedet, Isis (litigant's mother) and the Ennead; Neith and Osiris are consulted by letter",
       "state": "qualified",
       "locator": "",
-      "note": "Geb is not named in the story, only in the web page's glossary note on the Heliopolitan Ennead. Neith takes part only by letter, from Sais. Atum is a name of the presiding god, not a separate member.",
+      "note": "Geb is not named in the story; he appears only in Gardiner's list of the Heliopolitan Ennead (p. 14 n. 3) and in the web page's glossary. Neith takes part only by letter, from Sais. Atum is a name of the presiding god, not a separate member.",
       "source_keys": [
-        "reshafim-contendings"
+        "reshafim-contendings",
+        "gardiner1931"
       ]
     },
     {
@@ -1383,9 +1414,10 @@
       "old_value": "A divine tribunal adjudicates the eighty-year succession dispute over Osiris's throne between Horus and Seth",
       "proposed_value": "A divine tribunal adjudicates the dispute between Horus and Seth over Osiris's office. The text says the case had been before the tribunal for eighty years",
       "state": "attested",
-      "locator": "",
-      "note": "'eighty years … in the tribunal' occurs twice: in the letter to Neith and in Horus's complaint. This makes it the length of the case, not of the dispute generally. No papyrus locator was available.",
+      "locator": "Gardiner 1931: papyrus 2, 13 and 13, 12 (p. 12 n. 1)",
+      "note": "'eighty years … in the tribunal' occurs twice: in the letter to Neith and in Horus's complaint. This makes it the length of the case, not of the dispute generally. Gardiner gives both locators: 'before the tribunal (2, 13; 13, 12)'.",
       "source_keys": [
+        "gardiner1931",
         "reshafim-contendings"
       ]
     },
@@ -1408,7 +1440,7 @@
       "proposed_value": "concilium (conciliumque vocat, 1.167); the members are called superi (1.177, 1.196)",
       "state": "attested",
       "locator": "Met. 1.167",
-      "note": "Ovid writes concilium alone; 'deorum' is an editorial gloss and does not occur at the passage. More: 'he convened a council'.",
+      "note": "Ovid writes concilium alone; 'deorum' does not qualify concilium; the word occurs at 1.171 in another construction. More: 'he convened a council'.",
       "source_keys": [
         "magnus-met"
       ]
@@ -1564,7 +1596,7 @@
       "proposed_value": "In the Ki-ur, the fifty great gods and the seven who decide destinies have Enlil arrested. Enlil, 'the ritually impure' (u2-zug4), leaves the city 'in accordance with what had been decided' (2 mss.: 'Enlil, ritually impure, leave the city!')",
       "state": "qualified",
       "locator": "ETCSL 1.2.1 54–64 (c121 58–62)",
-      "note": "'At Nippur … judges, and banishes … for defiling Ninlil' goes beyond the text. No trial or verdict speech is narrated. The decision is reported impersonally (nij2-nam-ce3 nam mu-un-tar-ra, 61–62), and the link to the act with Ninlil is implicit from the sequence.",
+      "note": "'At Nippur' is supported (lines 1–12, 59–60); 'judges' and 'for defiling Ninlil' go beyond the text. No trial or verdict speech is narrated. The decision is reported impersonally (nij2-nam-ce3 nam mu-un-tar-ra, 61–62), and the link to the act with Ninlil is implicit from the sequence.",
       "source_keys": [
         "etcsl-121"
       ]
@@ -1610,7 +1642,7 @@
       "proposed_value": "Not stated. Nārāyaṇa speaks to Brahmā (nārāyaṇo devo brahmāṇam idam abravīt); Brahmā is the one addressed",
       "state": "not_stated",
       "locator": "CE 1.15.11; Ganguli Sec. XVII",
-      "note": "No presider is named. Brahmā presides only in a rejected starred line (CE *262), where the gods and daityas approach him. Later, in Sec. XVIII, the gods come to Vishnu and Brahmā 'who were sitting'.",
+      "note": "No presider is named. In the rejected starred line CE *262 the gods and daityas approach Brahmā; it does not make him presider. Later, in Sec. XVIII, the gods come to Vishnu and Brahmā 'who were sitting'.",
       "source_keys": [
         "bori-gretil-adi"
       ]
@@ -1639,5 +1671,11 @@
         "bori-gretil-adi"
       ]
     }
-  ]
+  ],
+  "review": {
+    "date": "2026-11-21",
+    "verdict": "pass with corrections",
+    "file": "review.md",
+    "corrections_applied": "all twelve required corrections (see README)"
+  }
 }
