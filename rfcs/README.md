@@ -25,3 +25,4 @@ make its proposal an accepted position or validated finding.
 | [0005](0005-source-holdings-registry.md) | Accepted | Register the source copies the project holds, so access levels and quotation provenance are auditable |
 | [0006](0006-split-canonical-contact-report.md) | Accepted | Extract the canonical contact report from claim 0001 as a source_report (partial split, option 3) |
 | [0007](0007-reproducible-review-records.md) | Accepted | Add reproducible review records as the instrument that moves a claim beyond `scoped`, and bind them to claims in the schema |
+| [0008](0008-standing-claim-review-cycle.md) | Draft | A standing, ranked claim-review cycle with a canon passage index, insight log and contact-point register |
