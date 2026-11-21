@@ -153,6 +153,13 @@ No claim proposition has been created, promoted or revised. The local
 publication integration aligns 0010's controlling document with its existing
 dataset registration; both governing versions remain 0.1.0.
 
+**Binding update (2026-11-21).** `woh-claim-0010` was revised to 0.2.0 by
+[ADR 0015](../../../decisions/0015-flood-claim-0010-revision.md), on the
+basis of this audit and the procedural comparison. The observations are
+unchanged and consistent with 0.2.0, so `core_bindings` now names 0.2.0. The
+relationship record `rel-001` keeps its historical basis (0.1.0); 0.2.0
+retains the literary-stream alternative it relies on.
+
 The material warrants a further focused review of 0010's procedural wording.
 Warning is not identical to dissent, a cause is not identical to a decree,
 and a promise after the event is not the same feature as an oath before it.
