@@ -1,0 +1,1643 @@
+{
+  "format_version": "0.1.0",
+  "status": "draft",
+  "checked_on": "2026-11-21",
+  "baseline_version": "1.1",
+  "baseline_sha256": "53fcb6674e633ed757f0842c71dacd1242939a81e12d594be04d29c55dee4168",
+  "baseline_source": "wheelofheaven/api.wheelofheaven.world static/v1/datasets/divine-council-index.json at 5c9b6a3",
+  "core_bindings": {
+    "woh-claim-0011": "0.1.0",
+    "woh-claim-0060": "0.1.0"
+  },
+  "row_unit": "one attestation: a passage in an inspected edition",
+  "state_definitions": {
+    "attested": "stated in the inspected representation",
+    "qualified": "stated, but restoration, attribution, translation or timing changes its force; see note",
+    "not_stated": "silent within the inspected scope; not a denial",
+    "text_damaged": "lacunae obstruct the question",
+    "uncertain": "translation or attribution unresolved",
+    "not_checked": "the passage could not be inspected; see note"
+  },
+  "sources": [
+    {
+      "key": "mam",
+      "title": "Miqra according to the Masorah (MAM)",
+      "edition": "Digital Masoretic edition based on the Aleppo Codex and related MSS",
+      "translator_or_editor": "Avi Kadish et al. (hosted by Sefaria)",
+      "year": "current online",
+      "url": "https://www.sefaria.org/api/v3/texts/Psalms.82?version=hebrew|Miqra%20according%20to%20the%20Masorah",
+      "inspected_scope": "Ps 82:1-8; 1 Kgs 22:19-23; Job 1:6-12; 2:1; Deut 32:8-9; Isa 6:1-8 (vocalized Hebrew)",
+      "access": "full_text",
+      "limitations": "Mechon-Mamre (the suggested host) returned a Cloudflare challenge page and could not be read; MAM via Sefaria API used instead. CC-BY-SA text, not redistributed.",
+      "audit_group": "A"
+    },
+    {
+      "key": "jps1917",
+      "title": "The Holy Scriptures According to the Masoretic Text: A New Translation",
+      "edition": "JPS 1917 (public domain), Sefaria digitization",
+      "translator_or_editor": "Jewish Publication Society",
+      "year": "1917",
+      "url": "https://www.sefaria.org/api/v3/texts/Psalms.82?version=english|The%20Holy%20Scriptures:%20A%20New%20Translation%20(JPS%201917)",
+      "inspected_scope": "Same passages as mam; also Job 2:2-7",
+      "access": "full_text",
+      "limitations": "Digitization, not page images.",
+      "audit_group": "A"
+    },
+    {
+      "key": "lxx-ellopos",
+      "title": "The Greek Old Testament (Septuagint), Deuteronomy 32",
+      "edition": "Unnamed received/majority-type text (site names no critical edition)",
+      "translator_or_editor": "ellopos.net (Elpenor)",
+      "year": "n.d.",
+      "url": "https://www.ellopos.net/elpenor/greek-texts/septuagint/chapter.asp?book=5&page=32",
+      "inspected_scope": "Deut 32:8-9",
+      "access": "excerpt",
+      "limitations": "Not a critical edition; prints the majority reading ἀγγέλων Θεοῦ. Göttingen (Wevers) apparatus not inspected.",
+      "audit_group": "A"
+    },
+    {
+      "key": "hendel-bar",
+      "title": "Sidebar 'Deuteronomy 32:8' to R. Hendel, 'Combine the Best from Each Tradition' (Biblical Archaeology Review)",
+      "edition": "BAS Library web sidebar",
+      "translator_or_editor": "Ronald Hendel",
+      "year": "n.d. (issue not shown)",
+      "url": "https://library.biblicalarchaeology.org/sidebar/deuteronomy-328/",
+      "inspected_scope": "Sidebar text on Deut 32:8",
+      "access": "secondary",
+      "limitations": "Secondary; states 4QDeutj reads 'sons of God' (Hebrew given in transliteration-font garble 'µyhwla ynb' = בני אלוהים) and LXX 'sons of God'. DJD XIV (Ulrich, Cross et al. 1995) not opened; fragment photo not inspected.",
+      "audit_group": "A"
+    },
+    {
+      "key": "wevers-via-search",
+      "title": "Report that Göttingen Septuagint Deuteronomy (Wevers, Septuaginta III.2, p. 347) adopts υἱῶν θεοῦ",
+      "edition": "Secondary report (Heiser, Bibliotheca Sacra 158 (2001), via search snippet)",
+      "translator_or_editor": "J. W. Wevers (reported)",
+      "year": "1977 (edition); 2001 (article)",
+      "url": "https://www.galaxie.com/article/bsac158-629-04",
+      "inspected_scope": "Search-result summary only",
+      "access": "secondary",
+      "limitations": "Article paywalled; neither Wevers' text nor apparatus inspected. Papyrus witness (e.g. 848) not confirmed.",
+      "audit_group": "A"
+    },
+    {
+      "key": "charles1912",
+      "title": "The Book of Enoch or 1 Enoch",
+      "edition": "Translated from the editor's Ethiopic text, new edition",
+      "translator_or_editor": "R. H. Charles",
+      "year": "1912",
+      "url": "https://iapsop.com/ssoc/1912__charles___book_of_enoch.pdf",
+      "inspected_scope": "1 Enoch 6:1; 9:1-10; 10:1-4; 12-13 (partial); 14:1-2, 14:15-25; 15:1-4 (pp. 13-35); introduction to Section II, p. 66",
+      "access": "page_images",
+      "limitations": "Read via OCR text layer of the scan (pdftotext); English translation only; Ethiopic and Greek terms not checked.",
+      "audit_group": "A"
+    },
+    {
+      "key": "lds-scriptures",
+      "title": "Pearl of Great Price (Moses 4; Abraham 3) and Doctrine and Covenants 121",
+      "edition": "Official online scripture text, The Church of Jesus Christ of Latter-day Saints",
+      "translator_or_editor": "The Church of Jesus Christ of Latter-day Saints",
+      "year": "current online (2013 edition text)",
+      "url": "https://www.churchofjesuschrist.org/study/scriptures/pgp/abr/3?lang=eng",
+      "inspected_scope": "Moses 4:1-4 and chapter heading; Abraham 3:22-28 and chapter heading; D&C 121:32; footnotes only as far as the 'Council in Heaven' Topical Guide cross-reference",
+      "access": "full_text",
+      "limitations": "Also https://www.churchofjesuschrist.org/study/scriptures/pgp/moses/4?lang=eng and .../dc-testament/dc/121?lang=eng. Abraham 4-5 ('the Gods took counsel') not inspected. Joseph Smith's 1844 sermons not inspected.",
+      "audit_group": "A"
+    },
+    {
+      "key": "ugt-ktu11",
+      "title": "Die ugaritischen Texte in Umschrift: KTU 1.1 (= RS 3.361)",
+      "edition": "Ugarit-Portal Göttingen transliteration from tablet photographs, with reconstruction column and notes (CC BY-SA 4.0)",
+      "translator_or_editor": "Clemens Steinberger",
+      "year": "2022",
+      "url": "https://uni-goettingen.de/de/document/download/6deafdc9fb240bff8a80e839dd97bbfb.pdf/KTU%201.1.pdf",
+      "inspected_scope": "KTU 1.1 IV 1–32 with notes 8–19",
+      "access": "full_text",
+      "limitations": "Transliteration only, no translation; English glosses in observations are the auditor's word-level reading of the printed consonantal text, not a published translation.",
+      "audit_group": "B"
+    },
+    {
+      "key": "ugt-ktu13",
+      "title": "Die ugaritischen Texte in Umschrift: KTU 1.3",
+      "edition": "Ugarit-Portal Göttingen transliteration (CC BY-SA 4.0)",
+      "translator_or_editor": "Clemens Steinberger",
+      "year": "2022",
+      "url": "https://uni-goettingen.de/de/document/download/d6c91d1c359b05212b33beb294ae1add.pdf/KTU%201.3.pdf",
+      "inspected_scope": "KTU 1.3 IV 40–55, V 1–18 (searched whole file for pḫr, mˁd, šbˁm, bn ilm, aṯrt)",
+      "access": "full_text",
+      "limitations": "Transliteration only. No open edition of KTU 1.2, 1.4, 1.5 or 1.6 with column/line could be retrieved: no Ugarit-Portal file for them was found; EUPT (eupt.uni-goettingen.de) has not released the Baal epic; Smith 1994 / Smith–Pitard 2009 / Wyatt / Gibson are not openly hosted (only unauthorised copies, not used).",
+      "audit_group": "B"
+    },
+    {
+      "key": "ugt-ktu3-corr",
+      "title": "Verbesserungen zu KTU3",
+      "edition": "Ugarit-Portal Göttingen corrections list (CC BY-SA 4.0)",
+      "translator_or_editor": "Clemens Steinberger",
+      "year": "n.d. (accessed 2026-11-21)",
+      "url": "https://uni-goettingen.de/de/document/download/a001817c3af7e5041ecda5ecf7f9c999.pdf/Verbesserungen%20zu%20KTU3.pdf",
+      "inspected_scope": "Entries for KTU 1.2 I, 1.4, 1.6",
+      "access": "excerpt",
+      "limitations": "Corrections list only; does not print KTU 1.2 I 14–31 or 1.4 VI 46.",
+      "audit_group": "B"
+    },
+    {
+      "key": "king-1902",
+      "title": "The Seven Tablets of Creation, vol. I",
+      "edition": "Transliteration and translation (archive.org OCR djvu text of the 1902 Luzac edition)",
+      "translator_or_editor": "L. W. King",
+      "year": "1902",
+      "url": "https://archive.org/details/the-seven-tablets-of-creation.-vol.-1",
+      "inspected_scope": "Tablet I c. 129–138 (Tiamat–Kingu); III 51–66, 109–138; IV 1–34 (transliteration and translation), IV c. 119–122 (Tablets of Destiny); fragment fragment King assigns to Tablet V (registration number read through OCR as K. 3,449[a]), Anu and the bow; Tablet VII 10–18",
+      "access": "full_text",
+      "limitations": "Public domain but obsolete: King's line numbering differs from Lambert 2013/Talon/eBL; Tablet V largely and Tablet VI almost entirely missing in 1902; OCR is noisy (Akkadian forms read through OCR errors). eBL corpus (ebl.lmu.de) API timed out; Lambert translation hosts (etana.org offline, worldhistory.org and open.maricopa.edu 403) could not be opened.",
+      "audit_group": "B"
+    },
+    {
+      "key": "seal-atra-i",
+      "title": "Atraḫasis I (all periods)",
+      "edition": "SEAL synoptic edition with transliteration of all witnesses and translation",
+      "translator_or_editor": "Sources of Early Akkadian Literature (N. Wasserman, M. P. Streck et al.)",
+      "year": "accessed 2026-11-21",
+      "url": "https://seal.huji.ac.il/node/1515?tid=70",
+      "inspected_scope": "I 1–18, 57–59, 79–226a (translation); transliteration of I 5–8 and every pu-úḫ-r* line",
+      "access": "full_text",
+      "limitations": "Synoptic: line numbers combine OB (A, E…) and later (ba, bb, S+T-NA) witnesses.",
+      "audit_group": "B"
+    },
+    {
+      "key": "seal-atra-ii",
+      "title": "Atraḫasis II (all periods)",
+      "edition": "SEAL synoptic edition, segments A–I",
+      "translator_or_editor": "Sources of Early Akkadian Literature",
+      "year": "accessed 2026-11-21",
+      "url": "https://seal.huji.ac.il/index.php/node/39732?tid=339",
+      "inspected_scope": "Seg. A 1–15, E 7–22, E 61–78, G 49m–97, H 1–36, I 1–7b; transliteration of A 5, E 3/21–22 (be), G 49r (X-MB), G 63–66 (C0, D), H 8–16 (B, D, C0)",
+      "access": "full_text",
+      "limitations": "Synoptic; G 49q–u only in X-MB (Middle Babylonian); H 9–16 heavily restored in B vii and D vii.",
+      "audit_group": "B"
+    },
+    {
+      "key": "seal-atra-iii",
+      "title": "Atraḫasis OB III (Sippar)",
+      "edition": "SEAL edition of C1 (+) C2",
+      "translator_or_editor": "Sources of Early Akkadian Literature",
+      "year": "accessed 2026-11-21",
+      "url": "https://seal.huji.ac.il/node/1517?tid=80",
+      "inspected_scope": "C1 iii 30′–54′, iv 3′–27′, v 30″–52″, vi 1–49′, viii 8′–19′; transliteration of iii 36′ and vi 27",
+      "access": "full_text",
+      "limitations": "One OB witness; vi 28–37 missing.",
+      "audit_group": "B"
+    },
+    {
+      "key": "flood-proc-cmp",
+      "title": "Decisions and preservation in five flood accounts (core, origin/main)",
+      "edition": "Project research note v0.1.0",
+      "translator_or_editor": "Wheel of Heaven core",
+      "year": "2026",
+      "url": "core/docs/research/flood-concordance/procedural-comparison.md",
+      "inspected_scope": "Atrahasis rows and editions table",
+      "access": "secondary",
+      "limitations": "Project note, used only for cross-checking the SEAL locators; not evidence.",
+      "audit_group": "B"
+    },
+    {
+      "key": "etcsl-121",
+      "title": "Enlil and Ninlil (ETCSL 1.2.1): translation and composite text",
+      "edition": "Electronic Text Corpus of Sumerian Literature",
+      "translator_or_editor": "J. A. Black et al. (ETCSL, Oxford)",
+      "year": "1998–2006",
+      "url": "https://etcsl.orinst.ox.ac.uk/section1/tr121.htm ; https://etcsl.orinst.ox.ac.uk/section1/c121.htm",
+      "inspected_scope": "Translation 1–64 (esp. 35–64); composite 53–65; whole composite searched for ukkin, a-nun, e2-kur",
+      "access": "full_text",
+      "limitations": "ETCSL orthography (dijir = diĝir, c = š, j = ĝ).",
+      "audit_group": "B"
+    },
+    {
+      "key": "hpm-cth344",
+      "title": "CTH 344 – „Das Lied vom Ursprung“: Das Königtum im Himmel oder die Theogonie",
+      "edition": "Hethitologie-Portal Mainz: introductio (INTR 2009-08-12), translatio (TRde 2009-08-31), exemplar A (KUB 33.120 + …)",
+      "translator_or_editor": "E. Rieken et al.",
+      "year": "2009",
+      "url": "https://hethport.net/txhet_myth/translatio.php?xst=CTH%20344&expl=&lg=DE&ed=E.%20Rieken%20et%20al.",
+      "inspected_scope": "Full German translation §§1–31 (running lines 1–ca. 270) with notes; exemplar A mapping of running lines to A Vs. I–Rs. III",
+      "access": "full_text",
+      "limitations": "German translation; much of Rs. III is fragmentary. Hoffner, Hittite Myths² (1998) 42–45 is cited by the edition but was not inspected.",
+      "audit_group": "B"
+    },
+    {
+      "key": "monro-iliad",
+      "title": "Homeri Opera (Iliad)",
+      "edition": "Oxford Classical Texts, 3rd ed.; Perseus TEI tlg0012.tlg001.perseus-grc2",
+      "translator_or_editor": "David B. Monro and Thomas W. Allen",
+      "year": "1908-1920",
+      "url": "https://github.com/PerseusDL/canonical-greekLit/blob/master/data/tlg0012/tlg001/tlg0012.tlg001.perseus-grc2.xml",
+      "inspected_scope": "Iliad 4.1-72; 20.1-32",
+      "access": "full_text",
+      "limitations": "Digital transcription; no apparatus inspected. Perseus hopper refused automated requests; GitHub TEI used.",
+      "audit_group": "C"
+    },
+    {
+      "key": "murray-iliad",
+      "title": "Homer, The Iliad (Loeb)",
+      "edition": "Loeb Classical Library; Perseus TEI tlg0012.tlg001.perseus-eng3",
+      "translator_or_editor": "A. T. Murray",
+      "year": "1924-1925",
+      "url": "https://github.com/PerseusDL/canonical-greekLit/blob/master/data/tlg0012/tlg001/tlg0012.tlg001.perseus-eng3.xml",
+      "inspected_scope": "Iliad 4.1-29 (card 1); 20.1-30",
+      "access": "full_text",
+      "limitations": "Prose translation keyed by line milestones.",
+      "audit_group": "C"
+    },
+    {
+      "key": "magnus-met",
+      "title": "P. Ovidius Naso, Metamorphoses",
+      "edition": "Perseus TEI phi0959.phi006.perseus-lat2",
+      "translator_or_editor": "Hugo Magnus",
+      "year": "1892",
+      "url": "https://github.com/PerseusDL/canonical-latinLit/blob/master/data/phi0959/phi006/phi0959.phi006.perseus-lat2.xml",
+      "inspected_scope": "Met. 1.163-262",
+      "access": "full_text",
+      "limitations": "Digital transcription; no apparatus inspected. Year from the standard Magnus (Gotha 1892) edition; TEI header not checked for date.",
+      "audit_group": "C"
+    },
+    {
+      "key": "more-met",
+      "title": "Ovid, Metamorphoses",
+      "edition": "Perseus TEI phi0959.phi006.perseus-eng3",
+      "translator_or_editor": "Brookes More",
+      "year": "1922",
+      "url": "https://github.com/PerseusDL/canonical-latinLit/blob/master/data/phi0959/phi006/phi0959.phi006.perseus-eng3.xml",
+      "inspected_scope": "Book 1 'council' passage (More's own line nos. 222 ff., 322-324)",
+      "access": "full_text",
+      "limitations": "Blank-verse translation with its own line numbering, not Latin line numbers.",
+      "audit_group": "C"
+    },
+    {
+      "key": "reshafim-contendings",
+      "title": "The Contendings of Horus and Seth (English translation, web page)",
+      "edition": "reshafim.org.il 'Ancient Egyptian texts', June 2003, via Wayback snapshot 2019-03-31",
+      "translator_or_editor": "Translator not named on the page (wording matches the Wente translation in Simpson ed., The Literature of Ancient Egypt; page cites Lichtheim AEL II pp. 222f in a note)",
+      "year": "2003 (web)",
+      "url": "http://web.archive.org/web/20190331002503/http://reshafim.org.il:80/ad/egypt/texts/horus_and_seth.htm",
+      "inspected_scope": "Whole story as presented (no papyrus page/line locators)",
+      "access": "excerpt",
+      "limitations": "Adapted web excerpt of unclear attribution; no Chester Beatty I page/line numbers; no Egyptian text. Gardiner 1931, Lichtheim AEL II and Simpson could not be opened.",
+      "audit_group": "C"
+    },
+    {
+      "key": "wikipedia-contendings",
+      "title": "The Contendings of Horus and Seth (Wikipedia)",
+      "edition": "en.wikipedia.org, accessed 2026-11-21",
+      "translator_or_editor": "",
+      "year": "2026",
+      "url": "https://en.wikipedia.org/wiki/The_Contendings_of_Horus_and_Seth",
+      "inspected_scope": "Dating statements and infobox",
+      "access": "secondary",
+      "limitations": "Used only to trace the origin of 'c. 1147 BCE'; not evidence.",
+      "audit_group": "C"
+    },
+    {
+      "key": "gj-voluspa",
+      "title": "Völuspá (Eddukvæði / Sæmundar-Edda)",
+      "edition": "heimskringla.no text",
+      "translator_or_editor": "Guðni Jónsson (normalised Old Norse)",
+      "year": "1949 (Guðni Jónsson edition)",
+      "url": "https://heimskringla.no/wiki/V%C3%B6lusp%C3%A1",
+      "inspected_scope": "Völuspá st. 1-28",
+      "access": "full_text",
+      "limitations": "Normalised text, Codex Regius order; no apparatus. Edition year from the standard Guðni Jónsson Eddukvæði, not from the page.",
+      "audit_group": "C"
+    },
+    {
+      "key": "bellows-edda",
+      "title": "The Poetic Edda",
+      "edition": "American-Scandinavian Foundation; archive.org OCR poeticedda00belluoft",
+      "translator_or_editor": "Henry Adams Bellows",
+      "year": "1923",
+      "url": "https://archive.org/details/poeticedda00belluoft",
+      "inspected_scope": "Voluspo st. 6-10, 23-25 with notes",
+      "access": "full_text",
+      "limitations": "OCR text; Bellows transposes MS st. 23/24 (his note to st. 23). English only.",
+      "audit_group": "C"
+    },
+    {
+      "key": "brodeur-gylf",
+      "title": "The Prose Edda",
+      "edition": "American-Scandinavian Foundation; archive.org OCR proseedda00snor",
+      "translator_or_editor": "Arthur Gilchrist Brodeur",
+      "year": "1916",
+      "url": "https://archive.org/details/proseedda00snor",
+      "inspected_scope": "Gylfaginning ch. XIV, pp. 25-26",
+      "access": "full_text",
+      "limitations": "OCR text; English only.",
+      "audit_group": "C"
+    },
+    {
+      "key": "ganguli-adi",
+      "title": "The Mahabharata, Book 1: Adi Parva",
+      "edition": "Bharata Press, Calcutta; Wikisource transcription of 1884 scan",
+      "translator_or_editor": "Kisari Mohan Ganguli (publ. Protap Chandra Roy)",
+      "year": "1884",
+      "url": "https://en.wikisource.org/wiki/The_Mahabharata/Book_1:_Adi_Parva/Section_17",
+      "inspected_scope": "Astika Parva Sections XVII-XVIII (pp. 78-81)",
+      "access": "full_text",
+      "limitations": "Translation of the vulgate (non-critical) recension; Section XVIII read through the poison episode.",
+      "audit_group": "C"
+    },
+    {
+      "key": "bori-gretil-adi",
+      "title": "Mahābhārata, Ādiparvan (critical edition text)",
+      "edition": "BORI Pune electronic text 1999 via GRETIL (mbh_01_u.htm)",
+      "translator_or_editor": "BORI; entered by Muneo Tokunaga et al., revised by John Smith",
+      "year": "1999 (e-text)",
+      "url": "https://gretil.sub.uni-goettingen.de/gretil/1_sanskr/2_epic/mbh/mbh_01_u.htm",
+      "inspected_scope": "1.15.1-13; 1.16.1-4",
+      "access": "full_text",
+      "limitations": "Constituted text plus some starred passages; vulgate (Nīlakaṇṭha) text not inspected.",
+      "audit_group": "C"
+    }
+  ],
+  "row_summaries": [
+    {
+      "row_id": "ugaritic-baal-cycle",
+      "verdict": "narrowed",
+      "summary": "Only KTU 1.1 and 1.3 could be inspected in a line-numbered edition (Steinberger). They show El naming Yam at a feast and the formula 'sons of Athirat', but the core loci (pḫr mˁd in 1.2 I; šbˁm bn aṯrt in 1.4 VI) remain not_checked, and the vocalized 'puḫru môʿidi' should be dropped."
+    },
+    {
+      "row_id": "hebrew-psalm-82",
+      "verdict": "corrected",
+      "summary": "Reference widened to 82:1-8; council term and members attested in MAM but their 'divine' sense is a reading (JPS 1917: 'congregation of God', 'judges', 'godlike beings')."
+    },
+    {
+      "row_id": "hebrew-1kings-22",
+      "verdict": "unchanged",
+      "summary": "All fields attested in MAM and JPS 1917; only 'kol' ('all') added to the term."
+    },
+    {
+      "row_id": "hebrew-job-court",
+      "verdict": "corrected",
+      "summary": "Reference extended to 1:6-12; 2:1-7; 'wager' is not in the text (challenge and permission); 'Accuser' is a gloss."
+    },
+    {
+      "row_id": "hebrew-deut-32",
+      "verdict": "corrected",
+      "summary": "MT reads bənê yiśrāʾēl; 'sons of God' rests on 4QDeutj and the Göttingen LXX choice, both known here only from secondary sources (majority LXX: ἀγγέλων θεοῦ); 'bənê ʾēl' unsupported; 'one over each nation' is inference."
+    },
+    {
+      "row_id": "hebrew-isaiah-6",
+      "verdict": "corrected",
+      "summary": "Seraphim stand above him and are not described as a council; 'high and lifted up' modifies the throne; lānû ('for us') is attested but 'council plural' is interpretation."
+    },
+    {
+      "row_id": "babylonian-enuma-elish",
+      "verdict": "corrected",
+      "summary": "The Tablet of Destinies is not granted by the assembly (Tiamat gives it to Kingu; Marduk seizes it); the assembly gives kingship, insignia and weapon. Reference narrowed to III/IV, with Tablet VI pending a modern edition; 'puḫur ilāni' is attested but first of Tiamat's assembly."
+    },
+    {
+      "row_id": "babylonian-atrahasis",
+      "verdict": "corrected",
+      "summary": "Anu is king and Enlil is counsellor; Enlil convenes and speaks, but 'presides' is not textual. puḫrum is confirmed in SEAL. The flood oath is in an MB witness, and Enki's pre-flood objection (II H 9–16) is restored, with his explicit criticism coming after the flood."
+    },
+    {
+      "row_id": "second-temple-watchers",
+      "verdict": "corrected",
+      "summary": "'Lord of Spirits' removed (Similitudes only, per Charles p. 66); Great Glory attested at 14:20; reference narrowed to chs 9-10, 12-16; text says God 'needed no counsellor' (14:22), so court not deliberative council."
+    },
+    {
+      "row_id": "anatolian-song-of-emergence",
+      "verdict": "withdraw_recommended",
+      "summary": "Rieken et al.'s CTH 344 edition shows a dynastic succession by combat and a proem invoking primeval gods as listeners, but no assembly or council. Recommend removing the row from a divine-council index, or reclassifying it as a succession myth."
+    },
+    {
+      "row_id": "mormon-council-in-heaven",
+      "verdict": "corrected",
+      "summary": "'Council in heaven' is not in Moses 4 or Abraham 3 (study-aid/teaching label); nearest scripture is D&C 121:32 'Council of the Eternal God'; 'debates' overstates an offer-and-choice scene."
+    },
+    {
+      "row_id": "greek-olympian-agora",
+      "verdict": "corrected",
+      "summary": "The noun ἀγορή is in Il. 20.4/20.16 only; Book 4 uses the verb ἠγορόωντο. Apollo is not named in either range, Athena is silent, and the Book 4 outcome is breaking the truce, with Troy's sack conceded to Hera."
+    },
+    {
+      "row_id": "egyptian-ennead-tribunal",
+      "verdict": "corrected",
+      "summary": "Checked only against an unattributed web translation, so most fields are qualified. Geb is not named, 'eighty years' is the case's time before the tribunal, and the c. 1147 BCE date traces to an uncited Wikipedia infobox. psḏt and the papyrus locators still need Gardiner 1931 or Lichtheim."
+    },
+    {
+      "row_id": "roman-concilium-deorum",
+      "verdict": "corrected",
+      "summary": "Ovid writes concilium (1.167), presided over by Jupiter. The gods assent to destroying humankind (1.244–245), not to a flood. Jupiter chooses the flood alone afterwards (1.253–261), and the commoner deities are not seated."
+    },
+    {
+      "row_id": "norse-rokstolar",
+      "verdict": "corrected",
+      "summary": "rökstóla, regin and ginnheilög goð are confirmed at Vsp 6, 9, 23, 25 (Bellows 6, 9, 24, 25). The function should add st. 25 and read st. 23 as a tribute debate. Odin (Allfather) presides in Gylf. 14."
+    },
+    {
+      "row_id": "sumerian-enlil-ninlil-assembly",
+      "verdict": "corrected",
+      "summary": "The scene is in the Ki-ur (lines 54–64), not the Ekur. 'ukkin' and 'Anuna' do not occur in the composition; the actors are 'the fifty great gods and the seven gods who decide destinies', who have Enlil arrested; he leaves the city as ritually impure 'in accordance with what had been decided', with no narrated trial."
+    },
+    {
+      "row_id": "hindu-devasabha",
+      "verdict": "corrected",
+      "summary": "The council is Ganguli Sec. XVII = CE 1.15.5–13. devasabhā/sabhā does not occur in the critical text, which says mantrayitum … samāgamya. No presider is named: Nārāyaṇa addresses Brahmā."
+    }
+  ],
+  "observations": [
+    {
+      "row_id": "ugaritic-baal-cycle",
+      "field": "reference",
+      "old_value": "KTU 1.1–1.6",
+      "proposed_value": "KTU 1.1 IV 1–32 (El's feast and naming of Yam; fragmentary); KTU 1.2 I (Yam's envoys before the gods' assembly) and KTU 1.4 VI (seventy sons of Athirat) still to be checked in a named edition",
+      "state": "qualified",
+      "locator": "KTU 1.1 IV 1–32; KTU 1.3 V 3–4",
+      "note": "Whole-cycle reference is too broad. Only KTU 1.1 and 1.3 could be opened in a line-numbered edition. In 1.1 IV the scene is fragmentary: in l. 2–3 Steinberger notes Smith's restoration lp[ḫr.il] as 'only a guess' (n. 9). The key assembly passage (1.2 I) was not inspected.",
+      "source_keys": [
+        "ugt-ktu11"
+      ]
+    },
+    {
+      "row_id": "ugaritic-baal-cycle",
+      "field": "council_term",
+      "old_value": "puḫru môʿidi / pḫr mʿd (“the assembled council”); bn ilm (“sons of El”)",
+      "proposed_value": "pḫr mˁd (consonantal; locus KTU 1.2 I to be confirmed); bn ilm (locus to be confirmed). Drop the vocalized 'puḫru môʿidi' from the term column",
+      "state": "not_checked",
+      "locator": "KTU 1.2 I (not opened); KTU 1.3 V 18; KTU 1.1 IV 2–3 n. 9",
+      "note": "No open line-numbered edition of KTU 1.2 I was found, so pḫr mˁd is not confirmed. Ugaritic script is consonantal, so 'puḫru môʿidi' is a modern vocalization (Akkadian-style) and does not appear in the text. In the files inspected, bn . ilm occurs only in the reconstruction column at 1.3 V 18 ([d . bn . ilm . m]t, Mot), and pḫr only in Smith's tentative restoration at 1.1 IV 3.",
+      "source_keys": [
+        "ugt-ktu13"
+      ]
+    },
+    {
+      "row_id": "ugaritic-baal-cycle",
+      "field": "presiding_figure",
+      "old_value": "El, the aged father of the gods",
+      "proposed_value": "El (lṭpn il dpid) speaks and names Yam in the inspected scene; El's presidency over the assembly in KTU 1.2 I not checked",
+      "state": "qualified",
+      "locator": "KTU 1.1 IV 4, 12–14, 18",
+      "note": "In 1.1 IV 13–14 'wyˁn lṭpn il d[pid] … šm bny yw' (the Kindly One, El, answers: the name of my son is Yw); l. 4 'ṣḥ il' (El calls). This shows El speaking at a feast (drinking, l. 9–10). The text does not call him presiding, and 'the aged father' is an epithet that the inspected lines do not print.",
+      "source_keys": [
+        "ugt-ktu11"
+      ]
+    },
+    {
+      "row_id": "ugaritic-baal-cycle",
+      "field": "members",
+      "old_value": "The sons of El / the seventy sons of Athirat",
+      "proposed_value": "The gods / the sons of Athirat (bn aṯrt); 'seventy sons of Athirat' (šbˁm bn aṯrt, cited for KTU 1.4 VI) not checked",
+      "state": "qualified",
+      "locator": "KTU 1.3 V 3–4 (kilm // kbn . aṯrt); IV 48 (reconstruction)",
+      "note": "1.3 V 3–4 reads lytn . bt . lbˁl . kilm / [wḥẓ]r . kbn . aṯrt, which glosses as 'no house for Baal like the gods, [no court] like the sons of Athirat'. This attests 'sons of Athirat' as a group of gods. It is a set formula, not an assembly scene. The number seventy was not seen in any inspected file. 'Sons of El' (bn il/ilm) is not confirmed (see council_term).",
+      "source_keys": [
+        "ugt-ktu13"
+      ]
+    },
+    {
+      "row_id": "ugaritic-baal-cycle",
+      "field": "function",
+      "old_value": "El presides while the assembly debates and confers kingship (Baal, Yam, Mot contend)",
+      "proposed_value": "El names Yam (his son Yw) at a divine feast, and the restored text has Baal driven from his royal throne. That the assembly 'debates and confers kingship' is not shown in the inspected scope",
+      "state": "qualified",
+      "locator": "KTU 1.1 IV 13–15, 20, 24 (reconstruction gršnn . l[ksi . mlkh …])",
+      "note": "In the inspected text, kingship is conferred by El's naming speech, not by an assembly vote. The throne clause at l. 24 is Steinberger's reconstruction. The Baal–Yam–Mot contest spans the cycle, but the 1.2 I assembly and the 1.6 I Athtar episode were not inspected.",
+      "source_keys": [
+        "ugt-ktu11"
+      ]
+    },
+    {
+      "row_id": "ugaritic-baal-cycle",
+      "field": "woh_library",
+      "old_value": "https://www.wheelofheaven.world/library/baal-cycle-woh/",
+      "proposed_value": "https://www.wheelofheaven.world/library/baal-cycle-woh/",
+      "state": "attested",
+      "locator": "baal-cycle-woh chapters 1–2 = KTU 1.1–1.4",
+      "note": "The link resolves (HTTP 200). The project book covers KTU 1.1–1.4 only, so it has no text for 1.5–1.6. It is not used as evidence.",
+      "source_keys": []
+    },
+    {
+      "row_id": "hebrew-psalm-82",
+      "field": "reference",
+      "old_value": "Psalm 82:1",
+      "proposed_value": "Psalm 82:1–8 (assembly 82:1; indictment 82:2–5; sentence 82:6–7; appeal 82:8)",
+      "state": "attested",
+      "locator": "Ps 82:1-8",
+      "note": "Old reference (82:1) shows only the assembly; the judgment and the sentence the row describes are in vv. 2-7.",
+      "source_keys": [
+        "mam",
+        "jps1917"
+      ]
+    },
+    {
+      "row_id": "hebrew-psalm-82",
+      "field": "source_text",
+      "old_value": "Psalms",
+      "proposed_value": "Psalms",
+      "state": "attested",
+      "locator": "Ps 82:1 superscription",
+      "note": "\"A Psalm of Asaph\"; work correctly named.",
+      "source_keys": [
+        "mam"
+      ]
+    },
+    {
+      "row_id": "hebrew-psalm-82",
+      "field": "council_term",
+      "old_value": "ʿădat-ʾēl (“the divine council / assembly of El”)",
+      "proposed_value": "ʿădat-ʾēl (בַּעֲדַת־אֵל, “assembly of El / of God”; JPS 1917 “congregation of God”)",
+      "state": "qualified",
+      "locator": "Ps 82:1",
+      "note": "Term printed in MAM at 82:1. Rendering \"divine council / assembly of El\" is interpretive: JPS 1917 reads ʾēl as \"God\" (\"congregation of God\").",
+      "source_keys": [
+        "mam",
+        "jps1917"
+      ]
+    },
+    {
+      "row_id": "hebrew-psalm-82",
+      "field": "presiding_figure",
+      "old_value": "Elohim (God) takes his stand",
+      "proposed_value": "Elohim (God) takes his stand and judges in the midst of the ʾĕlōhîm",
+      "state": "attested",
+      "locator": "Ps 82:1",
+      "note": "ʾĕlōhîm niṣṣāb (\"God standeth\") ... bəqereb ʾĕlōhîm yišpōṭ. Standing, not enthroned.",
+      "source_keys": [
+        "mam",
+        "jps1917"
+      ]
+    },
+    {
+      "row_id": "hebrew-psalm-82",
+      "field": "members",
+      "old_value": "The ʾĕlōhîm (“gods”), judged for unjust rule and sentenced to “die like men”",
+      "proposed_value": "The ʾĕlōhîm (82:1, 6), also called bənê ʿelyôn (“sons of the Most High”, 82:6); sentenced to die kə-ʾādām (“like men”) and fall like one of the princes (82:7)",
+      "state": "qualified",
+      "locator": "Ps 82:1, 6-7",
+      "note": "Hebrew ʾĕlōhîm printed in both verses, but JPS 1917 renders it \"judges\" (v.1) and \"godlike beings\" (v.6); identity as gods is the reading, not the only translation.",
+      "source_keys": [
+        "mam",
+        "jps1917"
+      ]
+    },
+    {
+      "row_id": "hebrew-psalm-82",
+      "field": "function",
+      "old_value": "Judgment and demotion of the council gods",
+      "proposed_value": "Judgment and demotion of the council gods",
+      "state": "attested",
+      "locator": "Ps 82:2-7",
+      "note": "Indictment for unjust judgment (vv.2-4), sentence of mortality (vv.6-7). \"Demotion\" is a fair gloss of v.7.",
+      "source_keys": [
+        "mam",
+        "jps1917"
+      ]
+    },
+    {
+      "row_id": "hebrew-1kings-22",
+      "field": "reference",
+      "old_value": "1 Kings 22:19–23",
+      "proposed_value": "1 Kings 22:19–23",
+      "state": "attested",
+      "locator": "1 Kgs 22:19-23",
+      "note": "Scene runs exactly 22:19-23.",
+      "source_keys": [
+        "mam",
+        "jps1917"
+      ]
+    },
+    {
+      "row_id": "hebrew-1kings-22",
+      "field": "source_text",
+      "old_value": "1 Kings (Micaiah's vision)",
+      "proposed_value": "1 Kings (Micaiah's vision)",
+      "state": "attested",
+      "locator": "1 Kgs 22:19",
+      "note": "Micaiah speaking; correctly named.",
+      "source_keys": [
+        "mam"
+      ]
+    },
+    {
+      "row_id": "hebrew-1kings-22",
+      "field": "council_term",
+      "old_value": "ṣəbāʾ haššāmayim (“the host of heaven”)",
+      "proposed_value": "kol-ṣəbāʾ haššāmayim (וְכׇל־צְבָא הַשָּׁמַיִם, “all the host of heaven”)",
+      "state": "attested",
+      "locator": "1 Kgs 22:19",
+      "note": "Printed with kol (\"all\"); otherwise as given.",
+      "source_keys": [
+        "mam",
+        "jps1917"
+      ]
+    },
+    {
+      "row_id": "hebrew-1kings-22",
+      "field": "presiding_figure",
+      "old_value": "Yahweh, enthroned",
+      "proposed_value": "Yahweh, enthroned",
+      "state": "attested",
+      "locator": "1 Kgs 22:19",
+      "note": "yōšēb ʿal-kisʾô, \"sitting on His throne\"; Yahweh poses the question (v.20) and authorizes (v.22).",
+      "source_keys": [
+        "mam",
+        "jps1917"
+      ]
+    },
+    {
+      "row_id": "hebrew-1kings-22",
+      "field": "members",
+      "old_value": "The host of heaven, standing on his right and left",
+      "proposed_value": "The host of heaven, standing on his right and left",
+      "state": "attested",
+      "locator": "1 Kgs 22:19-21",
+      "note": "ʿōmēd ʿālāyw mîmînô ûmiśśəmōʾlô. Also \"the spirit\" (hārûaḥ, with article) who comes forth, v.21.",
+      "source_keys": [
+        "mam",
+        "jps1917"
+      ]
+    },
+    {
+      "row_id": "hebrew-1kings-22",
+      "field": "function",
+      "old_value": "Deliberation — a spirit volunteers as a “lying spirit” to entice Ahab",
+      "proposed_value": "Deliberation — a spirit volunteers as a “lying spirit” to entice Ahab",
+      "state": "attested",
+      "locator": "1 Kgs 22:20-22",
+      "note": "\"one said: On this manner; and another said: On that manner\" (v.20) - genuine deliberation; the spirit volunteers to be a rûaḥ šeqer.",
+      "source_keys": [
+        "mam",
+        "jps1917"
+      ]
+    },
+    {
+      "row_id": "hebrew-job-court",
+      "field": "reference",
+      "old_value": "Job 1:6; 2:1",
+      "proposed_value": "Job 1:6–12; 2:1–7",
+      "state": "attested",
+      "locator": "Job 1:6-12; 2:1-7",
+      "note": "Old value cites only the arrival verses; the exchange the row's function describes is 1:7-12 and 2:2-7 (2:2-7 checked in JPS 1917 only).",
+      "source_keys": [
+        "mam",
+        "jps1917"
+      ]
+    },
+    {
+      "row_id": "hebrew-job-court",
+      "field": "source_text",
+      "old_value": "Job (heavenly court)",
+      "proposed_value": "Job (heavenly court)",
+      "state": "attested",
+      "locator": "Job 1:6",
+      "note": "Correctly named.",
+      "source_keys": [
+        "mam"
+      ]
+    },
+    {
+      "row_id": "hebrew-job-court",
+      "field": "council_term",
+      "old_value": "bənê hāʾĕlōhîm (“the sons of God”)",
+      "proposed_value": "bənê hāʾĕlōhîm (בְּנֵי הָאֱלֹהִים, “the sons of God”)",
+      "state": "attested",
+      "locator": "Job 1:6; 2:1",
+      "note": "Printed with the article in both verses; JPS 1917 \"the sons of God\".",
+      "source_keys": [
+        "mam",
+        "jps1917"
+      ]
+    },
+    {
+      "row_id": "hebrew-job-court",
+      "field": "presiding_figure",
+      "old_value": "Yahweh",
+      "proposed_value": "Yahweh",
+      "state": "attested",
+      "locator": "Job 1:6-7",
+      "note": "They come \"to present themselves before (ʿal) YHWH\"; no throne mentioned; Yahweh questions and permits.",
+      "source_keys": [
+        "mam",
+        "jps1917"
+      ]
+    },
+    {
+      "row_id": "hebrew-job-court",
+      "field": "members",
+      "old_value": "The sons of God, with ha-śāṭān (“the Accuser”) among them",
+      "proposed_value": "The sons of God, with ha-śāṭān (“the Accuser”) among them",
+      "state": "qualified",
+      "locator": "Job 1:6; 2:1",
+      "note": "haśśāṭān \"came also among them\" is printed; \"the Accuser\" is an interpretive gloss of the articled noun (JPS 1917 renders it as a name, \"Satan\").",
+      "source_keys": [
+        "mam",
+        "jps1917"
+      ]
+    },
+    {
+      "row_id": "hebrew-job-court",
+      "field": "function",
+      "old_value": "The court presents itself; the wager over Job",
+      "proposed_value": "The court presents itself before Yahweh; the Satan challenges Job's integrity and Yahweh permits him to test Job",
+      "state": "qualified",
+      "locator": "Job 1:6-12; 2:2-6",
+      "note": "No wager is stated: the Satan challenges (1:9-11) and Yahweh grants power over Job's possessions (1:12). \"Wager\" is interpretation.",
+      "source_keys": [
+        "mam",
+        "jps1917"
+      ]
+    },
+    {
+      "row_id": "hebrew-deut-32",
+      "field": "reference",
+      "old_value": "Deuteronomy 32:8–9",
+      "proposed_value": "Deuteronomy 32:8–9",
+      "state": "attested",
+      "locator": "Deut 32:8-9",
+      "note": "",
+      "source_keys": [
+        "mam",
+        "jps1917"
+      ]
+    },
+    {
+      "row_id": "hebrew-deut-32",
+      "field": "source_text",
+      "old_value": "Deuteronomy (Song of Moses)",
+      "proposed_value": "Deuteronomy (Song of Moses)",
+      "state": "attested",
+      "locator": "Deut 32:8-9",
+      "note": "Song of Moses; correctly named.",
+      "source_keys": [
+        "mam"
+      ]
+    },
+    {
+      "row_id": "hebrew-deut-32",
+      "field": "council_term",
+      "old_value": "bənê ʾĕlōhîm / bənê ʾēl (“sons of God,” LXX & 4QDeut)",
+      "proposed_value": "bənê ʾĕlōhîm (“sons of God”) in 4QDeutj as reported by Hendel; LXX: υἱῶν θεοῦ adopted by the Göttingen edition (reported), majority text ἀγγέλων θεοῦ; MT reads bənê yiśrāʾēl (בְּנֵי יִשְׂרָאֵל)",
+      "state": "qualified",
+      "locator": "Deut 32:8",
+      "note": "MT inspected: בני ישראל, JPS 1917 \"children of Israel\". 4QDeutj reading and Göttingen υἱῶν θεοῦ known only from secondary discussion; DJD XIV not opened. The common LXX text inspected prints ἀγγέλων Θεοῦ. \"bənê ʾēl\" not supported by any inspected source - it is a scholarly reconstruction; drop it or label as conjecture.",
+      "source_keys": [
+        "mam",
+        "hendel-bar",
+        "lxx-ellopos",
+        "wevers-via-search"
+      ]
+    },
+    {
+      "row_id": "hebrew-deut-32",
+      "field": "presiding_figure",
+      "old_value": "ʿElyon (the Most High) apportions",
+      "proposed_value": "ʿElyon (the Most High) apportions",
+      "state": "attested",
+      "locator": "Deut 32:8",
+      "note": "bəhanḥēl ʿelyôn gôyim, \"When the Most High gave to the nations their inheritance\". Whether ʿElyon is distinct from Yahweh (v.9) is interpretive; row does not assert it.",
+      "source_keys": [
+        "mam",
+        "jps1917"
+      ]
+    },
+    {
+      "row_id": "hebrew-deut-32",
+      "field": "members",
+      "old_value": "The sons of God — one set over each nation; Yahweh's allotment is Israel",
+      "proposed_value": "In the 4QDeutj / Göttingen-LXX reading, the sons of God, by whose number the peoples' borders are fixed; Yahweh's portion is his people, Jacob (MT) / Israel (LXX v.9)",
+      "state": "qualified",
+      "locator": "Deut 32:8-9",
+      "note": "Under MT there are no divine members (\"children of Israel\"). \"One set over each nation\" is not stated in any inspected text; it is an inference from \"according to the number of\". MT v.9 names Jacob; LXX names Ἰσραήλ.",
+      "source_keys": [
+        "mam",
+        "jps1917",
+        "lxx-ellopos",
+        "hendel-bar"
+      ]
+    },
+    {
+      "row_id": "hebrew-deut-32",
+      "field": "function",
+      "old_value": "Division of the nations among the council members",
+      "proposed_value": "Allotment of the nations' borders according to the number of the sons of God (non-MT reading)",
+      "state": "qualified",
+      "locator": "Deut 32:8",
+      "note": "Distribution is attested; that the council members receive the nations depends on the variant and an inference.",
+      "source_keys": [
+        "mam",
+        "hendel-bar"
+      ]
+    },
+    {
+      "row_id": "hebrew-isaiah-6",
+      "field": "reference",
+      "old_value": "Isaiah 6:1–8",
+      "proposed_value": "Isaiah 6:1–8",
+      "state": "attested",
+      "locator": "Isa 6:1-8",
+      "note": "Commission speech continues to 6:13; 6:1-8 covers the scene.",
+      "source_keys": [
+        "mam",
+        "jps1917"
+      ]
+    },
+    {
+      "row_id": "hebrew-isaiah-6",
+      "field": "source_text",
+      "old_value": "Isaiah (throne vision)",
+      "proposed_value": "Isaiah (throne vision)",
+      "state": "attested",
+      "locator": "Isa 6:1",
+      "note": "",
+      "source_keys": [
+        "mam"
+      ]
+    },
+    {
+      "row_id": "hebrew-isaiah-6",
+      "field": "council_term",
+      "old_value": "The seraphim before the throne",
+      "proposed_value": "No council term; śərāpîm ʿōmədîm mimmaʿal lô (שְׂרָפִים עֹמְדִים מִמַּעַל לוֹ, “seraphim standing above him”)",
+      "state": "qualified",
+      "locator": "Isa 6:2",
+      "note": "Seraphim stand \"above Him\" (JPS 1917), not \"before the throne\"; they praise (v.3) and one purifies the prophet (vv.6-7). They are never addressed or described as deliberating; council status is interpretive.",
+      "source_keys": [
+        "mam",
+        "jps1917"
+      ]
+    },
+    {
+      "row_id": "hebrew-isaiah-6",
+      "field": "presiding_figure",
+      "old_value": "Yahweh, “high and lifted up”",
+      "proposed_value": "ʾĂdōnāy sitting on a throne “high and lifted up” (6:1); “the King, YHWH of hosts” (6:5)",
+      "state": "qualified",
+      "locator": "Isa 6:1, 5",
+      "note": "Text names ʾĂdōnāy in v.1 (Yahweh in v.3, 5). \"High and lifted up\" (rām wənissāʾ) qualifies the throne in JPS 1917 and the accents; the row attaches it to Yahweh.",
+      "source_keys": [
+        "mam",
+        "jps1917"
+      ]
+    },
+    {
+      "row_id": "hebrew-isaiah-6",
+      "field": "members",
+      "old_value": "The seraphim",
+      "proposed_value": "The seraphim (6:2, 6); no other attendants named",
+      "state": "attested",
+      "locator": "Isa 6:2, 6",
+      "note": "",
+      "source_keys": [
+        "mam",
+        "jps1917"
+      ]
+    },
+    {
+      "row_id": "hebrew-isaiah-6",
+      "field": "function",
+      "old_value": "Commissioning — “Whom shall I send, and who will go for us?” (the council plural)",
+      "proposed_value": "Commissioning — “Whom shall I send, and who will go for us (lānû)?” (6:8); the first-person plural is read by some as addressed to a council",
+      "state": "qualified",
+      "locator": "Isa 6:8",
+      "note": "לָנוּ (\"for us\") is attested wording; \"council plural\" is an interpretation, not stated in the text.",
+      "source_keys": [
+        "mam",
+        "jps1917"
+      ]
+    },
+    {
+      "row_id": "babylonian-enuma-elish",
+      "field": "reference",
+      "old_value": "Tablets II–VI",
+      "proposed_value": "Tablet III 1–66, 109–138 (Anšar sends his message; Marduk's condition; the gods gather before Anšar and decree his fate); IV 1–34 (dais, kingship, insignia, weapon); Tablet VI assemblies (Qingu's trial, Esagila banquet, bow, names): locators to be set from a modern edition",
+      "state": "qualified",
+      "locator": "King 1902, III 51–66, 109–138; IV 1–34 (King's numbering)",
+      "note": "Narrowed from 'Tablets II–VI'. The line numbers are King's. Tablet VI is almost entirely missing in King 1902, and eBL (API timeout) and the Lambert translation hosts were unreachable, so modern-edition locators for II and VI are not given.",
+      "source_keys": [
+        "king-1902"
+      ]
+    },
+    {
+      "row_id": "babylonian-enuma-elish",
+      "field": "council_term",
+      "old_value": "puḫur ilāni (“the assembly of the gods”)",
+      "proposed_value": "puḫru 'assembly' (III 60/118, IV 15 ina puḫri); ina puḫur ilāni 'in the assembly of the gods' (Tiamat's speech to Kingu, I c. 136 and repeats; Anu and the bow, King's Tablet V fragment; VII 13); assembly hall Upšukkinakku (III 61)",
+      "state": "qualified",
+      "locator": "King I c. 134–138; III 60–61; IV 15; King's Tablet V fragment (K. 3,449[a], OCR); VII 13",
+      "note": "The forms are confirmed only through King's 1902 transliteration, read through OCR. 'puḫur ilāni' is attested, but its first uses are for Tiamat's counter-assembly that exalts Kingu. In the Anšar/Marduk scenes King prints puḫru/puḫri. The modern-edition wording was not checked.",
+      "source_keys": [
+        "king-1902"
+      ]
+    },
+    {
+      "row_id": "babylonian-enuma-elish",
+      "field": "presiding_figure",
+      "old_value": "Anšar, then Marduk (elected)",
+      "proposed_value": "Anšar (the gods are summoned and 'enter before Anšar', III 131); the gods enthrone Marduk, who is acclaimed king (IV 29); Marduk's later presiding (VI) not checked",
+      "state": "qualified",
+      "locator": "King III 1–14, 129–138; IV 28–29",
+      "note": "'Elected' compresses IV 1–29. The gods set up a dais and test his word, and then 'Marduk is king' (Marduk-ma šarru, IV 29). In the King fragment, Anu raises the bow ina puḫur ilāni. That fragment is VI in modern editions and was not checked there.",
+      "source_keys": [
+        "king-1902"
+      ]
+    },
+    {
+      "row_id": "babylonian-enuma-elish",
+      "field": "members",
+      "old_value": "The great gods (the Anunnaki)",
+      "proposed_value": "The great gods 'who decree fate', including Laḫmu and Laḫamu, gathered before Anšar (the Igigi lament, III 126); designation of the assembly as 'the Anunnaki' (VI) not checked",
+      "state": "qualified",
+      "locator": "King III 125–132",
+      "note": "King III 130: 'the great gods, all of them, who decree [fate]'. In the inspected Anšar scenes 'Anunnaki' names Tiamat's host in the Kingu speech (I c. 137), not the assembly that empowers Marduk.",
+      "source_keys": [
+        "king-1902"
+      ]
+    },
+    {
+      "row_id": "babylonian-enuma-elish",
+      "field": "function",
+      "old_value": "The assembly grants Marduk kingship and the Tablet of Destinies to fight Tiamat",
+      "proposed_value": "The assembly decrees Marduk's fate and gives him kingship over the whole universe, with throne, sceptre, palû and an unrivalled weapon, to fight Tiamat. Marduk later takes the Tablet(s) of Destinies from Kingu; the assembly does not grant them",
+      "state": "qualified",
+      "locator": "King III 136–138; IV 14, 29–31; Tablet of Destinies: I c. 137, IV c. 119–122",
+      "note": "Correction: Tiamat gives the Tablet(s) of Destiny to Kingu (King I c. 137), and Marduk seizes them after the battle (King IV c. 119–122, p. 75). The assembly gives kingship (šarrūtu kiššat kal gimrēti, IV 14) and the throne, sceptre and palû (IV 30) and the weapon (IV 31). Line numbers are King's and approximate where the OCR breaks.",
+      "source_keys": [
+        "king-1902"
+      ]
+    },
+    {
+      "row_id": "babylonian-enuma-elish",
+      "field": "woh_library",
+      "old_value": "",
+      "proposed_value": "https://www.wheelofheaven.world/library/enuma-elish/",
+      "state": "qualified",
+      "locator": "library/enuma-elish (King 1902 OCR, partial)",
+      "note": "A project library page exists (HTTP 200). It is a partial King 1902 extraction that lacks Tablet III, the main assembly tablet. Linking it is the editor's choice.",
+      "source_keys": []
+    },
+    {
+      "row_id": "babylonian-atrahasis",
+      "field": "reference",
+      "old_value": "Tablets I–III",
+      "proposed_value": "I 7–18, 101–144, 172–226 (offices; assembly on the Igigi strike; creation of man); II Seg. A 5–15, E 9–16, E 67–74, G 49q–u, G 63–97, H 1–28; III C1 iii 36′–54′, v 39″–45″, vi 5–27, vi 41′–44′",
+      "state": "attested",
+      "locator": "SEAL I; SEAL II (synoptic segments); SEAL III Sippar C1",
+      "note": "Reference narrowed to the located passage. The assembly scenes are located in SEAL. II G 49q–u (flood oath) survives only in X-MB, a Middle Babylonian witness. These locators match the project's flood procedural comparison (A1/A2).",
+      "source_keys": [
+        "seal-atra-i"
+      ]
+    },
+    {
+      "row_id": "babylonian-atrahasis",
+      "field": "council_term",
+      "old_value": "puḫrum (“the assembly”)",
+      "proposed_value": "puḫrum ('assembly'; OB pu-úḫ-ri(-im), e.g. ina puḫri īpulū anna, I 218; ana puḫrim ša ilī, II G 64/66; III C1 iii 36′, vi 27); later witnesses ina puḫur kala ilī (X-MB, II G 49r), Enlil ištakan puḫuršu (NA, II A 5)",
+      "state": "attested",
+      "locator": "SEAL I A iv 10; SEAL II C0 i 8–12, X-MB rev. i 45, S+T+-NA iv 37; SEAL III C1 iii 36′, vi 27",
+      "note": "The term is confirmed in printed transliteration at several loci. The bound OB form is pu-úḫ-ri-im. 'ina puḫur kala ilī' is Middle Babylonian.",
+      "source_keys": [
+        "seal-atra-ii"
+      ]
+    },
+    {
+      "row_id": "babylonian-atrahasis",
+      "field": "presiding_figure",
+      "old_value": "Enlil",
+      "proposed_value": "Anu is king (šarru); Enlil, their counsellor (mālikšunu), convenes and addresses the assembly; Anu swears first in the flood oath",
+      "state": "qualified",
+      "locator": "SEAL I 7–8 (A i 7–8: a-nu a-bu-šu-nu šarru / māliksunu qurādu Enlil); I 101–104; II A 5–6, E 67–68, G 49q–u",
+      "note": "The text does not give Enlil the office of presiding. Anu sits as king of heaven, and 'Enlil arose and the case was presented' (I 101–104). Enlil summons the assembly (II A 5 var., E 67) and calls for the oath (G 49q–s), and 'Anu had sworn first; then Enlil swore, his sons with him' (G 49t–u, X-MB). In III Nintu blames both Anu ('who calls the shots', C1 iii 51′, v 39″) and Enlil.",
+      "source_keys": [
+        "seal-atra-i"
+      ]
+    },
+    {
+      "row_id": "babylonian-atrahasis",
+      "field": "members",
+      "old_value": "The great gods; Enki (Ea) dissents",
+      "proposed_value": "The great gods / the great Anunnaki (Anu, Enlil, Enki/Ea, Ninurta, Ennugi named in office; Enlil's sons swear); Nintu/Mami speaks in the assembly; Enki (Ea) objects to the oath",
+      "state": "qualified",
+      "locator": "SEAL I 5–10, 101–103, 198–220; II G 49u, H 9–16; III C1 iii 36′–41′",
+      "note": "'Enki dissents' is attested only in part. Someone, apparently Enlil since G 94 introduces his speech before the H 1–8 gap, proposes to bind 'prince Enki' by oath (H 9–10). Enki asks 'Why will you bind me with an oath? … Can I lay my hands on my own people?' (H 13–14). The lines are restored in B vii and D vii.",
+      "source_keys": [
+        "seal-atra-ii"
+      ]
+    },
+    {
+      "row_id": "babylonian-atrahasis",
+      "field": "function",
+      "old_value": "The assembly decrees the flood under oath — a decision Enki argues against",
+      "proposed_value": "The assembly decides the human-creation plan (I 218 'Yes!'), then a series of plagues (II), and then the flood under oath (II G 49q–u, X-MB). Enki contests the oath before the flood (II H 9–16, restored) and criticizes the unconsidered flood afterwards (III C1 vi 18–26)",
+      "state": "qualified",
+      "locator": "SEAL I 218–224; II E 11–14, G 49q–u, H 9–16; III C1 vi 7–8, 18–26",
+      "note": "The baseline compresses the timing. The pre-flood oath is in the MB witness, and III C1 vi 7–8 recalls 'All we great Anunnaki decided together on oath'. Enki's objection is restoration-dependent. His later protest comes after the flood.",
+      "source_keys": [
+        "seal-atra-iii"
+      ]
+    },
+    {
+      "row_id": "babylonian-atrahasis",
+      "field": "woh_library",
+      "old_value": "https://www.wheelofheaven.world/library/atrahasis-woh/",
+      "proposed_value": "https://www.wheelofheaven.world/library/atrahasis-woh/",
+      "state": "qualified",
+      "locator": "atrahasis-woh; see procedural-comparison 'Passage attribution requiring follow-up'",
+      "note": "The link resolves (HTTP 200). The project's locators (ATRA-WOH-III:vi) do not align with SEAL C1 numbering, so cite SEAL locators in the dataset, not the project's.",
+      "source_keys": [
+        "flood-proc-cmp"
+      ]
+    },
+    {
+      "row_id": "second-temple-watchers",
+      "field": "reference",
+      "old_value": "1 Enoch 6–16; 14",
+      "proposed_value": "1 Enoch 9:1–11; 10:1–16; 12:1–16:4 (throne vision 14:8–25)",
+      "state": "attested",
+      "locator": "Charles pp. 20-37",
+      "note": "\"6-16; 14\" overlaps itself; chs 6-8 narrate the descent, not the court. Court scenes: archangels' petition ch. 9, sentences ch. 10, Enoch's commission and throne vision chs 12-16. 10:5-16 and 12-13 only partly inspected.",
+      "source_keys": [
+        "charles1912"
+      ]
+    },
+    {
+      "row_id": "second-temple-watchers",
+      "field": "source_text",
+      "old_value": "Book of the Watchers (1 Enoch)",
+      "proposed_value": "Book of the Watchers (1 Enoch)",
+      "state": "attested",
+      "locator": "1 Enoch 1-36 (Charles Sect. I)",
+      "note": "",
+      "source_keys": [
+        "charles1912"
+      ]
+    },
+    {
+      "row_id": "second-temple-watchers",
+      "field": "council_term",
+      "old_value": "The “Holy Ones” / the heavenly host before the throne",
+      "proposed_value": "“The holy ones (of heaven)” (9:3; 14:23, 25); “ten thousand times ten thousand” before him (14:22)",
+      "state": "qualified",
+      "locator": "1 Enoch 9:3; 14:22-25 (Charles pp. 20, 34-35)",
+      "note": "English of Charles' translation; 9:3 phrase is in Charles' half-brackets (text-critical marking; lost in Greek through homoioteleuton per note). Ethiopic/Greek terms not checked. Note 14:22: \"yet He needed no counsellor\" - the text itself denies counsel.",
+      "source_keys": [
+        "charles1912"
+      ]
+    },
+    {
+      "row_id": "second-temple-watchers",
+      "field": "presiding_figure",
+      "old_value": "The Great Glory / the Lord of Spirits",
+      "proposed_value": "The Great Glory (14:20); the Most High, the Holy and Great One (10:1); the Holy Great One (14:1)",
+      "state": "qualified",
+      "locator": "1 Enoch 10:1; 14:1, 20 (Charles pp. 22, 31, 34); intro p. 66",
+      "note": "\"Great Glory\" attested at 14:20 (and in a Greek fragment at 9:3 per Charles' note). \"Lord of Spirits\" does not belong here: Charles p. 66 lists it among divine names \"found only in 37-71\" (Similitudes). Remove it.",
+      "source_keys": [
+        "charles1912"
+      ]
+    },
+    {
+      "row_id": "second-temple-watchers",
+      "field": "members",
+      "old_value": "The Holy Ones; the Watchers (rebel members who descend)",
+      "proposed_value": "The holy ones before the throne; the archangels Michael, Uriel, Raphael and Gabriel (9:1); the Watchers of heaven (14:1; 15:2), who left the high, holy and eternal heaven (15:3)",
+      "state": "attested",
+      "locator": "1 Enoch 9:1; 14:1, 23; 15:2-3",
+      "note": "Archangels added as named members. \"Watchers of heaven\" at 15:2 is half-bracketed in Charles.",
+      "source_keys": [
+        "charles1912"
+      ]
+    },
+    {
+      "row_id": "second-temple-watchers",
+      "field": "function",
+      "old_value": "The heavenly court; the archangels petition; judgment on the Watchers",
+      "proposed_value": "Petition by the archangels to the Most High (9:1–11); sentences on Azazel, Semjaza and the Watchers (10); Watchers' petition via Enoch rejected (13–16)",
+      "state": "qualified",
+      "locator": "1 Enoch 9-10; 14:1; 15:1-4",
+      "note": "Court and judgment attested. No deliberation: God decides alone and \"needed no counsellor\" (14:22). \"Heavenly court\" fits; \"council\" overstates.",
+      "source_keys": [
+        "charles1912"
+      ]
+    },
+    {
+      "row_id": "anatolian-song-of-emergence",
+      "field": "reference",
+      "old_value": "CTH 344",
+      "proposed_value": "CTH 344, Expl. A (KUB 33.120 + …) Vs. I 1–7 (proem: the primeval gods are called to listen); Vs. I 8 ff. (§§2–6: Alalu → Anu → Kumarbi succession)",
+      "state": "attested",
+      "locator": "hethiter.net CTH 344 §§1–6; A Vs. I 1–25+",
+      "note": "Reference narrowed to the located passage. Running line 9 ('Formerly, in earlier years, Alalu was king in heaven') = A Vs. I 8. Running line 25 (Anu's nine years) = A Vs. I 18.",
+      "source_keys": [
+        "hpm-cth344"
+      ]
+    },
+    {
+      "row_id": "anatolian-song-of-emergence",
+      "field": "council_term",
+      "old_value": "The gods of heaven, in dynastic succession",
+      "proposed_value": "No council or assembly term in the preserved text; the primeval gods (karuiliyaš DINGIR.MEŠ-iš) are addressed as an audience ('may they listen')",
+      "state": "not_stated",
+      "locator": "CTH 344 §§1–2 (A Vs. I 1–7); full translation searched",
+      "note": "'The gods of heaven, in dynastic succession' describes the plot, not a council term. The proem is an invocation, not a deliberating body.",
+      "source_keys": [
+        "hpm-cth344"
+      ]
+    },
+    {
+      "row_id": "anatolian-song-of-emergence",
+      "field": "presiding_figure",
+      "old_value": "The reigning sky-king (Alalu → Anu → Kumarbi → Teshub)",
+      "proposed_value": "The reigning king in heaven: Alalu, then Anu, then Kumarbi (each served by the next); the Storm-god's kingship is only fragmentarily preserved",
+      "state": "qualified",
+      "locator": "CTH 344 §§2–4 (A Vs. I 8–25); §§19''–20'' (A Rs. III)",
+      "note": "No one presides over an assembly. Each king sits on the throne while the next god bows and serves drink, and kingship passes by combat. Teshub's accession is fragmentary (§19'' 'Make [ … ] king!'; §20'' 'who now fights against me?').",
+      "source_keys": [
+        "hpm-cth344"
+      ]
+    },
+    {
+      "row_id": "anatolian-song-of-emergence",
+      "field": "members",
+      "old_value": "The divine dynasty",
+      "proposed_value": "The divine dynasty (Alalu, Anu, Kumarbi, the Storm-god), with Ea and other gods as actors in fragmentary scenes",
+      "state": "qualified",
+      "locator": "CTH 344 §§2–6, 14', 19''–21''",
+      "note": "This is not an assembly membership.",
+      "source_keys": [
+        "hpm-cth344"
+      ]
+    },
+    {
+      "row_id": "anatolian-song-of-emergence",
+      "field": "function",
+      "old_value": "The succession of divine kingship in heaven",
+      "proposed_value": "The succession of kingship in heaven by combat (Alalu deposed by Anu, Anu by Kumarbi), with later fragmentary plotting over Kumarbi and the Storm-god. No council deliberation is attested",
+      "state": "qualified",
+      "locator": "CTH 344 §§3–6 (A Vs. I 12 ff.); §§19''–21'' (A Rs. III 1′–30′)",
+      "note": "In §19'' a 'we' voice says 'we destroy …' and 'Make [ … ] king!', but the speakers and setting are lost. These lines do not establish a council.",
+      "source_keys": [
+        "hpm-cth344"
+      ]
+    },
+    {
+      "row_id": "anatolian-song-of-emergence",
+      "field": "woh_library",
+      "old_value": "",
+      "proposed_value": "",
+      "state": "not_stated",
+      "locator": "",
+      "note": "There is no project library book, so the empty value stands.",
+      "source_keys": []
+    },
+    {
+      "row_id": "mormon-council-in-heaven",
+      "field": "reference",
+      "old_value": "Moses 4:1–4; Abraham 3:22–28",
+      "proposed_value": "Moses 4:1–4; Abraham 3:22–28; cf. D&C 121:32",
+      "state": "attested",
+      "locator": "Moses 4:1-4; Abr 3:22-28; D&C 121:32",
+      "note": "Existing ranges show the scene; D&C 121:32 is the scriptural source of \"Council of the Eternal God\".",
+      "source_keys": [
+        "lds-scriptures"
+      ]
+    },
+    {
+      "row_id": "mormon-council-in-heaven",
+      "field": "source_text",
+      "old_value": "Book of Moses / Book of Abraham",
+      "proposed_value": "Book of Moses / Book of Abraham",
+      "state": "attested",
+      "locator": "Moses 4; Abraham 3",
+      "note": "Pearl of Great Price.",
+      "source_keys": [
+        "lds-scriptures"
+      ]
+    },
+    {
+      "row_id": "mormon-council-in-heaven",
+      "field": "council_term",
+      "old_value": "The “council in heaven”; the “noble and great ones”",
+      "proposed_value": "No council term in Moses 4 or Abraham 3; “the noble and great ones” (Abr 3:22); scripture elsewhere: “the Council of the Eternal God of all other gods before this world was” (D&C 121:32); “council in heaven” is a later teaching / study-aid label",
+      "state": "qualified",
+      "locator": "Abr 3:22; D&C 121:32",
+      "note": "\"Council\" does not occur in the scripture text of Moses 4 or Abraham 3; \"Council in Heaven\" appears only as a Topical Guide cross-reference in footnotes. Joseph Smith's sermons not inspected.",
+      "source_keys": [
+        "lds-scriptures"
+      ]
+    },
+    {
+      "row_id": "mormon-council-in-heaven",
+      "field": "presiding_figure",
+      "old_value": "God the Father",
+      "proposed_value": "God (Abr 3:23, “the Lord”, 3:27); “the Lord God”, addressed as “Father” (Moses 4:1–2)",
+      "state": "attested",
+      "locator": "Abr 3:23, 27; Moses 4:1-2",
+      "note": "\"God the Father\" is a fair synthesis.",
+      "source_keys": [
+        "lds-scriptures"
+      ]
+    },
+    {
+      "row_id": "mormon-council-in-heaven",
+      "field": "members",
+      "old_value": "The premortal spirits / the noble and great ones",
+      "proposed_value": "The intelligences / spirits organized before the world, among them the noble and great ones (Abr 3:22–23); one “like unto God” (3:24); the Beloved Son and Satan (Moses 4:1–2)",
+      "state": "attested",
+      "locator": "Abr 3:22-24; Moses 4:1-2",
+      "note": "",
+      "source_keys": [
+        "lds-scriptures"
+      ]
+    },
+    {
+      "row_id": "mormon-council-in-heaven",
+      "field": "function",
+      "old_value": "The premortal council debates the plan and the choice of a Redeemer",
+      "proposed_value": "The Lord asks “Whom shall I send?”; two volunteer and the first is chosen; Satan, offering to redeem all mankind for God's honor, rebels and is cast down",
+      "state": "qualified",
+      "locator": "Abr 3:27-28; Moses 4:1-4",
+      "note": "Text shows offer and choice, not a debate; \"choosing of a Redeemer\" is the chapter heading's (editorial) wording. Moses 4:1 has Satan offer to \"redeem all mankind\".",
+      "source_keys": [
+        "lds-scriptures"
+      ]
+    },
+    {
+      "row_id": "greek-olympian-agora",
+      "field": "reference",
+      "old_value": "Iliad 4.1–72; 20.4–30",
+      "proposed_value": "Iliad 4.1–72; 20.4–30",
+      "state": "attested",
+      "locator": "Il. 4.1–72; 20.4–30",
+      "note": "Both scenes are divine assemblies. 4.1–72 runs from the session to Zeus's order to Athena. 20.4–30 runs from Themis's summons to Zeus's speech.",
+      "source_keys": [
+        "monro-iliad"
+      ]
+    },
+    {
+      "row_id": "greek-olympian-agora",
+      "field": "council_term",
+      "old_value": "ἀγορή (agorḗ, ‘assembly of the gods’)",
+      "proposed_value": "ἀγορή (θεοὺς ἀγορὴν δὲ καλέσσαι, Il. 20.4, 20.16); in Book 4 the verb ἠγορόωντο ‘were holding assembly’ (4.1)",
+      "state": "qualified",
+      "locator": "Il. 4.1; 20.4; 20.16",
+      "note": "The noun ἀγορή occurs at 20.4 and 20.16, not in 4.1–72. Book 4 uses the verb ἠγορόωντο (Murray: 'were holding assembly'). θόωκος is not in either passage.",
+      "source_keys": [
+        "monro-iliad"
+      ]
+    },
+    {
+      "row_id": "greek-olympian-agora",
+      "field": "presiding_figure",
+      "old_value": "Zeus",
+      "proposed_value": "Zeus",
+      "state": "attested",
+      "locator": "Il. 4.1 (πὰρ Ζηνὶ καθήμενοι); 20.4, 20.15–21",
+      "note": "Book 4: the gods sit beside Zeus and he opens the question. Book 20: Zeus has Themis summon the assembly and states its purpose.",
+      "source_keys": [
+        "monro-iliad"
+      ]
+    },
+    {
+      "row_id": "greek-olympian-agora",
+      "field": "members",
+      "old_value": "Hera, Athena, Poseidon, Apollo, Themis, and the Olympian gods",
+      "proposed_value": "Book 4: Zeus, Hera, Athena (silent), Hebe pouring nectar, the gods; Book 20: Themis (summoner), Poseidon, all rivers except Oceanus, the nymphs, the gods",
+      "state": "qualified",
+      "locator": "Il. 4.1–2, 4.20–24; 20.4–15",
+      "note": "Apollo is not named in either cited range. Aphrodite is only mentioned by Zeus (4.10). Book 20 says no river except Oceanus and no nymph stayed away.",
+      "source_keys": [
+        "monro-iliad"
+      ]
+    },
+    {
+      "row_id": "greek-olympian-agora",
+      "field": "function",
+      "old_value": "The gods sit in assembly; Zeus raises whether to end or renew the war, Hera and Athena argue, and the destruction of Troy is resolved",
+      "proposed_value": "Book 4: Zeus asks whether to renew the war or make peace (4.14–19). Hera objects while Athena stays silent (4.22–24). Zeus concedes Troy's sack to Hera (4.37). On her proposal he sends Athena to make the Trojans break the oaths (4.62–72). Book 20: Zeus releases the gods to join either side (20.22–25)",
+      "state": "qualified",
+      "locator": "Il. 4.14–72; 20.20–30",
+      "note": "Only Hera argues; Athena 'held her peace' (Murray). The immediate outcome is breaking the truce, with the sack conceded in principle. The Book 20 assembly is not covered by the old value.",
+      "source_keys": [
+        "monro-iliad"
+      ]
+    },
+    {
+      "row_id": "egyptian-ennead-tribunal",
+      "field": "reference",
+      "old_value": "Chester Beatty I (20th Dynasty, c. 1147 BCE)",
+      "proposed_value": "P. Chester Beatty I, recto (Contendings); date: 20th Dynasty, reign of Ramesses V per secondary report; specific page/line locators still to be supplied from Gardiner 1931",
+      "state": "qualified",
+      "locator": "",
+      "note": "'c. 1147 BCE' matches the uncited Wikipedia infobox ('c. 1147 BC'; text: reign of Ramesses V, 1149–1145 BCE, no citation). The hr-st transcription project README gives 'around 1160 BCE'. No named edition was opened to confirm the reign attribution. The whole-papyrus reference also needs page/line locators.",
+      "source_keys": [
+        "wikipedia-contendings"
+      ]
+    },
+    {
+      "row_id": "egyptian-ennead-tribunal",
+      "field": "source_text",
+      "old_value": "The Contendings of Horus and Seth (Papyrus Chester Beatty I)",
+      "proposed_value": "The Contendings of Horus and Seth (Papyrus Chester Beatty I)",
+      "state": "not_checked",
+      "locator": "",
+      "note": "Identification is standard but no edition was opened: Gardiner 1931, Lichtheim AEL II and Simpson/Wente were not accessible.",
+      "source_keys": []
+    },
+    {
+      "row_id": "egyptian-ennead-tribunal",
+      "field": "council_term",
+      "old_value": "the Great Ennead — psḏt (‘the Nine’)",
+      "proposed_value": "the Ennead / the Great Ennead (translation); psḏt not confirmed at the passage",
+      "state": "qualified",
+      "locator": "",
+      "note": "The translation uses 'the Ennead' (47 times) and 'the Great Ennead' (5 times). The Egyptian psḏt was not seen in any edition printing the text, so it is unconfirmed.",
+      "source_keys": [
+        "reshafim-contendings"
+      ]
+    },
+    {
+      "row_id": "egyptian-ennead-tribunal",
+      "field": "presiding_figure",
+      "old_value": "Re-Horakhty (the Lord of All)",
+      "proposed_value": "The Universal Lord (sun-god), also addressed as Pre-Harakhti and Atum",
+      "state": "qualified",
+      "locator": "",
+      "note": "The inspected translation says 'Universal Lord', not 'Lord of All' (Lichtheim's wording could not be checked). The same presiding god is called Pre-Harakhti and Atum. The Ennead sometimes acts against him (he asks why they exercise 'authority alone').",
+      "source_keys": [
+        "reshafim-contendings"
+      ]
+    },
+    {
+      "row_id": "egyptian-ennead-tribunal",
+      "field": "members",
+      "old_value": "Thoth, Isis, Geb, Neith, Atum, Shu",
+      "proposed_value": "Shu, Thoth, Onuris, Banebdjedet, Isis (litigant's mother) and the Ennead; Neith and Osiris are consulted by letter",
+      "state": "qualified",
+      "locator": "",
+      "note": "Geb is not named in the story, only in the web page's glossary note on the Heliopolitan Ennead. Neith takes part only by letter, from Sais. Atum is a name of the presiding god, not a separate member.",
+      "source_keys": [
+        "reshafim-contendings"
+      ]
+    },
+    {
+      "row_id": "egyptian-ennead-tribunal",
+      "field": "function",
+      "old_value": "A divine tribunal adjudicates the eighty-year succession dispute over Osiris's throne between Horus and Seth",
+      "proposed_value": "A divine tribunal adjudicates the dispute between Horus and Seth over Osiris's office. The text says the case had been before the tribunal for eighty years",
+      "state": "attested",
+      "locator": "",
+      "note": "'eighty years … in the tribunal' occurs twice: in the letter to Neith and in Horus's complaint. This makes it the length of the case, not of the dispute generally. No papyrus locator was available.",
+      "source_keys": [
+        "reshafim-contendings"
+      ]
+    },
+    {
+      "row_id": "roman-concilium-deorum",
+      "field": "reference",
+      "old_value": "Metamorphoses 1.163–252",
+      "proposed_value": "Metamorphoses 1.163–252 (flood choice 1.253–261)",
+      "state": "attested",
+      "locator": "Met. 1.163–252",
+      "note": "The council runs from its summons (1.167) to Jupiter's promise of a new race (1.250–252). The flood itself is chosen just after, at 1.253–261.",
+      "source_keys": [
+        "magnus-met"
+      ]
+    },
+    {
+      "row_id": "roman-concilium-deorum",
+      "field": "council_term",
+      "old_value": "concilium (deorum)",
+      "proposed_value": "concilium (conciliumque vocat, 1.167); the members are called superi (1.177, 1.196)",
+      "state": "attested",
+      "locator": "Met. 1.167",
+      "note": "Ovid writes concilium alone; 'deorum' is an editorial gloss and does not occur at the passage. More: 'he convened a council'.",
+      "source_keys": [
+        "magnus-met"
+      ]
+    },
+    {
+      "row_id": "roman-concilium-deorum",
+      "field": "presiding_figure",
+      "old_value": "Jupiter",
+      "proposed_value": "Jupiter",
+      "state": "attested",
+      "locator": "Met. 1.163–181, 1.205–208",
+      "note": "He sits higher than the rest, leaning on an ivory sceptre (1.178), and silences the assembly (1.205–208).",
+      "source_keys": [
+        "magnus-met"
+      ]
+    },
+    {
+      "row_id": "roman-concilium-deorum",
+      "field": "members",
+      "old_value": "The assembled gods — the great gods and the commoner deities",
+      "proposed_value": "The superi from the noble halls of the potentes caelicolae (1.171–177). The plebs lives elsewhere (1.173), and demigods, nymphs, fauns and satyrs are spoken of as outside heaven (1.192–195)",
+      "state": "qualified",
+      "locator": "Met. 1.171–177; 1.192–195",
+      "note": "The passage sets the commoner deities ('plebs habitat diversa locis') apart from the noble gods' quarter. It does not seat them in the council, so 'commoner deities' as members is not supported.",
+      "source_keys": [
+        "magnus-met"
+      ]
+    },
+    {
+      "row_id": "roman-concilium-deorum",
+      "field": "function",
+      "old_value": "Jupiter convenes the gods, denounces Lycaon and humankind, and the assembly assents to his resolve to destroy the human race by flood",
+      "proposed_value": "Jupiter convenes the gods, tells the Lycaon story and announces a sentence already sworn: the human race must perish (1.188–191, 1.240–243 'sic stat sententia'). Some gods approve aloud and others assent (1.244–245), but all grieve and ask about the future (1.246–249), and he promises a new race (1.250–252). He chooses the flood afterwards, alone (1.253–261)",
+      "state": "qualified",
+      "locator": "Met. 1.188–191; 1.240–261",
+      "note": "The gods assent to destroying humankind, not to a flood. The flood is chosen after the council, in place of thunderbolts. More: 'some approved the words … others gave assent'.",
+      "source_keys": [
+        "magnus-met"
+      ]
+    },
+    {
+      "row_id": "norse-rokstolar",
+      "field": "reference",
+      "old_value": "Völuspá st. 6, 9, 23–25; Gylfaginning ch. 14",
+      "proposed_value": "Völuspá st. 6, 9, 23, 25 (Codex Regius order; Bellows 6, 9, 24, 25); Gylfaginning ch. 14",
+      "state": "qualified",
+      "locator": "Vsp 6, 9, 23, 25 (GJ); Bellows pp. 4–10",
+      "note": "The rökstóla refrain occurs in four stanzas: 6, 9, 23 and 25. Stanza 24 is the war itself. Bellows transposes MS 23/24, so his numbers are 6, 9, 24 and 25.",
+      "source_keys": [
+        "gj-voluspa"
+      ]
+    },
+    {
+      "row_id": "norse-rokstolar",
+      "field": "council_term",
+      "old_value": "rökstólar (‘seats of counsel’); the regin / ginnheilög goð",
+      "proposed_value": "rökstólar (acc. pl. rökstóla); regin öll; ginnheilög goð. Translations: 'assembly-seats' (Bellows), 'seats of judgment' (Brodeur)",
+      "state": "attested",
+      "locator": "Vsp 6, 9, 23, 25 ('Þá gengu regin öll á rökstóla, ginnheilög goð, ok um þat gættusk')",
+      "note": "All three terms are printed at each refrain. The gloss 'seats of counsel' is the project's own; neither inspected translator uses it.",
+      "source_keys": [
+        "gj-voluspa"
+      ]
+    },
+    {
+      "row_id": "norse-rokstolar",
+      "field": "presiding_figure",
+      "old_value": "The regin collectively; Odin in the Prose Edda",
+      "proposed_value": "Völuspá: the regin collectively (no presider). Gylfaginning 14: Allfather (Odin), who set up the rulers and has the high-seat beside their twelve seats",
+      "state": "attested",
+      "locator": "Vsp 6, 9, 23, 25; Gylf. XIV, Brodeur p. 25",
+      "note": "Brodeur: Allfather 'established rulers, and bade them ordain fates with him … the high-seat which Allfather himself has'.",
+      "source_keys": [
+        "brodeur-gylf"
+      ]
+    },
+    {
+      "row_id": "norse-rokstolar",
+      "field": "members",
+      "old_value": "The Æsir (the ruling powers)",
+      "proposed_value": "Völuspá: regin öll / ginnheilög goð. Gylfaginning 14: the rulers Allfather established (twelve seats)",
+      "state": "qualified",
+      "locator": "Vsp 6, 9, 23, 25; Gylf. XIV",
+      "note": "The council stanzas say regin/goð, not æsir. St. 23 has the council debate whether the æsir should pay tribute, which implies the Vanir also have a claim to it. 'Æsir' as the members is an inference.",
+      "source_keys": [
+        "gj-voluspa"
+      ]
+    },
+    {
+      "row_id": "norse-rokstolar",
+      "field": "function",
+      "old_value": "The gods take their seats of counsel — ordering time, resolving to fashion the dwarves, and deliberating the Æsir–Vanir war",
+      "proposed_value": "The gods take the rökstólar to name night, day and the times for counting years (st. 6), to decide who should shape the dwarves (st. 9), to debate whether the æsir pay tribute or all gods share worship (st. 23), and to find who mixed the air with poison and gave Óðr's maid to the giants (st. 25). Gylf. 14: rulers ordain fates and plan the town",
+      "state": "qualified",
+      "locator": "Vsp 6, 9, 23, 25; Gylf. XIV pp. 25–26",
+      "note": "The old value leaves out st. 25 (the wall-builder / Freyja episode). St. 23 is about tribute or shared worship after the war, not the war itself.",
+      "source_keys": [
+        "gj-voluspa"
+      ]
+    },
+    {
+      "row_id": "sumerian-enlil-ninlil-assembly",
+      "field": "reference",
+      "old_value": "ETCSL 1.2.1 (the Ki-ur / Ekur judgment scene)",
+      "proposed_value": "ETCSL 1.2.1, lines 54–64 (Enlil seized in the Ki-ur)",
+      "state": "attested",
+      "locator": "ETCSL 1.2.1 54–64",
+      "note": "Reference narrowed to the located passage. The scene is set in the Ki-ur (ki-ur3-ra, 54–55, 58), not 'the Ekur'. E-kur occurs only in Nuska's title, 'master builder of the E-kur' (35–53).",
+      "source_keys": [
+        "etcsl-121"
+      ]
+    },
+    {
+      "row_id": "sumerian-enlil-ninlil-assembly",
+      "field": "council_term",
+      "old_value": "ukkin (the assembly) — ‘the fifty great gods’ and ‘the seven who decree the fates’ (the Anunna)",
+      "proposed_value": "No assembly term in the passage. The groups are named dijir gal-gal 50-ne-ne 'the fifty great gods' and dijir nam-tar-ra 7-na-ne-ne 'the seven gods who decide destinies'",
+      "state": "not_stated",
+      "locator": "ETCSL c121 56–57; whole composite searched",
+      "note": "'ukkin' does not occur anywhere in the ETCSL 1.2.1 composite, and neither does 'Anuna' (a-nun). Both are supplied in the baseline. The passage names the two groups but uses no assembly term.",
+      "source_keys": [
+        "etcsl-121"
+      ]
+    },
+    {
+      "row_id": "sumerian-enlil-ninlil-assembly",
+      "field": "presiding_figure",
+      "old_value": "The assembly collectively (Enlil is the defendant, not the presider)",
+      "proposed_value": "None named: 'the fifty great gods and the seven gods who decide destinies' are the subjects who have Enlil arrested; Enlil is the one seized",
+      "state": "attested",
+      "locator": "ETCSL 1.2.1 54–58",
+      "note": "The baseline's point that Enlil is not the presider holds. 'The assembly collectively' adds an institution the text does not name.",
+      "source_keys": [
+        "etcsl-121"
+      ]
+    },
+    {
+      "row_id": "sumerian-enlil-ninlil-assembly",
+      "field": "members",
+      "old_value": "The fifty great gods; the seven Anunna who decree the fates",
+      "proposed_value": "The fifty great gods; the seven gods who decide destinies",
+      "state": "qualified",
+      "locator": "ETCSL c121 56–57",
+      "note": "'The seven Anunna' is not in the text: 7-na is the numeral seven with a suffix. Do not gloss 'the seven who decree the fates' as 'Anunna'.",
+      "source_keys": [
+        "etcsl-121"
+      ]
+    },
+    {
+      "row_id": "sumerian-enlil-ninlil-assembly",
+      "field": "function",
+      "old_value": "The divine assembly at Nippur seizes, judges, and banishes Enlil as ritually impure for defiling Ninlil",
+      "proposed_value": "In the Ki-ur, the fifty great gods and the seven who decide destinies have Enlil arrested. Enlil, 'the ritually impure' (u2-zug4), leaves the city 'in accordance with what had been decided' (2 mss.: 'Enlil, ritually impure, leave the city!')",
+      "state": "qualified",
+      "locator": "ETCSL 1.2.1 54–64 (c121 58–62)",
+      "note": "'At Nippur … judges, and banishes … for defiling Ninlil' goes beyond the text. No trial or verdict speech is narrated. The decision is reported impersonally (nij2-nam-ce3 nam mu-un-tar-ra, 61–62), and the link to the act with Ninlil is implicit from the sequence.",
+      "source_keys": [
+        "etcsl-121"
+      ]
+    },
+    {
+      "row_id": "sumerian-enlil-ninlil-assembly",
+      "field": "woh_library",
+      "old_value": "",
+      "proposed_value": "",
+      "state": "not_stated",
+      "locator": "",
+      "note": "There is no project library book for this composition, so the empty value stands.",
+      "source_keys": []
+    },
+    {
+      "row_id": "hindu-devasabha",
+      "field": "reference",
+      "old_value": "Adi Parva, Sections XVII–XVIII (the churning of the ocean of milk)",
+      "proposed_value": "Ganguli Adi Parva Section XVII (council); XVIII (churning). Critical edition 1.15.5–13 (council), 1.16 (churning)",
+      "state": "qualified",
+      "locator": "Ganguli pp. 78–81; CE 1.15.5–13",
+      "note": "The conclave on Meru is in Section XVII alone (CE 1.15.5–13). Section XVIII is the churning, with later consultations of Vishnu and Brahmā at Mandara and mid-churning.",
+      "source_keys": [
+        "ganguli-adi"
+      ]
+    },
+    {
+      "row_id": "hindu-devasabha",
+      "field": "council_term",
+      "old_value": "devasabhā / sabhā (the conclave of the celestials)",
+      "proposed_value": "Sanskrit: mantrayitum ārabdhās tatrāsīnā … samāgamya ('seated there, having assembled, they began to deliberate', CE 1.15.10). Ganguli: 'held a conclave', 'the celestial assembly'",
+      "state": "qualified",
+      "locator": "CE 1.15.9–11; Ganguli Sec. XVII p. 78",
+      "note": "Neither devasabhā nor sabhā occurs in CE 1.15.5–13. The text uses mantr- (deliberate) and samāgam- (assemble). The vulgate text behind Ganguli was not inspected. 'conclave' is Ganguli's English.",
+      "source_keys": [
+        "bori-gretil-adi"
+      ]
+    },
+    {
+      "row_id": "hindu-devasabha",
+      "field": "presiding_figure",
+      "old_value": "Brahmā, with Nārāyaṇa (Vishnu) as counselor",
+      "proposed_value": "Not stated. Nārāyaṇa speaks to Brahmā (nārāyaṇo devo brahmāṇam idam abravīt); Brahmā is the one addressed",
+      "state": "not_stated",
+      "locator": "CE 1.15.11; Ganguli Sec. XVII",
+      "note": "No presider is named. Brahmā presides only in a rejected starred line (CE *262), where the gods and daityas approach him. Later, in Sec. XVIII, the gods come to Vishnu and Brahmā 'who were sitting'.",
+      "source_keys": [
+        "bori-gretil-adi"
+      ]
+    },
+    {
+      "row_id": "hindu-devasabha",
+      "field": "members",
+      "old_value": "The devas, assembled on Mount Meru",
+      "proposed_value": "All the gods (surāḥ sarve, divaukasaḥ) on the summit of Meru",
+      "state": "attested",
+      "locator": "CE 1.15.5, 1.15.9–10",
+      "note": "Ganguli: 'all the mighty celestials sat them down and held a conclave'. Brahmā and Nārāyaṇa are present.",
+      "source_keys": [
+        "bori-gretil-adi"
+      ]
+    },
+    {
+      "row_id": "hindu-devasabha",
+      "field": "function",
+      "old_value": "The celestials sit in conclave on Meru; Nārāyaṇa counsels Brahmā and they resolve to churn the ocean of milk for the amrita (the nectar of immortality)",
+      "proposed_value": "The gods, having come for amṛta, deliberate on Meru. Nārāyaṇa tells Brahmā that gods and asuras should churn the ocean (kalaśodadhi), which will yield amṛta with all herbs and gems",
+      "state": "qualified",
+      "locator": "CE 1.15.10–13; Ganguli Sec. XVII",
+      "note": "The text has Nārāyaṇa's advice but no explicit resolution by the gods. The churning starts in the next section. The asuras' part in the churning, given in the advice, is left out of the old value.",
+      "source_keys": [
+        "bori-gretil-adi"
+      ]
+    }
+  ]
+}
