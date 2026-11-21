@@ -1,6 +1,6 @@
 ---
 title: Proposed revision of woh-claim-0010 (0.1.0 → 0.2.0)
-status: draft
+status: decided (ADR 0015)
 version: 0.1.0
 last_reviewed: 2026-11-21
 claim_id: woh-claim-0010

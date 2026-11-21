@@ -2,10 +2,10 @@
   "$schema": "../schemas/claim.schema.json",
   "schema_version": "0.1.0",
   "id": "woh-claim-0010",
-  "title": "The Flood as deliberate reset",
-  "version": "0.1.0",
+  "title": "The Flood as a contested decision",
+  "version": "0.2.0",
   "lifecycle": "accepted",
-  "statement": "The ancient flood narratives — Genesis 6-9, Atrahasis, Gilgamesh XI, the Sumerian Flood Story, the Book of the Watchers — share a decision procedure rather than a divine mood: a resolution taken in assembly, sworn and treated as irrevocable, opposed by an internal dissenter, executed with a warned survivor under precise instructions to preserve the seed of living things; and the canon reads the event itself as a deliberate reset of the antediluvian project, with the genetic stock preserved aboard a craft and the human remnant re-established afterwards.",
+  "statement": "The canon presents the Flood as a decision of the Elohim home world to destroy all life on Earth: in The Book Which Tells the Truth taken 'from their distant planet' because human progress had become dangerous, in the New Revelations decided by Yahweh before the Council of the Eternals on Satan's evidence of human violence. The exiled creators, Lucifer's group, acted against that decision: they had Noah build a craft that orbited through the cataclysm carrying a few humans and a living cell of each species. After the event the Council resolved never again to destroy humanity and helped re-implant the preserved life. The reset is the outcome of the decision and its circumvention, not the content of the decision. The ancient flood narratives preserve parts of this arrangement unevenly: the Sumerian Flood Story, Atrahasis and Gilgamesh XI keep an assembly decision, an oath and a god who saves the survivor around the decree, with explicit objection before the flood only in Atrahasis and the list of targeted alternatives only in Gilgamesh XI, after it; Genesis 6-9 and the Book of the Watchers put destruction and rescue under one authority.",
   "claim_kind": "interpretation",
   "framework_relation": "derived",
   "evidence_status": [
@@ -15,46 +15,57 @@
   "public_label": "framework",
   "scope": {
     "includes": [
-      "The textual-procedure layer, which is an inferred reading of the sources: assembly decision, oath, dissent (Enki against Enlil; the Atrahasis 'wrong instrument' argument naming targeted alternatives), survivor instructions, seed-preservation formulae",
-      "The canonical layer, which is framework: the Flood as a deliberate reset decision within the Council's governance of the Earth project, with the cell-line preserved aboard a staged craft (TBWTT ch. 2), operating within the wider conflict recorded as woh-claim-0008",
-      "The cross-tradition convergence of the procedure across the named texts, at the level the project's flood-myths dataset tabulates"
+      "The canonical layer, which is framework: the home-world decision to destroy all life on Earth (TBWTT 2:55-58; LWTE 2:25-26), the exiled creators' circumvention through Noah's orbiting craft (TBWTT 2:58, 2:62; LWTE 2:27), and the post-event reversal and re-implantation (TBWTT 2:66-68; LWTE 2:28). The two canon accounts state the motive differently (the danger of human scientific progress in TBWTT 2:55-57; Satan's evidence of human violence in LWTE 2:25-26); both are registered, neither is harmonized into the other",
+      "The textual layer, which is an inferred reading: the passage-specific distribution of assembly decision, oath, irrevocability, objection, warning and preservation across the Sumerian Flood Story, Atrahasis, Gilgamesh XI, Genesis 6-9 and the Book of the Watchers (1 Enoch 6-16), as tabulated in docs/research/flood-concordance/procedural-comparison.md, with the lion/wolf/famine/Erra alternatives cited to Gilgamesh XI"
     ],
     "excludes": [
-      "Historicity or dating of a global flood as a geological claim; the record concerns what the texts describe and how the canon reads them",
-      "The claim that all two-hundred-plus flood traditions worldwide share the decision procedure; the procedural reading is anchored on the named Near Eastern and Enochic texts",
-      "Any reading of the flood as punishment-of-wickedness simpliciter; the record registers the canon's reset framing against it without erasing that the Genesis redaction itself moralizes the event",
-      "Mechanism details beyond what the canon states"
+      "The geological reading of the Flood (the continental breakup, the swept surface and the burial strata), which woh-claim-0071 carries",
+      "The claim that all two-hundred-plus flood traditions worldwide share the arrangement; the reading is anchored on the five named Near Eastern and Enochic texts",
+      "Any reading of the flood as punishment-of-wickedness simpliciter; the record registers the canon's danger framing against it without erasing that the Genesis redaction itself moralizes the event",
+      "Presenting the reset as the content of the Council's decision; in the canon the decision is destruction and the preservation is an act against it",
+      "Mechanism details beyond what the canon states",
+      "Treating the five texts as five independent confirmations; the literary stream and the flood concordance's relationship controls apply",
+      "Attributing the lion/wolf/famine/plague alternatives to Atrahasis until the project's ATRA-WOH-III:vi.21-24 is aligned with a named edition",
+      "Reading the post-flood promise (Genesis 8:21-22, 9:8-17; TBWTT 2:66; LWTE 2:28) as an oath that bound the original decision",
+      "A comparative claim that the Mesopotamian separation of destroying authority and rescuing god corresponds to the canon's separation of the Council and the exiles; this was considered and not adopted (ADR 0015)"
     ]
   },
   "source_references": [
     {
       "source_id": "the-book-which-tells-the-truth",
-      "locator": "Chapter 2 (the Flood; the cell-line preserved aboard a staged craft; the re-establishment afterwards)",
+      "locator": "TBWTT-2:55-58 (the decision 'from their distant planet' to destroy all life; the motive; the exiles, forewarned, have Noah build the craft; a living cell of each species, male and female), 2:62 (the three-stage rocket; a couple of each human race), 2:64, 2:66 (the promise never to destroy), 2:68 (each race replaced, each animal recreated from the preserved cell), 2:74 (the people of the planet afraid that life survived). Yahweh's dictation",
       "role": "canonical_basis",
       "access": "project_digitization",
       "note": "../../source-notes/the-book-which-tells-the-truth.md"
     },
     {
+      "source_id": "lets-welcome-the-extraterrestrials",
+      "locator": "LWTE-2:25-28 ('New Revelations', Raël's narration of the 1975 account): Satan's evidence of human violence brought before the Council of the Eternals; Yahweh decides total destruction; Lucifer's group helps Noah build the orbiting craft with 'a few men and women and the genetic codes of some animal species'; the Council's post-event decision never again to destroy humanity and the re-implantation",
+      "role": "canonical_basis",
+      "access": "project_digitization",
+      "note": "../../source-notes/lets-welcome-the-extraterrestrials.md"
+    },
+    {
       "source_id": "atrahasis",
-      "locator": "ATRA-WOH-II (the decision and the dissent; the 'wrong instrument' argument with named targeted alternatives); ATRA-WOH-III (the warning and the boat)",
+      "locator": "SEAL Tablet II synoptic (concordance key atra-seal-ii): G49q-u (assembly oath, X-MB), H9-16 (Enki's objection, partly restored); SEAL Sippar Tablet III (atra-seal-iii): C1 v 44''-45'' (verdict called final after the destruction), vi 7-10 (collective decision recalled), vi 18-26 (criticism after the flood); C2 i 15'-26' (wall-side instructions). The project text ATRA-WOH-III:vi.21-24 prints lion and famine alternatives but is not aligned with a named edition",
       "role": "primary_text",
-      "access": "project_digitization"
+      "access": "excerpt"
     },
     {
       "source_id": "epic-of-gilgamesh",
-      "locator": "SB Tablet XI (GILG-WOH-11, in-house digitization): the assembly decision, Ea's warning through the reed wall, the seed of all living things",
+      "locator": "Tablet XI in the Kovacs/Livius numbering (concordance key gil-kovacs-livius): 11.14-20 (decision and oath), 11.19-31 (the reed-wall warning), 11.80-86 (cargo), 11.116-123 (the assembly recalled), 11.180-197 (Ea's post-flood rebuke naming lion, wolf, famine and Erra); GILG-WOH-11:179-187 in the project rendering",
       "role": "primary_text",
-      "access": "project_digitization"
+      "access": "excerpt"
     },
     {
       "source_id": "genesis",
-      "locator": "GEN-WOH-6:5-22 (the resolution and the instructions); 7-8 (execution and subsidence); 9 (the covenant and the never-again oath)",
+      "locator": "Genesis 6:5-7, 6:13-22 (resolution and instructions under one authority), 6:18 (covenant announced), 7:1-9 (boarding; 7:3 seed of the birds), 8:21-22 and 9:8-17 (the post-flood promise and covenant); JPS 1917 and GEN-WOH",
       "role": "primary_text",
       "access": "project_digitization"
     },
     {
       "source_id": "book-of-enoch",
-      "locator": "The Book of the Watchers' flood frame: the destruction ordered against the corrupted generation with Noah preserved",
+      "locator": "1 Enoch 6:3-5 (the Watchers' oath, concerning their own undertaking), 9:1-11 (the petition), 10:1-3 (the Most High commissions Noah's warning; 'his seed'), 13:4-6 and 14:4-7 (intercession for and refusal of the Watchers). Charles 1912; ENO-WOH-10:1-3",
       "role": "primary_text",
       "access": "project_digitization"
     },
@@ -84,14 +95,16 @@
     },
     {
       "id": "alt-0010-canon-retrofit",
-      "statement": "The reset reading retrofits a modern engineering frame (staged craft, cell-line) onto texts that carry no such content."
+      "statement": "The canon's two-faction account (a destroying council, a dissenting rescuer, a post-event reversal) is modelled on the Mesopotamian assembly narratives and on Genesis; the resemblance is reception, not memory."
     }
   ],
   "revision_triggers": [
     "Source-language review of the in-house Atrahasis, Gilgamesh XI, or Genesis renderings materially changes a procedural observation.",
     "The flood-myths dataset's expansion shows the decision-procedure features do not hold beyond the Near Eastern textual stream, narrowing the claim to literary dependence.",
     "Claim woh-claim-0001 or woh-claim-0008 is revised or retired.",
-    "Public prose begins asserting geological historicity or extending the procedure to all worldwide flood traditions, which this record excludes."
+    "Public prose begins asserting the arrangement for all worldwide flood traditions, or presents the reset as the Council's decision, which this record excludes.",
+    "An edition of Atrahasis (Lambert-Millard 1969, Foster, or the edition behind the project text) resolves ATRA-WOH-III:vi.21-24.",
+    "A registered Sumerian Flood Story source and an inspected English edition change the qualified Sumerian cells."
   ],
   "controlling_document": "../../docs/framework/flood-as-reset.md",
   "public_derivatives": [
@@ -103,5 +116,5 @@
     "wheelofheaven/data-content:datasets/flood-myths.md",
     "wheelofheaven/data-content:wiki/pangaea.md"
   ],
-  "last_reviewed": "2026-08-16"
+  "last_reviewed": "2026-11-21"
 }
