@@ -59,7 +59,7 @@
   "novelty": "unrecorded",
   "prior_knowledge": "I believe from general knowledge that the book reads the Exodus cloud, fire, thunder and trumpet sound at Sinai, and the manna, in technological terms, and that the French version it quotes is a literal one. I know the Hebrew of Exodus 19 in outline (cloud, fire, smoke, shofar, the mountain trembling). I do not know which words the commentary takes up. I expect mostly `carried`; I consider one or more `shifted` a real possibility. I did not open the target passages.",
   "registered": "2026-11-22",
-  "status": "contested",
+  "status": "ruled",
   "finding": {
     "date": "2026-11-22",
     "access": "project_digitization",
@@ -79,6 +79,12 @@
     "summary": "The test compared the French translator's word with the Hebrew word; for a literal translation that is 'carried' almost by construction, and the source-critical alternative predicts it equally. Six of ten quotations have no hinge word; the result is a thin-population null, not a near-hit. Entering Ex 17:6 as shifted (the Locator's own reservation) would give a miss. Discrimination is none.",
     "report": "docs/research/programme/cycle-0001/woh-exp-0002-contest.md"
   },
-  "ruling": null,
+  "ruling": {
+    "outcome": "narrowed",
+    "date": "2026-11-22",
+    "by": "founder",
+    "note": "Founder ruling 2026-11-22, family hinge-word: narrowed. The canon's quotations faithfully carry the Hebrew words: every word a reading takes up (11 of 11 across Exodus, Kings, Isaiah and Genesis 1-2) is in the Hebrew at that place. The readings work by re-describing what the verse names (a cloud as a craft's emission), which no lexicon test reaches. Discrimination: none, since every alternative predicts faithful words from a literal translation.",
+    "adr": null
+  },
   "outputs": []
 }

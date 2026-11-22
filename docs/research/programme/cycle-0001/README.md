@@ -4,8 +4,18 @@ Pilot cycle for [RFC 0009](../../../../rfcs/0009-research-programme.md).
 Claim version at derivation: 0.2.0.
 
 State: ten expectations registered, located, assessed and contested on
-2026-11-22. **One is ruled** (`woh-exp-0008`, `narrowed`); nine await the
-founder's rulings.
+2026-11-22. **All ten are ruled** (2026-11-22).
+
+## Rulings
+
+| Expectation | Outcome | Note |
+| --- | --- | --- |
+| `0001`, `0006` (family `speaker-hebrew`) | `open` | Until Dhorme's Joshua 10 is in hand; acquisition need |
+| `0002`–`0004` (family `hinge-word`) | `narrowed` | The quotations faithfully carry the Hebrew words; the readings work by re-describing what the verse names |
+| `0005` | `open` | Keep watching the literature; not to be cited as detection |
+| `0007` | `hit` | Reclassified `source_report`; feeds the later books' source notes |
+| `0008` | `narrowed` | ADR 0016 |
+| `0009`, `0010` | `hit` | Controls, cited only in their narrow form |
 
 ## Founder decisions, 2026-11-22
 

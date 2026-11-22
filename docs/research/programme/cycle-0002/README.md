@@ -3,7 +3,7 @@
 Opened 2026-11-22 at the founder's direction, following
 [cycle-0001](../cycle-0001/README.md). Claim: `woh-claim-0001` at 0.2.1.
 
-State: located and contested 2026-11-22. Awaiting the founder's ruling.
+State: ruled 2026-11-22: **`miss`**, falling on the auxiliary premise. The speaker teaches through the reader's French Bible; the French-wording readings (TBWTT-2:30, 2:42, 2:62, 3:192) and Psalm 19:5 belong to the quotation layer, `woh-claim-0066`, not to claim 0001.
 
 - **Finding.** 166 quotations in chapters 2–3 (two known cases excluded): 150 re-describe the thing named, 3 have no explanation, 13 depend on a sense of a French word. Of the 13: 8 `shared`, 2 `french_only` (TBWTT-2:42 « science », Gen 3:22; TBWTT-2:62 « étages », Gen 6:16), 1 disputed (« jour »), 2 the *Elohim* gloss itself. [Finding](woh-exp-0011-finding.md).
 - **Assessment.** `meets_miss`.

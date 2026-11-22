@@ -60,7 +60,7 @@
   "novelty": "unrecorded",
   "prior_knowledge": "I believe the book comments on prophetic and narrative passages beyond the Pentateuch (for instance the Elijah and Elisha stories and several prophets) in aerial terms, but I do not know which eight quotations the selection rule will yield, nor which words the commentary takes up. I have no confident expectation of the result. I did not open the target.",
   "registered": "2026-11-22",
-  "status": "contested",
+  "status": "ruled",
   "finding": {
     "date": "2026-11-22",
     "access": "project_digitization",
@@ -80,6 +80,12 @@
     "summary": "The hit is not robust. Under the selection rule as registered two quotations drop out and Psalms 19:7 enters, whose 'orbite' (tequfah, the sun's circuit) was left unclassified; counting the fire-chariot phrase as one hinge also gives partial. 'Nuage' for arafel rests on one lexicon. At most a partial-grade instance with discrimination none. Outside the eight, the book's Psalm 19:5 has 'sur la mer' where the Masoretic text has 'in them'.",
     "report": "docs/research/programme/cycle-0001/woh-exp-0003-contest.md"
   },
-  "ruling": null,
+  "ruling": {
+    "outcome": "narrowed",
+    "date": "2026-11-22",
+    "by": "founder",
+    "note": "Founder ruling 2026-11-22, family hinge-word: narrowed. The canon's quotations faithfully carry the Hebrew words: every word a reading takes up (11 of 11 across Exodus, Kings, Isaiah and Genesis 1-2) is in the Hebrew at that place. The readings work by re-describing what the verse names (a cloud as a craft's emission), which no lexicon test reaches. Discrimination: none, since every alternative predicts faithful words from a literal translation.",
+    "adr": null
+  },
   "outputs": []
 }
