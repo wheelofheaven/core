@@ -1,0 +1,70 @@
+{
+  "$schema": "../schemas/expectation.schema.json",
+  "schema_version": "0.1.0",
+  "id": "woh-exp-0011",
+  "cycle": "cycle-0002",
+  "claim_id": "woh-claim-0001",
+  "claim_version": "0.2.1",
+  "subclaim": "B — identification with biblical Elohim",
+  "title": "No further reading in the first book depends on a sense peculiar to the French wording",
+  "statement": "Apart from the two instances already recorded (TBWTT-2:30 on Genesis 2:17 and TBWTT-3:192 on Ezekiel 42:14), no explanation of a quoted Hebrew-Bible verse in chapters 2 and 3 of The Book Which Tells the Truth depends on a sense or property that the quoted French word has and the Hebrew word at that place lacks.",
+  "derivation": "Claim 0001 takes the speaker of the report to belong to the civilization behind selected biblical uses of Elohim, and so to know what the Hebrew text records. On that reading his explanations should rest on what the Hebrew carries. The canon's quotations descend from a 1956 French translation (woh-claim-0066), so a reading that works only through an accident of the French wording (a second sense of the French word, a homophone, a French idiom) is the mark the source-critical alternative expects of a text composed in French from a French Bible. Cycle-0001 tested whether the French word renders the Hebrew, which every alternative predicts; this test asks instead whether the sense the explanation uses is in the Hebrew. Two instances are already known from cycle-0001 and are excluded so that the result is not decided in advance. Registered at the founder's direction of 2026-11-22.",
+  "auxiliary_assumptions": [
+    "The speaker's explanations are meant to rest on the meaning of the original text, not on the French wording put before a French reader. The book says the text is deformed and that the speaker will explain it (TBWTT-2:2, 2:3, 3:69), which may be read either way."
+  ],
+  "kind": "philological",
+  "target": {
+    "source_id": "the-book-which-tells-the-truth",
+    "description": "The Book Which Tells the Truth (1974), project digitization, French base text, chapters 2 and 3: every quotation of a Hebrew-Bible verse together with the commentary on it, compared with the Hebrew of the same verse",
+    "locator_scope": "All paragraphs of chapters 2 and 3; the corresponding Hebrew verses",
+    "holding": "/Users/zara/Development/github.com/wheelofheaven/data-library/the-book-which-tells-the-truth/chapter-2.json and chapter-3.json; Hebrew from the matching '-woh' library book under /Users/zara/Development/github.com/wheelofheaven/data-library/ where one exists, otherwise from a public Masoretic text",
+    "access_expected": "project_digitization"
+  },
+  "question": "In chapters 2 and 3 of the book, where the commentary on a quoted Hebrew-Bible verse relies on a particular sense or property of a word in the quoted French, does the Hebrew word at that place have that sense or property?",
+  "protocol": [
+    "In the book's chapter-N.json each paragraph has refId (cite it), speaker, text (the French base text: quote this) and i18n.en (a machine rendering: a reading aid only, never quote it as the source). Read chapters 2 and 3 in full, in order. Do the whole task yourself; do not split it.",
+    "List every quotation of a Hebrew-Bible verse (French in « », usually with a reference). Skip the New Testament and books with no Hebrew or Aramaic original. The commentary on a quotation is any explanation of it within the two paragraphs before it or the three paragraphs after it.",
+    "For each quotation decide which one of these the commentary does. (a) `sense_dependent`: the explanation works only if a word of the quoted French is taken in a particular sense, or by a property of the French word itself (a second meaning, a homophone or near-homophone, a spelling, a French idiom). (b) `image_step`: the explanation re-describes the thing the verse names as something else (a cloud as smoke, a chariot as a craft) without relying on any particular sense of a French word. (c) `no_explanation`. Record (b) and (c) with their refIds but do not classify them further.",
+    "Leave out of the classification, but list, TBWTT-2:30 (Genesis 2:17) and TBWTT-3:192 (Ezekiel 42:14): both are already recorded. Do classify TBWTT-2:42 if it qualifies.",
+    "For every `sense_dependent` case give: the French word; the commentary sentence (French, with refId); the sense or property of the French word the explanation uses, checked in a French dictionary (the Trésor de la langue française informatisé on cnrtl.fr, or Littré; name the entry); the Hebrew word at that place (from the '-woh' library book's `text` field or its source-he-N.json, otherwise a public Masoretic text such as Sefaria; name the source); and that Hebrew word's senses from Brown-Driver-Briggs as reproduced on a public site, plus a second lexicon or a standard commentary where you can reach one. Do not answer from memory.",
+    "Classify each `sense_dependent` case with exactly one of: `shared` (the Hebrew word has, as a lexicon sense, the sense the explanation uses); `french_only` (the sense or property the explanation uses belongs to the French word and is not a lexicon sense or property of the Hebrew word); `disputed` (lexica or commentaries divide on whether the Hebrew has the sense); `not_checkable`. Quote the lexicon lines that decide it.",
+    "Report the totals: quotations listed; `sense_dependent`, `image_step`, `no_explanation`; and within `sense_dependent` the four classes. State every borderline decision between (a) and (b) so the count can be redone. Add separately anything adjacent a careful reader would want to know, including any place where the quoted French has words with no counterpart in the Hebrew verse."
+  ],
+  "criteria": {
+    "hit": "At least five cases are `sense_dependent` and none of them is classified `french_only`.",
+    "miss": "At least one `sense_dependent` case is classified `french_only`.",
+    "partial": "No case is `french_only` and fewer than five cases are `sense_dependent`."
+  },
+  "rivals": [
+    {
+      "alternative_id": "alt-0001-source-critical",
+      "predicts": "different",
+      "note": "If the book was composed in French from a French Bible, further readings should turn on senses the French wording supplies and the Hebrew lacks, beyond the two already recorded. A hit would count against this alternative; a miss is what it expects."
+    },
+    {
+      "alternative_id": "alt-0001-theological",
+      "predicts": "silent",
+      "note": "Commits to nothing about how this book explains its quotations."
+    },
+    {
+      "alternative_id": "alt-0001-historical-critical",
+      "predicts": "silent",
+      "note": "Concerns the history of Israelite religion, not this book's exegesis."
+    },
+    {
+      "alternative_id": "alt-0001-naturalistic-origin",
+      "predicts": "silent",
+      "note": "Concerns the origin of life."
+    }
+  ],
+  "discrimination": "partial",
+  "novelty": "unrecorded",
+  "prior_knowledge": "Derived by the orchestrating session after cycle-0001, which has read the Locator and Critic reports of that cycle. Known and excluded: TBWTT-2:30 and TBWTT-3:192. Known to exist but not inspected: a parallel at TBWTT-2:42 on Genesis 3:22, which a Critic flagged as unchecked; and a report that the commentary in these chapters is mostly re-description of the thing named, so `sense_dependent` cases may be few. Expected outcome: a miss through TBWTT-2:42, or the partial case. No passage in scope other than TBWTT-2:30 was opened by the Deriver.",
+  "registered": "2026-11-22",
+  "status": "registered",
+  "finding": null,
+  "assessment": null,
+  "contest": null,
+  "ruling": null,
+  "outputs": []
+}

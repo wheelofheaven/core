@@ -12,6 +12,7 @@ expectation has an outcome only when the founder has ruled it.
 
 | Cycle | Claim | Registered | State |
 | --- | --- | --- | --- |
-| [cycle-0001](cycle-0001/README.md) | `woh-claim-0001` at 0.2.0 | 2026-11-22 | Pilot for RFC 0009. Located and contested; awaiting founder rulings |
+| [cycle-0001](cycle-0001/README.md) | `woh-claim-0001` at 0.2.0 | 2026-11-22 | Pilot for RFC 0009. Located and contested; awaiting founder rulings; `woh-exp-0008` ruled |
+| [cycle-0002](cycle-0002/README.md) | `woh-claim-0001` at 0.2.1 | 2026-11-22 | One expectation registered |
 
 Current scoreboard: `python3 scripts/research/programme.py status`.
