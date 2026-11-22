@@ -79,6 +79,7 @@ EXPECTATION_NOVELTY = {"retrodiction", "unrecorded"}
 EXPECTATION_STATUSES = {"registered", "located", "contested", "ruled", "withdrawn"}
 EXPECTATION_PREDICTS = {"same", "different", "silent"}
 EXPECTATION_ASSESSMENTS = {None, "meets_hit", "meets_partial", "meets_miss", "mixed", "inaccessible"}
+EXPECTATION_SCORING = {"scored", "control", "source_report"}
 EXPECTATION_OUTCOMES = {"hit", "miss", "narrowed", "open", "void"}
 DATE_RE = re.compile(r"^[0-9]{4}-[0-9]{2}-[0-9]{2}$")
 LINK_RE = re.compile(r"\[[^\]]+\]\(([^)]+)\)")
@@ -493,6 +494,13 @@ def validate_expectations(records: dict[str, dict[str, Any]], validation: Valida
         validation.require(
             record.get("assessment") in EXPECTATION_ASSESSMENTS, f"{rel}: invalid assessment {record.get('assessment')!r}"
         )
+        validation.require(
+            record.get("scoring", "scored") in EXPECTATION_SCORING, f"{rel}: invalid scoring {record.get('scoring')!r}"
+        )
+        if record.get("scoring") == "control":
+            validation.require(
+                record.get("discrimination") == "none", f"{rel}: a control must have discrimination 'none'"
+            )
         status = record.get("status")
         finding, contest, ruling = record.get("finding"), record.get("contest"), record.get("ruling")
         if status == "registered":

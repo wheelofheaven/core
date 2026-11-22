@@ -9,6 +9,7 @@
   "title": "Control: the Hebrew noun for 'image' in Genesis 1:26 ordinarily names a concrete likeness",
   "statement": "Outside Genesis, most occurrences in the Hebrew Bible of the noun used for 'image' in Genesis 1:26-27 denote a concrete, visible object such as a statue, figure or model, and Genesis 5:3 uses the same noun for a son's resemblance to his father.",
   "derivation": "Deliberate control. The claim identifies human-like biological beings (woh-claim-0070: 'people like you') with the plural speakers of Genesis 1:26 and makes them the designers of humanity. On that identification 'in our image' is bodily resemblance, so the noun should be a word for visible physical likeness. This is standard lexicography, accepted by the theological and historical-critical readings in their current forms, which build a royal-representative reading on the same statue sense; only an older incorporealist form of the theological reading, which took the noun as essential form and not shape, expected otherwise, and it is not the alternative at its present strength. A hit therefore favours nothing. Registered to calibrate: an unrecorded target whose answer the Deriver already knows.",
+  "scoring": "control",
   "kind": "philological",
   "target": {
     "description": "All occurrences of the Hebrew noun tselem (צלם) in the Hebrew Bible, as listed in a standard lexicon or concordance, with the Genesis occurrences read in the project's Genesis edition",

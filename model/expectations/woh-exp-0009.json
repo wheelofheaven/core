@@ -9,6 +9,7 @@
   "title": "Control: a cell run by a chemically synthesized genome has been reported",
   "statement": "The 2010 Science report by Gibson and colleagues describes a bacterial cell whose genome was chemically synthesized from a designed sequence and which replicated continuously under the control of that genome.",
   "derivation": "Deliberate control. If a biological civilization designed terrestrial life by technical means, then building a working genome to a design must be physically possible; this is a necessary condition, already cited in the claim's evidence map (subclaim D, scientific context) as showing possibility in principle and nothing more. The answer is known and no alternative predicts otherwise. It is registered to calibrate the scoreboard and the Locator: a hit here must be counted in the non-discriminating, retrodiction class.",
+  "scoring": "control",
   "kind": "scientific",
   "target": {
     "source_id": "creation-of-a-bacterial-cell-controlled-by-a-chemically-synthesized-genome",

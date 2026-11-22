@@ -14,7 +14,7 @@ framework.
 - [Research agenda](research-agenda.md)
 - [Research programme cycles](programme/README.md) — expectations derived
   from the foundational claims, registered before inspection (RFC 0009,
-  draft).
+  ADR 0017).
 - [Flood concordance source audit](flood-concordance/README.md) —
   eleven accounts, 88 cited observations, named editions, evidence states,
   separate chronology records, source-relationship controls and reproducible

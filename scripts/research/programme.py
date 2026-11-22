@@ -73,17 +73,32 @@ def cmd_status(args):
               f"| {r['novelty']} | {r['assessment'] or '—'} | {outcome(r)} "
               f"| {r['title']}{' (auxiliary assumption)' if r.get('auxiliary_assumptions') else ''} |")
 
-    ruled = [r for r in records.values() if r["ruling"]]
+    scored = {k: v for k, v in records.items() if v.get("scoring", "scored") == "scored"}
+    apart = {k: v for k, v in records.items() if k not in scored}
+    families = collections.defaultdict(list)
+    for k, v in scored.items():
+        if v.get("family"):
+            families[v["family"]].append(k)
+    ruled = [r for r in scored.values() if r["ruling"]]
+    # A family is one result: count it once, by its first member's ruling.
+    counted, seen_families = [], set()
+    for r in ruled:
+        if r.get("family"):
+            if r["family"] in seen_families:
+                continue
+            seen_families.add(r["family"])
+        counted.append(r)
     tally = collections.Counter(
         (r["discrimination"] != "none", r["novelty"] == "unrecorded", r["ruling"]["outcome"])
-        for r in ruled
+        for r in counted
     )
 
     def count(discriminating, unrecorded, result):
         return tally[(discriminating, unrecorded, result)]
 
     print()
-    print(f"Registered: {len(records)}; ruled: {len(ruled)}; "
+    print(f"Registered: {len(records)} ({len(scored)} scored, {len(apart)} control or source-report); "
+          f"scored and ruled: {len(ruled)}; "
           f"awaiting ruling: {sum(1 for r in records.values() if not r['ruling'] and r['status'] != 'withdrawn')}.")
     print()
     print("| Class | hit | miss | narrowed | open | void |")
@@ -97,6 +112,11 @@ def cmd_status(args):
         cells = " | ".join(str(count(disc, unrec, o)) for o in ("hit", "miss", "narrowed", "open", "void"))
         print(f"| {label} | {cells} |")
     print()
+    for name, members in sorted(families.items()):
+        if len(members) > 1:
+            print(f"Family {name}: {', '.join(sorted(members))} count as one result.")
+    if apart:
+        print("Reported apart: " + ", ".join(f"{k} ({v['scoring']}, {outcome(v)})" for k, v in sorted(apart.items())) + ".")
     auxiliary = sorted(k for k, r in records.items() if r.get("auxiliary_assumptions"))
     if auxiliary:
         print(f"Resting on an auxiliary assumption, to be read apart: {', '.join(auxiliary)}.")
@@ -136,6 +156,8 @@ def cmd_brief(args):
     lines.append(f"- Scope: {target['locator_scope']}")
     if target.get("holding"):
         lines.append(f"- Where to find it: {target['holding']}")
+    if r.get("family"):
+        lines.append(f"- This brief is one of family `{r['family']}`: apply one inclusion rule to every brief in it.")
     lines += ["", "## Protocol", ""]
     lines += [f"{n}. {step}" for n, step in enumerate(r["protocol"], 1)]
     lines += [

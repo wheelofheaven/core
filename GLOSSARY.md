@@ -46,28 +46,6 @@ A statement about what an identified source explicitly says or depicts. A
 source report does not establish that the reported event or explanation
 occurred.
 
-## Draft
-
-### Elohim-civilization hypothesis
-
-The foundational Wheel of Heaven proposition that the beings identified as the
-Elohim in its reading were a technologically advanced biological civilization
-from elsewhere and were responsible for designing terrestrial life.
-
-### Anunnaki–Elohim identity claim
-
-The comparative Wheel of Heaven proposition that the Mesopotamian Anunnaki and
-the Elohim refer to the same underlying civilization. It does not automatically
-identify every named deity across traditions or adopt Sitchin's reconstructions.
-
-### Precessional world-age chronology
-
-The foundational Wheel of Heaven model that organizes long-range history as a
-Great Year of twelve equal 2,160-year world ages, anchored by project
-convention so that the Age of Aquarius spans 1950–4110 CE. The model idealizes
-the observed precession cycle; its age boundaries are framework conventions,
-not astronomical events.
-
 ### Kernel
 
 The accepted claims whose framework relation is `foundational`. Research under
@@ -91,3 +69,25 @@ it favours nothing.
 
 The founder's outcome for an expectation: `hit`, `miss`, `narrowed`, `open`,
 or `void`. A ruling does not change any claim record.
+
+## Draft
+
+### Elohim-civilization hypothesis
+
+The foundational Wheel of Heaven proposition that the beings identified as the
+Elohim in its reading were a technologically advanced biological civilization
+from elsewhere and were responsible for designing terrestrial life.
+
+### Anunnaki–Elohim identity claim
+
+The comparative Wheel of Heaven proposition that the Mesopotamian Anunnaki and
+the Elohim refer to the same underlying civilization. It does not automatically
+identify every named deity across traditions or adopt Sitchin's reconstructions.
+
+### Precessional world-age chronology
+
+The foundational Wheel of Heaven model that organizes long-range history as a
+Great Year of twelve equal 2,160-year world ages, anchored by project
+convention so that the Age of Aquarius spans 1950–4110 CE. The model idealizes
+the observed precession cycle; its age boundaries are framework conventions,
+not astronomical events.

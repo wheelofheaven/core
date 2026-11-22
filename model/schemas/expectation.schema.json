@@ -47,6 +47,15 @@
       "type": "array",
       "items": { "type": "string", "minLength": 1 }
     },
+    "family": {
+      "description": "Expectations that apply one test to several targets share a family id. They are located by one Locator under one protocol and read as one result.",
+      "type": "string",
+      "pattern": "^[a-z0-9-]+$"
+    },
+    "scoring": {
+      "description": "scored (default): counts on the scoreboard. control: calibrates the Locator and Critic; reported apart. source_report: tests what a source says outside any claim's scope; reported apart and feeds source notes.",
+      "enum": ["scored", "control", "source_report"]
+    },
     "kind": {
       "enum": ["canon", "primary_text", "philological", "historical", "scientific", "dataset"]
     },

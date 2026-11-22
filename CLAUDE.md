@@ -50,7 +50,7 @@ Do not independently:
 An agent may scaffold a clearly marked draft or research question when asked,
 but must not fill unknowns with authoritative-looking content.
 
-## Research programme (RFC 0009, draft)
+## Research programme (RFC 0009, ADR 0017)
 
 New research starts from an expectation, not from a thesis. Follow
 [`docs/methodology/research-programme.md`](docs/methodology/research-programme.md):
@@ -60,6 +60,8 @@ New research starts from an expectation, not from a thesis. Follow
 - Register expectations in `model/expectations/` and commit them before any
   target is inspected. Do not edit a registered record's statement, question,
   criteria, rivals or novelty afterwards; withdraw it and keep it.
+- Before registering, have an agent that did not derive the set check each
+  record for real discrimination, leakage and a tight selection rule.
 - Keep the roles apart. Whoever derives an expectation does not locate it.
   A Locator works only from `programme.py brief` and reports what the source
   contains, including "not there".

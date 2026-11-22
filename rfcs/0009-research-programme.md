@@ -1,12 +1,14 @@
 ---
 title: "RFC 0009: A research programme of registered expectations"
-status: draft
+status: accepted
 authors:
   - project founder
   - Claude (drafting agent, at founder direction)
 created: 2026-11-22
 review_until: null
-related_adrs: []
+related_adrs:
+  - ../decisions/0016-cycle-0001-rulings.md
+  - ../decisions/0017-research-programme-adoption.md
 supersedes: []
 superseded_by: null
 ---
@@ -263,8 +265,9 @@ question. The digest lists what failed in the method (overstated
 discrimination at registration, a test design that could only discriminate
 by failing, divergent inclusion rules within a family, no claim for
 canon-consistency work to attach to) and the amendments it suggests. They
-are not applied here; they are for the review of this RFC.
+were adopted with the RFC.
 
 ## Resolution
 
-Open. Awaiting founder review.
+Accepted 2026-11-22 with the five amendments from the pilot:
+[ADR 0017](../decisions/0017-research-programme-adoption.md).

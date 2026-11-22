@@ -1,15 +1,15 @@
 ---
 title: Research programme
-status: draft
-version: 0.1.0
+status: accepted
+version: 0.2.0
 last_reviewed: 2026-11-22
 ---
 
 # Research programme
 
 How Wheel of Heaven generates new research from its foundational claims.
-Proposed by [RFC 0009](../../rfcs/0009-research-programme.md); `draft` until
-an ADR accepts it. The charters are harness-agnostic, like the
+Proposed by [RFC 0009](../../rfcs/0009-research-programme.md) and adopted
+by [ADR 0017](../../decisions/0017-research-programme-adoption.md). The charters are harness-agnostic, like the
 [production roles](production-roles.md): they define obligations and
 outputs. Orchestration wiring (skills, subagent definitions) lives in the
 workspace and must point back here.
@@ -71,8 +71,22 @@ A miss on such an expectation may count against the added premise and
 leave the claim untouched, so the scoreboard reports these apart.
 
 **Families.** Expectations that apply one test to several targets are not
-independent. The cycle digest groups them, and their outcomes are read as
-one result with several instances.
+independent. They share a `family` id, are located by one Locator under one
+inclusion rule, and are read as one result with several instances. The
+scoreboard counts a family once.
+
+**Scoring.** Every expectation is `scored` unless registered otherwise. A
+`control` calibrates the Locator and Critic: it has `discrimination: none`
+by construction and is reported apart. A `source_report` expectation tests
+what a source says where no claim's scope covers it (for example the
+consistency of the canonical books with one another); it is reported apart
+and its result feeds source notes and future claims.
+
+**A favouring result.** An expectation counts as discriminating only if
+its criteria name a result that would favour the claim over at least one
+rival *as the protocol measures it*. A test whose only discriminating
+outcome is its own failure (every rival predicts the hit; one predicts the
+miss) is registered with `discrimination: none`, or redesigned.
 
 ## The cycle
 
@@ -87,11 +101,20 @@ Each stage has one role and stops at its output.
 | 4. Contest | Critic | Record, finding, assessment | A contest file: the strongest case that the result means less than it seems, or that a miss was unfairly scored |
 | 5. Rule | Founder | Cycle digest | `ruling`: `hit`, `miss`, `narrowed`, `open` or `void` |
 
+**Pre-registration check.** Before the registration commit, an agent that
+did not derive the set reads each draft record and answers three
+questions: does any rival marked `different` really predict a different
+result on this target, as the protocol measures it; does the `question` or
+`protocol` let the hoped answer show; and is the selection rule tight
+enough that two Locators would select the same cases. Records that fail
+are revised or dropped before registration, and the check is noted in the
+cycle README.
+
 Registration is a commit. The Locate stage starts only after the commit
 that registers the expectations exists, so git history shows the order.
 Records are not edited after registration except to add `finding`,
 `assessment`, `contest`, `ruling` and `outputs`. A mistaken expectation is
-`withdrawn` with a reason and stays in the register.
+`withdrawn` with a reason and stays in the register. Two annotations may also be added later, because they classify the record without changing what was registered: `family` and `scoring`. The fields that fix what was expected (`statement`, `derivation`, `target`, `question`, `protocol`, `criteria`, `rivals`, `discrimination`, `novelty`) never change.
 
 Files for a cycle live in `docs/research/programme/cycle-NNNN/`: a
 `README.md` digest for the founder, and one `woh-exp-NNNN-finding.md` and
@@ -143,7 +166,9 @@ drafted on an expectation that is still `registered`, `located` or
 python3 scripts/research/programme.py status
 ```
 
-prints rulings by discrimination and novelty. The figure that measures
+prints rulings by discrimination and novelty, counting each family once
+and reporting controls and source-report expectations apart. The figure
+that measures
 whether the programme is finding anything is the count of ruled `hit`s
 that are both `unrecorded` and discriminating, set beside the misses in
 the same class. Hits with `discrimination: none` are reported separately
@@ -169,8 +194,18 @@ one.
 - Write the `question` so that someone ignorant of the expectation could
   answer it and so that either answer is reportable. Write `criteria`
   before any inspection.
-- State what each recorded alternative predicts, at its strength. Where
-  none differs, set `discrimination: none` and say so.
+- State what each recorded alternative predicts, at its strength, on this
+  target as the protocol measures it. Where none differs, set
+  `discrimination: none` and say so. Where the only result that would
+  separate the claim from a rival is the expectation's own miss, the
+  expectation does not discriminate in the claim's favour: say so, and
+  redesign it or register it as `none`.
+- Give a `family` id to expectations that apply one test to several
+  targets, and register controls and source-report work with the matching
+  `scoring`.
+- Make the selection rule explicit: which passages count as commentary on
+  a quotation (before as well as after), what is in and out of scope, and
+  how borderline cases are decided.
 - Declare prior knowledge of the target candidly.
 
 **Must not.** Open the target passage while deriving; register an

@@ -9,6 +9,7 @@
   "title": "The first book's statements about Hebrew words are lexically supported",
   "statement": "Apart from its gloss of the word Elohim, the statements The Book Which Tells the Truth makes in the voice of its Eloha speaker about what a Hebrew or biblical word, name or title means, or about what the original text says, are supported by a standard Biblical Hebrew lexicon and by the Hebrew text.",
   "derivation": "woh-claim-0001 at 0.2.0 identifies the beings of the report with the referent behind selected biblical uses of Elohim and holds that report and identification describe reality (decomposition parts 3 and 4). The report's own statements about biblical wording are the hooks of that identification. If the speaker is what the claim says, statements about the wording of the text that records them should be sound. The Elohim gloss is left out because woh-claim-0009 already records that it is not the consensus derivation, and the dragons sentence because woh-claim-0073 treats it. Limit: the claim excludes 'every detail reported by the Raelian corpus', so an unsupported statement bears on the identification's hooks and on nothing else. The result is a statement about the report as a text; it says nothing about events.",
+  "family": "speaker-hebrew",
   "kind": "philological",
   "target": {
     "source_id": "the-book-which-tells-the-truth",

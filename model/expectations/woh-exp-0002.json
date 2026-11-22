@@ -9,6 +9,7 @@
   "title": "The Exodus wording the first book's readings rest on is in the Hebrew",
   "statement": "Where The Book Which Tells the Truth quotes Exodus chapters 3, 13, 14, 16, 17, 19 or 20 and explains particular words of the quotation as physical objects or events, the Hebrew text of those verses carries the sense of the French words on which the explanation rests.",
   "derivation": "The claim identifies the reported beings with the referent of selected biblical uses of Elohim; the Sinai narrative is one place where the Hebrew names the party ha-Elohim. The book makes that identification through a French translation (woh-claim-0066 records Dhorme's). An identification with the referent of the Hebrew text holds only where the feature it hangs on is in the Hebrew. If a hinge is a product of the French rendering, the identification at that verse is with the translator's page. The claim therefore expects the hinges to be carried by the Hebrew. This tests the textual hooks of the identification, not events.",
+  "family": "hinge-word",
   "kind": "primary_text",
   "target": {
     "source_id": "the-book-which-tells-the-truth",
