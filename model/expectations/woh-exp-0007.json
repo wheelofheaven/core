@@ -55,7 +55,7 @@
   "novelty": "unrecorded",
   "prior_knowledge": "From general knowledge I believe both later books keep the beings physical and extraterrestrial; the second narrates a visit to a planet and the third is the author's own commentary and answers to questions. The evidence maps cite a handful of passages from both for other claims (for example LWTE-2:6, ETTMTTP-3:23 under woh-claim-0074) but not for this question. I expect a hit. A miss would most plausibly come from loose language in the 1979 commentary. I did not open the target. No alternative predicts otherwise, so a hit is not progress for the claim.",
   "registered": "2026-11-22",
-  "status": "located",
+  "status": "contested",
   "finding": {
     "date": "2026-11-22",
     "access": "project_digitization",
@@ -74,7 +74,12 @@
     "report": "docs/research/programme/cycle-0001/woh-exp-0007-finding.md"
   },
   "assessment": "meets_hit",
-  "contest": null,
+  "contest": {
+    "date": "2026-11-22",
+    "recommendation": "sustain",
+    "summary": "The hit could hardly have come out otherwise: denying the supernatural is the thesis of both books and one author controls all three, so the source-critical alternative predicts the same. The classes cannot register that the books give the Elohim most divine functions by technical means. Correction to the finding: the mortal/eternal difference is inside the 1975 book (ETTMTTP-2:51 and 2:53). The 1975 book's origin leg rests on residence phrases only.",
+    "report": "docs/research/programme/cycle-0001/woh-exp-0007-contest.md"
+  },
   "ruling": null,
   "outputs": []
 }

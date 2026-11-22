@@ -59,7 +59,7 @@
   "novelty": "unrecorded",
   "prior_knowledge": "I believe the book comments on prophetic and narrative passages beyond the Pentateuch (for instance the Elijah and Elisha stories and several prophets) in aerial terms, but I do not know which eight quotations the selection rule will yield, nor which words the commentary takes up. I have no confident expectation of the result. I did not open the target.",
   "registered": "2026-11-22",
-  "status": "located",
+  "status": "contested",
   "finding": {
     "date": "2026-11-22",
     "access": "project_digitization",
@@ -73,7 +73,12 @@
     "report": "docs/research/programme/cycle-0001/woh-exp-0003-finding.md"
   },
   "assessment": "meets_hit",
-  "contest": null,
+  "contest": {
+    "date": "2026-11-22",
+    "recommendation": "downgrade",
+    "summary": "The hit is not robust. Under the selection rule as registered two quotations drop out and Psalms 19:7 enters, whose 'orbite' (tequfah, the sun's circuit) was left unclassified; counting the fire-chariot phrase as one hinge also gives partial. 'Nuage' for arafel rests on one lexicon. At most a partial-grade instance with discrimination none. Outside the eight, the book's Psalm 19:5 has 'sur la mer' where the Masoretic text has 'in them'.",
+    "report": "docs/research/programme/cycle-0001/woh-exp-0003-contest.md"
+  },
   "ruling": null,
   "outputs": []
 }

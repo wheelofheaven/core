@@ -55,7 +55,7 @@
   "novelty": "unrecorded",
   "prior_knowledge": "I know this lexical field from general knowledge: the noun is tselem; outside Genesis it is used mostly of idols, statues and models (for example in Numbers, 1 Samuel, 2 Kings, Ezekiel, Amos) and twice in Psalms in a 'shadow' or 'phantom' sense; Genesis 5:3 uses it with the 'likeness' noun of Adam and Seth. I expect a hit. The evidence maps mention the image and likeness language only as Priestly vocabulary and do not record this distribution.",
   "registered": "2026-11-22",
-  "status": "located",
+  "status": "contested",
   "finding": {
     "date": "2026-11-22",
     "access": "full_text",
@@ -70,7 +70,12 @@
     "report": "docs/research/programme/cycle-0001/woh-exp-0010-finding.md"
   },
   "assessment": "meets_hit",
-  "contest": null,
+  "contest": {
+    "date": "2026-11-22",
+    "recommendation": "sustain",
+    "summary": "The count is correct and robust (six or seven independent concrete contexts against two). No known reading could have failed the criterion. It shows the noun mostly names made objects, not that it is 'a word for visible physical likeness': BDB files the Genesis occurrences under a separate sense, and the royal-representative reading draws on the same statue sense. The project's Genesis edition note already states the distribution, omitting the two Psalms occurrences.",
+    "report": "docs/research/programme/cycle-0001/woh-exp-0010-contest.md"
+  },
   "ruling": null,
   "outputs": []
 }

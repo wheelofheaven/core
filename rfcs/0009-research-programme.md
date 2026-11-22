@@ -252,6 +252,19 @@ misses opened a review. If no cycle produces a miss, or none produces an
 output, the method is not working and this RFC should be revised or
 withdrawn.
 
+### Pilot result (2026-11-22)
+
+The pilot ran through the Contest stage; its
+[digest](../docs/research/programme/cycle-0001/README.md) awaits rulings.
+It produced no hit among discriminating expectations. The Critics changed
+five of ten mechanical assessments, and the most useful results were
+passages found as by-products of reading whole books against a neutral
+question. The digest lists what failed in the method (overstated
+discrimination at registration, a test design that could only discriminate
+by failing, divergent inclusion rules within a family, no claim for
+canon-consistency work to attach to) and the amendments it suggests. They
+are not applied here; they are for the review of this RFC.
+
 ## Resolution
 
 Open. Awaiting founder review.

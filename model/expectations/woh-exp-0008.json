@@ -55,7 +55,7 @@
   "novelty": "unrecorded",
   "prior_knowledge": "From general knowledge I believe the canon rejects evolution by chance and attributes all species to laboratory creation, and that the 1979 book defends this in its answers to questions. woh-claim-0074 cites LWTE-1:148-149 for the author's 'molecular alphabet' remark, which is near this ground. I expect a hit; a miss could come from a concession about change within kinds worded loosely. I did not open the target. No alternative predicts otherwise, so a hit is not progress for the claim.",
   "registered": "2026-11-22",
-  "status": "located",
+  "status": "contested",
   "finding": {
     "date": "2026-11-22",
     "access": "project_digitization",
@@ -73,7 +73,12 @@
     "report": "docs/research/programme/cycle-0001/woh-exp-0008-finding.md"
   },
   "assessment": "meets_hit",
-  "contest": null,
+  "contest": {
+    "date": "2026-11-22",
+    "recommendation": "downgrade",
+    "summary": "Mixed describes the finding better than hit. LWTE-1:15, in Raël's voice, says the life now on Earth is not the first created here and that there has been an infinity of creations on the planet; the 1979 book carries the proposition for presently living forms only. LWTE-1:107 applies natural selection to present humans within kind; whether that meets the miss criterion depends on whether within-kind change counts. Eight of the 39 LWTE 'designed' passages are from chapter 4 (other authors). LWTE-1:149 is already quoted under woh-claim-0074.",
+    "report": "docs/research/programme/cycle-0001/woh-exp-0008-contest.md"
+  },
   "ruling": null,
   "outputs": []
 }

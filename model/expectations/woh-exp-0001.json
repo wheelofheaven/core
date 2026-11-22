@@ -57,7 +57,7 @@
   "novelty": "unrecorded",
   "prior_knowledge": "From general knowledge of the book I know its Elohim gloss and its insistence that the word is plural; both are excluded or already recorded. I believe the book explains some biblical terms in passing but I cannot recall with confidence which Hebrew words besides Elohim it glosses or how. I did not open the target. I consider a miss a real possibility, and also the outcome that fewer than two such statements exist.",
   "registered": "2026-11-22",
-  "status": "located",
+  "status": "contested",
   "finding": {
     "date": "2026-11-22",
     "access": "project_digitization",
@@ -76,7 +76,12 @@
     "report": "docs/research/programme/cycle-0001/woh-exp-0001-finding.md"
   },
   "assessment": "meets_miss",
-  "contest": null,
+  "contest": {
+    "date": "2026-11-22",
+    "recommendation": "sustain",
+    "summary": "The miss stands on a narrower basis than '5 of 10 unsupported'. None of the five rows states what a Hebrew word means. One row carries the miss firmly: TBWTT-3:71 reports Joshua 10:13 as saying the war lasted almost a whole day, where the text says it of the sun; that is a misreport of the French Bible the book quotes, not an error about Hebrew. Two rows depend on reading decisions (Gen 7:17; Matt 5:3, Greek), two are mis-scoped (the 'day' gloss; the sains/saints pun, which works only in French).",
+    "report": "docs/research/programme/cycle-0001/woh-exp-0001-contest.md"
+  },
   "ruling": null,
   "outputs": []
 }

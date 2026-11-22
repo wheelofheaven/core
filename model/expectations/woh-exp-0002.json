@@ -58,7 +58,7 @@
   "novelty": "unrecorded",
   "prior_knowledge": "I believe from general knowledge that the book reads the Exodus cloud, fire, thunder and trumpet sound at Sinai, and the manna, in technological terms, and that the French version it quotes is a literal one. I know the Hebrew of Exodus 19 in outline (cloud, fire, smoke, shofar, the mountain trembling). I do not know which words the commentary takes up. I expect mostly `carried`; I consider one or more `shifted` a real possibility. I did not open the target passages.",
   "registered": "2026-11-22",
-  "status": "located",
+  "status": "contested",
   "finding": {
     "date": "2026-11-22",
     "access": "project_digitization",
@@ -72,7 +72,12 @@
     "report": "docs/research/programme/cycle-0001/woh-exp-0002-finding.md"
   },
   "assessment": "meets_partial",
-  "contest": null,
+  "contest": {
+    "date": "2026-11-22",
+    "recommendation": "downgrade",
+    "summary": "The test compared the French translator's word with the Hebrew word; for a literal translation that is 'carried' almost by construction, and the source-critical alternative predicts it equally. Six of ten quotations have no hinge word; the result is a thin-population null, not a near-hit. Entering Ex 17:6 as shifted (the Locator's own reservation) would give a miss. Discrimination is none.",
+    "report": "docs/research/programme/cycle-0001/woh-exp-0002-contest.md"
+  },
   "ruling": null,
   "outputs": []
 }

@@ -57,7 +57,7 @@
   "novelty": "unrecorded",
   "prior_knowledge": "I am confident the paper exists as cited and that it claims arithmetical and ideographic patterns in the code which the authors interpret as an intelligent signature compatible with directed seeding. I know of informal criticism of its method. I am not aware of an independent peer-reviewed confirmation, and I am not sure whether a peer-reviewed rebuttal exists. I expect `unrebutted_unreplicated` or `rebutted`; I do not expect a hit. woh-claim-0036 already records that mainstream biology does not accept that design has been detected. I did not open the paper in this session.",
   "registered": "2026-11-22",
-  "status": "located",
+  "status": "contested",
   "finding": {
     "date": "2026-11-22",
     "access": "full_text",
@@ -68,7 +68,12 @@
     "report": "docs/research/programme/cycle-0001/woh-exp-0005-finding.md"
   },
   "assessment": "meets_partial",
-  "contest": null,
+  "contest": {
+    "date": "2026-11-22",
+    "recommendation": "void",
+    "summary": "The classification is correct (confirmed with OpenAlex: no peer-reviewed rebuttal, no independent confirmation), but the derivation does not follow from the claim: the record says the claim predicts nothing here without the auxiliary premise. The statement is a conjunction whose first half is false, yet that outcome was labelled partial. The observed result is what the naturalistic alternative predicted. Silence in a niche of about thirty citations is the base-rate outcome. The finding is sound as a source note on this literature.",
+    "report": "docs/research/programme/cycle-0001/woh-exp-0005-contest.md"
+  },
   "ruling": null,
   "outputs": []
 }

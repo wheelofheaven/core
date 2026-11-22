@@ -58,7 +58,7 @@
   "novelty": "retrodiction",
   "prior_knowledge": "I know Genesis 1-2 well: the Hebrew has 'dust from the ground' and a potter's verb at 2:7, 'in our image, after our likeness' at 1:26, and 'according to its kind' in the plant and animal verses. I believe the book reads 'dust' as chemical material from the soil and 'image' as bodily likeness. I expect mostly `carried`. I do not know the full list of words the commentary takes up, and a `shifted` case is possible. I did not open the target passages in this session.",
   "registered": "2026-11-22",
-  "status": "located",
+  "status": "contested",
   "finding": {
     "date": "2026-11-22",
     "access": "project_digitization",
@@ -75,7 +75,12 @@
     "report": "docs/research/programme/cycle-0001/woh-exp-0004-finding.md"
   },
   "assessment": "meets_partial",
-  "contest": null,
+  "contest": {
+    "date": "2026-11-22",
+    "recommendation": "downgrade",
+    "summary": "The derivation leaned on Genesis 2:7, which the book never quotes. On the plant and animal verses the commentary takes up no word. The only two classified words repeat control 0010 and are predicted by every alternative. With the borderline set the class sits at exactly one in five shifted; without the two allegorical words it is a miss at one in three. Discrimination none; a retrodiction. The one informative datum (science / da'at at Gen 2:17) is on the source-critical side.",
+    "report": "docs/research/programme/cycle-0001/woh-exp-0004-contest.md"
+  },
   "ruling": null,
   "outputs": []
 }

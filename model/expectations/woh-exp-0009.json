@@ -55,7 +55,7 @@
   "novelty": "retrodiction",
   "prior_knowledge": "I know this paper: the genome of Mycoplasma mycoides was synthesized chemically from a digitized sequence, assembled in yeast and transplanted into a Mycoplasma capricolum recipient cell, giving cells that replicated under the synthetic genome; the recipient cytoplasm was not synthesized. I expect a hit. The source is already cited for this claim.",
   "registered": "2026-11-22",
-  "status": "located",
+  "status": "contested",
   "finding": {
     "date": "2026-11-22",
     "access": "abstract",
@@ -66,7 +66,12 @@
     "report": "docs/research/programme/cycle-0001/woh-exp-0009-finding.md"
   },
   "assessment": "meets_hit",
-  "contest": null,
+  "contest": {
+    "date": "2026-11-22",
+    "recommendation": "sustain",
+    "summary": "Quotations match the PubMed record. The hit criteria leave out the recipient cell, the answer that limits the result: the abstract supports an edited near-copy of a natural genome started in a living cell of a related species, not a cell built without a pre-existing cell. As a control it could not have failed. Access was the abstract only.",
+    "report": "docs/research/programme/cycle-0001/woh-exp-0009-contest.md"
+  },
   "ruling": null,
   "outputs": []
 }

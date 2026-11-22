@@ -57,7 +57,7 @@
   "novelty": "unrecorded",
   "prior_knowledge": "I believe the second book contains a dictated section with doctrine and some remarks on religions and on the Kabbalah (woh-claim-0021 records two figures from it as attested in the Shi'ur Qomah tradition), and that it names the speaker. I do not recall specific statements about the meaning of Hebrew words in it. The outcome I think most likely is that few or no such statements exist (partial). I did not open the target.",
   "registered": "2026-11-22",
-  "status": "located",
+  "status": "contested",
   "finding": {
     "date": "2026-11-22",
     "access": "project_digitization",
@@ -72,7 +72,12 @@
     "report": "docs/research/programme/cycle-0001/woh-exp-0006-finding.md"
   },
   "assessment": "meets_hit",
-  "contest": null,
+  "contest": {
+    "date": "2026-11-22",
+    "recommendation": "downgrade",
+    "summary": "The three supported items are a quotation copied from a French Bible, a bare mention of Genesis 6 and a half-verbatim allusion to Isaiah 43:6; checking them tests the Bible translator, not the speaker. The Locator's real answer is 'no such statement', the registered partial case. Discrimination is none: the record's own rival note says the alternative predicts nothing when the book says little. The hit arose from an inclusion rule the 0001 Locator did not use.",
+    "report": "docs/research/programme/cycle-0001/woh-exp-0006-contest.md"
+  },
   "ruling": null,
   "outputs": []
 }
