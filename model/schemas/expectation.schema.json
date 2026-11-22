@@ -152,6 +152,10 @@
             "outcome": { "enum": ["hit", "miss", "narrowed", "open", "void"] },
             "date": { "type": "string", "format": "date" },
             "by": { "const": "founder" },
+            "discrimination": {
+              "description": "The discrimination the founder accepts at ruling, where it differs from the registered value (for example after a Critic's downgrade). The registered value is never edited; the scoreboard uses this one.",
+              "enum": ["none", "partial", "strong"]
+            },
             "note": { "type": "string" },
             "adr": { "type": ["string", "null"] }
           }

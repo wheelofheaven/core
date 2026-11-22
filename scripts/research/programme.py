@@ -88,8 +88,11 @@ def cmd_status(args):
                 continue
             seen_families.add(r["family"])
         counted.append(r)
+    def disc(r):
+        return (r["ruling"] or {}).get("discrimination") or r["discrimination"]
+
     tally = collections.Counter(
-        (r["discrimination"] != "none", r["novelty"] == "unrecorded", r["ruling"]["outcome"])
+        (disc(r) != "none", r["novelty"] == "unrecorded", r["ruling"]["outcome"])
         for r in counted
     )
 

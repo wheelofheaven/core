@@ -94,8 +94,9 @@
     "outcome": "miss",
     "date": "2026-11-22",
     "by": "founder",
-    "note": "Founder ruling 2026-11-22: miss, falling on the auxiliary premise, not on claim 0001's reading of the speaker. The speaker teaches through the reader's French Bible (the narrator opens his own Bible, TBWTT-2:1-2:2). TBWTT-2:42 (« science », Gen 3:22) and TBWTT-2:62 (« étages », Gen 6:16) rest on senses of the French wording; they belong to the quotation layer.",
-    "adr": null
+    "note": "Founder ruling 2026-11-22: miss, falling on the auxiliary premise, not on claim 0001's reading of the speaker. The speaker teaches through the reader's French Bible (the narrator opens his own Bible, TBWTT-2:1-2:2). TBWTT-2:42 (« science », Gen 3:22) and TBWTT-2:62 (« étages », Gen 6:16) rest on senses of the French wording; they belong to the quotation layer. Because the result falls on the premise rather than on claim 0001, it does not discriminate for or against the claim.",
+    "adr": null,
+    "discrimination": "none"
   },
   "outputs": [
     "Material for woh-claim-0066 (the canon's quotation layer): TBWTT-2:30, 2:42, 2:62, 3:192; Psalm 19:5 « sur la mer » (conjectural emendation)"

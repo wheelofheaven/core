@@ -132,7 +132,9 @@ Files for a cycle live in `docs/research/programme/cycle-NNNN/`: a
 
 A miss is a finding. It may point to a claim that states more than its
 sources carry, as with `woh-claim-0010` in ADR 0015, and then it feeds a
-review under RFC 0007. Rulings never change a claim's `evidence_status`,
+review under RFC 0007. When the founder accepts a Critic's downgrade, the ruling records the
+accepted `discrimination`; the registered value stays as it was, and the
+scoreboard uses the ruled one. Rulings never change a claim's `evidence_status`,
 `lifecycle` or statement by themselves.
 
 ## Where expectations come from
