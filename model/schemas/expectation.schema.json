@@ -1,0 +1,149 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://wheelofheaven.world/core/schemas/expectation.schema.json",
+  "title": "Wheel of Heaven research expectation",
+  "description": "One registered consequence of a claim, with its blind question, criteria, finding, contest and founder ruling. See docs/methodology/research-programme.md.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version",
+    "id",
+    "cycle",
+    "claim_id",
+    "claim_version",
+    "title",
+    "statement",
+    "derivation",
+    "kind",
+    "target",
+    "question",
+    "protocol",
+    "criteria",
+    "rivals",
+    "discrimination",
+    "novelty",
+    "prior_knowledge",
+    "registered",
+    "status",
+    "finding",
+    "assessment",
+    "contest",
+    "ruling",
+    "outputs"
+  ],
+  "properties": {
+    "$schema": { "type": "string" },
+    "schema_version": { "const": "0.1.0" },
+    "id": { "type": "string", "pattern": "^woh-exp-[0-9]{4}$" },
+    "cycle": { "type": "string", "pattern": "^cycle-[0-9]{4}$" },
+    "claim_id": { "type": "string", "pattern": "^woh-claim-[0-9]{4}$" },
+    "claim_version": { "type": "string", "pattern": "^(0|[1-9][0-9]*)\\.[0-9]+\\.[0-9]+$" },
+    "subclaim": { "type": "string" },
+    "title": { "type": "string", "minLength": 1 },
+    "statement": { "type": "string", "minLength": 1 },
+    "derivation": { "type": "string", "minLength": 1 },
+    "kind": {
+      "enum": ["canon", "primary_text", "philological", "historical", "scientific", "dataset"]
+    },
+    "target": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["description", "locator_scope", "access_expected"],
+      "properties": {
+        "source_id": { "type": "string" },
+        "description": { "type": "string", "minLength": 1 },
+        "locator_scope": { "type": "string", "minLength": 1 },
+        "holding": { "type": "string" },
+        "access_expected": {
+          "enum": ["full_text", "project_digitization", "excerpt", "abstract", "metadata_only", "secondary_citation"]
+        }
+      }
+    },
+    "question": { "type": "string", "minLength": 1 },
+    "protocol": { "type": "array", "minItems": 1, "items": { "type": "string", "minLength": 1 } },
+    "criteria": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["hit", "miss"],
+      "properties": {
+        "hit": { "type": "string", "minLength": 1 },
+        "miss": { "type": "string", "minLength": 1 },
+        "partial": { "type": "string" }
+      }
+    },
+    "rivals": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["alternative_id", "predicts", "note"],
+        "properties": {
+          "alternative_id": { "type": "string", "pattern": "^alt-" },
+          "predicts": { "enum": ["same", "different", "silent"] },
+          "note": { "type": "string" }
+        }
+      }
+    },
+    "discrimination": { "enum": ["none", "partial", "strong"] },
+    "novelty": { "enum": ["retrodiction", "unrecorded"] },
+    "prior_knowledge": { "type": "string", "minLength": 1 },
+    "registered": { "type": "string", "format": "date" },
+    "status": { "enum": ["registered", "located", "contested", "ruled", "withdrawn"] },
+    "withdrawn_reason": { "type": "string" },
+    "finding": {
+      "oneOf": [
+        { "type": "null" },
+        {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["date", "access", "answer", "locators", "report"],
+          "properties": {
+            "date": { "type": "string", "format": "date" },
+            "access": {
+              "enum": ["full_text", "project_digitization", "excerpt", "abstract", "metadata_only", "secondary_citation", "none"]
+            },
+            "answer": { "type": "string", "minLength": 1 },
+            "locators": { "type": "array", "items": { "type": "string" } },
+            "report": { "type": "string", "minLength": 1 }
+          }
+        }
+      ]
+    },
+    "assessment": { "enum": [null, "meets_hit", "meets_miss", "mixed", "inaccessible"] },
+    "contest": {
+      "oneOf": [
+        { "type": "null" },
+        {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["date", "recommendation", "summary", "report"],
+          "properties": {
+            "date": { "type": "string", "format": "date" },
+            "recommendation": { "enum": ["sustain", "downgrade", "void"] },
+            "summary": { "type": "string", "minLength": 1 },
+            "report": { "type": "string", "minLength": 1 }
+          }
+        }
+      ]
+    },
+    "ruling": {
+      "oneOf": [
+        { "type": "null" },
+        {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["outcome", "date", "by", "note"],
+          "properties": {
+            "outcome": { "enum": ["hit", "miss", "narrowed", "open", "void"] },
+            "date": { "type": "string", "format": "date" },
+            "by": { "const": "founder" },
+            "note": { "type": "string" },
+            "adr": { "type": ["string", "null"] }
+          }
+        }
+      ]
+    },
+    "outputs": { "type": "array", "items": { "type": "string" } }
+  }
+}

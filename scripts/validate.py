@@ -72,6 +72,13 @@ REVIEW_STATUSES = {"draft", "signed", "superseded"}
 # without a formal review. See docs/methodology/evidence-status.md and
 # rfcs/0007-reproducible-review-records.md.
 REVIEW_GATED_STATUSES = {"reviewed", "replicated", "unsupported"}
+EXPECTATION_ID_RE = re.compile(r"^woh-exp-[0-9]{4}$")
+EXPECTATION_KINDS = {"canon", "primary_text", "philological", "historical", "scientific", "dataset"}
+EXPECTATION_DISCRIMINATION = {"none", "partial", "strong"}
+EXPECTATION_NOVELTY = {"retrodiction", "unrecorded"}
+EXPECTATION_STATUSES = {"registered", "located", "contested", "ruled", "withdrawn"}
+EXPECTATION_PREDICTS = {"same", "different", "silent"}
+EXPECTATION_OUTCOMES = {"hit", "miss", "narrowed", "open", "void"}
 DATE_RE = re.compile(r"^[0-9]{4}-[0-9]{2}-[0-9]{2}$")
 LINK_RE = re.compile(r"\[[^\]]+\]\(([^)]+)\)")
 
@@ -416,6 +423,101 @@ def validate_catalog(validation: Validation) -> tuple[dict[str, dict[str, Any]],
     return records, source_ids
 
 
+def validate_expectations(records: dict[str, dict[str, Any]], validation: Validation) -> int:
+    """Validate research-programme expectation records (RFC 0009)."""
+    directory = MODEL / "expectations"
+    if not directory.is_dir():
+        return 0
+    count = 0
+    seen: set[str] = set()
+    for path in sorted(directory.glob("*.json")):
+        rel = path.relative_to(ROOT)
+        record = load_json(path, validation)
+        if not record:
+            continue
+        count += 1
+        exp_id = record.get("id", "")
+        validation.require(bool(EXPECTATION_ID_RE.fullmatch(exp_id)), f"{rel}: invalid id {exp_id!r}")
+        validation.require(path.stem == exp_id, f"{rel}: filename must match id")
+        validation.require(exp_id not in seen, f"{rel}: duplicate id {exp_id}")
+        seen.add(exp_id)
+
+        claim = records.get(record.get("claim_id", ""))
+        validation.require(claim is not None, f"{rel}: unknown claim_id {record.get('claim_id')!r}")
+        validation.require(
+            bool(SEMVER_RE.fullmatch(str(record.get("claim_version", "")))),
+            f"{rel}: invalid claim_version",
+        )
+        for key, allowed in (
+            ("kind", EXPECTATION_KINDS),
+            ("discrimination", EXPECTATION_DISCRIMINATION),
+            ("novelty", EXPECTATION_NOVELTY),
+            ("status", EXPECTATION_STATUSES),
+        ):
+            validation.require(record.get(key) in allowed, f"{rel}: invalid {key} {record.get(key)!r}")
+        validation.require(
+            bool(DATE_RE.fullmatch(str(record.get("registered", "")))), f"{rel}: invalid registered date"
+        )
+        for key in ("statement", "derivation", "question", "prior_knowledge"):
+            validation.require(bool(record.get(key)), f"{rel}: missing {key}")
+        criteria = record.get("criteria") or {}
+        validation.require(
+            bool(criteria.get("hit")) and bool(criteria.get("miss")),
+            f"{rel}: criteria must state both hit and miss",
+        )
+
+        rivals = record.get("rivals") or []
+        validation.require(bool(rivals), f"{rel}: at least one rival prediction is required")
+        known_alternatives = {alt.get("id") for alt in (claim or {}).get("alternatives", [])}
+        for rival in rivals:
+            alt_id = rival.get("alternative_id", "")
+            validation.require(
+                rival.get("predicts") in EXPECTATION_PREDICTS,
+                f"{rel}: invalid rival prediction {rival.get('predicts')!r}",
+            )
+            validation.require(
+                alt_id in known_alternatives or alt_id.startswith("alt-new-"),
+                f"{rel}: rival {alt_id!r} is not an alternative of {record.get('claim_id')} "
+                "(use an 'alt-new-' id for an alternative the claim record lacks)",
+            )
+        if record.get("discrimination") == "none":
+            validation.require(all(r.get("predicts") != "different" for r in rivals),
+                               f"{rel}: discrimination is 'none' but a rival predicts a different result")
+        else:
+            validation.require(
+                any(rival.get("predicts") == "different" for rival in rivals),
+                f"{rel}: discrimination {record.get('discrimination')!r} needs a rival that predicts a different result",
+            )
+
+        status = record.get("status")
+        finding, contest, ruling = record.get("finding"), record.get("contest"), record.get("ruling")
+        if status == "registered":
+            validation.require(
+                finding is None and contest is None and ruling is None and record.get("assessment") is None,
+                f"{rel}: a registered expectation carries no finding, assessment, contest or ruling",
+            )
+        if status in {"located", "contested", "ruled"}:
+            validation.require(finding is not None, f"{rel}: status {status} requires a finding")
+        if status in {"contested", "ruled"}:
+            validation.require(record.get("assessment") is not None, f"{rel}: status {status} requires an assessment")
+            validation.require(contest is not None, f"{rel}: status {status} requires a contest")
+        validation.require((status == "ruled") == (ruling is not None), f"{rel}: ruling and status 'ruled' must agree")
+        if status == "withdrawn":
+            validation.require(bool(record.get("withdrawn_reason")), f"{rel}: withdrawn needs withdrawn_reason")
+        if ruling is not None:
+            validation.require(ruling.get("by") == "founder", f"{rel}: only the founder rules")
+            validation.require(
+                ruling.get("outcome") in EXPECTATION_OUTCOMES, f"{rel}: invalid ruling outcome"
+            )
+        for label, block in (("finding", finding), ("contest", contest)):
+            if block is not None:
+                report = block.get("report", "")
+                validation.require(
+                    bool(report) and (ROOT / report).is_file(), f"{rel}: {label} report {report!r} not found"
+                )
+    return count
+
+
 def validate_source_notes(validation: Validation) -> set[str]:
     source_ids: set[str] = set()
     for path in sorted((ROOT / "source-notes").glob("*.md")):
@@ -582,6 +684,16 @@ def optional_json_schema_validation(validation: Validation) -> bool:
             jsonschema.Draft202012Validator(claim_schema, format_checker=jsonschema.FormatChecker()).validate(record)
         except jsonschema.ValidationError as exc:
             validation.error(f"{record_path.relative_to(ROOT)}: schema validation failed: {exc.message}")
+
+    expectation_schema = load_json(MODEL / "schemas" / "expectation.schema.json", validation)
+    for record_path in sorted((MODEL / "expectations").glob("*.json")):
+        record = load_json(record_path, validation)
+        try:
+            jsonschema.Draft202012Validator(
+                expectation_schema, format_checker=jsonschema.FormatChecker()
+            ).validate(record)
+        except jsonschema.ValidationError as exc:
+            validation.error(f"{record_path.relative_to(ROOT)}: schema validation failed: {exc.message}")
     return True
 
 
@@ -602,6 +714,7 @@ def main() -> int:
     validate_document_metadata(validation)
     records, claim_source_ids = validate_catalog(validation)
     note_source_ids = validate_source_notes(validation)
+    expectation_count = validate_expectations(records, validation)
     validate_local_links(validation)
     wheel_root = args.wheel_root.resolve()
     external_checked = validate_external_sources(claim_source_ids | note_source_ids, wheel_root, validation)
@@ -621,7 +734,8 @@ def main() -> int:
     note_count = len([path for path in (ROOT / "source-notes").glob("*.md") if path.name not in {"README.md", "source-note-template.md"}])
     print(
         "OK: "
-        f"{claim_count} claim record(s), {note_count} source note(s); "
+        f"{claim_count} claim record(s), {note_count} source note(s), "
+        f"{expectation_count} expectation(s); "
         f"external_sources={'checked' if external_checked else 'skipped'}; "
         f"publication_integration={'checked' if integration_checked else 'skipped'}; "
         f"json_schema={'checked' if schema_checked else 'skipped'}"

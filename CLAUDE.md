@@ -50,6 +50,25 @@ Do not independently:
 An agent may scaffold a clearly marked draft or research question when asked,
 but must not fill unknowns with authoritative-looking content.
 
+## Research programme (RFC 0009, draft)
+
+New research starts from an expectation, not from a thesis. Follow
+[`docs/methodology/research-programme.md`](docs/methodology/research-programme.md):
+
+- Take the kernel (`python3 scripts/research/programme.py kernel`) as given
+  for derivation. Do not argue for or against it inside a cycle.
+- Register expectations in `model/expectations/` and commit them before any
+  target is inspected. Do not edit a registered record's statement, question,
+  criteria, rivals or novelty afterwards; withdraw it and keep it.
+- Keep the roles apart. Whoever derives an expectation does not locate it.
+  A Locator works only from `programme.py brief` and reports what the source
+  contains, including "not there".
+- Record misses, nulls and inaccessible targets exactly as carefully as hits.
+- Never enter a `ruling`. Only the founder rules.
+- Do not draft a synthesis, article pitch or claim on an expectation that
+  has not been ruled, and never on a passage that is not in hand.
+- Never present the scoreboard as a likelihood that a claim is true.
+
 ## Working conventions
 
 - Follow `CONTRIBUTING.md` and the nearest more-specific `CLAUDE.md`.

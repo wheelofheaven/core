@@ -12,6 +12,8 @@ last_reviewed: 2026-08-02
 - [Source use and source notes](source-use-and-notes.md)
 - [Comparative method](comparative-method.md)
 - [Versioning](versioning.md)
+- [Production roles](production-roles.md)
+- [Research programme](research-programme.md) — draft, proposed by RFC 0009
 
 These documents govern research representation. Reader-facing editorial rules
 remain in the publishing and documentation repositories.

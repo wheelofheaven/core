@@ -67,3 +67,27 @@ Great Year of twelve equal 2,160-year world ages, anchored by project
 convention so that the Age of Aquarius spans 1950–4110 CE. The model idealizes
 the observed precession cycle; its age boundaries are framework conventions,
 not astronomical events.
+
+### Kernel
+
+The accepted claims whose framework relation is `foundational`. Research under
+the proposed programme (RFC 0009) takes the kernel as given and derives
+expectations from it. The kernel is read from the claim records and is not a
+separate list.
+
+### Expectation
+
+A consequence of a claim, registered before any source is inspected: a named
+target, a neutral question, criteria for hit and miss, and what each recorded
+alternative predicts. An expectation has no outcome until the founder rules.
+
+### Discrimination
+
+Whether an expectation separates a claim from its alternatives. An expectation
+that every alternative also predicts has discrimination `none`, and a hit on
+it favours nothing.
+
+### Ruling
+
+The founder's outcome for an expectation: `hit`, `miss`, `narrowed`, `open`,
+or `void`. A ruling does not change any claim record.
