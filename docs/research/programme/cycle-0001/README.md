@@ -288,7 +288,7 @@ For the review of RFC 0009.
   source-report work outside a claim's scoreboard.
 - **Novelty** was judged against core and missed what the library's own
   edition notes and neighbouring claims already record.
-- **Cost.** About 2.2 million agent tokens for ten expectations, most of it
+- **Cost.** About 2.1 million agent tokens for ten expectations, most of it
   in reading whole books three times over for one family.
 
 **Proposed amendments, not applied.** A pre-registration check of
