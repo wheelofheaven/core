@@ -159,16 +159,21 @@ depend on any decay rate.
 source named in the evidence map has been inspected by the project; all are
 at metadata level until read.
 
-## Open decisions for the founder
+## Founder decisions on the draft (2026-11-22)
 
-1. The wording of the proposition.
-2. Whether this claim joins the `foundational` claims, and so the kernel of
-   the research programme. Drafted as `derived`.
-3. The conflict with `woh-claim-0001` 0.2.1, whose scope note (added this
-   morning on the strength of `LWTE-1:15`) sets earlier creations outside
-   claim 0001. Under ADR 0018 that passage is Raël's opinion, and under
-   this claim there were no earlier creations to set aside.
-4. The standing of chapter 2 of *Let's Welcome the Extraterrestrials*.
+Recorded in [ADR 0019](../../decisions/0019-claim-0080-review-decisions.md).
+
+1. The proposition is accepted as drafted, including the consequence that
+   the dating of fossils is mistaken.
+2. The claim is `derived`, not `foundational`.
+3. The scope note on `woh-claim-0001` is kept and relabelled as Raël's
+   opinion (claim 0001 at 0.2.2).
+4. In chapter 2 of *Let's Welcome the Extraterrestrials*, words reported as
+   spoken by the Elohim are canon; Raël's narration around them is not.
+   That chapter has not yet been searched for passages bearing on this
+   claim.
+
+The record stays `draft` until the founder promotes it.
 
 ## Revision triggers
 

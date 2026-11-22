@@ -1,7 +1,7 @@
 ---
 title: Elohim-civilization hypothesis
 status: accepted
-version: 0.2.1
+version: 0.2.2
 last_reviewed: 2026-11-22
 claim_id: woh-claim-0001
 ---
@@ -117,12 +117,14 @@ This claim does not by itself establish:
 
 - the reliability of every Raëlian source statement;
 - the project's precessional chronology;
-- creations of life on Earth before the one the canon attributes to the
-  Elohim. `LWTE-1:14` says they created « toutes les formes de vie que nous
-  connaissons, y compris l'homme »; `LWTE-1:15` adds that « la vie qui se
-  trouve actuellement Terre n'est pas la première qui y fut créée ». The
-  proposition concerns the life now living, humanity included (scope note
-  added by [ADR 0016](../../decisions/0016-cycle-0001-rulings.md));
+- Raël's remark, in his own commentary, that an earlier creation destroyed
+  before the Elohim came may have left older remains (`LWTE-1:15`). It is
+  his opinion and not canon
+  ([ADR 0018](../../decisions/0018-canon-boundary-dictated-messages.md));
+  the note is kept, relabelled, by
+  [ADR 0019](../../decisions/0019-claim-0080-review-decisions.md). The
+  project's own chronology of life is
+  [`woh-claim-0080`](compressed-chronology-of-terrestrial-life.md);
 - one-to-one mappings among biblical, Mesopotamian, or other named figures;
 - the Anunnaki–Elohim identity claim;
 - the motives, political structure, population, lifespan, or present location

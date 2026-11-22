@@ -76,11 +76,11 @@
     }
   ],
   "revision_triggers": [
-    "The founder reviews this draft: wording of the proposition, whether it joins the foundational claims, and how the dating entailment is stated.",
-    "The founder rules on the standing of chapter 2 of Let's Welcome the Extraterrestrials (left open by ADR 0018).",
-    "woh-claim-0001 or woh-claim-0071 is revised in the light of ADR 0018; in particular the scope note on earlier creations added to 0001 at 0.2.1 conflicts with this proposition as drafted.",
+    "The founder promotes or amends this draft.",
+    "woh-claim-0071 is revised in the light of ADR 0018.",
     "A research cycle under RFC 0009 rules on expectations derived from this claim.",
-    "A source cited for an alternative or for an observation is inspected and reads differently from its description here."
+    "A source cited for an alternative or for an observation is inspected and reads differently from its description here.",
+    "A passage of dictated text, including words of the Elohim reported in chapter 2 of Let's Welcome the Extraterrestrials (canon per ADR 0019), is found to bear on the chronology of life."
   ],
   "controlling_document": "../../docs/framework/compressed-chronology-of-terrestrial-life.md",
   "public_derivatives": [],

@@ -70,6 +70,10 @@ Option B.
    commentary layer" in decision 2 of ADR 0014. The rest of both ADRs
    stands.
 
+*(Decided 2026-11-22 by [ADR 0019](0019-claim-0080-review-decisions.md):
+words reported as spoken by the Elohim in chapter 2 are canon; the narration
+is not.)*
+
 **Not decided here:** whether the narrated encounter in chapter 2 of the
 third book, where it reports words of the Elohim, counts as dictated
 Message. Option C would have said yes and was not chosen; Option B's
