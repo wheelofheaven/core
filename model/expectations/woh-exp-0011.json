@@ -61,9 +61,29 @@
   "novelty": "unrecorded",
   "prior_knowledge": "Derived by the orchestrating session after cycle-0001, which has read the Locator and Critic reports of that cycle. Known and excluded: TBWTT-2:30 and TBWTT-3:192. Known to exist but not inspected: a parallel at TBWTT-2:42 on Genesis 3:22, which a Critic flagged as unchecked; and a report that the commentary in these chapters is mostly re-description of the thing named, so `sense_dependent` cases may be few. Expected outcome: a miss through TBWTT-2:42, or the partial case. No passage in scope other than TBWTT-2:30 was opened by the Deriver.",
   "registered": "2026-11-22",
-  "status": "registered",
-  "finding": null,
-  "assessment": null,
+  "status": "located",
+  "finding": {
+    "date": "2026-11-22",
+    "access": "project_digitization",
+    "answer": "168 Hebrew-Bible quotations in chapters 2 and 3; 2 excluded as recorded; of 166: sense_dependent 13, image_step 150, no_explanation 3. Of the 13: shared 8, french_only 2 (TBWTT-2:42, « science » at Genesis 3:22; TBWTT-2:62, « étages » at Genesis 6:16), disputed 1 (« jour », Genesis 1:5), and 2 that fit no class (the gloss of Elohim itself, TBWTT-2:4 and 3:250). Nine of the 13 are borderline between sense-dependent and image-step; twelve further image-step cases could arguably move. Adjacent: Psalm 19:5 quoted with « sur la mer », absent from the Hebrew, and the commentary at TBWTT-3:245 depends on it.",
+    "locators": [
+      "TBWTT-2:42",
+      "TBWTT-2:62",
+      "TBWTT-2:9",
+      "TBWTT-2:26",
+      "TBWTT-2:59",
+      "TBWTT-2:67",
+      "TBWTT-3:49",
+      "TBWTT-3:93",
+      "TBWTT-3:146",
+      "TBWTT-3:241",
+      "TBWTT-3:276",
+      "TBWTT-2:4",
+      "TBWTT-3:250"
+    ],
+    "report": "docs/research/programme/cycle-0002/woh-exp-0011-finding.md"
+  },
+  "assessment": "meets_miss",
   "contest": null,
   "ruling": null,
   "outputs": []
