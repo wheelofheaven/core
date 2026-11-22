@@ -51,18 +51,28 @@ Two properties decide whether a result can count as progress.
 
 **Discrimination.** For each alternative on the claim record, the Deriver
 states whether it predicts the `same` result, a `different` one, or is
-`silent`. If every alternative predicts the same result, `discrimination`
-is `none`: the expectation may still be worth checking, but a hit favours
+`silent` (it commits to nothing about this target). If no alternative
+predicts a different result, `discrimination` is `none`: the expectation may still be worth checking, but a hit favours
 nothing. Plural verbs in Genesis 1:26 are expected by the framework reading
 and by the divine-council reading alike.
 
-**Novelty.** `retrodiction` means core already cites the target for this
-claim; the expectation restates known ground. `unrecorded` means it does
-not. Agents carry general knowledge of famous texts, so `unrecorded` is a
+**Novelty.** `retrodiction` means core already records the target, under
+this claim or any other claim, evidence map or research dossier; the
+expectation restates known ground. `unrecorded` means no core record
+does. Agents carry general knowledge of famous texts, so `unrecorded` is a
 statement about the project's records, and the Deriver must say in
 `prior_knowledge` what it already believes the target contains.
 Registration prevents selective reporting. It cannot prevent prior
 knowledge.
+
+**Auxiliary assumptions.** Where the derivation needs a premise the claim
+record does not state, the Deriver lists it in `auxiliary_assumptions`.
+A miss on such an expectation may count against the added premise and
+leave the claim untouched, so the scoreboard reports these apart.
+
+**Families.** Expectations that apply one test to several targets are not
+independent. The cycle digest groups them, and their outcomes are read as
+one result with several instances.
 
 ## The cycle
 

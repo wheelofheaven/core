@@ -42,6 +42,11 @@
     "title": { "type": "string", "minLength": 1 },
     "statement": { "type": "string", "minLength": 1 },
     "derivation": { "type": "string", "minLength": 1 },
+    "auxiliary_assumptions": {
+      "description": "Premises the derivation needs that the claim record does not state. An expectation that carries any is reported apart on the scoreboard.",
+      "type": "array",
+      "items": { "type": "string", "minLength": 1 }
+    },
     "kind": {
       "enum": ["canon", "primary_text", "philological", "historical", "scientific", "dataset"]
     },

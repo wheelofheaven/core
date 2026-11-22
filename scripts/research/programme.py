@@ -70,7 +70,8 @@ def cmd_status(args):
     print("| --- | --- | --- | --- | --- | --- | --- | --- |")
     for exp_id, r in records.items():
         print(f"| {exp_id} | {r['claim_id'][-4:]} | {r['kind']} | {r['discrimination']} "
-              f"| {r['novelty']} | {r['assessment'] or '—'} | {outcome(r)} | {r['title']} |")
+              f"| {r['novelty']} | {r['assessment'] or '—'} | {outcome(r)} "
+              f"| {r['title']}{' (auxiliary assumption)' if r.get('auxiliary_assumptions') else ''} |")
 
     ruled = [r for r in records.values() if r["ruling"]]
     tally = collections.Counter(
@@ -96,6 +97,9 @@ def cmd_status(args):
         cells = " | ".join(str(count(disc, unrec, o)) for o in ("hit", "miss", "narrowed", "open", "void"))
         print(f"| {label} | {cells} |")
     print()
+    auxiliary = sorted(k for k, r in records.items() if r.get("auxiliary_assumptions"))
+    if auxiliary:
+        print(f"Resting on an auxiliary assumption, to be read apart: {', '.join(auxiliary)}.")
     print("The table measures the programme's yield. It is not a probability that a claim is true.")
     return 0
 
