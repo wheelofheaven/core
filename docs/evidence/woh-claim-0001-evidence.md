@@ -1,8 +1,8 @@
 ---
 title: "Evidence map: Elohim-civilization hypothesis"
 status: draft
-version: 0.2.0
-last_reviewed: 2026-08-17
+version: 0.3.0
+last_reviewed: 2026-11-22
 claim_id: woh-claim-0001
 ---
 
@@ -59,9 +59,24 @@ data. Recording that step as interpretive is what keeps the claim honest.
 
 ## Subclaim D — design of terrestrial life
 
-| Consideration | Source-language observation | Canonical interpretation | Mainstream / alternative reading | Scientific context | Critical explanation | Dependency note |
-| --- | --- | --- | --- | --- | --- | --- |
-| `GEN-WOH-2:7` (YHWH-Elohim "formed the human, dust from the ground") | A fashioning verb (יָצַר, of a potter) with a material ("dust"). | Directed biological synthesis from raw material. | An anthropogonic myth using craft imagery; parallels ancient Near Eastern clay-creation motifs. | Directed-panspermia proposals (Crick–Orgel) and synthetic-genome work (`creation-of-a-bacterial-cell…`) show directed biology is a real research programme — not that it produced terrestrial life. | Craft-creation imagery is a shared ancient Near Eastern topos, not a technical report. | The scientific-possibility sources are conceptual analogues, wholly independent of the canon but evidentially inert for the specific claim. |
+This subclaim has no passage row. The canonical statement that life on
+Earth was created artificially is part of the report layer
+([`woh-claim-0070`](../framework/canonical-contact-report.md), `TBWTT-2:5`);
+`LWTE-1:14` and `LWTE-1:15` state its extent (see the claim's scope).
+
+Until version 0.3.0 this section carried one row on `GEN-WOH-2:7` (the
+potter's verb and "dust from the ground") with a canonical interpretation
+of directed biological synthesis. Research cycle-0001 found that *The Book
+Which Tells the Truth* never quotes Genesis 2:7, so the row attributed to
+the canon a reading with no canonical locator. It was removed by
+[ADR 0016](../../decisions/0016-cycle-0001-rulings.md); the earlier text
+remains in the repository history.
+
+Scientific context, unchanged: directed-panspermia proposals (Crick–Orgel)
+and synthetic-genome work (`creation-of-a-bacterial-cell…`) show that
+directed biology is a real research programme. They do not show that it
+produced terrestrial life, and they are evidentially inert for the specific
+claim.
 
 ## Independence summary
 

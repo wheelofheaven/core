@@ -3,7 +3,7 @@
   "schema_version": "0.1.0",
   "id": "woh-claim-0001",
   "title": "Elohim-civilization hypothesis",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "lifecycle": "accepted",
   "statement": "The beings Wheel of Heaven identifies as the Elohim were a technologically advanced biological civilization from elsewhere and were responsible for designing terrestrial life, including humanity.",
   "claim_kind": "hypothesis",
@@ -23,6 +23,7 @@
       "The report layer itself — what the canonical source explicitly states — which is recorded by woh-claim-0070",
       "Every detail reported by the Raëlian corpus",
       "The precessional chronology",
+      "Creations of life on Earth before the one the canon attributes to the Elohim: LWTE-1:15 reports that the life now on Earth is not the first created there. The proposition concerns the life now living, humanity included",
       "One-to-one cross-tradition figure mappings",
       "The present location, population, governance, motives, or lifespan of the proposed civilization",
       "Religious or normative obligations"
@@ -35,6 +36,13 @@
       "role": "canonical_basis",
       "access": "project_digitization",
       "note": "../../source-notes/the-book-which-tells-the-truth.md"
+    },
+    {
+      "source_id": "lets-welcome-the-extraterrestrials",
+      "locator": "LWTE-1:14; LWTE-1:15",
+      "role": "canonical_basis",
+      "access": "project_digitization",
+      "note": "../../source-notes/lets-welcome-the-extraterrestrials.md"
     }
   ],
   "dependencies": [
@@ -75,5 +83,5 @@
     "wheelofheaven/data-content:wiki/intelligent-design.md",
     "wheelofheaven/data-content:wiki/ancient-astronaut-hypothesis.md"
   ],
-  "last_reviewed": "2026-08-17"
+  "last_reviewed": "2026-11-22"
 }

@@ -4,7 +4,20 @@ Pilot cycle for [RFC 0009](../../../../rfcs/0009-research-programme.md).
 Claim version at derivation: 0.2.0.
 
 State: ten expectations registered, located, assessed and contested on
-2026-11-22. **None is ruled.** This digest is for the founder's rulings.
+2026-11-22. **One is ruled** (`woh-exp-0008`, `narrowed`); nine await the
+founder's rulings.
+
+## Founder decisions, 2026-11-22
+
+Recorded in [ADR 0016](../../../../decisions/0016-cycle-0001-rulings.md).
+
+| Item below | Decision | Done |
+| --- | --- | --- |
+| 1. LWTE-1:15 | Claim 0001 keeps its wording; scope note added | Claim 0.2.1 |
+| 2. LWTE-1:107 | Selection within a created kind is compatible with design | `woh-exp-0008` ruled `narrowed` |
+| 3. Joshua 10:13 | Compare with the French Bible first | Blocked: the project holds only Genesis 1–3 of Dhorme. `woh-exp-0001` stays unruled |
+| 4. Genesis 2:7 | Remove the row | Evidence map 0.3.0 |
+| 5. *science* / *da'at* | Register a new test | `woh-exp-0011`, [cycle-0002](../cycle-0002/README.md) |
 
 The order of events is in the commit history: registration, then findings
 and assessments, then contests.
