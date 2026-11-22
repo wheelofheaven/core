@@ -57,9 +57,17 @@
   "novelty": "unrecorded",
   "prior_knowledge": "I am confident the paper exists as cited and that it claims arithmetical and ideographic patterns in the code which the authors interpret as an intelligent signature compatible with directed seeding. I know of informal criticism of its method. I am not aware of an independent peer-reviewed confirmation, and I am not sure whether a peer-reviewed rebuttal exists. I expect `unrebutted_unreplicated` or `rebutted`; I do not expect a hit. woh-claim-0036 already records that mainstream biology does not accept that design has been detected. I did not open the paper in this session.",
   "registered": "2026-11-22",
-  "status": "registered",
-  "finding": null,
-  "assessment": null,
+  "status": "located",
+  "finding": {
+    "date": "2026-11-22",
+    "access": "full_text",
+    "answer": "The paper claims arithmetical and ideographical patterns in the standard genetic code as an intelligent signature, with a stated P-value below 10^-13 from a test the authors call a rough approximation. Classification `unrebutted_unreplicated`: no independent peer-reviewed confirmation and no peer-reviewed rebuttal among 32 citing works screened. A same-author follow-up exists (2018). Google Scholar, OpenAlex and ADS were not reached; several citing papers were read only as abstracts.",
+    "locators": [
+      "arXiv:1303.6739 (accepted manuscript of Icarus 224:228-242)"
+    ],
+    "report": "docs/research/programme/cycle-0001/woh-exp-0005-finding.md"
+  },
+  "assessment": "meets_partial",
   "contest": null,
   "ruling": null,
   "outputs": []

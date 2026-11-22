@@ -55,9 +55,24 @@
   "novelty": "unrecorded",
   "prior_knowledge": "From general knowledge I believe the canon rejects evolution by chance and attributes all species to laboratory creation, and that the 1979 book defends this in its answers to questions. woh-claim-0074 cites LWTE-1:148-149 for the author's 'molecular alphabet' remark, which is near this ground. I expect a hit; a miss could come from a concession about change within kinds worded loosely. I did not open the target. No alternative predicts otherwise, so a hit is not progress for the claim.",
   "registered": "2026-11-22",
-  "status": "registered",
-  "finding": null,
-  "assessment": null,
+  "status": "located",
+  "finding": {
+    "date": "2026-11-22",
+    "access": "project_digitization",
+    "answer": "Both books attribute terrestrial life and humans to creation by the Elohim (designed: 25 and 39 paragraphs); neither has an `undirected` passage. LWTE reports evolution only to reject it (18 paragraphs). Five paragraphs are ambiguous; the nearest to undirected is LWTE-1:107, where present humans are the fruit of a long natural selection among survivors, with no change of kind asserted. Terrusse's essay affirms mutation within a species.",
+    "locators": [
+      "ETTMTTP-2:51",
+      "LWTE-1:14",
+      "LWTE-1:107",
+      "LWTE-1:149",
+      "LWTE-1:196",
+      "LWTE-4:11",
+      "LWTE-4:13",
+      "LWTE-4:16"
+    ],
+    "report": "docs/research/programme/cycle-0001/woh-exp-0008-finding.md"
+  },
+  "assessment": "meets_hit",
   "contest": null,
   "ruling": null,
   "outputs": []

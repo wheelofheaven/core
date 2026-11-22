@@ -55,9 +55,21 @@
   "novelty": "unrecorded",
   "prior_knowledge": "I know this lexical field from general knowledge: the noun is tselem; outside Genesis it is used mostly of idols, statues and models (for example in Numbers, 1 Samuel, 2 Kings, Ezekiel, Amos) and twice in Psalms in a 'shadow' or 'phantom' sense; Genesis 5:3 uses it with the 'likeness' noun of Adam and Seth. I expect a hit. The evidence maps mention the image and likeness language only as Priestly vocabulary and do not record this distribution.",
   "registered": "2026-11-22",
-  "status": "registered",
-  "finding": null,
-  "assessment": null,
+  "status": "located",
+  "finding": {
+    "date": "2026-11-22",
+    "access": "full_text",
+    "answer": "The noun is tselem; Genesis 5:3 uses it. Outside Genesis BDB lists 12 Hebrew occurrences: 10 concrete_object, 2 non_concrete (Psalms 39:7, 73:20). With Amos 5:26 set aside as textually dubious: 9 and 2. Aramaic in Daniel: 16 concrete, 1 non_concrete. BDB places the Genesis occurrences in a sense of their own (image, likeness, of resemblance).",
+    "locators": [
+      "GEN-WOH-1:26",
+      "GEN-WOH-1:27",
+      "GEN-WOH-5:3",
+      "GEN-WOH-9:6",
+      "BDB s.v. tselem"
+    ],
+    "report": "docs/research/programme/cycle-0001/woh-exp-0010-finding.md"
+  },
+  "assessment": "meets_hit",
   "contest": null,
   "ruling": null,
   "outputs": []

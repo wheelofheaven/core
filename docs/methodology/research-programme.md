@@ -199,8 +199,9 @@ paraphrase where quotation is possible; cite a passage from memory.
 
 **Obligations.**
 
-- Apply the registered criteria to the finding and enter `assessment`.
-  Where the criteria do not settle it, enter `mixed`.
+- Apply the registered criteria to the finding and enter `assessment`:
+  `meets_hit`, `meets_partial`, `meets_miss`, or `inaccessible`. Where the
+  criteria do not settle it, enter `mixed`.
 - Write the cycle digest: per expectation, the question, the quotation or
   datum, the assessment, the Critic's objection, and what a ruling either
   way would touch.

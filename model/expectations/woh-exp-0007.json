@@ -55,9 +55,25 @@
   "novelty": "unrecorded",
   "prior_knowledge": "From general knowledge I believe both later books keep the beings physical and extraterrestrial; the second narrates a visit to a planet and the third is the author's own commentary and answers to questions. The evidence maps cite a handful of passages from both for other claims (for example LWTE-2:6, ETTMTTP-3:23 under woh-claim-0074) but not for this question. I expect a hit. A miss would most plausibly come from loose language in the 1979 commentary. I did not open the target. No alternative predicts otherwise, so a hit is not progress for the claim.",
   "registered": "2026-11-22",
-  "status": "registered",
-  "finding": null,
-  "assessment": null,
+  "status": "located",
+  "finding": {
+    "date": "2026-11-22",
+    "access": "project_digitization",
+    "answer": "Both books present the Elohim as bodily, human-like beings from another planet (biological_physical 16 and 22 paragraphs; origin_other_planet 5 and 17). No passage in either book's own voice makes them immaterial or supernatural or gives another origin. Three LWTE paragraphs concede divine-sounding attributes (eternal, all-powerful in this sector) and are classed ambiguous. Six differences of detail between the books are recorded, three of which LWTE raises itself.",
+    "locators": [
+      "ETTMTTP-2:46",
+      "ETTMTTP-2:53",
+      "ETTMTTP-3:193",
+      "LWTE-1:2",
+      "LWTE-1:26",
+      "LWTE-1:65",
+      "LWTE-1:195",
+      "LWTE-2:22",
+      "LWTE-2:28"
+    ],
+    "report": "docs/research/programme/cycle-0001/woh-exp-0007-finding.md"
+  },
+  "assessment": "meets_hit",
   "contest": null,
   "ruling": null,
   "outputs": []

@@ -57,9 +57,25 @@
   "novelty": "unrecorded",
   "prior_knowledge": "From general knowledge of the book I know its Elohim gloss and its insistence that the word is plural; both are excluded or already recorded. I believe the book explains some biblical terms in passing but I cannot recall with confidence which Hebrew words besides Elohim it glosses or how. I did not open the target. I consider a miss a real possibility, and also the outcome that fewer than two such statements exist.",
   "registered": "2026-11-22",
-  "status": "registered",
-  "finding": null,
-  "assessment": null,
+  "status": "located",
+  "finding": {
+    "date": "2026-11-22",
+    "access": "project_digitization",
+    "answer": "Ten explicit statements in the Yahweh paragraphs (outside the excluded Elohim and dragons passages): supported 1, unsupported 5, contested 0, not_checkable 4. One of the five unsupported is about Matthew 5:3 (Greek); without it 1/4/0/4. Chapters 2-3 read in full, the others by search term; one lexicon (BDB online), no commentaries, so `contested` could not arise.",
+    "locators": [
+      "TBWTT-2:10",
+      "TBWTT-2:41",
+      "TBWTT-2:60",
+      "TBWTT-3:71",
+      "TBWTT-3:192",
+      "TBWTT-3:240",
+      "TBWTT-4:24",
+      "TBWTT-5:66",
+      "TBWTT-5:67"
+    ],
+    "report": "docs/research/programme/cycle-0001/woh-exp-0001-finding.md"
+  },
+  "assessment": "meets_miss",
   "contest": null,
   "ruling": null,
   "outputs": []

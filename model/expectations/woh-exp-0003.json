@@ -59,9 +59,20 @@
   "novelty": "unrecorded",
   "prior_knowledge": "I believe the book comments on prophetic and narrative passages beyond the Pentateuch (for instance the Elijah and Elisha stories and several prophets) in aerial terms, but I do not know which eight quotations the selection rule will yield, nor which words the commentary takes up. I have no confident expectation of the result. I did not open the target.",
   "registered": "2026-11-22",
-  "status": "registered",
-  "finding": null,
-  "assessment": null,
+  "status": "located",
+  "finding": {
+    "date": "2026-11-22",
+    "access": "project_digitization",
+    "answer": "In the first eight qualifying quotations (1 Kings 8 to Isaiah 14), five hinge words in four quotations, all `carried`; none shifted or absent; four quotations with no hinge word. The set of eight depends on two reading decisions by the Locator (commentary placed before the quotation counted; Isaiah 6 kept, Joshua 10:11 excluded). The technical objects named by the commentary are its own glosses and were not tested.",
+    "locators": [
+      "TBWTT-3:104",
+      "TBWTT-3:132",
+      "TBWTT-3:144",
+      "TBWTT-3:146"
+    ],
+    "report": "docs/research/programme/cycle-0001/woh-exp-0003-finding.md"
+  },
+  "assessment": "meets_hit",
   "contest": null,
   "ruling": null,
   "outputs": []

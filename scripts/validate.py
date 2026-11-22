@@ -78,6 +78,7 @@ EXPECTATION_DISCRIMINATION = {"none", "partial", "strong"}
 EXPECTATION_NOVELTY = {"retrodiction", "unrecorded"}
 EXPECTATION_STATUSES = {"registered", "located", "contested", "ruled", "withdrawn"}
 EXPECTATION_PREDICTS = {"same", "different", "silent"}
+EXPECTATION_ASSESSMENTS = {None, "meets_hit", "meets_partial", "meets_miss", "mixed", "inaccessible"}
 EXPECTATION_OUTCOMES = {"hit", "miss", "narrowed", "open", "void"}
 DATE_RE = re.compile(r"^[0-9]{4}-[0-9]{2}-[0-9]{2}$")
 LINK_RE = re.compile(r"\[[^\]]+\]\(([^)]+)\)")
@@ -489,6 +490,9 @@ def validate_expectations(records: dict[str, dict[str, Any]], validation: Valida
                 f"{rel}: discrimination {record.get('discrimination')!r} needs a rival that predicts a different result",
             )
 
+        validation.require(
+            record.get("assessment") in EXPECTATION_ASSESSMENTS, f"{rel}: invalid assessment {record.get('assessment')!r}"
+        )
         status = record.get("status")
         finding, contest, ruling = record.get("finding"), record.get("contest"), record.get("ruling")
         if status == "registered":

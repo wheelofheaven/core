@@ -58,9 +58,20 @@
   "novelty": "unrecorded",
   "prior_knowledge": "I believe from general knowledge that the book reads the Exodus cloud, fire, thunder and trumpet sound at Sinai, and the manna, in technological terms, and that the French version it quotes is a literal one. I know the Hebrew of Exodus 19 in outline (cloud, fire, smoke, shofar, the mountain trembling). I do not know which words the commentary takes up. I expect mostly `carried`; I consider one or more `shifted` a real possibility. I did not open the target passages.",
   "registered": "2026-11-22",
-  "status": "registered",
-  "finding": null,
-  "assessment": null,
+  "status": "located",
+  "finding": {
+    "date": "2026-11-22",
+    "access": "project_digitization",
+    "answer": "Ten quotations of the in-scope Exodus chapters, all in TBWTT chapter 3; none of Exodus 20. Four hinge words, all `carried` (one with reservation, Ex 17:6); six quotations with no hinge word. Fewer than the five classified hinge words the hit criterion requires. In each case the French renders the Hebrew ordinarily; the commentary's re-description (light, smoke, synthetic food, detector) is a lexicon sense of none.",
+    "locators": [
+      "TBWTT-3:8",
+      "TBWTT-3:13",
+      "TBWTT-3:20",
+      "TBWTT-3:23"
+    ],
+    "report": "docs/research/programme/cycle-0001/woh-exp-0002-finding.md"
+  },
+  "assessment": "meets_partial",
   "contest": null,
   "ruling": null,
   "outputs": []

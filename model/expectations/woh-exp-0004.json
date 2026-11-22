@@ -58,9 +58,23 @@
   "novelty": "retrodiction",
   "prior_knowledge": "I know Genesis 1-2 well: the Hebrew has 'dust from the ground' and a potter's verb at 2:7, 'in our image, after our likeness' at 1:26, and 'according to its kind' in the plant and animal verses. I believe the book reads 'dust' as chemical material from the soil and 'image' as bodily likeness. I expect mostly `carried`. I do not know the full list of words the commentary takes up, and a `shifted` case is possible. I did not open the target passages in this session.",
   "registered": "2026-11-22",
-  "status": "registered",
-  "finding": null,
-  "assessment": null,
+  "status": "located",
+  "finding": {
+    "date": "2026-11-22",
+    "access": "project_digitization",
+    "answer": "Thirteen quotations of Genesis 1-2, all in TBWTT-2:4-2:31. Of the four on the making of plants, animals and the human, three have no hinge word; Genesis 1:26 gives two (image, ressemblance), both `carried`. A borderline set (Gen 2:16-17) adds two `carried` and one `shifted` (science / da'at). Core set: 2 classified, below the four required. Both sets: 5 classified, 1 shifted. Genesis 2:7 is never quoted in the book.",
+    "locators": [
+      "TBWTT-2:15",
+      "TBWTT-2:19",
+      "TBWTT-2:23",
+      "TBWTT-2:26",
+      "TBWTT-2:27",
+      "TBWTT-2:29",
+      "TBWTT-2:30"
+    ],
+    "report": "docs/research/programme/cycle-0001/woh-exp-0004-finding.md"
+  },
+  "assessment": "meets_partial",
   "contest": null,
   "ruling": null,
   "outputs": []

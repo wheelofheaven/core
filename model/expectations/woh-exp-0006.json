@@ -57,9 +57,21 @@
   "novelty": "unrecorded",
   "prior_knowledge": "I believe the second book contains a dictated section with doctrine and some remarks on religions and on the Kabbalah (woh-claim-0021 records two figures from it as attested in the Shi'ur Qomah tradition), and that it names the speaker. I do not recall specific statements about the meaning of Hebrew words in it. The outcome I think most likely is that few or no such statements exist (partial). I did not open the target.",
   "registered": "2026-11-22",
-  "status": "registered",
-  "finding": null,
-  "assessment": null,
+  "status": "located",
+  "finding": {
+    "date": "2026-11-22",
+    "access": "project_digitization",
+    "answer": "The 344 Yahweh paragraphs of ETTMTTP contain no statement about the meaning of a Hebrew word and no appeal to the Hebrew or the original. Four weaker statements of what a Hebrew-Bible text says: supported 3 (Ezekiel 37 quotation, Genesis 6 reference, Isaiah 43:6 wording), not_checkable 1, unsupported 0. The Ezekiel reference is printed as chapter XXVII; the words are in chapter 37.",
+    "locators": [
+      "ETTMTTP-2:71",
+      "ETTMTTP-2:72",
+      "ETTMTTP-2:104",
+      "ETTMTTP-2:124",
+      "ETTMTTP-3:256"
+    ],
+    "report": "docs/research/programme/cycle-0001/woh-exp-0006-finding.md"
+  },
+  "assessment": "meets_hit",
   "contest": null,
   "ruling": null,
   "outputs": []

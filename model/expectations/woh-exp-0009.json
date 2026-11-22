@@ -55,9 +55,17 @@
   "novelty": "retrodiction",
   "prior_knowledge": "I know this paper: the genome of Mycoplasma mycoides was synthesized chemically from a digitized sequence, assembled in yeast and transplanted into a Mycoplasma capricolum recipient cell, giving cells that replicated under the synthetic genome; the recipient cytoplasm was not synthesized. I expect a hit. The source is already cited for this claim.",
   "registered": "2026-11-22",
-  "status": "registered",
-  "finding": null,
-  "assessment": null,
+  "status": "located",
+  "finding": {
+    "date": "2026-11-22",
+    "access": "abstract",
+    "answer": "On the abstract: genome `chemically_synthesized` (design, synthesis and assembly from digitized sequence information); recipient `pre_existing_cell` (a M. capricolum recipient cell); replication `continuous_self_replication_reported`. Methods and results were not inspected: the paper is closed access.",
+    "locators": [
+      "PMID 20488990 (abstract)"
+    ],
+    "report": "docs/research/programme/cycle-0001/woh-exp-0009-finding.md"
+  },
+  "assessment": "meets_hit",
   "contest": null,
   "ruling": null,
   "outputs": []

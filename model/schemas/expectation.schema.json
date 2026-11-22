@@ -115,7 +115,7 @@
         }
       ]
     },
-    "assessment": { "enum": [null, "meets_hit", "meets_miss", "mixed", "inaccessible"] },
+    "assessment": { "enum": [null, "meets_hit", "meets_partial", "meets_miss", "mixed", "inaccessible"] },
     "contest": {
       "oneOf": [
         { "type": "null" },
