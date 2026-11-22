@@ -61,7 +61,7 @@
   "novelty": "unrecorded",
   "prior_knowledge": "Derived by the orchestrating session after cycle-0001, which has read the Locator and Critic reports of that cycle. Known and excluded: TBWTT-2:30 and TBWTT-3:192. Known to exist but not inspected: a parallel at TBWTT-2:42 on Genesis 3:22, which a Critic flagged as unchecked; and a report that the commentary in these chapters is mostly re-description of the thing named, so `sense_dependent` cases may be few. Expected outcome: a miss through TBWTT-2:42, or the partial case. No passage in scope other than TBWTT-2:30 was opened by the Deriver.",
   "registered": "2026-11-22",
-  "status": "located",
+  "status": "contested",
   "finding": {
     "date": "2026-11-22",
     "access": "project_digitization",
@@ -84,7 +84,12 @@
     "report": "docs/research/programme/cycle-0002/woh-exp-0011-finding.md"
   },
   "assessment": "meets_miss",
-  "contest": null,
+  "contest": {
+    "date": "2026-11-22",
+    "recommendation": "downgrade",
+    "summary": "The miss stands on the registered criteria, in a weaker class. The firm case, TBWTT-2:42 (« science », Gen 3:22), is the already-recorded TBWTT-2:30 reading recurring twelve paragraphs on; the project's Dhorme extract shows the noun is Dhorme's and the removal of its complement is the book's. The new case, TBWTT-2:62 (« étages », Gen 6:16), sits between a French polysemy (TLFi: « fusée à trois étages ») and a detail of the ark-as-rocket image. Miss and formal hit are two judgement calls apart. The framework reading also expects this result, so the miss falls first on the auxiliary assumption. Psalm 19:5 « sur la mer » follows a conjectural emendation and belongs to the quotation layer (claim 0066).",
+    "report": "docs/research/programme/cycle-0002/woh-exp-0011-contest.md"
+  },
   "ruling": null,
   "outputs": []
 }
