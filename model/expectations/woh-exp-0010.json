@@ -1,0 +1,64 @@
+{
+  "$schema": "../schemas/expectation.schema.json",
+  "schema_version": "0.1.0",
+  "id": "woh-exp-0010",
+  "cycle": "cycle-0001",
+  "claim_id": "woh-claim-0001",
+  "claim_version": "0.2.0",
+  "subclaim": "B",
+  "title": "Control: the Hebrew noun for 'image' in Genesis 1:26 ordinarily names a concrete likeness",
+  "statement": "Outside Genesis, most occurrences in the Hebrew Bible of the noun used for 'image' in Genesis 1:26-27 denote a concrete, visible object such as a statue, figure or model, and Genesis 5:3 uses the same noun for a son's resemblance to his father.",
+  "derivation": "Deliberate control. The claim identifies human-like biological beings (woh-claim-0070: 'people like you') with the plural speakers of Genesis 1:26 and makes them the designers of humanity. On that identification 'in our image' is bodily resemblance, so the noun should be a word for visible physical likeness. This is standard lexicography, accepted by the theological and historical-critical readings in their current forms, which build a royal-representative reading on the same statue sense; only an older incorporealist form of the theological reading, which took the noun as essential form and not shape, expected otherwise, and it is not the alternative at its present strength. A hit therefore favours nothing. Registered to calibrate: an unrecorded target whose answer the Deriver already knows.",
+  "kind": "philological",
+  "target": {
+    "description": "All occurrences of the Hebrew noun tselem (צלם) in the Hebrew Bible, as listed in a standard lexicon or concordance, with the Genesis occurrences read in the project's Genesis edition",
+    "locator_scope": "Genesis 1:26-27, 5:3, 9:6 in genesis-woh; every other occurrence listed by the lexicon entry (Hebrew portions; list Aramaic occurrences in Daniel separately)",
+    "holding": "/Users/zara/Development/github.com/wheelofheaven/data-library/genesis-woh/chapter-1.json, chapter-5.json, chapter-9.json; lexicon and Masoretic text on the open web",
+    "access_expected": "project_digitization"
+  },
+  "question": "Where does the Hebrew noun translated 'image' in Genesis 1:26-27 occur elsewhere in the Hebrew Bible, what does it denote in each place, and is the same noun used at Genesis 5:3?",
+  "protocol": [
+    "In the '-woh' library books chapter-N.json has paragraphs[] with refId, text (Hebrew) and i18n.en (the project's own translation); a source-he-N.json file beside it, where present, holds the Hebrew verses. Books without '-woh' carry no Hebrew: for those use the Masoretic text on a public site (for example Sefaria) and name the site.",
+    "In genesis-woh read 1:26-27, 5:1-3 and 9:6. Quote the Hebrew noun or nouns rendered 'image' and 'likeness' in each verse and say which noun stands where.",
+    "For lexical checks use Brown-Driver-Briggs as reproduced on a public site (for example Sefaria or BibleHub), or HALOT if you can reach it. Name the lexicon and entry used for every check. Do not answer from memory. From the lexicon entry for the 'image' noun of Genesis 1:26, list every occurrence in the Hebrew Bible outside Genesis.",
+    "Open each listed verse in a Masoretic text and quote the clause. Classify each occurrence with exactly one of: `concrete_object` (statue, idol, figure, model, picture or other visible made thing); `non_concrete` (shadow, phantom, semblance, or an abstract or inner quality); `unclear`. Give the lexicon's own gloss for that verse where it has one.",
+    "Report the totals per class for the Hebrew occurrences outside Genesis, the Aramaic occurrences separately, and whether Genesis 5:3 uses the same noun as 1:26-27. Add separately anything adjacent a careful reader would want to know."
+  ],
+  "criteria": {
+    "hit": "More than half of the Hebrew occurrences outside Genesis are `concrete_object`, and Genesis 5:3 uses the same noun as Genesis 1:26-27.",
+    "miss": "Half or fewer of the Hebrew occurrences outside Genesis are `concrete_object`, or Genesis 5:3 does not use that noun.",
+    "partial": "The count cannot be completed because verses or the lexicon entry could not be reached."
+  },
+  "rivals": [
+    {
+      "alternative_id": "alt-0001-theological",
+      "predicts": "same",
+      "note": "In its current scholarly form the theological reading accepts the statue sense and reads humans as the deity's royal representatives. An older incorporealist form took the noun as essential form and expected otherwise; that is not the alternative at its present strength."
+    },
+    {
+      "alternative_id": "alt-0001-historical-critical",
+      "predicts": "same",
+      "note": "Expects the concrete sense, with ancient Near Eastern royal-statue parallels."
+    },
+    {
+      "alternative_id": "alt-0001-source-critical",
+      "predicts": "silent",
+      "note": "Concerns the Raelian report."
+    },
+    {
+      "alternative_id": "alt-0001-naturalistic-origin",
+      "predicts": "silent",
+      "note": "Concerns the origin of life."
+    }
+  ],
+  "discrimination": "none",
+  "novelty": "unrecorded",
+  "prior_knowledge": "I know this lexical field from general knowledge: the noun is tselem; outside Genesis it is used mostly of idols, statues and models (for example in Numbers, 1 Samuel, 2 Kings, Ezekiel, Amos) and twice in Psalms in a 'shadow' or 'phantom' sense; Genesis 5:3 uses it with the 'likeness' noun of Adam and Seth. I expect a hit. The evidence maps mention the image and likeness language only as Priestly vocabulary and do not record this distribution.",
+  "registered": "2026-11-22",
+  "status": "registered",
+  "finding": null,
+  "assessment": null,
+  "contest": null,
+  "ruling": null,
+  "outputs": []
+}

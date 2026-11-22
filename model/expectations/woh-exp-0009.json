@@ -1,0 +1,64 @@
+{
+  "$schema": "../schemas/expectation.schema.json",
+  "schema_version": "0.1.0",
+  "id": "woh-exp-0009",
+  "cycle": "cycle-0001",
+  "claim_id": "woh-claim-0001",
+  "claim_version": "0.2.0",
+  "subclaim": "D",
+  "title": "Control: a cell run by a chemically synthesized genome has been reported",
+  "statement": "The 2010 Science report by Gibson and colleagues describes a bacterial cell whose genome was chemically synthesized from a designed sequence and which replicated continuously under the control of that genome.",
+  "derivation": "Deliberate control. If a biological civilization designed terrestrial life by technical means, then building a working genome to a design must be physically possible; this is a necessary condition, already cited in the claim's evidence map (subclaim D, scientific context) as showing possibility in principle and nothing more. The answer is known and no alternative predicts otherwise. It is registered to calibrate the scoreboard and the Locator: a hit here must be counted in the non-discriminating, retrodiction class.",
+  "kind": "scientific",
+  "target": {
+    "source_id": "creation-of-a-bacterial-cell-controlled-by-a-chemically-synthesized-genome",
+    "description": "D. G. Gibson et al., 'Creation of a bacterial cell controlled by a chemically synthesized genome', Science 329 (2010), pp. 52-56",
+    "locator_scope": "Abstract; methods and results as far as accessible",
+    "holding": "Open web: publisher page for Science vol. 329; PubMed record",
+    "access_expected": "abstract"
+  },
+  "question": "In the cell this paper reports, which components were chemically synthesized and which were taken from pre-existing living cells, and does the paper report that the resulting cells replicated continuously?",
+  "protocol": [
+    "Open the paper's abstract on the publisher page or PubMed, and the full text if you can reach it. Record the access level achieved.",
+    "Quote the sentences that state (a) how the genome was produced and from what sequence information, (b) what the genome was placed into and where that recipient came from, (c) what is reported about replication of the resulting cells.",
+    "Answer in this vocabulary: genome `chemically_synthesized` / `not_synthesized` / `unclear`; recipient cell (cytoplasm, membrane) `pre_existing_cell` / `synthesized` / `unclear`; replication `continuous_self_replication_reported` / `not_reported` / `unclear`.",
+    "Add separately anything adjacent a careful reader would want to know, including how the authors themselves describe the limits of what was made."
+  ],
+  "criteria": {
+    "hit": "Genome is `chemically_synthesized` and replication is `continuous_self_replication_reported`.",
+    "miss": "Genome is `not_synthesized`, or replication is `not_reported`.",
+    "partial": "Either answer is `unclear` at the access level achieved."
+  },
+  "rivals": [
+    {
+      "alternative_id": "alt-0001-naturalistic-origin",
+      "predicts": "same",
+      "note": "Synthetic genomics is mainstream science; a naturalistic origin of life is fully compatible with humans synthesizing genomes."
+    },
+    {
+      "alternative_id": "alt-0001-source-critical",
+      "predicts": "same",
+      "note": "Compatible; the canon's engineering vocabulary is then read as 1970s ambition (woh-claim-0065 records that reply)."
+    },
+    {
+      "alternative_id": "alt-0001-theological",
+      "predicts": "silent",
+      "note": "Concerns biblical Elohim."
+    },
+    {
+      "alternative_id": "alt-0001-historical-critical",
+      "predicts": "silent",
+      "note": "Concerns the history of Israelite religion."
+    }
+  ],
+  "discrimination": "none",
+  "novelty": "retrodiction",
+  "prior_knowledge": "I know this paper: the genome of Mycoplasma mycoides was synthesized chemically from a digitized sequence, assembled in yeast and transplanted into a Mycoplasma capricolum recipient cell, giving cells that replicated under the synthetic genome; the recipient cytoplasm was not synthesized. I expect a hit. The source is already cited for this claim.",
+  "registered": "2026-11-22",
+  "status": "registered",
+  "finding": null,
+  "assessment": null,
+  "contest": null,
+  "ruling": null,
+  "outputs": []
+}

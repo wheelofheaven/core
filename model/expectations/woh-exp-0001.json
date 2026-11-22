@@ -1,0 +1,66 @@
+{
+  "$schema": "../schemas/expectation.schema.json",
+  "schema_version": "0.1.0",
+  "id": "woh-exp-0001",
+  "cycle": "cycle-0001",
+  "claim_id": "woh-claim-0001",
+  "claim_version": "0.2.0",
+  "subclaim": "B",
+  "title": "The first book's statements about Hebrew words are lexically supported",
+  "statement": "Apart from its gloss of the word Elohim, the statements The Book Which Tells the Truth makes in the voice of its Eloha speaker about what a Hebrew or biblical word, name or title means, or about what the original text says, are supported by a standard Biblical Hebrew lexicon and by the Hebrew text.",
+  "derivation": "woh-claim-0001 at 0.2.0 identifies the beings of the report with the referent behind selected biblical uses of Elohim and holds that report and identification describe reality (decomposition parts 3 and 4). The report's own statements about biblical wording are the hooks of that identification. If the speaker is what the claim says, statements about the wording of the text that records them should be sound. The Elohim gloss is left out because woh-claim-0009 already records that it is not the consensus derivation, and the dragons sentence because woh-claim-0073 treats it. Limit: the claim excludes 'every detail reported by the Raelian corpus', so an unsupported statement bears on the identification's hooks and on nothing else. The result is a statement about the report as a text; it says nothing about events.",
+  "kind": "philological",
+  "target": {
+    "source_id": "the-book-which-tells-the-truth",
+    "description": "The Book Which Tells the Truth (1974), project digitization, French base text, all seven chapters",
+    "locator_scope": "Every paragraph whose speaker field is 'Yahweh', chapters 1-7, that states what a Hebrew or biblical word, name or title means or what the original text says",
+    "holding": "/Users/zara/Development/github.com/wheelofheaven/data-library/the-book-which-tells-the-truth/chapter-1.json ... chapter-7.json",
+    "access_expected": "project_digitization"
+  },
+  "question": "Which statements does the book's non-human speaker make about the meaning of a Hebrew or biblical word, name or title, or about what the original (Hebrew) text says, and how does each compare with a standard Biblical Hebrew lexicon and the Hebrew text?",
+  "protocol": [
+    "In the three canonical books each chapter-N.json has paragraphs[]; each paragraph has refId (cite it), speaker, text (the French base text: quote this) and i18n.en (a 2026 machine rendering: use it only as a reading aid and never quote it as the source's English).",
+    "Read chapters 2 and 3 in full. In the other chapters search the French text for: hébreu, hébraïque, signifie, veut dire, voulait dire, traduit, traduction, original, littéralement, mot, nom. Keep only paragraphs whose speaker is 'Yahweh'.",
+    "List every statement of the kinds named in the question. Leave out the book's explanation of the word 'Élohim' itself and the sentence about 'dragons' at TBWTT-2:22; both are handled elsewhere. Give refId and the French sentence for each.",
+    "For lexical checks use Brown-Driver-Briggs as reproduced on a public site (for example Sefaria or BibleHub), or HALOT if you can reach it. Name the lexicon and entry used for every check. Do not answer from memory. Where the statement is about what a verse says, also compare the Hebrew of that verse. In the '-woh' library books chapter-N.json has paragraphs[] with refId, text (Hebrew) and i18n.en (the project's own translation); a source-he-N.json file beside it, where present, holds the Hebrew verses. Books without '-woh' carry no Hebrew: for those use the Masoretic text on a public site (for example Sefaria) and name the site.",
+    "Classify every listed statement with exactly one of: `supported` (the stated meaning is among the meanings the lexicon gives, or the Hebrew reads as stated); `unsupported` (the lexicon gives no such meaning, or the Hebrew does not read so); `contested` (lexica or commentaries divide and the stated meaning is one recognised option); `not_checkable`. Quote the lexicon line or Hebrew words that decide it.",
+    "Report the totals per class. If you find no such statement, say so and list the search terms used. Add separately anything adjacent a careful reader would want to know."
+  ],
+  "criteria": {
+    "hit": "At least two statements are classified `supported` and none is classified `unsupported`.",
+    "miss": "At least one statement is classified `unsupported`.",
+    "partial": "No statement is `unsupported` and fewer than two are `supported` (including the case where no such statement is found)."
+  },
+  "rivals": [
+    {
+      "alternative_id": "alt-0001-source-critical",
+      "predicts": "different",
+      "note": "A composition by a French author without Hebrew, working from a French Bible and earlier alternative-history books, is expected to make at least one statement about Hebrew that a lexicon does not bear out, as the record already notes for the Elohim gloss. Stated at its strength: it predicts error where the book goes beyond what its French Bible prints, and allows that the book may make few such statements."
+    },
+    {
+      "alternative_id": "alt-0001-theological",
+      "predicts": "silent",
+      "note": "Concerns what biblical Elohim designates, not the accuracy of a 1974 book's lexical remarks."
+    },
+    {
+      "alternative_id": "alt-0001-historical-critical",
+      "predicts": "silent",
+      "note": "Concerns the history of Israelite religion, not this book."
+    },
+    {
+      "alternative_id": "alt-0001-naturalistic-origin",
+      "predicts": "silent",
+      "note": "Concerns the origin of life."
+    }
+  ],
+  "discrimination": "partial",
+  "novelty": "unrecorded",
+  "prior_knowledge": "From general knowledge of the book I know its Elohim gloss and its insistence that the word is plural; both are excluded or already recorded. I believe the book explains some biblical terms in passing but I cannot recall with confidence which Hebrew words besides Elohim it glosses or how. I did not open the target. I consider a miss a real possibility, and also the outcome that fewer than two such statements exist.",
+  "registered": "2026-11-22",
+  "status": "registered",
+  "finding": null,
+  "assessment": null,
+  "contest": null,
+  "ruling": null,
+  "outputs": []
+}

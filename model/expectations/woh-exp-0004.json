@@ -1,0 +1,67 @@
+{
+  "$schema": "../schemas/expectation.schema.json",
+  "schema_version": "0.1.0",
+  "id": "woh-exp-0004",
+  "cycle": "cycle-0001",
+  "claim_id": "woh-claim-0001",
+  "claim_version": "0.2.0",
+  "subclaim": "D",
+  "title": "The Genesis 1-2 wording behind the first book's creation-of-life readings is in the Hebrew",
+  "statement": "Where The Book Which Tells the Truth quotes Genesis 1 or 2 on the making of plants, animals or the human and explains particular words of the quotation as materials or procedures, the Hebrew of the project's Genesis edition carries the sense of the French words on which the explanation rests.",
+  "derivation": "Subclaim D, the design of terrestrial life including humanity, meets the biblical text where the report reads the Genesis creation verses as laboratory work. The evidence map records one such hinge (Genesis 2:7: a fashioning verb with a material). If the identification holds, every hinge of that reading should be in the Hebrew. The verses are already cited for this claim and for woh-claim-0039 and 0073, so this is a retrodiction in target; what is new is the word-by-word check. A hit shows a Hebrew footing for the reading, which the map already treats as shared craft imagery; it does not show design.",
+  "kind": "primary_text",
+  "target": {
+    "source_id": "the-book-which-tells-the-truth",
+    "description": "Quotations of Genesis chapters 1 and 2 in The Book Which Tells the Truth (project digitization, French base text), compared with the Hebrew of the project's Genesis edition",
+    "locator_scope": "All quotations of Genesis 1:1-2:25 in the book (expected in chapter 2); the corresponding verses in genesis-woh chapters 1 and 2",
+    "holding": "/Users/zara/Development/github.com/wheelofheaven/data-library/the-book-which-tells-the-truth/chapter-2.json and /Users/zara/Development/github.com/wheelofheaven/data-library/genesis-woh/chapter-1.json, chapter-2.json",
+    "access_expected": "project_digitization"
+  },
+  "question": "In the book's quotations of Genesis chapters 1 and 2 about the making of plants, animals and the human, which words of the quoted French does the commentary single out and explain, and does the Hebrew text at each of those places carry the sense of the French word?",
+  "protocol": [
+    "In the three canonical books each chapter-N.json has paragraphs[]; each paragraph has refId (cite it), speaker, text (the French base text: quote this) and i18n.en (a 2026 machine rendering: use it only as a reading aid and never quote it as the source's English).",
+    "Find every quotation of Genesis 1:1-2:25 in the book (French text in « », usually with a verse reference). Keep those whose verse concerns the making of plants, animals or the human. Give refId, the French quotation and the verse reference.",
+    "A 'hinge word' is a word or short phrase of the quoted French verse that the commentary in the same or the following paragraph explicitly takes up and explains as a physical object, material, device, sound, light, movement or procedure. If the commentary explains a quotation only in general terms and takes up no word of it, record the quotation with 'no hinge word'.",
+    "In the '-woh' library books chapter-N.json has paragraphs[] with refId, text (Hebrew) and i18n.en (the project's own translation); a source-he-N.json file beside it, where present, holds the Hebrew verses. Books without '-woh' carry no Hebrew: for those use the Masoretic text on a public site (for example Sefaria) and name the site. For lexical checks use Brown-Driver-Briggs as reproduced on a public site (for example Sefaria or BibleHub), or HALOT if you can reach it. Name the lexicon and entry used for every check. Do not answer from memory.",
+    "For every hinge word give: the French word, the commentary sentence that takes it up (French, with refId), the Hebrew word or words at that place, and the lexicon senses.",
+    "Classify every hinge word with exactly one of: `carried` (the Hebrew word at that place has, as an ordinary lexicon sense, the sense of the French word the commentary uses); `shifted` (a Hebrew counterpart exists but the French word is narrower, more specific or otherwise different in a way the commentary relies on); `absent` (no Hebrew counterpart at that place); `not_checkable`.",
+    "Report the totals per class and the number of quotations with no hinge word. Add separately anything adjacent a careful reader would want to know."
+  ],
+  "criteria": {
+    "hit": "At least four hinge words are classified, none is `absent` and none is `shifted`.",
+    "miss": "At least one hinge word is `absent`, or more than one in five of the classified hinge words is `shifted`.",
+    "partial": "None is `absent` and at least one, but no more than one in five, is `shifted`; or fewer than four hinge words could be classified and none of them is `absent` or `shifted`."
+  },
+  "rivals": [
+    {
+      "alternative_id": "alt-0001-source-critical",
+      "predicts": "different",
+      "note": "A reading composed from the French page is expected to lean on the French wording where it differs from the Hebrew. At its strength: the translation is literal, and woh-claim-0073 already shows one case (the 'dragons') where the French register the book uses does render a Hebrew word; so the alternative predicts a different result only in tendency."
+    },
+    {
+      "alternative_id": "alt-0001-theological",
+      "predicts": "same",
+      "note": "Reads the same Hebrew craft vocabulary as figurative description of divine making; expects the Hebrew to carry it."
+    },
+    {
+      "alternative_id": "alt-0001-historical-critical",
+      "predicts": "same",
+      "note": "Craft-creation imagery is a shared ancient Near Eastern topos; expects the Hebrew to carry it."
+    },
+    {
+      "alternative_id": "alt-0001-naturalistic-origin",
+      "predicts": "silent",
+      "note": "Concerns the origin of life, not the wording of Genesis."
+    }
+  ],
+  "discrimination": "partial",
+  "novelty": "retrodiction",
+  "prior_knowledge": "I know Genesis 1-2 well: the Hebrew has 'dust from the ground' and a potter's verb at 2:7, 'in our image, after our likeness' at 1:26, and 'according to its kind' in the plant and animal verses. I believe the book reads 'dust' as chemical material from the soil and 'image' as bodily likeness. I expect mostly `carried`. I do not know the full list of words the commentary takes up, and a `shifted` case is possible. I did not open the target passages in this session.",
+  "registered": "2026-11-22",
+  "status": "registered",
+  "finding": null,
+  "assessment": null,
+  "contest": null,
+  "ruling": null,
+  "outputs": []
+}

@@ -1,0 +1,68 @@
+{
+  "$schema": "../schemas/expectation.schema.json",
+  "schema_version": "0.1.0",
+  "id": "woh-exp-0003",
+  "cycle": "cycle-0001",
+  "claim_id": "woh-claim-0001",
+  "claim_version": "0.2.0",
+  "subclaim": "C",
+  "title": "The wording behind the first book's sky-arrival readings is in the Hebrew",
+  "statement": "In the first eight quotations from the Hebrew Bible outside Genesis, Exodus and Ezekiel that The Book Which Tells the Truth explains as something arriving from, leaving for or moving in the sky, the Hebrew text carries the sense of the French words on which the explanation rests.",
+  "derivation": "Subclaim C, the off-world origin, has one row in the evidence map: the gloss 'came from the sky', which the Hebrew word does not encode. The remaining textual tie between 'from elsewhere' and the biblical Elohim is the report's reading of particular passages as arrivals and departures by air. If the beings were what the claim says and those passages record them, the features read as flight must be in the Hebrew. Genesis, Exodus and Ezekiel are left out because woh-exp-0004, woh-exp-0002 and woh-claim-0063 cover them. A hit shows that the readings have a Hebrew footing; it does not show that the passages describe craft.",
+  "kind": "primary_text",
+  "target": {
+    "source_id": "the-book-which-tells-the-truth",
+    "description": "Quotations from Hebrew Bible books other than Genesis, Exodus and Ezekiel in The Book Which Tells the Truth (project digitization, French base text) whose commentary speaks of the sky or of flight, compared with the Masoretic Hebrew of the same verses",
+    "locator_scope": "The first eight qualifying quotations in book order, chapters 1-7",
+    "holding": "/Users/zara/Development/github.com/wheelofheaven/data-library/the-book-which-tells-the-truth/; Hebrew from the matching '-woh' library book where one exists under /Users/zara/Development/github.com/wheelofheaven/data-library/, otherwise from a public Masoretic text",
+    "access_expected": "project_digitization"
+  },
+  "question": "In the book's first eight quotations from the Hebrew Bible (outside Genesis, Exodus and Ezekiel) whose commentary speaks of the sky or of flight, which words of the quoted French does the commentary single out, and does the Hebrew text at each of those places carry the sense of the French word?",
+  "protocol": [
+    "In the three canonical books each chapter-N.json has paragraphs[]; each paragraph has refId (cite it), speaker, text (the French base text: quote this) and i18n.en (a 2026 machine rendering: use it only as a reading aid and never quote it as the source's English).",
+    "Going through the book in order, find quotations (French text in « », with a book reference) from books of the Hebrew Bible other than Genesis, Exodus and Ezekiel. Skip quotations from the New Testament and from books with no Hebrew or Aramaic original, and say which you skipped.",
+    "A quotation qualifies if the commentary in the same or the following paragraph says that the quoted passage describes something arriving from, leaving for or moving in the sky (look for: ciel, cieux, engin, vaisseau, appareil, fusée, voler, vol, décoller, atterrir, descendre, monter, s'élever). Take the first eight qualifying quotations in book order. If there are fewer than eight, take all and say so.",
+    "A 'hinge word' is a word or short phrase of the quoted French verse that the commentary in the same or the following paragraph explicitly takes up and explains as a physical object, material, device, sound, light, movement or procedure. If the commentary explains a quotation only in general terms and takes up no word of it, record the quotation with 'no hinge word'.",
+    "In the '-woh' library books chapter-N.json has paragraphs[] with refId, text (Hebrew) and i18n.en (the project's own translation); a source-he-N.json file beside it, where present, holds the Hebrew verses. Books without '-woh' carry no Hebrew: for those use the Masoretic text on a public site (for example Sefaria) and name the site. For lexical checks use Brown-Driver-Briggs as reproduced on a public site (for example Sefaria or BibleHub), or HALOT if you can reach it. Name the lexicon and entry used for every check. Do not answer from memory.",
+    "For every hinge word give: the French word, the commentary sentence that takes it up (French, with refId), the Hebrew (or Aramaic) word or words at that place, and the lexicon senses.",
+    "Classify every hinge word with exactly one of: `carried` (the Hebrew word at that place has, as an ordinary lexicon sense, the sense of the French word the commentary uses); `shifted` (a Hebrew counterpart exists but the French word is narrower, more specific or otherwise different in a way the commentary relies on); `absent` (no Hebrew counterpart at that place); `not_checkable`.",
+    "Report the list of qualifying quotations, the totals per class and the number with no hinge word. Add separately anything adjacent a careful reader would want to know."
+  ],
+  "criteria": {
+    "hit": "At least five hinge words are classified, none is `absent` and none is `shifted`.",
+    "miss": "At least one hinge word is `absent`, or more than one in five of the classified hinge words is `shifted`.",
+    "partial": "None is `absent` and at least one, but no more than one in five, is `shifted`; or fewer than five hinge words could be classified and none of them is `absent` or `shifted`."
+  },
+  "rivals": [
+    {
+      "alternative_id": "alt-0001-source-critical",
+      "predicts": "different",
+      "note": "A reading composed from the French page is expected to lean on the French wording where it differs from the Hebrew, so some hinge should be `shifted` or `absent`. At its strength: with a literal translation such places are few, so the prediction differs in tendency, not with certainty."
+    },
+    {
+      "alternative_id": "alt-0001-theological",
+      "predicts": "silent",
+      "note": "Takes sky language as the ordinary location of the divine; predicts nothing about the commentary's footing in the Hebrew."
+    },
+    {
+      "alternative_id": "alt-0001-historical-critical",
+      "predicts": "silent",
+      "note": "Takes the same language as storm-theophany and ancient cosmology; predicts nothing about the commentary's footing."
+    },
+    {
+      "alternative_id": "alt-0001-naturalistic-origin",
+      "predicts": "silent",
+      "note": "Concerns the origin of life."
+    }
+  ],
+  "discrimination": "partial",
+  "novelty": "unrecorded",
+  "prior_knowledge": "I believe the book comments on prophetic and narrative passages beyond the Pentateuch (for instance the Elijah and Elisha stories and several prophets) in aerial terms, but I do not know which eight quotations the selection rule will yield, nor which words the commentary takes up. I have no confident expectation of the result. I did not open the target.",
+  "registered": "2026-11-22",
+  "status": "registered",
+  "finding": null,
+  "assessment": null,
+  "contest": null,
+  "ruling": null,
+  "outputs": []
+}

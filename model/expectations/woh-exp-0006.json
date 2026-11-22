@@ -1,0 +1,66 @@
+{
+  "$schema": "../schemas/expectation.schema.json",
+  "schema_version": "0.1.0",
+  "id": "woh-exp-0006",
+  "cycle": "cycle-0001",
+  "claim_id": "woh-claim-0001",
+  "claim_version": "0.2.0",
+  "subclaim": "B",
+  "title": "The second book's statements about biblical words are lexically supported",
+  "statement": "The statements Extraterrestrials Took Me to Their Planet makes in the voice of its Eloha speaker about what a Hebrew or biblical word, name or title means, or about what the original text says, are supported by a standard Biblical Hebrew lexicon and by the Hebrew text.",
+  "derivation": "Same derivation as woh-exp-0001, applied to the second dictated book (1975), which the project has examined far less for this claim. The claim's identification of the reported beings with the referent of biblical Elohim is made by the report's speaker; if the claim holds, that speaker's statements about biblical wording should be sound in the later book as in the first, and the two books should not differ in this respect. The Elohim gloss is again left out (woh-claim-0009). Limit as in woh-exp-0001: the claim excludes every detail of the corpus, so the result bears on the identification's hooks only, and says nothing about events.",
+  "kind": "philological",
+  "target": {
+    "source_id": "extraterrestrials-took-me-to-their-planet",
+    "description": "Extraterrestrials Took Me to Their Planet (1975), project digitization, French base text, all three chapters",
+    "locator_scope": "Every paragraph whose speaker field is 'Yahweh', chapters 1-3, that states what a Hebrew or biblical word, name or title means or what the original text says",
+    "holding": "/Users/zara/Development/github.com/wheelofheaven/data-library/extraterrestrials-took-me-to-their-planet/chapter-1.json ... chapter-3.json",
+    "access_expected": "project_digitization"
+  },
+  "question": "Which statements does this book's non-human speaker make about the meaning of a Hebrew or biblical word, name or title, or about what the original (Hebrew) text says, and how does each compare with a standard Biblical Hebrew lexicon and the Hebrew text?",
+  "protocol": [
+    "In the three canonical books each chapter-N.json has paragraphs[]; each paragraph has refId (cite it), speaker, text (the French base text: quote this) and i18n.en (a 2026 machine rendering: use it only as a reading aid and never quote it as the source's English).",
+    "Read every paragraph whose speaker is 'Yahweh' in chapters 1-3. As a cross-check search the French text for: hébreu, hébraïque, signifie, veut dire, voulait dire, traduit, traduction, original, littéralement, Bible, Kabbale, nom.",
+    "List every statement of the kinds named in the question. Leave out any explanation of the word 'Élohim' itself; it is handled elsewhere. Statements about words of other languages or traditions go in a separate list and are not classified. Give refId and the French sentence for each.",
+    "For lexical checks use Brown-Driver-Briggs as reproduced on a public site (for example Sefaria or BibleHub), or HALOT if you can reach it. Name the lexicon and entry used for every check. Do not answer from memory. Where the statement is about what a verse or a named Hebrew work says, also compare the Hebrew. In the '-woh' library books chapter-N.json has paragraphs[] with refId, text (Hebrew) and i18n.en (the project's own translation); a source-he-N.json file beside it, where present, holds the Hebrew verses. Books without '-woh' carry no Hebrew: for those use the Masoretic text on a public site (for example Sefaria) and name the site.",
+    "Classify every listed statement with exactly one of: `supported` (the stated meaning is among the meanings the lexicon gives, or the Hebrew reads as stated); `unsupported` (the lexicon gives no such meaning, or the Hebrew does not read so); `contested` (lexica or commentaries divide and the stated meaning is one recognised option); `not_checkable`. Quote the lexicon line or Hebrew words that decide it.",
+    "Report the totals per class. If you find no such statement, say so and list the search terms used. Add separately anything adjacent a careful reader would want to know."
+  ],
+  "criteria": {
+    "hit": "At least one statement is classified `supported` and none is classified `unsupported`.",
+    "miss": "At least one statement is classified `unsupported`.",
+    "partial": "No statement is `supported` and none is `unsupported` (including the case where no such statement is found)."
+  },
+  "rivals": [
+    {
+      "alternative_id": "alt-0001-source-critical",
+      "predicts": "different",
+      "note": "A composition by an author without Hebrew is expected to err where it speaks about Hebrew beyond what its French sources print. At its strength: the second book may say little about biblical wording, in which case the alternative predicts nothing observable here."
+    },
+    {
+      "alternative_id": "alt-0001-theological",
+      "predicts": "silent",
+      "note": "Concerns what biblical Elohim designates, not a 1975 book's lexical remarks."
+    },
+    {
+      "alternative_id": "alt-0001-historical-critical",
+      "predicts": "silent",
+      "note": "Concerns the history of Israelite religion."
+    },
+    {
+      "alternative_id": "alt-0001-naturalistic-origin",
+      "predicts": "silent",
+      "note": "Concerns the origin of life."
+    }
+  ],
+  "discrimination": "partial",
+  "novelty": "unrecorded",
+  "prior_knowledge": "I believe the second book contains a dictated section with doctrine and some remarks on religions and on the Kabbalah (woh-claim-0021 records two figures from it as attested in the Shi'ur Qomah tradition), and that it names the speaker. I do not recall specific statements about the meaning of Hebrew words in it. The outcome I think most likely is that few or no such statements exist (partial). I did not open the target.",
+  "registered": "2026-11-22",
+  "status": "registered",
+  "finding": null,
+  "assessment": null,
+  "contest": null,
+  "ruling": null,
+  "outputs": []
+}

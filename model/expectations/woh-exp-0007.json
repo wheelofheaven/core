@@ -1,0 +1,64 @@
+{
+  "$schema": "../schemas/expectation.schema.json",
+  "schema_version": "0.1.0",
+  "id": "woh-exp-0007",
+  "cycle": "cycle-0001",
+  "claim_id": "woh-claim-0001",
+  "claim_version": "0.2.0",
+  "subclaim": "C",
+  "title": "The two later books keep the Elohim biological and from another planet",
+  "statement": "Extraterrestrials Took Me to Their Planet and Let's Welcome the Extraterrestrials each describe the Elohim as physical, biological beings and as originating on a planet other than Earth, and neither contains a passage that describes them as immaterial or supernatural beings or gives them another origin.",
+  "derivation": "woh-claim-0070 records the biological, other-planet report at two passages of the first book only. woh-claim-0001 holds that the report describes a real civilization (decomposition part 4). A real civilization has one nature and one origin, so the books that continue the report (1975, 1979) must agree with the first on both; a passage making the beings immaterial, or native to Earth, would show the report does not carry one consistent referent. The present location, numbers and government of the civilization are excluded by the claim and are not tested. A hit establishes consistency of the report (a source report), never an event.",
+  "kind": "canon",
+  "target": {
+    "description": "Extraterrestrials Took Me to Their Planet (1975) and Let's Welcome the Extraterrestrials (1979), project digitizations, French base text",
+    "locator_scope": "All chapters of both books: every passage stating what kind of beings the Elohim are or where they originate",
+    "holding": "/Users/zara/Development/github.com/wheelofheaven/data-library/extraterrestrials-took-me-to-their-planet/chapter-1..3.json and /Users/zara/Development/github.com/wheelofheaven/data-library/lets-welcome-the-extraterrestrials/chapter-1..4.json",
+    "access_expected": "project_digitization"
+  },
+  "question": "What do these two books say about what kind of beings the Elohim are (their physical nature) and about where they originate, and do any passages within or between the two books disagree on either point?",
+  "protocol": [
+    "In the three canonical books each chapter-N.json has paragraphs[]; each paragraph has refId (cite it), speaker, text (the French base text: quote this) and i18n.en (a 2026 machine rendering: use it only as a reading aid and never quote it as the source's English).",
+    "In each book search the French text for: Élohim, créateurs, extra-terrestres, planète, monde, corps, chair, hommes comme, biologique, esprit, âme, immatériel, surnaturel, dieu, origine, viennent, venus. Read each hit in its paragraph and the paragraphs around it.",
+    "List every passage that states (a) the physical nature of the Elohim or (b) their place of origin. Give refId, speaker and the French sentence.",
+    "Classify every listed passage with one or more of: `biological_physical` (bodies, organic life, human-like people); `immaterial_or_supernatural` (spirits, non-physical or supernatural beings, stated in the book's own voice and not as a view it rejects); `origin_other_planet`; `origin_other` (Earth, or anything that is not another planet, in the book's own voice); `ambiguous`. A view the book reports only to reject it is listed separately as `rejected_view`.",
+    "Report per book the number of passages in each class, and quote in full every `immaterial_or_supernatural`, `origin_other` and `ambiguous` passage. Do not report on where the beings live now, their numbers or their government except as needed to classify origin. Add separately anything adjacent a careful reader would want to know."
+  ],
+  "criteria": {
+    "hit": "Each of the two books has at least one `biological_physical` passage and at least one `origin_other_planet` passage, and neither has any `immaterial_or_supernatural` or `origin_other` passage.",
+    "miss": "At least one passage in either book is classified `immaterial_or_supernatural` or `origin_other`.",
+    "partial": "No passage is `immaterial_or_supernatural` or `origin_other`, but one of the books lacks a `biological_physical` passage or lacks an `origin_other_planet` passage."
+  },
+  "rivals": [
+    {
+      "alternative_id": "alt-0001-source-critical",
+      "predicts": "silent",
+      "note": "A composed doctrine can be kept consistent on its central descriptors across books, and can also drift; source-critical accounts of the movement describe development at the periphery and do not commit to a contradiction on these two points."
+    },
+    {
+      "alternative_id": "alt-0001-theological",
+      "predicts": "silent",
+      "note": "Concerns biblical Elohim, not the later Raelian books."
+    },
+    {
+      "alternative_id": "alt-0001-historical-critical",
+      "predicts": "silent",
+      "note": "Concerns the history of Israelite religion."
+    },
+    {
+      "alternative_id": "alt-0001-naturalistic-origin",
+      "predicts": "silent",
+      "note": "Concerns the origin of life."
+    }
+  ],
+  "discrimination": "none",
+  "novelty": "unrecorded",
+  "prior_knowledge": "From general knowledge I believe both later books keep the beings physical and extraterrestrial; the second narrates a visit to a planet and the third is the author's own commentary and answers to questions. The evidence maps cite a handful of passages from both for other claims (for example LWTE-2:6, ETTMTTP-3:23 under woh-claim-0074) but not for this question. I expect a hit. A miss would most plausibly come from loose language in the 1979 commentary. I did not open the target. No alternative predicts otherwise, so a hit is not progress for the claim.",
+  "registered": "2026-11-22",
+  "status": "registered",
+  "finding": null,
+  "assessment": null,
+  "contest": null,
+  "ruling": null,
+  "outputs": []
+}

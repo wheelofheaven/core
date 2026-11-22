@@ -1,0 +1,66 @@
+{
+  "$schema": "../schemas/expectation.schema.json",
+  "schema_version": "0.1.0",
+  "id": "woh-exp-0005",
+  "cycle": "cycle-0001",
+  "claim_id": "woh-claim-0001",
+  "claim_version": "0.2.0",
+  "subclaim": "D",
+  "title": "A published claim of artificial patterning in the genetic code has independent support",
+  "statement": "The peer-reviewed claim that the standard genetic code carries statistically significant patterns of an artificial kind (shCherbak and Makukov, Icarus 2013) has been confirmed by at least one independent peer-reviewed analysis and has not been rebutted in the peer-reviewed literature.",
+  "derivation": "The claim holds that terrestrial life was designed by a technological civilization. The genetic code is the one feature every terrestrial organism shares, so it is the first place a design decision would be inherited by all life. This expectation needs an auxiliary assumption the claim does not state: that the designers left structure in the code beyond what function requires. Without it the claim predicts nothing here. It is registered because it is the one point found where the design subclaim meets a published empirical test on which the naturalistic alternative commits to a different result, and so that a miss is on record. The Critic and the founder should weigh whether the auxiliary assumption makes the derivation too loose to stand. A hit would show an unexplained regularity; it would not identify a designer.",
+  "auxiliary_assumptions": [
+    "The designers left structure in the genetic code beyond what function requires."
+  ],
+  "kind": "scientific",
+  "target": {
+    "description": "V. I. shCherbak and M. A. Makukov, 'The \"Wow! signal\" of the terrestrial genetic code', Icarus 224 (2013), pp. 228-242, and the peer-reviewed publications that cite it",
+    "locator_scope": "The paper's abstract and conclusions (full text if a preprint is reachable); citing works found through Google Scholar, Semantic Scholar or the publisher's 'cited by' list",
+    "holding": "Open web: publisher page for Icarus vol. 224; a preprint may be available on arXiv",
+    "access_expected": "abstract"
+  },
+  "question": "What does this paper claim about the genetic code, with what stated statistical support, and what have later peer-reviewed publications reported when testing or disputing that claim?",
+  "protocol": [
+    "Open the paper (publisher page, or a preprint if you can find one). Record the access level you achieved. Quote the sentences of the abstract and conclusion that state the claim and any stated probability or significance figure.",
+    "Using at least two citation indexes (for example Google Scholar and Semantic Scholar), list the works that cite the paper. For each that tests, replicates, extends or disputes the claimed patterns, give full reference, whether it is peer-reviewed (journal article or refereed proceedings) or not (preprint, blog, magazine), whether any author is shared with the original paper, and one quoted sentence stating its result.",
+    "Classify the state of the peer-reviewed literature with exactly one of: `independently_supported` (at least one peer-reviewed analysis with no author in common with the original confirms the patterns, and no peer-reviewed rebuttal stands unanswered); `unrebutted_unreplicated` (the claim is made; you find neither an independent peer-reviewed confirmation nor a peer-reviewed rebuttal); `rebutted` (at least one peer-reviewed publication argues the patterns are artefacts of chance, of selection among possible arrangements, or of known biochemistry); `no_such_claim` (the paper does not claim artificial patterning); `not_determinable`.",
+    "Report non-peer-reviewed criticism and support separately; it does not enter the classification. State how many citing works you screened and what you could not access."
+  ],
+  "criteria": {
+    "hit": "The classification is `independently_supported`.",
+    "miss": "The classification is `rebutted` or `no_such_claim`.",
+    "partial": "The classification is `unrebutted_unreplicated`."
+  },
+  "rivals": [
+    {
+      "alternative_id": "alt-0001-naturalistic-origin",
+      "predicts": "different",
+      "note": "If life's origin and development needed no directed intervention, the code's regularities are products of chemistry, selection and history, and an apparent artificial pattern is expected to dissolve under scrutiny or to remain an unreplicated curiosity. Stated at its strength: the alternative does not require that anyone has bothered to publish a rebuttal."
+    },
+    {
+      "alternative_id": "alt-0001-source-critical",
+      "predicts": "silent",
+      "note": "Concerns the Raelian report, not the genetic code."
+    },
+    {
+      "alternative_id": "alt-0001-theological",
+      "predicts": "silent",
+      "note": "Concerns what biblical Elohim designates."
+    },
+    {
+      "alternative_id": "alt-0001-historical-critical",
+      "predicts": "silent",
+      "note": "Concerns the history of Israelite religion."
+    }
+  ],
+  "discrimination": "partial",
+  "novelty": "unrecorded",
+  "prior_knowledge": "I am confident the paper exists as cited and that it claims arithmetical and ideographic patterns in the code which the authors interpret as an intelligent signature compatible with directed seeding. I know of informal criticism of its method. I am not aware of an independent peer-reviewed confirmation, and I am not sure whether a peer-reviewed rebuttal exists. I expect `unrebutted_unreplicated` or `rebutted`; I do not expect a hit. woh-claim-0036 already records that mainstream biology does not accept that design has been detected. I did not open the paper in this session.",
+  "registered": "2026-11-22",
+  "status": "registered",
+  "finding": null,
+  "assessment": null,
+  "contest": null,
+  "ruling": null,
+  "outputs": []
+}

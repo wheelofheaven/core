@@ -1,0 +1,67 @@
+{
+  "$schema": "../schemas/expectation.schema.json",
+  "schema_version": "0.1.0",
+  "id": "woh-exp-0002",
+  "cycle": "cycle-0001",
+  "claim_id": "woh-claim-0001",
+  "claim_version": "0.2.0",
+  "subclaim": "B",
+  "title": "The Exodus wording the first book's readings rest on is in the Hebrew",
+  "statement": "Where The Book Which Tells the Truth quotes Exodus chapters 3, 13, 14, 16, 17, 19 or 20 and explains particular words of the quotation as physical objects or events, the Hebrew text of those verses carries the sense of the French words on which the explanation rests.",
+  "derivation": "The claim identifies the reported beings with the referent of selected biblical uses of Elohim; the Sinai narrative is one place where the Hebrew names the party ha-Elohim. The book makes that identification through a French translation (woh-claim-0066 records Dhorme's). An identification with the referent of the Hebrew text holds only where the feature it hangs on is in the Hebrew. If a hinge is a product of the French rendering, the identification at that verse is with the translator's page. The claim therefore expects the hinges to be carried by the Hebrew. This tests the textual hooks of the identification, not events.",
+  "kind": "primary_text",
+  "target": {
+    "source_id": "the-book-which-tells-the-truth",
+    "description": "Quotations of Exodus 3, 13, 14, 16, 17, 19 and 20 in The Book Which Tells the Truth (project digitization, French base text), compared with the Hebrew of the same verses in the project's Exodus edition",
+    "locator_scope": "All such quotations in chapters 1-7 of the book; the corresponding verses in exodus-woh",
+    "holding": "/Users/zara/Development/github.com/wheelofheaven/data-library/the-book-which-tells-the-truth/ and /Users/zara/Development/github.com/wheelofheaven/data-library/exodus-woh/ (chapter-N.json and source-he-N.json for N = 3, 13, 14, 16, 17, 19, 20)",
+    "access_expected": "project_digitization"
+  },
+  "question": "In the book's quotations of Exodus chapters 3, 13, 14, 16, 17, 19 and 20, which words of the quoted French does the accompanying commentary single out and explain, and does the Hebrew text at each of those places carry the sense of the French word?",
+  "protocol": [
+    "In the three canonical books each chapter-N.json has paragraphs[]; each paragraph has refId (cite it), speaker, text (the French base text: quote this) and i18n.en (a 2026 machine rendering: use it only as a reading aid and never quote it as the source's English).",
+    "Find every quotation of Exodus in the book (search the French text for 'Exode' and for quotation marks « »). Keep those from chapters 3, 13, 14, 16, 17, 19 and 20. Give refId, the French quotation and the verse reference.",
+    "A 'hinge word' is a word or short phrase of the quoted French verse that the commentary in the same or the following paragraph explicitly takes up and explains as a physical object, material, device, sound, light, movement or procedure. If the commentary explains a quotation only in general terms and takes up no word of it, record the quotation with 'no hinge word'.",
+    "In the '-woh' library books chapter-N.json has paragraphs[] with refId, text (Hebrew) and i18n.en (the project's own translation); a source-he-N.json file beside it, where present, holds the Hebrew verses. Books without '-woh' carry no Hebrew: for those use the Masoretic text on a public site (for example Sefaria) and name the site. For lexical checks use Brown-Driver-Briggs as reproduced on a public site (for example Sefaria or BibleHub), or HALOT if you can reach it. Name the lexicon and entry used for every check. Do not answer from memory.",
+    "For every hinge word give: the French word, the commentary sentence that takes it up (French, with refId), the Hebrew word or words at that place, and the lexicon senses.",
+    "Classify every hinge word with exactly one of: `carried` (the Hebrew word at that place has, as an ordinary lexicon sense, the sense of the French word the commentary uses); `shifted` (a Hebrew counterpart exists but the French word is narrower, more specific or otherwise different in a way the commentary relies on); `absent` (no Hebrew counterpart at that place); `not_checkable`.",
+    "Report the totals per class and the number of quotations with no hinge word. Add separately anything adjacent a careful reader would want to know."
+  ],
+  "criteria": {
+    "hit": "At least five hinge words are classified, none is `absent` and none is `shifted`.",
+    "miss": "At least one hinge word is `absent`, or more than one in five of the classified hinge words is `shifted`.",
+    "partial": "None is `absent` and at least one, but no more than one in five, is `shifted`; or fewer than five hinge words could be classified and none of them is `absent` or `shifted`."
+  },
+  "rivals": [
+    {
+      "alternative_id": "alt-0001-source-critical",
+      "predicts": "different",
+      "note": "If the exegesis was composed from the French page, it is expected to follow the French wherever French and Hebrew part, so some hinge should be `shifted` or `absent`. At its strength: the translation used is a literal scholarly one, so the alternative expects few such places, and a clean result is compatible with a careful author; it predicts a different result only in tendency."
+    },
+    {
+      "alternative_id": "alt-0001-theological",
+      "predicts": "silent",
+      "note": "Reads the same Hebrew words as theophany; makes no prediction about a modern French commentary."
+    },
+    {
+      "alternative_id": "alt-0001-historical-critical",
+      "predicts": "silent",
+      "note": "Likewise makes no prediction about the commentary's relation to the Hebrew."
+    },
+    {
+      "alternative_id": "alt-0001-naturalistic-origin",
+      "predicts": "silent",
+      "note": "Concerns the origin of life."
+    }
+  ],
+  "discrimination": "partial",
+  "novelty": "unrecorded",
+  "prior_knowledge": "I believe from general knowledge that the book reads the Exodus cloud, fire, thunder and trumpet sound at Sinai, and the manna, in technological terms, and that the French version it quotes is a literal one. I know the Hebrew of Exodus 19 in outline (cloud, fire, smoke, shofar, the mountain trembling). I do not know which words the commentary takes up. I expect mostly `carried`; I consider one or more `shifted` a real possibility. I did not open the target passages.",
+  "registered": "2026-11-22",
+  "status": "registered",
+  "finding": null,
+  "assessment": null,
+  "contest": null,
+  "ruling": null,
+  "outputs": []
+}

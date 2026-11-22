@@ -1,0 +1,64 @@
+{
+  "$schema": "../schemas/expectation.schema.json",
+  "schema_version": "0.1.0",
+  "id": "woh-exp-0008",
+  "cycle": "cycle-0001",
+  "claim_id": "woh-claim-0001",
+  "claim_version": "0.2.0",
+  "subclaim": "D",
+  "title": "The two later books attribute all terrestrial life, humans included, to the Elohim",
+  "statement": "Extraterrestrials Took Me to Their Planet and Let's Welcome the Extraterrestrials each attribute the origin of terrestrial living things, humans included, to creation by the Elohim, and neither states in its own voice that any terrestrial organism arose or was transformed into its present kind without their intervention.",
+  "derivation": "The claim states that the Elohim were responsible for designing terrestrial life, including humanity, and holds that the report describes reality. woh-claim-0070 records the creation report at one passage of the first book. If the report has one referent, the later books must not concede an undirected origin for part of terrestrial life or for humans; such a passage would mean the canon itself does not carry the proposition at the breadth the claim states. This tests the breadth of the report across books. It does not test whether the canon's position on evolution is right, which the project has left open (RFC 0009, section 1), and it establishes a source report, never an event.",
+  "kind": "canon",
+  "target": {
+    "description": "Extraterrestrials Took Me to Their Planet (1975) and Let's Welcome the Extraterrestrials (1979), project digitizations, French base text",
+    "locator_scope": "All chapters of both books: every passage on how living species and humans on Earth came to exist",
+    "holding": "/Users/zara/Development/github.com/wheelofheaven/data-library/extraterrestrials-took-me-to-their-planet/chapter-1..3.json and /Users/zara/Development/github.com/wheelofheaven/data-library/lets-welcome-the-extraterrestrials/chapter-1..4.json",
+    "access_expected": "project_digitization"
+  },
+  "question": "What do these two books say about how living species on Earth, and human beings, came to exist: which passages attribute them to creation by the Elohim, and are there passages that attribute the origin or the transformation of any terrestrial organism to a process without their intervention?",
+  "protocol": [
+    "In the three canonical books each chapter-N.json has paragraphs[]; each paragraph has refId (cite it), speaker, text (the French base text: quote this) and i18n.en (a 2026 machine rendering: use it only as a reading aid and never quote it as the source's English).",
+    "In each book search the French text for: création, créé, créer, créateurs, laboratoire, vie, espèce, animaux, plantes, homme, humanité, évolution, évolué, hasard, singe, Darwin, sélection, mutation, apparition, spontané. Read each hit in its paragraph and the paragraphs around it.",
+    "List every passage that says how terrestrial organisms or humans came to exist or changed into their present kinds. Give refId, speaker and the French sentence.",
+    "Classify every listed passage with exactly one of: `designed` (origin attributed to creation by the Elohim), noting whether it covers humans, non-human life, or both; `undirected` (origin or transformation of some terrestrial organism attributed, in the book's own voice, to a process without their intervention); `rejected_view` (an undirected account the book reports in order to reject it); `ambiguous`.",
+    "Report per book the number of passages in each class and quote in full every `undirected` and `ambiguous` passage. Add separately anything adjacent a careful reader would want to know, including what the books say about change within created kinds if they say anything."
+  ],
+  "criteria": {
+    "hit": "Each of the two books has `designed` passages that between them cover both humans and non-human life, and neither book has an `undirected` passage.",
+    "miss": "At least one passage in either book is classified `undirected`.",
+    "partial": "No passage is `undirected`, but one of the books lacks a `designed` passage for humans or lacks one for non-human life."
+  },
+  "rivals": [
+    {
+      "alternative_id": "alt-0001-source-critical",
+      "predicts": "silent",
+      "note": "A composed doctrine may hold its creation account constant or adjust it under criticism between 1974 and 1979; the alternative does not commit to either on this point."
+    },
+    {
+      "alternative_id": "alt-0001-naturalistic-origin",
+      "predicts": "silent",
+      "note": "Concerns how life in fact arose, not what these books say."
+    },
+    {
+      "alternative_id": "alt-0001-theological",
+      "predicts": "silent",
+      "note": "Concerns biblical Elohim."
+    },
+    {
+      "alternative_id": "alt-0001-historical-critical",
+      "predicts": "silent",
+      "note": "Concerns the history of Israelite religion."
+    }
+  ],
+  "discrimination": "none",
+  "novelty": "unrecorded",
+  "prior_knowledge": "From general knowledge I believe the canon rejects evolution by chance and attributes all species to laboratory creation, and that the 1979 book defends this in its answers to questions. woh-claim-0074 cites LWTE-1:148-149 for the author's 'molecular alphabet' remark, which is near this ground. I expect a hit; a miss could come from a concession about change within kinds worded loosely. I did not open the target. No alternative predicts otherwise, so a hit is not progress for the claim.",
+  "registered": "2026-11-22",
+  "status": "registered",
+  "finding": null,
+  "assessment": null,
+  "contest": null,
+  "ruling": null,
+  "outputs": []
+}
