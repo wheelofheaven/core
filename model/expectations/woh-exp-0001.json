@@ -58,7 +58,7 @@
   "novelty": "unrecorded",
   "prior_knowledge": "From general knowledge of the book I know its Elohim gloss and its insistence that the word is plural; both are excluded or already recorded. I believe the book explains some biblical terms in passing but I cannot recall with confidence which Hebrew words besides Elohim it glosses or how. I did not open the target. I consider a miss a real possibility, and also the outcome that fewer than two such statements exist.",
   "registered": "2026-11-22",
-  "status": "contested",
+  "status": "ruled",
   "finding": {
     "date": "2026-11-22",
     "access": "project_digitization",
@@ -83,6 +83,12 @@
     "summary": "The miss stands on a narrower basis than '5 of 10 unsupported'. None of the five rows states what a Hebrew word means. One row carries the miss firmly: TBWTT-3:71 reports Joshua 10:13 as saying the war lasted almost a whole day, where the text says it of the sun; that is a misreport of the French Bible the book quotes, not an error about Hebrew. Two rows depend on reading decisions (Gen 7:17; Matt 5:3, Greek), two are mis-scoped (the 'day' gloss; the sains/saints pun, which works only in French).",
     "report": "docs/research/programme/cycle-0001/woh-exp-0001-contest.md"
   },
-  "ruling": null,
+  "ruling": {
+    "outcome": "open",
+    "date": "2026-11-22",
+    "by": "founder",
+    "note": "Founder ruling 2026-11-22, family speaker-hebrew: open until Dhorme's Joshua 10 is in hand. Beyond the Elohim gloss neither book states what a Hebrew word means; the one firm discrepancy (TBWTT-3:71, Joshua 10:13) must first be compared with the French translation the canon quotes. Acquisition need: Dhorme, Pléiade, Josué 10.",
+    "adr": null
+  },
   "outputs": []
 }

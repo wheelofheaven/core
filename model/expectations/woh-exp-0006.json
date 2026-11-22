@@ -58,7 +58,7 @@
   "novelty": "unrecorded",
   "prior_knowledge": "I believe the second book contains a dictated section with doctrine and some remarks on religions and on the Kabbalah (woh-claim-0021 records two figures from it as attested in the Shi'ur Qomah tradition), and that it names the speaker. I do not recall specific statements about the meaning of Hebrew words in it. The outcome I think most likely is that few or no such statements exist (partial). I did not open the target.",
   "registered": "2026-11-22",
-  "status": "contested",
+  "status": "ruled",
   "finding": {
     "date": "2026-11-22",
     "access": "project_digitization",
@@ -79,6 +79,12 @@
     "summary": "The three supported items are a quotation copied from a French Bible, a bare mention of Genesis 6 and a half-verbatim allusion to Isaiah 43:6; checking them tests the Bible translator, not the speaker. The Locator's real answer is 'no such statement', the registered partial case. Discrimination is none: the record's own rival note says the alternative predicts nothing when the book says little. The hit arose from an inclusion rule the 0001 Locator did not use.",
     "report": "docs/research/programme/cycle-0001/woh-exp-0006-contest.md"
   },
-  "ruling": null,
+  "ruling": {
+    "outcome": "open",
+    "date": "2026-11-22",
+    "by": "founder",
+    "note": "Founder ruling 2026-11-22, family speaker-hebrew: open until Dhorme's Joshua 10 is in hand. Beyond the Elohim gloss neither book states what a Hebrew word means; the one firm discrepancy (TBWTT-3:71, Joshua 10:13) must first be compared with the French translation the canon quotes. Acquisition need: Dhorme, Pléiade, Josué 10.",
+    "adr": null
+  },
   "outputs": []
 }

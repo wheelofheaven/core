@@ -9,6 +9,7 @@
   "title": "The two later books keep the Elohim biological and from another planet",
   "statement": "Extraterrestrials Took Me to Their Planet and Let's Welcome the Extraterrestrials each describe the Elohim as physical, biological beings and as originating on a planet other than Earth, and neither contains a passage that describes them as immaterial or supernatural beings or gives them another origin.",
   "derivation": "woh-claim-0070 records the biological, other-planet report at two passages of the first book only. woh-claim-0001 holds that the report describes a real civilization (decomposition part 4). A real civilization has one nature and one origin, so the books that continue the report (1975, 1979) must agree with the first on both; a passage making the beings immaterial, or native to Earth, would show the report does not carry one consistent referent. The present location, numbers and government of the civilization are excluded by the claim and are not tested. A hit establishes consistency of the report (a source report), never an event.",
+  "scoring": "source_report",
   "kind": "canon",
   "target": {
     "description": "Extraterrestrials Took Me to Their Planet (1975) and Let's Welcome the Extraterrestrials (1979), project digitizations, French base text",
@@ -55,7 +56,7 @@
   "novelty": "unrecorded",
   "prior_knowledge": "From general knowledge I believe both later books keep the beings physical and extraterrestrial; the second narrates a visit to a planet and the third is the author's own commentary and answers to questions. The evidence maps cite a handful of passages from both for other claims (for example LWTE-2:6, ETTMTTP-3:23 under woh-claim-0074) but not for this question. I expect a hit. A miss would most plausibly come from loose language in the 1979 commentary. I did not open the target. No alternative predicts otherwise, so a hit is not progress for the claim.",
   "registered": "2026-11-22",
-  "status": "contested",
+  "status": "ruled",
   "finding": {
     "date": "2026-11-22",
     "access": "project_digitization",
@@ -80,6 +81,14 @@
     "summary": "The hit could hardly have come out otherwise: denying the supernatural is the thesis of both books and one author controls all three, so the source-critical alternative predicts the same. The classes cannot register that the books give the Elohim most divine functions by technical means. Correction to the finding: the mortal/eternal difference is inside the 1975 book (ETTMTTP-2:51 and 2:53). The 1975 book's origin leg rests on residence phrases only.",
     "report": "docs/research/programme/cycle-0001/woh-exp-0007-contest.md"
   },
-  "ruling": null,
-  "outputs": []
+  "ruling": {
+    "outcome": "hit",
+    "date": "2026-11-22",
+    "by": "founder",
+    "note": "Founder ruling 2026-11-22: reclassified as source-report work (no claim's scope covers the consistency of the canonical books) and ruled hit. Both later books present the Elohim as bodily beings from another planet; nothing immaterial or supernatural in their own voice. The 1975 book states origin by residence phrases; the mortal/eternal difference is inside that book (ETTMTTP-2:51, 2:53).",
+    "adr": null
+  },
+  "outputs": [
+    "Material for the source notes of extraterrestrials-took-me-to-their-planet and lets-welcome-the-extraterrestrials"
+  ]
 }
