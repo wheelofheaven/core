@@ -1,6 +1,6 @@
 ---
 title: The compressed chronology of terrestrial life
-status: draft
+status: accepted
 version: 0.1.0
 last_reviewed: 2026-11-22
 claim_id: woh-claim-0080
@@ -8,9 +8,12 @@ claim_id: woh-claim-0080
 
 # The compressed chronology of terrestrial life
 
-Drafted at founder direction on 2026-11-22. **Draft, awaiting founder
-review.** No public page may be written against this record until it is
-accepted.
+Drafted at founder direction on 2026-11-22 and promoted to `accepted` the
+same day by founder ruling
+([ADR 0020](../../decisions/0020-compressed-chronology-promotion.md)).
+Accepted means the project adopts the proposition. It does not mean the
+proposition is established: no scientific source in the evidence map has
+yet been inspected.
 
 The founder's position, in his words: "the old age of the earth is legit,
 but not that of its life on it"; "all life in the last 25,000 years". He
@@ -173,7 +176,7 @@ Recorded in [ADR 0019](../../decisions/0019-claim-0080-review-decisions.md).
    That chapter has not yet been searched for passages bearing on this
    claim.
 
-The record stays `draft` until the founder promotes it.
+The founder promoted the record on 2026-11-22 ("accept and merge").
 
 ## Revision triggers
 

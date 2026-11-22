@@ -4,7 +4,7 @@
   "id": "woh-claim-0080",
   "title": "The compressed chronology of terrestrial life",
   "version": "0.1.0",
-  "lifecycle": "draft",
+  "lifecycle": "accepted",
   "statement": "The dictated Messages report that the Elohim found the Earth already existing and wholly covered by water, landed about twenty-five thousand years ago, raised a single continent, and created every form of life on the planet in succession, from the first single cells to humans. Wheel of Heaven takes that report as describing what happened: the planet is old, and all terrestrial life, including the forms known only from the fossil record, falls within roughly the last twenty-five thousand years. The claim therefore rejects the geologic time scale as a chronology of life, reads the fossil sequence as the order of creation and of burial, and entails that the methods assigning millions of years to fossils are mistaken. Mainstream geology, palaeontology and geochronology reject this, and their case is recorded with the claim.",
   "claim_kind": "hypothesis",
   "framework_relation": "derived",
@@ -76,7 +76,7 @@
     }
   ],
   "revision_triggers": [
-    "The founder promotes or amends this draft.",
+    "The founder amends the proposition.",
     "woh-claim-0071 is revised in the light of ADR 0018.",
     "A research cycle under RFC 0009 rules on expectations derived from this claim.",
     "A source cited for an alternative or for an observation is inspected and reads differently from its description here.",
