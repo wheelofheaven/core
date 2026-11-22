@@ -1,8 +1,8 @@
 ---
 title: Atrahasis III vi in the project text and the Sippar edition
 status: draft
-version: 0.1.0
-last_reviewed: 2026-11-21
+version: 0.1.1
+last_reviewed: 2026-11-22
 ---
 
 # Atrahasis III vi in the project text and the Sippar edition
@@ -81,3 +81,18 @@ print at vi 21–24, although SEAL's edition of the same manuscript, with
 their copy, gives no basis for the project lines. It proposes no
 correction to the library text; repairing column vi requires the
 library's translation pipeline and the founder's sign-off.
+
+## Library status
+
+On 2026-11-22 the founder chose to withdraw the four lines rather than
+keep them under a warning (data-library `dfaa634`, pinned by www
+`d9513d16b5a` and api `68cc125`). `ATRA-WOH-III:vi.21–24` no longer exist
+in the library text. Segment `withdrawn-lines-vi-21-24` of
+`atrahasis-woh/chapter-3.json` and `source-akk-3.json` keeps their place
+with no lines and a note naming what the Sippar manuscript preserves
+there (SEAL C1 vi 20–24). Those lines are not rendered: SEAL's edition is
+published under "a Creative Commons (CC) BY-NC-ND license" (no version
+stated; "No commercial use is allowed") and cannot enter the CC0 library without the
+editors' permission, and no openly licensed edition of Tablet III has
+been found. The reviewer verdicts for the withdrawn line ids stay in
+`chapter-3.json` as audit record.
