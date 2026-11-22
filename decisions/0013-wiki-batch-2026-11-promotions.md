@@ -70,7 +70,9 @@ The founder directed, on 2026-11-08:
    it as such. The name Maitreya is **not** adopted: the canon's "new
    Buddha … born in the West" (ETTMTTP-3:228) is carried in its own
    words, read in context as pointing at Raël (`woh-claim-0078`).
-4. **The commentary-voice rule.** Raël's own commentary voice in *Let's
+4. **The commentary-voice rule.** *(Superseded 2026-11-22 by
+   [ADR 0018](0018-canon-boundary-dictated-messages.md): Raël's commentary
+   is his own view, not canon.)* Raël's own commentary voice in *Let's
    Welcome the Extraterrestrials* (the reader questions he answers and
    his signed essays) is canon, and every use labels it as his commentary,
    distinct from the dictated Messages. Joseph Smith is therefore "named

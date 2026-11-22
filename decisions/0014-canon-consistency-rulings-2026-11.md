@@ -42,6 +42,8 @@ The founder directed, on 2026-11-10:
    corpus reports them as such. *The Signature and the
    Designers* and *Age of Scorpio* are aligned to this.
 2. **Raël's commentary on dating and drift (`woh-claim-0071` → 0.3.1).**
+   *(Its standing as "the canon's commentary layer" is superseded by
+   [ADR 0018](0018-canon-boundary-dictated-messages.md).)*
    LWTE-1:28–31 (non-constant atomic behaviour; continents moving apart
    by several hundred kilometres a year at the beginning) is registered
    as the canon's commentary layer, labelled as Raël's commentary. It is
