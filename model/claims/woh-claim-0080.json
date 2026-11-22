@@ -1,0 +1,88 @@
+{
+  "$schema": "../schemas/claim.schema.json",
+  "schema_version": "0.2.0",
+  "id": "woh-claim-0080",
+  "title": "The compressed chronology of terrestrial life",
+  "version": "0.1.0",
+  "lifecycle": "draft",
+  "statement": "The dictated Messages report that the Elohim found the Earth already existing and wholly covered by water, landed about twenty-five thousand years ago, raised a single continent, and created every form of life on the planet in succession, from the first single cells to humans. Wheel of Heaven takes that report as describing what happened: the planet is old, and all terrestrial life, including the forms known only from the fossil record, falls within roughly the last twenty-five thousand years. The claim therefore rejects the geologic time scale as a chronology of life, reads the fossil sequence as the order of creation and of burial, and entails that the methods assigning millions of years to fossils are mistaken. Mainstream geology, palaeontology and geochronology reject this, and their case is recorded with the claim.",
+  "claim_kind": "hypothesis",
+  "framework_relation": "derived",
+  "evidence_status": [
+    "scoped",
+    "contested"
+  ],
+  "public_label": "framework",
+  "scope": {
+    "includes": [
+      "The report layer in the dictated Messages: the Earth found, not made (TBWTT-2:5); wholly covered by water and mist on arrival (TBWTT-2:7); the single continent raised from the seabed (TBWTT-2:14); plants, aquatic animals, birds, land animals and humans created in that order (TBWTT-2:16, 2:20, 2:22, 2:24, 2:25); the first organism single-celled, later forms successive creations, prehistoric skulls as earlier prototypes (TBWTT-5:62, 5:64); the landing twenty-five thousand years ago (ETTMTTP-2:43)",
+      "The hypothesis that this report is historical, so that the whole record of terrestrial life is at most about twenty-five thousand years old while the planet itself is far older",
+      "What the hypothesis entails and must answer: that radiometric and other dating of fossil-bearing rock is wrong for the history of life; that the fossil sequence records order of creation and of burial, not hundreds of millions of years",
+      "Questions to be investigated under this claim, none of them asserted by it: the preservation of soft tissue and proteins in dinosaur bone; rapidly buried assemblages; whether fossils and coal carry measurable radiocarbon; what the annual layers in ice and lake sediment are; the origin of petroleum and coal, including the founder's question whether they are largely of non-biological origin (the dictated Messages say nothing about the origin of oil); the Flood as a cataclysm in phases with local events that need not involve water"
+    ],
+    "excludes": [
+      "The age of the Earth, the solar system or the universe: the canon reports the planet as already existing, and this claim keeps its deep age",
+      "Young-earth creationism: a planet about six thousand years old, a year of rain, a deity",
+      "The mechanism and duration of each stage of creation, and the precessional reading of the creation 'days' (woh-claim-0003)",
+      "The breakup of the continent and the burial at the Flood, recorded by woh-claim-0071",
+      "Raël's commentary in Let's Welcome the Extraterrestrials (earlier creations, LWTE-1:15; dating methods, LWTE-1:28; early drift, LWTE-1:31) and Terrusse's essay as canonical basis: per ADR 0018 they are their authors' views. They are recorded here as readings, not as canon",
+      "Any statement that the hypothesis has been confirmed, or that a named observation proves it"
+    ]
+  },
+  "source_references": [
+    {
+      "source_id": "the-book-which-tells-the-truth",
+      "locator": "TBWTT-2:5; TBWTT-2:7; TBWTT-2:14; TBWTT-2:16; TBWTT-2:20; TBWTT-2:22; TBWTT-2:24; TBWTT-2:25; TBWTT-5:62; TBWTT-5:64",
+      "role": "canonical_basis",
+      "access": "project_digitization",
+      "note": "../../source-notes/the-book-which-tells-the-truth.md"
+    },
+    {
+      "source_id": "extraterrestrials-took-me-to-their-planet",
+      "locator": "ETTMTTP-2:43",
+      "role": "canonical_basis",
+      "access": "project_digitization",
+      "note": "../../source-notes/extraterrestrials-took-me-to-their-planet.md"
+    }
+  ],
+  "dependencies": [
+    "woh-claim-0001",
+    "woh-claim-0070"
+  ],
+  "alternatives": [
+    {
+      "id": "alt-0080-geochronology",
+      "statement": "Life on Earth is at least 3.5 billion years old. Independent radioactive decay systems with different half-lives and chemistries give concordant ages for the same rocks; decay rates have been tested for constancy under extreme conditions and over cosmic time; and the same ages order the fossil record worldwide."
+    },
+    {
+      "id": "alt-0080-annual-layers",
+      "statement": "Records counted layer by layer, with no decay rate involved, run past twenty-five thousand years without a break: Greenland ice to about sixty thousand years, the Lake Suigetsu sediments to about fifty thousand, each carrying pollen, leaves or dust of a living world throughout, and each agreeing with radiocarbon measured on the same material."
+    },
+    {
+      "id": "alt-0080-stratigraphy",
+      "statement": "The rock record itself shows long time: reefs grown in place, fossil soils, burrows and footprints on successive surfaces, evaporite beds, and a fossil order that is the same on every continent and is explained by descent with modification."
+    },
+    {
+      "id": "alt-0080-earlier-creations",
+      "statement": "Raël's own reply to this objection (LWTE-1:13-15): remains older than twenty-five thousand years may belong to earlier creations on Earth that were destroyed. On this reading the Elohim created only the life now living, and older fossils need no compression. Non-canonical per ADR 0018."
+    },
+    {
+      "id": "alt-0080-young-earth",
+      "statement": "Young-earth creationism places all life, and the planet, within about six thousand years by divine creation and a year-long flood. It shares the short chronology of life and differs on the age of the planet, the agent and the event."
+    },
+    {
+      "id": "alt-0080-source-critical",
+      "statement": "The contact report is not a historical account, so its chronology carries no weight against the physical record (see alt-0001-source-critical)."
+    }
+  ],
+  "revision_triggers": [
+    "The founder reviews this draft: wording of the proposition, whether it joins the foundational claims, and how the dating entailment is stated.",
+    "The founder rules on the standing of chapter 2 of Let's Welcome the Extraterrestrials (left open by ADR 0018).",
+    "woh-claim-0001 or woh-claim-0071 is revised in the light of ADR 0018; in particular the scope note on earlier creations added to 0001 at 0.2.1 conflicts with this proposition as drafted.",
+    "A research cycle under RFC 0009 rules on expectations derived from this claim.",
+    "A source cited for an alternative or for an observation is inspected and reads differently from its description here."
+  ],
+  "controlling_document": "../../docs/framework/compressed-chronology-of-terrestrial-life.md",
+  "public_derivatives": [],
+  "last_reviewed": "2026-11-22"
+}

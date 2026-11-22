@@ -13,6 +13,7 @@ Heaven positions:
 - [Elohim-civilization hypothesis](elohim-civilization-hypothesis.md)
 - [Anunnaki–Elohim identity](anunnaki-elohim-identity.md)
 - [Precessional world-age chronology](precessional-world-age-chronology.md)
+- [The compressed chronology of terrestrial life](compressed-chronology-of-terrestrial-life.md) — draft, awaiting founder review
 
 The specifications are deliberately narrow. They do not yet constitute a
 complete decomposition of the Wheel framework.

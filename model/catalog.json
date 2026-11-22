@@ -793,6 +793,16 @@
       "framework_relation": "comparative",
       "record": "claims/woh-claim-0079.json",
       "specification": "../docs/framework/lds-cosmology-resemblance.md"
+    },
+    {
+      "id": "woh-claim-0080",
+      "title": "The compressed chronology of terrestrial life",
+      "version": "0.1.0",
+      "lifecycle": "draft",
+      "claim_kind": "hypothesis",
+      "framework_relation": "derived",
+      "record": "claims/woh-claim-0080.json",
+      "specification": "../docs/framework/compressed-chronology-of-terrestrial-life.md"
     }
   ]
 }
